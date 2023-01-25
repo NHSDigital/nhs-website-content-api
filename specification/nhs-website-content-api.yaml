@@ -32,17 +32,31 @@ info:
       TODO link to API docs
 
     ## API status and roadmap
-    This API has been moved from the nhs.uk developer API website. It is currently in Alpha phase
+    This API has been moved from the nhs.uk developer API website. It is currently in Alpha phase.
 
     ## Service level
 
     ## Technology
+    The content API is driven by the main nhs.uk Wagtail cms application. An endpoint exists for all pages underneath the homepage.
+
+    ## Endpoints
+    The main sections of the site are:
+    - /conditions
+    - /medicines
+    - /live-well
+    - /mental-health
+    - /care-and-support
+    - /pregnancy
+    - /nhs-services
+
+    All pages under these urls also have endpoints
 
     ## Network access
     No special network access is required for this API.
 
     ## Security and authorisation
     You will need to provide a subscription key in the header or as a query parameter in your requests.
+
     Your subscription key can be found by logging into the API portal (provide link)
 
     ## Environments and testing
@@ -50,7 +64,6 @@ info:
     ## Onboarding
 
     ## Attribution
-
     Any syndicated content must incorporate the following attribution (credit) to the NHS website:
 
     ![NHS logo with attribution](../static/images/nhs_attribution.png)

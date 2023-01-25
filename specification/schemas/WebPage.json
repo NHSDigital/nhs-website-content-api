@@ -1,0 +1,260 @@
+{
+    "type": "object",
+    "properties": {
+        "@@context": {
+            "type": "string"
+        },
+        "@@type": {
+            "type": "string"
+        },
+        "name": {
+            "type": "string"
+        },
+        "copyrightHolder": {
+            "type": "object",
+            "properties": {
+                "name": {
+                    "type": "string"
+                },
+                "@@type": {
+                    "type": "string"
+                }
+            }
+        },
+        "license": {
+            "type": "string"
+        },
+        "author": {
+            "type": "object",
+            "properties": {
+                "url": {
+                    "type": "string"
+                },
+                "logo": {
+                    "type": "string"
+                },
+                "email": {
+                    "type": "string"
+                },
+                "@@type": {
+                    "type": "string"
+                },
+                "name": {
+                    "type": "string"
+                }
+            }
+        },
+        "about": {
+            "type": "object",
+            "properties": {
+                "@@type": {
+                    "type": "string"
+                },
+                "name": {
+                    "type": "string"
+                }
+            }
+        },
+        "description": {
+            "type": "string"
+        },
+        "url": {
+            "type": "string"
+        },
+        "breadcrumb": {
+            "type": "object",
+            "properties": {
+                "@@context": {
+                    "type": "string"
+                },
+                "@@type": {
+                    "type": "string"
+                },
+                "itemListElement": {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "properties": {
+                            "@@type": {
+                                "type": "string"
+                            },
+                            "position": {
+                                "type": "integer"
+                            },
+                            "item": {
+                                "type": "object",
+                                "properties": {
+                                    "@@id": {
+                                        "type": "string"
+                                    },
+                                    "name": {
+                                        "type": "string"
+                                    },
+                                    "genre": {
+                                        "type": "string"
+                                    }
+                                }
+                            }
+                        },
+                        "required": [
+                            "@@type",
+                            "position",
+                            "item"
+                        ]
+                    }
+                }
+            }
+        },
+        "interactionStatistic": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "interactionService": {
+                        "type": "object",
+                        "properties": {
+                            "url": {
+                                "type": "string"
+                            },
+                            "@@type": {
+                                "type": "string"
+                            },
+                            "name": {
+                                "type": "string"
+                            }
+                        }
+                    },
+                    "@@type": {
+                        "type": "string"
+                    }
+                },
+                "required": [
+                    "interactionService",
+                    "@@type"
+                ]
+            }
+        },
+        "genre": {
+            "type": "string"
+        },
+        "significantLink": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "description": {
+                        "type": "string"
+                    },
+                    "linkRelationship": {
+                        "type": "string"
+                    },
+                    "@@type": {
+                        "type": "string"
+                    },
+                    "articleStatus": {
+                        "type": "string"
+                    },
+                    "mainEntityOfPage": {
+                        "type": "object",
+                        "properties": {
+                            "@@type": {
+                                "type": "string"
+                            },
+                            "genre": {
+                                "type": "string"
+                            },
+                            "datePublished": {
+                                "type": "string"
+                            },
+                            "dateModified": {
+                                "type": "string"
+                            },
+                            "lastReviewed": {
+                                "type": "array",
+                                "items": {
+                                    "type": "string"
+                                }
+                            },
+                            "reviewDue": {
+                                "type": "string"
+                            },
+                            "keywords": {
+                                "type": "array",
+                                "items": {
+                                    "type": "string"
+                                }
+                            },
+                            "code": {
+                                "type": "array",
+                                "items": {
+                                    "type": "object",
+                                    "properties": {
+                                        "@@type": {
+                                            "type": "string"
+                                        },
+                                        "codeValue": {
+                                            "type": "string"
+                                        },
+                                        "codingSystem": {
+                                            "type": "string"
+                                        }
+                                    },
+                                    "required": [
+                                        "@@type",
+                                        "codeValue",
+                                        "codingSystem"
+                                    ]
+                                }
+                            }
+                        }
+                    },
+                    "url": {
+                        "type": "string"
+                    },
+                    "name": {
+                        "type": "string"
+                    }
+                },
+                "required": [
+                    "description",
+                    "linkRelationship",
+                    "@@type",
+                    "articleStatus",
+                    "mainEntityOfPage",
+                    "url",
+                    "name"
+                ]
+            }
+        },
+        "relatedLink": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "@@type": {
+                        "type": "string"
+                    },
+                    "url": {
+                        "type": "string"
+                    },
+                    "name": {
+                        "type": "string"
+                    },
+                    "description": {
+                        "type": "string"
+                    },
+                    "linkRelationship": {
+                        "type": "string"
+                    }
+                },
+                "required": [
+                    "@@type",
+                    "url",
+                    "name",
+                    "description",
+                    "linkRelationship"
+                ]
+            }
+        }
+    }
+}
