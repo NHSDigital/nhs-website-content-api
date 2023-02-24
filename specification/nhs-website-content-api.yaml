@@ -1,41 +1,84 @@
 # This is an OpenAPI Specification (https://swagger.io/specification/)
 # for nhs-website-content-api owned by NHS Digital (https://digital.nhs.uk/)
-openapi: '3.0.0'
+openapi: "3.0.0"
 info:
-  title: 'nhs-website-content-api'
-  version: 'Computed and injected at build time by `scripts/set_version.py`'
+  title: "nhs-website-content-api"
+  version: "Computed and injected at build time by `scripts/set_version.py`"
   description: |
     ## Overview
-    Add a fully fledged description here with markdown syntax.
-    For help completing the content of your API spec, see our guidance on the minimum standard (bronze) details 
-    to include [here](https://nhsd-confluence.digital.nhs.uk/display/APM/Writing+a+bronze+API+cover+page). You should also base your content on our exemplar API - [PDS FHIR](https://digital.nhs.uk/developer/api-catalogue/personal-demographics-service-fhir).
+    An API representation of content on the [NHS website](https://www.nhs.uk)
+    You can reuse the following content from the NHS website:
+      - health conditions
+      - medicines
+      - pregnancy
+      - mental health
+      - videos
+      - common health questions
+      - information about NHS services
+
+    You cannot currently use this API to:
+      - access data from NHS Services
+      - access Ratings and Reviews of NHS organisations submitted to the NHS website
+
+    TODO to include [here](https://nhsd-confluence.digital.nhs.uk/display/APM/Writing+a+bronze+API+cover+page). You should also base your content on our exemplar API - [PDS FHIR](https://digital.nhs.uk/developer/api-catalogue/personal-demographics-service-fhir).
+
     ## Who can use this API
-    To be completed.
+    Anyone can use this API. Users need to agree to our terms and conditions. TODO link to terms and conditions
+
     ## Related APIs
-    To be completed.
+    The following APIs also give access to data from the NHS website:
+      - Service Search API
+      - Ratings and Reviews API
+      TODO link to API docs
+
     ## API status and roadmap
-    To be completed.
+    This API has been moved from the nhs.uk developer API website. It is currently in Alpha phase.
+
     ## Service level
-    To be completed.
+
     ## Technology
-    To be completed.
+    The content API is driven by the main nhs.uk Wagtail cms application. An endpoint exists for all pages underneath the homepage.
+
+    ## Endpoints
+    The main sections of the site are:
+    - /conditions
+    - /medicines
+    - /live-well
+    - /mental-health
+    - /common-health-questions
+    - /pregnancy
+    - /nhs-services
+
+    All pages under these urls also have endpoints
+
     ## Network access
-    To be completed.
+    No special network access is required for this API.
+
     ## Security and authorisation
-    To be completed.
+    You will need to provide a subscription key in the header or as a query parameter in your requests.
+
+    Your subscription key can be found by logging into the API portal (provide link)
+
     ## Environments and testing
-    To be completed.
+    We have a sandbox here (provide link) where you can see typical responses. We also have a test environment here (provide link)
     ## Onboarding
-    To be completed.
+
+    ## Attribution
+    Any syndicated content must incorporate the following attribution (credit) to the NHS website:
+
+    ![NHS logo with attribution](../static/images/nhs_attribution.png)
+
+    The logo should be clearly visible and in line with the associated content on every web page that contains the syndicated content. You should also link this logo to the relevant page on the NHS website that the content has been supplied from. This URL is supplied as part of the feed under author:
+
   contact:
-    name: 'nhs-website-content-api API Support'
-    url: 'https://digital.nhs.uk/developer/help-and-support'
+    name: "nhs-website-content-api API Support"
+    url: "https://digital.nhs.uk/developer/help-and-support"
     email: api.management@nhs.net
 servers:
-  - url: 'https://sandbox.api.service.nhs.uk/nhs-website-content-api'
+  - url: "https://sandbox.api.service.nhs.uk/nhs-website-content-api"
     description: Sandbox environment.
-  - url: 'https://int.api.service.nhs.uk/nhs-website-content-api'
+  - url: "https://int.api.service.nhs.uk/nhs-website-content-api"
     description: Integration test environment.
-  - url: 'https://api.service.nhs.uk/nhs-website-content-api'
+  - url: "https://api.service.nhs.uk/nhs-website-content-api"
     description: Production environment.
 paths: {}
