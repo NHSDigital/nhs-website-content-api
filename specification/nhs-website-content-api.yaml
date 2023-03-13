@@ -22,13 +22,12 @@ info:
       * access Ratings and Reviews of NHS organisations submitted to the NHS website
 
     ## Who can use this API
-    Anyone can use this API. Users need to agree to our terms and conditions. TODO link to terms and conditions
+    Anyone can use this API. Users need to agree to our [terms and conditions](https://developer.api.nhs.uk/about/terms)
 
     ## Related APIs
     The following APIs also give access to data from the NHS website:
       - Service Search API
       - Ratings and Reviews API
-      TODO link to API docs
 
     ## API status and roadmap
     This API has been moved from the nhs.uk developer API website. It is currently in Alpha phase. If you are an existing user, you need to sign up for the API in the new portal.
