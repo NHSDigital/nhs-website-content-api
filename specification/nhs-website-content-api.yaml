@@ -6,37 +6,43 @@ info:
   version: "Computed and injected at build time by `scripts/set_version.py`"
   description: |
     ## Overview
-    An API representation of content on the [NHS website](https://www.nhs.uk)
+    Use this API to get page content from the [NHS website](https://www.nhs.uk)
+
     You can reuse the following content from the NHS website:
-      - health conditions
-      - medicines
-      - pregnancy
-      - mental health
-      - videos
-      - common health questions
-      - information about NHS services
+      * health conditions
+      * medicines
+      * pregnancy
+      * mental health
+      * live well
+      * common health questions
+      * information about NHS services
 
     You cannot currently use this API to:
-      - access data from NHS Services
-      - access Ratings and Reviews of NHS organisations submitted to the NHS website
-
-    TODO to include [here](https://nhsd-confluence.digital.nhs.uk/display/APM/Writing+a+bronze+API+cover+page). You should also base your content on our exemplar API - [PDS FHIR](https://digital.nhs.uk/developer/api-catalogue/personal-demographics-service-fhir).
+      * access data from NHS Services
+      * access Ratings and Reviews of NHS organisations submitted to the NHS website
 
     ## Who can use this API
-    Anyone can use this API. Users need to agree to our terms and conditions. TODO link to terms and conditions
+    Anyone can use this API. Users need to agree to our [terms and conditions](https://developer.api.nhs.uk/about/terms)
 
     ## Related APIs
     The following APIs also give access to data from the NHS website:
       - Service Search API
       - Ratings and Reviews API
-      TODO link to API docs
 
     ## API status and roadmap
-    This API has been moved from the nhs.uk developer API website. It is currently in Alpha phase.
+    This API has been moved from the nhs.uk developer API website. It is currently in Alpha phase. If you are an existing user, you need to sign up for the API in the new API Platform.
 
     ## Service level
 
+    This API is a gold service, meaning that it is operational and supported 24 x 7 x 365
+
+    For more details, see [service levels](https://digital.nhs.uk/developer/guides-and-documentation/reference-guide#service-levels).
+
     ## Technology
+    This API is [RESTful](https://digital.nhs.uk/developer/guides-and-documentation/our-api-technologies#basic-rest).
+
+    page objects conform to global [schema.org](https://schema.org/) standards.
+
     The content API is driven by the main nhs.uk Wagtail cms application. An endpoint exists for all pages underneath the homepage.
 
     ## Endpoints
@@ -52,16 +58,41 @@ info:
     All pages under these urls also have endpoints
 
     ## Network access
-    No special network access is required for this API.
+    No special network access is required for this API. It is available over the internet.
 
     ## Security and authorisation
-    You will need to provide a subscription key in the header or as a query parameter in your requests.
+    This API is [application-restricted](https://digital.nhs.uk/developer/guides-and-documentation/security-and-authorisation#application-restricted-apis), meaning we authenticate the calling application but not the end user.
 
-    Your subscription key can be found by logging into the API portal (provide link)
+    The end user will need to provide a API key in the header or as a query parameter in requests.
 
     ## Environments and testing
-    We have a sandbox here (provide link) where you can see typical responses. We also have a test environment here (provide link)
+    | Environment       | Base URL                                                               |
+    | ----------------- | ---------------------------------------------------------------------- |
+    | Integration test  | `https://int.api.service.nhs.uk/nhs-website-content/`                  |
+    | Production        | `https:/api.service.nhs.uk/nhs-website-content/`                       |
+
+    Integration testing
+    Our integration test environment:
+
+    * is for formal integration testing.
+    * includes application authentication
+    * contains a replica of our live data, but has a reduced call rate
+
     ## Onboarding
+    You need to sign up via the API platform to recieve your key.
+    (TODO add more details here)
+
+    ## Caching
+    Caching all content supplied through our API is recommended where possible. Unless otherwise notified by the syndication team, you should refresh cached content at least once every 7 days. If instructed to refresh cached our content, you must do so immediately.
+
+    ## Usage Caps
+    When using a trial API key, you will only be able to run 10 calls/minute up to a maximum of 1,000 calls per month. A full API subscription caps usage at 4,000 calls per hour. You are not to call the APIs over 4,000 times in any one-hour period, unless you have notified the syndication team in advance and they have confirmed in writing that you can do so.
+
+    ## Standard licence terms
+    By using the NHS website syndicated content, you agree to be bound by the standard licence terms.
+
+    ## Your contact details
+    You must provide accurate contact details that must be kept up to date while you are using our content. Failure to keep contact details updated is a breach of our licence terms and may result in your API subscription being disabled. You can check your details on your profile.
 
     ## Attribution
     Any syndicated content must incorporate the following attribution (credit) to the NHS website:
@@ -70,15 +101,296 @@ info:
 
     The logo should be clearly visible and in line with the associated content on every web page that contains the syndicated content. You should also link this logo to the relevant page on the NHS website that the content has been supplied from. This URL is supplied as part of the feed under author:
 
+    ## Errors
+
+    We have standard error codes for 200 to 299 if it succeeded, including code 202 if it was accepted by an API that needs to wait for further action
+
+    Currently, our Akamai cache provides other error codes in the form of a webpage.
+    In future we plan to serve error codes via the API.
+
+    Errors specific to each API are shown in the Endpoints section, under Response. See our [reference guide](https://digital.nhs.uk/developer/guides-and-documentation/reference-guide#http-status-codes) for more on errors.
+
   contact:
     name: "nhs-website-content-api API Support"
     url: "https://digital.nhs.uk/developer/help-and-support"
     email: api.management@nhs.net
 servers:
-  - url: "https://sandbox.api.service.nhs.uk/nhs-website-content-api"
-    description: Sandbox environment.
-  - url: "https://int.api.service.nhs.uk/nhs-website-content-api"
+  - url: "https://int.api.service.nhs.uk/nhs-website-content"
     description: Integration test environment.
-  - url: "https://api.service.nhs.uk/nhs-website-content-api"
+  - url: "https://api.service.nhs.uk/nhs-website-content"
     description: Production environment.
-paths: {}
+paths:
+  /conditions:
+    parameters:
+      - $ref: "#/components/parameters/subscription-key"
+    get:
+      summary: Get all pages in the [Health A to Z](https://www.nhs.uk/conditions)
+      operationId: get-conditions
+      description: |
+        ## Overview
+        Use this endpoint to get details of pages in the Health A to Z.
+
+        Passing in no parameters will return all pages under 'conditions'.
+
+        The response is limited to 25 child pages and is paginated.
+
+        You can filter using various combinations of options.
+
+        | Query parameter   | Description                                                            | Type        |
+        | ----------------- | ---------------------------------------------------------------------- | ----------- |
+        | order             | Order by 'newest' or 'oldest'                                          | string      |
+        | page              | Page number, used to filter paginated results                          | int         |
+        | category          | Filters child pages by letters A-Z.                                    | string      |
+        | synonyms          | Include multiple listings for pages with more than one name            | boolean     |
+        | genre             | Filters by condition, guide or hub.                                    | string      |
+        | childArticles     | Include child pages of a topic within results under property subjectOf | boolean     |
+        | status            | "published" or "unpublished"                                           | string      |
+
+      parameters:
+        - $ref: "#/components/parameters/order"
+        - $ref: "#/components/parameters/page"
+        - $ref: "#/components/parameters/category"
+        - $ref: "#/components/parameters/synonyms"
+        - $ref: "#/components/parameters/genre"
+        - $ref: "#/components/parameters/childArticles"
+        - $ref: "#/components/parameters/status"
+      responses:
+        "200":
+          description: |
+            A valid query for the conditions.
+          headers:
+            X-Correlation-Id:
+              $ref: "#/components/headers/X-Correlation-Id"
+            X-Request-Id:
+              $ref: "#/components/headers/X-Request-Id"
+          content:
+            application/schema+json:
+              schema:
+                $ref: "#/components/schemas/Conditions"
+              example:
+                $ref: components/examples/Conditions.json
+  /conditions/*:
+    parameters:
+      - $ref: "#/components/parameters/subscription-key"
+    get:
+      summary: Get details of condition page
+      operationId: get-condition-page
+      description: |
+        There is an endpoint for each page under the Health A to Z e.g. conditions/chickenpox
+
+        This can be used to get specific information about individual topics.
+
+        There is only one query parameter for these pages:
+
+        | Query parameter   | Description                                                            | Type        |
+        | ----------------- | ---------------------------------------------------------------------- | ----------- |
+        | modules           | If topic is modularised, only return these modules                     | boolean     |
+
+        # Modularisation
+        Some of our content has been modularised, meaning that individual parts of the page can be reused. If a page has been modularised, content will appear in the 'hasPart' field.
+      parameters:
+        - $ref: "#/components/parameters/modules"
+    responses:
+      "200":
+        description: |
+          A valid query which returns a page object for the chosen page
+        headers:
+          X-Correlation-Id:
+            $ref: "#/components/headers/X-Correlation-Id"
+          X-Request-Id:
+            $ref: "#/components/headers/X-Request-Id"
+        content:
+          application/schema+json:
+            schema:
+              $ref: "#/components/schemas/ConditionPage"
+            example:
+              $ref: components/examples/ConditionPage.json
+  /medicines:
+    parameters:
+      - $ref: "#/components/parameters/subscription-key"
+    get:
+      summary: Get all pages in the [Medicines A to Z](https://www.nhs.uk/medicines)
+      operationId: get-medicines
+      description: |
+        ## Overview
+        Use this endpoint to get details of pages in the Medicines A to Z.
+
+        Passing in no parameters will return all pages under 'medicines'.
+
+        The response is limited to 25 child pages and is paginated.
+
+        You can filter using various combinations of options.
+
+        | Query parameter   | Description                                                              | Type        |
+        | ----------------- | ----------------------------------------------------------------------   | ----------- |
+        | startDate         | Gets medicines which are equal or greater than the startDate (see below) | string      |
+        | endDate           | Gets medicines which are equal or greater than the endDate (see below)   | string      |
+        | order             | Order by 'newest' or 'oldest'                                            | string      |
+        | page              | Page number, used to filter paginated results                            | int         |
+        | category          | Filters child pages by letters A-Z.                                      | string      |
+        | orderBy           | works alongside startDate and endDate (details below)                    | string      |
+
+        ## Ordering by dates
+        The orderBy parameter can be 'dateModified', 'lastReviewed' and 'nextReview'. By default if any are chosen the results will be newest first.
+
+        However, the orderBy parameter can be used in conjunction with the startDate and endDate parameters to filter down to the desired date. startDate and endDate should be given in the YYYY-MM-DD format.
+
+      parameters:
+        - $ref: "#/components/parameters/startDate"
+        - $ref: "#/components/parameters/endDate"
+        - $ref: "#/components/parameters/order"
+        - $ref: "#/components/parameters/page"
+        - $ref: "#/components/parameters/category"
+        - $ref: "#/components/parameters/orderBy"
+      responses:
+        "200":
+          description: |
+            A valid query for medicines.
+          headers:
+            X-Correlation-Id:
+              $ref: "#/components/headers/X-Correlation-Id"
+            X-Request-Id:
+              $ref: "#/components/headers/X-Request-Id"
+          content:
+            application/schema+json:
+              schema:
+                $ref: "#/components/schemas/Medicines"
+              example:
+                $ref: components/examples/Medicines.json
+  /medicines/*:
+    parameters:
+      - $ref: "#/components/parameters/subscription-key"
+    get:
+      summary: Get specific medicines pages
+      operationId: get-medicine-page
+      description: |
+        There is an endpoint for each page under the Medicines A to Z e.g. /medicines/amoxicillin
+
+        This can be used to get specific information about individual medicines.
+      responses:
+        "200":
+          description: |
+            A valid query for medicines.
+          headers:
+            X-Correlation-Id:
+              $ref: "#/components/headers/X-Correlation-Id"
+            X-Request-Id:
+              $ref: "#/components/headers/X-Request-Id"
+          content:
+            application/schema+json:
+              schema:
+                $ref: "#/components/schemas/Medicines"
+              example:
+                $ref: components/examples/Medicines.json
+  /mental-health:
+    parameters:
+      - $ref: "#/components/parameters/subscription-key"
+    get:
+      summary: Get content from the mental health hub
+      operationId: get-mental-health
+      description: |
+        The mental health hub contains a number of navigational and content pages.
+
+        The content of the page can be taken from mainEntityOfPage. This includes the navigational patterns to child pages
+
+        At the top level, child modularised content is highlighted by the hasPart field. In child pages, only the individual page will be highlighted
+
+      responses:
+        "200":
+          description: |
+            A valid query for the mental health hub.
+          headers:
+            X-Correlation-Id:
+              $ref: "#/components/headers/X-Correlation-Id"
+            X-Request-Id:
+              $ref: "#/components/headers/X-Request-Id"
+          content:
+            application/schema+json:
+              schema:
+                $ref: "#/components/schemas/MentalHealth"
+              example:
+                $ref: components/examples/MedicinePage.json
+  /pregnancy:
+    parameters:
+      - $ref: "#/components/parameters/subscription-key"
+    get:
+      summary: Get content from the pregnancy hub
+      operationId: get-pregnancy
+      description: |
+        The pregnancy hub contains a number of navigational and content pages.
+
+        The content of the page can be taken from mainEntityOfPage. This includes the navigational patterns to child pages
+
+        At the top level, child modularised content is highlighted by the hasPart field. In child pages, only the individual page will be highlighted
+
+      responses:
+        "200":
+          description: |
+            A valid query for the pregnancy hub.
+          headers:
+            X-Correlation-Id:
+              $ref: "#/components/headers/X-Correlation-Id"
+            X-Request-Id:
+              $ref: "#/components/headers/X-Request-Id"
+          content:
+            application/schema+json:
+              schema:
+                $ref: "#/components/schemas/Pregnancy"
+              example:
+                $ref: components/examples/PregnancyPage.json
+  /common-health-questions:
+    parameters:
+      - $ref: "#/components/parameters/subscription-key"
+    get:
+      summary: Get content from the common health questions hub.
+      operationId: get-common-health-questions
+      description: |
+        The common health questions hub contains a number of navigational and content pages.
+
+        The main page contains significant links to topic pages, which then contain significant links to the content pages
+
+        Content pages use the 'question' schema.org [question](https://schema.org/Question) property.
+
+      responses:
+        "200":
+          description: |
+            A valid query for the common health questions pages.
+          headers:
+            X-Correlation-Id:
+              $ref: "#/components/headers/X-Correlation-Id"
+            X-Request-Id:
+              $ref: "#/components/headers/X-Request-Id"
+          content:
+            application/schema+json:
+              schema:
+                $ref: "#/components/schemas/CommonHealthQuestions"
+              example:
+                $ref: components/examples/CommonHealthQuestions.json
+  /live-well:
+    parameters:
+      - $ref: "#/components/parameters/subscription-key"
+    get:
+      summary: Get content from the Live Well hub.
+      operationId: get-common-health-questions
+      description: |
+        The Live Well hub contains a number of navigational and content pages.
+
+        The content of the page can be taken from mainEntityOfPage. This includes the navigational patterns to child pages
+
+        At the top level, child modularised content is highlighted by the hasPart field. In child pages, only the individual page will be highlighted
+
+      responses:
+        "200":
+          description: |
+            A valid query for the Live Well pages.
+          headers:
+            X-Correlation-Id:
+              $ref: "#/components/headers/X-Correlation-Id"
+            X-Request-Id:
+              $ref: "#/components/headers/X-Request-Id"
+          content:
+            application/schema+json:
+              schema:
+                $ref: "#/components/schemas/LiveWell"
+              example:
+                $ref: components/examples/LiveWell.json
