@@ -13,7 +13,7 @@ info:
       * medicines
       * pregnancy
       * mental health
-      * videos
+      * live well
       * common health questions
       * information about NHS services
 
@@ -30,7 +30,7 @@ info:
       - Ratings and Reviews API
 
     ## API status and roadmap
-    This API has been moved from the nhs.uk developer API website. It is currently in Alpha phase. If you are an existing user, you need to sign up for the API in the new portal.
+    This API has been moved from the nhs.uk developer API website. It is currently in Alpha phase. If you are an existing user, you need to sign up for the API in the new API Platform.
 
     ## Service level
 
@@ -63,7 +63,7 @@ info:
     ## Security and authorisation
     This API is [application-restricted](https://digital.nhs.uk/developer/guides-and-documentation/security-and-authorisation#application-restricted-apis), meaning we authenticate the calling application but not the end user.
 
-    The end user will need to provide a subscription key in the header or as a query parameter in requests.
+    The end user will need to provide a API key in the header or as a query parameter in requests.
 
     ## Environments and testing
     | Environment       | Base URL                                                               |
@@ -79,20 +79,20 @@ info:
     * contains a replica of our live data, but has a reduced call rate
 
     ## Onboarding
-    You need to sign up via the portal to recieve your subscription key.
+    You need to sign up via the API platform to recieve your key.
     (TODO add more details here)
 
     ## Caching
     Caching all content supplied through our API is recommended where possible. Unless otherwise notified by the syndication team, you should refresh cached content at least once every 7 days. If instructed to refresh cached our content, you must do so immediately.
 
     ## Usage Caps
-    When using a trial subscription, you will only be able to run 10 calls/minute up to a maximum of 1,000 calls per month. A full subscription caps usage at 4,000 calls per hour. You are not to call the APIs over 4,000 times in any one-hour period, unless you have notified the syndication team in advance and they have confirmed in writing that you can do so.
+    When using a trial API key, you will only be able to run 10 calls/minute up to a maximum of 1,000 calls per month. A full API subscription caps usage at 4,000 calls per hour. You are not to call the APIs over 4,000 times in any one-hour period, unless you have notified the syndication team in advance and they have confirmed in writing that you can do so.
 
     ## Standard licence terms
     By using the NHS website syndicated content, you agree to be bound by the standard licence terms.
 
     ## Your contact details
-    You must provide accurate contact details that must be kept up to date while you are using our content. Failure to keep contact details updated is a breach of our licence terms and may result in your subscription being disabled. You can check your details on your profile.
+    You must provide accurate contact details that must be kept up to date while you are using our content. Failure to keep contact details updated is a breach of our licence terms and may result in your API subscription being disabled. You can check your details on your profile.
 
     ## Attribution
     Any syndicated content must incorporate the following attribution (credit) to the NHS website:
@@ -105,7 +105,7 @@ info:
 
     We have standard error codes for 200 to 299 if it succeeded, including code 202 if it was accepted by an API that needs to wait for further action
 
-    Currently, our akamai cache provides other error codes in the form of a webpage.
+    Currently, our Akamai cache provides other error codes in the form of a webpage.
     In future we plan to serve error codes via the API.
 
     Errors specific to each API are shown in the Endpoints section, under Response. See our [reference guide](https://digital.nhs.uk/developer/guides-and-documentation/reference-guide#http-status-codes) for more on errors.
@@ -124,11 +124,11 @@ paths:
     parameters:
       - $ref: "#/components/parameters/subscription-key"
     get:
-      summary: Get all pages in the [health A-Z](https://www.nhs.uk/conditions)
+      summary: Get all pages in the [Health A to Z](https://www.nhs.uk/conditions)
       operationId: get-conditions
       description: |
         ## Overview
-        Use this endpoint to get details of pages in the health A-Z.
+        Use this endpoint to get details of pages in the Health A to Z.
 
         Passing in no parameters will return all pages under 'conditions'.
 
@@ -176,7 +176,7 @@ paths:
       summary: Get details of condition page
       operationId: get-condition-page
       description: |
-        There is an endpoint for each page under the health A-Z e.g. conditions/chickenpox
+        There is an endpoint for each page under the Health A to Z e.g. conditions/chickenpox
 
         This can be used to get specific information about individual topics.
 
@@ -209,11 +209,11 @@ paths:
     parameters:
       - $ref: "#/components/parameters/subscription-key"
     get:
-      summary: Get all pages in the [medicines A-Z](https://www.nhs.uk/medicines)
+      summary: Get all pages in the [Medicines A to Z](https://www.nhs.uk/medicines)
       operationId: get-medicines
       description: |
         ## Overview
-        Use this endpoint to get details of pages in the medicines A-Z.
+        Use this endpoint to get details of pages in the Medicines A to Z.
 
         Passing in no parameters will return all pages under 'medicines'.
 
@@ -264,7 +264,7 @@ paths:
       summary: Get specific medicines pages
       operationId: get-medicine-page
       description: |
-        There is an endpoint for each page under the medicines A-Z e.g. /medicines/amoxicillin
+        There is an endpoint for each page under the Medicines A to Z e.g. /medicines/amoxicillin
 
         This can be used to get specific information about individual medicines.
       responses:
@@ -370,10 +370,10 @@ paths:
     parameters:
       - $ref: "#/components/parameters/subscription-key"
     get:
-      summary: Get content from the live-well hub.
+      summary: Get content from the Live Well hub.
       operationId: get-common-health-questions
       description: |
-        The live-well hub contains a number of navigational and content pages.
+        The Live Well hub contains a number of navigational and content pages.
 
         The content of the page can be taken from mainEntityOfPage. This includes the navigational patterns to child pages
 
@@ -382,7 +382,7 @@ paths:
       responses:
         "200":
           description: |
-            A valid query for the live-well pages.
+            A valid query for the Live Well pages.
           headers:
             X-Correlation-Id:
               $ref: "#/components/headers/X-Correlation-Id"
