@@ -1,0 +1,356 @@
+{
+    "@context": "http://schema.org",
+    "@type": "MedicalWebPage",
+    "name": "Atenolol",
+    "copyrightHolder": {
+        "name": "Crown Copyright",
+        "@type": "Organization"
+    },
+    "license": "https://developer.api.nhs.uk/terms",
+    "author": {
+        "url": "https://www.nhs.uk",
+        "logo": "https://www.nhs.uk/nhscwebservices/documents/logo1.jpg",
+        "email": "nhswebsite.servicedesk@nhs.net",
+        "@type": "Organization",
+        "name": "NHS website"
+    },
+    "about": {
+        "@type": "WebPage",
+        "name": "Atenolol",
+        "alternateName": ""
+    },
+    "description": "Brand name: Tenormin. Find out how atenolol treats high blood pressure (hypertension), irregular heartbeats (arrhythmia) and angina, and how to take it.",
+    "url": "https://www.nhs.uk/medicines/atenolol/",
+    "genre": [
+        "Medicine"
+    ],
+    "keywords": "",
+    "hasPart": [
+        {
+            "@type": "HealthTopicContent",
+            "hasHealthAspect": "http://schema.org/OverviewHealthAspect",
+            "url": "https://www.nhs.uk/medicines/atenolol/about-atenolol/#overview",
+            "description": "Atenolol is a beta blocker medicine. It treats high blood pressure, irregular heartbeats and angina. It's only available on prescription.",
+            "hasPart": [
+                {
+                    "@type": "WebPageElement",
+                    "headline": "",
+                    "text": "<p>Atenolol is a beta blocker medicine, used to treat <a href=\"/conditions/high-blood-pressure-hypertension/\">high blood pressure</a> (hypertension) and irregular heartbeats (<a href=\"/conditions/arrhythmia/\">arrhythmia</a>).</p><p>If you have high blood pressure, taking atenolol helps prevent future heart disease, <a href=\"/conditions/heart-attack/\">heart attacks</a> and <a href=\"/conditions/stroke/\">strokes</a>.</p><p>It can also be used to prevent chest pain caused by <a href=\"/conditions/angina/\">angina</a>.</p><p>Atenolol works by slowing down your heart rate, making it easier for your heart to pump blood around your body.</p><p>Atenolol is sometimes prescribed to prevent <a href=\"/conditions/migraine/\">migraines</a> and help with <a href=\"/mental-health/conditions/anxiety/\">anxiety</a>.</p><p>This medicine is only available on prescription.</p><p>It comes as tablets or as a liquid that you swallow. It can also be given as an injection, but this is usually done in hospital.</p><p>Atenolol can also be mixed with other medicines such as <a href=\"/medicines/nifedipine/\">nifedipine</a> (brand name Tenif). It it's mixed with chlortalidone it's called co-tenidone or by the brand names Tenoret or Tenoertic.</p>"
+                }
+            ],
+            "headline": ""
+        },
+        {
+            "@type": "HealthTopicContent",
+            "hasHealthAspect": "http://schema.org/SuitabilityHealthAspect",
+            "url": "https://www.nhs.uk/medicines/atenolol/who-can-and-cannot-take-atenolol/#who-its-for",
+            "description": "Most adults and sometimes babies and children can take atenolol. But always check before taking it, as it's not suitable for everyone.",
+            "hasPart": [
+                {
+                    "@type": "WebPageElement",
+                    "headline": "",
+                    "text": "<p>Most adults can take atenolol. It's sometimes prescribed for babies and children.</p><h2>Who may not be able to take atenolol</h2><p>Atenelol is not suitable for everyone. To make sure it's safe for you, tell your doctor before starting atenolol if you:</p><ul><li>have ever had an allergic reaction to atenolol or any other medicine</li><li>have <a href=\"/conditions/low-blood-pressure-hypotension/\">low blood pressure (hypotension)</a> or a slow heart rate</li><li>have <a href=\"/conditions/raynauds/\">Raynaud's phenomenon</a>, which may make your fingers and toes tingle, turn paler than usual or turn blue</li><li>have metabolic acidosis \u2013 when there's too much acid in your blood</li><li>have lung disease or <a href=\"/conditions/asthma/\">asthma</a></li><li>are trying to get pregnant, are already pregnant or breastfeeding</li></ul>"
+                }
+            ],
+            "headline": "Who can take atenolol"
+        },
+        {
+            "@type": "HealthTopicContent",
+            "hasHealthAspect": "http://schema.org/UsageOrScheduleHealthAspect",
+            "url": "https://www.nhs.uk/medicines/atenolol/how-and-when-to-take-atenolol/#dosage-and-administration",
+            "description": "Atenolol comes as tablets or a liquid that you take once or twice a day. Follow the instructions that come with your medicine.",
+            "hasPart": [
+                {
+                    "@type": "WebPageElement",
+                    "headline": "",
+                    "text": "<p>How much atenolol you take depends on why you need it.</p><p>The usual dose for adults is:</p><ul><li>high blood pressure \u2013 25mg to 50mg, taken once a day</li><li>angina (chest pain) \u2013 100mg, taken once a day, or split into two 50mg doses</li><li>irregular heartbeats (arrhythmia) \u2013 50mg to 100mg, taken once a day</li><li>migraine \u2013 25mg to 100mg, taken twice a day</li></ul><p>For children taking atenolol, your child's doctor will work out the right dose by using their weight and age.</p><h2>How to take it</h2><p>You'll usually take atenolol once or twice a day.</p><p>When you start taking atenolol, your doctor may advise you to take your first dose before bedtime because it can make you feel dizzy. After the first dose, if you do not feel dizzy, you can take your medicine in the morning.</p><p>If you're taking atenolol twice a day, try to have 1 dose in the morning and 1 dose in the evening. It's a good idea to leave 10 to 12 hours between doses if you can.</p><p>Atenolol does not usually upset your stomach, so you can take it with or without food but it's best to do the same each day.</p><p>Swallow the tablets whole with a drink of water. If you find them difficult to swallow, some brands have a score line to help you break the tablet in half. Check the information leaflet for your brand to see if you can do this.</p><p>If you're taking atenolol as a liquid, it will come with a plastic syringe or spoon to help you measure out the right dose. If you do not have one, ask your pharmacist for one. Do not use a kitchen teaspoon as it will not measure the right amount of medicine.</p><h2>How long to take it for</h2><p>This depends on why you're taking atenolol.</p><p>For heart conditions or high blood pressure, treatment is usually long term and may be for the rest of your life.</p><p>For migraines, treatment can last for several months or years, depending on how bad your symptoms are.</p><p>Talk to your doctor if you want to stop taking atenolol. Do not stop taking it suddenly, especially if you have heart disease. This can make your condition worse.</p><p>If you're bothered by side effects, your doctor may be able to prescribe a different medicine instead.</p><h2>If you forget to take it</h2><p>If you forget to take a dose of atenolol, take it as soon as you remember, unless it's nearly time for your next dose. In this case, just skip the missed dose and take your next dose at the usual time.</p><p>Never take 2 doses at the same time. Do not take an extra dose to make up for a forgotten one.</p><p>If you often forget doses, it may help to set an alarm to remind you. You could also ask your pharmacist for advice on other ways to help you remember to take your medicine.</p><h2><b>If you take too much</b></h2><p>The amount of atenolol that can lead to an overdose varies from person to person.</p><p>If you take more than the prescribed dose, your heart rate may slow down and you may find it difficult to breathe. It can also make you feel dizzy.</p>"
+                },
+                {
+                    "@type": "WebPageElement",
+                    "identifier": "urgent",
+                    "headline": "Contact 111 for advice now if:",
+                    "text": "<ul>\n<li>\n  you take more than your prescribed dose of atenolol\n </li>\n</ul>\n<p>\n Go to\n <a href=\"http://111.nhs.uk\">\n  111.nhs.uk\n </a>\n or call\n <a href=\"tel:111\">\n  111\n </a>\n</p>\n<p>\n If you need advice for a child under the age of 5 years, call 111.\n</p>\n"
+                },
+                {
+                    "@type": "WebPageElement",
+                    "headline": "",
+                    "text": "<p>If you need to go to <a href=\"https://www.nhs.uk/service-search/other-services/Accident-and-emergency-services/LocationSearch/428\">A&amp;E</a>, do not drive yourself. Get someone else to drive you or call for an ambulance.</p><p>Take the atenolol packet or leaflet inside it, plus any remaining medicine, with you</p>"
+                }
+            ],
+            "headline": "Dosage"
+        },
+        {
+            "@type": "HealthTopicContent",
+            "hasHealthAspect": "http://schema.org/SideEffectsHealthAspect",
+            "url": "https://www.nhs.uk/medicines/atenolol/side-effects-of-atenolol/#side-effects",
+            "description": "Side effects of atenolol include feeling sleepy, tired or dizzy. More serious side effects can happen in rare cases.",
+            "hasPart": [
+                {
+                    "@type": "WebPageElement",
+                    "headline": "",
+                    "text": "<p>These common side effects of atenolol happen in more than 1 in 100 people. They're usually mild and only last for a short time. There are things you can do to help cope with them:</p>"
+                },
+                {
+                    "@type": "WebPageElement",
+                    "headline": "",
+                    "text": "<p>If this advice does not help and you are bothered by any of these side effects, keep taking the medicine but tell your doctor or pharmacist.</p><h2>Serious side effects</h2><p>It happens rarely, but some people have serious side effects when taking atenolol.</p><p>Tell your doctor or contact 111 now if:</p><ul><li>you have shortness of breath with a cough that gets worse when you exercise (like walking up stairs), swollen ankles or legs, or an irregular heartbeat \u2013 these can be signs of heart problems</li><li>you have shortness of breath, wheezing and tightening of your chest \u2013 these can be signs of lung problems</li><li>the whites of your eyes turn yellow, or your skin turns yellow, although this may be less obvious on brown or black skin, or you have pale poo or dark pee \u2013 these can be signs of liver problems</li><li>you get unexplained bruising, or you bruise more easily than usual \u2013 these can be signs of low numbers of platelets in your blood (thrombocytopenia)</li></ul><p>Go to <a href=\"http://111.nhs.uk\">111.nhs.uk</a> or call <a href=\"tel:111\">111</a>.</p>"
+                },
+                {
+                    "@type": "WebPageElement",
+                    "identifier": "immediate",
+                    "headline": "Call 999 now if:",
+                    "text": "<ul>\n<li>\n  you get chest pain that does not stop after a few minutes, or is new or worse if you already have angina\n </li>\n</ul>\n<p>\n Chest pain is a possible sign of a heart attack and needs to be checked out as soon as possible.\n</p>\n"
+                },
+                {
+                    "@type": "WebPageElement",
+                    "headline": "Serious allergic reaction",
+                    "text": "<p>In rare cases, atenolol may cause a serious allergic reaction (<a href=\"/conditions/anaphylaxis/\">anaphylaxis</a>).</p>"
+                },
+                {
+                    "@type": "WebPageElement",
+                    "headline": "Other side effects",
+                    "text": "<p>These are not all the side effects of atenolol. For a full list, see the leaflet inside your medicine packet.</p>"
+                }
+            ],
+            "headline": "Common side effects"
+        },
+        {
+            "@type": "HealthTopicContent",
+            "hasHealthAspect": "http://schema.org/PregnancyHealthAspect",
+            "url": "https://www.nhs.uk/medicines/atenolol/pregnancy-breastfeeding-and-fertility-while-taking-atenolol/#pregnancy-and-breastfeeding",
+            "description": "Atenolol is not usually taken during pregnancy. It can be taken while breastfeeding if your baby is healthy. Always check with a doctor first.",
+            "hasPart": [
+                {
+                    "@type": "WebPageElement",
+                    "headline": "",
+                    "text": "<p>It's important to treat <a href=\"/pregnancy/related-conditions/complications/high-blood-pressure/\">high blood pressure</a> during pregnancy. This will help you and your baby to stay healthy.</p><p>Although atenolol can be taken in pregnancy, it's more common to take <a href=\"/medicines/labetalol/\">labetalol</a> (a similar medicine that works in the same way). This is because there is more safety information available for labetalol. Talk to your doctor about which blood pressure medicine is best for you.</p><p>Atenolol can affect the baby's growth in the womb, so you may be offered extra scans to check that your baby is growing OK.</p><p>There's also a small chance that atenolol can affect a baby's blood sugar levels just after birth. Because of this, your baby may have their blood sugar levels monitored in hospital for the first 24 hours to make sure everything's OK before you go home.</p><h2>Atenolol and breastfeeding</h2><p>If your doctor or health visitor says that your baby is healthy, it might be OK to take atenolol while breastfeeding.</p><p>Atenolol passes into breast milk in different amounts, and sometimes these have been quite high. If you're breastfeeding or planning to breastfeed, talk to your doctor or pharmacist as other medicines might be better for you.</p><p>It's important to treat your high blood pressure to keep you well. Breastfeeding will also benefit both you and your baby.</p><p>If your baby's not feeding as well as usual, seems unusually sleepy, seems much paler than usual, or if you have any other concerns about your baby, talk to your doctor, pharmacist, midwife or health visitor.</p><h2>Atenolol and fertility</h2><p>There is no evidence to suggest that atenolol affects fertility in men or women.</p>"
+                }
+            ],
+            "headline": "Atenolol and pregnancy"
+        },
+        {
+            "@type": "HealthTopicContent",
+            "hasHealthAspect": "http://schema.org/InteractionsHealthAspect",
+            "url": "https://www.nhs.uk/medicines/atenolol/taking-atenolol-with-other-medicines-and-herbal-supplements/#interactions",
+            "description": "Taking atenolol with other medicines, herbal remedies, vitamins or supplements can cause problems. Check with a pharmacist or doctor.",
+            "hasPart": [
+                {
+                    "@type": "WebPageElement",
+                    "headline": "",
+                    "text": "<p>There are some medicines that may affect the way atenolol works.</p><p>Tell your doctor if you're taking:</p><ul><li>other medicines for <a href=\"/conditions/high-blood-pressure-hypertension/\">high blood pressure</a> \u2013 the combination with atenolol can sometimes lower your blood pressure too much, which may make you feel dizzy or faint</li><li>other medicines for an irregular heartbeat (<a href=\"/conditions/arrhythmia/\">arrhythmia</a>), such as amiodarone or flecainide</li><li>medicines for <a href=\"/conditions/asthma/\">asthma</a> or <a href=\"/conditions/chronic-obstructive-pulmonary-disease-copd/\">chronic obstructive pulmonary disease (COPD)</a></li><li>medicines for <a href=\"/conditions/diabetes/\">diabetes</a>, particularly insulin \u2013 atenolol may make it more difficult to recognise the warning signs of <a href=\"/conditions/low-blood-sugar-hypoglycaemia/\">low blood sugar</a>. Speak to your doctor if you have low blood sugar levels without getting any of the usual warning signs. Check your blood sugar after exercise and follow the usual advice about checking it before driving or operating machinery</li><li>medicines to treat nose or sinus congestion, or other cold remedies (including those you can buy in a pharmacy)</li><li>medicines for allergies, such as ephedrine, noradrenaline or adrenaline</li></ul><h2>Mixing atenolol with herbal remedies and supplements</h2><p>There's not enough information to say that <a href=\"/conditions/herbal-medicines/\">herbal remedies</a> and supplements are safe to take with atenolol. They're not tested in the same way as pharmacy and prescription medicines. They're generally not tested for the effect they have on other medicines.</p>"
+                }
+            ],
+            "headline": "Cautions with other medicines"
+        }
+    ],
+    "breadcrumb": {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 0,
+                "item": {
+                    "@id": "https://www.nhs.uk/medicines/",
+                    "name": "Medicines A to Z",
+                    "genre": []
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.nhs.uk/medicines/atenolol/",
+                    "name": "Atenolol",
+                    "genre": [
+                        "Medicine"
+                    ]
+                }
+            }
+        ]
+    },
+    "headline": "Atenolol",
+    "dateModified": "2023-03-15T15:00:59+00:00",
+    "contentSubTypes": [],
+    "mainEntityOfPage": [
+        {
+            "identifier": "25",
+            "@type": "WebPageElement",
+            "name": "keylinks",
+            "headline": "",
+            "text": "",
+            "mainEntityOfPage": [
+                {
+                    "@type": "WebPageElement",
+                    "headline": "About atenolol",
+                    "url": "https://www.nhs.uk/medicines/atenolol/about-atenolol/",
+                    "identifier": "26",
+                    "text": "",
+                    "name": "link"
+                },
+                {
+                    "@type": "WebPageElement",
+                    "headline": "Who can and cannot take it",
+                    "url": "https://www.nhs.uk/medicines/atenolol/who-can-and-cannot-take-atenolol/",
+                    "identifier": "26",
+                    "text": "",
+                    "name": "link"
+                },
+                {
+                    "@type": "WebPageElement",
+                    "headline": "How and when to take it",
+                    "url": "https://www.nhs.uk/medicines/atenolol/how-and-when-to-take-atenolol/",
+                    "identifier": "26",
+                    "text": "",
+                    "name": "link"
+                },
+                {
+                    "@type": "WebPageElement",
+                    "headline": "Side effects",
+                    "url": "https://www.nhs.uk/medicines/atenolol/side-effects-of-atenolol/",
+                    "identifier": "26",
+                    "text": "",
+                    "name": "link"
+                },
+                {
+                    "@type": "WebPageElement",
+                    "headline": "Pregnancy, breastfeeding and fertility",
+                    "url": "https://www.nhs.uk/medicines/atenolol/pregnancy-breastfeeding-and-fertility-while-taking-atenolol/",
+                    "identifier": "26",
+                    "text": "",
+                    "name": "link"
+                },
+                {
+                    "@type": "WebPageElement",
+                    "headline": "Taking atenolol with other medicines and herbal supplements",
+                    "url": "https://www.nhs.uk/medicines/atenolol/taking-atenolol-with-other-medicines-and-herbal-supplements/",
+                    "identifier": "26",
+                    "text": "",
+                    "name": "link"
+                },
+                {
+                    "@type": "WebPageElement",
+                    "headline": "Common questions",
+                    "url": "https://www.nhs.uk/medicines/atenolol/common-questions-about-atenolol/",
+                    "identifier": "26",
+                    "text": "",
+                    "name": "link"
+                }
+            ]
+        },
+        {
+            "identifier": "27",
+            "@type": "WebPageElement",
+            "name": "RelatedLinks",
+            "headline": "Related conditions",
+            "text": "",
+            "mainEntityOfPage": [
+                {
+                    "@type": "WebPageElement",
+                    "headline": "Angina",
+                    "url": "https://www.nhs.uk/conditions/angina/",
+                    "identifier": "26",
+                    "text": "",
+                    "name": "link"
+                },
+                {
+                    "@type": "WebPageElement",
+                    "headline": "Arrhythmia",
+                    "url": "https://www.nhs.uk/conditions/arrhythmia/",
+                    "identifier": "26",
+                    "text": "",
+                    "name": "link"
+                },
+                {
+                    "@type": "WebPageElement",
+                    "headline": "Heart attack",
+                    "url": "https://www.nhs.uk/conditions/heart-attack/",
+                    "identifier": "26",
+                    "text": "",
+                    "name": "link"
+                },
+                {
+                    "@type": "WebPageElement",
+                    "headline": "Heart failure",
+                    "url": "https://www.nhs.uk/conditions/heart-failure/",
+                    "identifier": "26",
+                    "text": "",
+                    "name": "link"
+                },
+                {
+                    "@type": "WebPageElement",
+                    "headline": "High blood pressure (hypertension)",
+                    "url": "https://www.nhs.uk/conditions/high-blood-pressure-hypertension/",
+                    "identifier": "26",
+                    "text": "",
+                    "name": "link"
+                },
+                {
+                    "@type": "WebPageElement",
+                    "headline": "Migraine",
+                    "url": "https://www.nhs.uk/conditions/migraine/",
+                    "identifier": "26",
+                    "text": "",
+                    "name": "link"
+                }
+            ]
+        },
+        {
+            "identifier": "27",
+            "@type": "WebPageElement",
+            "name": "RelatedLinks",
+            "headline": "Useful resources",
+            "text": "",
+            "mainEntityOfPage": [
+                {
+                    "@type": "WebPageElement",
+                    "headline": "HealthUnlocked: atenolol forum",
+                    "url": "https://healthunlocked.com/tag/atenolol",
+                    "identifier": "26",
+                    "text": "healthunlocked.com",
+                    "name": "link"
+                },
+                {
+                    "@type": "WebPageElement",
+                    "headline": "Healthtalk: videos of real stories about heart attack",
+                    "url": "https://healthtalk.org/heart-attack/overview",
+                    "identifier": "26",
+                    "text": "healthtalk.org",
+                    "name": "link"
+                },
+                {
+                    "@type": "WebPageElement",
+                    "headline": "Blood Pressure UK: charity",
+                    "url": "https://www.bloodpressureuk.org/",
+                    "identifier": "26",
+                    "text": "www.bloodpressureuk.org",
+                    "name": "link"
+                },
+                {
+                    "@type": "WebPageElement",
+                    "headline": "British Heart Foundation: charity",
+                    "url": "https://www.bhf.org.uk/",
+                    "identifier": "26",
+                    "text": "www.bhf.org.uk",
+                    "name": "link"
+                },
+                {
+                    "@type": "WebPageElement",
+                    "headline": "Migraine Trust: charity",
+                    "url": "https://migrainetrust.org/",
+                    "identifier": "26",
+                    "text": "migrainetrust.org",
+                    "name": "link"
+                },
+                {
+                    "@type": "WebPageElement",
+                    "headline": "NHS Health Check: free health check-up",
+                    "url": "https://www.nhs.uk/conditions/nhs-health-check/",
+                    "identifier": "26",
+                    "text": "",
+                    "name": "link"
+                }
+            ]
+        }
+    ]
+}

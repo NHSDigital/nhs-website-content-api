@@ -1,0 +1,262 @@
+{
+    "@context": "http://schema.org",
+    "@type": "MedicalWebPage",
+    "name": "NHS services",
+    "copyrightHolder": {
+        "name": "Crown Copyright",
+        "@type": "Organization"
+    },
+    "license": "https://developer.api.nhs.uk/terms",
+    "author": {
+        "url": "https://www.nhs.uk",
+        "logo": "https://www.nhs.uk/nhscwebservices/documents/logo1.jpg",
+        "email": "nhswebsite.servicedesk@nhs.net",
+        "@type": "Organization",
+        "name": "NHS website"
+    },
+    "about": {
+        "@type": "WebPage",
+        "name": "NHS services",
+        "alternateName": ""
+    },
+    "description": "",
+    "url": "https://www.nhs.uk/nhs-services/",
+    "genre": [],
+    "keywords": "",
+    "hasPart": [
+        {
+            "@type": "HealthTopicContent",
+            "hasHealthAspect": "http://schema.org/DiagnosisHealthAspect",
+            "url": "https://www.nhs.uk/nhs-services/covid-19-services/testing-for-covid-19/who-can-get-a-free-nhs-covid-19-rapid-lateral-flow-test/#diagnosis",
+            "description": "",
+            "hasPart": [
+                {
+                    "@type": "WebPageElement",
+                    "headline": "",
+                    "text": "<p>NHS COVID-19 rapid lateral flow tests are no longer free for most people.</p><p>You may still be able to get free COVID-19 rapid lateral flow tests from the NHS if:</p><ul><li>you have a health condition which means you\u2019re eligible for <a href=\"/conditions/covid-19/treatments-for-covid-19/\">COVID-19 treatment</a></li><li>you're going into hospital</li><li>you work in healthcare or adult social care</li></ul><p></p>"
+                },
+                {
+                    "@type": "WebPageElement",
+                    "headline": "Information",
+                    "text": "<p>If you want to get tested but are not eligible for free NHS rapid lateral flow tests, you need to pay for the test yourself.</p><p>You can buy rapid lateral flow tests from some pharmacies and retailers, in person or online.</p>"
+                }
+            ],
+            "headline": ""
+        }
+    ],
+    "breadcrumb": {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 0,
+                "item": {
+                    "@id": "https://www.nhs.uk/nhs-services/",
+                    "name": "NHS services",
+                    "genre": []
+                }
+            }
+        ]
+    },
+    "headline": "NHS services",
+    "dateModified": "2023-04-03T13:09:47+00:00",
+    "contentSubTypes": [],
+    "mainEntityOfPage": [
+        {
+            "identifier": "23",
+            "@type": "WebPageElement",
+            "name": "toptasks",
+            "headline": "",
+            "text": "",
+            "mainEntityOfPage": [
+                {
+                    "@type": "WebPageElement",
+                    "headline": "Book or manage a COVID-19 vaccination",
+                    "url": "https://www.nhs.uk/nhs-services/covid-19-services/covid-19-vaccination-services/book-covid-19-vaccination/",
+                    "identifier": "26",
+                    "text": "",
+                    "name": "link"
+                },
+                {
+                    "@type": "WebPageElement",
+                    "headline": "Book or manage a free NHS flu vaccination at a pharmacy",
+                    "url": "https://www.nhs.uk/conditions/vaccinations/book-flu-vaccination/",
+                    "identifier": "26",
+                    "text": "",
+                    "name": "link"
+                },
+                {
+                    "@type": "WebPageElement",
+                    "headline": "Order a repeat prescription",
+                    "url": "https://www.nhs.uk/nhs-services/online-services/how-to-order-a-repeat-prescription/",
+                    "identifier": "26",
+                    "text": "",
+                    "name": "link"
+                }
+            ]
+        },
+        {
+            "identifier": "24",
+            "@type": "WebPageElement",
+            "name": "canonicallinks",
+            "headline": "",
+            "text": "",
+            "mainEntityOfPage": [
+                {
+                    "@type": "WebPageElement",
+                    "headline": "GPs",
+                    "url": "https://www.nhs.uk/nhs-services/gps/",
+                    "identifier": "26",
+                    "text": "<p data-block-key=\"qwcyg\">About GP services, including how to find and register with a local GP and how to book an appointment</p>",
+                    "name": "link"
+                },
+                {
+                    "@type": "WebPageElement",
+                    "headline": "Prescriptions and pharmacies",
+                    "url": "https://www.nhs.uk/nhs-services/prescriptions-and-pharmacies/",
+                    "identifier": "26",
+                    "text": "<p data-block-key=\"r0sca\">Order repeat prescriptions, find out about prescription charges and how pharmacists can help you with medicines and medical advice</p>",
+                    "name": "link"
+                },
+                {
+                    "@type": "WebPageElement",
+                    "headline": "Hospitals",
+                    "url": "https://www.nhs.uk/nhs-services/hospitals/",
+                    "identifier": "26",
+                    "text": "<p data-block-key=\"barcd\">About NHS hospitals, booking and changing appointments with the NHS e-Referral Service and going into hospital</p>",
+                    "name": "link"
+                },
+                {
+                    "@type": "WebPageElement",
+                    "headline": "Mental health services",
+                    "url": "https://www.nhs.uk/nhs-services/mental-health-services/",
+                    "identifier": "26",
+                    "text": "<p data-block-key=\"qzh8w\">Find out how to access NHS mental health services and where to get urgent help</p>",
+                    "name": "link"
+                },
+                {
+                    "@type": "WebPageElement",
+                    "headline": "Visiting or moving to England",
+                    "url": "https://www.nhs.uk/nhs-services/visiting-or-moving-to-england/",
+                    "identifier": "26",
+                    "text": "<p data-block-key=\"9xa8i\">Advice about using the NHS if you&#x27;re planning to visit or move to England</p>",
+                    "name": "link"
+                },
+                {
+                    "@type": "WebPageElement",
+                    "headline": "COVID-19 services",
+                    "url": "https://www.nhs.uk/nhs-services/covid-19-services/",
+                    "identifier": "26",
+                    "text": "<p data-block-key=\"5vseh\">Find out more about COVID-19 services including vaccination services, testing, the NHS COVID Pass, NHS 119 and research.</p>",
+                    "name": "link"
+                }
+            ]
+        },
+        {
+            "identifier": "24",
+            "@type": "WebPageElement",
+            "name": "secondarycanonicallinks",
+            "headline": "",
+            "text": "",
+            "mainEntityOfPage": [
+                {
+                    "@type": "WebPageElement",
+                    "headline": "Urgent and emergency care services",
+                    "url": "https://www.nhs.uk/nhs-services/urgent-and-emergency-care-services/",
+                    "identifier": "26",
+                    "text": "<p data-block-key=\"eyh8w\">Services the NHS provides if you need urgent or emergency medical help</p>",
+                    "name": "link"
+                },
+                {
+                    "@type": "WebPageElement",
+                    "headline": "Sexual health services",
+                    "url": "https://www.nhs.uk/nhs-services/sexual-health-services/",
+                    "identifier": "26",
+                    "text": "<p data-block-key=\"7x8cr\">Information about NHS sexual health services</p>",
+                    "name": "link"
+                },
+                {
+                    "@type": "WebPageElement",
+                    "headline": "Help with health costs",
+                    "url": "https://www.nhs.uk/nhs-services/help-with-health-costs/",
+                    "identifier": "26",
+                    "text": "<p data-block-key=\"ntzzz\">Find out about when you need to pay, help when on universal credit, travel costs and personal health budgets</p>",
+                    "name": "link"
+                },
+                {
+                    "@type": "WebPageElement",
+                    "headline": "Dentists",
+                    "url": "https://www.nhs.uk/nhs-services/dentists/",
+                    "identifier": "26",
+                    "text": "<p data-block-key=\"dxt1g\">About NHS dental services, how to find an NHS dentist and how much treatment costs</p>",
+                    "name": "link"
+                },
+                {
+                    "@type": "WebPageElement",
+                    "headline": "Opticians and sight tests",
+                    "url": "https://www.nhs.uk/nhs-services/opticians/",
+                    "identifier": "26",
+                    "text": "<p data-block-key=\"mfcnk\">Find an opticians and see if you are entitled to free NHS eye tests</p>",
+                    "name": "link"
+                },
+                {
+                    "@type": "WebPageElement",
+                    "headline": "Alcohol addiction",
+                    "url": "https://www.nhs.uk/nhs-services/find-alcohol-addiction-support-services/",
+                    "identifier": "26",
+                    "text": "<p data-block-key=\"f58or\">Find services to help you stop or reduce your drinking</p>",
+                    "name": "link"
+                },
+                {
+                    "@type": "WebPageElement",
+                    "headline": "Healthcare for the armed forces community",
+                    "url": "https://www.nhs.uk/nhs-services/armed-forces-and-veterans-healthcare/",
+                    "identifier": "26",
+                    "text": "<p data-block-key=\"qgm1c\">Find information for the armed forces community, including veterans, serving personnel, reservists and their families</p>",
+                    "name": "link"
+                },
+                {
+                    "@type": "WebPageElement",
+                    "headline": "Online services",
+                    "url": "https://www.nhs.uk/nhs-services/online-services/",
+                    "identifier": "26",
+                    "text": "<p data-block-key=\"i7q89\">Get your NHS number and find out how to order repeat prescriptions using an app or website</p>",
+                    "name": "link"
+                },
+                {
+                    "@type": "WebPageElement",
+                    "headline": "How to find an NHS gender dysphoria clinic",
+                    "url": "https://www.nhs.uk/nhs-services/how-to-find-an-nhs-gender-identity-clinic/",
+                    "identifier": "26",
+                    "text": "<p data-block-key=\"365nj\">Find information about gender dysphoria clinics (GDCs) in England</p>",
+                    "name": "link"
+                },
+                {
+                    "@type": "WebPageElement",
+                    "headline": "Getting medical care as a student",
+                    "url": "https://www.nhs.uk/nhs-services/getting-medical-care-as-a-student/",
+                    "identifier": "26",
+                    "text": "<p data-block-key=\"00hqa\">Find information about looking after your health as a student, including registering with a GP and getting contraception</p>",
+                    "name": "link"
+                },
+                {
+                    "@type": "WebPageElement",
+                    "headline": "Find your local integrated care board (ICB)",
+                    "url": "http://nhs.uk/nhs-services/find-your-local-integrated-care-board",
+                    "identifier": "26",
+                    "text": "<p data-block-key=\"fk72d\">Integrated care boards (ICBs) bring together NHS services in your area</p>",
+                    "name": "link"
+                },
+                {
+                    "@type": "WebPageElement",
+                    "headline": "Find other health services",
+                    "url": "https://www.nhs.uk/service-search/other-services",
+                    "identifier": "26",
+                    "text": "<p data-block-key=\"j6o2d\">Use our service finder to find other health services</p>",
+                    "name": "link"
+                }
+            ]
+        }
+    ]
+}

@@ -347,7 +347,7 @@ paths:
       - $ref: "#/components/parameters/subscription-key"
     get:
       summary: Get content from the Live Well hub.
-      operationId: get-common-health-questions
+      operationId: get-live-well
       description: |
         ## Overview
 
