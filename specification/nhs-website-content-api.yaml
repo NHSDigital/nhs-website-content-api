@@ -19,7 +19,6 @@ info:
 
     You cannot currently use this API to:
       * [find services near you](https://www.nhs.uk/nhs-services/services-near-you/)
-      * [check ratings and reviews of organisations](https://developer.api.nhs.uk/nhs-api/documentation/comments)
 
     ## Who can use this API
     Anyone can use this API. Users need to agree to our [terms and conditions](https://developer.api.nhs.uk/about/terms)
@@ -27,10 +26,9 @@ info:
     ## Related APIs
     The following APIs also give access to data from the NHS website:
       - Service Search API
-      - Ratings and Reviews API
 
     ## API status and roadmap
-    This API has moved from the nhs.uk developer API website. It is currently in development. If you are an existing user, you need to sign up for the API in the new API platform.
+    This API has moved from the nhs.uk developer API website. It is currently in development. If you are an existing user, you need to sign up for the API in the new [developer hub](https://digital.nhs.uk/developer).
 
     ## Service level
 
@@ -47,7 +45,7 @@ info:
     ## Security and authorisation
     This API is [application-restricted](https://digital.nhs.uk/developer/guides-and-documentation/security-and-authorisation#application-restricted-apis), meaning we authenticate the calling application but not the end user.
 
-    You must provide a API key in the header or as a query parameter in requests.
+    You must provide a API key in the header.
 
     ## Environments and testing
     | Environment       | Base URL                                                               |
@@ -63,11 +61,9 @@ info:
     * contains a replica of our live data, but has a reduced call rate
 
     ## Onboarding
-    You need to sign up via the API platform to recieve your key.
-    (TODO add more details here)
+    You need to sign up via the developer hub to recieve your API key. Additional onboarding information exists on the [developer hub](https://digital.nhs.uk//developer/api-catalogue/nhs-syndicated-content/onboarding-support-information)
 
     ## Errors
-
     We have standard error codes for 200 to 299 if it succeeded, including code 202 if it was accepted by an API that needs to wait for further action
 
     Currently, our Akamai cache provides errors in the form of a webpage.
