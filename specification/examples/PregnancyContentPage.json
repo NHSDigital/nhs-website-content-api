@@ -1,0 +1,365 @@
+{
+    "@context": "http://schema.org",
+    "@type": "WebPage",
+    "name": "Doing a pregnancy test",
+    "copyrightHolder": {
+        "name": "Crown Copyright",
+        "@type": "Organization"
+    },
+    "license": "https://developer.api.nhs.uk/terms",
+    "author": {
+        "url": "https://www.nhs.uk",
+        "logo": "https://www.nhs.uk/nhscwebservices/documents/logo1.jpg",
+        "email": "nhswebsite.servicedesk@nhs.net",
+        "@type": "Organization",
+        "name": "NHS website"
+    },
+    "about": {
+        "@type": "WebPage",
+        "name": "Doing a pregnancy test",
+        "alternateName": ""
+    },
+    "description": "Find out how and when you can take a pregnancy test, how to start your antenatal care, and where to go for help if you are not sure you want to be pregnant.",
+    "url": "https://www.nhs.uk/pregnancy/trying-for-a-baby/doing-a-pregnancy-test/",
+    "genre": [
+        "Advice or information"
+    ],
+    "keywords": "",
+    "lastReviewed": [
+        "2022-02-09T01:00:00+00:00",
+        "2025-02-09T01:00:00+00:00"
+    ],
+    "breadcrumb": {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 0,
+                "item": {
+                    "@id": "https://www.nhs.uk/pregnancy/",
+                    "name": "Pregnancy",
+                    "genre": []
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.nhs.uk/pregnancy/trying-for-a-baby/",
+                    "name": "Trying for a baby",
+                    "genre": []
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.nhs.uk/pregnancy/trying-for-a-baby/doing-a-pregnancy-test/",
+                    "name": "Doing a pregnancy test",
+                    "genre": [
+                        "Advice or information"
+                    ]
+                }
+            }
+        ]
+    },
+    "hasPart": [],
+    "relatedLink": [
+        {
+            "@type": "LinkRole",
+            "url": "https://www.nhs.uk/pregnancy/trying-for-a-baby/",
+            "name": "Trying for a baby",
+            "linkRelationship": "Navigation",
+            "position": 0
+        },
+        {
+            "@type": "LinkRole",
+            "url": "https://www.nhs.uk/pregnancy/trying-for-a-baby/trying-to-get-pregnant/",
+            "name": "Trying to get pregnant",
+            "linkRelationship": "Navigation",
+            "position": 1
+        },
+        {
+            "@type": "LinkRole",
+            "url": "https://www.nhs.uk/pregnancy/trying-for-a-baby/getting-pregnant-if-you-have-a-mental-health-condition/",
+            "name": "Getting pregnant if you have a mental health condition",
+            "linkRelationship": "Navigation",
+            "position": 2
+        },
+        {
+            "@type": "LinkRole",
+            "url": "https://www.nhs.uk/pregnancy/trying-for-a-baby/planning-your-pregnancy/",
+            "name": "Planning your pregnancy",
+            "linkRelationship": "Navigation",
+            "position": 3
+        },
+        {
+            "@type": "LinkRole",
+            "url": "https://www.nhs.uk/pregnancy/trying-for-a-baby/doing-a-pregnancy-test/",
+            "name": "Doing a pregnancy test",
+            "linkRelationship": "Navigation",
+            "position": 4
+        },
+        {
+            "@type": "LinkRole",
+            "url": "https://www.nhs.uk/pregnancy/trying-for-a-baby/signs-and-symptoms-of-pregnancy/",
+            "name": "Signs and symptoms of pregnancy",
+            "linkRelationship": "Navigation",
+            "position": 5
+        },
+        {
+            "@type": "LinkRole",
+            "url": "https://www.nhs.uk/pregnancy/trying-for-a-baby/how-long-it-takes-to-get-pregnant/",
+            "name": "How long does it usually take to get pregnant?",
+            "linkRelationship": "Navigation",
+            "position": 6
+        },
+        {
+            "@type": "LinkRole",
+            "url": "https://www.nhs.uk/pregnancy/trying-for-a-baby/planning-another-pregnancy/",
+            "name": "Planning another pregnancy",
+            "linkRelationship": "Navigation",
+            "position": 7
+        }
+    ],
+    "dateModified": "2022-10-27T10:11:44+00:00",
+    "mainEntityOfPage": [
+        {
+            "identifier": "0",
+            "name": "section heading",
+            "position": 0,
+            "@type": "WebPageElement",
+            "mainEntityOfPage": [
+                {
+                    "position": 0,
+                    "identifier": "1",
+                    "text": "<p>If you have missed a period and recently had unprotected sex, you may be pregnant. Pregnancy tests are most reliable from the first day of your missed period.</p><h2>When you can do a pregnancy test</h2><p>You can carry out\u00a0most pregnancy tests from the first day of a missed period. If you don't know when your next period is due, do the test at least 21 days after you last had unprotected sex.</p><p>Some very sensitive pregnancy tests can be used even before you miss a period.</p><p>You can do a pregnancy\u00a0test on a sample of\u00a0urine collected at any time of the day. It doesn't have to be in the morning.</p>",
+                    "@type": "WebPageElement",
+                    "name": "markdown",
+                    "headline": ""
+                }
+            ],
+            "description": "",
+            "hasPart": [
+                {
+                    "position": 0,
+                    "identifier": "1",
+                    "text": "<p>If you have missed a period and recently had unprotected sex, you may be pregnant. Pregnancy tests are most reliable from the first day of your missed period.</p><h2>When you can do a pregnancy test</h2><p>You can carry out\u00a0most pregnancy tests from the first day of a missed period. If you don't know when your next period is due, do the test at least 21 days after you last had unprotected sex.</p><p>Some very sensitive pregnancy tests can be used even before you miss a period.</p><p>You can do a pregnancy\u00a0test on a sample of\u00a0urine collected at any time of the day. It doesn't have to be in the morning.</p>",
+                    "@type": "WebPageElement",
+                    "name": "markdown",
+                    "headline": ""
+                }
+            ]
+        },
+        {
+            "identifier": "0",
+            "name": "section heading",
+            "position": 1,
+            "@type": "WebPageElement",
+            "mainEntityOfPage": [
+                {
+                    "position": 0,
+                    "identifier": "1",
+                    "text": "<p>You can buy pregnancy testing kits from pharmacists and some supermarkets. They can give a quick result and you can do the test in private.</p><p>The following places provide free pregnancy tests:</p><ul><li><a href=\"/nhs-services/sexual-health-services/\">sexual health services</a></li><li>some young people's services\u00a0\u2013 call the national sexual health helpline on 0300 123 7123 for details</li><li><a href=\"https://www.brook.org.uk/\">Brook centres</a>\u00a0for under-25s \u2013 <a href=\"https://www.brook.org.uk/find-a-service/\">find your nearest Brook centre</a></li></ul><p>You may also be able to get a pregnancy test free of charge from your GP.</p>",
+                    "@type": "WebPageElement",
+                    "name": "markdown",
+                    "headline": "Where you can get a pregnancy test"
+                }
+            ],
+            "description": "",
+            "hasPart": [
+                {
+                    "position": 0,
+                    "identifier": "1",
+                    "text": "<p>You can buy pregnancy testing kits from pharmacists and some supermarkets. They can give a quick result and you can do the test in private.</p><p>The following places provide free pregnancy tests:</p><ul><li><a href=\"/nhs-services/sexual-health-services/\">sexual health services</a></li><li>some young people's services\u00a0\u2013 call the national sexual health helpline on 0300 123 7123 for details</li><li><a href=\"https://www.brook.org.uk/\">Brook centres</a>\u00a0for under-25s \u2013 <a href=\"https://www.brook.org.uk/find-a-service/\">find your nearest Brook centre</a></li></ul><p>You may also be able to get a pregnancy test free of charge from your GP.</p>",
+                    "@type": "WebPageElement",
+                    "name": "markdown",
+                    "headline": "Where you can get a pregnancy test"
+                }
+            ]
+        },
+        {
+            "identifier": "0",
+            "name": "section heading",
+            "position": 2,
+            "@type": "WebPageElement",
+            "mainEntityOfPage": [
+                {
+                    "position": 0,
+                    "identifier": "1",
+                    "text": "<p>All pregnancy tests detect the hormone human chorionic gonadotrophin (hCG), which starts to be produced around 6 days after fertilisation.</p><p>Most pregnancy tests come in a box that contains 1 or 2 long sticks. You pee on the stick and the result appears on the stick after a few minutes. All tests are slightly different, so always check the instructions.</p>",
+                    "@type": "WebPageElement",
+                    "name": "markdown",
+                    "headline": "How does a pregnancy test work?"
+                }
+            ],
+            "description": "",
+            "hasPart": [
+                {
+                    "position": 0,
+                    "identifier": "1",
+                    "text": "<p>All pregnancy tests detect the hormone human chorionic gonadotrophin (hCG), which starts to be produced around 6 days after fertilisation.</p><p>Most pregnancy tests come in a box that contains 1 or 2 long sticks. You pee on the stick and the result appears on the stick after a few minutes. All tests are slightly different, so always check the instructions.</p>",
+                    "@type": "WebPageElement",
+                    "name": "markdown",
+                    "headline": "How does a pregnancy test work?"
+                }
+            ]
+        },
+        {
+            "identifier": "0",
+            "name": "section heading",
+            "position": 3,
+            "@type": "WebPageElement",
+            "mainEntityOfPage": [
+                {
+                    "position": 0,
+                    "identifier": "1",
+                    "text": "<p>Yes.</p><p>Some methods of contraception, such as the <a href=\"https://www.nhs.uk/conditions/contraception/combined-contraceptive-pill/\">contraceptive pill</a>, contain hormones, but these hormones will not stop a pregnancy test working.</p><p>No method of contraception is completely effective, so it's important to take a pregnancy test if you think you might be pregnant.</p>",
+                    "@type": "WebPageElement",
+                    "name": "markdown",
+                    "headline": "Will a pregnancy test work if I'm on the pill?"
+                }
+            ],
+            "description": "",
+            "hasPart": [
+                {
+                    "position": 0,
+                    "identifier": "1",
+                    "text": "<p>Yes.</p><p>Some methods of contraception, such as the <a href=\"https://www.nhs.uk/conditions/contraception/combined-contraceptive-pill/\">contraceptive pill</a>, contain hormones, but these hormones will not stop a pregnancy test working.</p><p>No method of contraception is completely effective, so it's important to take a pregnancy test if you think you might be pregnant.</p>",
+                    "@type": "WebPageElement",
+                    "name": "markdown",
+                    "headline": "Will a pregnancy test work if I'm on the pill?"
+                }
+            ]
+        },
+        {
+            "identifier": "0",
+            "name": "section heading",
+            "position": 4,
+            "@type": "WebPageElement",
+            "mainEntityOfPage": [
+                {
+                    "position": 0,
+                    "identifier": "1",
+                    "text": "<p>Home pregnancy tests are accurate as long as you follow the instructions correctly.</p><p>A positive test result is almost certainly correct. However, a negative test result is less reliable.</p><p>The result may not be reliable if you:</p><ul><li>do not follow the instructions properly</li><li>take the test too early</li></ul><p>Some medicines can also affect the results.</p><p>If you get a negative result and still think you're pregnant, wait a\u00a0few days\u00a0and try again. Speak to your GP if you get a negative result after a second test but your period has not arrived.</p>",
+                    "@type": "WebPageElement",
+                    "name": "markdown",
+                    "headline": "Pregnancy test results"
+                }
+            ],
+            "description": "",
+            "hasPart": [
+                {
+                    "position": 0,
+                    "identifier": "1",
+                    "text": "<p>Home pregnancy tests are accurate as long as you follow the instructions correctly.</p><p>A positive test result is almost certainly correct. However, a negative test result is less reliable.</p><p>The result may not be reliable if you:</p><ul><li>do not follow the instructions properly</li><li>take the test too early</li></ul><p>Some medicines can also affect the results.</p><p>If you get a negative result and still think you're pregnant, wait a\u00a0few days\u00a0and try again. Speak to your GP if you get a negative result after a second test but your period has not arrived.</p>",
+                    "@type": "WebPageElement",
+                    "name": "markdown",
+                    "headline": "Pregnancy test results"
+                }
+            ]
+        },
+        {
+            "identifier": "0",
+            "name": "section heading",
+            "position": 5,
+            "@type": "WebPageElement",
+            "mainEntityOfPage": [
+                {
+                    "position": 0,
+                    "identifier": "1",
+                    "text": "<p>If you're pregnant and want to continue with the pregnancy, contact your GP or a midwife to start your\u00a0<a href=\"/pregnancy/your-pregnancy-care/your-antenatal-care/\">antenatal care</a>. You can use the <a href=\"/pregnancy/finding-out/due-date-calculator/\">pregnancy due date calculator</a> to work out when your baby is due.</p>",
+                    "@type": "WebPageElement",
+                    "name": "markdown",
+                    "headline": "Continuing with the pregnancy"
+                }
+            ],
+            "description": "",
+            "hasPart": [
+                {
+                    "position": 0,
+                    "identifier": "1",
+                    "text": "<p>If you're pregnant and want to continue with the pregnancy, contact your GP or a midwife to start your\u00a0<a href=\"/pregnancy/your-pregnancy-care/your-antenatal-care/\">antenatal care</a>. You can use the <a href=\"/pregnancy/finding-out/due-date-calculator/\">pregnancy due date calculator</a> to work out when your baby is due.</p>",
+                    "@type": "WebPageElement",
+                    "name": "markdown",
+                    "headline": "Continuing with the pregnancy"
+                }
+            ]
+        },
+        {
+            "identifier": "0",
+            "name": "section heading",
+            "position": 6,
+            "@type": "WebPageElement",
+            "mainEntityOfPage": [
+                {
+                    "position": 0,
+                    "identifier": "1",
+                    "text": "<p>If you're not sure about continuing with the pregnancy, you can discuss this confidentially with a healthcare professional. Your options are:</p><ul><li>continuing with the pregnancy and keeping the baby</li><li>having an\u00a0<a href=\"/conditions/abortion/\">abortion</a></li><li>continuing with the pregnancy and having the baby adopted</li></ul><p>As well as a GP or a nurse at your GP surgery, you can also get accurate, confidential information\u00a0\u2013 from the age of 13\u00a0\u2013 from the following:</p><ul><li><a href=\"/nhs-services/sexual-health-services/\">sexual health services</a></li><li>the\u00a0<a href=\"https://www.msichoices.org.uk/\">MSI Reproductive Choices</a> website</li><li>the <a href=\"https://www.bpas.org/\">British Pregnancy Advisory service</a> website</li><li>the <a href=\"https://www.nupas.co.uk/\">National Unplanned Pregnancy Advisory service</a> website</li></ul><p>All these services\u00a0\u2013\u00a0including community contraceptive clinics\u00a0\u2013 are confidential. If you're 13 or older, the staff won't tell your parents. They'll encourage you to talk to your parents, but they won't force you.\u00a0</p><p>If\u00a0you're under 25 and would prefer advice\u00a0specifically for young people, the sexual health charity <a href=\"https://www.brook.org.uk/\">Brook</a>\u00a0provides a range of services for young people. The\u00a0Brook website contains information on pregnancy choices. You can also use the <a href=\"https://www.brook.org.uk/help-advice/\">Ask Brook 24/7 service</a>.</p>",
+                    "@type": "WebPageElement",
+                    "name": "markdown",
+                    "headline": "If you're not sure you want to be pregnant"
+                }
+            ],
+            "description": "",
+            "hasPart": [
+                {
+                    "position": 0,
+                    "identifier": "1",
+                    "text": "<p>If you're not sure about continuing with the pregnancy, you can discuss this confidentially with a healthcare professional. Your options are:</p><ul><li>continuing with the pregnancy and keeping the baby</li><li>having an\u00a0<a href=\"/conditions/abortion/\">abortion</a></li><li>continuing with the pregnancy and having the baby adopted</li></ul><p>As well as a GP or a nurse at your GP surgery, you can also get accurate, confidential information\u00a0\u2013 from the age of 13\u00a0\u2013 from the following:</p><ul><li><a href=\"/nhs-services/sexual-health-services/\">sexual health services</a></li><li>the\u00a0<a href=\"https://www.msichoices.org.uk/\">MSI Reproductive Choices</a> website</li><li>the <a href=\"https://www.bpas.org/\">British Pregnancy Advisory service</a> website</li><li>the <a href=\"https://www.nupas.co.uk/\">National Unplanned Pregnancy Advisory service</a> website</li></ul><p>All these services\u00a0\u2013\u00a0including community contraceptive clinics\u00a0\u2013 are confidential. If you're 13 or older, the staff won't tell your parents. They'll encourage you to talk to your parents, but they won't force you.\u00a0</p><p>If\u00a0you're under 25 and would prefer advice\u00a0specifically for young people, the sexual health charity <a href=\"https://www.brook.org.uk/\">Brook</a>\u00a0provides a range of services for young people. The\u00a0Brook website contains information on pregnancy choices. You can also use the <a href=\"https://www.brook.org.uk/help-advice/\">Ask Brook 24/7 service</a>.</p>",
+                    "@type": "WebPageElement",
+                    "name": "markdown",
+                    "headline": "If you're not sure you want to be pregnant"
+                }
+            ]
+        },
+        {
+            "identifier": "0",
+            "name": "section heading",
+            "position": 7,
+            "@type": "WebPageElement",
+            "mainEntityOfPage": [
+                {
+                    "@type": "VideoObject",
+                    "name": "Is the pregnancy test accurate?",
+                    "embedUrl": "//players.brightcove.net/79855382001/EkC1XU82e_default/index.html?videoId=5679197509001",
+                    "content_url": "https://manifest.prod.boltdns.net/manifest/v1/hls/v4/clear/1336131381001/65fd5d40-9b16-4930-9cf2-5d086dbb7b46/10s/master.m3u8?fastly_token=NjQxMjJmMjFfMTllZTVjNDI3ODRkY2NkZTQ5ZjE1OTE4NzczYWEzODdjMjc4NjBkOGQ1MDM2YTcyZTgwNGYyMDVhYWJjNzdkNQ%3D%3D&pubid=79855382001",
+                    "duration": "PT1M21.685S",
+                    "position": 0,
+                    "identifier": "14",
+                    "alternateName": "5679197509001",
+                    "description": "In this video, a midwife explains when you can take a pregnancy test and how to do it properly.",
+                    "uploadDate": "2023-02-02T15:54:34.272000+00:00",
+                    "lastReviewed": [
+                        "2023-02-02",
+                        "2026-02-02"
+                    ],
+                    "thumbnailUrl": "https://f1.media.brightcove.com/8/1336131381001/1336131381001_1629265802001_14-Isthepregnancytestaccurate-Cut4-Small.jpg?pubId=79855382001&videoId=5679197509001",
+                    "text": "<video></video><script src=\"//players.brightcove.net/79855382001/EkC1XU82e_default/index.min.js\"></script>"
+                }
+            ],
+            "description": "",
+            "hasPart": [
+                {
+                    "@type": "VideoObject",
+                    "name": "Is the pregnancy test accurate?",
+                    "embedUrl": "//players.brightcove.net/79855382001/EkC1XU82e_default/index.html?videoId=5679197509001",
+                    "content_url": "https://manifest.prod.boltdns.net/manifest/v1/hls/v4/clear/1336131381001/65fd5d40-9b16-4930-9cf2-5d086dbb7b46/10s/master.m3u8?fastly_token=NjQxMjJmMjFfMTllZTVjNDI3ODRkY2NkZTQ5ZjE1OTE4NzczYWEzODdjMjc4NjBkOGQ1MDM2YTcyZTgwNGYyMDVhYWJjNzdkNQ%3D%3D&pubid=79855382001",
+                    "duration": "PT1M21.685S",
+                    "position": 0,
+                    "identifier": "14",
+                    "alternateName": "5679197509001",
+                    "description": "In this video, a midwife explains when you can take a pregnancy test and how to do it properly.",
+                    "uploadDate": "2023-02-02T15:54:34.272000+00:00",
+                    "lastReviewed": [
+                        "2023-02-02",
+                        "2026-02-02"
+                    ],
+                    "thumbnailUrl": "https://f1.media.brightcove.com/8/1336131381001/1336131381001_1629265802001_14-Isthepregnancytestaccurate-Cut4-Small.jpg?pubId=79855382001&videoId=5679197509001",
+                    "text": "<video></video><script src=\"//players.brightcove.net/79855382001/EkC1XU82e_default/index.min.js\"></script>"
+                }
+            ]
+        }
+    ]
+}

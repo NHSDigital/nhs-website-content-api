@@ -1,0 +1,236 @@
+{
+    "@context": "http://schema.org",
+    "@type": "MedicalWebPage",
+    "name": "Very low calorie diets",
+    "copyrightHolder": {
+        "name": "Crown Copyright",
+        "@type": "Organization"
+    },
+    "license": "https://developer.api.nhs.uk/terms",
+    "author": {
+        "url": "https://www.nhs.uk",
+        "logo": "https://www.nhs.uk/nhscwebservices/documents/logo1.jpg",
+        "email": "nhswebsite.servicedesk@nhs.net",
+        "@type": "Organization",
+        "name": "NHS website"
+    },
+    "about": {
+        "@type": "WebPage",
+        "name": "Very low calorie diets",
+        "alternateName": ""
+    },
+    "description": "Find out whether a very low calorie diet can help you achieve a healthy weight, and how to use one safely.",
+    "url": "https://www.nhs.uk/live-well/healthy-weight/managing-your-weight/very-low-calorie-diets/",
+    "genre": [],
+    "keywords": "",
+    "lastReviewed": [
+        "2019-11-18T00:00:00+00:00",
+        "2022-11-18T00:00:00+00:00"
+    ],
+    "breadcrumb": {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 0,
+                "item": {
+                    "@id": "https://www.nhs.uk/live-well/",
+                    "name": "Live Well",
+                    "genre": []
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.nhs.uk/live-well/healthy-weight/",
+                    "name": "Healthy weight",
+                    "genre": []
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.nhs.uk/live-well/healthy-weight/managing-your-weight/",
+                    "name": "Managing your weight",
+                    "genre": []
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.nhs.uk/live-well/healthy-weight/managing-your-weight/very-low-calorie-diets/",
+                    "name": "Very low calorie diets",
+                    "genre": []
+                }
+            }
+        ]
+    },
+    "hasPart": [],
+    "relatedLink": [
+        {
+            "@type": "LinkRole",
+            "url": "https://www.nhs.uk/live-well/healthy-weight/managing-your-weight/",
+            "name": "Managing your weight",
+            "linkRelationship": "Navigation",
+            "position": 0
+        },
+        {
+            "@type": "LinkRole",
+            "url": "https://www.nhs.uk/live-well/healthy-weight/managing-your-weight/12-tips-to-help-you-lose-weight/",
+            "name": "12 tips to help you lose weight",
+            "linkRelationship": "Navigation",
+            "position": 1
+        },
+        {
+            "@type": "LinkRole",
+            "url": "https://www.nhs.uk/live-well/healthy-weight/managing-your-weight/how-your-gp-can-help-you-lose-weight/",
+            "name": "How your GP can help you lose weight",
+            "linkRelationship": "Navigation",
+            "position": 2
+        },
+        {
+            "@type": "LinkRole",
+            "url": "https://www.nhs.uk/live-well/healthy-weight/managing-your-weight/understanding-calories/",
+            "name": "Understanding calories",
+            "linkRelationship": "Navigation",
+            "position": 3
+        },
+        {
+            "@type": "LinkRole",
+            "url": "https://www.nhs.uk/live-well/healthy-weight/managing-your-weight/very-low-calorie-diets/",
+            "name": "Very low calorie diets",
+            "linkRelationship": "Navigation",
+            "position": 4
+        },
+        {
+            "@type": "LinkRole",
+            "url": "https://www.nhs.uk/live-well/healthy-weight/managing-your-weight/keep-weight-off/",
+            "name": "Keep weight off",
+            "linkRelationship": "Navigation",
+            "position": 5
+        },
+        {
+            "@type": "LinkRole",
+            "url": "https://www.nhs.uk/live-well/healthy-weight/managing-your-weight/ten-weight-loss-myths/",
+            "name": "10 weight loss myths",
+            "linkRelationship": "Navigation",
+            "position": 6
+        },
+        {
+            "@type": "LinkRole",
+            "url": "https://www.nhs.uk/live-well/healthy-weight/managing-your-weight/keeping-your-weight-up-in-later-life/",
+            "name": "Keeping your weight up in later life",
+            "linkRelationship": "Navigation",
+            "position": 7
+        },
+        {
+            "@type": "LinkRole",
+            "url": "https://www.nhs.uk/live-well/healthy-weight/managing-your-weight/how-to-lose-weight-in-a-wheelchair/",
+            "name": "How to lose weight in a wheelchair",
+            "linkRelationship": "Navigation",
+            "position": 8
+        },
+        {
+            "@type": "LinkRole",
+            "url": "https://www.nhs.uk/live-well/healthy-weight/managing-your-weight/managing-weight-with-a-learning-disability/",
+            "name": "Managing weight with a learning disability",
+            "linkRelationship": "Navigation",
+            "position": 9
+        },
+        {
+            "@type": "LinkRole",
+            "url": "https://www.nhs.uk/live-well/healthy-weight/managing-your-weight/advice-for-underweight-adults/",
+            "name": "Underweight adults",
+            "linkRelationship": "Navigation",
+            "position": 10
+        }
+    ],
+    "dateModified": "2023-02-10T09:16:23+00:00",
+    "mainEntityOfPage": [
+        {
+            "identifier": "0",
+            "name": "section heading",
+            "position": 0,
+            "@type": "WebPageElement",
+            "mainEntityOfPage": [
+                {
+                    "position": 0,
+                    "identifier": "1",
+                    "text": "<p><b>A very low calorie diet is a clinically supervised diet plan that involves eating about 800 calories a day or fewer. They are sometimes considered for obese and severely obese people who are managing</b> <a href=\"/conditions/diabetes/\"><b>diabetes</b></a><b>, going to have surgery or preparing for fertility treatment.</b></p><p>The diet usually involves replacing normal food with low-calorie shakes, soups, bars, or porridge containing milk.</p><p>Very low calorie diets are for adults who are obese and severely obese, defined as having a <a href=\"/live-well/healthy-weight/bmi-calculator/\">BMI</a> over 30 and 40, and need to quickly lose weight. They are not the first option to manage obesity and should not be routinely used.</p><p>Very low calorie diets should only be followed under medical supervision for a maximum of 12 weeks. Do not follow a very low calorie diet unless a GP has suggested it to you.</p>",
+                    "@type": "WebPageElement",
+                    "name": "markdown",
+                    "headline": ""
+                }
+            ],
+            "description": "",
+            "hasPart": [
+                {
+                    "position": 0,
+                    "identifier": "1",
+                    "text": "<p><b>A very low calorie diet is a clinically supervised diet plan that involves eating about 800 calories a day or fewer. They are sometimes considered for obese and severely obese people who are managing</b> <a href=\"/conditions/diabetes/\"><b>diabetes</b></a><b>, going to have surgery or preparing for fertility treatment.</b></p><p>The diet usually involves replacing normal food with low-calorie shakes, soups, bars, or porridge containing milk.</p><p>Very low calorie diets are for adults who are obese and severely obese, defined as having a <a href=\"/live-well/healthy-weight/bmi-calculator/\">BMI</a> over 30 and 40, and need to quickly lose weight. They are not the first option to manage obesity and should not be routinely used.</p><p>Very low calorie diets should only be followed under medical supervision for a maximum of 12 weeks. Do not follow a very low calorie diet unless a GP has suggested it to you.</p>",
+                    "@type": "WebPageElement",
+                    "name": "markdown",
+                    "headline": ""
+                }
+            ]
+        },
+        {
+            "identifier": "0",
+            "name": "section heading",
+            "position": 1,
+            "@type": "WebPageElement",
+            "mainEntityOfPage": [
+                {
+                    "position": 0,
+                    "identifier": "1",
+                    "text": "<p>Very low calorie diets are less likely to be nutritionally complete as they provide far fewer <a href=\"/live-well/healthy-weight/managing-your-weight/understanding-calories/\">calories</a> than needed to maintain a healthy weight. The recommended daily calories are 2,500 for men and 2,000 for women.</p><p>It is not an easy diet to follow. Side effects can include:</p><ul><li>feeling hungry</li><li>feeling low on energy</li><li>a dry mouth</li><li>constipation or diarrhoea</li><li>headaches</li><li>dizziness</li><li>cramps</li><li>hair thinning</li></ul><p>While very low calorie diets can lead to short term weight loss, it is likely that the weight will come back on after the diet ends.</p><p>Very low calorie diets are not a long-term weight management strategy and should only be used as part of a wider plan.</p>",
+                    "@type": "WebPageElement",
+                    "name": "markdown",
+                    "headline": "Very low calorie diets are hard to follow"
+                }
+            ],
+            "description": "",
+            "hasPart": [
+                {
+                    "position": 0,
+                    "identifier": "1",
+                    "text": "<p>Very low calorie diets are less likely to be nutritionally complete as they provide far fewer <a href=\"/live-well/healthy-weight/managing-your-weight/understanding-calories/\">calories</a> than needed to maintain a healthy weight. The recommended daily calories are 2,500 for men and 2,000 for women.</p><p>It is not an easy diet to follow. Side effects can include:</p><ul><li>feeling hungry</li><li>feeling low on energy</li><li>a dry mouth</li><li>constipation or diarrhoea</li><li>headaches</li><li>dizziness</li><li>cramps</li><li>hair thinning</li></ul><p>While very low calorie diets can lead to short term weight loss, it is likely that the weight will come back on after the diet ends.</p><p>Very low calorie diets are not a long-term weight management strategy and should only be used as part of a wider plan.</p>",
+                    "@type": "WebPageElement",
+                    "name": "markdown",
+                    "headline": "Very low calorie diets are hard to follow"
+                }
+            ]
+        },
+        {
+            "identifier": "0",
+            "name": "section heading",
+            "position": 2,
+            "@type": "WebPageElement",
+            "mainEntityOfPage": [
+                {
+                    "position": 0,
+                    "identifier": "1",
+                    "text": "<p>See a GP if you think a very low calorie diet may benefit you.</p><p>Very low calorie diets are not suitable if you are:</p><ul><li>under 18</li><li><a href=\"/conditions/pregnancy-and-baby/healthy-pregnancy-diet/\">pregnant</a></li><li><a href=\"/conditions/pregnancy-and-baby/breastfeeding-diet/\">breastfeeding</a></li><li>have had an <a href=\"/conditions/eating-disorders/\">eating disorder</a></li></ul><p><a href=\"/live-well/eat-well/how-to-eat-a-balanced-diet/\">Read about eating a balanced diet</a></p><p>If a GP thinks a very low calorie diet might benefit you they should make sure:</p><ul><li>the diet is nutritionally complete</li><li>the diet is followed for a maximum of 12 weeks (continuously or intermittently)</li><li>you are given ongoing support after the diet</li></ul><p>Very low calorie diets are the most restrictive form of dieting, severely reducing calorie intake, so medical supervision is important.</p><p>You may also be interested in:</p><ul><li><a href=\"/live-well/healthy-weight/managing-your-weight/\">How to diet</a></li><li><a href=\"https://www.nhs.uk/better-health/lose-weight/\">The NHS weight loss plan</a></li><li><a href=\"/live-well/eat-well/food-guidelines-and-food-labels/the-eatwell-guide/\">The Eatwell guide</a></li></ul>",
+                    "@type": "WebPageElement",
+                    "name": "markdown",
+                    "headline": "Very low calorie diets are not suitable for most people"
+                }
+            ],
+            "description": "",
+            "hasPart": [
+                {
+                    "position": 0,
+                    "identifier": "1",
+                    "text": "<p>See a GP if you think a very low calorie diet may benefit you.</p><p>Very low calorie diets are not suitable if you are:</p><ul><li>under 18</li><li><a href=\"/conditions/pregnancy-and-baby/healthy-pregnancy-diet/\">pregnant</a></li><li><a href=\"/conditions/pregnancy-and-baby/breastfeeding-diet/\">breastfeeding</a></li><li>have had an <a href=\"/conditions/eating-disorders/\">eating disorder</a></li></ul><p><a href=\"/live-well/eat-well/how-to-eat-a-balanced-diet/\">Read about eating a balanced diet</a></p><p>If a GP thinks a very low calorie diet might benefit you they should make sure:</p><ul><li>the diet is nutritionally complete</li><li>the diet is followed for a maximum of 12 weeks (continuously or intermittently)</li><li>you are given ongoing support after the diet</li></ul><p>Very low calorie diets are the most restrictive form of dieting, severely reducing calorie intake, so medical supervision is important.</p><p>You may also be interested in:</p><ul><li><a href=\"/live-well/healthy-weight/managing-your-weight/\">How to diet</a></li><li><a href=\"https://www.nhs.uk/better-health/lose-weight/\">The NHS weight loss plan</a></li><li><a href=\"/live-well/eat-well/food-guidelines-and-food-labels/the-eatwell-guide/\">The Eatwell guide</a></li></ul>",
+                    "@type": "WebPageElement",
+                    "name": "markdown",
+                    "headline": "Very low calorie diets are not suitable for most people"
+                }
+            ]
+        }
+    ]
+}

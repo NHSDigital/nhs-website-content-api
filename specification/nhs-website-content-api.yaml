@@ -18,8 +18,7 @@ info:
       * information about NHS services
 
     You cannot currently use this API to:
-      * access data from NHS Services
-      * access Ratings and Reviews of NHS organisations submitted to the NHS website
+      * [find services near you](https://www.nhs.uk/nhs-services/services-near-you/)
 
     ## Who can use this API
     Anyone can use this API. Users need to agree to our [terms and conditions](https://developer.api.nhs.uk/about/terms)
@@ -27,35 +26,18 @@ info:
     ## Related APIs
     The following APIs also give access to data from the NHS website:
       - Service Search API
-      - Ratings and Reviews API
 
     ## API status and roadmap
-    This API has been moved from the nhs.uk developer API website. It is currently in Alpha phase. If you are an existing user, you need to sign up for the API in the new API Platform.
+    This API has moved from the nhs.uk developer API website. It is currently in development. If you are an existing user, you need to sign up for the API in the new [developer hub](https://digital.nhs.uk/developer).
 
     ## Service level
 
-    This API is a gold service, meaning that it is operational and supported 24 x 7 x 365
-
-    For more details, see [service levels](https://digital.nhs.uk/developer/guides-and-documentation/reference-guide#service-levels).
+    This API is a [gold service](https://digital.nhs.uk/developer/guides-and-documentation/reference-guide#service-levels), meaning that it is operational and supported 24 x 7 x 365
 
     ## Technology
     This API is [RESTful](https://digital.nhs.uk/developer/guides-and-documentation/our-api-technologies#basic-rest).
 
-    page objects conform to global [schema.org](https://schema.org/) standards.
-
-    The content API is driven by the main nhs.uk Wagtail cms application. An endpoint exists for all pages underneath the homepage.
-
-    ## Endpoints
-    The main sections of the site are:
-    - /conditions
-    - /medicines
-    - /live-well
-    - /mental-health
-    - /common-health-questions
-    - /pregnancy
-    - /nhs-services
-
-    All pages under these urls also have endpoints
+    Page objects conform to global [schema.org](https://schema.org/) standards.
 
     ## Network access
     No special network access is required for this API. It is available over the internet.
@@ -63,7 +45,7 @@ info:
     ## Security and authorisation
     This API is [application-restricted](https://digital.nhs.uk/developer/guides-and-documentation/security-and-authorisation#application-restricted-apis), meaning we authenticate the calling application but not the end user.
 
-    The end user will need to provide a API key in the header or as a query parameter in requests.
+    You must provide a API key in the header.
 
     ## Environments and testing
     | Environment       | Base URL                                                               |
@@ -79,36 +61,15 @@ info:
     * contains a replica of our live data, but has a reduced call rate
 
     ## Onboarding
-    You need to sign up via the API platform to recieve your key.
-    (TODO add more details here)
-
-    ## Caching
-    Caching all content supplied through our API is recommended where possible. Unless otherwise notified by the syndication team, you should refresh cached content at least once every 7 days. If instructed to refresh cached our content, you must do so immediately.
-
-    ## Usage Caps
-    When using a trial API key, you will only be able to run 10 calls/minute up to a maximum of 1,000 calls per month. A full API subscription caps usage at 4,000 calls per hour. You are not to call the APIs over 4,000 times in any one-hour period, unless you have notified the syndication team in advance and they have confirmed in writing that you can do so.
-
-    ## Standard licence terms
-    By using the NHS website syndicated content, you agree to be bound by the standard licence terms.
-
-    ## Your contact details
-    You must provide accurate contact details that must be kept up to date while you are using our content. Failure to keep contact details updated is a breach of our licence terms and may result in your API subscription being disabled. You can check your details on your profile.
-
-    ## Attribution
-    Any syndicated content must incorporate the following attribution (credit) to the NHS website:
-
-    ![NHS logo with attribution](../static/images/nhs_attribution.png)
-
-    The logo should be clearly visible and in line with the associated content on every web page that contains the syndicated content. You should also link this logo to the relevant page on the NHS website that the content has been supplied from. This URL is supplied as part of the feed under author:
+    You need to sign up via the developer hub to recieve your API key. Additional onboarding information exists on the [developer hub](https://digital.nhs.uk//developer/api-catalogue/nhs-syndicated-content/onboarding-support-information)
 
     ## Errors
-
     We have standard error codes for 200 to 299 if it succeeded, including code 202 if it was accepted by an API that needs to wait for further action
 
-    Currently, our Akamai cache provides other error codes in the form of a webpage.
+    Currently, our Akamai cache provides errors in the form of a webpage.
     In future we plan to serve error codes via the API.
 
-    Errors specific to each API are shown in the Endpoints section, under Response. See our [reference guide](https://digital.nhs.uk/developer/guides-and-documentation/reference-guide#http-status-codes) for more on errors.
+    Errors specific to each endpoint are shown in the endpoints section, under response. See our [reference guide](https://digital.nhs.uk/developer/guides-and-documentation/reference-guide#http-status-codes) for more on errors.
 
   contact:
     name: "nhs-website-content-api API Support"
@@ -128,9 +89,9 @@ paths:
       operationId: get-conditions
       description: |
         ## Overview
-        Use this endpoint to get details of pages in the Health A to Z.
+        Use this endpoint to get details of pages in the [Health A to Z](https://www.nhs.uk/conditions/).
 
-        Passing in no parameters will return all pages under 'conditions'.
+        Passing in no parameters returns all pages under 'conditions'.
 
         The response is limited to 25 child pages and is paginated.
 
@@ -176,7 +137,8 @@ paths:
       summary: Get details of condition page
       operationId: get-condition-page
       description: |
-        There is an endpoint for each page under the Health A to Z e.g. conditions/chickenpox
+        ## Overview
+        There is an endpoint for each page under the Health A to Z for example https://www.nhs.uk/conditions/chickenpox
 
         This can be used to get specific information about individual topics.
 
@@ -187,7 +149,7 @@ paths:
         | modules           | If topic is modularised, only return these modules                     | boolean     |
 
         # Modularisation
-        Some of our content has been modularised, meaning that individual parts of the page can be reused. If a page has been modularised, content will appear in the 'hasPart' field.
+        We modularise some of our content, meaning that individual parts of the page can be reused. If a page is modularised, content appears in the `hasPart` field.
       parameters:
         - $ref: "#/components/parameters/modules"
     responses:
@@ -231,9 +193,12 @@ paths:
         | orderBy           | works alongside startDate and endDate (details below)                    | string      |
 
         ## Ordering by dates
-        The orderBy parameter can be 'dateModified', 'lastReviewed' and 'nextReview'. By default if any are chosen the results will be newest first.
 
-        However, the orderBy parameter can be used in conjunction with the startDate and endDate parameters to filter down to the desired date. startDate and endDate should be given in the YYYY-MM-DD format.
+        The orderBy parameter can be `dateModified`, `lastReviewed` and `nextReview`. By default if any of the `orderBy` parameters are chosen the results will be newest first.
+
+        However, the `orderBy` parameter can be used with the `startDate` and `endDate` parameters to filter down to the desired date. `startDate` and `endDate` should be given in the YYYY-MM-DD format.
+
+        for example `https://api.nhs.uk/medicines?subscription-key=xxx&startDate=2022-01-01&orderBy=dateModified`
 
       parameters:
         - $ref: "#/components/parameters/startDate"
@@ -259,12 +224,13 @@ paths:
                 $ref: components/examples/Medicines.json
   /medicines/*:
     parameters:
-      - $ref: "#/components/parameters/subscription-key"
+      - $ref: "#/components/parameters/apikey"
     get:
       summary: Get specific medicines pages
       operationId: get-medicine-page
       description: |
-        There is an endpoint for each page under the Medicines A to Z e.g. /medicines/amoxicillin
+        ## Overview
+        There is an endpoint for each page under the Medicines A to Z e.g. https://www.nhs.uk/medicines/amoxicillin
 
         This can be used to get specific information about individual medicines.
       responses:
@@ -289,11 +255,13 @@ paths:
       summary: Get content from the mental health hub
       operationId: get-mental-health
       description: |
-        The mental health hub contains a number of navigational and content pages.
+        ## Overview
 
-        The content of the page can be taken from mainEntityOfPage. This includes the navigational patterns to child pages
+        The [mental health hub](https://www.nhs.uk/mental-health/) contains a number of navigational and content pages.
 
-        At the top level, child modularised content is highlighted by the hasPart field. In child pages, only the individual page will be highlighted
+        The content of the page can be taken from the `mainEntityOfPage` part of the response. This includes the navigational links to child pages.
+
+        At the top level, modularised content of child pages is highlighted by the `hasPart` field. In child pages, only the individual page will be shown.
 
       responses:
         "200":
@@ -309,7 +277,7 @@ paths:
               schema:
                 $ref: "#/components/schemas/MentalHealth"
               example:
-                $ref: components/examples/MedicinePage.json
+                $ref: components/examples/MentalHealthPage.json
   /pregnancy:
     parameters:
       - $ref: "#/components/parameters/subscription-key"
@@ -317,11 +285,13 @@ paths:
       summary: Get content from the pregnancy hub
       operationId: get-pregnancy
       description: |
+        ## Overview
+
         The pregnancy hub contains a number of navigational and content pages.
 
-        The content of the page can be taken from mainEntityOfPage. This includes the navigational patterns to child pages
+        The content of the page can be taken from `mainEntityOfPage`. This includes the navigational patterns to child pages
 
-        At the top level, child modularised content is highlighted by the hasPart field. In child pages, only the individual page will be highlighted
+        At the top level, child modularised content is highlighted by the `hasPart` field. In child pages, only the individual page will be highlighted
 
       responses:
         "200":
@@ -345,7 +315,9 @@ paths:
       summary: Get content from the common health questions hub.
       operationId: get-common-health-questions
       description: |
-        The common health questions hub contains a number of navigational and content pages.
+        ## Overview
+
+        The [common health questions hub](https://www.nhs.uk/common-health-questions/) contains a number of navigational and content pages.
 
         The main page contains significant links to topic pages, which then contain significant links to the content pages
 
@@ -371,14 +343,15 @@ paths:
       - $ref: "#/components/parameters/subscription-key"
     get:
       summary: Get content from the Live Well hub.
-      operationId: get-common-health-questions
+      operationId: get-live-well
       description: |
-        The Live Well hub contains a number of navigational and content pages.
+        ## Overview
 
-        The content of the page can be taken from mainEntityOfPage. This includes the navigational patterns to child pages
+        The [Live Well hub](https://www.nhs.uk/live-well/) contains a number of navigational and content pages.
 
-        At the top level, child modularised content is highlighted by the hasPart field. In child pages, only the individual page will be highlighted
+        The content of the page can be taken from the `mainEntityOfPage` part of the response. This includes the navigational links to child pages.
 
+        At the top level, modularised content of child pages is highlighted by the `hasPart` field. In child pages, only the individual page will be shown.
       responses:
         "200":
           description: |
