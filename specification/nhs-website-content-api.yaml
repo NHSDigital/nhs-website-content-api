@@ -83,7 +83,13 @@ servers:
 paths:
   /conditions:
     parameters:
-      - $ref: "#/components/parameters/subscription-key"
+      - $ref: "#/components/parameters/apiKey"
+      - $ref: "#/components/parameters/order"
+      - $ref: "#/components/parameters/page"
+      - $ref: "#/components/parameters/category"
+      - $ref: "#/components/parameters/synonyms"
+      - $ref: "#/components/parameters/childArticles"
+      - $ref: "#/components/parameters/status"
     get:
       summary: Get all pages in the [Health A to Z](https://www.nhs.uk/conditions)
       operationId: get-conditions
@@ -103,36 +109,26 @@ paths:
         | page              | Page number, used to filter paginated results                          | int         |
         | category          | Filters child pages by letters A-Z.                                    | string      |
         | synonyms          | Include multiple listings for pages with more than one name            | boolean     |
-        | genre             | Filters by condition, guide or hub.                                    | string      |
         | childArticles     | Include child pages of a topic within results under property subjectOf | boolean     |
-        | status            | "published" or "unpublished"                                           | string      |
+        | status            | Filter by "published" or "unpublished"                                 | string      |
 
-      parameters:
-        - $ref: "#/components/parameters/order"
-        - $ref: "#/components/parameters/page"
-        - $ref: "#/components/parameters/category"
-        - $ref: "#/components/parameters/synonyms"
-        - $ref: "#/components/parameters/genre"
-        - $ref: "#/components/parameters/childArticles"
-        - $ref: "#/components/parameters/status"
       responses:
         "200":
           description: |
             A valid query for the conditions.
           headers:
-            X-Correlation-Id:
-              $ref: "#/components/headers/X-Correlation-Id"
-            X-Request-Id:
-              $ref: "#/components/headers/X-Request-Id"
+            apiKey:
+              $ref: "#/components/headers/apiKey"
           content:
             application/schema+json:
               schema:
-                $ref: "#/components/schemas/Conditions"
+                $ref: components/schemas/WebPage.json
               example:
-                $ref: components/examples/Conditions.json
+                $ref: components/examples/ConditionsHealthAToZ.json
   /conditions/*:
     parameters:
-      - $ref: "#/components/parameters/subscription-key"
+      - $ref: "#/components/parameters/apiKey"
+      - $ref: "#/components/parameters/modules"
     get:
       summary: Get details of condition page
       operationId: get-condition-page
@@ -150,26 +146,28 @@ paths:
 
         # Modularisation
         We modularise some of our content, meaning that individual parts of the page can be reused. If a page is modularised, content appears in the `hasPart` field.
-      parameters:
-        - $ref: "#/components/parameters/modules"
-    responses:
-      "200":
-        description: |
-          A valid query which returns a page object for the chosen page
-        headers:
-          X-Correlation-Id:
-            $ref: "#/components/headers/X-Correlation-Id"
-          X-Request-Id:
-            $ref: "#/components/headers/X-Request-Id"
-        content:
-          application/schema+json:
-            schema:
-              $ref: "#/components/schemas/ConditionPage"
-            example:
-              $ref: components/examples/ConditionPage.json
+      responses:
+        "200":
+          description: |
+            A valid query which returns a page object for the chosen page
+          headers:
+            apiKey:
+              $ref: "#/components/headers/apiKey"
+          content:
+            application/schema+json:
+              schema:
+                $ref: components/schemas/WebPage.json
+              example:
+                $ref: components/examples/ConditionsContentPage.json
   /medicines:
     parameters:
-      - $ref: "#/components/parameters/subscription-key"
+      - $ref: "#/components/parameters/apiKey"
+      - $ref: "#/components/parameters/startDate"
+      - $ref: "#/components/parameters/endDate"
+      - $ref: "#/components/parameters/order"
+      - $ref: "#/components/parameters/page"
+      - $ref: "#/components/parameters/category"
+      - $ref: "#/components/parameters/orderBy"
     get:
       summary: Get all pages in the [Medicines A to Z](https://www.nhs.uk/medicines)
       operationId: get-medicines
@@ -198,33 +196,24 @@ paths:
 
         However, the `orderBy` parameter can be used with the `startDate` and `endDate` parameters to filter down to the desired date. `startDate` and `endDate` should be given in the YYYY-MM-DD format.
 
-        for example `https://api.nhs.uk/medicines?subscription-key=xxx&startDate=2022-01-01&orderBy=dateModified`
+        for example `https://api.nhs.uk/medicines?apiKey=xxx&startDate=2022-01-01&orderBy=dateModified`
 
-      parameters:
-        - $ref: "#/components/parameters/startDate"
-        - $ref: "#/components/parameters/endDate"
-        - $ref: "#/components/parameters/order"
-        - $ref: "#/components/parameters/page"
-        - $ref: "#/components/parameters/category"
-        - $ref: "#/components/parameters/orderBy"
       responses:
         "200":
           description: |
             A valid query for medicines.
           headers:
-            X-Correlation-Id:
-              $ref: "#/components/headers/X-Correlation-Id"
-            X-Request-Id:
-              $ref: "#/components/headers/X-Request-Id"
+            apiKey:
+              $ref: "#/components/headers/apiKey"
           content:
             application/schema+json:
               schema:
-                $ref: "#/components/schemas/Medicines"
+                $ref: components/schemas/WebPage.json
               example:
-                $ref: components/examples/Medicines.json
+                $ref: components/examples/MedicinesAToZ.json
   /medicines/*:
     parameters:
-      - $ref: "#/components/parameters/apikey"
+      - $ref: "#/components/parameters/apiKey"
     get:
       summary: Get specific medicines pages
       operationId: get-medicine-page
@@ -238,19 +227,17 @@ paths:
           description: |
             A valid query for medicines.
           headers:
-            X-Correlation-Id:
-              $ref: "#/components/headers/X-Correlation-Id"
-            X-Request-Id:
-              $ref: "#/components/headers/X-Request-Id"
+            apiKey:
+              $ref: "#/components/headers/apiKey"
           content:
             application/schema+json:
               schema:
-                $ref: "#/components/schemas/Medicines"
+                $ref: components/schemas/WebPage.json
               example:
-                $ref: components/examples/Medicines.json
+                $ref: components/examples/MedicinesContentPage.json
   /mental-health:
     parameters:
-      - $ref: "#/components/parameters/subscription-key"
+      - $ref: "#/components/parameters/apiKey"
     get:
       summary: Get content from the mental health hub
       operationId: get-mental-health
@@ -268,19 +255,17 @@ paths:
           description: |
             A valid query for the mental health hub.
           headers:
-            X-Correlation-Id:
-              $ref: "#/components/headers/X-Correlation-Id"
-            X-Request-Id:
-              $ref: "#/components/headers/X-Request-Id"
+            apiKey:
+              $ref: "#/components/headers/apiKey"
           content:
             application/schema+json:
               schema:
-                $ref: "#/components/schemas/MentalHealth"
+                $ref: components/schemas/WebPage.json
               example:
-                $ref: components/examples/MentalHealthPage.json
+                $ref: components/examples/MentalHealthHubPage.json
   /pregnancy:
     parameters:
-      - $ref: "#/components/parameters/subscription-key"
+      - $ref: "#/components/parameters/apiKey"
     get:
       summary: Get content from the pregnancy hub
       operationId: get-pregnancy
@@ -298,19 +283,17 @@ paths:
           description: |
             A valid query for the pregnancy hub.
           headers:
-            X-Correlation-Id:
-              $ref: "#/components/headers/X-Correlation-Id"
-            X-Request-Id:
-              $ref: "#/components/headers/X-Request-Id"
+            apiKey:
+              $ref: "#/components/headers/apiKey"
           content:
             application/schema+json:
               schema:
-                $ref: "#/components/schemas/Pregnancy"
+                $ref: components/schemas/WebPage.json
               example:
-                $ref: components/examples/PregnancyPage.json
+                $ref: components/examples/PregnancyHubPage.json
   /common-health-questions:
     parameters:
-      - $ref: "#/components/parameters/subscription-key"
+      - $ref: "#/components/parameters/apiKey"
     get:
       summary: Get content from the common health questions hub.
       operationId: get-common-health-questions
@@ -328,19 +311,17 @@ paths:
           description: |
             A valid query for the common health questions pages.
           headers:
-            X-Correlation-Id:
-              $ref: "#/components/headers/X-Correlation-Id"
-            X-Request-Id:
-              $ref: "#/components/headers/X-Request-Id"
+            apiKey:
+              $ref: "#/components/headers/apiKey"
           content:
             application/schema+json:
               schema:
-                $ref: "#/components/schemas/CommonHealthQuestions"
+                $ref: components/schemas/WebPage.json
               example:
-                $ref: components/examples/CommonHealthQuestions.json
+                $ref: components/examples/CommonHealthQuestionsHubPage.json
   /live-well:
     parameters:
-      - $ref: "#/components/parameters/subscription-key"
+      - $ref: "#/components/parameters/apiKey"
     get:
       summary: Get content from the Live Well hub.
       operationId: get-live-well
@@ -357,13 +338,104 @@ paths:
           description: |
             A valid query for the Live Well pages.
           headers:
-            X-Correlation-Id:
-              $ref: "#/components/headers/X-Correlation-Id"
-            X-Request-Id:
-              $ref: "#/components/headers/X-Request-Id"
+            apiKey:
+              $ref: "#/components/headers/apiKey"
           content:
             application/schema+json:
               schema:
-                $ref: "#/components/schemas/LiveWell"
+                $ref: components/schemas/WebPage.json
               example:
-                $ref: components/examples/LiveWell.json
+                $ref: components/examples/LiveWellHubPage.json
+components:
+  headers:
+    apiKey:
+      $ref: 'components/schemas/apiKey.yaml'
+  parameters:
+    apiKey:
+      name: api_key
+      in: query
+      description: The api key required to send a successful request.
+      required: true
+      schema:
+        type: string
+        example: "11C46F5F-CDEF-4865-94B2-0EE0EDCC26DA"
+    startDate:
+      name: start_date
+      in: query
+      description: Earliest date filter, works with orderBy.
+      required: false
+      schema:
+        type: string
+        example: "2020-01-01"
+    endDate:
+      name: end_date
+      in: query
+      description: Latest date filter, works with orderBy.
+      required: false
+      schema:
+        type: string
+        example: "2021-01-01"
+    order:
+      name: order
+      in: query
+      description: Order by newest or oldest.
+      required: false
+      schema:
+        type: string
+        example: "newest"
+    page:
+      name: page
+      in: query
+      description: Page number, used to filter paginated results.
+      required: false
+      schema:
+        type: string
+        example: "1"
+    category:
+      name: category
+      in: query
+      description: Filters child pages by letters A-Z.
+      required: false
+      schema:
+        type: string
+        example: "A"
+    orderBy:
+      name: order_by
+      in: query
+      description: works alongside startDate and endDate. Options are `dateModified`, `lastReviewed` and `nextReview`.
+      required: false
+      schema:
+        type: string
+        example: "lastReviewed"
+    synonyms:
+      name: synonyms
+      in: query
+      description: Include multiple listings for pages with more than one name.
+      required: false
+      schema:
+        type: boolean
+        example: true
+    childArticles:
+      name: child_articles
+      in: query
+      description: Include child pages of a topic within results under property subjectOf.
+      required: false
+      schema:
+        type: boolean
+        example: true
+    status:
+      name: status
+      in: query
+      description: Filter by "published" or "unpublished".
+      required: false
+      schema:
+        type: string
+        example: "published"
+    modules:
+      name: modules
+      in: query
+      description: If topic is modularised, only return these modules.
+      required: false
+      schema:
+        type: boolean
+        example: true
