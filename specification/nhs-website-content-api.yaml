@@ -349,7 +349,7 @@ paths:
 components:
   headers:
     apiKey:
-      $ref: 'components/schemas/apiKey.yaml'
+      $ref: components/schemas/ApiKey.yaml
   parameters:
     apiKey:
       name: api_key
