@@ -64,10 +64,9 @@ info:
     You need to sign up via the developer hub to recieve your API key. Additional onboarding information exists on the [developer hub](https://digital.nhs.uk//developer/api-catalogue/nhs-syndicated-content/onboarding-support-information)
 
     ## Errors
-    We have standard error codes for 200 to 299 if it succeeded, including code 202 if it was accepted by an API that needs to wait for further action
+    We have standard error codes for 200 to 299 if it succeeded, including code 202 if it was accepted by an API that needs to wait for further action.
 
-    Currently, our Akamai cache provides errors in the form of a webpage.
-    In future we plan to serve error codes via the API.
+    We have error codes for 400 to 422 to aid with debugging any potential issues
 
     Errors specific to each endpoint are shown in the endpoints section, under response. See our [reference guide](https://digital.nhs.uk/developer/guides-and-documentation/reference-guide#http-status-codes) for more on errors.
 
@@ -113,7 +112,7 @@ paths:
         | status            | Filter by "published" or "unpublished"                                 | string      |
 
       responses:
-        "200":
+        '200':
           description: |
             A valid query for the conditions.
           headers:
@@ -125,6 +124,16 @@ paths:
                 $ref: components/schemas/WebPage.json
               example:
                 $ref: components/examples/ConditionsHealthAToZ.json
+        '4XX':
+          description: |
+            An error occurred as follows:
+
+            | HTTP status | Error code                 | Description |
+            | ----------- | -------------------------- | --------------------------------------------- |
+            | 401         | ACCESS_DENIED              | ApiKey missing, invalid or expired, or calling application not configured for this operation. |
+            | 403         | ACCESS_DENIED              | User cannot perform this action. |
+            | 404         | RESOURCE_NOT_FOUND         | Page not found. |
+            | 429         | TOO_MANY_REQUESTS          | You have exceeded your application's [rate limit](https://digital.nhs.uk/developer/guides-and-documentation/reference-guide#rate-limits). |
   /conditions/*:
     parameters:
       - $ref: "#/components/parameters/apiKey"
@@ -147,7 +156,7 @@ paths:
         # Modularisation
         We modularise some of our content, meaning that individual parts of the page can be reused. If a page is modularised, content appears in the `hasPart` field.
       responses:
-        "200":
+        '200':
           description: |
             A valid query which returns a page object for the chosen page
           headers:
@@ -159,6 +168,16 @@ paths:
                 $ref: components/schemas/WebPage.json
               example:
                 $ref: components/examples/ConditionsContentPage.json
+        '4XX':
+          description: |
+            An error occurred as follows:
+
+            | HTTP status | Error code                 | Description |
+            | ----------- | -------------------------- | --------------------------------------------- |
+            | 401         | ACCESS_DENIED              | ApiKey missing, invalid or expired, or calling application not configured for this operation. |
+            | 403         | ACCESS_DENIED              | User cannot perform this action. |
+            | 404         | RESOURCE_NOT_FOUND         | Page not found. |
+            | 429         | TOO_MANY_REQUESTS          | You have exceeded your application's [rate limit](https://digital.nhs.uk/developer/guides-and-documentation/reference-guide#rate-limits). |
   /medicines:
     parameters:
       - $ref: "#/components/parameters/apiKey"
@@ -199,7 +218,7 @@ paths:
         for example `https://api.nhs.uk/medicines?apiKey=xxx&startDate=2022-01-01&orderBy=dateModified`
 
       responses:
-        "200":
+        '200':
           description: |
             A valid query for medicines.
           headers:
@@ -211,6 +230,16 @@ paths:
                 $ref: components/schemas/WebPage.json
               example:
                 $ref: components/examples/MedicinesAToZ.json
+        '4XX':
+          description: |
+            An error occurred as follows:
+
+            | HTTP status | Error code                 | Description |
+            | ----------- | -------------------------- | --------------------------------------------- |
+            | 401         | ACCESS_DENIED              | ApiKey missing, invalid or expired, or calling application not configured for this operation. |
+            | 403         | ACCESS_DENIED              | User cannot perform this action. |
+            | 404         | RESOURCE_NOT_FOUND         | Page not found. |
+            | 429         | TOO_MANY_REQUESTS          | You have exceeded your application's [rate limit](https://digital.nhs.uk/developer/guides-and-documentation/reference-guide#rate-limits). |
   /medicines/*:
     parameters:
       - $ref: "#/components/parameters/apiKey"
@@ -223,7 +252,7 @@ paths:
 
         This can be used to get specific information about individual medicines.
       responses:
-        "200":
+        '200':
           description: |
             A valid query for medicines.
           headers:
@@ -235,6 +264,16 @@ paths:
                 $ref: components/schemas/WebPage.json
               example:
                 $ref: components/examples/MedicinesContentPage.json
+        '4XX':
+          description: |
+            An error occurred as follows:
+
+            | HTTP status | Error code                 | Description |
+            | ----------- | -------------------------- | --------------------------------------------- |
+            | 401         | ACCESS_DENIED              | ApiKey missing, invalid or expired, or calling application not configured for this operation. |
+            | 403         | ACCESS_DENIED              | User cannot perform this action. |
+            | 404         | RESOURCE_NOT_FOUND         | Page not found. |
+            | 429         | TOO_MANY_REQUESTS          | You have exceeded your application's [rate limit](https://digital.nhs.uk/developer/guides-and-documentation/reference-guide#rate-limits). |
   /mental-health:
     parameters:
       - $ref: "#/components/parameters/apiKey"
@@ -251,7 +290,7 @@ paths:
         At the top level, modularised content of child pages is highlighted by the `hasPart` field. In child pages, only the individual page will be shown.
 
       responses:
-        "200":
+        '200':
           description: |
             A valid query for the mental health hub.
           headers:
@@ -263,6 +302,16 @@ paths:
                 $ref: components/schemas/WebPage.json
               example:
                 $ref: components/examples/MentalHealthHubPage.json
+        '4XX':
+          description: |
+            An error occurred as follows:
+
+            | HTTP status | Error code                 | Description |
+            | ----------- | -------------------------- | --------------------------------------------- |
+            | 401         | ACCESS_DENIED              | ApiKey missing, invalid or expired, or calling application not configured for this operation. |
+            | 403         | ACCESS_DENIED              | User cannot perform this action. |
+            | 404         | RESOURCE_NOT_FOUND         | Page not found. |
+            | 429         | TOO_MANY_REQUESTS          | You have exceeded your application's [rate limit](https://digital.nhs.uk/developer/guides-and-documentation/reference-guide#rate-limits). |
   /pregnancy:
     parameters:
       - $ref: "#/components/parameters/apiKey"
@@ -279,7 +328,7 @@ paths:
         At the top level, child modularised content is highlighted by the `hasPart` field. In child pages, only the individual page will be highlighted
 
       responses:
-        "200":
+        '200':
           description: |
             A valid query for the pregnancy hub.
           headers:
@@ -291,6 +340,16 @@ paths:
                 $ref: components/schemas/WebPage.json
               example:
                 $ref: components/examples/PregnancyHubPage.json
+        '4XX':
+          description: |
+            An error occurred as follows:
+
+            | HTTP status | Error code                 | Description |
+            | ----------- | -------------------------- | --------------------------------------------- |
+            | 401         | ACCESS_DENIED              | ApiKey missing, invalid or expired, or calling application not configured for this operation. |
+            | 403         | ACCESS_DENIED              | User cannot perform this action. |
+            | 404         | RESOURCE_NOT_FOUND         | Page not found. |
+            | 429         | TOO_MANY_REQUESTS          | You have exceeded your application's [rate limit](https://digital.nhs.uk/developer/guides-and-documentation/reference-guide#rate-limits). |
   /common-health-questions:
     parameters:
       - $ref: "#/components/parameters/apiKey"
@@ -307,7 +366,7 @@ paths:
         Content pages use the 'question' schema.org [question](https://schema.org/Question) property.
 
       responses:
-        "200":
+        '200':
           description: |
             A valid query for the common health questions pages.
           headers:
@@ -319,6 +378,16 @@ paths:
                 $ref: components/schemas/WebPage.json
               example:
                 $ref: components/examples/CommonHealthQuestionsHubPage.json
+        '4XX':
+          description: |
+            An error occurred as follows:
+
+            | HTTP status | Error code                 | Description |
+            | ----------- | -------------------------- | --------------------------------------------- |
+            | 401         | ACCESS_DENIED              | ApiKey missing, invalid or expired, or calling application not configured for this operation. |
+            | 403         | ACCESS_DENIED              | User cannot perform this action. |
+            | 404         | RESOURCE_NOT_FOUND         | Page not found. |
+            | 429         | TOO_MANY_REQUESTS          | You have exceeded your application's [rate limit](https://digital.nhs.uk/developer/guides-and-documentation/reference-guide#rate-limits). |
   /live-well:
     parameters:
       - $ref: "#/components/parameters/apiKey"
@@ -334,7 +403,7 @@ paths:
 
         At the top level, modularised content of child pages is highlighted by the `hasPart` field. In child pages, only the individual page will be shown.
       responses:
-        "200":
+        '200':
           description: |
             A valid query for the Live Well pages.
           headers:
@@ -346,6 +415,16 @@ paths:
                 $ref: components/schemas/WebPage.json
               example:
                 $ref: components/examples/LiveWellHubPage.json
+        '4XX':
+          description: |
+            An error occurred as follows:
+
+            | HTTP status | Error code                 | Description |
+            | ----------- | -------------------------- | --------------------------------------------- |
+            | 401         | ACCESS_DENIED              | ApiKey missing, invalid or expired, or calling application not configured for this operation. |
+            | 403         | ACCESS_DENIED              | User cannot perform this action. |
+            | 404         | RESOURCE_NOT_FOUND         | Page not found. |
+            | 429         | TOO_MANY_REQUESTS          | You have exceeded your application's [rate limit](https://digital.nhs.uk/developer/guides-and-documentation/reference-guide#rate-limits). |
 components:
   headers:
     apiKey:
