@@ -222,7 +222,7 @@ paths:
 
         ## Ordering by dates
 
-        The `orderBy`` parameter can be `dateModified`, `lastReviewed` and `nextReview`. By default if any of the `orderBy` parameters are chosen the results are sorted by newest first.
+        The `orderBy` parameter can be `dateModified`, `lastReviewed` and `nextReview`. By default if any of the `orderBy` parameters are chosen the results are sorted by newest first.
 
         However, the `orderBy` parameter can be used with the `startDate` and `endDate` parameters to filter down to the desired date. `startDate` and `endDate` should be given in the YYYY-MM-DD format.
 
