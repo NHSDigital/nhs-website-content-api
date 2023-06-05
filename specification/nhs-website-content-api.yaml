@@ -23,12 +23,8 @@ info:
     ## Who can use this API
     Anyone can use this API. Users need to agree to our [terms and conditions](https://developer.api.nhs.uk/about/terms)
 
-    ## Related APIs
-    The following APIs also give access to data from the NHS website:
-      - [Service Search API](https://developer.api.nhs.uk/nhs-api#service-search-organisations-2)
-
     ## API status and roadmap
-    This API has moved from the nhs.uk developer API website. It is currently [in development](https://digital.nhs.uk/developer/guides-and-documentation/reference-guide#statuses).
+    This API has moved from the [NHS website developer portal](https://developer.api.nhs.uk/). It is currently [in development](https://digital.nhs.uk/developer/guides-and-documentation/reference-guide#statuses).
 
     ## Service level
 
@@ -64,7 +60,7 @@ info:
 
     * is for formal integration testing.
     * includes application authentication
-    * contains a replica of our live data, but has a reduced call rate (link to rate limiting in reference guide)
+    * contains a replica of our live data, but has a [reduced call rate](https://digital.nhs.uk/developer/guides-and-documentation/reference-guide#rate-limits)
 
     ## Onboarding
     The onboarding journey for this API is currently in development.
