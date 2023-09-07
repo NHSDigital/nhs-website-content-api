@@ -1,0 +1,7 @@
+<KeyValueMapOperations name="KeyValueMapOperations.GetSubscriptionKey" mapIdentifier="service-search">
+   <Get assignTo="private.subscriptionKey" index='1'>
+      <Key>
+         <Parameter>subscription-key</Parameter>
+      </Key>
+   </Get>
+</KeyValueMapOperations>

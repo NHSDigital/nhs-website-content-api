@@ -6,10 +6,13 @@ for more ideas on how to test the authorization of your API.
 import requests
 import pytest
 from os import getenv
+import os
 
 
 @pytest.mark.smoketest
 def test_ping(nhsd_apim_proxy_url):
+    os.environ["PROXY_NAME"] = "dev"
+    # print(env)
     resp = requests.get(f"{nhsd_apim_proxy_url}/_ping")
     assert resp.status_code == 200
 
