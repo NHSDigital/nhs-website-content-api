@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<RaiseFault async="false" continueOnError="false" enabled="true" name="RaiseFault.InvalidAPIKey">
+    <DisplayName>RaiseFault.InvalidAPIKey</DisplayName>
+    <Properties/>
+    <FaultResponse>
+        <Set>
+            <Headers/>
+            <Payload contentType="application/json">
+                {
+                    statusCode: 401,
+                    message: "API key invalid"
+                }
+            </Payload>
+            <StatusCode>401</StatusCode>
+            <ReasonPhrase>Access Denied</ReasonPhrase>
+        </Set>
+    </FaultResponse>
+    <IgnoreUnresolvedVariables>true</IgnoreUnresolvedVariables>
+</RaiseFault>

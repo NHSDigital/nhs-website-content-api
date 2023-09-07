@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<AssignMessage continueOnError="false" enabled="true" name="AssignMessage.AddSubscriptionKey" async="false">
+  <AssignTo createNew="false" type="request"/>
+  <Add>
+    <Headers>
+      <Header name="subscription-key">{private.subscriptionKey}</Header>
+    </Headers>
+  </Add>
+  <IgnoreUnresolvedVariables>false</IgnoreUnresolvedVariables>
+</AssignMessage>
