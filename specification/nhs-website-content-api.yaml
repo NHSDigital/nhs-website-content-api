@@ -23,12 +23,8 @@ info:
     ## Who can use this API
     Anyone can use this API. Users need to agree to our [terms and conditions](https://developer.api.nhs.uk/about/terms)
 
-    ## Related APIs
-    The following APIs also give access to data from the NHS website:
-      - Service Search API
-
     ## API status and roadmap
-    This API has moved from the nhs.uk developer API website. It is currently in development. If you are an existing user, you need to sign up for the API in the new [developer hub](https://digital.nhs.uk/developer).
+    This API has moved from the [NHS website developer portal](https://developer.api.nhs.uk/). It is currently [in development](https://digital.nhs.uk/developer/guides-and-documentation/reference-guide#statuses).
 
     ## Service level
 
@@ -40,33 +36,44 @@ info:
     Page objects conform to global [schema.org](https://schema.org/) standards.
 
     ## Network access
-    No special network access is required for this API. It is available over the internet.
+    This API is available on the internet and, indirectly, on the [Health and Social Care Network (HSCN)](https://digital.nhs.uk/services/health-and-social-care-network).
+
+    To use this API with [NHS smartcards](https://digital.nhs.uk/developer/guides-and-documentation/security-and-authorisation/nhs-smartcards-for-developers), the end user needs an HSCN connection, although internet-facing alternatives to smartcards are available.
+
+    For more details see [Network access for APIs](https://digital.nhs.uk/developer/guides-and-documentation/network-access-for-apis).
 
     ## Security and authorisation
-    This API is [application-restricted](https://digital.nhs.uk/developer/guides-and-documentation/security-and-authorisation#application-restricted-apis), meaning we authenticate the calling application but not the end user.
 
-    You must provide a API key in the header.
+    This access mode is [application-restricted](https://digital.nhs.uk/developer/guides-and-documentation/security-and-authorisation#application-restricted-apis), meaning we authenticate the calling application but not the end user.
+
+    To use this access mode, use the following security pattern:
+    * [Application-restricted RESTful API - API key authentication](https://digital.nhs.uk/developer/guides-and-documentation/security-and-authorisation/application-restricted-restful-apis-api-key-authentication)
 
     ## Environments and testing
     | Environment       | Base URL                                                               |
     | ----------------- | ---------------------------------------------------------------------- |
     | Integration test  | `https://int.api.service.nhs.uk/nhs-website-content/`                  |
-    | Production        | `https:/api.service.nhs.uk/nhs-website-content/`                       |
+    | Production        |  Not available yet                                                     |
 
-    Integration testing
+    ## Integration testing
     Our integration test environment:
 
     * is for formal integration testing.
     * includes application authentication
-    * contains a replica of our live data, but has a reduced call rate
+    * contains a replica of our live data, but has a [reduced call rate](https://digital.nhs.uk/developer/guides-and-documentation/reference-guide#rate-limits)
 
     ## Onboarding
-    You need to sign up via the developer hub to recieve your API key. Additional onboarding information exists on the [developer hub](https://digital.nhs.uk//developer/api-catalogue/nhs-syndicated-content/onboarding-support-information)
+    The onboarding journey for this API is currently in development.
+
+    Additional onboarding information exists on the [developer hub](https://digital.nhs.uk//developer/api-catalogue/nhs-syndicated-content/onboarding-support-information)
 
     ## Errors
-    We have standard error codes for 200 to 299 if it succeeded, including code 202 if it was accepted by an API that needs to wait for further action.
+    We use standard HTTP status codes to show whether an API request succeeded or not. They are usually in the range:
 
-    We have error codes for 400 to 422 to aid with debugging any potential issues
+    200 to 299 if it succeeded, including code 202 if it was accepted by an API that needs to wait for further action
+    400 to 499 if it failed because of a client error by your application
+    500 to 599 if it failed because of an error on our server
+    For details of 2xx and 4xx responses for a specific API, see its API specification.
 
     Errors specific to each endpoint are shown in the endpoints section, under response. See our [reference guide](https://digital.nhs.uk/developer/guides-and-documentation/reference-guide#http-status-codes) for more on errors.
 
@@ -90,7 +97,7 @@ paths:
       - $ref: "#/components/parameters/childArticles"
       - $ref: "#/components/parameters/status"
     get:
-      summary: Get all pages in the [Health A to Z](https://www.nhs.uk/conditions)
+      summary: Get all pages in the Health A to Z
       operationId: get-conditions
       description: |
         ## Overview
@@ -100,7 +107,7 @@ paths:
 
         The response is limited to 25 child pages and is paginated.
 
-        You can filter using various combinations of options.
+        There are a number of query parameters that filter the output.
 
         | Query parameter   | Description                                                            | Type        |
         | ----------------- | ---------------------------------------------------------------------- | ----------- |
@@ -116,8 +123,8 @@ paths:
           description: |
             A valid query for the conditions.
           headers:
-            apiKey:
-              $ref: "#/components/headers/apiKey"
+            apikey:
+              $ref: "#/components/headers/apikey"
           content:
             application/schema+json:
               schema:
@@ -139,11 +146,11 @@ paths:
       - $ref: "#/components/parameters/apiKey"
       - $ref: "#/components/parameters/modules"
     get:
-      summary: Get details of condition page
+      summary: Get details of a condition page
       operationId: get-condition-page
       description: |
         ## Overview
-        There is an endpoint for each page under the Health A to Z for example https://www.nhs.uk/conditions/chickenpox
+        There is an endpoint for each page under the Health A to Z, for example https://www.nhs.uk/conditions/chickenpox.
 
         This can be used to get specific information about individual topics.
 
@@ -188,17 +195,17 @@ paths:
       - $ref: "#/components/parameters/category"
       - $ref: "#/components/parameters/orderBy"
     get:
-      summary: Get all pages in the [Medicines A to Z](https://www.nhs.uk/medicines)
+      summary: Get all pages in the Medicines A to Z
       operationId: get-medicines
       description: |
         ## Overview
-        Use this endpoint to get details of pages in the Medicines A to Z.
+        Use this endpoint to get details of pages in the [Medicines A to Z](https://www.nhs.uk/medicines).
 
-        Passing in no parameters will return all pages under 'medicines'.
+        Passing in no parameters returns all pages under 'medicines'.
 
         The response is limited to 25 child pages and is paginated.
 
-        You can filter using various combinations of options.
+        There are a number of query parameters that filter the output.
 
         | Query parameter   | Description                                                              | Type        |
         | ----------------- | ----------------------------------------------------------------------   | ----------- |
@@ -211,11 +218,11 @@ paths:
 
         ## Ordering by dates
 
-        The orderBy parameter can be `dateModified`, `lastReviewed` and `nextReview`. By default if any of the `orderBy` parameters are chosen the results will be newest first.
+        The `orderBy` parameter can be `dateModified`, `lastReviewed` and `nextReview`. By default if any of the `orderBy` parameters are chosen the results are sorted by newest first.
 
         However, the `orderBy` parameter can be used with the `startDate` and `endDate` parameters to filter down to the desired date. `startDate` and `endDate` should be given in the YYYY-MM-DD format.
 
-        for example `https://api.nhs.uk/medicines?apiKey=xxx&startDate=2022-01-01&orderBy=dateModified`
+        For example `https://api.nhs.uk/medicines?apiKey=xxx&startDate=2022-01-01&orderBy=dateModified`
 
       responses:
         '200':
@@ -248,7 +255,7 @@ paths:
       operationId: get-medicine-page
       description: |
         ## Overview
-        There is an endpoint for each page under the Medicines A to Z e.g. https://www.nhs.uk/medicines/amoxicillin
+        There is an endpoint for each page under the Medicines A to Z, for example https://www.nhs.uk/medicines/amoxicillin
 
         This can be used to get specific information about individual medicines.
       responses:
@@ -285,9 +292,9 @@ paths:
 
         The [mental health hub](https://www.nhs.uk/mental-health/) contains a number of navigational and content pages.
 
-        The content of the page can be taken from the `mainEntityOfPage` part of the response. This includes the navigational links to child pages.
+        The content of the page is taken from the `mainEntityOfPage` part of the response. This includes the navigational links to child pages.
 
-        At the top level, modularised content of child pages is highlighted by the `hasPart` field. In child pages, only the individual page will be shown.
+        At the top level, modularised content of child pages is highlighted by the `hasPart` field. In child pages, only the individual page is shown.
 
       responses:
         '200':
@@ -323,9 +330,9 @@ paths:
 
         The pregnancy hub contains a number of navigational and content pages.
 
-        The content of the page can be taken from `mainEntityOfPage`. This includes the navigational patterns to child pages
+        The content of the page can be taken from `mainEntityOfPage`. This includes the navigational patterns to child pages.
 
-        At the top level, child modularised content is highlighted by the `hasPart` field. In child pages, only the individual page will be highlighted
+        At the top level, child modularised content is highlighted by the `hasPart` field. In child pages, only the individual page is highlighted.
 
       responses:
         '200':
@@ -354,14 +361,14 @@ paths:
     parameters:
       - $ref: "#/components/parameters/apiKey"
     get:
-      summary: Get content from the common health questions hub.
+      summary: Get content from the common health questions hub
       operationId: get-common-health-questions
       description: |
         ## Overview
 
-        The [common health questions hub](https://www.nhs.uk/common-health-questions/) contains a number of navigational and content pages.
+        The [Common health questions hub](https://www.nhs.uk/common-health-questions/) contains a number of navigational and content pages.
 
-        The main page contains significant links to topic pages, which then contain significant links to the content pages
+        The main page contains significant links to topic pages, which then contain significant links to the content pages.
 
         Content pages use the 'question' schema.org [question](https://schema.org/Question) property.
 
@@ -401,7 +408,7 @@ paths:
 
         The content of the page can be taken from the `mainEntityOfPage` part of the response. This includes the navigational links to child pages.
 
-        At the top level, modularised content of child pages is highlighted by the `hasPart` field. In child pages, only the individual page will be shown.
+        At the top level, modularised content of child pages is highlighted by the `hasPart` field. In child pages, only the individual page is shown.
       responses:
         '200':
           description: |
@@ -433,7 +440,7 @@ components:
     apiKey:
       name: api_key
       in: query
-      description: The api key required to send a successful request.
+      description: The API key required to send a successful request.
       required: true
       schema:
         type: string
