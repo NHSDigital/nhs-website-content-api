@@ -5,7 +5,7 @@ info:
   title: "nhs-website-content-api"
   version: "Computed and injected at build time by `scripts/set_version.py`"
   description: |
-    ## Overview (Deploy Test)
+    ## Overview (Deploy Test - 04/10/2023)
     Use this API to get page content from the [NHS website](https://www.nhs.uk)
 
     You can reuse the following content from the NHS website:
