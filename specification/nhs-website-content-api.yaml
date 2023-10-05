@@ -124,7 +124,7 @@ paths:
             A valid query for the conditions.
           headers:
             apikey:
-              $ref: "#/components/headers/apikey"
+              $ref: "#/components/schemas/ApiKey"
           content:
             application/schema+json:
               schema:
@@ -168,7 +168,7 @@ paths:
             A valid query which returns a page object for the chosen page
           headers:
             apiKey:
-              $ref: "#/components/headers/apiKey"
+              $ref: "#/components/schemas/ApiKey"
           content:
             application/schema+json:
               schema:
@@ -230,7 +230,7 @@ paths:
             A valid query for medicines.
           headers:
             apiKey:
-              $ref: "#/components/headers/apiKey"
+              $ref: "#/components/schemas/ApiKey"
           content:
             application/schema+json:
               schema:
@@ -264,7 +264,7 @@ paths:
             A valid query for medicines.
           headers:
             apiKey:
-              $ref: "#/components/headers/apiKey"
+              $ref: "#/components/schemas/ApiKey"
           content:
             application/schema+json:
               schema:
@@ -302,7 +302,7 @@ paths:
             A valid query for the mental health hub.
           headers:
             apiKey:
-              $ref: "#/components/headers/apiKey"
+              $ref: "#/components/schemas/ApiKey"
           content:
             application/schema+json:
               schema:
@@ -340,7 +340,7 @@ paths:
             A valid query for the pregnancy hub.
           headers:
             apiKey:
-              $ref: "#/components/headers/apiKey"
+              $ref: "#/components/schemas/ApiKey"
           content:
             application/schema+json:
               schema:
@@ -378,7 +378,7 @@ paths:
             A valid query for the common health questions pages.
           headers:
             apiKey:
-              $ref: "#/components/headers/apiKey"
+              $ref: "#/components/schemas/ApiKey"
           content:
             application/schema+json:
               schema:
@@ -415,7 +415,7 @@ paths:
             A valid query for the Live Well pages.
           headers:
             apiKey:
-              $ref: "#/components/headers/apiKey"
+              $ref: "#/components/schemas/ApiKey"
           content:
             application/schema+json:
               schema:
