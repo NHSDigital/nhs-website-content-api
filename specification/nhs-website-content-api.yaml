@@ -89,7 +89,7 @@ servers:
 paths:
   /conditions:
     parameters:
-      - $ref: "#/components/parameters/apiKey"
+      - $ref: components/schemas/ApiKey
       - $ref: "#/components/parameters/order"
       - $ref: "#/components/parameters/page"
       - $ref: "#/components/parameters/category"
@@ -124,7 +124,7 @@ paths:
             A valid query for the conditions.
           headers:
             apikey:
-              $ref: "#/components/schemas/ApiKey"
+              $ref: components/schemas/ApiKey
           content:
             application/schema+json:
               schema:
@@ -143,7 +143,7 @@ paths:
             | 429         | TOO_MANY_REQUESTS          | You have exceeded your application's [rate limit](https://digital.nhs.uk/developer/guides-and-documentation/reference-guide#rate-limits). |
   /conditions/*:
     parameters:
-      - $ref: "#/components/parameters/apiKey"
+      - $ref: components/schemas/ApiKey
       - $ref: "#/components/parameters/modules"
     get:
       summary: Get details of a condition page
@@ -168,7 +168,7 @@ paths:
             A valid query which returns a page object for the chosen page
           headers:
             apiKey:
-              $ref: "#/components/schemas/ApiKey"
+              $ref: components/schemas/ApiKey
           content:
             application/schema+json:
               schema:
@@ -187,7 +187,7 @@ paths:
             | 429         | TOO_MANY_REQUESTS          | You have exceeded your application's [rate limit](https://digital.nhs.uk/developer/guides-and-documentation/reference-guide#rate-limits). |
   /medicines:
     parameters:
-      - $ref: "#/components/parameters/apiKey"
+      - $ref: components/schemas/ApiKey
       - $ref: "#/components/parameters/startDate"
       - $ref: "#/components/parameters/endDate"
       - $ref: "#/components/parameters/order"
@@ -230,7 +230,7 @@ paths:
             A valid query for medicines.
           headers:
             apiKey:
-              $ref: "#/components/schemas/ApiKey"
+              $ref: components/schemas/ApiKey
           content:
             application/schema+json:
               schema:
@@ -249,7 +249,7 @@ paths:
             | 429         | TOO_MANY_REQUESTS          | You have exceeded your application's [rate limit](https://digital.nhs.uk/developer/guides-and-documentation/reference-guide#rate-limits). |
   /medicines/*:
     parameters:
-      - $ref: "#/components/parameters/apiKey"
+      - $ref: components/schemas/ApiKey
     get:
       summary: Get specific medicines pages
       operationId: get-medicine-page
@@ -264,7 +264,7 @@ paths:
             A valid query for medicines.
           headers:
             apiKey:
-              $ref: "#/components/schemas/ApiKey"
+              $ref: components/schemas/ApiKey
           content:
             application/schema+json:
               schema:
@@ -283,7 +283,7 @@ paths:
             | 429         | TOO_MANY_REQUESTS          | You have exceeded your application's [rate limit](https://digital.nhs.uk/developer/guides-and-documentation/reference-guide#rate-limits). |
   /mental-health:
     parameters:
-      - $ref: "#/components/parameters/apiKey"
+      - $ref: components/schemas/ApiKey
     get:
       summary: Get content from the mental health hub
       operationId: get-mental-health
@@ -302,7 +302,7 @@ paths:
             A valid query for the mental health hub.
           headers:
             apiKey:
-              $ref: "#/components/schemas/ApiKey"
+              $ref: components/schemas/ApiKey
           content:
             application/schema+json:
               schema:
@@ -321,7 +321,7 @@ paths:
             | 429         | TOO_MANY_REQUESTS          | You have exceeded your application's [rate limit](https://digital.nhs.uk/developer/guides-and-documentation/reference-guide#rate-limits). |
   /pregnancy:
     parameters:
-      - $ref: "#/components/parameters/apiKey"
+      - $ref: components/schemas/ApiKey
     get:
       summary: Get content from the pregnancy hub
       operationId: get-pregnancy
@@ -340,7 +340,7 @@ paths:
             A valid query for the pregnancy hub.
           headers:
             apiKey:
-              $ref: "#/components/schemas/ApiKey"
+              $ref: components/schemas/ApiKey
           content:
             application/schema+json:
               schema:
@@ -359,7 +359,7 @@ paths:
             | 429         | TOO_MANY_REQUESTS          | You have exceeded your application's [rate limit](https://digital.nhs.uk/developer/guides-and-documentation/reference-guide#rate-limits). |
   /common-health-questions:
     parameters:
-      - $ref: "#/components/parameters/apiKey"
+      - $ref: components/schemas/ApiKey
     get:
       summary: Get content from the common health questions hub
       operationId: get-common-health-questions
@@ -378,7 +378,7 @@ paths:
             A valid query for the common health questions pages.
           headers:
             apiKey:
-              $ref: "#/components/schemas/ApiKey"
+              $ref: components/schemas/ApiKey
           content:
             application/schema+json:
               schema:
@@ -397,7 +397,7 @@ paths:
             | 429         | TOO_MANY_REQUESTS          | You have exceeded your application's [rate limit](https://digital.nhs.uk/developer/guides-and-documentation/reference-guide#rate-limits). |
   /live-well:
     parameters:
-      - $ref: "#/components/parameters/apiKey"
+      - $ref: components/schemas/ApiKey
     get:
       summary: Get content from the Live Well hub.
       operationId: get-live-well
@@ -415,7 +415,7 @@ paths:
             A valid query for the Live Well pages.
           headers:
             apiKey:
-              $ref: "#/components/schemas/ApiKey"
+              $ref: components/schemas/ApiKey
           content:
             application/schema+json:
               schema:
@@ -435,7 +435,7 @@ paths:
 components:
   headers:
     apiKey:
-      $ref: components/schemas/ApiKey.yaml
+      $ref: components/schemas/ApiKey
   parameters:
     apiKey:
       name: api_key
