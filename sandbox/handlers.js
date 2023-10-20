@@ -1,68 +1,70 @@
 "use strict";
 
 const log = require("loglevel");
+const searchPostcodeOrPlaceResponse = require("./responses/search-postcode_v2.json");
+const resourceNotFound = require("./responses/bad-api-version-resource-not-found.json");
 
+async function root(req, res, next) {
+  write_log(res, "warn", {
+    message: "root",
+    req: {
+      path: req.path,
+      query: req.query,
+      headers: req.rawHeaders,
+    },
+  });
 
-const write_log = (res, log_level, options = {}) => {
-    if (log.getLevel()>log.levels[log_level.toUpperCase()]) {
-        return
-    }
-    if (typeof options === "function") {
-        options = options()
-    }
-    let log_line = {
-        timestamp: Date.now(),
-        level: log_level,
-        correlation_id: res.locals.correlation_id
-    }
-    if (typeof options === 'object') {
-        options = Object.keys(options).reduce(function(obj, x) {
-            let val = options[x]
-            if (typeof val === "function") {
-                val = val()
-            }
-            obj[x] = val;
-            return obj;
-        }, {});
-        log_line = Object.assign(log_line, options)
-    }
-    if (Array.isArray(options)) {
-        log_line["log"] = {log: options.map(x=> {return typeof x === "function"? x() : x })}
-    }
+  res.json({ message: "root" });
+  res.end();
+  next();
+}
 
-    log[log_level](JSON.stringify(log_line))
-};
+async function searchPostcodeOrPlace(req, res, next) {
+  console.log("/searchPostcodeOrPlace ================================");
+  console.log("req:", req);
+  const queryStringParameters = req?.query;
+  const search = (queryStringParameters?.["search"] || "").toLowerCase();
+  res.status(200).json(searchPostcodeOrPlaceResponse);
+  // if (queryStringParameters?.["api-version"] !== "2") {
+  //   res.status(404).json(resourceNotFound);
+  // } else if (search === "manchester") {
+  //   res.status(200).json(searchPostcodeOrPlaceResponse);
+  // } else {
+  //   res.status(500).json(populateSearchPostcodeOrPlaceInvalidResponse(search));
+  // }
 
+  res.end();
+  next();
+}
 
 async function status(req, res, next) {
-    res.json({
-        status: "pass",
-        ping: "pong",
-        service: req.app.locals.app_name,
-        version: req.app.locals.version_info
-    });
-    res.end();
-    next();
+  res.json({
+    status: "pass",
+    ping: "pong",
+    service: req.app.locals.app_name,
+    version: req.app.locals.version_info,
+  });
+  res.end();
+  next();
 }
 
 async function hello(req, res, next) {
+  write_log(res, "warn", {
+    message: "hello world",
+    req: {
+      path: req.path,
+      query: req.query,
+      headers: req.rawHeaders,
+    },
+  });
 
-    write_log(res, "warn", {
-        message: "hello world",
-        req: {
-            path: req.path,
-            query: req.query,
-            headers: req.rawHeaders
-        }
-    });
-
-
-    res.json({message: "hello world"});
-    res.end();
-    next();
+  res.json({ message: "hello world" });
+  res.end();
+  next();
 }
 
 module.exports = {
-    status: status,
-    hello: hello
+  status,
+  hello,
+  searchPostcodeOrPlace,
 };

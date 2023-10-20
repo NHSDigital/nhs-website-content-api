@@ -1,0 +1,12 @@
+{
+  "value": [
+    {
+      "text": "Manchester, North West, M2",
+      "url": "https://api.nhs.uk/multiple/searchbypostcode?search=manchester&latitude=53.4789416719026&longitude=-2.24527799829848"
+    },
+    {
+      "text": "New Manchester, North West, M28",
+      "url": "https://api.nhs.uk/multiple/searchbypostcode?search=manchester&latitude=53.5142654482367&longitude=-2.41990039231912"
+    }
+  ]
+}
