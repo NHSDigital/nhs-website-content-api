@@ -1,0 +1,1574 @@
+{
+  "@context": "http://schema.org",
+  "@type": "MedicalWebPage",
+  "name": "Health A to Z",
+  "copyrightHolder": { "name": "Crown Copyright", "@type": "Organization" },
+  "license": "https://developer.api.nhs.uk/terms",
+  "author": {
+    "url": "https://www.nhs.uk",
+    "logo": "https://www.nhs.uk/nhscwebservices/documents/logo1.jpg",
+    "email": "nhswebsite.servicedesk@nhs.net",
+    "@type": "Organization",
+    "name": "NHS website"
+  },
+  "about": { "@type": "WebPage", "name": "Health A to Z", "alternateName": "" },
+  "description": "",
+  "url": "https://api.nhs.uk/conditions/",
+  "genre": [],
+  "keywords": "",
+  "dateModified": "2021-11-18T15:26:06+00:00",
+  "breadcrumb": {
+    "@context": "http://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 0,
+        "item": { "@id": "https://api.nhs.uk/conditions/", "name": "Health A to Z", "genre": [] }
+      }
+    ]
+  },
+  "contentSubTypes": [],
+  "significantLink": [
+    {
+      "description": "Acanthosis nigricans is the term for darkened, thickened patches of skin in the armpit and around the groin and neck. Find out about the main causes and treatments.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Condition"],
+        "datePublished": "2017-10-24T08:48:21+00:00",
+        "dateModified": "2021-11-30T15:42:29+00:00",
+        "lastReviewed": ["2021-06-20T00:00:00+00:00", "2024-06-20T00:00:00+00:00"],
+        "reviewDue": "2024-06-20T00:00:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/acanthosis-nigricans/",
+      "name": "Acanthosis nigricans"
+    },
+    {
+      "description": "Read about achalasia, a disorder of the gullet (oesophagus) where it loses the ability to move food along. The valve at the end of the gullet also fails to open.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Condition"],
+        "datePublished": "2017-10-17T15:19:45+00:00",
+        "dateModified": "2023-07-05T15:04:16+00:00",
+        "lastReviewed": ["2020-12-24T14:50:00+00:00", "2023-12-24T15:00:00+00:00"],
+        "reviewDue": "2023-12-24T15:00:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/achalasia/",
+      "name": "Achalasia"
+    },
+    {
+      "description": "Find out about first aid and treatment for acid and chemical burns, including burns from acid attacks.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Accident or injury"],
+        "datePublished": "2018-10-03T19:55:47+00:00",
+        "dateModified": "2023-09-04T07:39:55+00:00",
+        "lastReviewed": ["2020-09-18T00:00:00+00:00", "2023-09-18T17:00:00+00:00"],
+        "reviewDue": "2023-09-18T17:00:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/acid-and-chemical-burns/",
+      "name": "Acid and chemical burns"
+    },
+    {
+      "description": "An acoustic neuroma is a type of non-cancerous (benign) brain tumour. Find out about the symptoms, treatments and outlook for this condition.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Condition"],
+        "datePublished": "2017-10-17T15:44:39+00:00",
+        "dateModified": "2022-12-02T16:38:26+00:00",
+        "lastReviewed": ["2022-11-29T00:00:00+00:00", "2025-11-29T00:00:00+00:00"],
+        "reviewDue": "2025-11-29T00:00:00+00:00",
+        "keywords": "",
+        "alternateName": ["Vestibular schwannoma"],
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/acoustic-neuroma/",
+      "name": "Acoustic neuroma (vestibular schwannoma)"
+    },
+    {
+      "description": "Find out about acromegaly, a rare condition where the body produces too much growth hormone causing tissue and bone to grow more quickly. Read about symptoms, causes, diagnosis and treatment.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Condition"],
+        "datePublished": "2017-10-17T15:17:11+00:00",
+        "dateModified": "2023-10-02T08:09:37+00:00",
+        "lastReviewed": ["2020-10-12T00:00:00+00:00", "2023-10-12T00:00:00+00:00"],
+        "reviewDue": "2023-10-12T00:00:00+00:00",
+        "keywords": "",
+        "alternateName": ["Gigantism"],
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/acromegaly/",
+      "name": "Acromegaly"
+    },
+    {
+      "description": "Find out more about actinic keratoses, which are patches of skin that have been damaged by the sun.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Condition"],
+        "datePublished": "2017-10-17T15:23:05+00:00",
+        "dateModified": "2023-07-04T10:02:21+00:00",
+        "lastReviewed": ["2023-06-14T00:00:00+00:00", "2026-06-14T00:00:00+00:00"],
+        "reviewDue": "2026-06-14T00:00:00+00:00",
+        "keywords": "",
+        "alternateName": ["Solar keratoses"],
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/actinic-keratoses/",
+      "name": "Actinic keratoses (solar keratoses)"
+    },
+    {
+      "description": "Read about acupuncture, a treatment derived from ancient Chinese medicine in which fine needles are inserted at certain sites in the body to relieve or prevent health problems",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Treatment"],
+        "datePublished": "2017-10-17T15:41:00+00:00",
+        "dateModified": "2023-03-15T09:54:23+00:00",
+        "lastReviewed": ["2023-02-28T02:00:00+00:00", "2026-02-28T03:00:00+00:00"],
+        "reviewDue": "2026-02-28T03:00:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/acupuncture/",
+      "name": "Acupuncture"
+    },
+    {
+      "description": "Read about acute cholecystitis, which is inflammation of the gallbladder. It usually occurs when a gallstone blocks the cystic duct.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Condition"],
+        "datePublished": "2017-10-17T15:30:37+00:00",
+        "dateModified": "2023-06-08T14:38:26+00:00",
+        "lastReviewed": ["2023-02-21T01:00:00+00:00", "2026-02-21T01:00:00+00:00"],
+        "reviewDue": "2026-02-21T01:00:00+00:00",
+        "keywords": "",
+        "alternateName": ["Gallbladder pain", "Cholecystitis (acute)"],
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/acute-cholecystitis/",
+      "name": "Acute cholecystitis"
+    },
+    {
+      "description": "Acute kidney injury (AKI) is sudden damage to the kidneys that causes them to not work properly. It can range from minor loss of kidney function to complete kidney failure.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Condition"],
+        "datePublished": "2018-10-03T19:55:51+00:00",
+        "dateModified": "2022-09-13T14:52:40+00:00",
+        "lastReviewed": ["2022-09-07T23:00:00+00:00", "2025-09-07T23:00:00+00:00"],
+        "reviewDue": "2025-09-07T23:00:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/acute-kidney-injury/",
+      "name": "Acute kidney injury"
+    },
+    {
+      "description": "Find out about acute respiratory distress syndrome, including who\u2019s at risk of getting it, the symptoms, how it\u2019s treated and what causes it.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Condition"],
+        "datePublished": "2017-10-17T15:27:22+00:00",
+        "dateModified": "2023-07-25T12:53:45+00:00",
+        "lastReviewed": ["2023-07-11T23:00:00+00:00", "2026-07-11T23:00:00+00:00"],
+        "reviewDue": "2026-07-11T23:00:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/acute-respiratory-distress-syndrome/",
+      "name": "Acute respiratory distress syndrome (ARDS)"
+    },
+    {
+      "description": "Find out what an adenoidectomy is, why it's done, what happens during the operation and the possible complications.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Procedure", "Treatment"],
+        "datePublished": "2017-10-17T15:31:58+00:00",
+        "dateModified": "2023-06-16T13:39:11+00:00",
+        "lastReviewed": ["2023-03-10T15:37:00+00:00", "2026-03-10T15:37:00+00:00"],
+        "reviewDue": "2026-03-10T15:37:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/adenoidectomy/",
+      "name": "Adenoidectomy"
+    },
+    {
+      "description": "An air or gas embolism is a serious problem that can happen to scuba divers and during some medical procedures. Read about the causes, symptoms and treatments.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Condition"],
+        "datePublished": "2017-12-01T09:45:51+00:00",
+        "dateModified": "2023-10-02T08:10:10+00:00",
+        "lastReviewed": ["2020-12-16T00:00:00+00:00", "2023-12-16T00:00:00+00:00"],
+        "reviewDue": "2023-12-16T00:00:00+00:00",
+        "keywords": "",
+        "alternateName": ["Decompression sickness"],
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/air-embolism/",
+      "name": "Air or gas embolism"
+    },
+    {
+      "description": "Find out about alcohol poisoning, what the symptoms are, what to do if you think you or someone else has it, what the treatments are and what causes it.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Condition"],
+        "datePublished": "2017-10-17T15:40:36+00:00",
+        "dateModified": "2023-01-12T12:26:14+00:00",
+        "lastReviewed": ["2023-01-11T01:00:00+00:00", "2026-01-11T01:00:00+00:00"],
+        "reviewDue": "2026-01-11T01:00:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/alcohol-poisoning/",
+      "name": "Alcohol poisoning"
+    },
+    {
+      "description": "The Alexander technique teaches improved posture and movement, which is believed to help reduce and prevent problems caused by unhelpful habits.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Treatment"],
+        "datePublished": "2017-10-17T16:16:34+00:00",
+        "dateModified": "2023-10-10T14:03:35+00:00",
+        "lastReviewed": ["2021-09-06T00:00:00+00:00", "2024-09-06T00:00:00+00:00"],
+        "reviewDue": "2024-09-06T00:00:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/alexander-technique/",
+      "name": "Alexander technique"
+    },
+    {
+      "description": "Read about alkaptonuria, or \"black urine disease\", a rare inherited disorder that can turn urine and parts of the body a dark colour and lead to other problems.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Condition"],
+        "datePublished": "2017-10-24T10:34:28+00:00",
+        "dateModified": "2023-04-27T13:09:51+00:00",
+        "lastReviewed": ["2022-03-10T00:00:00+00:00", "2025-03-10T00:00:00+00:00"],
+        "reviewDue": "2025-03-10T00:00:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/alkaptonuria/",
+      "name": "Alkaptonuria"
+    },
+    {
+      "description": "Information about amputation, including why and how it's carried out, recovery and rehabilitation, prosthetics, stump care and possible complications.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Procedure", "Treatment"],
+        "datePublished": "2017-10-17T15:47:57+00:00",
+        "dateModified": "2023-04-13T10:05:18+00:00",
+        "lastReviewed": ["2023-02-17T01:00:00+00:00", "2026-02-17T01:00:00+00:00"],
+        "reviewDue": "2026-02-17T01:00:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/amputation/",
+      "name": "Amputation"
+    },
+    {
+      "description": "Find out about amyloidosis, including what the symptoms are, when and where to get medical help, the causes and how it's treated.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Condition"],
+        "datePublished": "2017-10-17T15:48:36+00:00",
+        "dateModified": "2023-08-24T13:52:35+00:00",
+        "lastReviewed": ["2023-08-23T00:00:00+00:00", "2026-08-23T00:00:00+00:00"],
+        "reviewDue": "2026-08-23T00:00:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/amyloidosis/",
+      "name": "Amyloidosis"
+    },
+    {
+      "description": "Read about anabolic steroids, which are prescription-only medicines that are sometimes taken without medical advice to increase muscle mass and improve athletic performance.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "genre": ["Advice or information"],
+        "datePublished": "2017-10-17T15:50:01+00:00",
+        "dateModified": "2022-11-04T09:39:37+00:00",
+        "lastReviewed": ["2022-04-13T09:37:00+00:00", "2025-04-13T09:37:00+00:00"],
+        "reviewDue": "2025-04-13T09:37:00+00:00",
+        "keywords": "",
+        "alternateName": ["Steroid misuse"],
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/anabolic-steroid-misuse/",
+      "name": "Anabolic steroid misuse"
+    },
+    {
+      "description": "Find out about different types of anaesthetics, how they work, and the potential side effects. Also, read about the role of the anaesthetist.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Medicine"],
+        "datePublished": "2017-10-17T15:49:39+00:00",
+        "dateModified": "2021-11-18T15:26:25+00:00",
+        "lastReviewed": ["2021-09-23T00:00:00+00:00", "2024-09-23T00:00:00+00:00"],
+        "reviewDue": "2024-09-23T00:00:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/anaesthesia/",
+      "name": "Anaesthesia"
+    },
+    {
+      "description": "Anal cancer is a rare type of cancer that affects the anus. Get information and advice about symptoms, causes and treatments.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Condition"],
+        "datePublished": "2017-10-17T16:08:41+00:00",
+        "dateModified": "2022-07-12T15:04:44+00:00",
+        "lastReviewed": ["2021-03-08T01:00:00+00:00", "2024-03-08T01:00:00+00:00"],
+        "reviewDue": "2024-03-08T01:00:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/anal-cancer/",
+      "name": "Anal cancer"
+    },
+    {
+      "description": "Find out what causes anal pain, what you can do to ease the pain and when to get medical help.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Symptom"],
+        "datePublished": "2017-10-17T15:49:36+00:00",
+        "dateModified": "2022-03-16T09:04:13+00:00",
+        "lastReviewed": ["2022-03-15T01:00:00+00:00", "2025-03-15T01:00:00+00:00"],
+        "reviewDue": "2025-03-15T01:00:00+00:00",
+        "keywords": "",
+        "alternateName": ["Proctalgia"],
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/anal-pain/",
+      "name": "Anal pain"
+    },
+    {
+      "description": "Read about Angelman syndrome, a genetic disorder that affects the nervous system and causes severe physical and intellectual disability",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Condition"],
+        "datePublished": "2017-10-17T16:28:17+00:00",
+        "dateModified": "2023-04-13T10:12:21+00:00",
+        "lastReviewed": ["2023-03-09T01:00:00+00:00", "2026-03-09T01:00:00+00:00"],
+        "reviewDue": "2026-03-09T01:00:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/angelman-syndrome/",
+      "name": "Angelman syndrome"
+    },
+    {
+      "description": "Find out what to do if you\u2019ve been bitten by an animal or person, including first aid advice, when to get medical help and what treatment you may need.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Accident or injury"],
+        "datePublished": "2017-10-17T15:53:13+00:00",
+        "dateModified": "2023-08-08T09:25:16+00:00",
+        "lastReviewed": ["2022-06-22T23:00:00+00:00", "2025-06-22T23:00:00+00:00"],
+        "reviewDue": "2025-06-22T23:00:00+00:00",
+        "keywords": "",
+        "alternateName": ["Dog bites", "Human bites", "Bite (animal or human)", "Cat bites"],
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/animal-and-human-bites/",
+      "name": "Animal and human bites"
+    },
+    {
+      "description": "Find out about antacids, a type of medicine used to control the acid levels in the stomach.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Medicine"],
+        "datePublished": "2017-10-17T15:54:58+00:00",
+        "dateModified": "2023-04-13T14:41:26+00:00",
+        "lastReviewed": ["2023-03-24T10:33:00+00:00", "2026-03-24T10:33:00+00:00"],
+        "reviewDue": "2026-03-24T10:33:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/antacids/",
+      "name": "Antacids"
+    },
+    {
+      "description": "Antihistamines are a type of medicine often used to treat allergies. Find out about the different types, who can take them and what side effects they can cause.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Medicine"],
+        "datePublished": "2017-10-17T15:57:58+00:00",
+        "dateModified": "2023-05-18T14:32:06+00:00",
+        "lastReviewed": ["2023-05-15T23:00:00+00:00", "2026-05-15T23:00:00+00:00"],
+        "reviewDue": "2026-05-15T23:00:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/antihistamines/",
+      "name": "Antihistamines"
+    },
+    {
+      "description": "Read about anxiety disorders in children and teenagers, with links to other useful resources.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Condition"],
+        "datePublished": "2017-10-17T16:28:08+00:00",
+        "dateModified": "2021-11-18T15:26:34+00:00",
+        "lastReviewed": ["2020-12-01T00:00:00+00:00", "2023-12-01T00:00:00+00:00"],
+        "reviewDue": "2023-12-01T00:00:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/anxiety-disorders-in-children/",
+      "name": "Anxiety disorders in children"
+    },
+    {
+      "description": "Arrhythmias or heart rhythm problems are experienced by more than 2 million people in the UK. Most people with an abnormal heart rhythm can lead a normal life if it is properly diagnosed.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Condition"],
+        "datePublished": "2018-02-19T15:41:03+00:00",
+        "dateModified": "2023-06-23T15:46:44+00:00",
+        "lastReviewed": ["2021-09-14T00:00:00+00:00", "2024-09-14T00:00:00+00:00"],
+        "reviewDue": "2024-09-14T00:00:00+00:00",
+        "keywords": "",
+        "alternateName": ["Heart rhythm problems"],
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/arrhythmia/",
+      "name": "Arrhythmia"
+    },
+    {
+      "description": "Arterial thrombosis is a blood clot in an artery. Find out why it happens and how it is treated.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Condition"],
+        "datePublished": "2017-10-17T15:56:14+00:00",
+        "dateModified": "2023-08-07T07:30:32+00:00",
+        "lastReviewed": ["2020-01-09T00:00:00+00:00", "2023-01-09T00:00:00+00:00"],
+        "reviewDue": "2023-01-09T00:00:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/arterial-thrombosis/",
+      "name": "Arterial thrombosis"
+    },
+    {
+      "description": "Asbestosis is a serious lung condition caused by exposure to asbestos \u2013 a building material used mostly from the 1950s to the 1990s.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Condition"],
+        "datePublished": "2017-10-17T16:02:11+00:00",
+        "dateModified": "2023-10-03T12:28:12+00:00",
+        "lastReviewed": ["2023-07-31T15:03:00+00:00", "2026-07-31T00:00:00+00:00"],
+        "reviewDue": "2026-07-31T00:00:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/asbestosis/",
+      "name": "Asbestosis"
+    },
+    {
+      "description": "Find out about aspirin, including what it's used for, who can take it, and what the main side effects are.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Medicine"],
+        "datePublished": "2017-10-17T16:05:29+00:00",
+        "dateModified": "2021-11-18T15:26:40+00:00",
+        "lastReviewed": ["2016-05-06T00:00:00+00:00", "2019-05-01T00:00:00+00:00"],
+        "reviewDue": "2019-05-01T00:00:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/aspirin/",
+      "name": "Aspirin"
+    },
+    {
+      "description": "Find out more about atherosclerosis, what the symptoms are, how you can help stop it getting worse, how it's treated and what causes it.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Condition"],
+        "datePublished": "2017-10-17T15:59:05+00:00",
+        "dateModified": "2023-04-24T14:20:31+00:00",
+        "lastReviewed": ["2023-01-30T01:00:00+00:00", "2026-01-30T01:00:00+00:00"],
+        "reviewDue": "2026-01-30T01:00:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/atherosclerosis/",
+      "name": "Atherosclerosis"
+    },
+    {
+      "description": "Read about athlete's foot, a common fungal infection of the foot. Find out about the symptoms, what causes it, and how it's treated.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Condition"],
+        "datePublished": "2017-10-17T16:02:41+00:00",
+        "dateModified": "2023-05-17T08:49:09+00:00",
+        "lastReviewed": ["2021-06-08T17:00:00+00:00", "2024-06-08T17:00:00+00:00"],
+        "reviewDue": "2024-06-08T17:00:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/athletes-foot/",
+      "name": "Athlete's foot"
+    },
+    {
+      "description": "Find out about auditory processing disorder, a condition where you have difficulty understanding sounds including spoken words.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Condition"],
+        "datePublished": "2017-10-17T16:01:41+00:00",
+        "dateModified": "2023-08-02T11:28:29+00:00",
+        "lastReviewed": ["2023-07-31T00:00:00+00:00", "2026-07-31T00:00:00+00:00"],
+        "reviewDue": "2026-07-31T00:00:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/auditory-processing-disorder/",
+      "name": "Auditory processing disorder (APD)"
+    },
+    {
+      "description": "Read about age-related cataracts. In older people, changes can occur in the lens of the eye, making it less transparent and causing cloudy or misty vision.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Condition"],
+        "datePublished": "2017-10-17T18:46:58+00:00",
+        "dateModified": "2021-11-18T15:27:30+00:00",
+        "lastReviewed": ["2020-12-22T10:04:00+00:00", "2023-12-22T10:04:00+00:00"],
+        "reviewDue": "2023-12-22T10:04:00+00:00",
+        "keywords": "",
+        "alternateName": ["Cataracts (age-related)"],
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/cataracts/",
+      "name": "Age-related cataracts"
+    },
+    {
+      "description": "Find out about abdominal aortic aneurysm, what the symptoms are, how it\u2019s treated, how to lower your risk of getting one and what the causes are.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Condition"],
+        "datePublished": "2017-10-20T11:42:38+00:00",
+        "dateModified": "2023-08-11T14:19:54+00:00",
+        "lastReviewed": ["2023-06-14T00:00:00+00:00", "2026-06-14T00:00:00+00:00"],
+        "reviewDue": "2026-06-14T00:00:00+00:00",
+        "keywords": "",
+        "alternateName": ["AAA", "Aneurysm (abdominal aortic)"],
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/abdominal-aortic-aneurysm/",
+      "name": "Abdominal aortic aneurysm"
+    },
+    {
+      "description": "Find out who is offered abdominal aortic aneurysm (AAA) screening, why it's done and what it involves.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Test"],
+        "datePublished": "2017-10-20T10:36:32+00:00",
+        "dateModified": "2023-08-07T14:28:43+00:00",
+        "lastReviewed": ["2021-01-12T01:00:00+00:00", "2024-01-12T01:00:00+00:00"],
+        "reviewDue": "2024-01-12T01:00:00+00:00",
+        "keywords": "",
+        "alternateName": ["AAA screening"],
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/abdominal-aortic-aneurysm-screening/",
+      "name": "Abdominal aortic aneurysm screening"
+    },
+    {
+      "description": "Acne is a common skin condition that affects most people at some point. It causes spots, oily skin and sometimes skin that's hot or painful to touch.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Condition"],
+        "datePublished": "2017-10-19T14:19:00+00:00",
+        "dateModified": "2023-01-04T15:58:59+00:00",
+        "lastReviewed": ["2023-01-03T01:00:00+00:00", "2026-01-03T01:00:00+00:00"],
+        "reviewDue": "2026-01-03T01:00:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/acne/",
+      "name": "Acne"
+    },
+    {
+      "description": "Find out about actinomycosis, including how you get it, what the symptoms are, how it's treated and how to reduce your risk of getting it.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Condition"],
+        "datePublished": "2017-11-21T10:51:44+00:00",
+        "dateModified": "2023-08-02T14:25:15+00:00",
+        "lastReviewed": ["2023-07-25T00:00:00+00:00", "2026-07-25T00:00:00+00:00"],
+        "reviewDue": "2026-07-25T00:00:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/actinomycosis/",
+      "name": "Actinomycosis"
+    },
+    {
+      "description": "Read about acute myeloid leukaemia (AML), an aggressive cancer of the myeloid cells. Information about signs and symptoms, causes, diagnosis and treatment.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Condition"],
+        "datePublished": "2017-10-20T11:27:43+00:00",
+        "dateModified": "2023-10-03T12:54:05+00:00",
+        "lastReviewed": ["2022-10-03T23:00:00+00:00", "2025-10-03T23:00:00+00:00"],
+        "reviewDue": "2025-10-03T23:00:00+00:00",
+        "keywords": "",
+        "alternateName": ["Leukaemia (acute myeloid)"],
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/acute-myeloid-leukaemia/",
+      "name": "Acute myeloid leukaemia"
+    },
+    {
+      "description": "Acute pancreatitis is a serious condition where the pancreas becomes inflamed over a short period of time.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Condition"],
+        "datePublished": "2018-04-09T09:11:55+00:00",
+        "dateModified": "2022-06-10T12:54:41+00:00",
+        "lastReviewed": ["2022-05-23T23:00:00+00:00", "2025-05-24T00:00:00+00:00"],
+        "reviewDue": "2025-05-24T00:00:00+00:00",
+        "keywords": "",
+        "alternateName": ["Pancreatitis (acute)"],
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/acute-pancreatitis/",
+      "name": "Acute pancreatitis"
+    },
+    {
+      "description": "Addison's disease, also known as primary adrenal insufficiency or hypoadrenalism, is a rare disorder of the adrenal glands.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Condition"],
+        "datePublished": "2018-06-22T11:43:53+00:00",
+        "dateModified": "2022-02-04T11:36:48+00:00",
+        "lastReviewed": ["2021-12-17T01:00:00+00:00", "2024-12-17T01:00:00+00:00"],
+        "reviewDue": "2024-12-17T01:00:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/addisons-disease/",
+      "name": "Addison's disease"
+    },
+    {
+      "description": "Albinism is an inherited condition that affects the production of melanin, the pigment that colours the skin, hair and eyes.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Condition"],
+        "datePublished": "2017-11-23T11:06:19+00:00",
+        "dateModified": "2023-10-02T16:30:33+00:00",
+        "lastReviewed": ["2023-09-25T23:00:00+00:00", "2026-09-25T23:00:00+00:00"],
+        "reviewDue": "2026-09-25T23:00:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/albinism/",
+      "name": "Albinism"
+    },
+    {
+      "description": "Alcohol misuse is where a person consumes excessive amounts of alcoholic drinks.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Condition"],
+        "datePublished": "2017-10-20T11:36:38+00:00",
+        "dateModified": "2023-07-06T13:43:03+00:00",
+        "lastReviewed": ["2022-10-04T00:00:00+00:00", "2025-10-04T00:00:00+00:00"],
+        "reviewDue": "2025-10-04T00:00:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/alcohol-misuse/",
+      "name": "Alcohol misuse"
+    },
+    {
+      "description": "Alcohol-related liver disease (ARLD) refers to liver damage caused by excess alcohol intake. There are several stages of severity and a range of associated symptoms.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Condition"],
+        "datePublished": "2017-10-20T11:37:03+00:00",
+        "dateModified": "2023-07-06T13:44:38+00:00",
+        "lastReviewed": ["2022-09-19T23:00:00+00:00", "2025-09-19T23:00:00+00:00"],
+        "reviewDue": "2025-09-19T23:00:00+00:00",
+        "keywords": "",
+        "alternateName": ["Liver disease (alcohol-related)"],
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/alcohol-related-liver-disease-arld/",
+      "name": "Alcohol-related liver disease"
+    },
+    {
+      "description": "Find out about allergic rhinitis, including what the symptoms are, what you can do about it and when to get medical help.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Condition"],
+        "datePublished": "2017-10-20T11:37:18+00:00",
+        "dateModified": "2022-06-01T11:30:19+00:00",
+        "lastReviewed": ["2022-05-30T00:00:00+00:00", "2025-05-30T00:00:00+00:00"],
+        "reviewDue": "2025-05-30T00:00:00+00:00",
+        "keywords": "",
+        "alternateName": ["Rhinitis (allergic)"],
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/allergic-rhinitis/",
+      "name": "Allergic rhinitis"
+    },
+    {
+      "description": "Find out about allergies, including typical symptoms, common allergies, when to get emergency medical help and allergy testing and treatments.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Condition"],
+        "datePublished": "2017-10-19T14:45:29+00:00",
+        "dateModified": "2023-08-16T14:35:34+00:00",
+        "lastReviewed": ["2022-08-01T23:00:00+00:00", "2025-08-01T23:00:00+00:00"],
+        "reviewDue": "2025-08-01T23:00:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/allergies/",
+      "name": "Allergies"
+    },
+    {
+      "description": "NHS information about altitude sickness, including symptoms, treatment and how to prevent it.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Condition"],
+        "datePublished": "2017-10-20T10:41:29+00:00",
+        "dateModified": "2023-08-02T11:01:58+00:00",
+        "lastReviewed": ["2023-07-31T01:00:00+00:00", "2026-07-31T02:00:00+00:00"],
+        "reviewDue": "2026-07-31T02:00:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/altitude-sickness/",
+      "name": "Altitude sickness"
+    },
+    {
+      "description": "Alzheimer's disease is the most common cause of dementia. Dementia is a group of symptoms associated with a decline in the way your brain functions, affecting your memory and the way you behave.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Condition"],
+        "datePublished": "2018-05-10T14:10:06+00:00",
+        "dateModified": "2023-09-26T08:57:57+00:00",
+        "lastReviewed": ["2021-07-05T00:00:00+00:00", "2024-07-05T00:00:00+00:00"],
+        "reviewDue": "2024-07-05T00:00:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/alzheimers-disease/",
+      "name": "Alzheimer's disease"
+    },
+    {
+      "description": "Read about amniocentesis, a diagnostic test carried out during pregnancy to assess whether your baby could develop a genetic or chromosomal condition.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Procedure", "Test"],
+        "datePublished": "2017-10-20T11:41:13+00:00",
+        "dateModified": "2022-10-19T15:48:39+00:00",
+        "lastReviewed": ["2022-10-12T00:00:00+00:00", "2025-10-12T00:00:00+00:00"],
+        "reviewDue": "2025-10-12T00:00:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/amniocentesis/",
+      "name": "Amniocentesis"
+    },
+    {
+      "description": "Read about anal fissures and the importance of seeing a GP. Also, read about the symptoms, causes, treatment and prevention of anal fissures.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Condition"],
+        "datePublished": "2017-10-20T10:43:07+00:00",
+        "dateModified": "2022-05-30T15:14:36+00:00",
+        "lastReviewed": ["2021-11-09T00:00:00+00:00", "2024-11-09T00:00:00+00:00"],
+        "reviewDue": "2024-11-09T00:00:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/anal-fissure/",
+      "name": "Anal fissure"
+    },
+    {
+      "description": "Find out what an anal fistula is, including information about the symptoms, causes and treatments.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Condition"],
+        "datePublished": "2017-10-20T10:45:38+00:00",
+        "dateModified": "2023-06-08T14:35:01+00:00",
+        "lastReviewed": ["2023-02-21T01:00:00+00:00", "2026-02-21T01:00:00+00:00"],
+        "reviewDue": "2026-02-21T01:00:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/anal-fistula/",
+      "name": "Anal fistula"
+    },
+    {
+      "description": "NHS information about anaphylaxis, including symptoms, when to get help, treatment and prevention.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Condition"],
+        "datePublished": "2017-10-20T11:15:04+00:00",
+        "dateModified": "2023-08-17T12:27:19+00:00",
+        "lastReviewed": ["2023-06-21T02:00:00+00:00", "2026-06-21T02:00:00+00:00"],
+        "reviewDue": "2026-06-21T02:00:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/anaphylaxis/",
+      "name": "Anaphylaxis"
+    },
+    {
+      "description": "Find out about androgen insensitivity syndrome (AIS), a rare condition that affects the development of a person's genitals and reproductive organs.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Condition"],
+        "datePublished": "2017-10-20T11:58:16+00:00",
+        "dateModified": "2022-10-10T10:37:47+00:00",
+        "lastReviewed": ["2021-03-17T00:00:00+00:00", "2024-03-17T00:00:00+00:00"],
+        "reviewDue": "2024-03-17T00:00:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/androgen-insensitivity-syndrome/",
+      "name": "Androgen insensitivity syndrome"
+    },
+    {
+      "description": "Read more about angina, which is a type of chest pain caused by not enough blood going to the muscles of the heart. It usually happens when the arteries supplying the heart become hardened and narrowed.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Condition"],
+        "datePublished": "2017-10-20T11:50:47+00:00",
+        "dateModified": "2023-09-05T19:55:58+00:00",
+        "lastReviewed": ["2021-04-21T23:00:00+00:00", "2024-04-21T23:00:00+00:00"],
+        "reviewDue": "2024-04-21T23:00:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/angina/",
+      "name": "Angina"
+    },
+    {
+      "description": "Find out what angioedema is, what the symptoms are, why it happens and how it's treated.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Condition"],
+        "datePublished": "2017-10-19T15:06:52+00:00",
+        "dateModified": "2023-01-26T12:21:23+00:00",
+        "lastReviewed": ["2023-01-18T01:00:00+00:00", "2026-01-18T01:00:00+00:00"],
+        "reviewDue": "2026-01-18T01:00:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/angioedema/",
+      "name": "Angioedema"
+    },
+    {
+      "description": "Find out why angiography is used, what happens during the procedure, and the possible risks involved. Also, read about the different types of angiography.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Procedure", "Test"],
+        "datePublished": "2017-10-19T14:44:01+00:00",
+        "dateModified": "2023-02-02T09:42:42+00:00",
+        "lastReviewed": ["2023-01-30T00:00:00+00:00", "2026-01-30T00:00:00+00:00"],
+        "reviewDue": "2026-01-30T00:00:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/angiography/",
+      "name": "Angiography"
+    },
+    {
+      "description": "Read about ankylosing spondylitis (AS) and other types of axial spondyloarthritis, a long-term (chronic) condition in which the spine and other areas of the body become inflamed.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Condition"],
+        "datePublished": "2017-10-20T11:50:54+00:00",
+        "dateModified": "2023-05-16T16:35:22+00:00",
+        "lastReviewed": ["2023-01-05T01:00:00+00:00", "2026-01-05T01:00:00+00:00"],
+        "reviewDue": "2026-01-05T01:00:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/ankylosing-spondylitis/",
+      "name": "Ankylosing spondylitis"
+    },
+    {
+      "description": "Find out about antibiotics, which are used to treat or prevent some types of bacterial infection.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Medicine"],
+        "datePublished": "2017-10-20T12:01:37+00:00",
+        "dateModified": "2023-04-12T14:52:48+00:00",
+        "lastReviewed": ["2022-11-11T01:00:00+00:00", "2025-11-11T01:00:00+00:00"],
+        "reviewDue": "2025-11-11T01:00:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/antibiotics/",
+      "name": "Antibiotics"
+    },
+    {
+      "description": "Anticoagulants are medicines that reduce the ability of the blood to clot. Read about why they're used, how you take them and what you need to bear in mind while taking them.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Medicine"],
+        "datePublished": "2018-02-06T08:50:51+00:00",
+        "dateModified": "2022-05-17T09:29:52+00:00",
+        "lastReviewed": ["2021-07-26T16:18:00+00:00", "2024-07-26T16:18:00+00:00"],
+        "reviewDue": "2024-07-26T16:18:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/anticoagulants/",
+      "name": "Anticoagulant medicines"
+    },
+    {
+      "description": "Antidepressants are a type of medication used to treat clinical depression or prevent it recurring. They can also be used to treat some other conditions.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Medicine"],
+        "datePublished": "2017-10-24T14:35:59+00:00",
+        "dateModified": "2021-11-18T15:35:42+00:00",
+        "lastReviewed": ["2018-08-16T00:00:00+00:00", "2021-08-16T00:00:00+00:00"],
+        "reviewDue": "2021-08-16T00:00:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/antidepressants/",
+      "name": "Antidepressants"
+    },
+    {
+      "description": "Antiphospholipid syndrome (APS), also known as Hughes syndrome, is a disorder of the immune system that causes an increased risk of blood clots.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Condition"],
+        "datePublished": "2018-05-04T15:23:38+00:00",
+        "dateModified": "2022-10-05T10:51:52+00:00",
+        "lastReviewed": ["2022-06-20T00:00:00+00:00", "2025-06-20T00:00:00+00:00"],
+        "reviewDue": "2025-06-20T00:00:00+00:00",
+        "keywords": "",
+        "alternateName": ["Hughes syndrome"],
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/antiphospholipid-syndrome/",
+      "name": "Antiphospholipid syndrome (APS)"
+    },
+    {
+      "description": "Read about aortic valve replacement, a type of open heart surgery that replaces faulty or  or damaged valves.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Procedure", "Treatment"],
+        "datePublished": "2017-10-20T12:19:54+00:00",
+        "dateModified": "2022-01-25T11:52:35+00:00",
+        "lastReviewed": ["2021-12-23T00:00:00+00:00", "2024-12-23T00:00:00+00:00"],
+        "reviewDue": "2024-12-23T00:00:00+00:00",
+        "keywords": "",
+        "alternateName": ["Heart valve replacement"],
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/aortic-valve-replacement/",
+      "name": "Aortic valve replacement"
+    },
+    {
+      "description": "Read about aphasia, where a person has problems communicating. Find out about the types of aphasia, what causes it, and how it's diagnosed and treated.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Condition"],
+        "datePublished": "2017-10-20T12:07:10+00:00",
+        "dateModified": "2023-08-22T10:34:34+00:00",
+        "lastReviewed": ["2021-03-23T00:00:00+00:00", "2024-03-23T00:00:00+00:00"],
+        "reviewDue": "2024-03-23T00:00:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/aphasia/",
+      "name": "Aphasia"
+    },
+    {
+      "description": "Find out about appendicitis, a painful swelling of the appendix, including what causes it, when to get medical help and how the appendix is surgically removed (appendicectomy or appendectomy).",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Condition"],
+        "datePublished": "2017-10-20T14:55:04+00:00",
+        "dateModified": "2023-05-17T17:32:08+00:00",
+        "lastReviewed": ["2022-10-20T23:00:00+00:00", "2025-10-20T23:00:00+00:00"],
+        "reviewDue": "2025-10-20T23:00:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/appendicitis/",
+      "name": "Appendicitis"
+    },
+    {
+      "description": "Read about arthritis, a common condition that causes pain and inflammation in a joint. Although there's no cure, treatment can help slow it down.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Condition"],
+        "datePublished": "2017-10-20T10:02:53+00:00",
+        "dateModified": "2022-09-16T10:48:22+00:00",
+        "lastReviewed": ["2022-09-07T23:00:00+00:00", "2025-09-07T23:00:00+00:00"],
+        "reviewDue": "2025-09-07T23:00:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/arthritis/",
+      "name": "Arthritis"
+    },
+    {
+      "description": "Read about arthroscopy, a type of keyhole surgery used to diagnose and sometimes treat joint problems. Keyhole surgery is where only small cuts are made.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Procedure", "Test"],
+        "datePublished": "2017-10-20T12:11:25+00:00",
+        "dateModified": "2022-06-14T11:22:45+00:00",
+        "lastReviewed": ["2022-06-09T00:00:00+00:00", "2025-06-09T00:00:00+00:00"],
+        "reviewDue": "2025-06-09T00:00:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/arthroscopy/",
+      "name": "Arthroscopy"
+    },
+    {
+      "description": "Aspergillosis is the name of a group of fungal conditions caused by a mould called aspergillus.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Condition"],
+        "datePublished": "2017-10-20T12:45:00+00:00",
+        "dateModified": "2021-11-18T15:36:02+00:00",
+        "lastReviewed": ["2021-03-11T00:00:00+00:00", "2024-03-11T00:00:00+00:00"],
+        "reviewDue": "2024-03-11T00:00:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/aspergillosis/",
+      "name": "Aspergillosis"
+    },
+    {
+      "description": "Find out what asthma is, what the symptoms are, what causes it and how it's treated.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Condition"],
+        "datePublished": "2017-10-20T09:33:19+00:00",
+        "dateModified": "2023-09-26T09:13:01+00:00",
+        "lastReviewed": ["2021-04-18T23:00:00+00:00", "2024-04-18T23:00:00+00:00"],
+        "reviewDue": "2024-04-18T23:00:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/asthma/",
+      "name": "Asthma"
+    },
+    {
+      "description": "Read about astigmatism, a common and usually minor condition of the eye that causes blurred or distorted vision. Find out what the symptoms and treatments are.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Condition"],
+        "datePublished": "2017-11-21T12:54:01+00:00",
+        "dateModified": "2022-07-04T09:12:16+00:00",
+        "lastReviewed": ["2020-12-08T01:00:00+00:00", "2023-12-08T01:00:00+00:00"],
+        "reviewDue": "2023-12-08T01:00:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/astigmatism/",
+      "name": "Astigmatism"
+    },
+    {
+      "description": "Ataxia is the term for a group of disorders that affect co-ordination, balance and speech. Find out about the main types, what causes them, and how they're treated.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Condition"],
+        "datePublished": "2017-10-20T13:18:17+00:00",
+        "dateModified": "2022-05-17T15:10:05+00:00",
+        "lastReviewed": ["2021-04-16T15:02:00+00:00", "2024-04-16T15:02:00+00:00"],
+        "reviewDue": "2024-04-16T15:02:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/ataxia/",
+      "name": "Ataxia"
+    },
+    {
+      "description": "Read about atopic eczema (atopic dermatitis), a condition that causes the skin to become itchy, dry, cracked and sore.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Condition"],
+        "datePublished": "2017-10-19T15:22:44+00:00",
+        "dateModified": "2023-09-26T08:42:19+00:00",
+        "lastReviewed": ["2019-12-05T00:00:00+00:00", "2022-12-05T00:00:00+00:00"],
+        "reviewDue": "2022-12-05T00:00:00+00:00",
+        "keywords": "",
+        "alternateName": ["Eczema (atopic)"],
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/atopic-eczema/",
+      "name": "Atopic eczema"
+    },
+    {
+      "description": "Read about atrial fibrillation, which is a heart condition that causes an irregular and often abnormally fast heart rate.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Condition"],
+        "datePublished": "2017-10-20T12:22:43+00:00",
+        "dateModified": "2022-06-24T13:31:09+00:00",
+        "lastReviewed": ["2021-05-17T00:00:00+00:00", "2024-05-17T00:00:00+00:00"],
+        "reviewDue": "2024-05-17T00:00:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/atrial-fibrillation/",
+      "name": "Atrial fibrillation"
+    },
+    {
+      "description": "Read about attention deficit hyperactivity disorder (ADHD), a condition that affects people's behaviour.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Condition"],
+        "datePublished": "2018-06-01T08:55:10+00:00",
+        "dateModified": "2023-07-28T15:24:09+00:00",
+        "lastReviewed": ["2021-12-24T01:00:00+00:00", "2024-12-24T01:00:00+00:00"],
+        "reviewDue": "2024-12-24T01:00:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/attention-deficit-hyperactivity-disorder-adhd/",
+      "name": "Attention deficit hyperactivity disorder (ADHD)"
+    },
+    {
+      "description": "Find out about autosomal dominant polycystic kidney disease (ADPKD), an inherited condition that causes small fluid-filled sacs called cysts to develop in the kidneys.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Condition"],
+        "datePublished": "2017-10-20T12:56:56+00:00",
+        "dateModified": "2023-02-28T08:22:03+00:00",
+        "lastReviewed": ["2023-02-23T12:21:00+00:00", "2026-02-23T12:21:00+00:00"],
+        "reviewDue": "2026-02-23T12:21:00+00:00",
+        "keywords": "",
+        "alternateName": ["Polycystic kidney disease (autosomal dominant)"],
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/autosomal-dominant-polycystic-kidney-disease-adpkd/",
+      "name": "Autosomal dominant polycystic kidney disease"
+    },
+    {
+      "description": "Autosomal recessive polycystic kidney disease (ARPKD) is a rare inherited childhood condition where the development of the kidneys and liver is abnormal.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Condition"],
+        "datePublished": "2017-10-20T13:09:20+00:00",
+        "dateModified": "2023-01-31T11:30:16+00:00",
+        "lastReviewed": ["2023-01-10T00:00:00+00:00", "2026-01-10T00:00:00+00:00"],
+        "reviewDue": "2026-01-10T00:00:00+00:00",
+        "keywords": "",
+        "alternateName": ["Polycystic kidney disease (autosomal recessive)"],
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/autosomal-recessive-polycystic-kidney-disease-arpkd/",
+      "name": "Autosomal recessive polycystic kidney disease"
+    },
+    {
+      "description": "Read more about age-related macular degeneration (AMD), which mainly affects people over 50 years of age and usually leads to a gradual loss of central vision.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Condition"],
+        "datePublished": "2017-10-23T13:25:25+00:00",
+        "dateModified": "2021-11-18T15:46:43+00:00",
+        "lastReviewed": ["2021-04-20T00:00:00+00:00", "2024-04-20T00:00:00+00:00"],
+        "reviewDue": "2024-04-20T00:00:00+00:00",
+        "keywords": "",
+        "alternateName": ["Macular degeneration (age-related)"],
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/age-related-macular-degeneration-amd/",
+      "name": "Age-related macular degeneration (AMD)"
+    },
+    {
+      "description": "Find out what an abortion involves, how you can get one on the NHS, and what support is available to help you make a decision.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Procedure"],
+        "datePublished": "2017-10-18T11:36:09+00:00",
+        "dateModified": "2023-04-17T13:58:22+00:00",
+        "lastReviewed": ["2020-04-24T11:13:00+00:00", "2023-04-24T11:13:00+00:00"],
+        "reviewDue": "2023-04-24T11:13:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/abortion/",
+      "name": "Abortion"
+    },
+    {
+      "description": "Find out about antifungal medicines, which are used to treat fungal infections such as thrush and athlete's foot.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Medicine"],
+        "datePublished": "2017-10-19T07:12:16+00:00",
+        "dateModified": "2023-04-04T17:17:01+00:00",
+        "lastReviewed": ["2023-04-03T07:05:00+00:00", "2026-04-03T07:05:00+00:00"],
+        "reviewDue": "2026-04-03T07:05:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/antifungal-medicines/",
+      "name": "Antifungal medicines"
+    },
+    {
+      "description": "Find out what you can do to ease ankle pain, what could be causing the pain and when to get medical help.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Symptom"],
+        "datePublished": "2022-03-30T12:58:40+00:00",
+        "dateModified": "2023-01-11T09:33:51+00:00",
+        "lastReviewed": ["2022-02-22T08:29:00+00:00", "2025-02-22T08:29:00+00:00"],
+        "reviewDue": "2025-02-22T08:29:00+00:00",
+        "keywords": ""
+      },
+      "url": "https://api.nhs.uk/conditions/foot-pain/ankle-pain/",
+      "name": "Ankle pain"
+    },
+    {
+      "description": "NHS guide to autism. Find out what autism is and what the common signs are. Get help and advice if you or your child are autistic.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Condition"],
+        "datePublished": "2023-03-08T13:51:37+00:00",
+        "dateModified": "2023-03-13T08:37:12+00:00",
+        "keywords": "",
+        "alternateName": ["Asperger's"]
+      },
+      "url": "https://api.nhs.uk/conditions/autism/",
+      "name": "Autism"
+    },
+    {
+      "description": "Find out about acute lymphoblastic leukaemia (ALL), including what the symptoms are, what to do if you think you have it, how it's treated and where to get support.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Condition"],
+        "datePublished": "2023-08-07T09:51:57+00:00",
+        "dateModified": "2023-08-07T09:51:57+00:00",
+        "keywords": "",
+        "alternateName": ["Leukaemia (acute lymphoblastic)"]
+      },
+      "url": "https://api.nhs.uk/conditions/acute-lymphoblastic-leukaemia/",
+      "name": "Acute lymphoblastic leukaemia"
+    },
+    {
+      "description": "Find out about adenomyosis, including symptoms, what to do if you think you have it and how it's treated.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Condition"],
+        "datePublished": "2023-07-21T07:11:46+00:00",
+        "dateModified": "2023-07-21T09:01:15+00:00",
+        "lastReviewed": ["2023-07-17T15:30:00+00:00", "2026-07-17T15:30:00+00:00"],
+        "reviewDue": "2026-07-17T15:30:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/adenomyosis/",
+      "name": "Adenomyosis"
+    },
+    {
+      "description": "Find out what anorexia nervosa is, what causes it, the signs to look out for, and the treatment and support available.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Condition"],
+        "datePublished": "2021-02-11T11:22:08+00:00",
+        "dateModified": "2022-08-16T12:47:57+00:00",
+        "keywords": ""
+      },
+      "url": "https://www.nhs.ukhttps://api.nhs.uk/conditions/anorexia/",
+      "name": "Anorexia nervosa"
+    },
+    {
+      "description": "Find out what antisocial personality disorder is, what the signs are, and how it's diagnosed and treated.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Condition"],
+        "datePublished": "2021-02-12T17:48:26+00:00",
+        "dateModified": "2022-06-14T10:28:25+00:00",
+        "lastReviewed": ["2021-12-23T15:40:00+00:00", "2024-12-23T15:40:00+00:00"],
+        "reviewDue": "2024-12-23T15:40:00+00:00",
+        "keywords": ""
+      },
+      "url": "https://www.nhs.ukhttps://api.nhs.uk/conditions/antisocial-personality-disorder/",
+      "name": "Antisocial personality disorder"
+    },
+    {
+      "description": "Read about agoraphobia, a fear of being in situations where escape might be difficult or that help wouldn't be available if things go wrong.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Condition"],
+        "datePublished": "2021-02-12T16:39:14+00:00",
+        "dateModified": "2022-03-29T10:14:46+00:00",
+        "keywords": ""
+      },
+      "url": "https://www.nhs.ukhttps://api.nhs.uk/conditions/agoraphobia/",
+      "name": "Agoraphobia"
+    }
+  ]
+}

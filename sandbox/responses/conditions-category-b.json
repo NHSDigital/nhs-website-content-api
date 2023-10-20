@@ -1,0 +1,1570 @@
+{
+  "@context": "http://schema.org",
+  "@type": "MedicalWebPage",
+  "name": "Health A to Z",
+  "copyrightHolder": { "name": "Crown Copyright", "@type": "Organization" },
+  "license": "https://developer.api.nhs.uk/terms",
+  "author": {
+    "url": "https://www.nhs.uk",
+    "logo": "https://www.nhs.uk/nhscwebservices/documents/logo1.jpg",
+    "email": "nhswebsite.servicedesk@nhs.net",
+    "@type": "Organization",
+    "name": "NHS website"
+  },
+  "about": { "@type": "WebPage", "name": "Health A to Z", "alternateName": "" },
+  "description": "",
+  "url": "https://api.nhs.uk/conditions/",
+  "genre": [],
+  "keywords": "",
+  "dateModified": "2021-11-18T15:26:06+00:00",
+  "breadcrumb": {
+    "@context": "http://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 0,
+        "item": { "@id": "https://api.nhs.uk/conditions/", "name": "Health A to Z", "genre": [] }
+      }
+    ]
+  },
+  "contentSubTypes": [],
+  "significantLink": [
+    {
+      "description": "Read about balanitis, which is where the head of the penis is swollen and sore. Find out about the symptoms, causes, treatments and when to get medical help.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Condition"],
+        "datePublished": "2017-10-17T16:07:52+00:00",
+        "dateModified": "2023-05-30T12:15:43+00:00",
+        "lastReviewed": ["2023-05-30T00:00:00+00:00", "2026-05-30T00:00:00+00:00"],
+        "reviewDue": "2026-05-30T00:00:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/balanitis/",
+      "name": "Balanitis"
+    },
+    {
+      "description": "Read about having a barium enema, including what you need to do to prepare, what happens during the test, and what happens afterwards.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Procedure", "Test"],
+        "datePublished": "2017-10-17T16:09:38+00:00",
+        "dateModified": "2023-04-04T10:12:03+00:00",
+        "lastReviewed": ["2022-05-13T00:00:00+00:00", "2025-05-13T00:00:00+00:00"],
+        "reviewDue": "2025-05-13T00:00:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/barium-enema/",
+      "name": "Barium enema"
+    },
+    {
+      "description": "Find out about bedbugs, including checking if you have them, how to get rid of them and how to treat bedbug bites.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Condition"],
+        "datePublished": "2017-10-17T16:09:19+00:00",
+        "dateModified": "2022-08-04T13:49:39+00:00",
+        "lastReviewed": ["2022-08-01T23:00:00+00:00", "2025-08-01T23:00:00+00:00"],
+        "reviewDue": "2025-08-01T23:00:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/bedbugs/",
+      "name": "Bedbugs"
+    },
+    {
+      "description": "Read about a group of medicines called beta blockers, including what they're used for, side effects and what to do if you miss a dose or take too much.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Medicine"],
+        "datePublished": "2017-10-17T16:13:30+00:00",
+        "dateModified": "2023-02-17T16:57:13+00:00",
+        "lastReviewed": ["2022-12-02T01:00:00+00:00", "2025-12-02T01:00:00+00:00"],
+        "reviewDue": "2025-12-02T01:00:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/beta-blockers/",
+      "name": "Beta blockers"
+    },
+    {
+      "description": "Find out more about a black eye, which is bruising and swelling around your eye, usually caused by a blow.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Accident or injury"],
+        "datePublished": "2017-10-17T16:07:56+00:00",
+        "dateModified": "2023-08-04T08:10:00+00:00",
+        "lastReviewed": ["2023-07-27T00:00:00+00:00", "2026-07-27T00:00:00+00:00"],
+        "reviewDue": "2026-07-27T00:00:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/black-eye/",
+      "name": "Black eye"
+    },
+    {
+      "description": "Read about blood clots, their symptoms, when to get help and how to prevent them.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Condition"],
+        "datePublished": "2017-10-18T08:20:04+00:00",
+        "dateModified": "2023-04-26T15:02:30+00:00",
+        "lastReviewed": ["2021-02-16T00:00:00+00:00", "2024-02-16T00:00:00+00:00"],
+        "reviewDue": "2024-02-16T00:00:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/blood-clots/",
+      "name": "Blood clots"
+    },
+    {
+      "description": "Find out about blood groups. There are 4 main blood groups \u2013 A, B, AB and O.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "genre": ["Advice or information"],
+        "datePublished": "2017-10-17T16:22:10+00:00",
+        "dateModified": "2023-05-17T11:24:01+00:00",
+        "lastReviewed": ["2023-05-10T08:40:00+00:00", "2026-05-10T08:40:00+00:00"],
+        "reviewDue": "2026-05-10T08:40:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/blood-groups/",
+      "name": "Blood groups"
+    },
+    {
+      "description": "Find out about possible causes of blood in semen and when to get medical help.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Symptom"],
+        "datePublished": "2018-10-03T19:56:07+00:00",
+        "dateModified": "2022-03-22T14:11:41+00:00",
+        "lastReviewed": ["2022-03-15T01:00:00+00:00", "2025-03-15T01:00:00+00:00"],
+        "reviewDue": "2025-03-15T01:00:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/blood-in-semen/",
+      "name": "Blood in semen"
+    },
+    {
+      "description": "Find out about blood in urine (pee). It's not usually anything serious, but sometimes it can be, so you must get it checked out by a GP.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Symptom"],
+        "datePublished": "2017-12-08T09:36:05+00:00",
+        "dateModified": "2023-06-12T11:34:55+00:00",
+        "lastReviewed": ["2023-05-19T00:00:00+00:00", "2026-05-19T00:00:00+00:00"],
+        "reviewDue": "2026-05-19T00:00:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/blood-in-urine/",
+      "name": "Blood in urine"
+    },
+    {
+      "description": "Find out why a blood pressure test is important, how it\u2019s done and what your blood pressure reading might mean.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Test"],
+        "datePublished": "2018-07-30T13:46:29+00:00",
+        "dateModified": "2023-10-18T13:44:29+00:00",
+        "lastReviewed": ["2023-07-11T03:00:00+00:00", "2026-07-11T03:00:00+00:00"],
+        "reviewDue": "2026-07-11T03:00:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/blood-pressure-test/",
+      "name": "Blood pressure test"
+    },
+    {
+      "description": "Read more about boils and carbuncles, which are red, painful lumps on the skin that are usually caused by a bacterial infection.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Condition"],
+        "datePublished": "2017-10-17T16:16:23+00:00",
+        "dateModified": "2023-06-23T15:18:57+00:00",
+        "lastReviewed": ["2023-06-20T00:00:00+00:00", "2026-06-20T00:00:00+00:00"],
+        "reviewDue": "2026-06-20T00:00:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/boils/",
+      "name": "Boils"
+    },
+    {
+      "description": "Find out about botulism, a rare but life-threatening condition caused by toxins produced by Clostridium botulinum bacteria.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Condition"],
+        "datePublished": "2017-10-17T16:12:58+00:00",
+        "dateModified": "2022-10-06T19:25:49+00:00",
+        "lastReviewed": ["2022-10-02T23:00:00+00:00", "2025-10-02T23:00:00+00:00"],
+        "reviewDue": "2025-10-02T23:00:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/botulism/",
+      "name": "Botulism"
+    },
+    {
+      "description": "Find out about bowel (colonic) polyps, which are small growths on the inner lining of the bowel. There are often no symptoms but should usually be removed.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Condition"],
+        "datePublished": "2017-10-17T16:11:55+00:00",
+        "dateModified": "2023-08-02T12:51:35+00:00",
+        "lastReviewed": ["2023-07-28T09:38:00+00:00", "2026-07-28T09:38:00+00:00"],
+        "reviewDue": "2026-07-28T09:38:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/bowel-polyps/",
+      "name": "Bowel polyps"
+    },
+    {
+      "description": "Find out about the symptoms, causes and treatments for Bowen's disease, a very early and easily treatable form of skin cancer.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Condition"],
+        "datePublished": "2017-10-17T16:18:43+00:00",
+        "dateModified": "2022-10-13T12:36:12+00:00",
+        "lastReviewed": ["2022-10-06T00:00:00+00:00", "2025-10-06T00:00:00+00:00"],
+        "reviewDue": "2025-10-06T00:00:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/bowens-disease/",
+      "name": "Bowen's disease"
+    },
+    {
+      "description": "A brain tumour is a growth of cells in the brain that multiplies in an abnormal, uncontrollable way. Find out about its symptoms and how it's treated.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Condition"],
+        "datePublished": "2017-10-17T16:15:16+00:00",
+        "dateModified": "2023-06-13T10:05:22+00:00",
+        "lastReviewed": ["2023-06-11T23:00:00+00:00", "2026-06-11T23:00:00+00:00"],
+        "reviewDue": "2026-06-11T23:00:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/brain-tumours/",
+      "name": "Brain tumours"
+    },
+    {
+      "description": "Find out about breast pain and what can cause it. It's usually linked to periods but can also be caused by injury, infection and taking certain medicines.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Symptom"],
+        "datePublished": "2017-10-17T16:24:54+00:00",
+        "dateModified": "2023-05-17T12:35:34+00:00",
+        "lastReviewed": ["2023-05-03T00:00:00+00:00", "2026-05-03T00:00:00+00:00"],
+        "reviewDue": "2026-05-03T00:00:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/breast-pain/",
+      "name": "Breast pain"
+    },
+    {
+      "description": "Find out whether you might be eligible for breast reduction surgery on the NHS and what to do if you think you might qualify.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "genre": ["Advice or information"],
+        "datePublished": "2017-10-17T16:38:33+00:00",
+        "dateModified": "2023-01-26T17:15:14+00:00",
+        "lastReviewed": ["2022-11-14T01:00:00+00:00", "2025-11-14T01:00:00+00:00"],
+        "reviewDue": "2025-11-14T01:00:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/breast-reduction-on-the-nhs/",
+      "name": "Breast reduction on the NHS"
+    },
+    {
+      "description": "Find out about breath-holding in babies and children, including when to get medical help, what happens during an episode and what to do.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Condition"],
+        "datePublished": "2017-10-17T16:48:03+00:00",
+        "dateModified": "2023-03-06T08:05:09+00:00",
+        "lastReviewed": ["2023-03-02T00:00:00+00:00", "2026-03-02T00:00:00+00:00"],
+        "reviewDue": "2026-03-02T00:00:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/breath-holding-in-babies-and-children/",
+      "name": "Breath-holding in babies and children"
+    },
+    {
+      "description": "Find out how to tell if your ankle is broken (fractured) and when to get medical advice, plus how a broken ankle is treated and how long it takes to heal.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Accident or injury"],
+        "datePublished": "2017-10-17T16:28:23+00:00",
+        "dateModified": "2023-02-15T10:48:13+00:00",
+        "lastReviewed": ["2022-03-11T01:00:00+00:00", "2025-03-11T01:00:00+00:00"],
+        "reviewDue": "2025-03-11T01:00:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/broken-ankle/",
+      "name": "Broken ankle"
+    },
+    {
+      "description": "Find out how to tell if you have a broken arm or wrist, where to get medical help and how long it takes to heal.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Condition", "Accident or injury"],
+        "datePublished": "2017-10-17T16:31:40+00:00",
+        "dateModified": "2023-09-20T14:31:35+00:00",
+        "lastReviewed": ["2023-05-26T14:54:00+00:00", "2026-05-26T14:54:00+00:00"],
+        "reviewDue": "2026-05-26T14:54:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/broken-arm-or-wrist/",
+      "name": "Broken arm or wrist"
+    },
+    {
+      "description": "Find out how to tell if you have a broken collarbone, where to get medical help and how long it takes to heal.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Condition", "Accident or injury"],
+        "datePublished": "2017-10-17T17:04:08+00:00",
+        "dateModified": "2023-08-04T09:21:41+00:00",
+        "lastReviewed": ["2023-08-01T23:00:00+00:00", "2026-08-01T23:00:00+00:00"],
+        "reviewDue": "2026-08-01T23:00:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/broken-collarbone/",
+      "name": "Broken collarbone"
+    },
+    {
+      "description": "Find out how to tell if you have a broken finger or thumb, what you should do, and how long it takes to heal.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Accident or injury"],
+        "datePublished": "2017-10-17T16:33:32+00:00",
+        "dateModified": "2022-03-24T13:56:08+00:00",
+        "lastReviewed": ["2022-03-23T01:00:00+00:00", "2025-03-23T01:00:00+00:00"],
+        "reviewDue": "2025-03-23T01:00:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/broken-finger/",
+      "name": "Broken finger or thumb"
+    },
+    {
+      "description": "Read about the signs of a broken leg, what you should do if you think someone has broken their leg, how a broken leg is treated and how long it takes to recover.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Accident or injury"],
+        "datePublished": "2017-10-18T08:55:52+00:00",
+        "dateModified": "2023-10-20T08:47:58+00:00",
+        "lastReviewed": ["2021-09-15T00:00:00+00:00", "2024-09-15T00:00:00+00:00"],
+        "reviewDue": "2024-09-15T00:00:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/broken-leg/",
+      "name": "Broken leg"
+    },
+    {
+      "description": "Find out about the signs of a broken nose, how to look after your nose at home and when you should seek medical advice.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Condition", "Accident or injury"],
+        "datePublished": "2017-10-17T17:22:01+00:00",
+        "dateModified": "2023-08-23T08:55:24+00:00",
+        "lastReviewed": ["2023-08-17T15:41:00+00:00", "2026-08-17T15:41:00+00:00"],
+        "reviewDue": "2026-08-17T15:41:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/broken-nose/",
+      "name": "Broken nose"
+    },
+    {
+      "description": "Read about how long it takes injured ribs to heal, how to look after yourself until you're feeling better, and when you should get medical advice.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Accident or injury"],
+        "datePublished": "2017-10-17T16:44:28+00:00",
+        "dateModified": "2023-03-07T16:28:00+00:00",
+        "lastReviewed": ["2021-01-05T14:30:00+00:00", "2024-01-05T14:30:00+00:00"],
+        "reviewDue": "2024-01-05T14:30:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/broken-or-bruised-ribs/",
+      "name": "Broken or bruised ribs"
+    },
+    {
+      "description": "Find out about the symptoms of a broken toe, when you should get medical advice, and how to look after it at home.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Condition", "Accident or injury"],
+        "datePublished": "2017-10-17T16:35:50+00:00",
+        "dateModified": "2022-05-11T14:04:59+00:00",
+        "lastReviewed": ["2022-05-05T23:00:00+00:00", "2025-05-05T23:00:00+00:00"],
+        "reviewDue": "2025-05-05T23:00:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/broken-toe/",
+      "name": "Broken toe"
+    },
+    {
+      "description": "Find out about bronchitis, what the symptoms are, how you can ease the symptoms, where to get help, and how it is treated.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Condition"],
+        "datePublished": "2017-10-17T16:40:47+00:00",
+        "dateModified": "2023-01-06T16:19:22+00:00",
+        "lastReviewed": ["2022-12-19T01:00:00+00:00", "2025-12-19T01:00:00+00:00"],
+        "reviewDue": "2025-12-19T01:00:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/bronchitis/",
+      "name": "Bronchitis"
+    },
+    {
+      "description": "Find out about brucellosis, including symptoms, what to do if you have it and treatments.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Condition"],
+        "datePublished": "2017-10-17T16:54:59+00:00",
+        "dateModified": "2023-10-11T12:22:12+00:00",
+        "lastReviewed": ["2023-10-04T00:00:00+00:00", "2026-10-04T00:00:00+00:00"],
+        "reviewDue": "2026-10-04T00:00:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/brucellosis/",
+      "name": "Brucellosis"
+    },
+    {
+      "description": "Brugada syndrome is a rare but serious condition that can cause the heart to beat dangerously fast.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Condition"],
+        "datePublished": "2017-10-17T16:48:13+00:00",
+        "dateModified": "2023-07-17T07:11:23+00:00",
+        "lastReviewed": ["2020-05-07T00:00:00+00:00", "2023-05-07T00:00:00+00:00"],
+        "reviewDue": "2023-05-07T00:00:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/brugada-syndrome/",
+      "name": "Brugada syndrome"
+    },
+    {
+      "description": "Find out about blue or grey skin or lips (cyanosis), including what it looks like, what causes it and when to get it checked.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Symptom"],
+        "datePublished": "2017-10-18T09:21:42+00:00",
+        "dateModified": "2023-10-05T11:01:36+00:00",
+        "lastReviewed": ["2023-10-04T00:00:00+00:00", "2026-10-04T00:00:00+00:00"],
+        "reviewDue": "2026-10-04T00:00:00+00:00",
+        "keywords": "",
+        "alternateName": ["Cyanosis"],
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/blue-skin-or-lips-cyanosis/",
+      "name": "Blue or grey skin or lips (cyanosis)"
+    },
+    {
+      "description": "Find out about bladder pain syndrome (BPS), also called interstitial cystitis, where you have pelvic pain and problems peeing.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Condition"],
+        "datePublished": "2017-10-18T16:39:40+00:00",
+        "dateModified": "2023-09-05T08:24:52+00:00",
+        "lastReviewed": ["2022-02-18T01:00:00+00:00", "2025-02-18T01:00:00+00:00"],
+        "reviewDue": "2025-02-18T01:00:00+00:00",
+        "keywords": "",
+        "alternateName": ["Interstitial cystitis", "Painful bladder syndrome"],
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/interstitial-cystitis/",
+      "name": "Bladder pain syndrome (interstitial cystitis)"
+    },
+    {
+      "description": "Information for people with vision loss including details of support organisations, plus advice about specialist equipment, home modifications and mobility.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "genre": ["Advice or information"],
+        "datePublished": "2017-10-18T14:48:31+00:00",
+        "dateModified": "2023-08-04T14:15:49+00:00",
+        "lastReviewed": ["2021-12-22T01:00:00+00:00", "2024-12-22T01:00:00+00:00"],
+        "reviewDue": "2024-12-22T01:00:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/vision-loss/",
+      "name": "Blindness and vision loss"
+    },
+    {
+      "description": "Find out how to relieve back pain, what can cause it, and when to get medical advice.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Symptom"],
+        "datePublished": "2017-10-20T13:38:48+00:00",
+        "dateModified": "2023-09-26T10:02:52+00:00",
+        "lastReviewed": ["2022-06-09T23:00:00+00:00", "2025-06-09T23:00:00+00:00"],
+        "reviewDue": "2025-06-09T23:00:00+00:00",
+        "keywords": "",
+        "alternateName": ["Lumbago", "Lower back pain", "Upper back pain"],
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/back-pain/",
+      "name": "Back pain"
+    },
+    {
+      "description": "Read about bacterial vaginosis (BV), a common cause of unusual vaginal discharge. BV is not a sexually transmitted infection (STI).",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Condition"],
+        "datePublished": "2018-01-19T08:48:20+00:00",
+        "dateModified": "2022-10-28T16:21:24+00:00",
+        "lastReviewed": ["2022-10-26T23:00:00+00:00", "2025-10-27T00:00:00+00:00"],
+        "reviewDue": "2025-10-27T00:00:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/bacterial-vaginosis/",
+      "name": "Bacterial vaginosis"
+    },
+    {
+      "description": "Find out what causes bad breath (halitosis), how to treat and prevent it, and when to get medical advice.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Symptom"],
+        "datePublished": "2018-10-03T20:00:01+00:00",
+        "dateModified": "2022-06-01T10:36:14+00:00",
+        "lastReviewed": ["2021-12-07T00:00:00+00:00", "2024-12-07T00:00:00+00:00"],
+        "reviewDue": "2024-12-07T00:00:00+00:00",
+        "keywords": "",
+        "alternateName": ["Halitosis"],
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/bad-breath/",
+      "name": "Bad breath"
+    },
+    {
+      "description": "Find out what a Baker's cyst is, what causes it, how it's treated and when to see your GP.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Condition"],
+        "datePublished": "2017-10-23T14:51:30+00:00",
+        "dateModified": "2023-09-25T08:48:22+00:00",
+        "lastReviewed": ["2021-10-04T00:00:00+00:00", "2024-10-04T00:00:00+00:00"],
+        "reviewDue": "2024-10-04T00:00:00+00:00",
+        "keywords": "",
+        "alternateName": ["Popliteal cyst"],
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/bakers-cyst/",
+      "name": "Baker's cyst"
+    },
+    {
+      "description": "Find out what a Bartholin's cyst is, what the symptoms and causes are, and the possible treatment options.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Condition"],
+        "datePublished": "2018-07-26T13:22:55+00:00",
+        "dateModified": "2023-09-25T08:49:53+00:00",
+        "lastReviewed": ["2021-10-26T00:00:00+00:00", "2024-10-26T00:00:00+00:00"],
+        "reviewDue": "2024-10-26T00:00:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/bartholins-cyst/",
+      "name": "Bartholin's cyst"
+    },
+    {
+      "description": "Find out what you can do about bedwetting, what could be causing it and when to get medical help.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Symptom"],
+        "datePublished": "2017-10-20T12:36:15+00:00",
+        "dateModified": "2023-04-11T16:21:37+00:00",
+        "lastReviewed": ["2023-04-11T11:00:00+00:00", "2026-04-11T11:00:00+00:00"],
+        "reviewDue": "2026-04-11T11:00:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/bedwetting/",
+      "name": "Bedwetting in children"
+    },
+    {
+      "description": "Read about Beh\u00e7et's disease, a rare and poorly understood condition in which blood vessels and tissues may become inflamed (swollen).",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Condition"],
+        "datePublished": "2017-10-20T13:12:22+00:00",
+        "dateModified": "2023-04-24T12:14:55+00:00",
+        "lastReviewed": ["2023-04-05T23:00:00+00:00", "2026-04-05T23:00:00+00:00"],
+        "reviewDue": "2026-04-05T23:00:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/behcets-disease/",
+      "name": "Beh\u00e7et's disease"
+    },
+    {
+      "description": "Find out more about Bell's palsy, a condition that causes temporary weakness or paralysis of the muscles on 1 side of the face.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Condition"],
+        "datePublished": "2017-10-24T14:39:40+00:00",
+        "dateModified": "2023-07-05T08:08:00+00:00",
+        "lastReviewed": ["2023-07-04T00:00:00+00:00", "2026-07-04T00:00:00+00:00"],
+        "reviewDue": "2026-07-04T00:00:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/bells-palsy/",
+      "name": "Bell's palsy"
+    },
+    {
+      "description": "Information about benign (non-cancerous) brain tumours, including types of tumour, when to see a GP, causes, treatment and recovery.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Condition"],
+        "datePublished": "2017-10-20T14:02:09+00:00",
+        "dateModified": "2023-05-18T08:42:34+00:00",
+        "lastReviewed": ["2020-04-21T00:00:00+00:00", "2023-04-21T00:00:00+00:00"],
+        "reviewDue": "2023-04-21T00:00:00+00:00",
+        "keywords": "",
+        "alternateName": ["Brain tumour (benign)"],
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/benign-brain-tumour/",
+      "name": "Benign brain tumour (non-cancerous)"
+    },
+    {
+      "description": "Find out more about having a biopsy, which involves taking a small sample of body tissue so it can be examined under a microscope.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Procedure", "Test"],
+        "datePublished": "2017-10-20T14:01:58+00:00",
+        "dateModified": "2021-11-18T15:36:58+00:00",
+        "lastReviewed": ["2021-08-10T00:00:00+00:00", "2024-08-10T00:00:00+00:00"],
+        "reviewDue": "2024-08-10T00:00:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/biopsy/",
+      "name": "Biopsy"
+    },
+    {
+      "description": "Find out about birthmarks, including information about 6 of the main types, when to see a GP, and whether or not treatment is needed.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Condition"],
+        "datePublished": "2017-10-20T09:36:40+00:00",
+        "dateModified": "2023-05-09T12:02:29+00:00",
+        "lastReviewed": ["2023-04-27T23:00:00+00:00", "2026-04-27T23:00:00+00:00"],
+        "reviewDue": "2026-04-27T23:00:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/birthmarks/",
+      "name": "Birthmarks"
+    },
+    {
+      "description": "Bladder cancer is where a growth of abnormal tissue, known as a tumour, develops in the bladder lining. In some cases, the tumour spreads into the surrounding muscles.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Condition"],
+        "datePublished": "2018-05-17T11:13:51+00:00",
+        "dateModified": "2023-10-19T16:13:58+00:00",
+        "lastReviewed": ["2021-07-01T03:00:00+00:00", "2024-07-01T02:00:00+00:00"],
+        "reviewDue": "2024-07-01T02:00:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/bladder-cancer/",
+      "name": "Bladder cancer"
+    },
+    {
+      "description": "Read about bladder stones and what causes them. Also, find out when to see a GP and how bladder stones are treated.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Condition"],
+        "datePublished": "2018-06-08T09:27:46+00:00",
+        "dateModified": "2022-04-27T14:19:25+00:00",
+        "lastReviewed": ["2022-03-22T01:00:00+00:00", "2025-03-22T01:00:00+00:00"],
+        "reviewDue": "2025-03-22T01:00:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/bladder-stones/",
+      "name": "Bladder stones"
+    },
+    {
+      "description": "Bleeding from the bottom (rectal bleeding) is often seen as small amounts of bright-red blood on toilet paper or pink water in the toilet. Find out when to get medical help if you keep bleeding from your bottom.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Symptom"],
+        "datePublished": "2017-10-20T13:30:54+00:00",
+        "dateModified": "2023-04-24T15:13:50+00:00",
+        "lastReviewed": ["2023-04-12T00:00:00+00:00", "2026-04-12T00:00:00+00:00"],
+        "reviewDue": "2026-04-12T00:00:00+00:00",
+        "keywords": "",
+        "alternateName": ["Rectal bleeding"],
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/bleeding-from-the-bottom-rectal-bleeding/",
+      "name": "Bleeding from the bottom (rectal bleeding)"
+    },
+    {
+      "description": "NHS information about blepharitis, including the symptoms, when to get medical help and what you can do to treat and prevent it.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Condition"],
+        "datePublished": "2017-10-19T14:54:53+00:00",
+        "dateModified": "2022-02-10T09:26:31+00:00",
+        "lastReviewed": ["2022-02-08T01:00:00+00:00", "2025-02-08T01:00:00+00:00"],
+        "reviewDue": "2025-02-08T01:00:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/blepharitis/",
+      "name": "Blepharitis"
+    },
+    {
+      "description": "Find out about blisters, including how to treat blisters yourself, how to avoid getting them, and when to get medical help.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Condition"],
+        "datePublished": "2017-12-19T15:11:16+00:00",
+        "dateModified": "2023-05-17T09:03:36+00:00",
+        "lastReviewed": ["2021-01-04T00:00:00+00:00", "2024-01-04T00:00:00+00:00"],
+        "reviewDue": "2024-01-04T00:00:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/blisters/",
+      "name": "Blisters"
+    },
+    {
+      "description": "Find out about blood tests, including why and how they are done, with links to other useful resources.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Test"],
+        "datePublished": "2018-10-03T20:00:14+00:00",
+        "dateModified": "2023-04-17T09:59:35+00:00",
+        "lastReviewed": ["2022-08-08T00:00:00+00:00", "2025-08-08T00:00:00+00:00"],
+        "reviewDue": "2025-08-08T00:00:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/blood-tests/",
+      "name": "Blood tests"
+    },
+    {
+      "description": "Find out how to stop yourself blushing and read about the possible causes and treatments.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Symptom"],
+        "datePublished": "2018-10-03T20:00:15+00:00",
+        "dateModified": "2022-02-11T13:24:33+00:00",
+        "lastReviewed": ["2022-02-11T00:00:00+00:00", "2025-02-11T01:00:00+00:00"],
+        "reviewDue": "2025-02-11T01:00:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/blushing/",
+      "name": "Blushing"
+    },
+    {
+      "description": "Find out more about primary bone cancer, a rare type of cancer that begins in the bones. Around 550 new cases are diagnosed each year in the UK.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Condition"],
+        "datePublished": "2017-10-20T13:56:14+00:00",
+        "dateModified": "2023-10-19T16:24:11+00:00",
+        "lastReviewed": ["2021-06-20T00:00:00+00:00", "2024-06-20T00:00:00+00:00"],
+        "reviewDue": "2024-06-20T00:00:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/bone-cancer/",
+      "name": "Bone cancer"
+    },
+    {
+      "description": "Find out NHS information about bone cysts, including how they're treated and what causes them.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Condition"],
+        "datePublished": "2017-10-20T13:42:44+00:00",
+        "dateModified": "2023-07-24T15:09:18+00:00",
+        "lastReviewed": ["2023-07-21T00:00:00+00:00", "2026-07-21T00:00:00+00:00"],
+        "reviewDue": "2026-07-21T00:00:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/bone-cyst/",
+      "name": "Bone cyst"
+    },
+    {
+      "description": "Information on bowel cancer screening with links to other useful resources.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Test"],
+        "datePublished": "2017-10-20T14:07:54+00:00",
+        "dateModified": "2023-09-29T15:00:54+00:00",
+        "lastReviewed": ["2021-11-08T00:00:00+00:00", "2024-11-08T00:00:00+00:00"],
+        "reviewDue": "2024-11-08T00:00:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/bowel-cancer-screening/",
+      "name": "Bowel cancer screening"
+    },
+    {
+      "description": "Read about bowel incontinence, including the symptoms, what causes it and the treatments available.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Condition"],
+        "datePublished": "2017-10-20T13:47:09+00:00",
+        "dateModified": "2023-05-17T21:52:40+00:00",
+        "lastReviewed": ["2021-03-04T00:00:00+00:00", "2024-03-04T00:00:00+00:00"],
+        "reviewDue": "2024-03-04T00:00:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/bowel-incontinence/",
+      "name": "Bowel incontinence"
+    },
+    {
+      "description": "A brain abscess is a pus-filled swelling in the brain. It's a rare and life-threatening condition, usually caused by infection or a severe head injury.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Condition"],
+        "datePublished": "2018-09-11T08:06:22+00:00",
+        "dateModified": "2022-10-28T09:21:14+00:00",
+        "lastReviewed": ["2022-10-18T00:00:00+00:00", "2025-10-18T00:00:00+00:00"],
+        "reviewDue": "2025-10-18T00:00:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/brain-abscess/",
+      "name": "Brain abscess"
+    },
+    {
+      "description": "Find out what a brain aneurysm is, including why they develop, who's affected, how they're treated and how to prevent them.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Condition"],
+        "datePublished": "2017-10-19T14:51:52+00:00",
+        "dateModified": "2022-04-20T14:55:18+00:00",
+        "lastReviewed": ["2022-04-10T23:00:00+00:00", "2025-04-11T15:11:00+00:00"],
+        "reviewDue": "2025-04-11T15:11:00+00:00",
+        "keywords": "",
+        "alternateName": ["Aneurysm (brain)"],
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/brain-aneurysm/",
+      "name": "Brain aneurysm"
+    },
+    {
+      "description": "Brain stem death is where a person no longer has any brain stem functions, and has permanently lost the potential for consciousness and the capacity to breathe.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "genre": ["Advice or information"],
+        "datePublished": "2017-10-20T14:14:32+00:00",
+        "dateModified": "2022-09-14T15:33:15+00:00",
+        "lastReviewed": ["2022-09-08T00:00:00+00:00", "2025-09-08T00:00:00+00:00"],
+        "reviewDue": "2025-09-08T00:00:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/brain-death/",
+      "name": "Brain death"
+    },
+    {
+      "description": "Find out about breast abscesses, including what the symptoms are, where to get help, how they are treated and what causes them.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Condition"],
+        "datePublished": "2017-11-21T08:39:20+00:00",
+        "dateModified": "2023-06-16T16:14:20+00:00",
+        "lastReviewed": ["2023-06-14T11:00:00+00:00", "2026-06-14T11:00:00+00:00"],
+        "reviewDue": "2026-06-14T11:00:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/breast-abscess/",
+      "name": "Breast abscess"
+    },
+    {
+      "description": "Read about breast cancer in women, the most common type of cancer in the UK, including information on symptoms, causes, diagnosis, treatment and prevention.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Condition"],
+        "datePublished": "2017-10-20T14:09:15+00:00",
+        "dateModified": "2023-04-11T15:12:57+00:00",
+        "lastReviewed": ["2019-10-28T00:00:00+00:00", "2022-10-28T00:00:00+00:00"],
+        "reviewDue": "2022-10-28T00:00:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/breast-cancer/",
+      "name": "Breast cancer in women"
+    },
+    {
+      "description": "Read about the symptoms of breast cancer in men, what causes it, how it's treated, and what the outlook is.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Condition"],
+        "datePublished": "2017-10-20T14:15:04+00:00",
+        "dateModified": "2023-09-28T16:20:30+00:00",
+        "lastReviewed": ["2020-03-18T00:00:00+00:00", "2023-03-18T00:00:00+00:00"],
+        "reviewDue": "2023-03-18T00:00:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/breast-cancer-in-men/",
+      "name": "Breast cancer in men"
+    },
+    {
+      "description": "Find out about breast lumps. They can have a lot of different causes and most are harmless. But always see a GP if you have a lump in your breast or any unusual changes to your breasts.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Symptom"],
+        "datePublished": "2017-10-20T13:51:59+00:00",
+        "dateModified": "2023-07-05T12:28:49+00:00",
+        "lastReviewed": ["2023-06-28T00:00:00+00:00", "2026-06-28T00:00:00+00:00"],
+        "reviewDue": "2026-06-28T00:00:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/breast-lump/",
+      "name": "Breast lumps"
+    },
+    {
+      "description": "Read about bronchiectasis, which is a long-term condition where the airways of the lungs become widened. This leads to a build-up of excess mucus that can make the lungs more vulnerable to infection.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Condition"],
+        "datePublished": "2017-10-19T15:14:28+00:00",
+        "dateModified": "2023-09-26T09:50:47+00:00",
+        "lastReviewed": ["2021-07-27T00:00:00+00:00", "2024-07-27T00:00:00+00:00"],
+        "reviewDue": "2024-07-27T00:00:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/bronchiectasis/",
+      "name": "Bronchiectasis"
+    },
+    {
+      "description": "Find out more about bronchiolitis, including the symptoms, how it's treated, and what causes it.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Condition"],
+        "datePublished": "2017-10-20T14:55:23+00:00",
+        "dateModified": "2022-10-27T13:10:54+00:00",
+        "lastReviewed": ["2022-04-13T00:00:00+00:00", "2025-04-13T00:00:00+00:00"],
+        "reviewDue": "2025-04-13T00:00:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/bronchiolitis/",
+      "name": "Bronchiolitis"
+    },
+    {
+      "description": "Read about bronchodilators, a medication used to treat asthma and COPD by relaxing the muscles in the lungs and widening the airways (bronchi).",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Medicine"],
+        "datePublished": "2017-10-20T14:26:33+00:00",
+        "dateModified": "2022-10-07T13:06:35+00:00",
+        "lastReviewed": ["2022-10-05T00:00:00+00:00", "2025-10-05T00:00:00+00:00"],
+        "reviewDue": "2025-10-05T00:00:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/bronchodilators/",
+      "name": "Bronchodilators"
+    },
+    {
+      "description": "Find out what can cause the eye to bulge and what treatments may help.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Symptom"],
+        "datePublished": "2017-10-19T15:59:18+00:00",
+        "dateModified": "2022-08-10T09:35:17+00:00",
+        "lastReviewed": ["2022-08-03T23:00:00+00:00", "2025-08-04T00:00:00+00:00"],
+        "reviewDue": "2025-08-04T00:00:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/bulging-eyes/",
+      "name": "Bulging eyes (exophthalmos)"
+    },
+    {
+      "description": "Burns and scalds are damage to the skin caused by heat. Both are treated in the same way.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Accident or injury"],
+        "datePublished": "2017-10-19T15:24:10+00:00",
+        "dateModified": "2022-07-01T15:48:36+00:00",
+        "lastReviewed": ["2022-06-23T00:00:00+00:00", "2025-06-23T00:00:00+00:00"],
+        "reviewDue": "2025-06-23T00:00:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/burns-and-scalds/",
+      "name": "Burns and scalds"
+    },
+    {
+      "description": "Bursitis is where a bursa becomes swollen and inflamed. A bursa is a small, fluid-filled sac that acts like a cushion between tendons and bones.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Condition"],
+        "datePublished": "2017-12-11T10:00:36+00:00",
+        "dateModified": "2023-03-07T16:30:46+00:00",
+        "lastReviewed": ["2020-12-29T01:00:00+00:00", "2023-12-29T01:00:00+00:00"],
+        "reviewDue": "2023-12-29T01:00:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/bursitis/",
+      "name": "Bursitis"
+    },
+    {
+      "description": "A DEXA scan is a type of X-ray that measures bone mineral density (BMD). It's also known as a DXA, dual X-ray absorptiometry, a bone density scan or a bone densitometry scan.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Test"],
+        "datePublished": "2017-10-19T15:18:46+00:00",
+        "dateModified": "2022-10-07T14:54:17+00:00",
+        "lastReviewed": ["2022-10-04T23:00:00+00:00", "2025-10-04T23:00:00+00:00"],
+        "reviewDue": "2025-10-04T23:00:00+00:00",
+        "keywords": "",
+        "alternateName": ["DEXA scan"],
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/dexa-scan/",
+      "name": "Bone density scan (DEXA scan)"
+    },
+    {
+      "description": "NHS information about broken hip (hip fracture) including what the symptoms are, how it's treated and recovery.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Condition", "Accident or injury"],
+        "datePublished": "2017-10-23T12:22:24+00:00",
+        "dateModified": "2023-02-14T16:44:30+00:00",
+        "lastReviewed": ["2023-02-08T03:00:00+00:00", "2026-02-08T03:00:00+00:00"],
+        "reviewDue": "2026-02-08T03:00:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/broken-hip/",
+      "name": "Broken hip"
+    },
+    {
+      "description": "Read about benign prostate enlargement (BPE), also known as benign prostatic hyperplasia (BPH), which is a common condition in men over 50 years of age.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Condition"],
+        "datePublished": "2017-10-20T08:30:25+00:00",
+        "dateModified": "2023-06-16T13:45:07+00:00",
+        "lastReviewed": ["2023-06-08T16:00:00+00:00", "2026-06-08T16:00:00+00:00"],
+        "reviewDue": "2026-06-08T16:00:00+00:00",
+        "keywords": "",
+        "alternateName": ["Prostate enlargement"],
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/prostate-enlargement/",
+      "name": "Benign prostate enlargement"
+    },
+    {
+      "description": "Bird flu, or avian flu, is an infectious viral illness that spreads among birds. In rare cases, it can affect humans.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Condition"],
+        "datePublished": "2017-10-19T06:59:46+00:00",
+        "dateModified": "2023-10-20T08:47:04+00:00",
+        "lastReviewed": ["2022-01-06T07:49:00+00:00", "2024-08-03T06:49:00+00:00"],
+        "reviewDue": "2024-08-03T06:49:00+00:00",
+        "keywords": "",
+        "alternateName": ["Avian flu"],
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/bird-flu/",
+      "name": "Bird flu"
+    },
+    {
+      "description": "Find out about blood transfusions, including when you might need one, how they're carried out and associated risks.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Procedure", "Treatment"],
+        "datePublished": "2017-10-19T07:24:53+00:00",
+        "dateModified": "2023-09-14T11:43:09+00:00",
+        "lastReviewed": ["2021-01-18T07:20:00+00:00", "2024-01-18T07:20:00+00:00"],
+        "reviewDue": "2024-01-18T07:20:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/blood-transfusion/",
+      "name": "Blood transfusion"
+    },
+    {
+      "description": "NHS information about bunions, including symptoms, how they're treated and how to help prevent them.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Condition"],
+        "datePublished": "2017-12-21T11:43:43+00:00",
+        "dateModified": "2023-06-26T09:41:45+00:00",
+        "lastReviewed": ["2023-06-12T11:30:00+00:00", "2026-06-12T11:30:00+00:00"],
+        "reviewDue": "2026-06-12T11:30:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/bunions/",
+      "name": "Bunions"
+    },
+    {
+      "description": "Read about bullous pemphigoid, a rare skin condition that usually starts with an itchy, raised skin rash and then as the condition develops, large blisters can form.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Condition"],
+        "datePublished": "2018-04-17T15:03:11+00:00",
+        "dateModified": "2021-11-18T15:56:35+00:00",
+        "lastReviewed": ["2021-07-19T00:00:00+00:00", "2024-07-19T00:00:00+00:00"],
+        "reviewDue": "2024-07-19T00:00:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/bullous-pemphigoid/",
+      "name": "Bullous pemphigoid"
+    },
+    {
+      "description": "NHS information and advice about how to treat body odour, including when to see a GP if the problem persists.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Symptom"],
+        "datePublished": "2019-01-15T14:04:28+00:00",
+        "dateModified": "2022-02-04T07:44:55+00:00",
+        "lastReviewed": ["2021-12-06T13:03:00+00:00", "2024-12-06T13:03:00+00:00"],
+        "reviewDue": "2024-12-06T13:03:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/body-odour-bo/",
+      "name": "Body odour (BO)"
+    },
+    {
+      "description": "This guide includes all you need to know about caring for your baby.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": [],
+        "datePublished": "2020-12-08T20:04:05+00:00",
+        "dateModified": "2022-08-08T08:03:36+00:00",
+        "keywords": ""
+      },
+      "url": "https://api.nhs.uk/conditions/baby/",
+      "name": "Baby"
+    },
+    {
+      "description": "Find out about NHS breast screening, including when you'll be invited, how to book, what happens and what your result means.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Test"],
+        "datePublished": "2021-09-22T09:03:18+00:00",
+        "dateModified": "2022-12-19T14:53:20+00:00",
+        "keywords": "",
+        "alternateName": ["Mammogram"]
+      },
+      "url": "https://api.nhs.uk/conditions/breast-screening-mammogram/",
+      "name": "Breast screening (mammogram)"
+    },
+    {
+      "description": "Find out about common causes of bloating, what you can do about it and when to get medical help.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Symptom"],
+        "datePublished": "2022-03-03T13:09:51+00:00",
+        "dateModified": "2022-03-03T13:09:51+00:00",
+        "lastReviewed": ["2022-03-03T12:13:00+00:00", "2025-03-03T12:13:00+00:00"],
+        "reviewDue": "2025-03-03T12:13:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/bloating/",
+      "name": "Bloating"
+    },
+    {
+      "description": "Find out about braces and orthodontics, including how much they cost on the NHS or privately, and how to care for your teeth while wearing braces.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "genre": ["Advice or information"],
+        "datePublished": "2022-02-24T16:46:44+00:00",
+        "dateModified": "2022-05-05T10:00:23+00:00",
+        "lastReviewed": ["2022-01-25T16:40:00+00:00", "2025-01-25T16:40:00+00:00"],
+        "reviewDue": "2025-01-25T16:40:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/braces-and-orthodontics/",
+      "name": "Braces and orthodontics"
+    },
+    {
+      "description": "Find out about bowel cancer, including what the symptoms are, what to do if you think you have it, how it is treated, and where to get support.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Condition"],
+        "datePublished": "2023-03-22T15:50:26+00:00",
+        "dateModified": "2023-03-22T15:50:26+00:00",
+        "keywords": "",
+        "alternateName": ["Colon cancer", "Rectal cancer"]
+      },
+      "url": "https://api.nhs.uk/conditions/bowel-cancer/",
+      "name": "Bowel cancer"
+    },
+    {
+      "description": "Understand more about bile duct cancer, its symptoms, when to get medical help, testing and diagnosis, treatment and where to find help and support.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Condition"],
+        "datePublished": "2023-07-05T14:22:21+00:00",
+        "dateModified": "2023-07-05T14:22:21+00:00",
+        "keywords": ""
+      },
+      "url": "https://api.nhs.uk/conditions/bile-duct-cancer/",
+      "name": "Bile duct cancer (cholangiocarcinoma)"
+    },
+    {
+      "description": "NHS information and advice about body dysmorphic disorder (BDD or body dysmorphia), including what the symptoms are and what can help.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Condition"],
+        "datePublished": "2021-02-10T16:51:34+00:00",
+        "dateModified": "2023-01-12T15:51:24+00:00",
+        "lastReviewed": ["2020-10-13T23:00:00+00:00", "2023-10-13T23:00:00+00:00"],
+        "reviewDue": "2023-10-13T23:00:00+00:00",
+        "keywords": ""
+      },
+      "url": "https://www.nhs.ukhttps://api.nhs.uk/conditions/body-dysmorphia/",
+      "name": "Body dysmorphic disorder (BDD)"
+    },
+    {
+      "description": "Bipolar disorder, previously known as manic depression, is a condition that affects your moods, which can swing from one extreme to another.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Condition"],
+        "datePublished": "2021-02-11T12:01:26+00:00",
+        "dateModified": "2022-08-16T12:55:27+00:00",
+        "keywords": ""
+      },
+      "url": "https://www.nhs.ukhttps://api.nhs.uk/conditions/bipolar-disorder/",
+      "name": "Bipolar disorder"
+    },
+    {
+      "description": "Read about bulimia nervosa, an eating disorder and mental health condition where someone is binge eating, then making themselves vomit or using laxatives to purge the food from their body",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Condition"],
+        "datePublished": "2021-02-11T14:58:27+00:00",
+        "dateModified": "2022-03-29T10:26:45+00:00",
+        "keywords": ""
+      },
+      "url": "https://www.nhs.ukhttps://api.nhs.uk/conditions/bulimia/",
+      "name": "Bulimia"
+    },
+    {
+      "description": "Read about binge eating disorder, which is when a person feels compelled to overeat on a regular basis. Find out about the symptoms, treatments and possible causes.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Condition"],
+        "datePublished": "2021-02-12T14:02:28+00:00",
+        "dateModified": "2022-03-29T10:26:12+00:00",
+        "keywords": ""
+      },
+      "url": "https://www.nhs.ukhttps://api.nhs.uk/conditions/binge-eating/",
+      "name": "Binge eating disorder"
+    },
+    {
+      "description": "Read about borderline personality disorder. Personality disorders can cause a range of distressing symptoms and patterns of abnormal behaviour.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Condition"],
+        "datePublished": "2021-02-12T15:29:49+00:00",
+        "dateModified": "2022-08-16T12:57:08+00:00",
+        "keywords": ""
+      },
+      "url": "https://www.nhs.ukhttps://api.nhs.uk/conditions/borderline-personality-disorder/",
+      "name": "Borderline personality disorder"
+    }
+  ]
+}

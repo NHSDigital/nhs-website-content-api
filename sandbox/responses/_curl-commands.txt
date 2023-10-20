@@ -6,31 +6,25 @@ curl -X GET 'https://api.nhs.uk/common-health-questions/' \
   -H 'Content-Type: application/json' \
   -H 'subscription-key: 9b95c5be0278482baf6cd8a01903d5b3' --> ./responses/common-health-questions-root-no-params.json
 
-
 curl -X GET 'https://api.nhs.uk/conditions/' \
   -H 'Content-Type: application/json' \
   -H 'subscription-key: 9b95c5be0278482baf6cd8a01903d5b3' --> ./responses/conditions-no-params.json
-
 
 curl -X GET 'https://api.nhs.uk/live-well/' \
   -H 'Content-Type: application/json' \
   -H 'subscription-key: 9b95c5be0278482baf6cd8a01903d5b3' --> ./responses/live-well-root-no-params.json
 
-
 curl -X GET 'https://api.nhs.uk/medicines/' \
   -H 'Content-Type: application/json' \
   -H 'subscription-key: 9b95c5be0278482baf6cd8a01903d5b3' --> ./responses/medicines-root-no-params.json
-
 
 curl -X GET 'https://api.nhs.uk/mental-health/' \
   -H 'Content-Type: application/json' \
   -H 'subscription-key: 9b95c5be0278482baf6cd8a01903d5b3' --> ./responses/mental-health-root-no-params.json
 
-
 curl -X GET 'https://api.nhs.uk/nhs-services/' \
   -H 'Content-Type: application/json' \
   -H 'subscription-key: 9b95c5be0278482baf6cd8a01903d5b3' --> ./responses/nhs-services-root-no-params.json
-
 
 curl -X GET 'https://api.nhs.uk/pregnancy/' \
   -H 'Content-Type: application/json' \
@@ -62,15 +56,45 @@ curl -X GET 'https://api.nhs.uk/conditions/acanthosis-nigricans/' \
   -H 'Content-Type: application/json' \
   -H 'subscription-key: 9b95c5be0278482baf6cd8a01903d5b3' --> ./responses/conditions-acanthosis-nigricans-no-params.json
 
-
 curl -X GET 'https://api.nhs.uk/conditions/achalasia/' \
   -H 'Content-Type: application/json' \
   -H 'subscription-key: 9b95c5be0278482baf6cd8a01903d5b3' --> ./responses/conditions-achalasia-no-params.json
 
+curl -X GET 'https://api.nhs.uk/conditions/acne/' \
+  -H 'Content-Type: application/json' \
+  -H 'subscription-key: 9b95c5be0278482baf6cd8a01903d5b3' --> ./responses/conditions-acne-no-params.json
+
+curl -X GET 'https://api.nhs.uk/conditions/acne/?modules=true' \
+  -H 'Content-Type: application/json' \
+  -H 'subscription-key: 9b95c5be0278482baf6cd8a01903d5b3' --> ./responses/conditions-acne-modules-true.json
 
 curl -X GET 'https://api.nhs.uk/conditions/zika/' \
   -H 'Content-Type: application/json' \
   -H 'subscription-key: 9b95c5be0278482baf6cd8a01903d5b3' --> ./responses/conditions-zika-no-params.json
+
+curl -X GET 'https://api.nhs.uk/conditions/?category=a' \
+  -H 'Content-Type: application/json' \
+  -H 'subscription-key: 9b95c5be0278482baf6cd8a01903d5b3' --> ./responses/conditions-category-a.json
+
+curl -X GET 'https://api.nhs.uk/conditions/?category=b' \
+  -H 'Content-Type: application/json' \
+  -H 'subscription-key: 9b95c5be0278482baf6cd8a01903d5b3' --> ./responses/conditions-category-b.json
+
+curl -X GET 'https://api.nhs.uk/conditions/?category=z' \
+  -H 'Content-Type: application/json' \
+  -H 'subscription-key: 9b95c5be0278482baf6cd8a01903d5b3' --> ./responses/conditions-category-z.json
+
+curl -X GET 'https://api.nhs.uk/conditions/?page=1' \
+  -H 'Content-Type: application/json' \
+  -H 'subscription-key: 9b95c5be0278482baf6cd8a01903d5b3' --> ./responses/conditions-page-1.json
+
+curl -X GET 'https://api.nhs.uk/conditions/?page=2' \
+  -H 'Content-Type: application/json' \
+  -H 'subscription-key: 9b95c5be0278482baf6cd8a01903d5b3' --> ./responses/conditions-page-2.json
+
+curl -X GET 'https://api.nhs.uk/conditions/?page=70' \
+  -H 'Content-Type: application/json' \
+  -H 'subscription-key: 9b95c5be0278482baf6cd8a01903d5b3' --> ./responses/conditions-page-70.json
 
 
 *****************************************************************************************************************
@@ -89,6 +113,7 @@ curl -X GET 'https://api.nhs.uk/live-well/alcohol-advice/alcohol-support/' \
   -H 'Content-Type: application/json' \
   -H 'subscription-key: 9b95c5be0278482baf6cd8a01903d5b3' --> ./responses/live-well-alcohol-advice-alcohol-support-no-params.json
 
+
 *****************************************************************************************************************
 ** Medicines pages                                                                                             **
 *****************************************************************************************************************
@@ -104,6 +129,27 @@ curl -X GET 'https://api.nhs.uk/medicines/acrivastine/' \
 curl -X GET 'https://api.nhs.uk/medicines/zopiclone/' \
   -H 'Content-Type: application/json' \
   -H 'subscription-key: 9b95c5be0278482baf6cd8a01903d5b3' --> ./responses/medicines-zopiclone-no-params.json
+
+curl -X GET 'https://api.nhs.uk/medicines/?category=a' \
+  -H 'Content-Type: application/json' \
+  -H 'subscription-key: 9b95c5be0278482baf6cd8a01903d5b3' --> ./responses/medicines-category-a.json
+
+curl -X GET 'https://api.nhs.uk/medicines/?category=b' \
+  -H 'Content-Type: application/json' \
+  -H 'subscription-key: 9b95c5be0278482baf6cd8a01903d5b3' --> ./responses/medicines-category-b.json
+
+curl -X GET 'https://api.nhs.uk/medicines/?category=z' \
+  -H 'Content-Type: application/json' \
+  -H 'subscription-key: 9b95c5be0278482baf6cd8a01903d5b3' --> ./responses/medicines-category-z.json
+
+curl -X GET 'https://api.nhs.uk/medicines/?page=1' \
+  -H 'Content-Type: application/json' \
+  -H 'subscription-key: 9b95c5be0278482baf6cd8a01903d5b3' --> ./responses/medicines-page-1.json
+
+curl -X GET 'https://api.nhs.uk/medicines/?page=11' \
+  -H 'Content-Type: application/json' \
+  -H 'subscription-key: 9b95c5be0278482baf6cd8a01903d5b3' --> ./responses/medicines-page-11.json
+
 
 *****************************************************************************************************************
 ** Mental Health pages                                                                                         **
@@ -121,6 +167,7 @@ curl -X GET 'https://api.nhs.uk/mental-health/advice-for-life-situations-and-eve
   -H 'Content-Type: application/json' \
   -H 'subscription-key: 9b95c5be0278482baf6cd8a01903d5b3' --> ./responses/mental-health-advice-for-life-situations-and-events-support-for-workplace-bullying-no-params.json
 
+
 *****************************************************************************************************************
 ** NHS Services pages                                                                                          **
 *****************************************************************************************************************
@@ -136,6 +183,7 @@ curl -X GET 'https://api.nhs.uk/nhs-services/gps/how-to-register-with-a-gp-surge
 curl -X GET 'https://api.nhs.uk/nhs-services/prescriptions-and-pharmacies/' \
   -H 'Content-Type: application/json' \
   -H 'subscription-key: 9b95c5be0278482baf6cd8a01903d5b3' --> ./responses/nhs-services-prescriptions-and-pharmacies-no-params.json
+
 
 *****************************************************************************************************************
 ** Pregnancy pages                                                                                             **

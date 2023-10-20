@@ -1,1 +1,99 @@
-{"@context": "http://schema.org", "@type": "WebPage", "name": "Exercise", "copyrightHolder": {"name": "Crown Copyright", "@type": "Organization"}, "license": "https://developer.api.nhs.uk/terms", "author": {"url": "https://www.nhs.uk", "logo": "https://www.nhs.uk/nhscwebservices/documents/logo1.jpg", "email": "nhswebsite.servicedesk@nhs.net", "@type": "Organization", "name": "NHS website"}, "about": {"@type": "WebPage", "name": "Exercise", "alternateName": ""}, "description": "Exercise guidelines and workouts to help improve your fitness and wellbeing.", "url": "https://www.nhs.uk/live-well/exercise/", "genre": ["Advice or information"], "keywords": "", "dateModified": "2023-09-26T10:07:40+00:00", "hasPart": [], "breadcrumb": {"@context": "http://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 0, "item": {"@id": "https://www.nhs.uk/live-well/", "name": "Live Well", "genre": []}}, {"@type": "ListItem", "position": 1, "item": {"@id": "https://www.nhs.uk/live-well/exercise/", "name": "Exercise", "genre": ["Advice or information"]}}]}, "headline": "Exercise", "contentSubTypes": [], "mainEntityOfPage": [{"identifier": "25", "@type": "WebPageElement", "name": "keylinks", "headline": "", "text": "", "mainEntityOfPage": [{"@type": "WebPageElement", "headline": "Benefits of exercise", "url": "https://www.nhs.uk/live-well/exercise/exercise-health-benefits/", "identifier": "26", "text": "", "name": "link"}, {"@type": "WebPageElement", "headline": "Exercise guidelines", "url": "https://www.nhs.uk/live-well/exercise/exercise-guidelines/", "identifier": "26", "text": "", "name": "link"}, {"@type": "WebPageElement", "headline": "Strength and flexibility exercises", "url": "https://www.nhs.uk/live-well/exercise/strength-and-flexibility-exercises/", "identifier": "26", "text": "", "name": "link"}, {"@type": "WebPageElement", "headline": "Running and aerobic exercises", "url": "https://www.nhs.uk/live-well/exercise/running-and-aerobic-exercises/", "identifier": "26", "text": "", "name": "link"}]}, {"identifier": "27", "@type": "WebPageElement", "name": "RelatedLinks", "headline": "Exercise videos", "text": "", "mainEntityOfPage": [{"@type": "WebPageElement", "headline": "NHS Fitness Studio videos", "url": "https://www.nhs.uk/conditions/nhs-fitness-studio/", "identifier": "26", "text": "", "name": "link"}]}]}
+{
+  "@context": "http://schema.org",
+  "@type": "WebPage",
+  "name": "Exercise",
+  "copyrightHolder": { "name": "Crown Copyright", "@type": "Organization" },
+  "license": "https://developer.api.nhs.uk/terms",
+  "author": {
+    "url": "https://www.nhs.uk",
+    "logo": "https://www.nhs.uk/nhscwebservices/documents/logo1.jpg",
+    "email": "nhswebsite.servicedesk@nhs.net",
+    "@type": "Organization",
+    "name": "NHS website"
+  },
+  "about": { "@type": "WebPage", "name": "Exercise", "alternateName": "" },
+  "description": "Exercise guidelines and workouts to help improve your fitness and wellbeing.",
+  "url": "https://www.nhs.uk/live-well/exercise/",
+  "genre": ["Advice or information"],
+  "keywords": "",
+  "dateModified": "2023-09-26T10:07:40+00:00",
+  "hasPart": [],
+  "breadcrumb": {
+    "@context": "http://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 0,
+        "item": { "@id": "https://www.nhs.uk/live-well/", "name": "Live Well", "genre": [] }
+      },
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "item": { "@id": "https://www.nhs.uk/live-well/exercise/", "name": "Exercise", "genre": ["Advice or information"] }
+      }
+    ]
+  },
+  "headline": "Exercise",
+  "contentSubTypes": [],
+  "mainEntityOfPage": [
+    {
+      "identifier": "25",
+      "@type": "WebPageElement",
+      "name": "keylinks",
+      "headline": "",
+      "text": "",
+      "mainEntityOfPage": [
+        {
+          "@type": "WebPageElement",
+          "headline": "Benefits of exercise",
+          "url": "https://www.nhs.uk/live-well/exercise/exercise-health-benefits/",
+          "identifier": "26",
+          "text": "",
+          "name": "link"
+        },
+        {
+          "@type": "WebPageElement",
+          "headline": "Exercise guidelines",
+          "url": "https://www.nhs.uk/live-well/exercise/exercise-guidelines/",
+          "identifier": "26",
+          "text": "",
+          "name": "link"
+        },
+        {
+          "@type": "WebPageElement",
+          "headline": "Strength and flexibility exercises",
+          "url": "https://www.nhs.uk/live-well/exercise/strength-and-flexibility-exercises/",
+          "identifier": "26",
+          "text": "",
+          "name": "link"
+        },
+        {
+          "@type": "WebPageElement",
+          "headline": "Running and aerobic exercises",
+          "url": "https://www.nhs.uk/live-well/exercise/running-and-aerobic-exercises/",
+          "identifier": "26",
+          "text": "",
+          "name": "link"
+        }
+      ]
+    },
+    {
+      "identifier": "27",
+      "@type": "WebPageElement",
+      "name": "RelatedLinks",
+      "headline": "Exercise videos",
+      "text": "",
+      "mainEntityOfPage": [
+        {
+          "@type": "WebPageElement",
+          "headline": "NHS Fitness Studio videos",
+          "url": "https://www.nhs.uk/conditions/nhs-fitness-studio/",
+          "identifier": "26",
+          "text": "",
+          "name": "link"
+        }
+      ]
+    }
+  ]
+}

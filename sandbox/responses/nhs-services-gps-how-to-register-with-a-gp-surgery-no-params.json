@@ -1,1 +1,280 @@
-{"@context": "http://schema.org", "@type": "WebPage", "name": "How to register with a GP surgery", "copyrightHolder": {"name": "Crown Copyright", "@type": "Organization"}, "license": "https://developer.api.nhs.uk/terms", "author": {"url": "https://www.nhs.uk", "logo": "https://www.nhs.uk/nhscwebservices/documents/logo1.jpg", "email": "nhswebsite.servicedesk@nhs.net", "@type": "Organization", "name": "NHS website"}, "about": {"@type": "WebPage", "name": "How to register with a GP surgery", "alternateName": ""}, "description": "Find out how to register with a GP surgery in England.", "url": "https://www.nhs.uk/nhs-services/gps/how-to-register-with-a-gp-surgery/", "genre": ["Advice or information"], "keywords": "", "dateModified": "2023-08-17T12:48:11+00:00", "lastReviewed": ["2023-04-12T08:11:00+00:00", "2026-04-12T08:11:00+00:00"], "breadcrumb": {"@context": "http://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 0, "item": {"@id": "https://www.nhs.uk/nhs-services/", "name": "NHS services", "genre": []}}, {"@type": "ListItem", "position": 1, "item": {"@id": "https://www.nhs.uk/nhs-services/gps/", "name": "GPs", "genre": []}}, {"@type": "ListItem", "position": 2, "item": {"@id": "https://www.nhs.uk/nhs-services/gps/how-to-register-with-a-gp-surgery/", "name": "How to register with a GP surgery", "genre": ["Advice or information"]}}]}, "hasPart": [], "relatedLink": [{"@type": "LinkRole", "url": "https://www.nhs.uk/nhs-services/gps/", "name": "GPs", "linkRelationship": "Navigation", "position": 0}, {"@type": "LinkRole", "url": "https://www.nhs.uk/nhs-services/gps/how-to-register-with-a-gp-surgery/", "name": "How to register with a GP surgery", "linkRelationship": "Navigation", "position": 1}, {"@type": "LinkRole", "url": "https://www.nhs.uk/nhs-services/gps/registering-with-a-gp-outside-your-area/", "name": "Registering with a GP surgery outside your local area", "linkRelationship": "Navigation", "position": 2}, {"@type": "LinkRole", "url": "https://www.nhs.uk/nhs-services/gps/gp-appointments-and-bookings/", "name": "Appointments and bookings at your GP surgery", "linkRelationship": "Navigation", "position": 3}, {"@type": "LinkRole", "url": "https://www.nhs.uk/nhs-services/gps/using-an-online-form-to-contact-your-gp-surgery/", "name": "Using an online form to contact your GP surgery", "linkRelationship": "Navigation", "position": 4}, {"@type": "LinkRole", "url": "https://www.nhs.uk/nhs-services/gps/video-consultations/", "name": "Video consultations", "linkRelationship": "Navigation", "position": 5}, {"@type": "LinkRole", "url": "https://www.nhs.uk/nhs-services/gps/what-to-ask-your-doctor/", "name": "What to ask your doctor or other healthcare professional", "linkRelationship": "Navigation", "position": 6}, {"@type": "LinkRole", "url": "https://www.nhs.uk/nhs-services/gps/using-online-services/", "name": "Using online services", "linkRelationship": "Navigation", "position": 7}, {"@type": "LinkRole", "url": "https://www.nhs.uk/nhs-services/gps/online-health-and-prescription-services/", "name": "Online health and prescription services", "linkRelationship": "Navigation", "position": 8}], "contentSubTypes": [], "mainEntityOfPage": [{"identifier": "0", "name": "section heading", "position": 0, "@type": "WebPageElement", "mainEntityOfPage": [{"position": 0, "identifier": "1", "text": "<p>Anyone in England can register with a GP surgery to access NHS services. It's free to register.</p><p>You do not need proof of address or immigration status, ID or an NHS number.</p><p>GP surgeries are usually the first contact if you have a health problem. They can treat many conditions and give health advice. They can also refer you to other NHS services.</p>", "@type": "WebPageElement", "name": "markdown", "headline": ""}, {"position": 1, "identifier": "1", "text": "<p>Most people need to register with a surgery close to where they live.</p><p>You can use the Find a GP service to look for a surgery.</p>", "@type": "WebPageElement", "name": "markdown", "headline": "How it works"}, {"position": 2, "@type": "WebPageElement", "name": "Find a service", "identifier": "2", "text": "<p><a href=\"https://www.nhs.uk/service-search/find-a-gp\">Find a GP</a></p>\n"}, {"position": 3, "identifier": "1", "text": "<p>In the search results you can see:</p><ul><li>if a GP surgery is currently accepting patients</li><li>reception opening times</li><li>reviews of the surgery</li></ul><p>Once you've chosen a surgery, you'll need to fill in a registration form. These are usually available on:</p><ul><li>the NHS App</li><li>the GP surgery's website</li><li>the GP surgery's profile page on the NHS website (<a href=\"https://www.nhs.uk/service-search/find-a-gp\">Find a GP</a>)</li></ul><p>You can also get a paper form from the surgery.</p><p>It's also possible to <a href=\"/nhs-services/gps/registering-with-a-gp-outside-your-area/\">register with a GP surgery outside your local area</a>.</p><h3>Do I need ID or proof of address?</h3><p>No, you do not need ID, an NHS number or proof of address to register.</p><p>Some GP surgeries ask for supporting documentation as it can:</p><ul><li>help the surgery find your medical records or transfer them from your current GP</li><li>confirm that you live in the surgery's area (or \"practice boundary\") if they do not accept patients from outside this area</li></ul><p>If you do not have a permanent address you can still register using a temporary address or the address of the GP surgery.</p>", "@type": "WebPageElement", "name": "markdown", "headline": ""}, {"position": 4, "identifier": "1", "text": "<p>A GP surgery can refuse to register you if:</p><ul><li>they're not accepting new patients</li><li>you live outside their area and they only accept patients inside this area</li><li>you have been removed from that surgery before</li></ul><p>If a GP surgery refuses to register you, they must write to you within 14 days explaining why.</p>", "@type": "WebPageElement", "name": "markdown", "headline": "Can a GP surgery refuse to register me?"}, {"position": 5, "@type": "WebPageElement", "name": "Information", "identifier": "3", "text": "<p>If you have problems registering with a GP surgery, contact:</p><ul><li>your local <a href=\"/nhs-services/find-your-local-integrated-care-board/\">integrated care board (ICB)</a></li><li><a href=\"https://www.citizensadvice.org.uk/\">Citizens Advice</a></li><li><a href=\"https://www.healthwatch.co.uk/your-local-healthwatch/list\">your local Healthwatch</a></li></ul>"}, {"position": 6, "identifier": "1", "text": "<p>Children under 16 need to be registered by their parent or guardian. This usually means filling in a separate form. You may also be asked to provide a form of ID to prove that you're their parent or guardian.</p><p>If you have a personal child health record (red book) from the birth of your child, it will help to provide this.</p>", "@type": "WebPageElement", "name": "markdown", "headline": "Registering children"}, {"position": 7, "identifier": "1", "text": "<p>You can change your GP surgery if you need to.</p><p>This might be because:</p><ul><li>you've moved</li><li>you've had problems with your current GP surgery</li><li>you were removed from the patient list</li></ul><p>When you register with a new GP surgery, you'll usually get a message to tell you your registration has been successful.</p><p>Your medical records will be transferred from your old GP. This can take up to 28 days.</p>", "@type": "WebPageElement", "name": "markdown", "headline": "Changing GP surgeries"}, {"position": 8, "@type": "WebPageElement", "name": "Callout", "identifier": "4", "text": "<h3>Changing your address</h3><p>You should tell your GP surgery if you change your address.</p><p>If you do not tell your GP that you've moved there's a risk that:</p><ul><li>NHS letters giving appointment dates or test results go to the wrong address</li><li>your GP surgery may not be able to provide home visits or other services if you move outside their area</li></ul><p>If you register with a new GP, they will let your old GP know you've moved.</p>"}, {"position": 9, "identifier": "1", "text": "<p>You can register as a temporary resident with a GP surgery for up to 3 months. This can be helpful if you're living away from home but do not want to change your home GP surgery.</p><p>To register you'll need to fill out a temporary services form (GMS3), available from GP surgeries.</p><p>After 3 months, you'll have to reapply to register as a temporary resident or become a permanent patient.</p><p>You may also be able to register as a temporary resident <a href=\"/nhs-services/visiting-or-moving-to-england/how-to-access-nhs-services-in-england-if-you-are-visiting-from-abroad/\">if you are visiting from abroad</a>.</p><p>If your application is refused, you can still receive any treatment you need immediately for up to 14 days.</p><h3>Registering someone you care for under the Mental Capacity Act</h3><p>If someone over 16 is unable to register with a GP because they cannot make decisions about their care, registration can be done by:</p><ul><li>a relative</li><li>the main carer</li><li>a lasting power of attorney</li><li>a person appointed by a court under the Mental Capacity Act</li></ul><p></p>", "@type": "WebPageElement", "name": "markdown", "headline": "Registering as a temporary resident"}], "description": "", "hasPart": [{"position": 0, "identifier": "1", "text": "<p>Anyone in England can register with a GP surgery to access NHS services. It's free to register.</p><p>You do not need proof of address or immigration status, ID or an NHS number.</p><p>GP surgeries are usually the first contact if you have a health problem. They can treat many conditions and give health advice. They can also refer you to other NHS services.</p>", "@type": "WebPageElement", "name": "markdown", "headline": ""}, {"position": 1, "identifier": "1", "text": "<p>Most people need to register with a surgery close to where they live.</p><p>You can use the Find a GP service to look for a surgery.</p>", "@type": "WebPageElement", "name": "markdown", "headline": "How it works"}, {"position": 2, "@type": "WebPageElement", "name": "Find a service", "identifier": "2", "text": "<p><a href=\"https://www.nhs.uk/service-search/find-a-gp\">Find a GP</a></p>\n"}, {"position": 3, "identifier": "1", "text": "<p>In the search results you can see:</p><ul><li>if a GP surgery is currently accepting patients</li><li>reception opening times</li><li>reviews of the surgery</li></ul><p>Once you've chosen a surgery, you'll need to fill in a registration form. These are usually available on:</p><ul><li>the NHS App</li><li>the GP surgery's website</li><li>the GP surgery's profile page on the NHS website (<a href=\"https://www.nhs.uk/service-search/find-a-gp\">Find a GP</a>)</li></ul><p>You can also get a paper form from the surgery.</p><p>It's also possible to <a href=\"/nhs-services/gps/registering-with-a-gp-outside-your-area/\">register with a GP surgery outside your local area</a>.</p><h3>Do I need ID or proof of address?</h3><p>No, you do not need ID, an NHS number or proof of address to register.</p><p>Some GP surgeries ask for supporting documentation as it can:</p><ul><li>help the surgery find your medical records or transfer them from your current GP</li><li>confirm that you live in the surgery's area (or \"practice boundary\") if they do not accept patients from outside this area</li></ul><p>If you do not have a permanent address you can still register using a temporary address or the address of the GP surgery.</p>", "@type": "WebPageElement", "name": "markdown", "headline": ""}, {"position": 4, "identifier": "1", "text": "<p>A GP surgery can refuse to register you if:</p><ul><li>they're not accepting new patients</li><li>you live outside their area and they only accept patients inside this area</li><li>you have been removed from that surgery before</li></ul><p>If a GP surgery refuses to register you, they must write to you within 14 days explaining why.</p>", "@type": "WebPageElement", "name": "markdown", "headline": "Can a GP surgery refuse to register me?"}, {"position": 5, "@type": "WebPageElement", "name": "Information", "identifier": "3", "text": "<p>If you have problems registering with a GP surgery, contact:</p><ul><li>your local <a href=\"/nhs-services/find-your-local-integrated-care-board/\">integrated care board (ICB)</a></li><li><a href=\"https://www.citizensadvice.org.uk/\">Citizens Advice</a></li><li><a href=\"https://www.healthwatch.co.uk/your-local-healthwatch/list\">your local Healthwatch</a></li></ul>"}, {"position": 6, "identifier": "1", "text": "<p>Children under 16 need to be registered by their parent or guardian. This usually means filling in a separate form. You may also be asked to provide a form of ID to prove that you're their parent or guardian.</p><p>If you have a personal child health record (red book) from the birth of your child, it will help to provide this.</p>", "@type": "WebPageElement", "name": "markdown", "headline": "Registering children"}, {"position": 7, "identifier": "1", "text": "<p>You can change your GP surgery if you need to.</p><p>This might be because:</p><ul><li>you've moved</li><li>you've had problems with your current GP surgery</li><li>you were removed from the patient list</li></ul><p>When you register with a new GP surgery, you'll usually get a message to tell you your registration has been successful.</p><p>Your medical records will be transferred from your old GP. This can take up to 28 days.</p>", "@type": "WebPageElement", "name": "markdown", "headline": "Changing GP surgeries"}, {"position": 8, "@type": "WebPageElement", "name": "Callout", "identifier": "4", "text": "<h3>Changing your address</h3><p>You should tell your GP surgery if you change your address.</p><p>If you do not tell your GP that you've moved there's a risk that:</p><ul><li>NHS letters giving appointment dates or test results go to the wrong address</li><li>your GP surgery may not be able to provide home visits or other services if you move outside their area</li></ul><p>If you register with a new GP, they will let your old GP know you've moved.</p>"}, {"position": 9, "identifier": "1", "text": "<p>You can register as a temporary resident with a GP surgery for up to 3 months. This can be helpful if you're living away from home but do not want to change your home GP surgery.</p><p>To register you'll need to fill out a temporary services form (GMS3), available from GP surgeries.</p><p>After 3 months, you'll have to reapply to register as a temporary resident or become a permanent patient.</p><p>You may also be able to register as a temporary resident <a href=\"/nhs-services/visiting-or-moving-to-england/how-to-access-nhs-services-in-england-if-you-are-visiting-from-abroad/\">if you are visiting from abroad</a>.</p><p>If your application is refused, you can still receive any treatment you need immediately for up to 14 days.</p><h3>Registering someone you care for under the Mental Capacity Act</h3><p>If someone over 16 is unable to register with a GP because they cannot make decisions about their care, registration can be done by:</p><ul><li>a relative</li><li>the main carer</li><li>a lasting power of attorney</li><li>a person appointed by a court under the Mental Capacity Act</li></ul><p></p>", "@type": "WebPageElement", "name": "markdown", "headline": "Registering as a temporary resident"}]}]}
+{
+  "@context": "http://schema.org",
+  "@type": "WebPage",
+  "name": "How to register with a GP surgery",
+  "copyrightHolder": { "name": "Crown Copyright", "@type": "Organization" },
+  "license": "https://developer.api.nhs.uk/terms",
+  "author": {
+    "url": "https://www.nhs.uk",
+    "logo": "https://www.nhs.uk/nhscwebservices/documents/logo1.jpg",
+    "email": "nhswebsite.servicedesk@nhs.net",
+    "@type": "Organization",
+    "name": "NHS website"
+  },
+  "about": { "@type": "WebPage", "name": "How to register with a GP surgery", "alternateName": "" },
+  "description": "Find out how to register with a GP surgery in England.",
+  "url": "https://www.nhs.uk/nhs-services/gps/how-to-register-with-a-gp-surgery/",
+  "genre": ["Advice or information"],
+  "keywords": "",
+  "dateModified": "2023-08-17T12:48:11+00:00",
+  "lastReviewed": ["2023-04-12T08:11:00+00:00", "2026-04-12T08:11:00+00:00"],
+  "breadcrumb": {
+    "@context": "http://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 0,
+        "item": { "@id": "https://www.nhs.uk/nhs-services/", "name": "NHS services", "genre": [] }
+      },
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "item": { "@id": "https://www.nhs.uk/nhs-services/gps/", "name": "GPs", "genre": [] }
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "item": {
+          "@id": "https://www.nhs.uk/nhs-services/gps/how-to-register-with-a-gp-surgery/",
+          "name": "How to register with a GP surgery",
+          "genre": ["Advice or information"]
+        }
+      }
+    ]
+  },
+  "hasPart": [],
+  "relatedLink": [
+    {
+      "@type": "LinkRole",
+      "url": "https://www.nhs.uk/nhs-services/gps/",
+      "name": "GPs",
+      "linkRelationship": "Navigation",
+      "position": 0
+    },
+    {
+      "@type": "LinkRole",
+      "url": "https://www.nhs.uk/nhs-services/gps/how-to-register-with-a-gp-surgery/",
+      "name": "How to register with a GP surgery",
+      "linkRelationship": "Navigation",
+      "position": 1
+    },
+    {
+      "@type": "LinkRole",
+      "url": "https://www.nhs.uk/nhs-services/gps/registering-with-a-gp-outside-your-area/",
+      "name": "Registering with a GP surgery outside your local area",
+      "linkRelationship": "Navigation",
+      "position": 2
+    },
+    {
+      "@type": "LinkRole",
+      "url": "https://www.nhs.uk/nhs-services/gps/gp-appointments-and-bookings/",
+      "name": "Appointments and bookings at your GP surgery",
+      "linkRelationship": "Navigation",
+      "position": 3
+    },
+    {
+      "@type": "LinkRole",
+      "url": "https://www.nhs.uk/nhs-services/gps/using-an-online-form-to-contact-your-gp-surgery/",
+      "name": "Using an online form to contact your GP surgery",
+      "linkRelationship": "Navigation",
+      "position": 4
+    },
+    {
+      "@type": "LinkRole",
+      "url": "https://www.nhs.uk/nhs-services/gps/video-consultations/",
+      "name": "Video consultations",
+      "linkRelationship": "Navigation",
+      "position": 5
+    },
+    {
+      "@type": "LinkRole",
+      "url": "https://www.nhs.uk/nhs-services/gps/what-to-ask-your-doctor/",
+      "name": "What to ask your doctor or other healthcare professional",
+      "linkRelationship": "Navigation",
+      "position": 6
+    },
+    {
+      "@type": "LinkRole",
+      "url": "https://www.nhs.uk/nhs-services/gps/using-online-services/",
+      "name": "Using online services",
+      "linkRelationship": "Navigation",
+      "position": 7
+    },
+    {
+      "@type": "LinkRole",
+      "url": "https://www.nhs.uk/nhs-services/gps/online-health-and-prescription-services/",
+      "name": "Online health and prescription services",
+      "linkRelationship": "Navigation",
+      "position": 8
+    }
+  ],
+  "contentSubTypes": [],
+  "mainEntityOfPage": [
+    {
+      "identifier": "0",
+      "name": "section heading",
+      "position": 0,
+      "@type": "WebPageElement",
+      "mainEntityOfPage": [
+        {
+          "position": 0,
+          "identifier": "1",
+          "text": "<p>Anyone in England can register with a GP surgery to access NHS services. It's free to register.</p><p>You do not need proof of address or immigration status, ID or an NHS number.</p><p>GP surgeries are usually the first contact if you have a health problem. They can treat many conditions and give health advice. They can also refer you to other NHS services.</p>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": ""
+        },
+        {
+          "position": 1,
+          "identifier": "1",
+          "text": "<p>Most people need to register with a surgery close to where they live.</p><p>You can use the Find a GP service to look for a surgery.</p>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": "How it works"
+        },
+        {
+          "position": 2,
+          "@type": "WebPageElement",
+          "name": "Find a service",
+          "identifier": "2",
+          "text": "<p><a href=\"https://www.nhs.uk/service-search/find-a-gp\">Find a GP</a></p>\n"
+        },
+        {
+          "position": 3,
+          "identifier": "1",
+          "text": "<p>In the search results you can see:</p><ul><li>if a GP surgery is currently accepting patients</li><li>reception opening times</li><li>reviews of the surgery</li></ul><p>Once you've chosen a surgery, you'll need to fill in a registration form. These are usually available on:</p><ul><li>the NHS App</li><li>the GP surgery's website</li><li>the GP surgery's profile page on the NHS website (<a href=\"https://www.nhs.uk/service-search/find-a-gp\">Find a GP</a>)</li></ul><p>You can also get a paper form from the surgery.</p><p>It's also possible to <a href=\"/nhs-services/gps/registering-with-a-gp-outside-your-area/\">register with a GP surgery outside your local area</a>.</p><h3>Do I need ID or proof of address?</h3><p>No, you do not need ID, an NHS number or proof of address to register.</p><p>Some GP surgeries ask for supporting documentation as it can:</p><ul><li>help the surgery find your medical records or transfer them from your current GP</li><li>confirm that you live in the surgery's area (or \"practice boundary\") if they do not accept patients from outside this area</li></ul><p>If you do not have a permanent address you can still register using a temporary address or the address of the GP surgery.</p>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": ""
+        },
+        {
+          "position": 4,
+          "identifier": "1",
+          "text": "<p>A GP surgery can refuse to register you if:</p><ul><li>they're not accepting new patients</li><li>you live outside their area and they only accept patients inside this area</li><li>you have been removed from that surgery before</li></ul><p>If a GP surgery refuses to register you, they must write to you within 14 days explaining why.</p>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": "Can a GP surgery refuse to register me?"
+        },
+        {
+          "position": 5,
+          "@type": "WebPageElement",
+          "name": "Information",
+          "identifier": "3",
+          "text": "<p>If you have problems registering with a GP surgery, contact:</p><ul><li>your local <a href=\"/nhs-services/find-your-local-integrated-care-board/\">integrated care board (ICB)</a></li><li><a href=\"https://www.citizensadvice.org.uk/\">Citizens Advice</a></li><li><a href=\"https://www.healthwatch.co.uk/your-local-healthwatch/list\">your local Healthwatch</a></li></ul>"
+        },
+        {
+          "position": 6,
+          "identifier": "1",
+          "text": "<p>Children under 16 need to be registered by their parent or guardian. This usually means filling in a separate form. You may also be asked to provide a form of ID to prove that you're their parent or guardian.</p><p>If you have a personal child health record (red book) from the birth of your child, it will help to provide this.</p>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": "Registering children"
+        },
+        {
+          "position": 7,
+          "identifier": "1",
+          "text": "<p>You can change your GP surgery if you need to.</p><p>This might be because:</p><ul><li>you've moved</li><li>you've had problems with your current GP surgery</li><li>you were removed from the patient list</li></ul><p>When you register with a new GP surgery, you'll usually get a message to tell you your registration has been successful.</p><p>Your medical records will be transferred from your old GP. This can take up to 28 days.</p>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": "Changing GP surgeries"
+        },
+        {
+          "position": 8,
+          "@type": "WebPageElement",
+          "name": "Callout",
+          "identifier": "4",
+          "text": "<h3>Changing your address</h3><p>You should tell your GP surgery if you change your address.</p><p>If you do not tell your GP that you've moved there's a risk that:</p><ul><li>NHS letters giving appointment dates or test results go to the wrong address</li><li>your GP surgery may not be able to provide home visits or other services if you move outside their area</li></ul><p>If you register with a new GP, they will let your old GP know you've moved.</p>"
+        },
+        {
+          "position": 9,
+          "identifier": "1",
+          "text": "<p>You can register as a temporary resident with a GP surgery for up to 3 months. This can be helpful if you're living away from home but do not want to change your home GP surgery.</p><p>To register you'll need to fill out a temporary services form (GMS3), available from GP surgeries.</p><p>After 3 months, you'll have to reapply to register as a temporary resident or become a permanent patient.</p><p>You may also be able to register as a temporary resident <a href=\"/nhs-services/visiting-or-moving-to-england/how-to-access-nhs-services-in-england-if-you-are-visiting-from-abroad/\">if you are visiting from abroad</a>.</p><p>If your application is refused, you can still receive any treatment you need immediately for up to 14 days.</p><h3>Registering someone you care for under the Mental Capacity Act</h3><p>If someone over 16 is unable to register with a GP because they cannot make decisions about their care, registration can be done by:</p><ul><li>a relative</li><li>the main carer</li><li>a lasting power of attorney</li><li>a person appointed by a court under the Mental Capacity Act</li></ul><p></p>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": "Registering as a temporary resident"
+        }
+      ],
+      "description": "",
+      "hasPart": [
+        {
+          "position": 0,
+          "identifier": "1",
+          "text": "<p>Anyone in England can register with a GP surgery to access NHS services. It's free to register.</p><p>You do not need proof of address or immigration status, ID or an NHS number.</p><p>GP surgeries are usually the first contact if you have a health problem. They can treat many conditions and give health advice. They can also refer you to other NHS services.</p>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": ""
+        },
+        {
+          "position": 1,
+          "identifier": "1",
+          "text": "<p>Most people need to register with a surgery close to where they live.</p><p>You can use the Find a GP service to look for a surgery.</p>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": "How it works"
+        },
+        {
+          "position": 2,
+          "@type": "WebPageElement",
+          "name": "Find a service",
+          "identifier": "2",
+          "text": "<p><a href=\"https://www.nhs.uk/service-search/find-a-gp\">Find a GP</a></p>\n"
+        },
+        {
+          "position": 3,
+          "identifier": "1",
+          "text": "<p>In the search results you can see:</p><ul><li>if a GP surgery is currently accepting patients</li><li>reception opening times</li><li>reviews of the surgery</li></ul><p>Once you've chosen a surgery, you'll need to fill in a registration form. These are usually available on:</p><ul><li>the NHS App</li><li>the GP surgery's website</li><li>the GP surgery's profile page on the NHS website (<a href=\"https://www.nhs.uk/service-search/find-a-gp\">Find a GP</a>)</li></ul><p>You can also get a paper form from the surgery.</p><p>It's also possible to <a href=\"/nhs-services/gps/registering-with-a-gp-outside-your-area/\">register with a GP surgery outside your local area</a>.</p><h3>Do I need ID or proof of address?</h3><p>No, you do not need ID, an NHS number or proof of address to register.</p><p>Some GP surgeries ask for supporting documentation as it can:</p><ul><li>help the surgery find your medical records or transfer them from your current GP</li><li>confirm that you live in the surgery's area (or \"practice boundary\") if they do not accept patients from outside this area</li></ul><p>If you do not have a permanent address you can still register using a temporary address or the address of the GP surgery.</p>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": ""
+        },
+        {
+          "position": 4,
+          "identifier": "1",
+          "text": "<p>A GP surgery can refuse to register you if:</p><ul><li>they're not accepting new patients</li><li>you live outside their area and they only accept patients inside this area</li><li>you have been removed from that surgery before</li></ul><p>If a GP surgery refuses to register you, they must write to you within 14 days explaining why.</p>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": "Can a GP surgery refuse to register me?"
+        },
+        {
+          "position": 5,
+          "@type": "WebPageElement",
+          "name": "Information",
+          "identifier": "3",
+          "text": "<p>If you have problems registering with a GP surgery, contact:</p><ul><li>your local <a href=\"/nhs-services/find-your-local-integrated-care-board/\">integrated care board (ICB)</a></li><li><a href=\"https://www.citizensadvice.org.uk/\">Citizens Advice</a></li><li><a href=\"https://www.healthwatch.co.uk/your-local-healthwatch/list\">your local Healthwatch</a></li></ul>"
+        },
+        {
+          "position": 6,
+          "identifier": "1",
+          "text": "<p>Children under 16 need to be registered by their parent or guardian. This usually means filling in a separate form. You may also be asked to provide a form of ID to prove that you're their parent or guardian.</p><p>If you have a personal child health record (red book) from the birth of your child, it will help to provide this.</p>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": "Registering children"
+        },
+        {
+          "position": 7,
+          "identifier": "1",
+          "text": "<p>You can change your GP surgery if you need to.</p><p>This might be because:</p><ul><li>you've moved</li><li>you've had problems with your current GP surgery</li><li>you were removed from the patient list</li></ul><p>When you register with a new GP surgery, you'll usually get a message to tell you your registration has been successful.</p><p>Your medical records will be transferred from your old GP. This can take up to 28 days.</p>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": "Changing GP surgeries"
+        },
+        {
+          "position": 8,
+          "@type": "WebPageElement",
+          "name": "Callout",
+          "identifier": "4",
+          "text": "<h3>Changing your address</h3><p>You should tell your GP surgery if you change your address.</p><p>If you do not tell your GP that you've moved there's a risk that:</p><ul><li>NHS letters giving appointment dates or test results go to the wrong address</li><li>your GP surgery may not be able to provide home visits or other services if you move outside their area</li></ul><p>If you register with a new GP, they will let your old GP know you've moved.</p>"
+        },
+        {
+          "position": 9,
+          "identifier": "1",
+          "text": "<p>You can register as a temporary resident with a GP surgery for up to 3 months. This can be helpful if you're living away from home but do not want to change your home GP surgery.</p><p>To register you'll need to fill out a temporary services form (GMS3), available from GP surgeries.</p><p>After 3 months, you'll have to reapply to register as a temporary resident or become a permanent patient.</p><p>You may also be able to register as a temporary resident <a href=\"/nhs-services/visiting-or-moving-to-england/how-to-access-nhs-services-in-england-if-you-are-visiting-from-abroad/\">if you are visiting from abroad</a>.</p><p>If your application is refused, you can still receive any treatment you need immediately for up to 14 days.</p><h3>Registering someone you care for under the Mental Capacity Act</h3><p>If someone over 16 is unable to register with a GP because they cannot make decisions about their care, registration can be done by:</p><ul><li>a relative</li><li>the main carer</li><li>a lasting power of attorney</li><li>a person appointed by a court under the Mental Capacity Act</li></ul><p></p>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": "Registering as a temporary resident"
+        }
+      ]
+    }
+  ]
+}
