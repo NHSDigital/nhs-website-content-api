@@ -130,9 +130,14 @@ app.use(before_request);
 app.get("/_ping", handlers.status);
 app.get("/_status", handlers.status);
 app.get("/health", handlers.status);
-app.all("/hello", handlers.hello);
-app.post("/search-postcode-or-place", handlers.searchPostcodeOrPlace);
 app.all("/", handlers.root);
+app.all("/conditions", handlers.conditions);
+app.all("/live-well", handlers.liveWell);
+app.all("/medicines", handlers.medicines);
+app.all("/nhs-services", handlers.nhsServices);
+app.all("/pregnancy", handlers.pregnancy);
+app.all("/common-health-questions", handlers.commonHealthQuestions);
+app.all("/mental-health", handlers.mentalHealth);
 app.use(on_error);
 app.use(after_request);
 
