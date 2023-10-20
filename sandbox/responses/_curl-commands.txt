@@ -76,6 +76,18 @@ curl -X GET 'https://api.nhs.uk/conditions/?category=a' \
   -H 'Content-Type: application/json' \
   -H 'subscription-key: 9b95c5be0278482baf6cd8a01903d5b3' --> ./responses/conditions-category-a.json
 
+curl -X GET 'https://api.nhs.uk/conditions/?category=a&genre=condition' \
+  -H 'Content-Type: application/json' \
+  -H 'subscription-key: 9b95c5be0278482baf6cd8a01903d5b3' --> ./responses/conditions-category-a-genre-condition.json
+
+curl -X GET 'https://api.nhs.uk/conditions/?category=a&genre=guide' \
+  -H 'Content-Type: application/json' \
+  -H 'subscription-key: 9b95c5be0278482baf6cd8a01903d5b3' --> ./responses/conditions-category-a-genre-guide.json
+
+curl -X GET 'https://api.nhs.uk/conditions/?category=a&genre=hub' \
+  -H 'Content-Type: application/json' \
+  -H 'subscription-key: 9b95c5be0278482baf6cd8a01903d5b3' --> ./responses/conditions-category-a-genre-hub.json
+
 curl -X GET 'https://api.nhs.uk/conditions/?category=b' \
   -H 'Content-Type: application/json' \
   -H 'subscription-key: 9b95c5be0278482baf6cd8a01903d5b3' --> ./responses/conditions-category-b.json

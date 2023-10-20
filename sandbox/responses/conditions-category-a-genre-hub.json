@@ -1,0 +1,130 @@
+{
+  "@context": "http://schema.org",
+  "@type": "MedicalWebPage",
+  "name": "Health A to Z",
+  "copyrightHolder": { "name": "Crown Copyright", "@type": "Organization" },
+  "license": "https://developer.api.nhs.uk/terms",
+  "author": {
+    "url": "https://www.nhs.uk",
+    "logo": "https://www.nhs.uk/nhscwebservices/documents/logo1.jpg",
+    "email": "nhswebsite.servicedesk@nhs.net",
+    "@type": "Organization",
+    "name": "NHS website"
+  },
+  "about": { "@type": "WebPage", "name": "Health A to Z", "alternateName": "" },
+  "description": "",
+  "url": "https://api.nhs.uk/conditions/",
+  "genre": [],
+  "keywords": "",
+  "dateModified": "2021-11-18T15:26:06+00:00",
+  "breadcrumb": {
+    "@context": "http://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 0,
+        "item": { "@id": "https://api.nhs.uk/conditions/", "name": "Health A to Z", "genre": [] }
+      }
+    ]
+  },
+  "contentSubTypes": [],
+  "significantLink": [
+    {
+      "description": "Find out what you can do to ease ankle pain, what could be causing the pain and when to get medical help.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Symptom"],
+        "datePublished": "2022-03-30T12:58:40+00:00",
+        "dateModified": "2023-01-11T09:33:51+00:00",
+        "lastReviewed": ["2022-02-22T08:29:00+00:00", "2025-02-22T08:29:00+00:00"],
+        "reviewDue": "2025-02-22T08:29:00+00:00",
+        "keywords": ""
+      },
+      "url": "https://api.nhs.uk/conditions/foot-pain/ankle-pain/",
+      "name": "Ankle pain"
+    },
+    {
+      "description": "NHS guide to autism. Find out what autism is and what the common signs are. Get help and advice if you or your child are autistic.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Condition"],
+        "datePublished": "2023-03-08T13:51:37+00:00",
+        "dateModified": "2023-03-13T08:37:12+00:00",
+        "keywords": "",
+        "alternateName": ["Asperger's"]
+      },
+      "url": "https://api.nhs.uk/conditions/autism/",
+      "name": "Autism"
+    },
+    {
+      "description": "Find out about acute lymphoblastic leukaemia (ALL), including what the symptoms are, what to do if you think you have it, how it's treated and where to get support.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Condition"],
+        "datePublished": "2023-08-07T09:51:57+00:00",
+        "dateModified": "2023-08-07T09:51:57+00:00",
+        "keywords": "",
+        "alternateName": ["Leukaemia (acute lymphoblastic)"]
+      },
+      "url": "https://api.nhs.uk/conditions/acute-lymphoblastic-leukaemia/",
+      "name": "Acute lymphoblastic leukaemia"
+    },
+    {
+      "description": "Find out what anorexia nervosa is, what causes it, the signs to look out for, and the treatment and support available.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Condition"],
+        "datePublished": "2021-02-11T11:22:08+00:00",
+        "dateModified": "2022-08-16T12:47:57+00:00",
+        "keywords": ""
+      },
+      "url": "https://api.nhs.uk/mental-health/conditions/anorexia/",
+      "name": "Anorexia nervosa"
+    },
+    {
+      "description": "Find out what antisocial personality disorder is, what the signs are, and how it's diagnosed and treated.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Condition"],
+        "datePublished": "2021-02-12T17:48:26+00:00",
+        "dateModified": "2022-06-14T10:28:25+00:00",
+        "lastReviewed": ["2021-12-23T15:40:00+00:00", "2024-12-23T15:40:00+00:00"],
+        "reviewDue": "2024-12-23T15:40:00+00:00",
+        "keywords": ""
+      },
+      "url": "https://api.nhs.uk/mental-health/conditions/antisocial-personality-disorder/",
+      "name": "Antisocial personality disorder"
+    },
+    {
+      "description": "Read about agoraphobia, a fear of being in situations where escape might be difficult or that help wouldn't be available if things go wrong.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Condition"],
+        "datePublished": "2021-02-12T16:39:14+00:00",
+        "dateModified": "2022-03-29T10:14:46+00:00",
+        "keywords": ""
+      },
+      "url": "https://api.nhs.uk/mental-health/conditions/agoraphobia/",
+      "name": "Agoraphobia"
+    }
+  ]
+}

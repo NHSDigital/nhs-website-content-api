@@ -1503,7 +1503,7 @@
         "reviewDue": "2023-10-13T23:00:00+00:00",
         "keywords": ""
       },
-      "url": "https://www.nhs.ukhttps://api.nhs.uk/conditions/body-dysmorphia/",
+      "url": "https://api.nhs.uk/mental-health/conditions/body-dysmorphia/",
       "name": "Body dysmorphic disorder (BDD)"
     },
     {
@@ -1518,7 +1518,7 @@
         "dateModified": "2022-08-16T12:55:27+00:00",
         "keywords": ""
       },
-      "url": "https://www.nhs.ukhttps://api.nhs.uk/conditions/bipolar-disorder/",
+      "url": "https://api.nhs.uk/mental-health/conditions/bipolar-disorder/",
       "name": "Bipolar disorder"
     },
     {
@@ -1533,7 +1533,7 @@
         "dateModified": "2022-03-29T10:26:45+00:00",
         "keywords": ""
       },
-      "url": "https://www.nhs.ukhttps://api.nhs.uk/conditions/bulimia/",
+      "url": "https://api.nhs.uk/mental-health/conditions/bulimia/",
       "name": "Bulimia"
     },
     {
@@ -1548,7 +1548,7 @@
         "dateModified": "2022-03-29T10:26:12+00:00",
         "keywords": ""
       },
-      "url": "https://www.nhs.ukhttps://api.nhs.uk/conditions/binge-eating/",
+      "url": "https://api.nhs.uk/mental-health/conditions/binge-eating/",
       "name": "Binge eating disorder"
     },
     {
@@ -1563,7 +1563,7 @@
         "dateModified": "2022-08-16T12:57:08+00:00",
         "keywords": ""
       },
-      "url": "https://www.nhs.ukhttps://api.nhs.uk/conditions/borderline-personality-disorder/",
+      "url": "https://api.nhs.uk/mental-health/conditions/borderline-personality-disorder/",
       "name": "Borderline personality disorder"
     }
   ]
