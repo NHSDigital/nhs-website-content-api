@@ -68,6 +68,14 @@ curl -X GET 'https://api.nhs.uk/conditions/acne/?modules=true' \
   -H 'Content-Type: application/json' \
   -H 'subscription-key: 9b95c5be0278482baf6cd8a01903d5b3' --> ./responses/conditions-acne-modules-true.json
 
+curl -X GET 'https://api.nhs.uk/conditions/angiography/' \
+  -H 'Content-Type: application/json' \
+  -H 'subscription-key: 9b95c5be0278482baf6cd8a01903d5b3' --> ./responses/conditions-angiography-no-params.json
+
+curl -X GET 'https://api.nhs.uk/conditions/cancer/' \
+  -H 'Content-Type: application/json' \
+  -H 'subscription-key: 9b95c5be0278482baf6cd8a01903d5b3' --> ./responses/conditions-cancer-no-params.json
+
 curl -X GET 'https://api.nhs.uk/conditions/zika/' \
   -H 'Content-Type: application/json' \
   -H 'subscription-key: 9b95c5be0278482baf6cd8a01903d5b3' --> ./responses/conditions-zika-no-params.json
