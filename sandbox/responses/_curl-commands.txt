@@ -1,0 +1,52 @@
+curl -X GET 'https://api.nhs.uk/common-health-questions/' \
+  -H 'Content-Type: application/json' \
+  -H 'subscription-key: 9b95c5be0278482baf6cd8a01903d5b3' --> ./responses/common-health-questions-root-no-params.json
+
+
+curl -X GET 'https://api.nhs.uk/conditions/' \
+  -H 'Content-Type: application/json' \
+  -H 'subscription-key: 9b95c5be0278482baf6cd8a01903d5b3' --> ./responses/conditions-no-params.json
+
+
+curl -X GET 'https://api.nhs.uk/live-well/' \
+  -H 'Content-Type: application/json' \
+  -H 'subscription-key: 9b95c5be0278482baf6cd8a01903d5b3' --> ./responses/live-well-root-no-params.json
+
+
+curl -X GET 'https://api.nhs.uk/medicines/' \
+  -H 'Content-Type: application/json' \
+  -H 'subscription-key: 9b95c5be0278482baf6cd8a01903d5b3' --> ./responses/medicines-root-no-params.json
+
+
+curl -X GET 'https://api.nhs.uk/mental-health/' \
+  -H 'Content-Type: application/json' \
+  -H 'subscription-key: 9b95c5be0278482baf6cd8a01903d5b3' --> ./responses/mental-health-root-no-params.json
+
+
+curl -X GET 'https://api.nhs.uk/nhs-services/' \
+  -H 'Content-Type: application/json' \
+  -H 'subscription-key: 9b95c5be0278482baf6cd8a01903d5b3' --> ./responses/nhs-services-root-no-params.json
+
+
+curl -X GET 'https://api.nhs.uk/pregnancy/' \
+  -H 'Content-Type: application/json' \
+  -H 'subscription-key: 9b95c5be0278482baf6cd8a01903d5b3' --> ./responses/pregnancy-root-no-params.json
+
+
+
+
+
+
+curl -X GET 'https://api.nhs.uk/conditions/acanthosis-nigricans/' \
+  -H 'Content-Type: application/json' \
+  -H 'subscription-key: 9b95c5be0278482baf6cd8a01903d5b3' --> conditions-acanthosis-nigricans-no-params.json
+
+
+curl -X GET 'https://api.nhs.uk/conditions/achalasia/' \
+  -H 'Content-Type: application/json' \
+  -H 'subscription-key: 9b95c5be0278482baf6cd8a01903d5b3' --> conditions-achalasia-no-params.json
+
+
+curl -X GET 'https://api.nhs.uk/conditions/zika/' \
+  -H 'Content-Type: application/json' \
+  -H 'subscription-key: 9b95c5be0278482baf6cd8a01903d5b3' --> conditions-zika-no-params.json

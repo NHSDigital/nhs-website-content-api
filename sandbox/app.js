@@ -1,70 +1,64 @@
-"use strict";
+'use strict'
 
-const express = require("express");
-const app = express();
-const log = require("loglevel");
-const uuid = require("uuid");
+const express = require('express')
+const app = express()
+const log = require('loglevel')
+const uuid = require('uuid')
 
 function setup(options) {
-  options = options || {};
-  app.locals.app_name = options.APP_NAME || "nhs-website-content-api";
-  app.locals.version_info = JSON.parse(options.VERSION_INFO || "{}");
-  log.setLevel(options.LOG_LEVEL || "info");
+  options = options || {}
+  app.locals.app_name = options.APP_NAME || 'nhs-website-content-api'
+  app.locals.version_info = JSON.parse(options.VERSION_INFO || '{}')
+  log.setLevel(options.LOG_LEVEL || 'info')
 
   log.info(
     JSON.stringify({
       timestamp: Date.now(),
-      level: "info",
+      level: 'info',
       app: app.locals.app_name,
-      msg: "setup",
+      msg: 'setup',
       version: app.locals.version_info,
     })
-  );
+  )
 }
 
 function start(options) {
-  options = options || {};
+  options = options || {}
   let server = app.listen(options.PORT || 9000, () => {
     log.info(
       JSON.stringify({
         timestamp: Date.now(),
-        level: "info",
+        level: 'info',
         app: app.locals.app_name,
-        msg: "startup",
+        msg: 'startup',
         server_port: server.address().port,
         version: app.locals.version_info,
       })
-    );
-  });
-  return server;
+    )
+  })
+  return server
 }
 
 function before_request(req, res, next) {
-  res.locals.started_at = Date.now();
+  res.locals.started_at = Date.now()
   res.locals.correlation_id =
-    req.header("X-Correlation-ID") ||
-    req.header("Correlation-ID") ||
-    req.header("CorrelationID") ||
-    uuid.v4();
-  next();
+    req.header('X-Correlation-ID') || req.header('Correlation-ID') || req.header('CorrelationID') || uuid.v4()
+  next()
 }
 
-const _health_endpoints = ["/_ping", "/health"];
+const _health_endpoints = ['/_ping', '/health']
 
 function after_request(req, res, next) {
-  if (
-    _health_endpoints.includes(req.path) &&
-    !("log" in Object.assign({}, req.query))
-  ) {
+  if (_health_endpoints.includes(req.path) && !('log' in Object.assign({}, req.query))) {
     // don't log ping / health by default
-    return next();
+    return next()
   }
-  let finished_at = Date.now();
+  let finished_at = Date.now()
   let log_entry = {
     timestamp: finished_at,
-    level: "info",
+    level: 'info',
     app: app.locals.app_name,
-    msg: "request",
+    msg: 'request',
     correlation_id: res.locals.correlation_id,
     started: res.locals.started_at,
     finished: finished_at,
@@ -80,34 +74,34 @@ function after_request(req, res, next) {
       message: res.message,
     },
     version: app.locals.version_info,
-  };
+  }
 
   if (log.getLevel() < 2) {
     // debug
-    log_entry.req.headers = req.rawHeaders;
-    log_entry.res.headers = res.rawHeaders;
+    log_entry.req.headers = req.rawHeaders
+    log_entry.res.headers = res.rawHeaders
   }
-  log.info(JSON.stringify(log_entry));
+  log.info(JSON.stringify(log_entry))
 
-  next();
+  next()
 }
 
 function on_error(err, req, res, next) {
-  let log_err = err;
+  let log_err = err
   if (log_err instanceof Error) {
     log_err = {
       name: err.name,
       message: err.message,
       stack: err.stack,
-    };
+    }
   }
-  let finished_at = Date.now();
+  let finished_at = Date.now()
   log.error(
     JSON.stringify({
       timestamp: finished_at,
-      level: "error",
+      level: 'error',
       app: app.locals.app_name,
-      msg: "error",
+      msg: 'error',
       correlation_id: res.locals.correlation_id,
       started: res.locals.started_at,
       finished: finished_at,
@@ -115,30 +109,33 @@ function on_error(err, req, res, next) {
       err: log_err,
       version: app.locals.version_info,
     })
-  );
+  )
   if (res.headersSent) {
-    next();
-    return;
+    next()
+    return
   }
-  res.status(500);
-  res.json({ error: "something went wrong" });
-  next();
+  res.status(500)
+  res.json({ error: 'something went wrong' })
+  next()
 }
 
-const handlers = require("./handlers");
-app.use(before_request);
-app.get("/_ping", handlers.status);
-app.get("/_status", handlers.status);
-app.get("/health", handlers.status);
-app.all("/", handlers.root);
-app.all("/conditions", handlers.conditions);
-app.all("/live-well", handlers.liveWell);
-app.all("/medicines", handlers.medicines);
-app.all("/nhs-services", handlers.nhsServices);
-app.all("/pregnancy", handlers.pregnancy);
-app.all("/common-health-questions", handlers.commonHealthQuestions);
-app.all("/mental-health", handlers.mentalHealth);
-app.use(on_error);
-app.use(after_request);
+const handlers = require('./handlers')
+app.use(before_request)
+app.get('/_ping', handlers.status)
+app.get('/_status', handlers.status)
+app.get('/health', handlers.status)
+app.all('/', handlers.root)
+app.all('/common-health-questions/', handlers.commonHealthQuestionsRoot)
+app.all('/conditions/', handlers.conditionsRoot)
+app.all('/conditions/acanthosis-nigricans/', handlers.conditionsAcanthosisNigricans)
+app.all('/conditions/achalasia/', handlers.conditionsAchalasia)
+app.all('/conditions/zika/', handlers.conditionsZika)
+app.all('/live-well/', handlers.liveWellRoot)
+app.all('/medicines/', handlers.medicinesRoot)
+app.all('/mental-health/', handlers.mentalHealthRoot)
+app.all('/nhs-services/', handlers.nhsServicesRoot)
+app.all('/pregnancy/', handlers.pregnancyRoot)
+app.use(on_error)
+app.use(after_request)
 
-module.exports = { start: start, setup: setup };
+module.exports = { start: start, setup: setup }

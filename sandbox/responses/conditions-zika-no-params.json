@@ -1,0 +1,432 @@
+{
+  "@context": "http://schema.org",
+  "@type": "MedicalWebPage",
+  "name": "Zika virus",
+  "copyrightHolder": { "name": "Crown Copyright", "@type": "Organization" },
+  "license": "https://developer.api.nhs.uk/terms",
+  "author": {
+    "url": "https://www.nhs.uk",
+    "logo": "https://www.nhs.uk/nhscwebservices/documents/logo1.jpg",
+    "email": "nhswebsite.servicedesk@nhs.net",
+    "@type": "Organization",
+    "name": "NHS website"
+  },
+  "about": { "@type": "WebPage", "name": "Zika virus", "alternateName": "" },
+  "description": "Find out more about Zika virus, including where it's found, how you catch it and what the symptoms are.",
+  "url": "https://www.nhs.uk/conditions/zika/",
+  "genre": ["Condition"],
+  "keywords": [],
+  "dateModified": "2022-02-23T15:41:03+00:00",
+  "lastReviewed": ["2022-02-18T00:00:00+00:00", "2025-02-18T00:00:00+00:00"],
+  "breadcrumb": {
+    "@context": "http://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 0,
+        "item": { "@id": "https://www.nhs.uk/conditions/", "name": "Health A to Z", "genre": [] }
+      },
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "item": { "@id": "https://www.nhs.uk/conditions/zika/", "name": "Zika virus", "genre": ["Condition"] }
+      }
+    ]
+  },
+  "hasPart": [
+    {
+      "@type": "HealthTopicContent",
+      "url": "https://www.nhs.uk/conditions/zika/#causes",
+      "hasHealthAspect": "http://schema.org/CausesHealthAspect",
+      "headline": "Check if you're at risk of Zika virus",
+      "description": "Zika virus is usually caught by being bitten by an infected mosquito. There's also a very small risk of it being passed on through sex.",
+      "hasPart": [
+        {
+          "@type": "WebPageElement",
+          "headline": "",
+          "text": "<p>Zika virus is usually caught by being bitten by an infected mosquito.</p><p>Very rarely, you can get the virus by having sex with someone who has it.</p><p>Zika virus is found in parts of:</p><ul><li>South and Central America</li><li>the Caribbean</li><li>the Pacific islands</li><li>Africa</li><li>Asia</li></ul><p>The type of mosquitoes that carry Zika virus are not found in the UK.</p>"
+        }
+      ]
+    },
+    {
+      "@type": "HealthTopicContent",
+      "url": "https://www.nhs.uk/conditions/zika/#prevention",
+      "hasHealthAspect": "http://schema.org/PreventionHealthAspect",
+      "headline": "How to avoid Zika virus",
+      "description": "You can reduce your risk of getting Zika virus by avoiding mosquito bites. For example, use insect repellent and sleep under a mosquito net.",
+      "hasPart": [
+        {
+          "@type": "WebPageElement",
+          "headline": "",
+          "text": "<p>If you're travelling to an area where Zika virus is found, get advice from a GP, nurse, pharmacist or travel clinic before you go.</p><p>It's best to do this at least 4 to 6 weeks before you travel, but you can still get advice at the last minute if you need to.</p><p>There are things you can do to avoid getting Zika virus while you're travelling.</p>"
+        },
+        {
+          "@type": "WebPageElement",
+          "headline": "Do",
+          "text": "<ul><li><p>use insect repellent on your skin \u2013 make sure it's 50% DEET-based</p></li><li><p>sleep under mosquito nets treated with insecticide</p></li><li><p>wear loose clothing that covers your arms and legs \u2013 the mosquitoes that carry Zika virus are most active during the day</p></li></ul>"
+        }
+      ]
+    },
+    {
+      "@type": "HealthTopicContent",
+      "url": "https://www.nhs.uk/conditions/zika/#symptoms",
+      "hasHealthAspect": "http://schema.org/SymptomsHealthAspect",
+      "headline": "Symptoms of Zika virus",
+      "description": "Zika virus often has no symptoms. Some people get symptoms like a rash, high temperature, headache or muscle aches for a few days.",
+      "hasPart": [
+        {
+          "@type": "WebPageElement",
+          "headline": "",
+          "text": "<p>Most people have few or no symptoms if they get Zika virus.</p><p>If you do have symptoms, they're usually mild and last around 2 to 7 days.</p><p>The most common symptoms include:</p><ul><li>a high temperature</li><li>a headache</li><li>sore, red eyes</li><li>swollen joints and joint and muscle pain</li><li>a rash and itching all over the body</li></ul>"
+        }
+      ]
+    },
+    {
+      "@type": "HealthTopicContent",
+      "url": "https://www.nhs.uk/conditions/zika/#urgent-medical-help",
+      "hasHealthAspect": "http://schema.org/MedicalHelpUrgentHealthAspect",
+      "headline": "",
+      "description": "",
+      "hasPart": [
+        {
+          "@type": "WebPageElement",
+          "identifier": "urgent",
+          "headline": "Ask for an urgent GP appointment or get help from NHS 111 if:",
+          "text": "<p>\n You've recently travelled to a country with a Zika virus risk and:\n</p>\n<ul>\n<li>\n  you feel unwell\n </li>\n<li>\n  you or your partner are pregnant\n </li>\n<li>\n  you or your partner get pregnant within 3 months of coming back to the UK\n </li>\n<li>\n  have numbness, pins and needles, muscle weakness or pain in your feet and hands that spreads to your arms and legs\n </li>\n</ul>\n<p>\n You can call 111 or\n <a href=\"https://111.nhs.uk/\">\n  get help from 111 online\n </a>\n .\n</p>\n<p>\n Get medical advice quickly if you have Zika virus symptoms while you're travelling.\n</p>\n"
+        }
+      ]
+    },
+    {
+      "@type": "HealthTopicContent",
+      "url": "https://www.nhs.uk/conditions/zika/#medical-treatments",
+      "hasHealthAspect": "http://schema.org/TreatmentsHealthAspect",
+      "headline": "Treatments for Zika virus",
+      "description": "There's no treatment for Zika virus. It usually gets better in about a week. Staying hydrated and taking painkillers can ease symptoms.",
+      "hasPart": [
+        {
+          "@type": "WebPageElement",
+          "headline": "",
+          "text": "<p>There are no specific treatments for Zika virus.</p><p>If you have symptoms, you should:</p><ul><li>get plenty of rest</li><li>drink lots of fluids</li><li>take pain relief, such as paracetamol</li></ul><p>If you're pregnant and have Zika virus, your midwife or hospital doctor will talk about the risk with you and may arrange an <a href=\"/pregnancy/your-pregnancy-care/ultrasound-scans/\">ultrasound scan</a> to check your baby's growth.</p><p>You may also be referred to a specialist for more monitoring.</p>"
+        }
+      ]
+    },
+    {
+      "@type": "HealthTopicContent",
+      "url": "https://www.nhs.uk/conditions/zika/#complications",
+      "hasHealthAspect": "http://schema.org/RisksOrComplicationsHealthAspect",
+      "headline": "Complications of Zika virus",
+      "description": "Zika virus can harm your baby if you get it when you're pregnant. Rarely, it can also cause a serious condition called Guillain-Barr\u00e9 syndrome.",
+      "hasPart": [
+        {
+          "@type": "WebPageElement",
+          "headline": "",
+          "text": "<p>Zika virus can harm a developing baby if you get it when you're pregnant.</p><p>It can cause problems with the baby's brain and the baby having an unusually small head (microcephaly).</p><p>You can have Zika virus without having any symptoms. This is why it's important to avoid getting pregnant for up to 3 months after you've come back to the UK from a country where there's a Zika virus risk.</p><p>Speak to your midwife or doctor for advice if you're worried your unborn baby may be affected by Zika virus.</p><p>Rarely, Zika virus can also cause <a href=\"/conditions/guillain-barre-syndrome/\">Guillain-Barr\u00e9 syndrome (GBS)</a>, a serious condition that affects the nervous system.</p>"
+        }
+      ]
+    },
+    {
+      "@type": "HealthTopicContent",
+      "url": "https://www.nhs.uk/conditions/zika/#overview",
+      "hasHealthAspect": "http://schema.org/OverviewHealthAspect",
+      "headline": "",
+      "description": "Zika virus is mainly spread by mosquitoes found in some parts of the world. For most people it's mild, but it can cause problems if you're pregnant.",
+      "hasPart": [
+        {
+          "text": "<p>Zika virus is usually caught by being bitten by an infected mosquito. There's also a very small risk of it being passed on through sex.</p> ",
+          "@type": "WebPageElement"
+        },
+        {
+          "text": "<p>You can reduce your risk of getting Zika virus by avoiding mosquito bites. For example, use insect repellent and sleep under a mosquito net.</p> ",
+          "@type": "WebPageElement"
+        },
+        {
+          "text": "<p>Zika virus often has no symptoms. Some people get symptoms like a rash, high temperature, headache or muscle aches for a few days.</p> ",
+          "@type": "WebPageElement"
+        },
+        {
+          "text": "<p>There's no treatment for Zika virus. It usually gets better in about a week. Staying hydrated and taking painkillers can ease symptoms.</p> ",
+          "@type": "WebPageElement"
+        },
+        {
+          "text": "<p>Zika virus can harm your baby if you get it when you're pregnant. Rarely, it can also cause a serious condition called Guillain-Barr\u00e9 syndrome.</p> ",
+          "@type": "WebPageElement"
+        }
+      ]
+    }
+  ],
+  "relatedLink": [
+    {
+      "@type": "LinkRole",
+      "url": "https://www.nhs.uk/conditions/zika/",
+      "linkRelationship": "Navigation",
+      "position": 0,
+      "name": "Zika virus"
+    }
+  ],
+  "contentSubTypes": [],
+  "mainEntityOfPage": [
+    {
+      "identifier": "0",
+      "name": "section heading",
+      "position": 0,
+      "@type": "WebPageElement",
+      "mainEntityOfPage": [
+        {
+          "position": 0,
+          "identifier": "1",
+          "text": "<p><b>Zika virus is mainly spread by mosquitoes found in some parts of the world. For most people it's mild and not harmful, but can cause problems if you're pregnant.</b></p>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": ""
+        }
+      ],
+      "description": "",
+      "hasPart": [
+        {
+          "position": 0,
+          "identifier": "1",
+          "text": "<p><b>Zika virus is mainly spread by mosquitoes found in some parts of the world. For most people it's mild and not harmful, but can cause problems if you're pregnant.</b></p>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": ""
+        }
+      ]
+    },
+    {
+      "identifier": "0",
+      "name": "section heading",
+      "position": 1,
+      "@type": "WebPageElement",
+      "mainEntityOfPage": [
+        {
+          "position": 0,
+          "identifier": "1",
+          "text": "<p>Zika virus is usually caught by being bitten by an infected mosquito.</p><p>Very rarely, you can get the virus by having sex with someone who has it.</p><p>Zika virus is found in parts of:</p><ul><li>South and Central America</li><li>the Caribbean</li><li>the Pacific islands</li><li>Africa</li><li>Asia</li></ul><p>The type of mosquitoes that carry Zika virus are not found in the UK.</p>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": ""
+        }
+      ],
+      "description": "Zika virus is usually caught by being bitten by an infected mosquito. There's also a very small risk of it being passed on through sex.",
+      "hasPart": [
+        {
+          "position": 0,
+          "identifier": "1",
+          "text": "<p>Zika virus is usually caught by being bitten by an infected mosquito.</p><p>Very rarely, you can get the virus by having sex with someone who has it.</p><p>Zika virus is found in parts of:</p><ul><li>South and Central America</li><li>the Caribbean</li><li>the Pacific islands</li><li>Africa</li><li>Asia</li></ul><p>The type of mosquitoes that carry Zika virus are not found in the UK.</p>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": ""
+        }
+      ],
+      "hasHealthAspect": "http://schema.org/CausesHealthAspect",
+      "headline": "Check if you're at risk of Zika virus"
+    },
+    {
+      "identifier": "0",
+      "name": "section heading",
+      "position": 2,
+      "@type": "WebPageElement",
+      "mainEntityOfPage": [
+        {
+          "position": 0,
+          "@type": "WebPageElement",
+          "name": "Information",
+          "identifier": "3",
+          "text": "<h3>Check before you travel</h3><p>It's important to check the risk for the country you're going to before you travel.</p><p><a href=\"https://travelhealthpro.org.uk/countries\">Find out more about the Zika virus risk in specific countries on the Travel Health Pro website</a></p>"
+        }
+      ],
+      "description": "",
+      "hasPart": [
+        {
+          "position": 0,
+          "@type": "WebPageElement",
+          "name": "Information",
+          "identifier": "3",
+          "text": "<h3>Check before you travel</h3><p>It's important to check the risk for the country you're going to before you travel.</p><p><a href=\"https://travelhealthpro.org.uk/countries\">Find out more about the Zika virus risk in specific countries on the Travel Health Pro website</a></p>"
+        }
+      ]
+    },
+    {
+      "identifier": "0",
+      "name": "section heading",
+      "position": 3,
+      "@type": "WebPageElement",
+      "mainEntityOfPage": [
+        {
+          "position": 0,
+          "identifier": "1",
+          "text": "<p>If you're travelling to an area where Zika virus is found, get advice from a GP, nurse, pharmacist or travel clinic before you go.</p><p>It's best to do this at least 4 to 6 weeks before you travel, but you can still get advice at the last minute if you need to.</p><p>There are things you can do to avoid getting Zika virus while you're travelling.</p>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": ""
+        },
+        {
+          "position": 1,
+          "@type": "WebPageElement",
+          "name": "Do/Don't",
+          "identifier": "9",
+          "text": "<div><h3>Do</h3><ul><li><p>use insect repellent on your skin \u2013 make sure it's 50% DEET-based</p></li><li><p>sleep under mosquito nets treated with insecticide</p></li><li><p>wear loose clothing that covers your arms and legs \u2013 the mosquitoes that carry Zika virus are most active during the day</p></li></ul></div>"
+        }
+      ],
+      "description": "You can reduce your risk of getting Zika virus by avoiding mosquito bites. For example, use insect repellent and sleep under a mosquito net.",
+      "hasPart": [
+        {
+          "position": 0,
+          "identifier": "1",
+          "text": "<p>If you're travelling to an area where Zika virus is found, get advice from a GP, nurse, pharmacist or travel clinic before you go.</p><p>It's best to do this at least 4 to 6 weeks before you travel, but you can still get advice at the last minute if you need to.</p><p>There are things you can do to avoid getting Zika virus while you're travelling.</p>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": ""
+        },
+        {
+          "position": 1,
+          "@type": "WebPageElement",
+          "name": "Do/Don't",
+          "identifier": "9",
+          "text": "<div><h3>Do</h3><ul><li><p>use insect repellent on your skin \u2013 make sure it's 50% DEET-based</p></li><li><p>sleep under mosquito nets treated with insecticide</p></li><li><p>wear loose clothing that covers your arms and legs \u2013 the mosquitoes that carry Zika virus are most active during the day</p></li></ul></div>"
+        }
+      ],
+      "hasHealthAspect": "http://schema.org/PreventionHealthAspect",
+      "headline": "How to avoid Zika virus"
+    },
+    {
+      "identifier": "0",
+      "name": "section heading",
+      "position": 4,
+      "@type": "WebPageElement",
+      "mainEntityOfPage": [
+        {
+          "position": 0,
+          "identifier": "1",
+          "text": "<p>Most people have few or no symptoms if they get Zika virus.</p><p>If you do have symptoms, they're usually mild and last around 2 to 7 days.</p><p>The most common symptoms include:</p><ul><li>a high temperature</li><li>a headache</li><li>sore, red eyes</li><li>swollen joints and joint and muscle pain</li><li>a rash and itching all over the body</li></ul>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": ""
+        }
+      ],
+      "description": "Zika virus often has no symptoms. Some people get symptoms like a rash, high temperature, headache or muscle aches for a few days.",
+      "hasPart": [
+        {
+          "position": 0,
+          "identifier": "1",
+          "text": "<p>Most people have few or no symptoms if they get Zika virus.</p><p>If you do have symptoms, they're usually mild and last around 2 to 7 days.</p><p>The most common symptoms include:</p><ul><li>a high temperature</li><li>a headache</li><li>sore, red eyes</li><li>swollen joints and joint and muscle pain</li><li>a rash and itching all over the body</li></ul>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": ""
+        }
+      ],
+      "hasHealthAspect": "http://schema.org/SymptomsHealthAspect",
+      "headline": "Symptoms of Zika virus"
+    },
+    {
+      "identifier": "0",
+      "name": "section heading",
+      "position": 5,
+      "@type": "WebPageElement",
+      "mainEntityOfPage": [
+        {
+          "position": 0,
+          "@type": "WebPageElement",
+          "name": "urgent",
+          "identifier": "5",
+          "text": "<h2>Ask for an urgent GP appointment or get help from NHS 111 if:</h2><div class=\"block-richtext\">\n<p>You've recently travelled to a country with a Zika virus risk and:</p><ul><li>you feel unwell</li><li>you or your partner are pregnant</li><li>you or your partner get pregnant within 3 months of coming back to the UK</li><li>have numbness, pins and needles, muscle weakness or pain in your feet and hands that spreads to your arms and legs</li></ul><p>You can call 111 or <a href=\"https://111.nhs.uk/\">get help from 111 online</a>.</p><p>Get medical advice quickly if you have Zika virus symptoms while you're travelling.</p>\n</div>"
+        }
+      ],
+      "description": "",
+      "hasPart": [
+        {
+          "position": 0,
+          "@type": "WebPageElement",
+          "name": "urgent",
+          "identifier": "5",
+          "text": "<h2>Ask for an urgent GP appointment or get help from NHS 111 if:</h2><div class=\"block-richtext\">\n<p>You've recently travelled to a country with a Zika virus risk and:</p><ul><li>you feel unwell</li><li>you or your partner are pregnant</li><li>you or your partner get pregnant within 3 months of coming back to the UK</li><li>have numbness, pins and needles, muscle weakness or pain in your feet and hands that spreads to your arms and legs</li></ul><p>You can call 111 or <a href=\"https://111.nhs.uk/\">get help from 111 online</a>.</p><p>Get medical advice quickly if you have Zika virus symptoms while you're travelling.</p>\n</div>"
+        }
+      ],
+      "hasHealthAspect": "http://schema.org/MedicalHelpUrgentHealthAspect"
+    },
+    {
+      "identifier": "0",
+      "name": "section heading",
+      "position": 6,
+      "@type": "WebPageElement",
+      "mainEntityOfPage": [
+        {
+          "position": 0,
+          "identifier": "1",
+          "text": "<p>There are no specific treatments for Zika virus.</p><p>If you have symptoms, you should:</p><ul><li>get plenty of rest</li><li>drink lots of fluids</li><li>take pain relief, such as paracetamol</li></ul><p>If you're pregnant and have Zika virus, your midwife or hospital doctor will talk about the risk with you and may arrange an <a href=\"/pregnancy/your-pregnancy-care/ultrasound-scans/\">ultrasound scan</a> to check your baby's growth.</p><p>You may also be referred to a specialist for more monitoring.</p>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": ""
+        }
+      ],
+      "description": "There's no treatment for Zika virus. It usually gets better in about a week. Staying hydrated and taking painkillers can ease symptoms.",
+      "hasPart": [
+        {
+          "position": 0,
+          "identifier": "1",
+          "text": "<p>There are no specific treatments for Zika virus.</p><p>If you have symptoms, you should:</p><ul><li>get plenty of rest</li><li>drink lots of fluids</li><li>take pain relief, such as paracetamol</li></ul><p>If you're pregnant and have Zika virus, your midwife or hospital doctor will talk about the risk with you and may arrange an <a href=\"/pregnancy/your-pregnancy-care/ultrasound-scans/\">ultrasound scan</a> to check your baby's growth.</p><p>You may also be referred to a specialist for more monitoring.</p>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": ""
+        }
+      ],
+      "hasHealthAspect": "http://schema.org/TreatmentsHealthAspect",
+      "headline": "Treatments for Zika virus"
+    },
+    {
+      "identifier": "0",
+      "name": "section heading",
+      "position": 7,
+      "@type": "WebPageElement",
+      "mainEntityOfPage": [
+        {
+          "position": 0,
+          "identifier": "1",
+          "text": "<p>Zika virus can harm a developing baby if you get it when you're pregnant.</p><p>It can cause problems with the baby's brain and the baby having an unusually small head (microcephaly).</p><p>You can have Zika virus without having any symptoms. This is why it's important to avoid getting pregnant for up to 3 months after you've come back to the UK from a country where there's a Zika virus risk.</p><p>Speak to your midwife or doctor for advice if you're worried your unborn baby may be affected by Zika virus.</p><p>Rarely, Zika virus can also cause <a href=\"/conditions/guillain-barre-syndrome/\">Guillain-Barr\u00e9 syndrome (GBS)</a>, a serious condition that affects the nervous system.</p>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": ""
+        }
+      ],
+      "description": "Zika virus can harm your baby if you get it when you're pregnant. Rarely, it can also cause a serious condition called Guillain-Barr\u00e9 syndrome.",
+      "hasPart": [
+        {
+          "position": 0,
+          "identifier": "1",
+          "text": "<p>Zika virus can harm a developing baby if you get it when you're pregnant.</p><p>It can cause problems with the baby's brain and the baby having an unusually small head (microcephaly).</p><p>You can have Zika virus without having any symptoms. This is why it's important to avoid getting pregnant for up to 3 months after you've come back to the UK from a country where there's a Zika virus risk.</p><p>Speak to your midwife or doctor for advice if you're worried your unborn baby may be affected by Zika virus.</p><p>Rarely, Zika virus can also cause <a href=\"/conditions/guillain-barre-syndrome/\">Guillain-Barr\u00e9 syndrome (GBS)</a>, a serious condition that affects the nervous system.</p>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": ""
+        }
+      ],
+      "hasHealthAspect": "http://schema.org/RisksOrComplicationsHealthAspect",
+      "headline": "Complications of Zika virus"
+    },
+    {
+      "identifier": "0",
+      "name": "section heading",
+      "position": 8,
+      "@type": "WebPageElement",
+      "mainEntityOfPage": [
+        {
+          "position": 0,
+          "@type": "WebPageElement",
+          "name": "Information",
+          "identifier": "3",
+          "text": "<h3>Find out more</h3><ul><li><a href=\"https://www.gov.uk/government/publications/zika-virus-sexual-transmission-advice-algorithm\">GOV.UK: how long to avoid getting pregnant after travelling to a Zika risk area</a></li><li><a href=\"https://www.medicinesinpregnancy.org/Medicine--pregnancy/Zika-virus/\">best use of medicines in pregnancy (bumps): Zika virus</a></li><li><a href=\"https://www.rcog.org.uk/en/guidelines-research-services/guidelines/zika-virus-infection-and-pregnancy/\">Royal College of Obstetricians and Gynaecologists: Zika virus infection and pregnancy</a></li></ul><p></p>"
+        }
+      ],
+      "description": "",
+      "hasPart": [
+        {
+          "position": 0,
+          "@type": "WebPageElement",
+          "name": "Information",
+          "identifier": "3",
+          "text": "<h3>Find out more</h3><ul><li><a href=\"https://www.gov.uk/government/publications/zika-virus-sexual-transmission-advice-algorithm\">GOV.UK: how long to avoid getting pregnant after travelling to a Zika risk area</a></li><li><a href=\"https://www.medicinesinpregnancy.org/Medicine--pregnancy/Zika-virus/\">best use of medicines in pregnancy (bumps): Zika virus</a></li><li><a href=\"https://www.rcog.org.uk/en/guidelines-research-services/guidelines/zika-virus-infection-and-pregnancy/\">Royal College of Obstetricians and Gynaecologists: Zika virus infection and pregnancy</a></li></ul><p></p>"
+        }
+      ]
+    }
+  ]
+}

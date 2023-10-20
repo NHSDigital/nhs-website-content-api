@@ -1,1 +1,187 @@
-{"@context": "http://schema.org", "@type": "MedicalWebPage", "name": "Live Well", "copyrightHolder": {"name": "Crown Copyright", "@type": "Organization"}, "license": "https://developer.api.nhs.uk/terms", "author": {"url": "https://www.nhs.uk", "logo": "https://www.nhs.uk/nhscwebservices/documents/logo1.jpg", "email": "nhswebsite.servicedesk@nhs.net", "@type": "Organization", "name": "NHS website"}, "about": {"@type": "WebPage", "name": "Live Well", "alternateName": ""}, "description": "NHS advice about healthy living, including eating a balanced diet, healthy weight, exercise, quitting smoking and drinking less alcohol.", "url": "https://www.nhs.uk/live-well/", "genre": [], "keywords": "", "dateModified": "2022-03-30T12:54:29+00:00", "hasPart": [], "breadcrumb": {"@context": "http://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 0, "item": {"@id": "https://www.nhs.uk/live-well/", "name": "Live Well", "genre": []}}]}, "headline": "Live Well", "contentSubTypes": [], "mainEntityOfPage": [{"identifier": "23", "@type": "WebPageElement", "name": "toptasks", "headline": "", "text": "", "mainEntityOfPage": [{"@type": "WebPageElement", "headline": "5 steps to mental wellbeing", "url": "https://www.nhs.uk/mental-health/self-help/guides-tools-and-activities/five-steps-to-mental-wellbeing/", "identifier": "26", "text": "", "name": "link"}, {"@type": "WebPageElement", "headline": "BMI healthy weight calculator", "url": "https://www.nhs.uk/live-well/healthy-weight/bmi-calculator/", "identifier": "26", "text": "", "name": "link"}]}, {"identifier": "24", "@type": "WebPageElement", "name": "canonicallinks", "headline": "", "text": "", "mainEntityOfPage": [{"@type": "WebPageElement", "headline": "Healthy weight", "url": "https://www.nhs.uk/live-well/healthy-weight/", "identifier": "26", "text": "<p data-block-key=\"61o8j\">Information for adults and children about healthy weight, including advice to help you lose weight</p>", "name": "link"}, {"@type": "WebPageElement", "headline": "Exercise", "url": "https://www.nhs.uk/live-well/exercise/", "identifier": "26", "text": "<p data-block-key=\"61o8j\">Exercise guidelines and workouts to help improve your fitness and wellbeing</p>", "name": "link"}, {"@type": "WebPageElement", "headline": "Sleep and tiredness", "url": "https://www.nhs.uk/live-well/sleep-and-tiredness/", "identifier": "26", "text": "<p data-block-key=\"61o8j\">Reasons why you might feel tired and advice about what you can do to prevent tiredness</p>", "name": "link"}, {"@type": "WebPageElement", "headline": "Eat well", "url": "https://www.nhs.uk/live-well/eat-well/", "identifier": "26", "text": "<p data-block-key=\"61o8j\">Information and advice about eating a healthy, balanced diet</p>", "name": "link"}, {"@type": "WebPageElement", "headline": "Alcohol advice", "url": "https://www.nhs.uk/live-well/alcohol-advice/", "identifier": "26", "text": "<p data-block-key=\"61o8j\">Advice and support for cutting down the amount of alcohol you drink</p>", "name": "link"}, {"@type": "WebPageElement", "headline": "Quit smoking", "url": "https://www.nhs.uk/live-well/quit-smoking/", "identifier": "26", "text": "<p data-block-key=\"61o8j\">Information and advice to help you stop smoking</p>", "name": "link"}, {"@type": "WebPageElement", "headline": "Addiction support", "url": "https://www.nhs.uk/live-well/addiction-support/", "identifier": "26", "text": "<p data-block-key=\"61o8j\">Help and support for addiction, including drug and gambling addictions</p>", "name": "link"}, {"@type": "WebPageElement", "headline": "Sexual health", "url": "https://www.nhs.uk/live-well/sexual-health/", "identifier": "26", "text": "<p data-block-key=\"61o8j\">Information and advice about sexual health, including contraception and sexually transmitted infections (STIs)</p>", "name": "link"}]}, {"identifier": "24", "@type": "WebPageElement", "name": "secondarycanonicallinks", "headline": "", "text": "", "mainEntityOfPage": [{"@type": "WebPageElement", "headline": "Bone health", "url": "https://www.nhs.uk/live-well/bone-health/", "identifier": "26", "text": "<p data-block-key=\"tfu8k\">Advice about keeping your bones healthy</p>", "name": "link"}, {"@type": "WebPageElement", "headline": "Pain", "url": "https://www.nhs.uk/live-well/pain/", "identifier": "26", "text": "<p data-block-key=\"tfu8k\">Support and advice to help with your pain</p>", "name": "link"}, {"@type": "WebPageElement", "headline": "Healthy teeth and gums", "url": "https://www.nhs.uk/live-well/healthy-teeth-and-gums/", "identifier": "26", "text": "<p data-block-key=\"tfu8k\">Information and advice about looking after your teeth and gums</p>", "name": "link"}, {"@type": "WebPageElement", "headline": "Seasonal health", "url": "https://www.nhs.uk/live-well/seasonal-health/", "identifier": "26", "text": "<p data-block-key=\"tfu8k\">Advice about staying healthy during winter and summer</p>", "name": "link"}, {"@type": "WebPageElement", "headline": "How to wash your hands", "url": "https://www.nhs.uk/live-well/best-way-to-wash-your-hands/", "identifier": "26", "text": "<p data-block-key=\"tfu8k\">Step-by-step guide to washing your hands</p>", "name": "link"}, {"@type": "WebPageElement", "headline": "When your child is too ill for school", "url": "https://www.nhs.uk/live-well/is-my-child-too-ill-for-school/", "identifier": "26", "text": "<p data-block-key=\"tfu8k\">Advice about when to keep your child off school or nursery</p>", "name": "link"}]}]}
+{
+  "@context": "http://schema.org",
+  "@type": "MedicalWebPage",
+  "name": "Live Well",
+  "copyrightHolder": { "name": "Crown Copyright", "@type": "Organization" },
+  "license": "https://developer.api.nhs.uk/terms",
+  "author": {
+    "url": "https://www.nhs.uk",
+    "logo": "https://www.nhs.uk/nhscwebservices/documents/logo1.jpg",
+    "email": "nhswebsite.servicedesk@nhs.net",
+    "@type": "Organization",
+    "name": "NHS website"
+  },
+  "about": { "@type": "WebPage", "name": "Live Well", "alternateName": "" },
+  "description": "NHS advice about healthy living, including eating a balanced diet, healthy weight, exercise, quitting smoking and drinking less alcohol.",
+  "url": "https://www.nhs.uk/live-well/",
+  "genre": [],
+  "keywords": "",
+  "dateModified": "2022-03-30T12:54:29+00:00",
+  "hasPart": [],
+  "breadcrumb": {
+    "@context": "http://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 0, "item": { "@id": "https://www.nhs.uk/live-well/", "name": "Live Well", "genre": [] } }
+    ]
+  },
+  "headline": "Live Well",
+  "contentSubTypes": [],
+  "mainEntityOfPage": [
+    {
+      "identifier": "23",
+      "@type": "WebPageElement",
+      "name": "toptasks",
+      "headline": "",
+      "text": "",
+      "mainEntityOfPage": [
+        {
+          "@type": "WebPageElement",
+          "headline": "5 steps to mental wellbeing",
+          "url": "https://www.nhs.uk/mental-health/self-help/guides-tools-and-activities/five-steps-to-mental-wellbeing/",
+          "identifier": "26",
+          "text": "",
+          "name": "link"
+        },
+        {
+          "@type": "WebPageElement",
+          "headline": "BMI healthy weight calculator",
+          "url": "https://www.nhs.uk/live-well/healthy-weight/bmi-calculator/",
+          "identifier": "26",
+          "text": "",
+          "name": "link"
+        }
+      ]
+    },
+    {
+      "identifier": "24",
+      "@type": "WebPageElement",
+      "name": "canonicallinks",
+      "headline": "",
+      "text": "",
+      "mainEntityOfPage": [
+        {
+          "@type": "WebPageElement",
+          "headline": "Healthy weight",
+          "url": "https://www.nhs.uk/live-well/healthy-weight/",
+          "identifier": "26",
+          "text": "<p data-block-key=\"61o8j\">Information for adults and children about healthy weight, including advice to help you lose weight</p>",
+          "name": "link"
+        },
+        {
+          "@type": "WebPageElement",
+          "headline": "Exercise",
+          "url": "https://www.nhs.uk/live-well/exercise/",
+          "identifier": "26",
+          "text": "<p data-block-key=\"61o8j\">Exercise guidelines and workouts to help improve your fitness and wellbeing</p>",
+          "name": "link"
+        },
+        {
+          "@type": "WebPageElement",
+          "headline": "Sleep and tiredness",
+          "url": "https://www.nhs.uk/live-well/sleep-and-tiredness/",
+          "identifier": "26",
+          "text": "<p data-block-key=\"61o8j\">Reasons why you might feel tired and advice about what you can do to prevent tiredness</p>",
+          "name": "link"
+        },
+        {
+          "@type": "WebPageElement",
+          "headline": "Eat well",
+          "url": "https://www.nhs.uk/live-well/eat-well/",
+          "identifier": "26",
+          "text": "<p data-block-key=\"61o8j\">Information and advice about eating a healthy, balanced diet</p>",
+          "name": "link"
+        },
+        {
+          "@type": "WebPageElement",
+          "headline": "Alcohol advice",
+          "url": "https://www.nhs.uk/live-well/alcohol-advice/",
+          "identifier": "26",
+          "text": "<p data-block-key=\"61o8j\">Advice and support for cutting down the amount of alcohol you drink</p>",
+          "name": "link"
+        },
+        {
+          "@type": "WebPageElement",
+          "headline": "Quit smoking",
+          "url": "https://www.nhs.uk/live-well/quit-smoking/",
+          "identifier": "26",
+          "text": "<p data-block-key=\"61o8j\">Information and advice to help you stop smoking</p>",
+          "name": "link"
+        },
+        {
+          "@type": "WebPageElement",
+          "headline": "Addiction support",
+          "url": "https://www.nhs.uk/live-well/addiction-support/",
+          "identifier": "26",
+          "text": "<p data-block-key=\"61o8j\">Help and support for addiction, including drug and gambling addictions</p>",
+          "name": "link"
+        },
+        {
+          "@type": "WebPageElement",
+          "headline": "Sexual health",
+          "url": "https://www.nhs.uk/live-well/sexual-health/",
+          "identifier": "26",
+          "text": "<p data-block-key=\"61o8j\">Information and advice about sexual health, including contraception and sexually transmitted infections (STIs)</p>",
+          "name": "link"
+        }
+      ]
+    },
+    {
+      "identifier": "24",
+      "@type": "WebPageElement",
+      "name": "secondarycanonicallinks",
+      "headline": "",
+      "text": "",
+      "mainEntityOfPage": [
+        {
+          "@type": "WebPageElement",
+          "headline": "Bone health",
+          "url": "https://www.nhs.uk/live-well/bone-health/",
+          "identifier": "26",
+          "text": "<p data-block-key=\"tfu8k\">Advice about keeping your bones healthy</p>",
+          "name": "link"
+        },
+        {
+          "@type": "WebPageElement",
+          "headline": "Pain",
+          "url": "https://www.nhs.uk/live-well/pain/",
+          "identifier": "26",
+          "text": "<p data-block-key=\"tfu8k\">Support and advice to help with your pain</p>",
+          "name": "link"
+        },
+        {
+          "@type": "WebPageElement",
+          "headline": "Healthy teeth and gums",
+          "url": "https://www.nhs.uk/live-well/healthy-teeth-and-gums/",
+          "identifier": "26",
+          "text": "<p data-block-key=\"tfu8k\">Information and advice about looking after your teeth and gums</p>",
+          "name": "link"
+        },
+        {
+          "@type": "WebPageElement",
+          "headline": "Seasonal health",
+          "url": "https://www.nhs.uk/live-well/seasonal-health/",
+          "identifier": "26",
+          "text": "<p data-block-key=\"tfu8k\">Advice about staying healthy during winter and summer</p>",
+          "name": "link"
+        },
+        {
+          "@type": "WebPageElement",
+          "headline": "How to wash your hands",
+          "url": "https://www.nhs.uk/live-well/best-way-to-wash-your-hands/",
+          "identifier": "26",
+          "text": "<p data-block-key=\"tfu8k\">Step-by-step guide to washing your hands</p>",
+          "name": "link"
+        },
+        {
+          "@type": "WebPageElement",
+          "headline": "When your child is too ill for school",
+          "url": "https://www.nhs.uk/live-well/is-my-child-too-ill-for-school/",
+          "identifier": "26",
+          "text": "<p data-block-key=\"tfu8k\">Advice about when to keep your child off school or nursery</p>",
+          "name": "link"
+        }
+      ]
+    }
+  ]
+}
