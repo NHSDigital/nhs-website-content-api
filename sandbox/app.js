@@ -126,17 +126,64 @@ app.use(beforeRequest)
 app.get('/_ping', handlers.status)
 app.get('/_status', handlers.status)
 app.get('/health', handlers.status)
+// app.all('/hello', handlers.hello)
+
+// ******************************************************************
+// ** Root page
+// ******************************************************************
 app.all('/', handlers.root)
-app.all('/hello', handlers.hello)
+
+// ******************************************************************
+// ** Common Health Questions pages
+// ******************************************************************
 app.all('/common-health-questions/', handlers.commonHealthQuestionsRoot)
+app.all(
+  '/common-health-questions/accidents-first-aid-and-treatments/',
+  handlers.commonHealthQuestionsAccidentsFirstAidAndTreatments
+)
+app.all(
+  '/common-health-questions/caring-carers-and-long-term-conditions/',
+  handlers.commonHealthQuestionsCaringCarersAndLongTermConditions
+)
+app.all(
+  '/common-health-questions/childrens-health/can-my-baby-go-swimming-before-or-after-vaccinations/',
+  handlers.commonHealthQuestionsChildrensHealthCanMyBabyGoSwimmingBeforeOrAfterVaccinations
+)
+
+// ******************************************************************
+// ** Conditions pages
+// ******************************************************************
 app.all('/conditions/', handlers.conditionsRoot)
 app.all('/conditions/acanthosis-nigricans/', handlers.conditionsAcanthosisNigricans)
 app.all('/conditions/achalasia/', handlers.conditionsAchalasia)
+app.all('/conditions/acne/', handlers.conditionsAcne)
+// app.all('/conditions/angiography/', handlers.conditionsAngiography)
+// app.all('/conditions/cancer/', handlers.conditionsCancer)
 app.all('/conditions/zika/', handlers.conditionsZika)
+
+// ******************************************************************
+// ** Live Well pages
+// ******************************************************************
 app.all('/live-well/', handlers.liveWellRoot)
+
+// ******************************************************************
+// ** Medicines pages
+// ******************************************************************
 app.all('/medicines/', handlers.medicinesRoot)
+
+// ******************************************************************
+// ** Mental Health pages
+// ******************************************************************
 app.all('/mental-health/', handlers.mentalHealthRoot)
+
+// ******************************************************************
+// ** NHS Services pages
+// ******************************************************************
 app.all('/nhs-services/', handlers.nhsServicesRoot)
+
+// ******************************************************************
+// ** Pregnancy pages
+// ******************************************************************
 app.all('/pregnancy/', handlers.pregnancyRoot)
 
 app.use((req, res, next) => {
