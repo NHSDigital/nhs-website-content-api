@@ -12,6 +12,7 @@ const conditionsRootNoParamsResponse = require('./responses/conditions-root-no-p
 const conditionsAcanthosisNigricansNoParamsResponse = require('./responses/conditions-acanthosis-nigricans-no-params.json')
 const conditionsAchalasiaNoParamsResponse = require('./responses/conditions-achalasia-no-params.json')
 const conditionsAcneResponse = require('./responses/conditions-acne-no-params.json')
+const conditionsAcneModulesTrueResponse = require('./responses/conditions-acne-modules-true.json')
 
 const conditionsZikaNoParamsResponse = require('./responses/conditions-zika-no-params.json')
 const liveWellRootResponse = require('./responses/live-well-root-no-params.json')
@@ -134,12 +135,20 @@ async function conditionsAchalasia(req, res, next) {
   next()
 }
 
+// Modules: false
 // http://localhost:9000/conditions/acne/
 // https://api.nhs.uk/conditions/acne/
 // https://api.nhs.uk/content-api/conditions/acne/
+
+// Modules: true
+// http://localhost:9000/conditions/acne/?modules=true
+// https://api.nhs.uk/conditions/acne/?modules=true
+// https://api.nhs.uk/content-api/conditions/acne/?modules=true
 async function conditionsAcne(req, res, next) {
   if (isSubscriptionKeyMissing(req)) {
     res.status(401).json(errorMissingSubscriptionKeyResponse)
+  } else if (req.query['modules'].toLowerCase() === 'true') {
+    res.status(200).json(conditionsAcneModulesTrueResponse)
   } else {
     res.status(200).json(conditionsAcneResponse)
   }
