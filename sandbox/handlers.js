@@ -1,7 +1,8 @@
 'use strict'
 
 const log = require('loglevel')
-const resourceNotFoundResponse = require('./responses/resource-not-found.json')
+const errorMissingSubscriptionKeyResponse = require('./responses/error-missing-subscription-key.json')
+const errorResourceNotFoundResponse = require('./responses/error-resource-not-found.json')
 const commonHealthQuestionsRootResponse = require('./responses/conditions-root-no-params.json')
 const conditionsRootNoParamsResponse = require('./responses/conditions-root-no-params.json')
 const conditionsAcanthosisNigricansNoParamsResponse = require('./responses/conditions-acanthosis-nigricans-no-params.json')
@@ -13,13 +14,17 @@ const mentalHealthRootResponse = require('./responses/mental-health-root-no-para
 const nhsServicesRootResponse = require('./responses/nhs-services-root-no-params.json')
 const pregnancyRootResponse = require('./responses/pregnancy-root-no-params.json')
 
+// http://localhost:9000/
+// https://api.nhs.uk/
 // https://api.nhs.uk/content-api/
 async function root(req, res, next) {
-  res.status(404).json(resourceNotFoundResponse)
+  res.status(404).json(errorResourceNotFoundResponse)
   res.end()
   next()
 }
 
+// http://localhost:9000/common-health-questions/
+// https://api.nhs.uk/common-health-questions/
 // https://api.nhs.uk/content-api/common-health-questions/
 async function commonHealthQuestionsRoot(req, res, next) {
   res.status(404).json(commonHealthQuestionsRootResponse)
@@ -27,13 +32,22 @@ async function commonHealthQuestionsRoot(req, res, next) {
   next()
 }
 
+// http://localhost:9000/conditions/
+// https://api.nhs.uk/conditions/
 // https://api.nhs.uk/content-api/conditions/
 async function conditionsRoot(req, res, next) {
-  res.status(404).json(conditionsRootNoParamsResponse)
+  console.log(req.get('subscription-key'))
+  if (isSubscriptionKeyMissing(req)) {
+    res.status(401).json(errorMissingSubscriptionKeyResponse)
+  } else {
+    res.status(404).json(conditionsRootNoParamsResponse)
+  }
   res.end()
   next()
 }
 
+// http://localhost:9000/conditions/acanthosis-nigricans/
+// https://api.nhs.uk/conditions/acanthosis-nigricans/
 // https://api.nhs.uk/content-api/conditions/acanthosis-nigricans/
 async function conditionsAcanthosisNigricans(req, res, next) {
   res.status(404).json(conditionsAcanthosisNigricansNoParamsResponse)
@@ -41,6 +55,8 @@ async function conditionsAcanthosisNigricans(req, res, next) {
   next()
 }
 
+// http://localhost:9000/conditions/achalasia/
+// https://api.nhs.uk/conditions/achalasia/
 // https://api.nhs.uk/content-api/conditions/achalasia/
 async function conditionsAchalasia(req, res, next) {
   res.status(404).json(conditionsAchalasiaNoParamsResponse)
@@ -48,6 +64,8 @@ async function conditionsAchalasia(req, res, next) {
   next()
 }
 
+// http://localhost:9000/conditions/zika/
+// https://api.nhs.uk/conditions/zika/
 // https://api.nhs.uk/content-api/conditions/zika/
 async function conditionsZika(req, res, next) {
   res.status(404).json(conditionsZikaNoParamsResponse)
@@ -55,6 +73,8 @@ async function conditionsZika(req, res, next) {
   next()
 }
 
+// http://localhost:9000/live-well/
+// https://api.nhs.uk/live-well/
 // https://api.nhs.uk/content-api/live-well/
 async function liveWellRoot(req, res, next) {
   res.status(404).json(liveWellRootResponse)
@@ -62,6 +82,8 @@ async function liveWellRoot(req, res, next) {
   next()
 }
 
+// http://localhost:9000/medicines/
+// https://api.nhs.uk/medicines/
 // https://api.nhs.uk/content-api/medicines/
 async function medicinesRoot(req, res, next) {
   res.status(404).json(medicinesRootResponse)
@@ -69,6 +91,8 @@ async function medicinesRoot(req, res, next) {
   next()
 }
 
+// http://localhost:9000/mental-health/
+// https://api.nhs.uk/mental-health/
 // https://api.nhs.uk/content-api/mental-health/
 async function mentalHealthRoot(req, res, next) {
   res.status(404).json(mentalHealthRootResponse)
@@ -76,6 +100,8 @@ async function mentalHealthRoot(req, res, next) {
   next()
 }
 
+// http://localhost:9000/nhs-services/
+// https://api.nhs.uk/nhs-services/
 // https://api.nhs.uk/content-api/nhs-services/
 async function nhsServicesRoot(req, res, next) {
   res.status(404).json(nhsServicesRootResponse)
@@ -83,6 +109,8 @@ async function nhsServicesRoot(req, res, next) {
   next()
 }
 
+// http://localhost:9000/pregnancy/
+// https://api.nhs.uk/pregnancy/
 // https://api.nhs.uk/content-api/pregnancy/
 async function pregnancyRoot(req, res, next) {
   res.status(404).json(pregnancyRootResponse)
@@ -113,6 +141,10 @@ async function hello(req, res, next) {
   res.json({ message: 'hello world' })
   res.end()
   next()
+}
+
+function isSubscriptionKeyMissing(req) {
+  return (req.method === 'GET' && !req.query['subscription-key']) || (req.method === 'POST' && !req.get('subscription-key'))
 }
 
 module.exports = {
