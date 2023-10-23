@@ -4,6 +4,8 @@ const express = require('express')
 const app = express()
 const log = require('loglevel')
 const uuid = require('uuid')
+const handlers = require('./handlers')
+const errorResourceNotFoundResponse = require('./responses/error-resource-not-found.json')
 
 function setup(options) {
   options = options || {}
@@ -39,7 +41,7 @@ function start(options) {
   return server
 }
 
-function before_request(req, res, next) {
+function beforeRequest(req, res, next) {
   res.locals.started_at = Date.now()
   res.locals.correlation_id =
     req.header('X-Correlation-ID') || req.header('Correlation-ID') || req.header('CorrelationID') || uuid.v4()
@@ -48,7 +50,7 @@ function before_request(req, res, next) {
 
 const _health_endpoints = ['/_ping', '/health']
 
-function after_request(req, res, next) {
+function afterRequest(req, res, next) {
   if (_health_endpoints.includes(req.path) && !('log' in Object.assign({}, req.query))) {
     // don't log ping / health by default
     return next()
@@ -86,7 +88,7 @@ function after_request(req, res, next) {
   next()
 }
 
-function on_error(err, req, res, next) {
+function onError(err, req, res, next) {
   let log_err = err
   if (log_err instanceof Error) {
     log_err = {
@@ -115,16 +117,17 @@ function on_error(err, req, res, next) {
     return
   }
   res.status(500)
-  res.json({ error: 'something went wrong' })
+  res.json({ error: 'Internal Server Error' })
   next()
 }
 
-const handlers = require('./handlers')
-app.use(before_request)
+app.use(beforeRequest)
+
 app.get('/_ping', handlers.status)
 app.get('/_status', handlers.status)
 app.get('/health', handlers.status)
 app.all('/', handlers.root)
+app.all('/hello', handlers.hello)
 app.all('/common-health-questions/', handlers.commonHealthQuestionsRoot)
 app.all('/conditions/', handlers.conditionsRoot)
 app.all('/conditions/acanthosis-nigricans/', handlers.conditionsAcanthosisNigricans)
@@ -135,7 +138,11 @@ app.all('/medicines/', handlers.medicinesRoot)
 app.all('/mental-health/', handlers.mentalHealthRoot)
 app.all('/nhs-services/', handlers.nhsServicesRoot)
 app.all('/pregnancy/', handlers.pregnancyRoot)
-app.use(on_error)
-app.use(after_request)
+
+app.use((req, res, next) => {
+  res.status(404).json(errorResourceNotFoundResponse)
+})
+app.use(onError)
+app.use(afterRequest)
 
 module.exports = { start: start, setup: setup }
