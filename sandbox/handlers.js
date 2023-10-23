@@ -116,7 +116,6 @@ async function conditionsAcanthosisNigricans(req, res, next) {
   } else {
     res.status(200).json(conditionsAcanthosisNigricansNoParamsResponse)
   }
-
   res.end()
   next()
 }
@@ -130,7 +129,6 @@ async function conditionsAchalasia(req, res, next) {
   } else {
     res.status(200).json(conditionsAchalasiaNoParamsResponse)
   }
-
   res.end()
   next()
 }
@@ -152,7 +150,6 @@ async function conditionsAcne(req, res, next) {
   } else {
     res.status(200).json(conditionsAcneResponse)
   }
-
   res.end()
   next()
 }
@@ -166,7 +163,6 @@ async function conditionsZika(req, res, next) {
   } else {
     res.status(200).json(conditionsZikaNoParamsResponse)
   }
-
   res.end()
   next()
 }
@@ -184,7 +180,6 @@ async function liveWellRoot(req, res, next) {
   } else {
     res.status(200).json(liveWellRootResponse)
   }
-
   res.end()
   next()
 }
@@ -202,7 +197,6 @@ async function medicinesRoot(req, res, next) {
   } else {
     res.status(200).json(medicinesRootResponse)
   }
-
   res.end()
   next()
 }
@@ -220,7 +214,6 @@ async function mentalHealthRoot(req, res, next) {
   } else {
     res.status(200).json(mentalHealthRootResponse)
   }
-
   res.end()
   next()
 }
@@ -238,7 +231,6 @@ async function nhsServicesRoot(req, res, next) {
   } else {
     res.status(200).json(nhsServicesRootResponse)
   }
-
   res.end()
   next()
 }
@@ -256,7 +248,6 @@ async function pregnancyRoot(req, res, next) {
   } else {
     res.status(200).json(pregnancyRootResponse)
   }
-
   res.end()
   next()
 }
