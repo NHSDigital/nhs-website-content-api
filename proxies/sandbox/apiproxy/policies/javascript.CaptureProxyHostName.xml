@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Javascript async="false" continueOnError="false" enabled="true" timeLimit="200" name="javascript.CaptureProxyHostName">
+    <DisplayName>javascript.CaptureProxyHostName</DisplayName>
+    <Properties/>
+    <ResourceURL>jsc://CaptureProxyHostName.js</ResourceURL>
+</Javascript>
