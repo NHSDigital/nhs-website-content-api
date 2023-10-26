@@ -57,9 +57,8 @@ extends:
           - template: ./templates/run-tests.yml
             parameters:
               full: true
-              test-command: prod
-              smoketest-command: prod
-
+#              test-command: prod
+#              smoketest_command: prod
     #   - environment: ref
     #     depends_on:
     #       - internal_qa
