@@ -3,23 +3,59 @@
 const log = require('loglevel')
 const errorMissingSubscriptionKeyResponse = require('./responses/error-missing-subscription-key.json')
 const errorResourceNotFoundResponse = require('./responses/error-resource-not-found.json')
+
 const commonHealthQuestionsRootResponse = require('./responses/conditions-root-no-params.json')
 const commonHealthQuestionsAccidentsFirstAidAndTreatmentsResponse = require('./responses/common-health-questions-accidents-first-aid-and-treatments-no-params.json')
 const commonHealthQuestionsCaringCarersAndLongTermConditionsResponse = require('./responses/common-health-questions-caring-carers-and-long-term-conditions-no-params.json')
 const commonHealthQuestionsChildrensHealthCanMyBabyGoSwimmingBeforeOrAfterVaccinationsResponse = require('./responses/common-health-questions-childrens-health-can-my-baby-go-swimming-before-or-after-vaccinations-no-params.json')
 
 const conditionsRootNoParamsResponse = require('./responses/conditions-root-no-params.json')
-const conditionsAcanthosisNigricansNoParamsResponse = require('./responses/conditions-acanthosis-nigricans-no-params.json')
-const conditionsAchalasiaNoParamsResponse = require('./responses/conditions-achalasia-no-params.json')
-const conditionsAcneResponse = require('./responses/conditions-acne-no-params.json')
+const conditionsAcanthosisNigricansResponse = require('./responses/conditions-acanthosis-nigricans-no-params.json')
+const conditionsAchalasiaResponse = require('./responses/conditions-achalasia-no-params.json')
+const conditionsAcneResponseNoParams = require('./responses/conditions-acne-no-params.json')
 const conditionsAcneModulesTrueResponse = require('./responses/conditions-acne-modules-true.json')
+const conditionsAngiographyResponse = require('./responses/conditions-angiography-no-params.json')
+const conditionsCancerResponse = require('./responses/conditions-cancer-no-params.json')
+const conditionsRootCategoryAGenreConditionResponse = require('./responses/conditions-root-category-a-genre-condition.json')
+const conditionsRootCategoryAGenreGuideResponse = require('./responses/conditions-root-category-a-genre-guide.json')
+const conditionsRootCategoryAGenreHubResponse = require('./responses/conditions-root-category-a-genre-hub.json')
+const conditionsRootCategoryAResponse = require('./responses/conditions-root-category-a.json')
+const conditionsRootCategoryBResponse = require('./responses/conditions-root-category-b.json')
+const conditionsRootCategoryZResponse = require('./responses/conditions-root-category-z.json')
+const conditionsRootPage1Response = require('./responses/conditions-root-page-1.json')
+const conditionsRootPage2Response = require('./responses/conditions-root-page-2.json')
+const conditionsRootPage70Response = require('./responses/conditions-root-page-70.json')
+const conditionsZikaResponse = require('./responses/conditions-zika-no-params.json')
 
-const conditionsZikaNoParamsResponse = require('./responses/conditions-zika-no-params.json')
 const liveWellRootResponse = require('./responses/live-well-root-no-params.json')
-const medicinesRootResponse = require('./responses/medicines-root-no-params.json')
+const liveWellAlcoholAdviceAlcoholSupportResponse = require('./responses/live-well-alcohol-advice-alcohol-support-no-params.json')
+const liveWellExerciseResponse = require('./responses/live-well-exercise-no-params.json')
+const liveWellHealthyWeightResponse = require('./responses/live-well-healthy-weight-no-params.json')
+
+const medicinesRootNoParamsResponse = require('./responses/medicines-root-no-params.json')
+const medicinesAciclovirResponse = require('./responses/medicines-aciclovir-no-params.json')
+const medicinesAcrivastineResponse = require('./responses/medicines-acrivastine-no-params.json')
+const medicinesRootCategoryAResponse = require('./responses/medicines-root-category-a.json')
+const medicinesRootCategoryBResponse = require('./responses/medicines-root-category-b.json')
+const medicinesRootCategoryZResponse = require('./responses/medicines-root-category-z.json')
+const medicinesRootPage1Response = require('./responses/medicines-root-page-1.json')
+const medicinesRootPage11Response = require('./responses/medicines-root-page-11.json')
+const medicinesZopicloneResponse = require('./responses/medicines-zopiclone-no-params.json')
+
 const mentalHealthRootResponse = require('./responses/mental-health-root-no-params.json')
+const mentalHealthAdviceForLifeSituationsAndEventsSupportForWorkplaceBullyingResponse = require('./responses/mental-health-advice-for-life-situations-and-events-support-for-workplace-bullying-no-params.json')
+const mentalHealthConditionsResponse = require('./responses/mental-health-conditions.json')
+const mentalHealthFeelingsSymptomsBehavioursResponse = require('./responses/mental-health-feelings-symptoms-behaviours-no-params.json')
+
 const nhsServicesRootResponse = require('./responses/nhs-services-root-no-params.json')
+const nhsServicesGpsHowToRegisterWithAGpSurgeryResponse = require('./responses/nhs-services-gps-how-to-register-with-a-gp-surgery-no-params.json')
+const nhsServicesGpsResponse = require('./responses/nhs-services-gps-no-params.json')
+const nhsServicesPrescriptionsAndPharmaciesResponse = require('./responses/nhs-services-prescriptions-and-pharmacies-no-params.json')
+
 const pregnancyRootResponse = require('./responses/pregnancy-root-no-params.json')
+const pregnancyFindingOutFindingOutYouArePregnantResponse = require('./responses/pregnancy-finding-out-finding-out-you-are-pregnant-no-params.json')
+const pregnancyHavingABabyIfYouAreLgbtPlusResponse = require('./responses/pregnancy-having-a-baby-if-you-are-lgbt-plus-no-params.json')
+const pregnancyTryingForABabyResponse = require('./responses/pregnancy-trying-for-a-baby-no-params.json')
 
 // ******************************************************************
 // ** Root page
@@ -114,7 +150,7 @@ async function conditionsAcanthosisNigricans(req, res, next) {
   if (isSubscriptionKeyMissing(req)) {
     res.status(401).json(errorMissingSubscriptionKeyResponse)
   } else {
-    res.status(200).json(conditionsAcanthosisNigricansNoParamsResponse)
+    res.status(200).json(conditionsAcanthosisNigricansResponse)
   }
   res.end()
   next()
@@ -127,7 +163,7 @@ async function conditionsAchalasia(req, res, next) {
   if (isSubscriptionKeyMissing(req)) {
     res.status(401).json(errorMissingSubscriptionKeyResponse)
   } else {
-    res.status(200).json(conditionsAchalasiaNoParamsResponse)
+    res.status(200).json(conditionsAchalasiaResponse)
   }
   res.end()
   next()
@@ -148,7 +184,20 @@ async function conditionsAcne(req, res, next) {
   } else if (req.query['modules'].toLowerCase() === 'true') {
     res.status(200).json(conditionsAcneModulesTrueResponse)
   } else {
-    res.status(200).json(conditionsAcneResponse)
+    res.status(200).json(conditionsAcneResponseNoParams)
+  }
+  res.end()
+  next()
+}
+
+// http://localhost:9000/conditions/angiography/
+// https://api.nhs.uk/conditions/angiography/
+// https://api.nhs.uk/content-api/conditions/angiography/
+async function conditionsAngiography(req, res, next) {
+  if (isSubscriptionKeyMissing(req)) {
+    res.status(401).json(errorMissingSubscriptionKeyResponse)
+  } else {
+    res.status(200).json(conditionsAngiographyResponse)
   }
   res.end()
   next()
@@ -161,7 +210,7 @@ async function conditionsZika(req, res, next) {
   if (isSubscriptionKeyMissing(req)) {
     res.status(401).json(errorMissingSubscriptionKeyResponse)
   } else {
-    res.status(200).json(conditionsZikaNoParamsResponse)
+    res.status(200).json(conditionsZikaResponse)
   }
   res.end()
   next()
@@ -293,6 +342,7 @@ module.exports = {
   conditionsAcanthosisNigricans,
   conditionsAchalasia,
   conditionsAcne,
+  conditionsAngiography,
   conditionsZika,
   liveWellRoot,
   medicinesRoot,

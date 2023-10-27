@@ -219,4 +219,4 @@ curl -X GET 'https://api.nhs.uk/pregnancy/having-a-baby-if-you-are-lgbt-plus/' \
 
 curl -X GET 'https://api.nhs.uk/pregnancy/finding-out/finding-out-you-are-pregnant/' \
   -H 'Content-Type: application/json' \
-  -H 'subscription-key: 9b95c5be0278482baf6cd8a01903d5b3' --> ./responses/pregnancy-finding-out-finding-out-you-are-pregnant-plus-no-params.json
+  -H 'subscription-key: 9b95c5be0278482baf6cd8a01903d5b3' --> ./responses/pregnancy-finding-out-finding-out-you-are-pregnant-no-params.json

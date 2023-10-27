@@ -157,7 +157,7 @@ app.all('/conditions/', handlers.conditionsRoot)
 app.all('/conditions/acanthosis-nigricans/', handlers.conditionsAcanthosisNigricans)
 app.all('/conditions/achalasia/', handlers.conditionsAchalasia)
 app.all('/conditions/acne/', handlers.conditionsAcne)
-// app.all('/conditions/angiography/', handlers.conditionsAngiography)
+app.all('/conditions/angiography/', handlers.conditionsAngiography)
 // app.all('/conditions/cancer/', handlers.conditionsCancer)
 app.all('/conditions/zika/', handlers.conditionsZika)
 
