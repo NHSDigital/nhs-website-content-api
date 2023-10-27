@@ -165,22 +165,56 @@ async function commonHealthQuestionsChildrensHealthCanMyBabyGoSwimmingBeforeOrAf
 // https://api.nhs.uk/content-api/conditions/
 async function conditionsRoot(req, res, next) {
   if (isSubscriptionKeyMissing(req)) {
+    // http://localhost:9000/conditions/
     res.status(401).json(errorMissingSubscriptionKeyResponse)
   } else {
-    res.status(200).json(conditionsRootNoParamsResponse)
+    let responseJson
+    console.log('=======================')
+    console.log(req.query)
+    console.log("req.query['category']:", req.query['category'])
+    if (req.query['category'].toLowerCase() === 'a') {
+      if (req.query['genre'] === undefined) {
+        // http://localhost:9000/conditions/?subscription-key=123456&category=a
+        responseJson = conditionsRootCategoryAResponse
+      } else if (req.query['genre'].toLowerCase() === 'condition') {
+        // http://localhost:9000/conditions/?subscription-key=123456&category=a&genre=condition
+        responseJson = conditionsRootCategoryAGenreConditionResponse
+      } else if (req.query['genre'].toLowerCase() === 'guide') {
+        // http://localhost:9000/conditions/?subscription-key=123456&category=a&genre=guide
+        responseJson = conditionsRootCategoryAGenreGuideResponse
+      } else if (req.query['genre'].toLowerCase() === 'hub') {
+        // http://localhost:9000/conditions/?subscription-key=123456&category=a&genre=hub
+        responseJson = conditionsRootCategoryAGenreHubResponse
+      }
+    } else if (req.query['category'].toLowerCase() === 'b') {
+      // http://localhost:9000/conditions/?subscription-key=123456&category=b
+      responseJson = conditionsRootCategoryBResponse
+    } else if (req.query['category'].toLowerCase() === 'z') {
+      // http://localhost:9000/conditions/?subscription-key=123456&category=z
+      responseJson = conditionsRootCategoryZResponse
+    } else {
+      console.log('Else')
+      if (req.query['page'].toLowerCase() === '1') {
+        // http://localhost:9000/conditions/?subscription-key=123456&page=1
+        responseJson = conditionsRootPage1Response
+      } else if (req.query['page'].toLowerCase() === '2') {
+        // http://localhost:9000/conditions/?subscription-key=123456&page=2
+        responseJson = conditionsRootPage2Response
+      } else if (req.query['page'].toLowerCase() === '70') {
+        // http://localhost:9000/conditions/?subscription-key=123456&page=70
+        responseJson = conditionsRootPage70Response
+      } else {
+        // http://localhost:9000/conditions/?subscription-key=123456
+        responseJson = conditionsRootNoParamsResponse
+      }
+    }
+    console.log(responseJson)
+    console.log('=======================')
+    res.status(200).json(responseJson)
   }
   res.end()
   next()
 }
-// conditionsRootCategoryAGenreCondition
-// conditionsRootCategoryAGenreGuide
-// conditionsRootCategoryAGenreHub
-// conditionsRootCategoryA
-// conditionsRootCategoryB
-// conditionsRootCategoryZ
-// conditionsRootPage1
-// conditionsRootPage2
-// conditionsRootPage70
 
 // Live website URL
 // https://www.nhs.uk/conditions/acanthosis-nigricans/
@@ -223,7 +257,7 @@ async function conditionsAchalasia(req, res, next) {
 
 // Modules: false
 // This sandbox on localhost
-// http://localhost:9000/conditions/acne/?subscription-key=123456
+// http://localhost:9000/conditions/acne/?modules=false&subscription-key=123456
 // API on Azure API Management
 // https://api.nhs.uk/conditions/acne/
 // Wagtail (Python) Application (no key required)
@@ -231,7 +265,7 @@ async function conditionsAchalasia(req, res, next) {
 
 // Modules: true
 // This sandbox on localhost
-// http://localhost:9000/conditions/acne/?modules=true?subscription-key=123456
+// http://localhost:9000/conditions/acne/?modules=true&subscription-key=123456
 // API on Azure API Management
 // https://api.nhs.uk/conditions/acne/?modules=true
 // Wagtail (Python) Application (no key required)
