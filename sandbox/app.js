@@ -126,7 +126,6 @@ app.use(beforeRequest)
 app.get('/_ping', handlers.status)
 app.get('/_status', handlers.status)
 app.get('/health', handlers.status)
-// app.all('/hello', handlers.hello)
 
 // ******************************************************************
 // ** Root page
@@ -158,33 +157,51 @@ app.all('/conditions/acanthosis-nigricans/', handlers.conditionsAcanthosisNigric
 app.all('/conditions/achalasia/', handlers.conditionsAchalasia)
 app.all('/conditions/acne/', handlers.conditionsAcne)
 app.all('/conditions/angiography/', handlers.conditionsAngiography)
-// app.all('/conditions/cancer/', handlers.conditionsCancer)
+app.all('/conditions/cancer/', handlers.conditionsCancer)
 app.all('/conditions/zika/', handlers.conditionsZika)
 
 // ******************************************************************
 // ** Live Well pages
 // ******************************************************************
 app.all('/live-well/', handlers.liveWellRoot)
+app.all('/live-well/alcohol-advice/alcohol-support/', handlers.liveWellAlcoholAdviceAlcoholSupport)
+app.all('/live-well/exercise/', handlers.liveWellExercise)
+app.all('/live-well/healthy-weight/', handlers.liveWellHealthyWeight)
 
 // ******************************************************************
 // ** Medicines pages
 // ******************************************************************
 app.all('/medicines/', handlers.medicinesRoot)
+app.all('/medicines/aciclovir/', handlers.medicinesAciclovir)
+app.all('/medicines/acrivastine/', handlers.medicinesAcrivastine)
+app.all('/medicines/zopiclone/', handlers.medicinesZopiclone)
 
 // ******************************************************************
 // ** Mental Health pages
 // ******************************************************************
 app.all('/mental-health/', handlers.mentalHealthRoot)
+app.all(
+  '/mental-health/advice-for-life-situations-and-events/support-for-workplace-bullying/',
+  handlers.mentalHealthAdviceForLifeSituationsAndEventsSupportForWorkplaceBullying
+)
+app.all('/mental-health/conditions/', handlers.mentalHealthConditions)
+app.all('/mental-health/feelings-symptoms-behaviours/', handlers.mentalHealthFeelingsSymptomsBehaviours)
 
 // ******************************************************************
 // ** NHS Services pages
 // ******************************************************************
 app.all('/nhs-services/', handlers.nhsServicesRoot)
+app.all('/nhs-services/gps/', handlers.nhsServicesGps)
+app.all('/nhs-services/gps/how-to-register-with-a-gp-surgery/', handlers.nhsServicesGpsHowToRegisterWithAGpSurgery)
+app.all('/nhs-services/prescriptions-and-pharmacies/', handlers.nhsServicesPrescriptionsAndPharmacies)
 
 // ******************************************************************
 // ** Pregnancy pages
 // ******************************************************************
 app.all('/pregnancy/', handlers.pregnancyRoot)
+app.all('/pregnancy/finding-out/finding-out-you-are-pregnant/', handlers.pregnancyFindingOutFindingOutYouArePregnant)
+app.all('/pregnancy/having-a-baby-if-you-are-lgbt-plus/', handlers.pregnancyHavingABabyIfYouAreLgbtPlus)
+app.all('/pregnancy/trying-for-a-baby/', handlers.pregnancyTryingForABaby)
 
 app.use((req, res, next) => {
   res.status(404).json(errorResourceNotFoundResponse)

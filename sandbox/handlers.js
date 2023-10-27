@@ -44,7 +44,7 @@ const medicinesZopicloneResponse = require('./responses/medicines-zopiclone-no-p
 
 const mentalHealthRootResponse = require('./responses/mental-health-root-no-params.json')
 const mentalHealthAdviceForLifeSituationsAndEventsSupportForWorkplaceBullyingResponse = require('./responses/mental-health-advice-for-life-situations-and-events-support-for-workplace-bullying-no-params.json')
-const mentalHealthConditionsResponse = require('./responses/mental-health-conditions.json')
+const mentalHealthConditionsResponse = require('./responses/mental-health-conditions-no-params.json')
 const mentalHealthFeelingsSymptomsBehavioursResponse = require('./responses/mental-health-feelings-symptoms-behaviours-no-params.json')
 
 const nhsServicesRootResponse = require('./responses/nhs-services-root-no-params.json')
@@ -61,8 +61,13 @@ const pregnancyTryingForABabyResponse = require('./responses/pregnancy-trying-fo
 // ** Root page
 // ******************************************************************
 
-// http://localhost:9000/
+// Live website URL
+// https://www.nhs.uk/
+// This sandbox on localhost
+// http://localhost:9000/?subscription-key=123456
+// API on Azure API Management
 // https://api.nhs.uk/
+// Wagtail (Python) Application (no key required)
 // https://api.nhs.uk/content-api/
 async function root(req, res, next) {
   res.status(404).json(errorResourceNotFoundResponse)
@@ -74,8 +79,13 @@ async function root(req, res, next) {
 // ** Common Health Questions pages
 // ******************************************************************
 
-// http://localhost:9000/common-health-questions/
+// Live website URL
+// https://www.nhs.uk/common-health-questions/
+// This sandbox on localhost
+// http://localhost:9000/common-health-questions/?subscription-key=123456
+// API on Azure API Management
 // https://api.nhs.uk/common-health-questions/
+// Wagtail (Python) Application (no key required)
 // https://api.nhs.uk/content-api/common-health-questions/
 async function commonHealthQuestionsRoot(req, res, next) {
   if (isSubscriptionKeyMissing(req)) {
@@ -87,8 +97,13 @@ async function commonHealthQuestionsRoot(req, res, next) {
   next()
 }
 
-// http://localhost:9000/common-health-questions/accidents-first-aid-and-treatments/
+// Live website URL
+// https://www.nhs.uk/common-health-questions/accidents-first-aid-and-treatments/
+// This sandbox on localhost
+// http://localhost:9000/common-health-questions/accidents-first-aid-and-treatments/?subscription-key=123456
+// API on Azure API Management
 // https://api.nhs.uk/common-health-questions/accidents-first-aid-and-treatments/
+// Wagtail (Python) Application (no key required)
 // https://api.nhs.uk/content-api/common-health-questions/accidents-first-aid-and-treatments/
 async function commonHealthQuestionsAccidentsFirstAidAndTreatments(req, res, next) {
   if (isSubscriptionKeyMissing(req)) {
@@ -100,8 +115,13 @@ async function commonHealthQuestionsAccidentsFirstAidAndTreatments(req, res, nex
   next()
 }
 
-// http://localhost:9000/common-health-questions/caring-carers-and-long-term-conditions/
+// Live website URL
+// https://www.nhs.uk/common-health-questions/caring-carers-and-long-term-conditions/
+// This sandbox on localhost
+// http://localhost:9000/common-health-questions/caring-carers-and-long-term-conditions/?subscription-key=123456
+// API on Azure API Management
 // https://api.nhs.uk/common-health-questions/caring-carers-and-long-term-conditions/
+// Wagtail (Python) Application (no key required)
 // https://api.nhs.uk/content-api/common-health-questions/caring-carers-and-long-term-conditions/
 async function commonHealthQuestionsCaringCarersAndLongTermConditions(req, res, next) {
   if (isSubscriptionKeyMissing(req)) {
@@ -113,8 +133,13 @@ async function commonHealthQuestionsCaringCarersAndLongTermConditions(req, res, 
   next()
 }
 
-// http://localhost:9000/common-health-questions/childrens-health/can-my-baby-go-swimming-before-or-after-vaccinations/
+// Live website URL
+// https://www.nhs.uk/common-health-questions/childrens-health/can-my-baby-go-swimming-before-or-after-vaccinations/
+// This sandbox on localhost
+// http://localhost:9000/common-health-questions/childrens-health/can-my-baby-go-swimming-before-or-after-vaccinations/?subscription-key=123456
+// API on Azure API Management
 // https://api.nhs.uk/common-health-questions/childrens-health/can-my-baby-go-swimming-before-or-after-vaccinations/
+// Wagtail (Python) Application (no key required)
 // https://api.nhs.uk/content-api/common-health-questions/childrens-health/can-my-baby-go-swimming-before-or-after-vaccinations/
 async function commonHealthQuestionsChildrensHealthCanMyBabyGoSwimmingBeforeOrAfterVaccinations(req, res, next) {
   if (isSubscriptionKeyMissing(req)) {
@@ -130,8 +155,13 @@ async function commonHealthQuestionsChildrensHealthCanMyBabyGoSwimmingBeforeOrAf
 // ** Conditions pages
 // ******************************************************************
 
-// http://localhost:9000/conditions/
+// Live website URL
+// https://www.nhs.uk/conditions/
+// This sandbox on localhost
+// http://localhost:9000/conditions/?subscription-key=123456
+// API on Azure API Management
 // https://api.nhs.uk/conditions/
+// Wagtail (Python) Application (no key required)
 // https://api.nhs.uk/content-api/conditions/
 async function conditionsRoot(req, res, next) {
   if (isSubscriptionKeyMissing(req)) {
@@ -142,9 +172,23 @@ async function conditionsRoot(req, res, next) {
   res.end()
   next()
 }
+// conditionsRootCategoryAGenreCondition
+// conditionsRootCategoryAGenreGuide
+// conditionsRootCategoryAGenreHub
+// conditionsRootCategoryA
+// conditionsRootCategoryB
+// conditionsRootCategoryZ
+// conditionsRootPage1
+// conditionsRootPage2
+// conditionsRootPage70
 
-// http://localhost:9000/conditions/acanthosis-nigricans/
+// Live website URL
+// https://www.nhs.uk/conditions/acanthosis-nigricans/
+// This sandbox on localhost
+// http://localhost:9000/conditions/acanthosis-nigricans/?subscription-key=123456
+// API on Azure API Management
 // https://api.nhs.uk/conditions/acanthosis-nigricans/
+// Wagtail (Python) Application (no key required)
 // https://api.nhs.uk/content-api/conditions/acanthosis-nigricans/
 async function conditionsAcanthosisNigricans(req, res, next) {
   if (isSubscriptionKeyMissing(req)) {
@@ -156,8 +200,13 @@ async function conditionsAcanthosisNigricans(req, res, next) {
   next()
 }
 
-// http://localhost:9000/conditions/achalasia/
+// Live website URL
+// https://www.nhs.uk/conditions/achalasia/
+// This sandbox on localhost
+// http://localhost:9000/conditions/achalasia/?subscription-key=123456
+// API on Azure API Management
 // https://api.nhs.uk/conditions/achalasia/
+// Wagtail (Python) Application (no key required)
 // https://api.nhs.uk/content-api/conditions/achalasia/
 async function conditionsAchalasia(req, res, next) {
   if (isSubscriptionKeyMissing(req)) {
@@ -169,14 +218,23 @@ async function conditionsAchalasia(req, res, next) {
   next()
 }
 
+// Live website URL
+// https://www.nhs.uk/conditions/acne/
+
 // Modules: false
-// http://localhost:9000/conditions/acne/
+// This sandbox on localhost
+// http://localhost:9000/conditions/acne/?subscription-key=123456
+// API on Azure API Management
 // https://api.nhs.uk/conditions/acne/
+// Wagtail (Python) Application (no key required)
 // https://api.nhs.uk/content-api/conditions/acne/
 
 // Modules: true
-// http://localhost:9000/conditions/acne/?modules=true
+// This sandbox on localhost
+// http://localhost:9000/conditions/acne/?modules=true?subscription-key=123456
+// API on Azure API Management
 // https://api.nhs.uk/conditions/acne/?modules=true
+// Wagtail (Python) Application (no key required)
 // https://api.nhs.uk/content-api/conditions/acne/?modules=true
 async function conditionsAcne(req, res, next) {
   if (isSubscriptionKeyMissing(req)) {
@@ -190,8 +248,13 @@ async function conditionsAcne(req, res, next) {
   next()
 }
 
-// http://localhost:9000/conditions/angiography/
+// Live website URL
+// https://www.nhs.uk/conditions/angiography/
+// This sandbox on localhost
+// http://localhost:9000/conditions/angiography/?subscription-key=123456
+// API on Azure API Management
 // https://api.nhs.uk/conditions/angiography/
+// Wagtail (Python) Application (no key required)
 // https://api.nhs.uk/content-api/conditions/angiography/
 async function conditionsAngiography(req, res, next) {
   if (isSubscriptionKeyMissing(req)) {
@@ -203,8 +266,31 @@ async function conditionsAngiography(req, res, next) {
   next()
 }
 
-// http://localhost:9000/conditions/zika/
+// Live website URL
+// https://www.nhs.uk/conditions/cancer/
+// This sandbox on localhost
+// http://localhost:9000/conditions/cancer/?subscription-key=123456
+// API on Azure API Management
+// https://api.nhs.uk/conditions/cancer/
+// Wagtail (Python) Application (no key required)
+// https://api.nhs.uk/content-api/conditions/cancer/
+async function conditionsCancer(req, res, next) {
+  if (isSubscriptionKeyMissing(req)) {
+    res.status(401).json(errorMissingSubscriptionKeyResponse)
+  } else {
+    res.status(200).json(conditionsCancerResponse)
+  }
+  res.end()
+  next()
+}
+
+// Live website URL
+// https://www.nhs.uk/conditions/zika/
+// This sandbox on localhost
+// http://localhost:9000/conditions/zika/?subscription-key=123456
+// API on Azure API Management
 // https://api.nhs.uk/conditions/zika/
+// Wagtail (Python) Application (no key required)
 // https://api.nhs.uk/content-api/conditions/zika/
 async function conditionsZika(req, res, next) {
   if (isSubscriptionKeyMissing(req)) {
@@ -220,8 +306,13 @@ async function conditionsZika(req, res, next) {
 // ** Live Well pages
 // ******************************************************************
 
-// http://localhost:9000/live-well/
+// Live website URL
+// https://www.nhs.uk/live-well/
+// This sandbox on localhost
+// http://localhost:9000/live-well/?subscription-key=123456
+// API on Azure API Management
 // https://api.nhs.uk/live-well/
+// Wagtail (Python) Application (no key required)
 // https://api.nhs.uk/content-api/live-well/
 async function liveWellRoot(req, res, next) {
   if (isSubscriptionKeyMissing(req)) {
@@ -233,18 +324,136 @@ async function liveWellRoot(req, res, next) {
   next()
 }
 
+// Live website URL
+// https://www.nhs.uk/live-well/alcohol-advice/alcohol-support/
+// This sandbox on localhost
+// http://localhost:9000/live-well/alcohol-advice/alcohol-support/?subscription-key=123456
+// API on Azure API Management
+// https://api.nhs.uk/live-well/alcohol-advice/alcohol-support/
+// Wagtail (Python) Application (no key required)
+// https://api.nhs.uk/content-api/live-well/alcohol-advice/alcohol-support/
+async function liveWellAlcoholAdviceAlcoholSupport(req, res, next) {
+  if (isSubscriptionKeyMissing(req)) {
+    res.status(401).json(errorMissingSubscriptionKeyResponse)
+  } else {
+    res.status(200).json(liveWellAlcoholAdviceAlcoholSupportResponse)
+  }
+  res.end()
+  next()
+}
+
+// Live website URL
+// https://www.nhs.uk/live-well/exercise/
+// This sandbox on localhost
+// http://localhost:9000/live-well/exercise/?subscription-key=123456
+// API on Azure API Management
+// https://api.nhs.uk/live-well/exercise/
+// Wagtail (Python) Application (no key required)
+// https://api.nhs.uk/content-api/live-well/exercise/
+async function liveWellExercise(req, res, next) {
+  if (isSubscriptionKeyMissing(req)) {
+    res.status(401).json(errorMissingSubscriptionKeyResponse)
+  } else {
+    res.status(200).json(liveWellExerciseResponse)
+  }
+  res.end()
+  next()
+}
+
+// Live website URL
+// https://www.nhs.uk/live-well/healthy-weight/
+// This sandbox on localhost
+// http://localhost:9000/live-well/healthy-weight/?subscription-key=123456
+// API on Azure API Management
+// https://api.nhs.uk/live-well/healthy-weight/
+// Wagtail (Python) Application (no key required)
+// https://api.nhs.uk/content-api/live-well/healthy-weight/
+async function liveWellHealthyWeight(req, res, next) {
+  if (isSubscriptionKeyMissing(req)) {
+    res.status(401).json(errorMissingSubscriptionKeyResponse)
+  } else {
+    res.status(200).json(liveWellHealthyWeightResponse)
+  }
+  res.end()
+  next()
+}
+
 // ******************************************************************
 // ** Medicines pages
 // ******************************************************************
 
-// http://localhost:9000/medicines/
+// Live website URL
+// https://www.nhs.uk/medicines/
+// This sandbox on localhost
+// http://localhost:9000/medicines/?subscription-key=123456
+// API on Azure API Management
 // https://api.nhs.uk/medicines/
+// Wagtail (Python) Application (no key required)
 // https://api.nhs.uk/content-api/medicines/
 async function medicinesRoot(req, res, next) {
   if (isSubscriptionKeyMissing(req)) {
     res.status(401).json(errorMissingSubscriptionKeyResponse)
   } else {
-    res.status(200).json(medicinesRootResponse)
+    res.status(200).json(medicinesRootNoParamsResponse)
+  }
+  res.end()
+  next()
+}
+// medicinesRootCategoryAResponse
+// medicinesRootCategoryBResponse
+// medicinesRootCategoryZResponse
+// medicinesRootPage1Response
+// medicinesRootPage11Response
+
+// Live website URL
+// https://www.nhs.uk/medicines/aciclovir/
+// This sandbox on localhost
+// http://localhost:9000/medicines/aciclovir/?subscription-key=123456
+// API on Azure API Management
+// https://api.nhs.uk/medicines/aciclovir/
+// Wagtail (Python) Application (no key required)
+// https://api.nhs.uk/content-api/medicines/aciclovir/
+async function medicinesAciclovir(req, res, next) {
+  if (isSubscriptionKeyMissing(req)) {
+    res.status(401).json(errorMissingSubscriptionKeyResponse)
+  } else {
+    res.status(200).json(medicinesAciclovirResponse)
+  }
+  res.end()
+  next()
+}
+
+// Live website URL
+// https://www.nhs.uk/medicines/acrivastine/
+// This sandbox on localhost
+// http://localhost:9000/medicines/acrivastine/?subscription-key=123456
+// API on Azure API Management
+// https://api.nhs.uk/medicines/acrivastine/
+// Wagtail (Python) Application (no key required)
+// https://api.nhs.uk/content-api/medicines/acrivastine/
+async function medicinesAcrivastine(req, res, next) {
+  if (isSubscriptionKeyMissing(req)) {
+    res.status(401).json(errorMissingSubscriptionKeyResponse)
+  } else {
+    res.status(200).json(medicinesAcrivastineResponse)
+  }
+  res.end()
+  next()
+}
+
+// Live website URL
+// https://www.nhs.uk/medicines/zopiclone/
+// This sandbox on localhost
+// http://localhost:9000/medicines/zopiclone/?subscription-key=123456
+// API on Azure API Management
+// https://api.nhs.uk/medicines/zopiclone/
+// Wagtail (Python) Application (no key required)
+// https://api.nhs.uk/content-api/medicines/zopiclone/
+async function medicinesZopiclone(req, res, next) {
+  if (isSubscriptionKeyMissing(req)) {
+    res.status(401).json(errorMissingSubscriptionKeyResponse)
+  } else {
+    res.status(200).json(medicinesZopicloneResponse)
   }
   res.end()
   next()
@@ -254,8 +463,13 @@ async function medicinesRoot(req, res, next) {
 // ** Mental Health pages
 // ******************************************************************
 
-// http://localhost:9000/mental-health/
+// Live website URL
+// https://www.nhs.uk/mental-health/
+// This sandbox on localhost
+// http://localhost:9000/mental-health/?subscription-key=123456
+// API on Azure API Management
 // https://api.nhs.uk/mental-health/
+// Wagtail (Python) Application (no key required)
 // https://api.nhs.uk/content-api/mental-health/
 async function mentalHealthRoot(req, res, next) {
   if (isSubscriptionKeyMissing(req)) {
@@ -267,12 +481,71 @@ async function mentalHealthRoot(req, res, next) {
   next()
 }
 
+// Live website URL
+// https://www.nhs.uk/mental-health/advice-for-life-situations-and-events/support-for-workplace-bullying/
+// This sandbox on localhost
+// http://localhost:9000/mental-health/advice-for-life-situations-and-events/support-for-workplace-bullying/?subscription-key=123456
+// API on Azure API Management
+// https://api.nhs.uk/mental-health/advice-for-life-situations-and-events/support-for-workplace-bullying/
+// Wagtail (Python) Application (no key required)
+// https://api.nhs.uk/content-api/mental-health/advice-for-life-situations-and-events/support-for-workplace-bullying/
+async function mentalHealthAdviceForLifeSituationsAndEventsSupportForWorkplaceBullying(req, res, next) {
+  if (isSubscriptionKeyMissing(req)) {
+    res.status(401).json(errorMissingSubscriptionKeyResponse)
+  } else {
+    res.status(200).json(mentalHealthAdviceForLifeSituationsAndEventsSupportForWorkplaceBullyingResponse)
+  }
+  res.end()
+  next()
+}
+
+// Live website URL
+// https://www.nhs.uk/mental-health/conditions/
+// This sandbox on localhost
+// http://localhost:9000/mental-health/conditions/?subscription-key=123456
+// API on Azure API Management
+// https://api.nhs.uk/mental-health/conditions/
+// Wagtail (Python) Application (no key required)
+// https://api.nhs.uk/content-api/mental-health/conditions/
+async function mentalHealthConditions(req, res, next) {
+  if (isSubscriptionKeyMissing(req)) {
+    res.status(401).json(errorMissingSubscriptionKeyResponse)
+  } else {
+    res.status(200).json(mentalHealthConditionsResponse)
+  }
+  res.end()
+  next()
+}
+
+// Live website URL
+// https://www.nhs.uk/mental-health/feelings-symptoms-behaviours/
+// This sandbox on localhost
+// http://localhost:9000/mental-health/feelings-symptoms-behaviours/?subscription-key=123456
+// API on Azure API Management
+// https://api.nhs.uk/mental-health/feelings-symptoms-behaviours/
+// Wagtail (Python) Application (no key required)
+// https://api.nhs.uk/content-api/mental-health/feelings-symptoms-behaviours/
+async function mentalHealthFeelingsSymptomsBehaviours(req, res, next) {
+  if (isSubscriptionKeyMissing(req)) {
+    res.status(401).json(errorMissingSubscriptionKeyResponse)
+  } else {
+    res.status(200).json(mentalHealthFeelingsSymptomsBehavioursResponse)
+  }
+  res.end()
+  next()
+}
+
 // ******************************************************************
 // ** NHS Services pages
 // ******************************************************************
 
-// http://localhost:9000/nhs-services/
+// Live website URL
+// https://www.nhs.uk/nhs-services/
+// This sandbox on localhost
+// http://localhost:9000/nhs-services/?subscription-key=123456
+// API on Azure API Management
 // https://api.nhs.uk/nhs-services/
+// Wagtail (Python) Application (no key required)
 // https://api.nhs.uk/content-api/nhs-services/
 async function nhsServicesRoot(req, res, next) {
   if (isSubscriptionKeyMissing(req)) {
@@ -284,12 +557,71 @@ async function nhsServicesRoot(req, res, next) {
   next()
 }
 
+// Live website URL
+// https://www.nhs.uk/nhs-services/gps/how-to-register-with-a-gp-surgery/
+// This sandbox on localhost
+// http://localhost:9000/nhs-services/gps/how-to-register-with-a-gp-surgery/?subscription-key=123456
+// API on Azure API Management
+// https://api.nhs.uk/nhs-services/gps/how-to-register-with-a-gp-surgery/
+// Wagtail (Python) Application (no key required)
+// https://api.nhs.uk/content-api/nhs-services/gps/how-to-register-with-a-gp-surgery/
+async function nhsServicesGpsHowToRegisterWithAGpSurgery(req, res, next) {
+  if (isSubscriptionKeyMissing(req)) {
+    res.status(401).json(errorMissingSubscriptionKeyResponse)
+  } else {
+    res.status(200).json(nhsServicesGpsHowToRegisterWithAGpSurgeryResponse)
+  }
+  res.end()
+  next()
+}
+
+// Live website URL
+// https://www.nhs.uk/nhs-services/gps/
+// This sandbox on localhost
+// http://localhost:9000/nhs-services/gps/?subscription-key=123456
+// API on Azure API Management
+// https://api.nhs.uk/nhs-services/gps/
+// Wagtail (Python) Application (no key required)
+// https://api.nhs.uk/content-api/nhs-services/gps/
+async function nhsServicesGps(req, res, next) {
+  if (isSubscriptionKeyMissing(req)) {
+    res.status(401).json(errorMissingSubscriptionKeyResponse)
+  } else {
+    res.status(200).json(nhsServicesGpsResponse)
+  }
+  res.end()
+  next()
+}
+
+// Live website URL
+// https://www.nhs.uk/nhs-services/prescriptions-and-pharmacies/
+// This sandbox on localhost
+// http://localhost:9000/nhs-services/prescriptions-and-pharmacies/?subscription-key=123456
+// API on Azure API Management
+// https://api.nhs.uk/nhs-services/prescriptions-and-pharmacies/
+// Wagtail (Python) Application (no key required)
+// https://api.nhs.uk/content-api/nhs-services/prescriptions-and-pharmacies/
+async function nhsServicesPrescriptionsAndPharmacies(req, res, next) {
+  if (isSubscriptionKeyMissing(req)) {
+    res.status(401).json(errorMissingSubscriptionKeyResponse)
+  } else {
+    res.status(200).json(nhsServicesPrescriptionsAndPharmaciesResponse)
+  }
+  res.end()
+  next()
+}
+
 // ******************************************************************
 // ** Pregnancy pages
 // ******************************************************************
 
-// http://localhost:9000/pregnancy/
+// Live website URL
+// https://www.nhs.uk/pregnancy/
+// This sandbox on localhost
+// http://localhost:9000/pregnancy/?subscription-key=123456
+// API on Azure API Management
 // https://api.nhs.uk/pregnancy/
+// Wagtail (Python) Application (no key required)
 // https://api.nhs.uk/content-api/pregnancy/
 async function pregnancyRoot(req, res, next) {
   if (isSubscriptionKeyMissing(req)) {
@@ -301,13 +633,63 @@ async function pregnancyRoot(req, res, next) {
   next()
 }
 
-// async function searchPostcodeOrPlace(req, res, next) {
-//   const queryStringParameters = req?.query;
-//   const search = (queryStringParameters?.["search"] || "").toLowerCase();
-//   res.status(200).json(searchPostcodeOrPlaceResponse);
-//   res.end();
-//   next();
-// }
+// Live website URL
+// https://www.nhs.uk/pregnancy/finding-out/finding-out-you-are-pregnant/
+// This sandbox on localhost
+// http://localhost:9000/pregnancy/finding-out/finding-out-you-are-pregnant/?subscription-key=123456
+// API on Azure API Management
+// https://api.nhs.uk/pregnancy/finding-out/finding-out-you-are-pregnant/
+// Wagtail (Python) Application (no key required)
+// https://api.nhs.uk/content-api/pregnancy/finding-out/finding-out-you-are-pregnant/
+async function pregnancyFindingOutFindingOutYouArePregnant(req, res, next) {
+  if (isSubscriptionKeyMissing(req)) {
+    res.status(401).json(errorMissingSubscriptionKeyResponse)
+  } else {
+    res.status(200).json(pregnancyFindingOutFindingOutYouArePregnantResponse)
+  }
+  res.end()
+  next()
+}
+
+// Live website URL
+// https://www.nhs.uk/pregnancy/having-a-baby-if-you-are-lgbt-plus/
+// This sandbox on localhost
+// http://localhost:9000/pregnancy/having-a-baby-if-you-are-lgbt-plus/?subscription-key=123456
+// API on Azure API Management
+// https://api.nhs.uk/pregnancy/having-a-baby-if-you-are-lgbt-plus/
+// Wagtail (Python) Application (no key required)
+// https://api.nhs.uk/content-api/pregnancy/having-a-baby-if-you-are-lgbt-plus/
+async function pregnancyHavingABabyIfYouAreLgbtPlus(req, res, next) {
+  if (isSubscriptionKeyMissing(req)) {
+    res.status(401).json(errorMissingSubscriptionKeyResponse)
+  } else {
+    res.status(200).json(pregnancyHavingABabyIfYouAreLgbtPlusResponse)
+  }
+  res.end()
+  next()
+}
+
+// Live website URL
+// https://www.nhs.uk/pregnancy/trying-for-a-baby/
+// This sandbox on localhost
+// http://localhost:9000/pregnancy/trying-for-a-baby/?subscription-key=123456
+// API on Azure API Management
+// https://api.nhs.uk/pregnancy/trying-for-a-baby/
+// Wagtail (Python) Application (no key required)
+// https://api.nhs.uk/content-api/pregnancy/trying-for-a-baby/
+async function pregnancyTryingForABaby(req, res, next) {
+  if (isSubscriptionKeyMissing(req)) {
+    res.status(401).json(errorMissingSubscriptionKeyResponse)
+  } else {
+    res.status(200).json(pregnancyTryingForABabyResponse)
+  }
+  res.end()
+  next()
+}
+
+// ******************************************************************
+// ** Status
+// ******************************************************************
 
 async function status(req, res, next) {
   res.json({
@@ -320,33 +702,42 @@ async function status(req, res, next) {
   next()
 }
 
-// async function hello(req, res, next) {
-//   res.json({ message: 'hello world' })
-//   res.end()
-//   next()
-// }
-
 function isSubscriptionKeyMissing(req) {
   return (req.method === 'GET' && !req.query['subscription-key']) || (req.method === 'POST' && !req.get('subscription-key'))
 }
 
 module.exports = {
-  status,
-  // hello,
   root,
-  commonHealthQuestionsRoot,
   commonHealthQuestionsAccidentsFirstAidAndTreatments,
   commonHealthQuestionsCaringCarersAndLongTermConditions,
   commonHealthQuestionsChildrensHealthCanMyBabyGoSwimmingBeforeOrAfterVaccinations,
-  conditionsRoot,
+  commonHealthQuestionsRoot,
   conditionsAcanthosisNigricans,
   conditionsAchalasia,
   conditionsAcne,
   conditionsAngiography,
+  conditionsCancer,
+  conditionsRoot,
   conditionsZika,
+  liveWellAlcoholAdviceAlcoholSupport,
+  liveWellExercise,
+  liveWellHealthyWeight,
   liveWellRoot,
+  medicinesAciclovir,
+  medicinesAcrivastine,
   medicinesRoot,
+  medicinesZopiclone,
+  mentalHealthAdviceForLifeSituationsAndEventsSupportForWorkplaceBullying,
+  mentalHealthConditions,
+  mentalHealthFeelingsSymptomsBehaviours,
   mentalHealthRoot,
+  nhsServicesGps,
+  nhsServicesGpsHowToRegisterWithAGpSurgery,
+  nhsServicesPrescriptionsAndPharmacies,
   nhsServicesRoot,
+  pregnancyFindingOutFindingOutYouArePregnant,
+  pregnancyHavingABabyIfYouAreLgbtPlus,
   pregnancyRoot,
+  pregnancyTryingForABaby,
+  status,
 }
