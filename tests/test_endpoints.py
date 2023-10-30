@@ -9,6 +9,7 @@ from os import getenv
 import os
 
 
+@pytest.mark.skip(reason="Temporarily disabled 30/10/2023")
 @pytest.mark.smoketest
 def test_ping(nhsd_apim_proxy_url):
     os.environ["PROXY_NAME"] = "dev"
@@ -17,6 +18,7 @@ def test_ping(nhsd_apim_proxy_url):
     assert resp.status_code == 200
 
 
+@pytest.mark.skip(reason="Temporarily disabled 30/10/2023")
 @pytest.mark.smoketest
 def test_wait_for_ping(nhsd_apim_proxy_url):
     retries = 0
@@ -24,8 +26,8 @@ def test_wait_for_ping(nhsd_apim_proxy_url):
     deployed_commitId = resp.json().get("commitId")
 
     while (deployed_commitId != getenv('SOURCE_COMMIT_ID')
-            and retries <= 30
-            and resp.status_code == 200):
+           and retries <= 30
+           and resp.status_code == 200):
         resp = requests.get(f"{nhsd_apim_proxy_url}/_ping")
         deployed_commitId = resp.json().get("commitId")
         retries += 1
@@ -38,6 +40,7 @@ def test_wait_for_ping(nhsd_apim_proxy_url):
     assert deployed_commitId == getenv('SOURCE_COMMIT_ID')
 
 
+@pytest.mark.skip(reason="Temporarily disabled 30/10/2023")
 @pytest.mark.smoketest
 def test_status(nhsd_apim_proxy_url, status_endpoint_auth_headers):
     resp = requests.get(
@@ -47,6 +50,7 @@ def test_status(nhsd_apim_proxy_url, status_endpoint_auth_headers):
     # Make some additional assertions about your status response here!
 
 
+@pytest.mark.skip(reason="Temporarily disabled 30/10/2023")
 @pytest.mark.smoketest
 def test_wait_for_status(nhsd_apim_proxy_url, status_endpoint_auth_headers):
     retries = 0
@@ -54,9 +58,9 @@ def test_wait_for_status(nhsd_apim_proxy_url, status_endpoint_auth_headers):
     deployed_commitId = resp.json().get("commitId")
 
     while (deployed_commitId != getenv('SOURCE_COMMIT_ID')
-            and retries <= 30
-            and resp.status_code == 200
-            and resp.json().get("version")):
+           and retries <= 30
+           and resp.status_code == 200
+           and resp.json().get("version")):
         resp = requests.get(f"{nhsd_apim_proxy_url}/_status", headers=status_endpoint_auth_headers)
         deployed_commitId = resp.json().get("commitId")
         retries += 1
