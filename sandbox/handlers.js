@@ -169,47 +169,42 @@ async function conditionsRoot(req, res, next) {
     res.status(401).json(errorMissingSubscriptionKeyResponse)
   } else {
     let responseJson
-    console.log('=======================')
-    console.log(req.query)
-    console.log("req.query['category']:", req.query['category'])
-    if (req.query['category'].toLowerCase() === 'a') {
-      if (req.query['genre'] === undefined) {
-        // http://localhost:9000/conditions/?subscription-key=123456&category=a
-        responseJson = conditionsRootCategoryAResponse
-      } else if (req.query['genre'].toLowerCase() === 'condition') {
+    if (req.query.category && req.query.genre) {
+      if (req.query.category.toLowerCase() === 'a' && req.query.genre.toLowerCase() === 'condition') {
         // http://localhost:9000/conditions/?subscription-key=123456&category=a&genre=condition
         responseJson = conditionsRootCategoryAGenreConditionResponse
-      } else if (req.query['genre'].toLowerCase() === 'guide') {
+      } else if (req.query.category.toLowerCase() === 'a' && req.query.genre.toLowerCase() === 'guide') {
         // http://localhost:9000/conditions/?subscription-key=123456&category=a&genre=guide
         responseJson = conditionsRootCategoryAGenreGuideResponse
-      } else if (req.query['genre'].toLowerCase() === 'hub') {
+      } else if (req.query.category.toLowerCase() === 'a' && req.query.genre.toLowerCase() === 'hub') {
         // http://localhost:9000/conditions/?subscription-key=123456&category=a&genre=hub
         responseJson = conditionsRootCategoryAGenreHubResponse
       }
-    } else if (req.query['category'].toLowerCase() === 'b') {
-      // http://localhost:9000/conditions/?subscription-key=123456&category=b
-      responseJson = conditionsRootCategoryBResponse
-    } else if (req.query['category'].toLowerCase() === 'z') {
-      // http://localhost:9000/conditions/?subscription-key=123456&category=z
-      responseJson = conditionsRootCategoryZResponse
-    } else {
-      console.log('Else')
-      if (req.query['page'].toLowerCase() === '1') {
+    } else if (req.query.category) {
+      if (req.query.category.toLowerCase() === 'a') {
+        // http://localhost:9000/conditions/?subscription-key=123456&category=a
+        responseJson = conditionsRootCategoryAResponse
+      } else if (req.query.category.toLowerCase() === 'b') {
+        // http://localhost:9000/conditions/?subscription-key=123456&category=b
+        responseJson = conditionsRootCategoryBResponse
+      } else if (req.query.category.toLowerCase() === 'z') {
+        // http://localhost:9000/conditions/?subscription-key=123456&category=z
+        responseJson = conditionsRootCategoryZResponse
+      }
+    } else if (req.query.page) {
+      if (req.query.page === '1') {
         // http://localhost:9000/conditions/?subscription-key=123456&page=1
         responseJson = conditionsRootPage1Response
-      } else if (req.query['page'].toLowerCase() === '2') {
+      } else if (req.query.page === '2') {
         // http://localhost:9000/conditions/?subscription-key=123456&page=2
         responseJson = conditionsRootPage2Response
-      } else if (req.query['page'].toLowerCase() === '70') {
+      } else if (req.query.page === '70') {
         // http://localhost:9000/conditions/?subscription-key=123456&page=70
         responseJson = conditionsRootPage70Response
-      } else {
-        // http://localhost:9000/conditions/?subscription-key=123456
-        responseJson = conditionsRootNoParamsResponse
       }
+    } else {
+      responseJson = conditionsRootNoParamsResponse
     }
-    console.log(responseJson)
-    console.log('=======================')
     res.status(200).json(responseJson)
   }
   res.end()
