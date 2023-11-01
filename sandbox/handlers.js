@@ -3,6 +3,7 @@
 const log = require('loglevel')
 const errorMissingSubscriptionKeyResponse = require('./responses/error-missing-subscription-key.json')
 const errorResourceNotFoundResponse = require('./responses/error-resource-not-found.json')
+const errorSandboxResponseNotFound = require('./responses/error-sandbox-response-not-found.json')
 
 const commonHealthQuestionsRootResponse = require('./responses/conditions-root-no-params.json')
 const commonHealthQuestionsAccidentsFirstAidAndTreatmentsResponse = require('./responses/common-health-questions-accidents-first-aid-and-treatments-no-params.json')
@@ -179,6 +180,8 @@ async function conditionsRoot(req, res, next) {
       } else if (req.query.category.toLowerCase() === 'a' && req.query.genre.toLowerCase() === 'hub') {
         // http://localhost:9000/conditions/?subscription-key=123456&category=a&genre=hub
         responseJson = conditionsRootCategoryAGenreHubResponse
+      } else {
+        responseJson = errorSandboxResponseNotFound
       }
     } else if (req.query.category) {
       if (req.query.category.toLowerCase() === 'a') {
@@ -190,6 +193,8 @@ async function conditionsRoot(req, res, next) {
       } else if (req.query.category.toLowerCase() === 'z') {
         // http://localhost:9000/conditions/?subscription-key=123456&category=z
         responseJson = conditionsRootCategoryZResponse
+      } else {
+        responseJson = errorSandboxResponseNotFound
       }
     } else if (req.query.page) {
       if (req.query.page === '1') {
@@ -201,6 +206,8 @@ async function conditionsRoot(req, res, next) {
       } else if (req.query.page === '70') {
         // http://localhost:9000/conditions/?subscription-key=123456&page=70
         responseJson = conditionsRootPage70Response
+      } else {
+        responseJson = errorSandboxResponseNotFound
       }
     } else {
       responseJson = conditionsRootNoParamsResponse
@@ -268,7 +275,7 @@ async function conditionsAchalasia(req, res, next) {
 async function conditionsAcne(req, res, next) {
   if (isSubscriptionKeyMissing(req)) {
     res.status(401).json(errorMissingSubscriptionKeyResponse)
-  } else if (req.query['modules'].toLowerCase() === 'true') {
+  } else if (req.query.modules.toLowerCase() === 'true') {
     res.status(200).json(conditionsAcneModulesTrueResponse)
   } else {
     res.status(200).json(conditionsAcneResponseNoParams)
@@ -423,16 +430,39 @@ async function medicinesRoot(req, res, next) {
   if (isSubscriptionKeyMissing(req)) {
     res.status(401).json(errorMissingSubscriptionKeyResponse)
   } else {
-    res.status(200).json(medicinesRootNoParamsResponse)
+    let responseJson
+    if (req.query.category) {
+      if (req.query.category.toLowerCase() === 'a') {
+        // http://localhost:9000/medicines/?subscription-key=123456&category=a
+        responseJson = medicinesRootCategoryAResponse
+      } else if (req.query.category.toLowerCase() === 'b') {
+        // http://localhost:9000/medicines/?subscription-key=123456&category=b
+        responseJson = medicinesRootCategoryBResponse
+      } else if (req.query.category.toLowerCase() === 'z') {
+        // http://localhost:9000/medicines/?subscription-key=123456&category=z
+        responseJson = medicinesRootCategoryZResponse
+      } else {
+        responseJson = errorSandboxResponseNotFound
+      }
+    } else if (req.query.page) {
+      if (req.query.page === '1') {
+        // http://localhost:9000/medicines/?subscription-key=123456&page=1
+        responseJson = medicinesRootPage1Response
+      } else if (req.query.page === '11') {
+        // http://localhost:9000/medicines/?subscription-key=123456&page=11
+        responseJson = medicinesRootPage11Response
+      } else {
+        responseJson = errorSandboxResponseNotFound
+      }
+    } else {
+      // http://localhost:9000/medicines/?subscription-key=123456
+      responseJson = medicinesRootNoParamsResponse
+    }
+    res.status(200).json(responseJson)
   }
   res.end()
   next()
 }
-// medicinesRootCategoryAResponse
-// medicinesRootCategoryBResponse
-// medicinesRootCategoryZResponse
-// medicinesRootPage1Response
-// medicinesRootPage11Response
 
 // Live website URL
 // https://www.nhs.uk/medicines/aciclovir/
