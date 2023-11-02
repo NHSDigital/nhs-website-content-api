@@ -38,6 +38,14 @@
       <Condition>(proxy.pathsuffix MatchesPath "/_status") and ((request.verb = "GET") or (request.verb = "HEAD"))
       </Condition>
     </Flow>
+    <Flow name="CaptureProxyHostName">
+      <Request>
+        <Step>
+          <Condition>(proxy.pathsuffix != "/_status") and (proxy.pathsuffix != "/_ping")</Condition>
+          <Name>javascript.CaptureProxyHostName</Name>
+        </Step>
+      </Request>
+    </Flow>
   </Flows>
   <PreFlow/>
   <PostClientFlow name="PostClientFlow">
