@@ -1,34 +1,35 @@
 # This is an OpenAPI Specification (https://swagger.io/specification/)
-# for nhs-website-content-api owned by NHS Digital (https://digital.nhs.uk/)
+# for the nhs-website-content-api owned by NHS England (https://digital.nhs.uk/)
 openapi: "3.0.0"
 info:
   title: "nhs-website-content-api"
   version: "Computed and injected at build time by `scripts/set_version.py`"
   description: |
     ## Overview
-    Use this API to get page content from the [NHS website](https://www.nhs.uk)
+    This API provides content from the [NHS website](https://www.nhs.uk) as JSON, to be consumed programmatically and used by your application.
 
-    You can reuse the following content from the NHS website:
-      * health conditions
-      * medicines
-      * pregnancy
-      * mental health
-      * live well
-      * common health questions
-      * information about NHS services
+    You can reuse the content from the following sections of the NHS website:
+      * [Health A to Z (conditions)](https://www.nhs.uk/conditions/)
+      * [Medicines A to Z](https://www.nhs.uk/medicines/)
+      * [Pregnancy](https://www.nhs.uk/pregnancy/)
+      * [Mental health](https://www.nhs.uk/mental-health/)
+      * [Live Well](https://www.nhs.uk/live-well/)
+      * [Common health questions](https://www.nhs.uk/common-health-questions/)
+      * [NHS services](https://www.nhs.uk/nhs-services/).
 
-    You cannot currently use this API to:
+    You cannot use this API to:
       * [find services near you](https://www.nhs.uk/nhs-services/services-near-you/)
+      * get Ratings and Reviews of NHS services.
 
     ## Who can use this API
-    Anyone can use this API. Users need to agree to our [terms and conditions](https://developer.api.nhs.uk/about/terms)
+    Anyone can use this API for any purpose, so long as they include an attribution as per our [terms and conditions](https://developer.api.nhs.uk/about/terms).
 
-    ## API status and roadmap
-    This API has moved from the [NHS website developer portal](https://developer.api.nhs.uk/). It is currently [in development](https://digital.nhs.uk/developer/guides-and-documentation/reference-guide#statuses).
+    ## API status
+    This API has moved from the [NHS website developer portal](https://developer.api.nhs.uk/). 
+    It is currently [in development](https://digital.nhs.uk/developer/guides-and-documentation/reference-guide#statuses).
 
     ## Service level
-
-    This API is a [gold service](https://digital.nhs.uk/developer/guides-and-documentation/reference-guide#service-levels), meaning that it is operational and supported 24 x 7 x 365
+    This API is a [gold service](https://digital.nhs.uk/developer/guides-and-documentation/reference-guide#service-levels), meaning that it is operational and supported 24 hours a day, 365 days a year.
 
     ## Technology
     This API is [RESTful](https://digital.nhs.uk/developer/guides-and-documentation/our-api-technologies#basic-rest).
@@ -47,7 +48,15 @@ info:
     This access mode is [application-restricted](https://digital.nhs.uk/developer/guides-and-documentation/security-and-authorisation#application-restricted-apis), meaning we authenticate the calling application but not the end user.
 
     To use this access mode, use the following security pattern:
-    * [Application-restricted RESTful API - API key authentication](https://digital.nhs.uk/developer/guides-and-documentation/security-and-authorisation/application-restricted-restful-apis-api-key-authentication)
+    * [Application-restricted RESTful API - API key authentication](https://digital.nhs.uk/developer/guides-and-documentation/security-and-authorisation/application-restricted-restful-apis-api-key-authentication).
+
+    ## Errors
+    We use standard HTTP status codes to show whether an API request succeeded or not. They are usually in the range:
+      * 200 to 299 if it succeeded, including code 202 if it was accepted by an API that needs to wait for further action
+      * 400 to 499 if it failed because of a client error by your application
+      * 500 to 599 if it failed because of an error on our server.
+
+    Errors specific to each endpoint are shown in the endpoints section, under response. See our [reference guide](https://digital.nhs.uk/developer/guides-and-documentation/reference-guide#http-status-codes) for more on errors.
 
     ## Environments and testing
     | Environment       | Base URL                                                               |
@@ -55,27 +64,10 @@ info:
     | Integration test  | `https://int.api.service.nhs.uk/nhs-website-content/`                  |
     | Production        |  Not available yet                                                     |
 
-    ## Integration testing
-    Our integration test environment:
-
-    * is for formal integration testing.
-    * includes application authentication
-    * contains a replica of our live data, but has a [reduced call rate](https://digital.nhs.uk/developer/guides-and-documentation/reference-guide#rate-limits)
-
     ## Onboarding
     The onboarding journey for this API is currently in development.
 
-    Additional onboarding information exists on the [developer hub](https://digital.nhs.uk//developer/api-catalogue/nhs-syndicated-content/onboarding-support-information)
-
-    ## Errors
-    We use standard HTTP status codes to show whether an API request succeeded or not. They are usually in the range:
-
-    200 to 299 if it succeeded, including code 202 if it was accepted by an API that needs to wait for further action
-    400 to 499 if it failed because of a client error by your application
-    500 to 599 if it failed because of an error on our server
-    For details of 2xx and 4xx responses for a specific API, see its API specification.
-
-    Errors specific to each endpoint are shown in the endpoints section, under response. See our [reference guide](https://digital.nhs.uk/developer/guides-and-documentation/reference-guide#http-status-codes) for more on errors.
+    Additional onboarding information exists on the [developer hub](https://digital.nhs.uk//developer/api-catalogue/nhs-syndicated-content/onboarding-support-information).
 
   contact:
     name: "nhs-website-content-api API Support"
@@ -109,22 +101,10 @@ paths:
 
         There are a number of query parameters that filter the output.
 
-        | Query parameter   | Description                                                            | Type        |
-        | ----------------- | ---------------------------------------------------------------------- | ----------- |
-        | order             | Order by 'newest' or 'oldest'                                          | string      |
-        | page              | Page number, used to filter paginated results                          | int         |
-        | category          | Filters child pages by letters A-Z.                                    | string      |
-        | synonyms          | Include multiple listings for pages with more than one name            | boolean     |
-        | childArticles     | Include child pages of a topic within results under property subjectOf | boolean     |
-        | status            | Filter by "published" or "unpublished"                                 | string      |
-
       responses:
         "200":
           description: |
             A valid query for the conditions.
-          headers:
-            apikey:
-              $ref: "#/components/headers/apiKey"
           content:
             application/schema+json:
               schema:
@@ -166,9 +146,6 @@ paths:
         "200":
           description: |
             A valid query which returns a page object for the chosen page
-          headers:
-            apiKey:
-              $ref: "#/components/headers/apiKey"
           content:
             application/schema+json:
               schema:
@@ -207,30 +184,18 @@ paths:
 
         There are a number of query parameters that filter the output.
 
-        | Query parameter   | Description                                                              | Type        |
-        | ----------------- | ----------------------------------------------------------------------   | ----------- |
-        | startDate         | Gets medicines which are equal or greater than the startDate (see below) | string      |
-        | endDate           | Gets medicines which are equal or greater than the endDate (see below)   | string      |
-        | order             | Order by 'newest' or 'oldest'                                            | string      |
-        | page              | Page number, used to filter paginated results                            | int         |
-        | category          | Filters child pages by letters A-Z.                                      | string      |
-        | orderBy           | works alongside startDate and endDate (details below)                    | string      |
-
         ## Ordering by dates
 
         The `orderBy` parameter can be `dateModified`, `lastReviewed` and `nextReview`. By default if any of the `orderBy` parameters are chosen the results are sorted by newest first.
 
         However, the `orderBy` parameter can be used with the `startDate` and `endDate` parameters to filter down to the desired date. `startDate` and `endDate` should be given in the YYYY-MM-DD format.
 
-        For example `https://api.nhs.uk/medicines?apiKey=xxx&startDate=2022-01-01&orderBy=dateModified`
+        For example `https://api.nhs.uk/medicines?apikey=xxx&startDate=2022-01-01&orderBy=dateModified`
 
       responses:
         "200":
           description: |
             A valid query for medicines.
-          headers:
-            apiKey:
-              $ref: "#/components/headers/apiKey"
           content:
             application/schema+json:
               schema:
@@ -251,20 +216,17 @@ paths:
     parameters:
       - $ref: "#/components/parameters/apiKey"
     get:
-      summary: Get specific medicines pages
+      summary: Get specific medicine page
       operationId: get-medicine-page
       description: |
         ## Overview
-        There is an endpoint for each page under the Medicines A to Z, for example https://www.nhs.uk/medicines/amoxicillin
+        There is an endpoint for each page under the Medicines A to Z, for example https://www.nhs.uk/medicines/amoxicillin.
 
         This can be used to get specific information about individual medicines.
       responses:
         "200":
           description: |
             A valid query for medicines.
-          headers:
-            apiKey:
-              $ref: "#/components/headers/apiKey"
           content:
             application/schema+json:
               schema:
@@ -300,9 +262,6 @@ paths:
         "200":
           description: |
             A valid query for the mental health hub.
-          headers:
-            apiKey:
-              $ref: "#/components/headers/apiKey"
           content:
             application/schema+json:
               schema:
@@ -328,7 +287,7 @@ paths:
       description: |
         ## Overview
 
-        The pregnancy hub contains a number of navigational and content pages.
+        The [pregnancy hub](https://www.nhs.uk/pregnancy/) contains a number of navigational and content pages.
 
         The content of the page can be taken from `mainEntityOfPage`. This includes the navigational patterns to child pages.
 
@@ -338,9 +297,6 @@ paths:
         "200":
           description: |
             A valid query for the pregnancy hub.
-          headers:
-            apiKey:
-              $ref: "#/components/headers/apiKey"
           content:
             application/schema+json:
               schema:
@@ -366,7 +322,7 @@ paths:
       description: |
         ## Overview
 
-        The [Common health questions hub](https://www.nhs.uk/common-health-questions/) contains a number of navigational and content pages.
+        The [common health questions hub](https://www.nhs.uk/common-health-questions/) contains a number of navigational and content pages.
 
         The main page contains significant links to topic pages, which then contain significant links to the content pages.
 
@@ -376,9 +332,6 @@ paths:
         "200":
           description: |
             A valid query for the common health questions pages.
-          headers:
-            apiKey:
-              $ref: "#/components/headers/apiKey"
           content:
             application/schema+json:
               schema:
@@ -413,9 +366,6 @@ paths:
         "200":
           description: |
             A valid query for the Live Well pages.
-          headers:
-            apiKey:
-              $ref: "#/components/headers/apiKey"
           content:
             application/schema+json:
               schema:
@@ -434,11 +384,11 @@ paths:
             | 429         | TOO_MANY_REQUESTS          | You have exceeded your application's [rate limit](https://digital.nhs.uk/developer/guides-and-documentation/reference-guide#rate-limits). |
 components:
   headers:
-    apiKey:
+    apikey:
       $ref: components/schemas/ApiKey.yaml
   parameters:
-    apiKey:
-      name: api_key
+    apikey:
+      name: apikey
       in: query
       description: The API key required to send a successful request.
       required: true
@@ -446,7 +396,7 @@ components:
         type: string
         example: "11C46F5F-CDEF-4865-94B2-0EE0EDCC26DA"
     startDate:
-      name: start_date
+      name: startDate
       in: query
       description: Earliest date filter, works with orderBy.
       required: false
@@ -454,7 +404,7 @@ components:
         type: string
         example: "2020-01-01"
     endDate:
-      name: end_date
+      name: endDate
       in: query
       description: Latest date filter, works with orderBy.
       required: false
@@ -464,7 +414,7 @@ components:
     order:
       name: order
       in: query
-      description: Order by newest or oldest.
+      description: Order by "newest" or "oldest".
       required: false
       schema:
         type: string
@@ -480,15 +430,15 @@ components:
     category:
       name: category
       in: query
-      description: Filters child pages by letters A-Z.
+      description: Filters child pages by letters "A" to "Z".
       required: false
       schema:
         type: string
         example: "A"
     orderBy:
-      name: order_by
+      name: orderBy
       in: query
-      description: works alongside startDate and endDate. Options are `dateModified`, `lastReviewed` and `nextReview`.
+      description: works alongside startDate and endDate. Options are "dateModified", "lastReviewed" and "nextReview".
       required: false
       schema:
         type: string
@@ -502,7 +452,7 @@ components:
         type: boolean
         example: true
     childArticles:
-      name: child_articles
+      name: childArticles
       in: query
       description: Include child pages of a topic within results under property subjectOf.
       required: false
