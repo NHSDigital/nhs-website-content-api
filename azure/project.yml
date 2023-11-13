@@ -1,8 +1,8 @@
 variables:
   - group: status-endpoint
   - name: service_name
-    value: nhs-website-content-api
+    value: nhs-website-content
   - name: short_service_name
-    value: nwca
+    value: nwc
   - name: service_base_path
-    value: nhs-website-content-api
+    value: nhs-website-content
