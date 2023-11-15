@@ -30,7 +30,7 @@ APIGEE_ENVIRONMENTS:
 ---
 meta:
   api:
-    name: nhs-website-content
+    name: nhs-website-content-api
     guid: 94e8af2f-7173-4bf7-88a2-110ee0ae0d17
     spec_guids:
       - 1634ea25-8aac-4d73-8928-bcc3155be013
