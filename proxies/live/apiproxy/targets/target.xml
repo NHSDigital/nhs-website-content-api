@@ -9,15 +9,26 @@
       </Step>
     </Request>
   </PreFlow>
-    <HTTPTargetConnection>
-      <SSLInfo>
-        <Enabled>true</Enabled>
-      </SSLInfo>
-      <BasePath>/content-api</BasePath>
-      <LoadBalancer>
-        <Server name= "{{ NHS_CONTENT_API_TARGET_SERVER }}" />
-      </LoadBalancer>
-    </HTTPTargetConnection>
+  <FaultRules>
+    <FaultRule name="api_key_invalid">
+      <Step>
+        <Name>ExtractVariables.OAuthErrorFaultString</Name>
+      </Step>
+      <Step>
+        <Name>AssignMessage.OAuthPolicyErrorResponse</Name>
+      </Step>
+      <Condition>verifyapikey.VerifyAPIKey.FromHeader.failed</Condition>
+    </FaultRule>
+  </FaultRules>
+  <HTTPTargetConnection>
+    <SSLInfo>
+      <Enabled>true</Enabled>
+    </SSLInfo>
+    <BasePath>/content-api</BasePath>
+    <LoadBalancer>
+      <Server name= "{{ NHS_CONTENT_API_TARGET_SERVER }}" />
+    </LoadBalancer>
+  </HTTPTargetConnection>
 
 <!--  <HTTPTargetConnection>-->
 <!--    <URL>http://mocktarget.apigee.net</URL>-->
