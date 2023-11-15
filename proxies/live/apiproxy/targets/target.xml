@@ -9,17 +9,17 @@
       </Step>
     </Request>
   </PreFlow>
-<!--  <FaultRules>-->
-<!--    <FaultRule name="api_key_invalid">-->
-<!--      <Step>-->
-<!--        <Name>ExtractVariables.OAuthErrorFaultString</Name>-->
-<!--      </Step>-->
-<!--      <Step>-->
-<!--        <Name>AssignMessage.OAuthPolicyErrorResponse</Name>-->
-<!--      </Step>-->
-<!--      <Condition>verifyapikey.VerifyAPIKey.FromHeader.failed</Condition>-->
-<!--    </FaultRule>-->
-<!--  </FaultRules>-->
+  <FaultRules>
+    <FaultRule name="api_key_invalid">
+      <Step>
+        <Name>ExtractVariables.OAuthErrorFaultString</Name>
+      </Step>
+      <Step>
+        <Name>AssignMessage.OAuthPolicyErrorResponse</Name>
+      </Step>
+      <Condition>verifyapikey.VerifyAPIKey.FromHeader.failed</Condition>
+    </FaultRule>
+  </FaultRules>
   <HTTPTargetConnection>
     <SSLInfo>
       <Enabled>true</Enabled>
