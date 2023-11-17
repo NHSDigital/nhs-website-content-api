@@ -30,6 +30,8 @@ extends:
     service_name: ${{ variables.service_name }}
     short_service_name: ${{ variables.short_service_name }}
     service_base_path: ${{ variables.service_base_path }}
+    jinja_templates:
+        NHS_CONTENT_API_TARGET_SERVER: nhs-website-content-api
     apigee_deployments:
       - environment: internal-dev
         post_deploy:
