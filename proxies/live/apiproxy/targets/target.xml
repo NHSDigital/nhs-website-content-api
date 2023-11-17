@@ -18,7 +18,7 @@
     <SSLInfo>
       <Enabled>true</Enabled>
     </SSLInfo>
-    <BasePath>/content-api</BasePath>
+    <Path>/content-api</Path>
     <LoadBalancer>
       <Server name= "{{ NHS_CONTENT_API_TARGET_SERVER }}" />
     </LoadBalancer>
