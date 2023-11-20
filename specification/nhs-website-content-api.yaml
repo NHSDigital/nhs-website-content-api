@@ -190,7 +190,7 @@ paths:
 
         However, the `orderBy` parameter can be used with the `startDate` and `endDate` parameters to filter down to the desired date. `startDate` and `endDate` should be given in the YYYY-MM-DD format.
 
-        For example `https://api.nhs.uk/medicines?apikey=xxx&startDate=2022-01-01&orderBy=dateModified`
+        For example `https://api.nhs.uk/medicines?startDate=2022-01-01&orderBy=dateModified`
 
       responses:
         "200":
@@ -394,7 +394,7 @@ components:
       required: true
       schema:
         type: string
-        example: "11C46F5F-CDEF-4865-94B2-0EE0EDCC26DA"
+        example: "aTfjAa9vHfnmaQNABgSXGFCS9SFVMLWc"
     startDate:
       name: startDate
       in: query
