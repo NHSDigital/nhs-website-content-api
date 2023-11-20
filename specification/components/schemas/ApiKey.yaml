@@ -1,5 +1,5 @@
 schema:
   type: string
-  example: 11C46F5F-CDEF-4865-94B2-0EE0EDCC26DA
+  example: aTfjAa9vHfnmaQNABgSXGFCS9SFVMLWc
 description: |
-  The api key required to send a successful request.
+  The API key required to send a successful request.
