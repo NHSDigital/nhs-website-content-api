@@ -3,8 +3,9 @@
   "version": "0.0.1",
   "description": "OAS (Swagger v3) API Definition for Template API",
   "scripts": {
-    "lint": "node_modules/.bin/openapi-generator-cli validate -i specification/nhs-website-content-api.yaml",
-    "publish": "./node_modules/.bin/openapi-generator-cli generate -i specification/nhs-website-content-api.yaml --generator-key v3.0  -g openapi -o build && rm openapitools.json && mv build/openapi.json build/nhs-website-content-api.json",
+    "lint": "redocly lint --skip-rule=security-defined specification/nhs-website-content-api.yaml",
+    "publish": "redocly bundle specification/nhs-website-content-api.yaml --dereferenced --remove-unused-components --ext json -o build/nhs-website-content-api.json",
+    "serve": "redocly preview-docs -p 5000 build/nhs-website-content-api.json",
     "check-licenses": "node_modules/.bin/license-checker --failOn GPL --failOn LGPL"
   },
   "author": "NHS Digital",
@@ -14,7 +15,7 @@
     "newman-reporter-htmlextra": "^1.20.1"
   },
   "devDependencies": {
-    "@openapitools/openapi-generator-cli": "^2.5.1",
+    "@redocly/cli": "^1.4.1",
     "apigeetool": "^0.5.4",
     "license-checker": "^25.0.1",
     "minimist": "^1.2.6",
