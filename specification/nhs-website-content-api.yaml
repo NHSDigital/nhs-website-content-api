@@ -29,7 +29,7 @@ info:
     It is currently [in development](https://digital.nhs.uk/developer/guides-and-documentation/reference-guide#statuses).
 
     ## Service level
-    This API is a [gold service](https://digital.nhs.uk/developer/guides-and-documentation/reference-guide#service-levels), meaning that it is operational and supported 24 hours a day, 365 days a year.
+    This API is a [bronze service](https://digital.nhs.uk/developer/guides-and-documentation/reference-guide#service-levels).
 
     ## Technology
     This API is [RESTful](https://digital.nhs.uk/developer/guides-and-documentation/our-api-technologies#basic-rest).
