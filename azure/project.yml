@@ -5,4 +5,4 @@ variables:
   - name: short_service_name
     value: nwca
   - name: service_base_path
-    value: nhs-website-content-api
+    value: nhs-website-content
