@@ -13,7 +13,7 @@
   },
   "about": { "@type": "WebPage", "name": "Health A to Z", "alternateName": "" },
   "description": "",
-  "url": "https://api.nhs.uk/conditions/",
+  "url": "https://api.service.nhs.uk/nhs-website-content/conditions/",
   "genre": [],
   "keywords": "",
   "dateModified": "2021-11-18T15:26:06+00:00",
@@ -24,7 +24,7 @@
       {
         "@type": "ListItem",
         "position": 0,
-        "item": { "@id": "https://api.nhs.uk/conditions/", "name": "Health A to Z", "genre": [] }
+        "item": { "@id": "https://api.service.nhs.uk/nhs-website-content/conditions/", "name": "Health A to Z", "genre": [] }
       }
     ]
   },
@@ -45,7 +45,7 @@
         "keywords": "",
         "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
       },
-      "url": "https://api.nhs.uk/conditions/zika/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/zika/",
       "name": "Zika virus"
     }
   ]

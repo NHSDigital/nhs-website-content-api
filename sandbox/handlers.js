@@ -71,11 +71,11 @@ const pregnancyTryingForABabyResponse = require('./responses/pregnancy-trying-fo
 // Wagtail (Python) Application (no auth key required)
 // https://api.nhs.uk/content-api/
 // Apigee Sandbox environment (no auth key required)
-// https://sandbox.api.service.nhs.uk/nhs-website-content-api/
+// https://sandbox.api.service.nhs.uk/nhs-website-content/
 // Apigee Integration environment ('apikey' required in Header)
-// https://int.api.service.nhs.uk/nhs-website-content-api/
+// https://int.api.service.nhs.uk/nhs-website-content/
 // Apigee Production environment ('apikey' required in Header)
-// https://api.service.nhs.uk/nhs-website-content-api/
+// https://api.service.nhs.uk/nhs-website-content/
 async function root(req, res, next) {
   res.status(404).json(errorResourceNotFoundResponse)
   res.end()
@@ -95,11 +95,11 @@ async function root(req, res, next) {
 // Wagtail (Python) Application (no auth key required)
 // https://api.nhs.uk/content-api/common-health-questions/
 // Apigee Sandbox environment (no auth key required)
-// https://sandbox.api.service.nhs.uk/nhs-website-content-api/common-health-questions/
+// https://sandbox.api.service.nhs.uk/nhs-website-content/common-health-questions/
 // Apigee Integration environment ('apikey' required in Header)
-// https://int.api.service.nhs.uk/nhs-website-content-api/common-health-questions/
+// https://int.api.service.nhs.uk/nhs-website-content/common-health-questions/
 // Apigee Production environment ('apikey' required in Header)
-// https://api.service.nhs.uk/nhs-website-content-api/common-health-questions/
+// https://api.service.nhs.uk/nhs-website-content/common-health-questions/
 async function commonHealthQuestionsRoot(req, res, next) {
   res.status(200).json(commonHealthQuestionsRootResponse)
   res.end()
@@ -115,11 +115,11 @@ async function commonHealthQuestionsRoot(req, res, next) {
 // Wagtail (Python) Application (no auth key required)
 // https://api.nhs.uk/content-api/common-health-questions/accidents-first-aid-and-treatments/
 // Apigee Sandbox environment (no auth key required)
-// https://sandbox.api.service.nhs.uk/nhs-website-content-api/common-health-questions/accidents-first-aid-and-treatments/
+// https://sandbox.api.service.nhs.uk/nhs-website-content/common-health-questions/accidents-first-aid-and-treatments/
 // Apigee Integration environment ('apikey' required in Header)
-// https://int.api.service.nhs.uk/nhs-website-content-api/common-health-questions/accidents-first-aid-and-treatments/
+// https://int.api.service.nhs.uk/nhs-website-content/common-health-questions/accidents-first-aid-and-treatments/
 // Apigee Production environment ('apikey' required in Header)
-// https://api.service.nhs.uk/nhs-website-content-api/common-health-questions/accidents-first-aid-and-treatments/
+// https://api.service.nhs.uk/nhs-website-content/common-health-questions/accidents-first-aid-and-treatments/
 async function commonHealthQuestionsAccidentsFirstAidAndTreatments(req, res, next) {
   res.status(200).json(commonHealthQuestionsAccidentsFirstAidAndTreatmentsResponse)
   res.end()
@@ -135,11 +135,11 @@ async function commonHealthQuestionsAccidentsFirstAidAndTreatments(req, res, nex
 // Wagtail (Python) Application (no auth key required)
 // https://api.nhs.uk/content-api/common-health-questions/caring-carers-and-long-term-conditions/
 // Apigee Sandbox environment (no auth key required)
-// https://sandbox.api.service.nhs.uk/nhs-website-content-api/common-health-questions/caring-carers-and-long-term-conditions/
+// https://sandbox.api.service.nhs.uk/nhs-website-content/common-health-questions/caring-carers-and-long-term-conditions/
 // Apigee Integration environment ('apikey' required in Header)
-// https://int.api.service.nhs.uk/nhs-website-content-api/common-health-questions/caring-carers-and-long-term-conditions/
+// https://int.api.service.nhs.uk/nhs-website-content/common-health-questions/caring-carers-and-long-term-conditions/
 // Apigee Production environment ('apikey' required in Header)
-// https://api.service.nhs.uk/nhs-website-content-api/common-health-questions/caring-carers-and-long-term-conditions/
+// https://api.service.nhs.uk/nhs-website-content/common-health-questions/caring-carers-and-long-term-conditions/
 async function commonHealthQuestionsCaringCarersAndLongTermConditions(req, res, next) {
   res.status(200).json(commonHealthQuestionsCaringCarersAndLongTermConditionsResponse)
   res.end()
@@ -155,11 +155,11 @@ async function commonHealthQuestionsCaringCarersAndLongTermConditions(req, res, 
 // Wagtail (Python) Application (no auth key required)
 // https://api.nhs.uk/content-api/common-health-questions/childrens-health/can-my-baby-go-swimming-before-or-after-vaccinations/
 // Apigee Sandbox environment (no auth key required)
-// https://sandbox.api.service.nhs.uk/nhs-website-content-api/common-health-questions/childrens-health/can-my-baby-go-swimming-before-or-after-vaccinations/
+// https://sandbox.api.service.nhs.uk/nhs-website-content/common-health-questions/childrens-health/can-my-baby-go-swimming-before-or-after-vaccinations/
 // Apigee Integration environment ('apikey' required in Header)
-// https://int.api.service.nhs.uk/nhs-website-content-api/common-health-questions/childrens-health/can-my-baby-go-swimming-before-or-after-vaccinations/
+// https://int.api.service.nhs.uk/nhs-website-content/common-health-questions/childrens-health/can-my-baby-go-swimming-before-or-after-vaccinations/
 // Apigee Production environment ('apikey' required in Header)
-// https://api.service.nhs.uk/nhs-website-content-api/common-health-questions/childrens-health/can-my-baby-go-swimming-before-or-after-vaccinations/
+// https://api.service.nhs.uk/nhs-website-content/common-health-questions/childrens-health/can-my-baby-go-swimming-before-or-after-vaccinations/
 async function commonHealthQuestionsChildrensHealthCanMyBabyGoSwimmingBeforeOrAfterVaccinations(req, res, next) {
   res.status(200).json(commonHealthQuestionsChildrensHealthCanMyBabyGoSwimmingBeforeOrAfterVaccinationsResponse)
   res.end()
@@ -179,11 +179,11 @@ async function commonHealthQuestionsChildrensHealthCanMyBabyGoSwimmingBeforeOrAf
 // Wagtail (Python) Application (no auth key required)
 // https://api.nhs.uk/content-api/conditions/
 // Apigee Sandbox environment (no auth key required)
-// https://sandbox.api.service.nhs.uk/nhs-website-content-api/conditions/
+// https://sandbox.api.service.nhs.uk/nhs-website-content/conditions/
 // Apigee Integration environment ('apikey' required in Header)
-// https://int.api.service.nhs.uk/nhs-website-content-api/conditions/
+// https://int.api.service.nhs.uk/nhs-website-content/conditions/
 // Apigee Production environment ('apikey' required in Header)
-// https://api.service.nhs.uk/nhs-website-content-api/conditions/
+// https://api.service.nhs.uk/nhs-website-content/conditions/
 async function conditionsRoot(req, res, next) {
   let responseJson
   if (req.query.category && req.query.genre) {
@@ -243,11 +243,11 @@ async function conditionsRoot(req, res, next) {
 // Wagtail (Python) Application (no auth key required)
 // https://api.nhs.uk/content-api/conditions/acanthosis-nigricans/
 // Apigee Sandbox environment (no auth key required)
-// https://sandbox.api.service.nhs.uk/nhs-website-content-api/conditions/acanthosis-nigricans/
+// https://sandbox.api.service.nhs.uk/nhs-website-content/conditions/acanthosis-nigricans/
 // Apigee Integration environment ('apikey' required in Header)
-// https://int.api.service.nhs.uk/nhs-website-content-api/conditions/acanthosis-nigricans/
+// https://int.api.service.nhs.uk/nhs-website-content/conditions/acanthosis-nigricans/
 // Apigee Production environment ('apikey' required in Header)
-// https://api.service.nhs.uk/nhs-website-content-api/conditions/acanthosis-nigricans/
+// https://api.service.nhs.uk/nhs-website-content/conditions/acanthosis-nigricans/
 async function conditionsAcanthosisNigricans(req, res, next) {
   res.status(200).json(conditionsAcanthosisNigricansResponse)
   res.end()
@@ -263,11 +263,11 @@ async function conditionsAcanthosisNigricans(req, res, next) {
 // Wagtail (Python) Application (no auth key required)
 // https://api.nhs.uk/content-api/conditions/acanthosis-nigricans/
 // Apigee Sandbox environment (no auth key required)
-// https://sandbox.api.service.nhs.uk/nhs-website-content-api/conditions/acanthosis-nigricans/
+// https://sandbox.api.service.nhs.uk/nhs-website-content/conditions/acanthosis-nigricans/
 // Apigee Integration environment ('apikey' required in Header)
-// https://int.api.service.nhs.uk/nhs-website-content-api/conditions/acanthosis-nigricans/
+// https://int.api.service.nhs.uk/nhs-website-content/conditions/acanthosis-nigricans/
 // Apigee Production environment ('apikey' required in Header)
-// https://api.service.nhs.uk/nhs-website-content-api/conditions/acanthosis-nigricans/
+// https://api.service.nhs.uk/nhs-website-content/conditions/acanthosis-nigricans/
 async function conditionsAchalasia(req, res, next) {
   res.status(200).json(conditionsAchalasiaResponse)
   res.end()
@@ -285,11 +285,11 @@ async function conditionsAchalasia(req, res, next) {
 // Wagtail (Python) Application (no auth key required)
 // https://api.nhs.uk/content-api/conditions/acne/
 // Apigee Sandbox environment (no auth key required)
-// https://sandbox.api.service.nhs.uk/nhs-website-content-api/conditions/acne/
+// https://sandbox.api.service.nhs.uk/nhs-website-content/conditions/acne/
 // Apigee Integration environment ('apikey' required in Header)
-// https://int.api.service.nhs.uk/nhs-website-content-api/conditions/acne/
+// https://int.api.service.nhs.uk/nhs-website-content/conditions/acne/
 // Apigee Production environment ('apikey' required in Header)
-// https://api.service.nhs.uk/nhs-website-content-api/conditions/acne/
+// https://api.service.nhs.uk/nhs-website-content/conditions/acne/
 
 // Modules: true
 // This sandbox on localhost
@@ -299,11 +299,11 @@ async function conditionsAchalasia(req, res, next) {
 // Wagtail (Python) Application (no auth key required)
 // https://api.nhs.uk/content-api/conditions/acne/?modules=true
 // Apigee Sandbox environment (no auth key required)
-// https://sandbox.api.service.nhs.uk/nhs-website-content-api/conditions/acne/?modules=true
+// https://sandbox.api.service.nhs.uk/nhs-website-content/conditions/acne/?modules=true
 // Apigee Integration environment ('apikey' required in Header)
-// https://int.api.service.nhs.uk/nhs-website-content-api/conditions/acne/?modules=true
+// https://int.api.service.nhs.uk/nhs-website-content/conditions/acne/?modules=true
 // Apigee Production environment ('apikey' required in Header)
-// https://api.service.nhs.uk/nhs-website-content-api/conditions/acne/?modules=true
+// https://api.service.nhs.uk/nhs-website-content/conditions/acne/?modules=true
 async function conditionsAcne(req, res, next) {
   if (req.query.modules.toLowerCase() === 'true') {
     res.status(200).json(conditionsAcneModulesTrueResponse)
@@ -323,11 +323,11 @@ async function conditionsAcne(req, res, next) {
 // Wagtail (Python) Application (no auth key required)
 // https://api.nhs.uk/content-api/conditions/angiography/
 // Apigee Sandbox environment (no auth key required)
-// https://sandbox.api.service.nhs.uk/nhs-website-content-api/conditions/angiography/
+// https://sandbox.api.service.nhs.uk/nhs-website-content/conditions/angiography/
 // Apigee Integration environment ('apikey' required in Header)
-// https://int.api.service.nhs.uk/nhs-website-content-api/conditions/angiography/
+// https://int.api.service.nhs.uk/nhs-website-content/conditions/angiography/
 // Apigee Production environment ('apikey' required in Header)
-// https://api.service.nhs.uk/nhs-website-content-api/conditions/angiography/
+// https://api.service.nhs.uk/nhs-website-content/conditions/angiography/
 async function conditionsAngiography(req, res, next) {
   res.status(200).json(conditionsAngiographyResponse)
   res.end()
@@ -343,11 +343,11 @@ async function conditionsAngiography(req, res, next) {
 // Wagtail (Python) Application (no auth key required)
 // https://api.nhs.uk/content-api/conditions/cancer/
 // Apigee Sandbox environment (no auth key required)
-// https://sandbox.api.service.nhs.uk/nhs-website-content-api/conditions/cancer/
+// https://sandbox.api.service.nhs.uk/nhs-website-content/conditions/cancer/
 // Apigee Integration environment ('apikey' required in Header)
-// https://int.api.service.nhs.uk/nhs-website-content-api/conditions/cancer/
+// https://int.api.service.nhs.uk/nhs-website-content/conditions/cancer/
 // Apigee Production environment ('apikey' required in Header)
-// https://api.service.nhs.uk/nhs-website-content-api/conditions/cancer/
+// https://api.service.nhs.uk/nhs-website-content/conditions/cancer/
 async function conditionsCancer(req, res, next) {
   res.status(200).json(conditionsCancerResponse)
   res.end()
@@ -363,11 +363,11 @@ async function conditionsCancer(req, res, next) {
 // Wagtail (Python) Application (no auth key required)
 // https://api.nhs.uk/content-api/conditions/zika/
 // Apigee Sandbox environment (no auth key required)
-// https://sandbox.api.service.nhs.uk/nhs-website-content-api/conditions/zika/
+// https://sandbox.api.service.nhs.uk/nhs-website-content/conditions/zika/
 // Apigee Integration environment ('apikey' required in Header)
-// https://int.api.service.nhs.uk/nhs-website-content-api/conditions/zika/
+// https://int.api.service.nhs.uk/nhs-website-content/conditions/zika/
 // Apigee Production environment ('apikey' required in Header)
-// https://api.service.nhs.uk/nhs-website-content-api/conditions/zika/
+// https://api.service.nhs.uk/nhs-website-content/conditions/zika/
 async function conditionsZika(req, res, next) {
   res.status(200).json(conditionsZikaResponse)
   res.end()
@@ -387,11 +387,11 @@ async function conditionsZika(req, res, next) {
 // Wagtail (Python) Application (no auth key required)
 // https://api.nhs.uk/content-api/live-well/
 // Apigee Sandbox environment (no auth key required)
-// https://sandbox.api.service.nhs.uk/nhs-website-content-api/content-api/live-well/
+// https://sandbox.api.service.nhs.uk/nhs-website-content/content-api/live-well/
 // Apigee Integration environment ('apikey' required in Header)
-// https://int.api.service.nhs.uk/nhs-website-content-api/content-api/live-well/
+// https://int.api.service.nhs.uk/nhs-website-content/content-api/live-well/
 // Apigee Production environment ('apikey' required in Header)
-// https://api.service.nhs.uk/nhs-website-content-api/content-api/live-well/
+// https://api.service.nhs.uk/nhs-website-content/content-api/live-well/
 async function liveWellRoot(req, res, next) {
   res.status(200).json(liveWellRootResponse)
   res.end()
@@ -407,11 +407,11 @@ async function liveWellRoot(req, res, next) {
 // Wagtail (Python) Application (no auth key required)
 // https://api.nhs.uk/content-api/live-well/alcohol-advice/alcohol-support/
 // Apigee Sandbox environment (no auth key required)
-// https://sandbox.api.service.nhs.uk/nhs-website-content-api/live-well/alcohol-advice/alcohol-support/
+// https://sandbox.api.service.nhs.uk/nhs-website-content/live-well/alcohol-advice/alcohol-support/
 // Apigee Integration environment ('apikey' required in Header)
-// https://int.api.service.nhs.uk/nhs-website-content-api/live-well/alcohol-advice/alcohol-support/
+// https://int.api.service.nhs.uk/nhs-website-content/live-well/alcohol-advice/alcohol-support/
 // Apigee Production environment ('apikey' required in Header)
-// https://api.service.nhs.uk/nhs-website-content-api/live-well/alcohol-advice/alcohol-support/
+// https://api.service.nhs.uk/nhs-website-content/live-well/alcohol-advice/alcohol-support/
 async function liveWellAlcoholAdviceAlcoholSupport(req, res, next) {
   res.status(200).json(liveWellAlcoholAdviceAlcoholSupportResponse)
   res.end()
@@ -427,11 +427,11 @@ async function liveWellAlcoholAdviceAlcoholSupport(req, res, next) {
 // Wagtail (Python) Application (no auth key required)
 // https://api.nhs.uk/content-api/live-well/exercise/
 // Apigee Sandbox environment (no auth key required)
-// https://sandbox.api.service.nhs.uk/nhs-website-content-api/live-well/exercise/
+// https://sandbox.api.service.nhs.uk/nhs-website-content/live-well/exercise/
 // Apigee Integration environment ('apikey' required in Header)
-// https://int.api.service.nhs.uk/nhs-website-content-api/live-well/exercise/
+// https://int.api.service.nhs.uk/nhs-website-content/live-well/exercise/
 // Apigee Production environment ('apikey' required in Header)
-// https://api.service.nhs.uk/nhs-website-content-api/live-well/exercise/
+// https://api.service.nhs.uk/nhs-website-content/live-well/exercise/
 async function liveWellExercise(req, res, next) {
   res.status(200).json(liveWellExerciseResponse)
   res.end()
@@ -447,11 +447,11 @@ async function liveWellExercise(req, res, next) {
 // Wagtail (Python) Application (no auth key required)
 // https://api.nhs.uk/content-api/live-well/healthy-weight/
 // Apigee Sandbox environment (no auth key required)
-// https://sandbox.api.service.nhs.uk/nhs-website-content-api/live-well/healthy-weight/
+// https://sandbox.api.service.nhs.uk/nhs-website-content/live-well/healthy-weight/
 // Apigee Integration environment ('apikey' required in Header)
-// https://int.api.service.nhs.uk/nhs-website-content-api/live-well/healthy-weight/
+// https://int.api.service.nhs.uk/nhs-website-content/live-well/healthy-weight/
 // Apigee Production environment ('apikey' required in Header)
-// https://api.service.nhs.uk/nhs-website-content-api/live-well/healthy-weight/
+// https://api.service.nhs.uk/nhs-website-content/live-well/healthy-weight/
 async function liveWellHealthyWeight(req, res, next) {
   res.status(200).json(liveWellHealthyWeightResponse)
   res.end()
@@ -471,11 +471,11 @@ async function liveWellHealthyWeight(req, res, next) {
 // Wagtail (Python) Application (no auth key required)
 // https://api.nhs.uk/content-api/medicines/
 // Apigee Sandbox environment (no auth key required)
-// https://sandbox.api.service.nhs.uk/nhs-website-content-api/medicines/
+// https://sandbox.api.service.nhs.uk/nhs-website-content/medicines/
 // Apigee Integration environment ('apikey' required in Header)
-// https://int.api.service.nhs.uk/nhs-website-content-api/medicines/
+// https://int.api.service.nhs.uk/nhs-website-content/medicines/
 // Apigee Production environment ('apikey' required in Header)
-// https://api.service.nhs.uk/nhs-website-content-api/medicines/
+// https://api.service.nhs.uk/nhs-website-content/medicines/
 async function medicinesRoot(req, res, next) {
   let responseJson
   if (req.query.category) {
@@ -520,11 +520,11 @@ async function medicinesRoot(req, res, next) {
 // Wagtail (Python) Application (no auth key required)
 // https://api.nhs.uk/content-api/medicines/aciclovir/
 // Apigee Sandbox environment (no auth key required)
-// https://sandbox.api.service.nhs.uk/nhs-website-content-api/medicines/aciclovir/
+// https://sandbox.api.service.nhs.uk/nhs-website-content/medicines/aciclovir/
 // Apigee Integration environment ('apikey' required in Header)
-// https://int.api.service.nhs.uk/nhs-website-content-api/medicines/aciclovir/
+// https://int.api.service.nhs.uk/nhs-website-content/medicines/aciclovir/
 // Apigee Production environment ('apikey' required in Header)
-// https://api.service.nhs.uk/nhs-website-content-api/medicines/aciclovir/
+// https://api.service.nhs.uk/nhs-website-content/medicines/aciclovir/
 async function medicinesAciclovir(req, res, next) {
   res.status(200).json(medicinesAciclovirResponse)
   res.end()
@@ -540,11 +540,11 @@ async function medicinesAciclovir(req, res, next) {
 // Wagtail (Python) Application (no auth key required)
 // https://api.nhs.uk/content-api/medicines/acrivastine/
 // Apigee Sandbox environment (no auth key required)
-// https://sandbox.api.service.nhs.uk/nhs-website-content-api/medicines/acrivastine/
+// https://sandbox.api.service.nhs.uk/nhs-website-content/medicines/acrivastine/
 // Apigee Integration environment ('apikey' required in Header)
-// https://int.api.service.nhs.uk/nhs-website-content-api/medicines/acrivastine/
+// https://int.api.service.nhs.uk/nhs-website-content/medicines/acrivastine/
 // Apigee Production environment ('apikey' required in Header)
-// https://api.service.nhs.uk/nhs-website-content-api/medicines/acrivastine/
+// https://api.service.nhs.uk/nhs-website-content/medicines/acrivastine/
 async function medicinesAcrivastine(req, res, next) {
   res.status(200).json(medicinesAcrivastineResponse)
   res.end()
@@ -560,11 +560,11 @@ async function medicinesAcrivastine(req, res, next) {
 // Wagtail (Python) Application (no auth key required)
 // https://api.nhs.uk/content-api/medicines/zopiclone/
 // Apigee Sandbox environment (no auth key required)
-// https://sandbox.api.service.nhs.uk/nhs-website-content-api/medicines/zopiclone/
+// https://sandbox.api.service.nhs.uk/nhs-website-content/medicines/zopiclone/
 // Apigee Integration environment ('apikey' required in Header)
-// https://int.api.service.nhs.uk/nhs-website-content-api/medicines/zopiclone/
+// https://int.api.service.nhs.uk/nhs-website-content/medicines/zopiclone/
 // Apigee Production environment ('apikey' required in Header)
-// https://api.service.nhs.uk/nhs-website-content-api/medicines/zopiclone/
+// https://api.service.nhs.uk/nhs-website-content/medicines/zopiclone/
 async function medicinesZopiclone(req, res, next) {
   res.status(200).json(medicinesZopicloneResponse)
   res.end()
@@ -584,11 +584,11 @@ async function medicinesZopiclone(req, res, next) {
 // Wagtail (Python) Application (no auth key required)
 // https://api.nhs.uk/content-api/mental-health/
 // Apigee Sandbox environment (no auth key required)
-// https://sandbox.api.service.nhs.uk/nhs-website-content-api/mental-health/
+// https://sandbox.api.service.nhs.uk/nhs-website-content/mental-health/
 // Apigee Integration environment ('apikey' required in Header)
-// https://int.api.service.nhs.uk/nhs-website-content-api/mental-health/
+// https://int.api.service.nhs.uk/nhs-website-content/mental-health/
 // Apigee Production environment ('apikey' required in Header)
-// https://api.service.nhs.uk/nhs-website-content-api/mental-health/
+// https://api.service.nhs.uk/nhs-website-content/mental-health/
 async function mentalHealthRoot(req, res, next) {
   res.status(200).json(mentalHealthRootResponse)
   res.end()
@@ -604,11 +604,11 @@ async function mentalHealthRoot(req, res, next) {
 // Wagtail (Python) Application (no auth key required)
 // https://api.nhs.uk/content-api/mental-health/advice-for-life-situations-and-events/support-for-workplace-bullying/
 // Apigee Sandbox environment (no auth key required)
-// https://sandbox.api.service.nhs.uk/nhs-website-content-api/mental-health/advice-for-life-situations-and-events/support-for-workplace-bullying/
+// https://sandbox.api.service.nhs.uk/nhs-website-content/mental-health/advice-for-life-situations-and-events/support-for-workplace-bullying/
 // Apigee Integration environment ('apikey' required in Header)
-// https://int.api.service.nhs.uk/nhs-website-content-api/mental-health/advice-for-life-situations-and-events/support-for-workplace-bullying/
+// https://int.api.service.nhs.uk/nhs-website-content/mental-health/advice-for-life-situations-and-events/support-for-workplace-bullying/
 // Apigee Production environment ('apikey' required in Header)
-// https://api.service.nhs.uk/nhs-website-content-api/mental-health/advice-for-life-situations-and-events/support-for-workplace-bullying/
+// https://api.service.nhs.uk/nhs-website-content/mental-health/advice-for-life-situations-and-events/support-for-workplace-bullying/
 async function mentalHealthAdviceForLifeSituationsAndEventsSupportForWorkplaceBullying(req, res, next) {
   res.status(200).json(mentalHealthAdviceForLifeSituationsAndEventsSupportForWorkplaceBullyingResponse)
   res.end()
@@ -624,11 +624,11 @@ async function mentalHealthAdviceForLifeSituationsAndEventsSupportForWorkplaceBu
 // Wagtail (Python) Application (no auth key required)
 // https://api.nhs.uk/content-api/mental-health/conditions/
 // Apigee Sandbox environment (no auth key required)
-// https://sandbox.api.service.nhs.uk/nhs-website-content-api/mental-health/conditions/
+// https://sandbox.api.service.nhs.uk/nhs-website-content/mental-health/conditions/
 // Apigee Integration environment ('apikey' required in Header)
-// https://int.api.service.nhs.uk/nhs-website-content-api/mental-health/conditions/
+// https://int.api.service.nhs.uk/nhs-website-content/mental-health/conditions/
 // Apigee Production environment ('apikey' required in Header)
-// https://api.service.nhs.uk/nhs-website-content-api/mental-health/conditions/
+// https://api.service.nhs.uk/nhs-website-content/mental-health/conditions/
 async function mentalHealthConditions(req, res, next) {
   res.status(200).json(mentalHealthConditionsResponse)
   res.end()
@@ -644,11 +644,11 @@ async function mentalHealthConditions(req, res, next) {
 // Wagtail (Python) Application (no auth key required)
 // https://api.nhs.uk/content-api/mental-health/feelings-symptoms-behaviours/
 // Apigee Sandbox environment (no auth key required)
-// https://sandbox.api.service.nhs.uk/nhs-website-content-api/mental-health/feelings-symptoms-behaviours/
+// https://sandbox.api.service.nhs.uk/nhs-website-content/mental-health/feelings-symptoms-behaviours/
 // Apigee Integration environment ('apikey' required in Header)
-// https://int.api.service.nhs.uk/nhs-website-content-api/mental-health/feelings-symptoms-behaviours/
+// https://int.api.service.nhs.uk/nhs-website-content/mental-health/feelings-symptoms-behaviours/
 // Apigee Production environment ('apikey' required in Header)
-// https://api.service.nhs.uk/nhs-website-content-api/mental-health/feelings-symptoms-behaviours/
+// https://api.service.nhs.uk/nhs-website-content/mental-health/feelings-symptoms-behaviours/
 async function mentalHealthFeelingsSymptomsBehaviours(req, res, next) {
   res.status(200).json(mentalHealthFeelingsSymptomsBehavioursResponse)
   res.end()
@@ -668,11 +668,11 @@ async function mentalHealthFeelingsSymptomsBehaviours(req, res, next) {
 // Wagtail (Python) Application (no auth key required)
 // https://api.nhs.uk/content-api/nhs-services/
 // Apigee Sandbox environment (no auth key required)
-// https://sandbox.api.service.nhs.uk/nhs-website-content-api/nhs-services/
+// https://sandbox.api.service.nhs.uk/nhs-website-content/nhs-services/
 // Apigee Integration environment ('apikey' required in Header)
-// https://int.api.service.nhs.uk/nhs-website-content-api/nhs-services/
+// https://int.api.service.nhs.uk/nhs-website-content/nhs-services/
 // Apigee Production environment ('apikey' required in Header)
-// https://api.service.nhs.uk/nhs-website-content-api/nhs-services/
+// https://api.service.nhs.uk/nhs-website-content/nhs-services/
 async function nhsServicesRoot(req, res, next) {
   res.status(200).json(nhsServicesRootResponse)
   res.end()
@@ -688,11 +688,11 @@ async function nhsServicesRoot(req, res, next) {
 // Wagtail (Python) Application (no auth key required)
 // https://api.nhs.uk/content-api/nhs-services/gps/how-to-register-with-a-gp-surgery/
 // Apigee Sandbox environment (no auth key required)
-// https://sandbox.api.service.nhs.uk/nhs-website-content-api/nhs-services/gps/how-to-register-with-a-gp-surgery/
+// https://sandbox.api.service.nhs.uk/nhs-website-content/nhs-services/gps/how-to-register-with-a-gp-surgery/
 // Apigee Integration environment ('apikey' required in Header)
-// https://int.api.service.nhs.uk/nhs-website-content-api/nhs-services/gps/how-to-register-with-a-gp-surgery/
+// https://int.api.service.nhs.uk/nhs-website-content/nhs-services/gps/how-to-register-with-a-gp-surgery/
 // Apigee Production environment ('apikey' required in Header)
-// https://api.service.nhs.uk/nhs-website-content-api/nhs-services/gps/how-to-register-with-a-gp-surgery/
+// https://api.service.nhs.uk/nhs-website-content/nhs-services/gps/how-to-register-with-a-gp-surgery/
 async function nhsServicesGpsHowToRegisterWithAGpSurgery(req, res, next) {
   res.status(200).json(nhsServicesGpsHowToRegisterWithAGpSurgeryResponse)
   res.end()
@@ -708,11 +708,11 @@ async function nhsServicesGpsHowToRegisterWithAGpSurgery(req, res, next) {
 // Wagtail (Python) Application (no auth key required)
 // https://api.nhs.uk/content-api/nhs-services/gps/
 // Apigee Sandbox environment (no auth key required)
-// https://sandbox.api.service.nhs.uk/nhs-website-content-api/nhs-services/gps/
+// https://sandbox.api.service.nhs.uk/nhs-website-content/nhs-services/gps/
 // Apigee Integration environment ('apikey' required in Header)
-// https://int.api.service.nhs.uk/nhs-website-content-api/nhs-services/gps/
+// https://int.api.service.nhs.uk/nhs-website-content/nhs-services/gps/
 // Apigee Production environment ('apikey' required in Header)
-// https://api.service.nhs.uk/nhs-website-content-api/nhs-services/gps/
+// https://api.service.nhs.uk/nhs-website-content/nhs-services/gps/
 async function nhsServicesGps(req, res, next) {
   res.status(200).json(nhsServicesGpsResponse)
   res.end()
@@ -728,11 +728,11 @@ async function nhsServicesGps(req, res, next) {
 // Wagtail (Python) Application (no auth key required)
 // https://api.nhs.uk/content-api/nhs-services/prescriptions-and-pharmacies/
 // Apigee Sandbox environment (no auth key required)
-// https://sandbox.api.service.nhs.uk/nhs-website-content-api/nhs-services/prescriptions-and-pharmacies/
+// https://sandbox.api.service.nhs.uk/nhs-website-content/nhs-services/prescriptions-and-pharmacies/
 // Apigee Integration environment ('apikey' required in Header)
-// https://int.api.service.nhs.uk/nhs-website-content-api/nhs-services/prescriptions-and-pharmacies/
+// https://int.api.service.nhs.uk/nhs-website-content/nhs-services/prescriptions-and-pharmacies/
 // Apigee Production environment ('apikey' required in Header)
-// https://api.service.nhs.uk/nhs-website-content-api/nhs-services/prescriptions-and-pharmacies/
+// https://api.service.nhs.uk/nhs-website-content/nhs-services/prescriptions-and-pharmacies/
 async function nhsServicesPrescriptionsAndPharmacies(req, res, next) {
   res.status(200).json(nhsServicesPrescriptionsAndPharmaciesResponse)
   res.end()
@@ -752,11 +752,11 @@ async function nhsServicesPrescriptionsAndPharmacies(req, res, next) {
 // Wagtail (Python) Application (no auth key required)
 // https://api.nhs.uk/content-api/pregnancy/
 // Apigee Sandbox environment (no auth key required)
-// https://sandbox.api.service.nhs.uk/nhs-website-content-api/pregnancy/
+// https://sandbox.api.service.nhs.uk/nhs-website-content/pregnancy/
 // Apigee Integration environment ('apikey' required in Header)
-// https://int.api.service.nhs.uk/nhs-website-content-api/pregnancy/
+// https://int.api.service.nhs.uk/nhs-website-content/pregnancy/
 // Apigee Production environment ('apikey' required in Header)
-// https://api.service.nhs.uk/nhs-website-content-api/pregnancy/
+// https://api.service.nhs.uk/nhs-website-content/pregnancy/
 async function pregnancyRoot(req, res, next) {
   res.status(200).json(pregnancyRootResponse)
   res.end()
@@ -772,11 +772,11 @@ async function pregnancyRoot(req, res, next) {
 // Wagtail (Python) Application (no auth key required)
 // https://api.nhs.uk/content-api/pregnancy/finding-out/finding-out-you-are-pregnant/
 // Apigee Sandbox environment (no auth key required)
-// https://sandbox.api.service.nhs.uk/nhs-website-content-api/pregnancy/finding-out/finding-out-you-are-pregnant/
+// https://sandbox.api.service.nhs.uk/nhs-website-content/pregnancy/finding-out/finding-out-you-are-pregnant/
 // Apigee Integration environment ('apikey' required in Header)
-// https://int.api.service.nhs.uk/nhs-website-content-api/pregnancy/finding-out/finding-out-you-are-pregnant/
+// https://int.api.service.nhs.uk/nhs-website-content/pregnancy/finding-out/finding-out-you-are-pregnant/
 // Apigee Production environment ('apikey' required in Header)
-// https://api.service.nhs.uk/nhs-website-content-api/pregnancy/finding-out/finding-out-you-are-pregnant/
+// https://api.service.nhs.uk/nhs-website-content/pregnancy/finding-out/finding-out-you-are-pregnant/
 async function pregnancyFindingOutFindingOutYouArePregnant(req, res, next) {
   res.status(200).json(pregnancyFindingOutFindingOutYouArePregnantResponse)
   res.end()
@@ -792,11 +792,11 @@ async function pregnancyFindingOutFindingOutYouArePregnant(req, res, next) {
 // Wagtail (Python) Application (no auth key required)
 // https://api.nhs.uk/content-api/pregnancy/having-a-baby-if-you-are-lgbt-plus/
 // Apigee Sandbox environment (no auth key required)
-// https://sandbox.api.service.nhs.uk/nhs-website-content-api/pregnancy/having-a-baby-if-you-are-lgbt-plus/
+// https://sandbox.api.service.nhs.uk/nhs-website-content/pregnancy/having-a-baby-if-you-are-lgbt-plus/
 // Apigee Integration environment ('apikey' required in Header)
-// https://int.api.service.nhs.uk/nhs-website-content-api/pregnancy/having-a-baby-if-you-are-lgbt-plus/
+// https://int.api.service.nhs.uk/nhs-website-content/pregnancy/having-a-baby-if-you-are-lgbt-plus/
 // Apigee Production environment ('apikey' required in Header)
-// https://api.service.nhs.uk/nhs-website-content-api/pregnancy/having-a-baby-if-you-are-lgbt-plus/
+// https://api.service.nhs.uk/nhs-website-content/pregnancy/having-a-baby-if-you-are-lgbt-plus/
 async function pregnancyHavingABabyIfYouAreLgbtPlus(req, res, next) {
   res.status(200).json(pregnancyHavingABabyIfYouAreLgbtPlusResponse)
   res.end()
@@ -812,11 +812,11 @@ async function pregnancyHavingABabyIfYouAreLgbtPlus(req, res, next) {
 // Wagtail (Python) Application (no auth key required)
 // https://api.nhs.uk/content-api/pregnancy/trying-for-a-baby/
 // Apigee Sandbox environment (no auth key required)
-// https://sandbox.api.service.nhs.uk/nhs-website-content-api/pregnancy/trying-for-a-baby/
+// https://sandbox.api.service.nhs.uk/nhs-website-content/pregnancy/trying-for-a-baby/
 // Apigee Integration environment ('apikey' required in Header)
-// https://int.api.service.nhs.uk/nhs-website-content-api/pregnancy/trying-for-a-baby/
+// https://int.api.service.nhs.uk/nhs-website-content/pregnancy/trying-for-a-baby/
 // Apigee Production environment ('apikey' required in Header)
-// https://api.service.nhs.uk/nhs-website-content-api/pregnancy/trying-for-a-baby/
+// https://api.service.nhs.uk/nhs-website-content/pregnancy/trying-for-a-baby/
 async function pregnancyTryingForABaby(req, res, next) {
   res.status(200).json(pregnancyTryingForABabyResponse)
   res.end()

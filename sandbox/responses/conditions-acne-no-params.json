@@ -13,7 +13,7 @@
   },
   "about": { "@type": "WebPage", "name": "Acne", "alternateName": "" },
   "description": "Acne is a common skin condition that affects most people at some point. It causes spots, oily skin and sometimes skin that's hot or painful to touch.",
-  "url": "https://api.nhs.uk/conditions/acne/",
+  "url": "https://api.service.nhs.uk/nhs-website-content/conditions/acne/",
   "genre": ["Condition"],
   "keywords": [],
   "dateModified": "2023-01-04T15:58:59+00:00",
@@ -25,19 +25,23 @@
       {
         "@type": "ListItem",
         "position": 0,
-        "item": { "@id": "https://api.nhs.uk/conditions/", "name": "Health A to Z", "genre": [] }
+        "item": { "@id": "https://api.service.nhs.uk/nhs-website-content/conditions/", "name": "Health A to Z", "genre": [] }
       },
       {
         "@type": "ListItem",
         "position": 1,
-        "item": { "@id": "https://api.nhs.uk/conditions/acne/", "name": "Acne", "genre": ["Condition"] }
+        "item": {
+          "@id": "https://api.service.nhs.uk/nhs-website-content/conditions/acne/",
+          "name": "Acne",
+          "genre": ["Condition"]
+        }
       }
     ]
   },
   "hasPart": [
     {
       "@type": "HealthTopicContent",
-      "url": "https://api.nhs.uk/conditions/acne/#symptoms",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/acne/#symptoms",
       "hasHealthAspect": "http://schema.org/SymptomsHealthAspect",
       "headline": "Symptoms of acne",
       "description": "The main symptoms of acne are spots on your face, back and chest. Your skin may be oily, or it may be hot or painful to touch.",
@@ -83,13 +87,13 @@
         {
           "@type": "WebPageElement",
           "headline": "Types of spots",
-          "text": "<p>There are 6 main types of spot caused by acne:</p><ul><li>blackheads\u00a0\u2013\u00a0small black or yellowish bumps that develop on the skin;\u00a0they're not filled with dirt, but are black because the inner lining of the hair follicle produces colour</li><li>whiteheads\u00a0\u2013 have a similar appearance to blackheads, but\u00a0may be firmer and will not empty when squeezed</li><li>papules \u2013\u00a0small red bumps that may feel tender or sore</li><li>pustules \u2013\u00a0similar to papules, but have a white tip in the centre, caused by a build-up of pus</li><li>nodules \u2013\u00a0large hard lumps that build up beneath the surface of the skin and can be\u00a0painful</li><li>cysts \u2013\u00a0the most severe type of spot caused by acne; they're large pus-filled lumps that look similar to <a href=\"https://api.nhs.uk/conditions/boils/\">boils</a>\u00a0and carry the greatest risk of causing permanent <a href=\"https://api.nhs.uk/conditions/scars/\">scarring</a></li></ul>"
+          "text": "<p>There are 6 main types of spot caused by acne:</p><ul><li>blackheads\u00a0\u2013\u00a0small black or yellowish bumps that develop on the skin;\u00a0they're not filled with dirt, but are black because the inner lining of the hair follicle produces colour</li><li>whiteheads\u00a0\u2013 have a similar appearance to blackheads, but\u00a0may be firmer and will not empty when squeezed</li><li>papules \u2013\u00a0small red bumps that may feel tender or sore</li><li>pustules \u2013\u00a0similar to papules, but have a white tip in the centre, caused by a build-up of pus</li><li>nodules \u2013\u00a0large hard lumps that build up beneath the surface of the skin and can be\u00a0painful</li><li>cysts \u2013\u00a0the most severe type of spot caused by acne; they're large pus-filled lumps that look similar to <a href=\"https://api.service.nhs.uk/nhs-website-content/conditions/boils/\">boils</a>\u00a0and carry the greatest risk of causing permanent <a href=\"https://api.service.nhs.uk/nhs-website-content/conditions/scars/\">scarring</a></li></ul>"
         }
       ]
     },
     {
       "@type": "HealthTopicContent",
-      "url": "https://api.nhs.uk/conditions/acne/#self-care",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/acne/#self-care",
       "hasHealthAspect": "http://schema.org/SelfCareHealthAspect",
       "headline": "Things you can try if you have acne",
       "description": "You can often treat acne with creams and gels bought from a pharmacy. If your acne is severe, a GP may prescribe stronger medicines or antibiotics.",
@@ -97,13 +101,13 @@
         {
           "@type": "WebPageElement",
           "headline": "",
-          "text": "<p>These self-help techniques may be useful:</p><ul><li>Do not wash affected areas of skin more than twice a day. Frequent washing can irritate the skin and make symptoms worse.</li><li>Wash the affected area with\u00a0a mild soap or cleanser and lukewarm water. Very hot or cold water can make acne worse.</li><li>Do not try to \"clean out\" blackheads or squeeze spots.\u00a0This can make them worse and cause permanent <a href=\"https://api.nhs.uk/conditions/scars/\">scarring</a>.</li><li>Avoid make-up, skincare and suncare products that are oil-based (sometimes labelled \u201ccomedogenic\u201d). Use water-based non-comedogenic products, as they\u2019re less likely to block the pores in your skin.</li><li>Completely remove make-up before going to bed.</li><li>If dry skin is a problem, use a fragrance-free water-based <a href=\"https://api.nhs.uk/conditions/emollients/\">emollient</a>.</li><li>Regular exercise cannot improve your acne, but it can boost your mood and improve your self-esteem.\u00a0Shower as soon as possible once you finish exercising as sweat can irritate your acne.</li><li>Wash your hair regularly\u00a0and try to avoid letting\u00a0your hair fall across your face.</li></ul><p>Although acne cannot be cured, it can be controlled with treatment.</p><p>If you develop <a href=\"https://api.nhs.uk/conditions/acne/diagnosis/\">mild acne</a>, it's a good idea to speak to a pharmacist for advice.</p><p>Several creams, lotions and gels\u00a0for treating spots are available to buy from pharmacies.</p><p>Products containing a low concentration of benzoyl peroxide may be recommended, but be careful as this can bleach clothing.</p><p>If your acne is severe or appears on your chest and back,\u00a0it may need to be treated with\u00a0<a href=\"https://api.nhs.uk/conditions/antibiotics/\">antibiotics</a> or stronger creams that are only\u00a0available on prescription.</p>"
+          "text": "<p>These self-help techniques may be useful:</p><ul><li>Do not wash affected areas of skin more than twice a day. Frequent washing can irritate the skin and make symptoms worse.</li><li>Wash the affected area with\u00a0a mild soap or cleanser and lukewarm water. Very hot or cold water can make acne worse.</li><li>Do not try to \"clean out\" blackheads or squeeze spots.\u00a0This can make them worse and cause permanent <a href=\"https://api.service.nhs.uk/nhs-website-content/conditions/scars/\">scarring</a>.</li><li>Avoid make-up, skincare and suncare products that are oil-based (sometimes labelled \u201ccomedogenic\u201d). Use water-based non-comedogenic products, as they\u2019re less likely to block the pores in your skin.</li><li>Completely remove make-up before going to bed.</li><li>If dry skin is a problem, use a fragrance-free water-based <a href=\"https://api.service.nhs.uk/nhs-website-content/conditions/emollients/\">emollient</a>.</li><li>Regular exercise cannot improve your acne, but it can boost your mood and improve your self-esteem.\u00a0Shower as soon as possible once you finish exercising as sweat can irritate your acne.</li><li>Wash your hair regularly\u00a0and try to avoid letting\u00a0your hair fall across your face.</li></ul><p>Although acne cannot be cured, it can be controlled with treatment.</p><p>If you develop <a href=\"https://api.service.nhs.uk/nhs-website-content/conditions/acne/diagnosis/\">mild acne</a>, it's a good idea to speak to a pharmacist for advice.</p><p>Several creams, lotions and gels\u00a0for treating spots are available to buy from pharmacies.</p><p>Products containing a low concentration of benzoyl peroxide may be recommended, but be careful as this can bleach clothing.</p><p>If your acne is severe or appears on your chest and back,\u00a0it may need to be treated with\u00a0<a href=\"https://api.service.nhs.uk/nhs-website-content/conditions/antibiotics/\">antibiotics</a> or stronger creams that are only\u00a0available on prescription.</p>"
         }
       ]
     },
     {
       "@type": "HealthTopicContent",
-      "url": "https://api.nhs.uk/conditions/acne/#causes",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/acne/#causes",
       "hasHealthAspect": "http://schema.org/CausesHealthAspect",
       "headline": "Why do I have acne?",
       "description": "Acne is often linked to changes in hormone levels during puberty, but can start at any age. It's also known to run in families.",
@@ -117,7 +121,7 @@
     },
     {
       "@type": "HealthTopicContent",
-      "url": "https://api.nhs.uk/conditions/acne/#overview",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/acne/#overview",
       "hasHealthAspect": "http://schema.org/OverviewHealthAspect",
       "headline": "",
       "description": "Acne is a common skin condition that causes spots and oily skin.",
@@ -138,7 +142,7 @@
     },
     {
       "@type": "HealthTopicContent",
-      "url": "https://api.nhs.uk/conditions/acne/treatment/#medical-treatments",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/acne/treatment/#medical-treatments",
       "hasHealthAspect": "http://schema.org/TreatmentsHealthAspect",
       "headline": "Treatments from a GP",
       "description": "You can often treat acne with creams and gels bought from a pharmacy. If your acne is severe, a GP may prescribe stronger medicines or antibiotics.",
@@ -146,7 +150,7 @@
         {
           "@type": "WebPageElement",
           "headline": "",
-          "text": "<p>See a GP if your acne is <a href=\"https://api.nhs.uk/conditions/acne/diagnosis/\">moderate or severe</a>,\u00a0or medicine from your pharmacy has not worked, as you probably need prescription medicine.</p><p>Prescription medicines that can be used to treat acne include:</p><ul><li>topical retinoids</li><li>topical\u00a0<a href=\"https://api.nhs.uk/conditions/antibiotics/\">antibiotics</a></li><li>azelaic acid</li><li>antibiotic tablets</li><li>in women, the <a href=\"https://api.nhs.uk/conditions/contraception/combined-contraceptive-pill/\">combined oral contraceptive pill</a></li></ul><p>If you have severe acne, or prescription medicines are not working, your GP can refer you to an expert in treating skin conditions (dermatologist).</p><p>For example, if:</p><ul><li>you have a large number of papules and pustules on your chest and back, as well as your face</li><li>you have painful nodules</li><li>you have scarring, or are at risk of scarring</li><li>your condition is making you feel very low or anxious</li></ul><p>For mild to moderate or moderate to severe acne, you\u2019ll usually be started on a combination of topical treatments, or antibiotic tablets combined with topical treatments.</p><p>Hormonal therapies or the combined oral contraceptive pill can also be effective in women who have acne.</p><p>But the\u00a0<a href=\"https://api.nhs.uk/conditions/contraception/the-pill-progestogen-only/\">progestogen-only pill</a> or\u00a0<a href=\"https://api.nhs.uk/conditions/contraception/contraceptive-implant/\">contraceptive implant</a> can sometimes make acne worse.</p><p>Many of these treatments can take 2 to 3 months before they start to work.</p><p>It's important to be patient and persist with a recommended treatment, even if\u00a0there's no immediate effect.</p>"
+          "text": "<p>See a GP if your acne is <a href=\"https://api.service.nhs.uk/nhs-website-content/conditions/acne/diagnosis/\">moderate or severe</a>,\u00a0or medicine from your pharmacy has not worked, as you probably need prescription medicine.</p><p>Prescription medicines that can be used to treat acne include:</p><ul><li>topical retinoids</li><li>topical\u00a0<a href=\"https://api.service.nhs.uk/nhs-website-content/conditions/antibiotics/\">antibiotics</a></li><li>azelaic acid</li><li>antibiotic tablets</li><li>in women, the <a href=\"https://api.service.nhs.uk/nhs-website-content/conditions/contraception/combined-contraceptive-pill/\">combined oral contraceptive pill</a></li></ul><p>If you have severe acne, or prescription medicines are not working, your GP can refer you to an expert in treating skin conditions (dermatologist).</p><p>For example, if:</p><ul><li>you have a large number of papules and pustules on your chest and back, as well as your face</li><li>you have painful nodules</li><li>you have scarring, or are at risk of scarring</li><li>your condition is making you feel very low or anxious</li></ul><p>For mild to moderate or moderate to severe acne, you\u2019ll usually be started on a combination of topical treatments, or antibiotic tablets combined with topical treatments.</p><p>Hormonal therapies or the combined oral contraceptive pill can also be effective in women who have acne.</p><p>But the\u00a0<a href=\"https://api.service.nhs.uk/nhs-website-content/conditions/contraception/the-pill-progestogen-only/\">progestogen-only pill</a> or\u00a0<a href=\"https://api.service.nhs.uk/nhs-website-content/conditions/contraception/contraceptive-implant/\">contraceptive implant</a> can sometimes make acne worse.</p><p>Many of these treatments can take 2 to 3 months before they start to work.</p><p>It's important to be patient and persist with a recommended treatment, even if\u00a0there's no immediate effect.</p>"
         }
       ]
     }
@@ -154,7 +158,7 @@
   "relatedLink": [
     {
       "@type": "LinkRole",
-      "url": "https://api.nhs.uk/conditions/acne/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/acne/",
       "linkRelationship": "Navigation",
       "position": 0,
       "name": "Acne",
@@ -162,28 +166,28 @@
     },
     {
       "@type": "LinkRole",
-      "url": "https://api.nhs.uk/conditions/acne/causes/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/acne/causes/",
       "linkRelationship": "Navigation",
       "position": 1,
       "name": "Causes"
     },
     {
       "@type": "LinkRole",
-      "url": "https://api.nhs.uk/conditions/acne/diagnosis/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/acne/diagnosis/",
       "linkRelationship": "Navigation",
       "position": 2,
       "name": "Diagnosis"
     },
     {
       "@type": "LinkRole",
-      "url": "https://api.nhs.uk/conditions/acne/treatment/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/acne/treatment/",
       "linkRelationship": "Navigation",
       "position": 3,
       "name": "Treatment"
     },
     {
       "@type": "LinkRole",
-      "url": "https://api.nhs.uk/conditions/acne/complications/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/acne/complications/",
       "linkRelationship": "Navigation",
       "position": 4,
       "name": "Complications"
@@ -264,7 +268,7 @@
         {
           "position": 2,
           "identifier": "1",
-          "text": "<p>There are 6 main types of spot caused by acne:</p><ul><li>blackheads\u00a0\u2013\u00a0small black or yellowish bumps that develop on the skin;\u00a0they're not filled with dirt, but are black because the inner lining of the hair follicle produces colour</li><li>whiteheads\u00a0\u2013 have a similar appearance to blackheads, but\u00a0may be firmer and will not empty when squeezed</li><li>papules \u2013\u00a0small red bumps that may feel tender or sore</li><li>pustules \u2013\u00a0similar to papules, but have a white tip in the centre, caused by a build-up of pus</li><li>nodules \u2013\u00a0large hard lumps that build up beneath the surface of the skin and can be\u00a0painful</li><li>cysts \u2013\u00a0the most severe type of spot caused by acne; they're large pus-filled lumps that look similar to <a href=\"https://api.nhs.uk/conditions/boils/\">boils</a>\u00a0and carry the greatest risk of causing permanent <a href=\"https://api.nhs.uk/conditions/scars/\">scarring</a></li></ul>",
+          "text": "<p>There are 6 main types of spot caused by acne:</p><ul><li>blackheads\u00a0\u2013\u00a0small black or yellowish bumps that develop on the skin;\u00a0they're not filled with dirt, but are black because the inner lining of the hair follicle produces colour</li><li>whiteheads\u00a0\u2013 have a similar appearance to blackheads, but\u00a0may be firmer and will not empty when squeezed</li><li>papules \u2013\u00a0small red bumps that may feel tender or sore</li><li>pustules \u2013\u00a0similar to papules, but have a white tip in the centre, caused by a build-up of pus</li><li>nodules \u2013\u00a0large hard lumps that build up beneath the surface of the skin and can be\u00a0painful</li><li>cysts \u2013\u00a0the most severe type of spot caused by acne; they're large pus-filled lumps that look similar to <a href=\"https://api.service.nhs.uk/nhs-website-content/conditions/boils/\">boils</a>\u00a0and carry the greatest risk of causing permanent <a href=\"https://api.service.nhs.uk/nhs-website-content/conditions/scars/\">scarring</a></li></ul>",
           "@type": "WebPageElement",
           "name": "markdown",
           "headline": "Types of spots"
@@ -312,7 +316,7 @@
         {
           "position": 2,
           "identifier": "1",
-          "text": "<p>There are 6 main types of spot caused by acne:</p><ul><li>blackheads\u00a0\u2013\u00a0small black or yellowish bumps that develop on the skin;\u00a0they're not filled with dirt, but are black because the inner lining of the hair follicle produces colour</li><li>whiteheads\u00a0\u2013 have a similar appearance to blackheads, but\u00a0may be firmer and will not empty when squeezed</li><li>papules \u2013\u00a0small red bumps that may feel tender or sore</li><li>pustules \u2013\u00a0similar to papules, but have a white tip in the centre, caused by a build-up of pus</li><li>nodules \u2013\u00a0large hard lumps that build up beneath the surface of the skin and can be\u00a0painful</li><li>cysts \u2013\u00a0the most severe type of spot caused by acne; they're large pus-filled lumps that look similar to <a href=\"https://api.nhs.uk/conditions/boils/\">boils</a>\u00a0and carry the greatest risk of causing permanent <a href=\"https://api.nhs.uk/conditions/scars/\">scarring</a></li></ul>",
+          "text": "<p>There are 6 main types of spot caused by acne:</p><ul><li>blackheads\u00a0\u2013\u00a0small black or yellowish bumps that develop on the skin;\u00a0they're not filled with dirt, but are black because the inner lining of the hair follicle produces colour</li><li>whiteheads\u00a0\u2013 have a similar appearance to blackheads, but\u00a0may be firmer and will not empty when squeezed</li><li>papules \u2013\u00a0small red bumps that may feel tender or sore</li><li>pustules \u2013\u00a0similar to papules, but have a white tip in the centre, caused by a build-up of pus</li><li>nodules \u2013\u00a0large hard lumps that build up beneath the surface of the skin and can be\u00a0painful</li><li>cysts \u2013\u00a0the most severe type of spot caused by acne; they're large pus-filled lumps that look similar to <a href=\"https://api.service.nhs.uk/nhs-website-content/conditions/boils/\">boils</a>\u00a0and carry the greatest risk of causing permanent <a href=\"https://api.service.nhs.uk/nhs-website-content/conditions/scars/\">scarring</a></li></ul>",
           "@type": "WebPageElement",
           "name": "markdown",
           "headline": "Types of spots"
@@ -330,7 +334,7 @@
         {
           "position": 0,
           "identifier": "1",
-          "text": "<p>These self-help techniques may be useful:</p><ul><li>Do not wash affected areas of skin more than twice a day. Frequent washing can irritate the skin and make symptoms worse.</li><li>Wash the affected area with\u00a0a mild soap or cleanser and lukewarm water. Very hot or cold water can make acne worse.</li><li>Do not try to \"clean out\" blackheads or squeeze spots.\u00a0This can make them worse and cause permanent <a href=\"https://api.nhs.uk/conditions/scars/\">scarring</a>.</li><li>Avoid make-up, skincare and suncare products that are oil-based (sometimes labelled \u201ccomedogenic\u201d). Use water-based non-comedogenic products, as they\u2019re less likely to block the pores in your skin.</li><li>Completely remove make-up before going to bed.</li><li>If dry skin is a problem, use a fragrance-free water-based <a href=\"https://api.nhs.uk/conditions/emollients/\">emollient</a>.</li><li>Regular exercise cannot improve your acne, but it can boost your mood and improve your self-esteem.\u00a0Shower as soon as possible once you finish exercising as sweat can irritate your acne.</li><li>Wash your hair regularly\u00a0and try to avoid letting\u00a0your hair fall across your face.</li></ul><p>Although acne cannot be cured, it can be controlled with treatment.</p><p>If you develop <a href=\"https://api.nhs.uk/conditions/acne/diagnosis/\">mild acne</a>, it's a good idea to speak to a pharmacist for advice.</p><p>Several creams, lotions and gels\u00a0for treating spots are available to buy from pharmacies.</p><p>Products containing a low concentration of benzoyl peroxide may be recommended, but be careful as this can bleach clothing.</p><p>If your acne is severe or appears on your chest and back,\u00a0it may need to be treated with\u00a0<a href=\"https://api.nhs.uk/conditions/antibiotics/\">antibiotics</a> or stronger creams that are only\u00a0available on prescription.</p>",
+          "text": "<p>These self-help techniques may be useful:</p><ul><li>Do not wash affected areas of skin more than twice a day. Frequent washing can irritate the skin and make symptoms worse.</li><li>Wash the affected area with\u00a0a mild soap or cleanser and lukewarm water. Very hot or cold water can make acne worse.</li><li>Do not try to \"clean out\" blackheads or squeeze spots.\u00a0This can make them worse and cause permanent <a href=\"https://api.service.nhs.uk/nhs-website-content/conditions/scars/\">scarring</a>.</li><li>Avoid make-up, skincare and suncare products that are oil-based (sometimes labelled \u201ccomedogenic\u201d). Use water-based non-comedogenic products, as they\u2019re less likely to block the pores in your skin.</li><li>Completely remove make-up before going to bed.</li><li>If dry skin is a problem, use a fragrance-free water-based <a href=\"https://api.service.nhs.uk/nhs-website-content/conditions/emollients/\">emollient</a>.</li><li>Regular exercise cannot improve your acne, but it can boost your mood and improve your self-esteem.\u00a0Shower as soon as possible once you finish exercising as sweat can irritate your acne.</li><li>Wash your hair regularly\u00a0and try to avoid letting\u00a0your hair fall across your face.</li></ul><p>Although acne cannot be cured, it can be controlled with treatment.</p><p>If you develop <a href=\"https://api.service.nhs.uk/nhs-website-content/conditions/acne/diagnosis/\">mild acne</a>, it's a good idea to speak to a pharmacist for advice.</p><p>Several creams, lotions and gels\u00a0for treating spots are available to buy from pharmacies.</p><p>Products containing a low concentration of benzoyl peroxide may be recommended, but be careful as this can bleach clothing.</p><p>If your acne is severe or appears on your chest and back,\u00a0it may need to be treated with\u00a0<a href=\"https://api.service.nhs.uk/nhs-website-content/conditions/antibiotics/\">antibiotics</a> or stronger creams that are only\u00a0available on prescription.</p>",
           "@type": "WebPageElement",
           "name": "markdown",
           "headline": ""
@@ -341,7 +345,7 @@
         {
           "position": 0,
           "identifier": "1",
-          "text": "<p>These self-help techniques may be useful:</p><ul><li>Do not wash affected areas of skin more than twice a day. Frequent washing can irritate the skin and make symptoms worse.</li><li>Wash the affected area with\u00a0a mild soap or cleanser and lukewarm water. Very hot or cold water can make acne worse.</li><li>Do not try to \"clean out\" blackheads or squeeze spots.\u00a0This can make them worse and cause permanent <a href=\"https://api.nhs.uk/conditions/scars/\">scarring</a>.</li><li>Avoid make-up, skincare and suncare products that are oil-based (sometimes labelled \u201ccomedogenic\u201d). Use water-based non-comedogenic products, as they\u2019re less likely to block the pores in your skin.</li><li>Completely remove make-up before going to bed.</li><li>If dry skin is a problem, use a fragrance-free water-based <a href=\"https://api.nhs.uk/conditions/emollients/\">emollient</a>.</li><li>Regular exercise cannot improve your acne, but it can boost your mood and improve your self-esteem.\u00a0Shower as soon as possible once you finish exercising as sweat can irritate your acne.</li><li>Wash your hair regularly\u00a0and try to avoid letting\u00a0your hair fall across your face.</li></ul><p>Although acne cannot be cured, it can be controlled with treatment.</p><p>If you develop <a href=\"https://api.nhs.uk/conditions/acne/diagnosis/\">mild acne</a>, it's a good idea to speak to a pharmacist for advice.</p><p>Several creams, lotions and gels\u00a0for treating spots are available to buy from pharmacies.</p><p>Products containing a low concentration of benzoyl peroxide may be recommended, but be careful as this can bleach clothing.</p><p>If your acne is severe or appears on your chest and back,\u00a0it may need to be treated with\u00a0<a href=\"https://api.nhs.uk/conditions/antibiotics/\">antibiotics</a> or stronger creams that are only\u00a0available on prescription.</p>",
+          "text": "<p>These self-help techniques may be useful:</p><ul><li>Do not wash affected areas of skin more than twice a day. Frequent washing can irritate the skin and make symptoms worse.</li><li>Wash the affected area with\u00a0a mild soap or cleanser and lukewarm water. Very hot or cold water can make acne worse.</li><li>Do not try to \"clean out\" blackheads or squeeze spots.\u00a0This can make them worse and cause permanent <a href=\"https://api.service.nhs.uk/nhs-website-content/conditions/scars/\">scarring</a>.</li><li>Avoid make-up, skincare and suncare products that are oil-based (sometimes labelled \u201ccomedogenic\u201d). Use water-based non-comedogenic products, as they\u2019re less likely to block the pores in your skin.</li><li>Completely remove make-up before going to bed.</li><li>If dry skin is a problem, use a fragrance-free water-based <a href=\"https://api.service.nhs.uk/nhs-website-content/conditions/emollients/\">emollient</a>.</li><li>Regular exercise cannot improve your acne, but it can boost your mood and improve your self-esteem.\u00a0Shower as soon as possible once you finish exercising as sweat can irritate your acne.</li><li>Wash your hair regularly\u00a0and try to avoid letting\u00a0your hair fall across your face.</li></ul><p>Although acne cannot be cured, it can be controlled with treatment.</p><p>If you develop <a href=\"https://api.service.nhs.uk/nhs-website-content/conditions/acne/diagnosis/\">mild acne</a>, it's a good idea to speak to a pharmacist for advice.</p><p>Several creams, lotions and gels\u00a0for treating spots are available to buy from pharmacies.</p><p>Products containing a low concentration of benzoyl peroxide may be recommended, but be careful as this can bleach clothing.</p><p>If your acne is severe or appears on your chest and back,\u00a0it may need to be treated with\u00a0<a href=\"https://api.service.nhs.uk/nhs-website-content/conditions/antibiotics/\">antibiotics</a> or stronger creams that are only\u00a0available on prescription.</p>",
           "@type": "WebPageElement",
           "name": "markdown",
           "headline": ""
@@ -359,7 +363,7 @@
         {
           "position": 0,
           "identifier": "1",
-          "text": "<p>If you have <a href=\"https://api.nhs.uk/conditions/acne/diagnosis/\">mild acne</a>, speak to a pharmacist about medicines to treat it.</p><p>If these do not control your acne, or it's making you feel very unhappy, see a GP.</p><p>You should see a GP if you have <a href=\"https://api.nhs.uk/conditions/acne/diagnosis/\">moderate or severe acne</a> or you develop nodules or cysts, as they need to be treated properly to avoid scarring.\u00a0</p><p>Try to resist the temptation to pick or squeeze the spots, as this can lead to permanent scarring.</p><p>Treatments can take several months to work, so do not expect results overnight. Once they do start to work, the results are usually good.</p>",
+          "text": "<p>If you have <a href=\"https://api.service.nhs.uk/nhs-website-content/conditions/acne/diagnosis/\">mild acne</a>, speak to a pharmacist about medicines to treat it.</p><p>If these do not control your acne, or it's making you feel very unhappy, see a GP.</p><p>You should see a GP if you have <a href=\"https://api.service.nhs.uk/nhs-website-content/conditions/acne/diagnosis/\">moderate or severe acne</a> or you develop nodules or cysts, as they need to be treated properly to avoid scarring.\u00a0</p><p>Try to resist the temptation to pick or squeeze the spots, as this can lead to permanent scarring.</p><p>Treatments can take several months to work, so do not expect results overnight. Once they do start to work, the results are usually good.</p>",
           "@type": "WebPageElement",
           "name": "markdown",
           "headline": "When to seek medical advice"
@@ -370,7 +374,7 @@
         {
           "position": 0,
           "identifier": "1",
-          "text": "<p>If you have <a href=\"https://api.nhs.uk/conditions/acne/diagnosis/\">mild acne</a>, speak to a pharmacist about medicines to treat it.</p><p>If these do not control your acne, or it's making you feel very unhappy, see a GP.</p><p>You should see a GP if you have <a href=\"https://api.nhs.uk/conditions/acne/diagnosis/\">moderate or severe acne</a> or you develop nodules or cysts, as they need to be treated properly to avoid scarring.\u00a0</p><p>Try to resist the temptation to pick or squeeze the spots, as this can lead to permanent scarring.</p><p>Treatments can take several months to work, so do not expect results overnight. Once they do start to work, the results are usually good.</p>",
+          "text": "<p>If you have <a href=\"https://api.service.nhs.uk/nhs-website-content/conditions/acne/diagnosis/\">mild acne</a>, speak to a pharmacist about medicines to treat it.</p><p>If these do not control your acne, or it's making you feel very unhappy, see a GP.</p><p>You should see a GP if you have <a href=\"https://api.service.nhs.uk/nhs-website-content/conditions/acne/diagnosis/\">moderate or severe acne</a> or you develop nodules or cysts, as they need to be treated properly to avoid scarring.\u00a0</p><p>Try to resist the temptation to pick or squeeze the spots, as this can lead to permanent scarring.</p><p>Treatments can take several months to work, so do not expect results overnight. Once they do start to work, the results are usually good.</p>",
           "@type": "WebPageElement",
           "name": "markdown",
           "headline": "When to seek medical advice"
