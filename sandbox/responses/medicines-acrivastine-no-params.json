@@ -1,0 +1,1250 @@
+{
+  "@context": "http://schema.org",
+  "@type": "MedicalWebPage",
+  "name": "Acrivastine",
+  "copyrightHolder": { "name": "Crown Copyright", "@type": "Organization" },
+  "license": "https://developer.api.nhs.uk/terms",
+  "author": {
+    "url": "https://www.nhs.uk",
+    "logo": "https://www.nhs.uk/nhscwebservices/documents/logo1.jpg",
+    "email": "nhswebsite.servicedesk@nhs.net",
+    "@type": "Organization",
+    "name": "NHS website"
+  },
+  "about": { "@type": "WebPage", "name": "Acrivastine", "alternateName": "" },
+  "description": "NHS medicines information on acrivastine (Benadryl) \u2013 what it's used for, side effects, dosage and who can take it",
+  "url": "https://api.nhs.uk/medicines/acrivastine/",
+  "genre": ["Medicine"],
+  "keywords": "",
+  "dateModified": "2023-06-16T13:38:10+00:00",
+  "lastReviewed": ["2021-10-13T13:39:00+00:00", "2024-10-13T13:39:00+00:00"],
+  "breadcrumb": {
+    "@context": "http://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 0,
+        "item": { "@id": "https://api.nhs.uk/medicines/", "name": "Medicines A to Z", "genre": [] }
+      },
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "item": { "@id": "https://api.nhs.uk/medicines/acrivastine/", "name": "Acrivastine", "genre": ["Medicine"] }
+      }
+    ]
+  },
+  "contentSubTypes": [],
+  "mainEntityOfPage": [
+    {
+      "identifier": "0",
+      "name": "section heading",
+      "position": 0,
+      "@type": "WebPageElement",
+      "mainEntityOfPage": [
+        {
+          "position": 0,
+          "identifier": "1",
+          "text": "<p>Acrivastine is an antihistamine medicine that helps the symptoms of allergies.</p><p>It's used to treat <a href=\"/conditions/hay-fever/\">hay fever</a>, <a href=\"/conditions/conjunctivitis/\">conjunctivitis</a> (red, itchy eyes), <a href=\"/conditions/atopic-eczema/\">eczema</a> and <a href=\"/conditions/hives/\">hives</a> (urticaria).</p><p>It's also used for reactions to <a href=\"/conditions/insect-bites-and-stings/\">insect bites and stings</a> and for some <a href=\"/conditions/food-allergy/\">food allergies</a>.</p><p>Acrivastine is known as a non-drowsy antihistamine. It's less likely to make you feel sleepy than some other antihistamines.</p><p>Acrivastine is available on prescription. You can also buy it from pharmacies and supermarkets.</p><p>It comes as capsules. Sometimes it's combined with a decongestant called <a>pseudoephedrine</a> to unblock your nose and sinuses.</p>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": ""
+        }
+      ],
+      "description": "Acrivastine is an antihistamine and treats allergy symptoms such as hay fever. It's available on prescription, or in smaller packs from pharmacies.",
+      "hasPart": [
+        {
+          "position": 0,
+          "identifier": "1",
+          "text": "<p>Acrivastine is an antihistamine medicine that helps the symptoms of allergies.</p><p>It's used to treat <a href=\"/conditions/hay-fever/\">hay fever</a>, <a href=\"/conditions/conjunctivitis/\">conjunctivitis</a> (red, itchy eyes), <a href=\"/conditions/atopic-eczema/\">eczema</a> and <a href=\"/conditions/hives/\">hives</a> (urticaria).</p><p>It's also used for reactions to <a href=\"/conditions/insect-bites-and-stings/\">insect bites and stings</a> and for some <a href=\"/conditions/food-allergy/\">food allergies</a>.</p><p>Acrivastine is known as a non-drowsy antihistamine. It's less likely to make you feel sleepy than some other antihistamines.</p><p>Acrivastine is available on prescription. You can also buy it from pharmacies and supermarkets.</p><p>It comes as capsules. Sometimes it's combined with a decongestant called <a>pseudoephedrine</a> to unblock your nose and sinuses.</p>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": ""
+        }
+      ],
+      "hasHealthAspect": "http://schema.org/OverviewHealthAspect",
+      "headline": "About acrivastine"
+    },
+    {
+      "identifier": "0",
+      "name": "section heading",
+      "position": 1,
+      "@type": "WebPageElement",
+      "mainEntityOfPage": [],
+      "description": "",
+      "hasPart": []
+    },
+    {
+      "identifier": "0",
+      "name": "section heading",
+      "position": 2,
+      "@type": "WebPageElement",
+      "mainEntityOfPage": [
+        {
+          "position": 0,
+          "identifier": "1",
+          "text": "<ul><li>It's usual to take acrivastine as you need it, up to 3 times a day.</li><li>Acrivastine is classed as non-drowsy antihistamine, but some people still find it makes them feel quite sleepy.</li><li>Common side effects include a dry mouth and dizziness.</li><li>Do not drink grapefruit juice while you're taking acrivastine \u2013 it might make you more likely to get side effects.</li><li>It's best not to drink alcohol while you're taking acrivastine as it can make you feel sleepy.</li><li>When acrivastine is mixed with pseudoephedrine, it's called Benadryl Allergy Relief Plus Decongestant. Some Benadryl products do not contain acrivastine, but a different antihistamine such as <a href=\"https://api.nhs.uk/medicines/cetirizine/\">cetirizine</a>.</li></ul>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": ""
+        }
+      ],
+      "description": "",
+      "hasPart": [
+        {
+          "position": 0,
+          "identifier": "1",
+          "text": "<ul><li>It's usual to take acrivastine as you need it, up to 3 times a day.</li><li>Acrivastine is classed as non-drowsy antihistamine, but some people still find it makes them feel quite sleepy.</li><li>Common side effects include a dry mouth and dizziness.</li><li>Do not drink grapefruit juice while you're taking acrivastine \u2013 it might make you more likely to get side effects.</li><li>It's best not to drink alcohol while you're taking acrivastine as it can make you feel sleepy.</li><li>When acrivastine is mixed with pseudoephedrine, it's called Benadryl Allergy Relief Plus Decongestant. Some Benadryl products do not contain acrivastine, but a different antihistamine such as <a href=\"https://api.nhs.uk/medicines/cetirizine/\">cetirizine</a>.</li></ul>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": ""
+        }
+      ],
+      "headline": "Key facts"
+    },
+    {
+      "identifier": "0",
+      "name": "section heading",
+      "position": 3,
+      "@type": "WebPageElement",
+      "mainEntityOfPage": [
+        {
+          "position": 0,
+          "identifier": "1",
+          "text": "<p>Acrivastine capsules that you buy from pharmacies and supermarkets can be taken by adults under the age of 65, and children aged 12 years and over.</p><p>Acrivastine is not recommended for people over 65 because very little research on the medicine has been done in this age group.</p><p>Talk to your pharmacist or doctor if you're over 65 and want to take acrivastine.</p><p>Acrivastine is not suitable for some people. To make sure it's safe for you, tell your doctor or pharmacist if you:</p><ul><li>have ever had an allergic reaction to acrivastine or any other medicine</li><li>have kidney disease</li><li>have <a href=\"/conditions/epilepsy/\">epilepsy</a> or another health problem that puts you at risk of seizures or fits</li><li>have a rare illness called porphyria</li><li>are due to have an allergy test \u2013 taking acrivastine may affect the results, so you might need to stop taking it a few days before the test</li></ul>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": ""
+        }
+      ],
+      "description": "Most adults under 65 and children aged 12 and over can take acrivastine. But always check before taking it, as it's not suitable for everyone.",
+      "hasPart": [
+        {
+          "position": 0,
+          "identifier": "1",
+          "text": "<p>Acrivastine capsules that you buy from pharmacies and supermarkets can be taken by adults under the age of 65, and children aged 12 years and over.</p><p>Acrivastine is not recommended for people over 65 because very little research on the medicine has been done in this age group.</p><p>Talk to your pharmacist or doctor if you're over 65 and want to take acrivastine.</p><p>Acrivastine is not suitable for some people. To make sure it's safe for you, tell your doctor or pharmacist if you:</p><ul><li>have ever had an allergic reaction to acrivastine or any other medicine</li><li>have kidney disease</li><li>have <a href=\"/conditions/epilepsy/\">epilepsy</a> or another health problem that puts you at risk of seizures or fits</li><li>have a rare illness called porphyria</li><li>are due to have an allergy test \u2013 taking acrivastine may affect the results, so you might need to stop taking it a few days before the test</li></ul>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": ""
+        }
+      ],
+      "hasHealthAspect": "http://schema.org/SuitabilityHealthAspect",
+      "headline": "Who can and cannot take acrivastine"
+    },
+    {
+      "identifier": "0",
+      "name": "section heading",
+      "position": 4,
+      "@type": "WebPageElement",
+      "mainEntityOfPage": [
+        {
+          "position": 0,
+          "identifier": "1",
+          "text": "<p>If you or your child have been prescribed acrivastine, follow your doctor's instructions about how and when to take it.</p><p>If you bought acrivastine from a pharmacy or shop, follow the instructions that come with the packet.</p><h3>Dosage</h3><p>Acrivastine comes as capsules (8mg). The usual dose in adults and children aged 12 and over is 1 capsule 3 times a day.</p><p>When it's mixed with a decongestant, each capsule contains 8mg of acrivastine and 60mg of pseudoephedrine. The usual dose in adults and children aged 12 and over is 1 capsule 3 times a day.</p><p>Do not take more than 3 acrivastine capsules, or 3 acrivastine mixed with pseudoephedrine capsules, in 24 hours.</p><h3>How to take it</h3><p>Acrivastine does not usually upset your stomach. You can take it with or without food.</p><p>Swallow the capsules whole. Do not chew them.</p><p>Always take acrivastine capsules with a drink of water, milk or juice (but do not drink grapefruit juice with acrivastine as you may be more likely to get side effects).</p><h3>When to take it</h3><p>You may only need to take acrivastine on a day you have symptoms, such as when you've been near to something you're allergic to, like animal hair.</p><p>Or you may need to take it regularly to prevent symptoms, such as to stop hay fever during spring and summer.</p><h3>What if I forget to take it?</h3><p>Take your forgotten dose as soon as you remember, unless it's nearly time for your next dose. In this case, skip the missed dose and take your next dose at the usual time.</p><p>Do not take 2 doses to make up for a forgotten dose. Do not take more than 3 capsules in 24 hours.</p><p>If you often forget doses, it may help to set an alarm to remind you. You could also ask your pharmacist for advice on other ways to help you remember to take your medicine.</p><h3>What if I take too much?</h3><p>Acrivastine is generally very safe. Taking more than your prescribed dose is unlikely to harm you. If you take an extra dose, you might get some of the common side effects.</p><p>If this happens or you're concerned, contact your doctor.</p>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": ""
+        },
+        {
+          "position": 1,
+          "@type": "WebPageElement",
+          "name": "urgent",
+          "identifier": "5",
+          "text": "<h4>Contact 111 for advice now if:</h4><div class=\"block-richtext\">\n<ul><li>you take more than your usual dose of acrivastine and pseudoephedrine (Benadryl Allergy Relief Plus Decongestant) and experience side effects</li></ul><p>These include:</p><ul><li>getting the shakes</li><li>changes in your heart rate</li></ul><p>Go to <a href=\"https://111.nhs.uk/\">111.nhs.uk</a> or call <a href=\"tel:111\">111</a></p>\n</div>"
+        },
+        {
+          "position": 2,
+          "identifier": "1",
+          "text": "<p>If you need to go to <a href=\"https://www.nhs.uk/service-search/find-an-accident-and-emergency-service\">A&amp;E</a>, do not drive yourself. Get someone else to drive you or call for an ambulance.</p><p>Take the acrivastine packet, or the leaflet inside it, plus any remaining medicine with you.</p>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": ""
+        }
+      ],
+      "description": "Acrivastine comes as capsules that you usually take 3 times a day. Follow the instructions that come with your medicine.",
+      "hasPart": [
+        {
+          "position": 0,
+          "identifier": "1",
+          "text": "<p>If you or your child have been prescribed acrivastine, follow your doctor's instructions about how and when to take it.</p><p>If you bought acrivastine from a pharmacy or shop, follow the instructions that come with the packet.</p><h3>Dosage</h3><p>Acrivastine comes as capsules (8mg). The usual dose in adults and children aged 12 and over is 1 capsule 3 times a day.</p><p>When it's mixed with a decongestant, each capsule contains 8mg of acrivastine and 60mg of pseudoephedrine. The usual dose in adults and children aged 12 and over is 1 capsule 3 times a day.</p><p>Do not take more than 3 acrivastine capsules, or 3 acrivastine mixed with pseudoephedrine capsules, in 24 hours.</p><h3>How to take it</h3><p>Acrivastine does not usually upset your stomach. You can take it with or without food.</p><p>Swallow the capsules whole. Do not chew them.</p><p>Always take acrivastine capsules with a drink of water, milk or juice (but do not drink grapefruit juice with acrivastine as you may be more likely to get side effects).</p><h3>When to take it</h3><p>You may only need to take acrivastine on a day you have symptoms, such as when you've been near to something you're allergic to, like animal hair.</p><p>Or you may need to take it regularly to prevent symptoms, such as to stop hay fever during spring and summer.</p><h3>What if I forget to take it?</h3><p>Take your forgotten dose as soon as you remember, unless it's nearly time for your next dose. In this case, skip the missed dose and take your next dose at the usual time.</p><p>Do not take 2 doses to make up for a forgotten dose. Do not take more than 3 capsules in 24 hours.</p><p>If you often forget doses, it may help to set an alarm to remind you. You could also ask your pharmacist for advice on other ways to help you remember to take your medicine.</p><h3>What if I take too much?</h3><p>Acrivastine is generally very safe. Taking more than your prescribed dose is unlikely to harm you. If you take an extra dose, you might get some of the common side effects.</p><p>If this happens or you're concerned, contact your doctor.</p>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": ""
+        },
+        {
+          "position": 1,
+          "@type": "WebPageElement",
+          "name": "urgent",
+          "identifier": "5",
+          "text": "<h4>Contact 111 for advice now if:</h4><div class=\"block-richtext\">\n<ul><li>you take more than your usual dose of acrivastine and pseudoephedrine (Benadryl Allergy Relief Plus Decongestant) and experience side effects</li></ul><p>These include:</p><ul><li>getting the shakes</li><li>changes in your heart rate</li></ul><p>Go to <a href=\"https://111.nhs.uk/\">111.nhs.uk</a> or call <a href=\"tel:111\">111</a></p>\n</div>"
+        },
+        {
+          "position": 2,
+          "identifier": "1",
+          "text": "<p>If you need to go to <a href=\"https://www.nhs.uk/service-search/find-an-accident-and-emergency-service\">A&amp;E</a>, do not drive yourself. Get someone else to drive you or call for an ambulance.</p><p>Take the acrivastine packet, or the leaflet inside it, plus any remaining medicine with you.</p>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": ""
+        }
+      ],
+      "hasHealthAspect": "http://schema.org/UsageOrScheduleHealthAspect",
+      "headline": "How and when to take acrivastine"
+    },
+    {
+      "identifier": "0",
+      "name": "section heading",
+      "position": 5,
+      "@type": "WebPageElement",
+      "mainEntityOfPage": [
+        {
+          "position": 0,
+          "identifier": "1",
+          "text": "<p>Like all medicines, acrivastine can cause side effects, although not everyone gets them.</p><h3>Common side effects</h3><p>There are some differences between the side effects of medicines that only contain acrivastine, and medicines that combine acrivastine with <a>pseudoephedrine</a>.</p><p>The most common side effect of acrivastine is feeling sleepy and tired. This happens in more than 1 in 10 people.</p><p>Other common side effects of acrivastine happen in more than 1 in 100 people. These include:</p><ul><li>dry mouth</li><li>feeling dizzy</li></ul><p>Talk to your doctor or pharmacist if these side effects bother you or do not go away.</p><p>The common side effects of acrivastine when mixed with pseudoephedrine happen in more than 1 in 100 people. They include:</p><ul><li>difficulty sleeping</li><li>feeling sick (nausea)</li><li>headaches</li><li>feeling nervous</li><li>difficulty peeing (for men), especially those with an <a href=\"/conditions/prostate-enlargement/\">enlarged prostate</a></li></ul><p>If you experience any of these, stop taking it and talk to your doctor or pharmacist about trying an acrivastine-only medicine.</p><h3>Serious side effects</h3><p>Call a doctor straight away if:</p><ul><li>you start seeing things that are not there (<a href=\"/mental-health/feelings-symptoms-behaviours/feelings-and-symptoms/hallucinations-hearing-voices/\">hallucinations</a>)</li><li>you get a rash</li><li>you get pain or discomfort in the chest, neck, back or shoulders \u2013 these could be signs of <a href=\"/conditions/angina/\">angina</a>, or a <a href=\"/conditions/heart-attack/\">heart attack</a></li><li>your skin gets more red than usual or you get small, pus-filled blisters on the skin \u2013 these could be signs of a condition called acute generalised exanthematous pustulosis (AGEP). This usually happens within the first 2 days of treatment</li><li>you get sudden stomach pains or start bleeding from your bottom (rectal bleeding)</li><li>you suddenly cannot see properly</li></ul>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": ""
+        },
+        {
+          "position": 1,
+          "@type": "WebPageElement",
+          "name": "immediate",
+          "identifier": "5",
+          "text": "<h4>Call 999 or go to A&amp;E now if:</h4><div class=\"block-richtext\">\n<ul><li>you have weakness of the face, arms or legs, or speech problems \u2013 these could be signs of a stroke</li></ul>\n</div>"
+        },
+        {
+          "position": 2,
+          "identifier": "1",
+          "text": "<p>In rare cases, it's possible to have a serious allergic reaction (<a href=\"/conditions/anaphylaxis/\">anaphylaxis</a>) to acrivastine.</p>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": "Serious allergic reaction"
+        },
+        {
+          "position": 4,
+          "identifier": "1",
+          "text": "<p>These are not all the side effects of acrivastine. For a full list, see the leaflet inside your medicines packet.</p>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": ""
+        }
+      ],
+      "description": "Common side effects of acrivastine include feeling sleepy, a dry mouth and feeling dizzy. More serious side effects can happen in rare cases.",
+      "hasPart": [
+        {
+          "position": 0,
+          "identifier": "1",
+          "text": "<p>Like all medicines, acrivastine can cause side effects, although not everyone gets them.</p><h3>Common side effects</h3><p>There are some differences between the side effects of medicines that only contain acrivastine, and medicines that combine acrivastine with <a>pseudoephedrine</a>.</p><p>The most common side effect of acrivastine is feeling sleepy and tired. This happens in more than 1 in 10 people.</p><p>Other common side effects of acrivastine happen in more than 1 in 100 people. These include:</p><ul><li>dry mouth</li><li>feeling dizzy</li></ul><p>Talk to your doctor or pharmacist if these side effects bother you or do not go away.</p><p>The common side effects of acrivastine when mixed with pseudoephedrine happen in more than 1 in 100 people. They include:</p><ul><li>difficulty sleeping</li><li>feeling sick (nausea)</li><li>headaches</li><li>feeling nervous</li><li>difficulty peeing (for men), especially those with an <a href=\"/conditions/prostate-enlargement/\">enlarged prostate</a></li></ul><p>If you experience any of these, stop taking it and talk to your doctor or pharmacist about trying an acrivastine-only medicine.</p><h3>Serious side effects</h3><p>Call a doctor straight away if:</p><ul><li>you start seeing things that are not there (<a href=\"/mental-health/feelings-symptoms-behaviours/feelings-and-symptoms/hallucinations-hearing-voices/\">hallucinations</a>)</li><li>you get a rash</li><li>you get pain or discomfort in the chest, neck, back or shoulders \u2013 these could be signs of <a href=\"/conditions/angina/\">angina</a>, or a <a href=\"/conditions/heart-attack/\">heart attack</a></li><li>your skin gets more red than usual or you get small, pus-filled blisters on the skin \u2013 these could be signs of a condition called acute generalised exanthematous pustulosis (AGEP). This usually happens within the first 2 days of treatment</li><li>you get sudden stomach pains or start bleeding from your bottom (rectal bleeding)</li><li>you suddenly cannot see properly</li></ul>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": ""
+        },
+        {
+          "position": 1,
+          "@type": "WebPageElement",
+          "name": "immediate",
+          "identifier": "5",
+          "text": "<h4>Call 999 or go to A&amp;E now if:</h4><div class=\"block-richtext\">\n<ul><li>you have weakness of the face, arms or legs, or speech problems \u2013 these could be signs of a stroke</li></ul>\n</div>"
+        },
+        {
+          "position": 2,
+          "identifier": "1",
+          "text": "<p>In rare cases, it's possible to have a serious allergic reaction (<a href=\"/conditions/anaphylaxis/\">anaphylaxis</a>) to acrivastine.</p>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": "Serious allergic reaction"
+        },
+        {
+          "position": 4,
+          "identifier": "1",
+          "text": "<p>These are not all the side effects of acrivastine. For a full list, see the leaflet inside your medicines packet.</p>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": ""
+        }
+      ],
+      "hasHealthAspect": "http://schema.org/SideEffectsHealthAspect",
+      "headline": "Side effects"
+    },
+    {
+      "identifier": "0",
+      "name": "section heading",
+      "position": 6,
+      "@type": "WebPageElement",
+      "mainEntityOfPage": [],
+      "description": "",
+      "hasPart": []
+    },
+    {
+      "identifier": "0",
+      "name": "section heading",
+      "position": 7,
+      "@type": "WebPageElement",
+      "mainEntityOfPage": [
+        {
+          "position": 0,
+          "identifier": "1",
+          "text": "<p><b>What to do about:</b></p><ul><li><b>feeling sleepy</b> \u2013 try a different non-drowsy antihistamine. If this does not help, talk to your doctor.</li><li><b>dry mouth</b> \u2013 chew sugar-free gum or suck sugar-free sweets.</li><li><b>feeling dizzy</b> \u2013 lie down until the dizziness passes, then get up slowly. Move slowly and carefully. It's best to avoid coffee, cigarettes, alcohol and recreational drugs. If the dizziness does not get better within a couple of days, speak to your pharmacist or doctor.</li></ul>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": ""
+        }
+      ],
+      "description": "There are things you can do to help cope with the side effects of acrivastine. For example, sugar-free gum or sweets can help with a dry mouth.",
+      "hasPart": [
+        {
+          "position": 0,
+          "identifier": "1",
+          "text": "<p><b>What to do about:</b></p><ul><li><b>feeling sleepy</b> \u2013 try a different non-drowsy antihistamine. If this does not help, talk to your doctor.</li><li><b>dry mouth</b> \u2013 chew sugar-free gum or suck sugar-free sweets.</li><li><b>feeling dizzy</b> \u2013 lie down until the dizziness passes, then get up slowly. Move slowly and carefully. It's best to avoid coffee, cigarettes, alcohol and recreational drugs. If the dizziness does not get better within a couple of days, speak to your pharmacist or doctor.</li></ul>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": ""
+        }
+      ],
+      "hasHealthAspect": "http://schema.org/LivingWithHealthAspect",
+      "headline": "How to cope with side effects of acrivastine"
+    },
+    {
+      "identifier": "0",
+      "name": "section heading",
+      "position": 8,
+      "@type": "WebPageElement",
+      "mainEntityOfPage": [
+        {
+          "position": 0,
+          "identifier": "1",
+          "text": "<p>Acrivastine is not usually recommended during pregnancy because there is very little information about its use in pregnancy. Other antihistamines that we know more about may be more suitable.</p><p>If you think you need to take acrivastine in pregnancy, talk to your doctor or pharmacist. They will be able to help you decide, or may suggest other medicines for you.</p><h3>Acrivastine and breastfeeding</h3><p>If your doctor or health visitor says your baby is healthy, you can use acrivastine while breastfeeding, but it is better to take occasional doses or only for a short time.</p><p>We do not know how much acrivastine gets into breast milk, so it is better to take an antihistamine which we know more about.</p><p>If you're breastfeeding, or planning to breastfeed, talk to your doctor. They may prescribe similar antihistamines, called <a href=\"https://api.nhs.uk/medicines/loratadine/\">loratadine</a> or <a href=\"https://api.nhs.uk/medicines/cetirizine/\">cetirizine</a>, that are more suitable while you're breastfeeding.</p><p>Talk to your doctor, pharmacist, midwife or health visitor if your baby is not feeding as well as usual, seems unusually sleepy, seems irritable, or if you have any other concerns about your baby.</p>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": "Acrivastine and pregnancy"
+        }
+      ],
+      "description": "Acrivastine is not usually recommended during pregnancy or when breastfeeding. Check with a pharmacist or doctor before taking it.",
+      "hasPart": [
+        {
+          "position": 0,
+          "identifier": "1",
+          "text": "<p>Acrivastine is not usually recommended during pregnancy because there is very little information about its use in pregnancy. Other antihistamines that we know more about may be more suitable.</p><p>If you think you need to take acrivastine in pregnancy, talk to your doctor or pharmacist. They will be able to help you decide, or may suggest other medicines for you.</p><h3>Acrivastine and breastfeeding</h3><p>If your doctor or health visitor says your baby is healthy, you can use acrivastine while breastfeeding, but it is better to take occasional doses or only for a short time.</p><p>We do not know how much acrivastine gets into breast milk, so it is better to take an antihistamine which we know more about.</p><p>If you're breastfeeding, or planning to breastfeed, talk to your doctor. They may prescribe similar antihistamines, called <a href=\"https://api.nhs.uk/medicines/loratadine/\">loratadine</a> or <a href=\"https://api.nhs.uk/medicines/cetirizine/\">cetirizine</a>, that are more suitable while you're breastfeeding.</p><p>Talk to your doctor, pharmacist, midwife or health visitor if your baby is not feeding as well as usual, seems unusually sleepy, seems irritable, or if you have any other concerns about your baby.</p>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": "Acrivastine and pregnancy"
+        }
+      ],
+      "hasHealthAspect": "http://schema.org/PregnancyHealthAspect",
+      "headline": "Pregnancy and breastfeeding"
+    },
+    {
+      "identifier": "0",
+      "name": "section heading",
+      "position": 9,
+      "@type": "WebPageElement",
+      "mainEntityOfPage": [
+        {
+          "position": 0,
+          "identifier": "1",
+          "text": "<p>Some medicines affect how acrivastine works or can increase the chances of you having side effects.</p><p>Check with your pharmacist or doctor if you're taking:</p><ul><li><a href=\"https://api.nhs.uk/medicines/ketoconazole/\">ketoconazole</a>, a medicine to treat fungal infections</li><li><a href=\"https://api.nhs.uk/medicines/erythromycin/\">erythromycin</a>, an antibiotic</li><li>any medicine that makes you sleepy, gives you a dry mouth, or makes it difficult for you to pee \u2013 taking acrivastine might make these side effects worse</li></ul><p>Acrivastine mixed with <a>pseudoephedrine</a> (Benadryl Allergy Relief Plus Decongestant) affects lots of medicines. Check with your pharmacist or doctor before you take it.</p><h3>Mixing acrivastine with herbal remedies and supplements</h3><p>There might be a problem taking some <a href=\"/conditions/herbal-medicines/\">herbal remedies</a> and supplements alongside acrivastine, especially ones that cause sleepiness, a dry mouth, or make it difficult to pee.</p><p>Ask your pharmacist for advice.</p>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": ""
+        }
+      ],
+      "description": "Taking acrivastine with other medicines, herbal remedies, vitamins or supplements can cause problems. Check with a pharmacist or doctor.",
+      "hasPart": [
+        {
+          "position": 0,
+          "identifier": "1",
+          "text": "<p>Some medicines affect how acrivastine works or can increase the chances of you having side effects.</p><p>Check with your pharmacist or doctor if you're taking:</p><ul><li><a href=\"https://api.nhs.uk/medicines/ketoconazole/\">ketoconazole</a>, a medicine to treat fungal infections</li><li><a href=\"https://api.nhs.uk/medicines/erythromycin/\">erythromycin</a>, an antibiotic</li><li>any medicine that makes you sleepy, gives you a dry mouth, or makes it difficult for you to pee \u2013 taking acrivastine might make these side effects worse</li></ul><p>Acrivastine mixed with <a>pseudoephedrine</a> (Benadryl Allergy Relief Plus Decongestant) affects lots of medicines. Check with your pharmacist or doctor before you take it.</p><h3>Mixing acrivastine with herbal remedies and supplements</h3><p>There might be a problem taking some <a href=\"/conditions/herbal-medicines/\">herbal remedies</a> and supplements alongside acrivastine, especially ones that cause sleepiness, a dry mouth, or make it difficult to pee.</p><p>Ask your pharmacist for advice.</p>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": ""
+        }
+      ],
+      "hasHealthAspect": "http://schema.org/InteractionsHealthAspect",
+      "headline": "Cautions with other medicines"
+    },
+    {
+      "identifier": "0",
+      "name": "section heading",
+      "position": 10,
+      "@type": "WebPageElement",
+      "mainEntityOfPage": [
+        {
+          "position": 0,
+          "@type": "Question",
+          "name": "chq",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "mainEntity": [
+              {
+                "position": 0,
+                "identifier": "1",
+                "text": "<p>Acrivastine is a type of medicine called an <a href=\"/conditions/antihistamines/\">antihistamine</a>.</p><p>When you come into contact with something you're allergic to, such as pollen, animal hair or if you're bitten or stung by an insect, your body produces a chemical called histamine.</p><p>Usually histamine is a useful substance, but in an allergic reaction it causes unpleasant symptoms including itchy, watery eyes, a running or blocked nose, sneezing and skin rashes.</p><p>Acrivastine blocks the effects of histamine and reduces these symptoms.</p>",
+                "@type": "WebPageElement",
+                "name": "markdown",
+                "headline": ""
+              }
+            ]
+          },
+          "text": "How does acrivastine work?",
+          "identifier": "12"
+        },
+        {
+          "position": 1,
+          "@type": "Question",
+          "name": "chq",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "mainEntity": [
+              {
+                "position": 0,
+                "identifier": "1",
+                "text": "<p>You should start to feel better within 1 to 2 hours of taking acrivastine.</p>",
+                "@type": "WebPageElement",
+                "name": "markdown",
+                "headline": ""
+              }
+            ]
+          },
+          "text": "When will I feel better?",
+          "identifier": "12"
+        },
+        {
+          "position": 2,
+          "@type": "Question",
+          "name": "chq",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "mainEntity": [
+              {
+                "position": 0,
+                "identifier": "1",
+                "text": "<p>It depends on why you're taking acrivastine.</p><p>You may only need to take it as a one-off dose or for 1 or 2 days \u2013 for example, if you have a reaction to an insect bite.</p><p>You may need to take acrivastine for longer if you're taking it to prevent symptoms \u2013 for example, to stop hay fever when the pollen count is high.</p><p>Talk to your doctor or pharmacist if you're unsure how long you need to take acrivastine for.</p>",
+                "@type": "WebPageElement",
+                "name": "markdown",
+                "headline": ""
+              }
+            ]
+          },
+          "text": "How long should I take acrivastine for?",
+          "identifier": "12"
+        },
+        {
+          "position": 3,
+          "@type": "Question",
+          "name": "chq",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "mainEntity": [
+              {
+                "position": 0,
+                "identifier": "1",
+                "text": "<p>Acrivastine is unlikely to do you any harm if you take it for a long time. But it's best to take it only for as long as you need to.</p>",
+                "@type": "WebPageElement",
+                "name": "markdown",
+                "headline": ""
+              }
+            ]
+          },
+          "text": "Is it safe to take acrivastine for a long time?",
+          "identifier": "12"
+        },
+        {
+          "position": 4,
+          "@type": "Question",
+          "name": "chq",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "mainEntity": [
+              {
+                "position": 0,
+                "identifier": "1",
+                "text": "<p>It's best not to drink alcohol while you're taking acrivastine as it can make you feel sleepy.</p>",
+                "@type": "WebPageElement",
+                "name": "markdown",
+                "headline": ""
+              }
+            ]
+          },
+          "text": "Can I drink alcohol with it?",
+          "identifier": "12"
+        },
+        {
+          "position": 5,
+          "@type": "Question",
+          "name": "chq",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "mainEntity": [
+              {
+                "position": 0,
+                "identifier": "1",
+                "text": "<p>Do not drink grapefruit juice when you're taking acrivastine. It might make you more likely to have side effects.</p>",
+                "@type": "WebPageElement",
+                "name": "markdown",
+                "headline": ""
+              }
+            ]
+          },
+          "text": "Is there any food or drink I need to avoid?",
+          "identifier": "12"
+        },
+        {
+          "position": 6,
+          "@type": "Question",
+          "name": "chq",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "mainEntity": [
+              {
+                "position": 0,
+                "identifier": "1",
+                "text": "<p>Acrivastine is classed as a non-drowsy antihistamine, but it's still possible to feel sleepy after taking it.</p><p>If this happens to you, do not drive a car, ride a bike or operate machinery until you feel awake and not tired anymore.</p><p>It's an offence to drive a car if your ability to drive safely is affected. It's your responsibility to decide if it's safe to drive. If you're in any doubt, do not drive.</p><p>Talk to your doctor or pharmacist if you're unsure whether it's safe for you to drive while taking acrivastine. <a href=\"https://www.gov.uk/drug-driving-law\">GOV.UK has more information on the law on drugs and driving</a>.</p>",
+                "@type": "WebPageElement",
+                "name": "markdown",
+                "headline": ""
+              }
+            ]
+          },
+          "text": "Can I drive or ride a bike with it?",
+          "identifier": "12"
+        },
+        {
+          "position": 7,
+          "@type": "Question",
+          "name": "chq",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "mainEntity": [
+              {
+                "position": 0,
+                "identifier": "1",
+                "text": "<p>Do not use acrivastine to help you sleep. It's not meant to be used this way and probably will not work either.</p><p>If you take the recommended dose, acrivastine causes little or no sleepiness in most people.</p><p>If you do feel sleepy after taking acrivastine, it usually wears off after a few days of treatment.</p><p>Speak to your doctor if you're having difficulty sleeping.</p>",
+                "@type": "WebPageElement",
+                "name": "markdown",
+                "headline": ""
+              }
+            ]
+          },
+          "text": "Can I use acrivastine to help me sleep?",
+          "identifier": "12"
+        },
+        {
+          "position": 8,
+          "@type": "Question",
+          "name": "chq",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "mainEntity": [
+              {
+                "position": 0,
+                "identifier": "1",
+                "text": "<p>There's no evidence that acrivastine makes you put on weight.</p>",
+                "@type": "WebPageElement",
+                "name": "markdown",
+                "headline": ""
+              }
+            ]
+          },
+          "text": "Does acrivastine make you put on weight?",
+          "identifier": "12"
+        },
+        {
+          "position": 9,
+          "@type": "Question",
+          "name": "chq",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "mainEntity": [
+              {
+                "position": 0,
+                "identifier": "1",
+                "text": "<p>Acrivastine is known as a non-drowsy antihistamine. That's because it's less likely to make you feel sleepy than other so-called sedating antihistamines, such as <a href=\"https://api.nhs.uk/medicines/chlorphenamine-including-piriton/\">Piriton (chlorphenamine)</a>.</p><p>Most people prefer to take a non-drowsy antihistamine instead of a sedating one.</p><p>An exception is when you want the medicine to make you sleepy \u2013 for example, if you have itchy skin that's keeping you awake.</p>",
+                "@type": "WebPageElement",
+                "name": "markdown",
+                "headline": ""
+              }
+            ]
+          },
+          "text": "What's the difference between acrivastine and other antihistamines?",
+          "identifier": "12"
+        },
+        {
+          "position": 10,
+          "@type": "Question",
+          "name": "chq",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "mainEntity": [
+              {
+                "position": 0,
+                "identifier": "1",
+                "text": "<p>Other non-drowsy antihistamines like <a href=\"https://api.nhs.uk/medicines/cetirizine/\">cetirizine</a>, <a href=\"https://api.nhs.uk/medicines/loratadine/\">loratadine</a>, desloratadine, <a href=\"https://api.nhs.uk/medicines/fexofenadine/\">fexofenadine</a> and levocetirizine seem to work just as well as acrivastine.</p><p>But you need to take acrivastine 3 times a day, whereas other non-drowsy antihistamines are only taken once a day.</p><p>If one non-drowsy antihistamine has not worked for you, it's worth trying another one.</p>",
+                "@type": "WebPageElement",
+                "name": "markdown",
+                "headline": ""
+              }
+            ]
+          },
+          "text": "What's the difference between acrivastine and other non-drowsy antihistamines?",
+          "identifier": "12"
+        },
+        {
+          "position": 11,
+          "@type": "Question",
+          "name": "chq",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "mainEntity": [
+              {
+                "position": 0,
+                "identifier": "1",
+                "text": "<p>Yes, you can take acrivastine together with <a href=\"https://api.nhs.uk/medicines/paracetamol-for-adults/\">paracetamol</a> or <a href=\"https://api.nhs.uk/medicines/ibuprofen-for-adults/\">ibuprofen</a>.</p>",
+                "@type": "WebPageElement",
+                "name": "markdown",
+                "headline": ""
+              }
+            ]
+          },
+          "text": "Can I take it with painkillers?",
+          "identifier": "12"
+        },
+        {
+          "position": 12,
+          "@type": "Question",
+          "name": "chq",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "mainEntity": [
+              {
+                "position": 0,
+                "identifier": "1",
+                "text": "<p>Sometimes doctors recommend that people with a severe itchy skin rash take 2 different antihistamines together for a few days.</p><p>As well as taking a non-drowsy antihistamine during the day (such as acrivastine, <a href=\"https://api.nhs.uk/medicines/cetirizine/\">cetirizine</a> or <a href=\"https://api.nhs.uk/medicines/loratadine/\">loratadine</a>), your doctor may advise that you take a sedating antihistamine at night if the itching is making it difficult to sleep.</p><p>Do not take 2 antihistamines together unless you have been advised to by your doctor.</p>",
+                "@type": "WebPageElement",
+                "name": "markdown",
+                "headline": ""
+              }
+            ]
+          },
+          "text": "Can I take more than 1 type of antihistamine in the same day?",
+          "identifier": "12"
+        },
+        {
+          "position": 13,
+          "@type": "Question",
+          "name": "chq",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "mainEntity": [
+              {
+                "position": 0,
+                "identifier": "1",
+                "text": "<p>Yes, it's fine to take acrivastine together with some other hay fever treatments \u2013 for example, steroid nasal sprays (such as Beconase, Rhinocort Aqua and Flixonase Nasules) or eye drops.</p>",
+                "@type": "WebPageElement",
+                "name": "markdown",
+                "headline": ""
+              }
+            ]
+          },
+          "text": "Can I take acrivastine with other hay fever treatments?",
+          "identifier": "12"
+        },
+        {
+          "position": 14,
+          "@type": "Question",
+          "name": "chq",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "mainEntity": [
+              {
+                "position": 0,
+                "identifier": "1",
+                "text": "<p>There's no evidence to suggest that taking acrivastine will reduce fertility in either men or women.</p><p>But speak to a pharmacist or your doctor before taking it if you're trying to get pregnant.</p>",
+                "@type": "WebPageElement",
+                "name": "markdown",
+                "headline": ""
+              }
+            ]
+          },
+          "text": "Will it affect my fertility?",
+          "identifier": "12"
+        },
+        {
+          "position": 15,
+          "@type": "Question",
+          "name": "chq",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "mainEntity": [
+              {
+                "position": 0,
+                "identifier": "1",
+                "text": "<p>Acrivastine does not affect any type of contraception, including the <a href=\"/conditions/contraception/combined-contraceptive-pill/\">combined pill</a> and <a href=\"/conditions/contraception/emergency-contraception/\">emergency contraception</a>.</p>",
+                "@type": "WebPageElement",
+                "name": "markdown",
+                "headline": ""
+              }
+            ]
+          },
+          "text": "Will it affect my contraception?",
+          "identifier": "12"
+        },
+        {
+          "position": 16,
+          "@type": "Question",
+          "name": "chq",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "mainEntity": [
+              {
+                "position": 0,
+                "identifier": "1",
+                "text": "<p>It'll help if you don't spend too much time outside if the pollen count is high.</p><h3>Tips for when you're outside</h3><ul><li>Do not cut grass or walk on grass.</li><li>Wear wraparound sunglasses to stop pollen getting into your eyes.</li><li>Put Vaseline around your nostrils to help trap pollen.</li><li>Shower and change your clothes after you have been outside to wash off pollen.</li></ul><h3>Tips for when you're inside</h3><ul><li>Keep windows and doors shut as much as possible.</li><li>Vacuum regularly and dust with a damp cloth.</li><li>Do not keep fresh flowers in the house.</li><li>Do not smoke or be around smoke as it makes hay fever symptoms worse.</li></ul>",
+                "@type": "WebPageElement",
+                "name": "markdown",
+                "headline": ""
+              }
+            ]
+          },
+          "text": "Can lifestyle changes relieve hay fever?",
+          "identifier": "12"
+        }
+      ],
+      "description": "",
+      "hasPart": [
+        {
+          "position": 0,
+          "@type": "Question",
+          "name": "chq",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "mainEntity": [
+              {
+                "position": 0,
+                "identifier": "1",
+                "text": "<p>Acrivastine is a type of medicine called an <a href=\"/conditions/antihistamines/\">antihistamine</a>.</p><p>When you come into contact with something you're allergic to, such as pollen, animal hair or if you're bitten or stung by an insect, your body produces a chemical called histamine.</p><p>Usually histamine is a useful substance, but in an allergic reaction it causes unpleasant symptoms including itchy, watery eyes, a running or blocked nose, sneezing and skin rashes.</p><p>Acrivastine blocks the effects of histamine and reduces these symptoms.</p>",
+                "@type": "WebPageElement",
+                "name": "markdown",
+                "headline": ""
+              }
+            ]
+          },
+          "text": "How does acrivastine work?",
+          "identifier": "12"
+        },
+        {
+          "position": 1,
+          "@type": "Question",
+          "name": "chq",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "mainEntity": [
+              {
+                "position": 0,
+                "identifier": "1",
+                "text": "<p>You should start to feel better within 1 to 2 hours of taking acrivastine.</p>",
+                "@type": "WebPageElement",
+                "name": "markdown",
+                "headline": ""
+              }
+            ]
+          },
+          "text": "When will I feel better?",
+          "identifier": "12"
+        },
+        {
+          "position": 2,
+          "@type": "Question",
+          "name": "chq",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "mainEntity": [
+              {
+                "position": 0,
+                "identifier": "1",
+                "text": "<p>It depends on why you're taking acrivastine.</p><p>You may only need to take it as a one-off dose or for 1 or 2 days \u2013 for example, if you have a reaction to an insect bite.</p><p>You may need to take acrivastine for longer if you're taking it to prevent symptoms \u2013 for example, to stop hay fever when the pollen count is high.</p><p>Talk to your doctor or pharmacist if you're unsure how long you need to take acrivastine for.</p>",
+                "@type": "WebPageElement",
+                "name": "markdown",
+                "headline": ""
+              }
+            ]
+          },
+          "text": "How long should I take acrivastine for?",
+          "identifier": "12"
+        },
+        {
+          "position": 3,
+          "@type": "Question",
+          "name": "chq",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "mainEntity": [
+              {
+                "position": 0,
+                "identifier": "1",
+                "text": "<p>Acrivastine is unlikely to do you any harm if you take it for a long time. But it's best to take it only for as long as you need to.</p>",
+                "@type": "WebPageElement",
+                "name": "markdown",
+                "headline": ""
+              }
+            ]
+          },
+          "text": "Is it safe to take acrivastine for a long time?",
+          "identifier": "12"
+        },
+        {
+          "position": 4,
+          "@type": "Question",
+          "name": "chq",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "mainEntity": [
+              {
+                "position": 0,
+                "identifier": "1",
+                "text": "<p>It's best not to drink alcohol while you're taking acrivastine as it can make you feel sleepy.</p>",
+                "@type": "WebPageElement",
+                "name": "markdown",
+                "headline": ""
+              }
+            ]
+          },
+          "text": "Can I drink alcohol with it?",
+          "identifier": "12"
+        },
+        {
+          "position": 5,
+          "@type": "Question",
+          "name": "chq",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "mainEntity": [
+              {
+                "position": 0,
+                "identifier": "1",
+                "text": "<p>Do not drink grapefruit juice when you're taking acrivastine. It might make you more likely to have side effects.</p>",
+                "@type": "WebPageElement",
+                "name": "markdown",
+                "headline": ""
+              }
+            ]
+          },
+          "text": "Is there any food or drink I need to avoid?",
+          "identifier": "12"
+        },
+        {
+          "position": 6,
+          "@type": "Question",
+          "name": "chq",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "mainEntity": [
+              {
+                "position": 0,
+                "identifier": "1",
+                "text": "<p>Acrivastine is classed as a non-drowsy antihistamine, but it's still possible to feel sleepy after taking it.</p><p>If this happens to you, do not drive a car, ride a bike or operate machinery until you feel awake and not tired anymore.</p><p>It's an offence to drive a car if your ability to drive safely is affected. It's your responsibility to decide if it's safe to drive. If you're in any doubt, do not drive.</p><p>Talk to your doctor or pharmacist if you're unsure whether it's safe for you to drive while taking acrivastine. <a href=\"https://www.gov.uk/drug-driving-law\">GOV.UK has more information on the law on drugs and driving</a>.</p>",
+                "@type": "WebPageElement",
+                "name": "markdown",
+                "headline": ""
+              }
+            ]
+          },
+          "text": "Can I drive or ride a bike with it?",
+          "identifier": "12"
+        },
+        {
+          "position": 7,
+          "@type": "Question",
+          "name": "chq",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "mainEntity": [
+              {
+                "position": 0,
+                "identifier": "1",
+                "text": "<p>Do not use acrivastine to help you sleep. It's not meant to be used this way and probably will not work either.</p><p>If you take the recommended dose, acrivastine causes little or no sleepiness in most people.</p><p>If you do feel sleepy after taking acrivastine, it usually wears off after a few days of treatment.</p><p>Speak to your doctor if you're having difficulty sleeping.</p>",
+                "@type": "WebPageElement",
+                "name": "markdown",
+                "headline": ""
+              }
+            ]
+          },
+          "text": "Can I use acrivastine to help me sleep?",
+          "identifier": "12"
+        },
+        {
+          "position": 8,
+          "@type": "Question",
+          "name": "chq",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "mainEntity": [
+              {
+                "position": 0,
+                "identifier": "1",
+                "text": "<p>There's no evidence that acrivastine makes you put on weight.</p>",
+                "@type": "WebPageElement",
+                "name": "markdown",
+                "headline": ""
+              }
+            ]
+          },
+          "text": "Does acrivastine make you put on weight?",
+          "identifier": "12"
+        },
+        {
+          "position": 9,
+          "@type": "Question",
+          "name": "chq",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "mainEntity": [
+              {
+                "position": 0,
+                "identifier": "1",
+                "text": "<p>Acrivastine is known as a non-drowsy antihistamine. That's because it's less likely to make you feel sleepy than other so-called sedating antihistamines, such as <a href=\"https://api.nhs.uk/medicines/chlorphenamine-including-piriton/\">Piriton (chlorphenamine)</a>.</p><p>Most people prefer to take a non-drowsy antihistamine instead of a sedating one.</p><p>An exception is when you want the medicine to make you sleepy \u2013 for example, if you have itchy skin that's keeping you awake.</p>",
+                "@type": "WebPageElement",
+                "name": "markdown",
+                "headline": ""
+              }
+            ]
+          },
+          "text": "What's the difference between acrivastine and other antihistamines?",
+          "identifier": "12"
+        },
+        {
+          "position": 10,
+          "@type": "Question",
+          "name": "chq",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "mainEntity": [
+              {
+                "position": 0,
+                "identifier": "1",
+                "text": "<p>Other non-drowsy antihistamines like <a href=\"https://api.nhs.uk/medicines/cetirizine/\">cetirizine</a>, <a href=\"https://api.nhs.uk/medicines/loratadine/\">loratadine</a>, desloratadine, <a href=\"https://api.nhs.uk/medicines/fexofenadine/\">fexofenadine</a> and levocetirizine seem to work just as well as acrivastine.</p><p>But you need to take acrivastine 3 times a day, whereas other non-drowsy antihistamines are only taken once a day.</p><p>If one non-drowsy antihistamine has not worked for you, it's worth trying another one.</p>",
+                "@type": "WebPageElement",
+                "name": "markdown",
+                "headline": ""
+              }
+            ]
+          },
+          "text": "What's the difference between acrivastine and other non-drowsy antihistamines?",
+          "identifier": "12"
+        },
+        {
+          "position": 11,
+          "@type": "Question",
+          "name": "chq",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "mainEntity": [
+              {
+                "position": 0,
+                "identifier": "1",
+                "text": "<p>Yes, you can take acrivastine together with <a href=\"https://api.nhs.uk/medicines/paracetamol-for-adults/\">paracetamol</a> or <a href=\"https://api.nhs.uk/medicines/ibuprofen-for-adults/\">ibuprofen</a>.</p>",
+                "@type": "WebPageElement",
+                "name": "markdown",
+                "headline": ""
+              }
+            ]
+          },
+          "text": "Can I take it with painkillers?",
+          "identifier": "12"
+        },
+        {
+          "position": 12,
+          "@type": "Question",
+          "name": "chq",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "mainEntity": [
+              {
+                "position": 0,
+                "identifier": "1",
+                "text": "<p>Sometimes doctors recommend that people with a severe itchy skin rash take 2 different antihistamines together for a few days.</p><p>As well as taking a non-drowsy antihistamine during the day (such as acrivastine, <a href=\"https://api.nhs.uk/medicines/cetirizine/\">cetirizine</a> or <a href=\"https://api.nhs.uk/medicines/loratadine/\">loratadine</a>), your doctor may advise that you take a sedating antihistamine at night if the itching is making it difficult to sleep.</p><p>Do not take 2 antihistamines together unless you have been advised to by your doctor.</p>",
+                "@type": "WebPageElement",
+                "name": "markdown",
+                "headline": ""
+              }
+            ]
+          },
+          "text": "Can I take more than 1 type of antihistamine in the same day?",
+          "identifier": "12"
+        },
+        {
+          "position": 13,
+          "@type": "Question",
+          "name": "chq",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "mainEntity": [
+              {
+                "position": 0,
+                "identifier": "1",
+                "text": "<p>Yes, it's fine to take acrivastine together with some other hay fever treatments \u2013 for example, steroid nasal sprays (such as Beconase, Rhinocort Aqua and Flixonase Nasules) or eye drops.</p>",
+                "@type": "WebPageElement",
+                "name": "markdown",
+                "headline": ""
+              }
+            ]
+          },
+          "text": "Can I take acrivastine with other hay fever treatments?",
+          "identifier": "12"
+        },
+        {
+          "position": 14,
+          "@type": "Question",
+          "name": "chq",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "mainEntity": [
+              {
+                "position": 0,
+                "identifier": "1",
+                "text": "<p>There's no evidence to suggest that taking acrivastine will reduce fertility in either men or women.</p><p>But speak to a pharmacist or your doctor before taking it if you're trying to get pregnant.</p>",
+                "@type": "WebPageElement",
+                "name": "markdown",
+                "headline": ""
+              }
+            ]
+          },
+          "text": "Will it affect my fertility?",
+          "identifier": "12"
+        },
+        {
+          "position": 15,
+          "@type": "Question",
+          "name": "chq",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "mainEntity": [
+              {
+                "position": 0,
+                "identifier": "1",
+                "text": "<p>Acrivastine does not affect any type of contraception, including the <a href=\"/conditions/contraception/combined-contraceptive-pill/\">combined pill</a> and <a href=\"/conditions/contraception/emergency-contraception/\">emergency contraception</a>.</p>",
+                "@type": "WebPageElement",
+                "name": "markdown",
+                "headline": ""
+              }
+            ]
+          },
+          "text": "Will it affect my contraception?",
+          "identifier": "12"
+        },
+        {
+          "position": 16,
+          "@type": "Question",
+          "name": "chq",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "mainEntity": [
+              {
+                "position": 0,
+                "identifier": "1",
+                "text": "<p>It'll help if you don't spend too much time outside if the pollen count is high.</p><h3>Tips for when you're outside</h3><ul><li>Do not cut grass or walk on grass.</li><li>Wear wraparound sunglasses to stop pollen getting into your eyes.</li><li>Put Vaseline around your nostrils to help trap pollen.</li><li>Shower and change your clothes after you have been outside to wash off pollen.</li></ul><h3>Tips for when you're inside</h3><ul><li>Keep windows and doors shut as much as possible.</li><li>Vacuum regularly and dust with a damp cloth.</li><li>Do not keep fresh flowers in the house.</li><li>Do not smoke or be around smoke as it makes hay fever symptoms worse.</li></ul>",
+                "@type": "WebPageElement",
+                "name": "markdown",
+                "headline": ""
+              }
+            ]
+          },
+          "text": "Can lifestyle changes relieve hay fever?",
+          "identifier": "12"
+        }
+      ],
+      "headline": "Common questions about acrivastine"
+    }
+  ],
+  "hasPart": [
+    {
+      "@type": "HealthTopicContent",
+      "url": "https://api.nhs.uk/medicines/acrivastine/#overview",
+      "hasHealthAspect": "http://schema.org/OverviewHealthAspect",
+      "headline": "About acrivastine",
+      "description": "Acrivastine is an antihistamine and treats allergy symptoms such as hay fever. It's available on prescription, or in smaller packs from pharmacies.",
+      "hasPart": [
+        {
+          "@type": "WebPageElement",
+          "headline": "",
+          "text": "<p>Acrivastine is an antihistamine medicine that helps the symptoms of allergies.</p><p>It's used to treat <a href=\"/conditions/hay-fever/\">hay fever</a>, <a href=\"/conditions/conjunctivitis/\">conjunctivitis</a> (red, itchy eyes), <a href=\"/conditions/atopic-eczema/\">eczema</a> and <a href=\"/conditions/hives/\">hives</a> (urticaria).</p><p>It's also used for reactions to <a href=\"/conditions/insect-bites-and-stings/\">insect bites and stings</a> and for some <a href=\"/conditions/food-allergy/\">food allergies</a>.</p><p>Acrivastine is known as a non-drowsy antihistamine. It's less likely to make you feel sleepy than some other antihistamines.</p><p>Acrivastine is available on prescription. You can also buy it from pharmacies and supermarkets.</p><p>It comes as capsules. Sometimes it's combined with a decongestant called <a>pseudoephedrine</a> to unblock your nose and sinuses.</p>"
+        }
+      ]
+    },
+    {
+      "@type": "HealthTopicContent",
+      "url": "https://api.nhs.uk/medicines/acrivastine/#who-its-for",
+      "hasHealthAspect": "http://schema.org/SuitabilityHealthAspect",
+      "headline": "Who can and cannot take acrivastine",
+      "description": "Most adults under 65 and children aged 12 and over can take acrivastine. But always check before taking it, as it's not suitable for everyone.",
+      "hasPart": [
+        {
+          "@type": "WebPageElement",
+          "headline": "",
+          "text": "<p>Acrivastine capsules that you buy from pharmacies and supermarkets can be taken by adults under the age of 65, and children aged 12 years and over.</p><p>Acrivastine is not recommended for people over 65 because very little research on the medicine has been done in this age group.</p><p>Talk to your pharmacist or doctor if you're over 65 and want to take acrivastine.</p><p>Acrivastine is not suitable for some people. To make sure it's safe for you, tell your doctor or pharmacist if you:</p><ul><li>have ever had an allergic reaction to acrivastine or any other medicine</li><li>have kidney disease</li><li>have <a href=\"/conditions/epilepsy/\">epilepsy</a> or another health problem that puts you at risk of seizures or fits</li><li>have a rare illness called porphyria</li><li>are due to have an allergy test \u2013 taking acrivastine may affect the results, so you might need to stop taking it a few days before the test</li></ul>"
+        }
+      ]
+    },
+    {
+      "@type": "HealthTopicContent",
+      "url": "https://api.nhs.uk/medicines/acrivastine/#how-its-used-previously-dosage-and-administration",
+      "hasHealthAspect": "http://schema.org/UsageOrScheduleHealthAspect",
+      "headline": "How and when to take acrivastine",
+      "description": "Acrivastine comes as capsules that you usually take 3 times a day. Follow the instructions that come with your medicine.",
+      "hasPart": [
+        {
+          "@type": "WebPageElement",
+          "headline": "",
+          "text": "<p>If you or your child have been prescribed acrivastine, follow your doctor's instructions about how and when to take it.</p><p>If you bought acrivastine from a pharmacy or shop, follow the instructions that come with the packet.</p><h3>Dosage</h3><p>Acrivastine comes as capsules (8mg). The usual dose in adults and children aged 12 and over is 1 capsule 3 times a day.</p><p>When it's mixed with a decongestant, each capsule contains 8mg of acrivastine and 60mg of pseudoephedrine. The usual dose in adults and children aged 12 and over is 1 capsule 3 times a day.</p><p>Do not take more than 3 acrivastine capsules, or 3 acrivastine mixed with pseudoephedrine capsules, in 24 hours.</p><h3>How to take it</h3><p>Acrivastine does not usually upset your stomach. You can take it with or without food.</p><p>Swallow the capsules whole. Do not chew them.</p><p>Always take acrivastine capsules with a drink of water, milk or juice (but do not drink grapefruit juice with acrivastine as you may be more likely to get side effects).</p><h3>When to take it</h3><p>You may only need to take acrivastine on a day you have symptoms, such as when you've been near to something you're allergic to, like animal hair.</p><p>Or you may need to take it regularly to prevent symptoms, such as to stop hay fever during spring and summer.</p><h3>What if I forget to take it?</h3><p>Take your forgotten dose as soon as you remember, unless it's nearly time for your next dose. In this case, skip the missed dose and take your next dose at the usual time.</p><p>Do not take 2 doses to make up for a forgotten dose. Do not take more than 3 capsules in 24 hours.</p><p>If you often forget doses, it may help to set an alarm to remind you. You could also ask your pharmacist for advice on other ways to help you remember to take your medicine.</p><h3>What if I take too much?</h3><p>Acrivastine is generally very safe. Taking more than your prescribed dose is unlikely to harm you. If you take an extra dose, you might get some of the common side effects.</p><p>If this happens or you're concerned, contact your doctor.</p>"
+        },
+        {
+          "@type": "WebPageElement",
+          "identifier": "urgent",
+          "headline": "Contact 111 for advice now if:",
+          "text": "<ul>\n<li>\n  you take more than your usual dose of acrivastine and pseudoephedrine (Benadryl Allergy Relief Plus Decongestant) and experience side effects\n </li>\n</ul>\n<p>\n These include:\n</p>\n<ul>\n<li>\n  getting the shakes\n </li>\n<li>\n  changes in your heart rate\n </li>\n</ul>\n<p>\n Go to\n <a href=\"https://111.nhs.uk/\">\n  111.nhs.uk\n </a>\n or call\n <a href=\"tel:111\">\n  111\n </a>\n</p>\n"
+        },
+        {
+          "@type": "WebPageElement",
+          "headline": "",
+          "text": "<p>If you need to go to <a href=\"https://www.nhs.uk/service-search/find-an-accident-and-emergency-service\">A&amp;E</a>, do not drive yourself. Get someone else to drive you or call for an ambulance.</p><p>Take the acrivastine packet, or the leaflet inside it, plus any remaining medicine with you.</p>"
+        }
+      ]
+    },
+    {
+      "@type": "HealthTopicContent",
+      "url": "https://api.nhs.uk/medicines/acrivastine/#side-effects",
+      "hasHealthAspect": "http://schema.org/SideEffectsHealthAspect",
+      "headline": "Side effects",
+      "description": "Common side effects of acrivastine include feeling sleepy, a dry mouth and feeling dizzy. More serious side effects can happen in rare cases.",
+      "hasPart": [
+        {
+          "@type": "WebPageElement",
+          "headline": "",
+          "text": "<p>Like all medicines, acrivastine can cause side effects, although not everyone gets them.</p><h3>Common side effects</h3><p>There are some differences between the side effects of medicines that only contain acrivastine, and medicines that combine acrivastine with <a>pseudoephedrine</a>.</p><p>The most common side effect of acrivastine is feeling sleepy and tired. This happens in more than 1 in 10 people.</p><p>Other common side effects of acrivastine happen in more than 1 in 100 people. These include:</p><ul><li>dry mouth</li><li>feeling dizzy</li></ul><p>Talk to your doctor or pharmacist if these side effects bother you or do not go away.</p><p>The common side effects of acrivastine when mixed with pseudoephedrine happen in more than 1 in 100 people. They include:</p><ul><li>difficulty sleeping</li><li>feeling sick (nausea)</li><li>headaches</li><li>feeling nervous</li><li>difficulty peeing (for men), especially those with an <a href=\"/conditions/prostate-enlargement/\">enlarged prostate</a></li></ul><p>If you experience any of these, stop taking it and talk to your doctor or pharmacist about trying an acrivastine-only medicine.</p><h3>Serious side effects</h3><p>Call a doctor straight away if:</p><ul><li>you start seeing things that are not there (<a href=\"/mental-health/feelings-symptoms-behaviours/feelings-and-symptoms/hallucinations-hearing-voices/\">hallucinations</a>)</li><li>you get a rash</li><li>you get pain or discomfort in the chest, neck, back or shoulders \u2013 these could be signs of <a href=\"/conditions/angina/\">angina</a>, or a <a href=\"/conditions/heart-attack/\">heart attack</a></li><li>your skin gets more red than usual or you get small, pus-filled blisters on the skin \u2013 these could be signs of a condition called acute generalised exanthematous pustulosis (AGEP). This usually happens within the first 2 days of treatment</li><li>you get sudden stomach pains or start bleeding from your bottom (rectal bleeding)</li><li>you suddenly cannot see properly</li></ul>"
+        },
+        {
+          "@type": "WebPageElement",
+          "identifier": "immediate",
+          "headline": "Call 999 or go to A&E now if:",
+          "text": "<ul>\n<li>\n  you have weakness of the face, arms or legs, or speech problems \u2013 these could be signs of a stroke\n </li>\n</ul>\n"
+        },
+        {
+          "@type": "WebPageElement",
+          "headline": "Serious allergic reaction",
+          "text": "<p>In rare cases, it's possible to have a serious allergic reaction (<a href=\"/conditions/anaphylaxis/\">anaphylaxis</a>) to acrivastine.</p>"
+        },
+        {
+          "@type": "WebPageElement",
+          "headline": "",
+          "text": "<p>These are not all the side effects of acrivastine. For a full list, see the leaflet inside your medicines packet.</p>"
+        }
+      ]
+    },
+    {
+      "@type": "HealthTopicContent",
+      "url": "https://api.nhs.uk/medicines/acrivastine/#support",
+      "hasHealthAspect": "http://schema.org/LivingWithHealthAspect",
+      "headline": "How to cope with side effects of acrivastine",
+      "description": "There are things you can do to help cope with the side effects of acrivastine. For example, sugar-free gum or sweets can help with a dry mouth.",
+      "hasPart": [
+        {
+          "@type": "WebPageElement",
+          "headline": "",
+          "text": "<p><b>What to do about:</b></p><ul><li><b>feeling sleepy</b> \u2013 try a different non-drowsy antihistamine. If this does not help, talk to your doctor.</li><li><b>dry mouth</b> \u2013 chew sugar-free gum or suck sugar-free sweets.</li><li><b>feeling dizzy</b> \u2013 lie down until the dizziness passes, then get up slowly. Move slowly and carefully. It's best to avoid coffee, cigarettes, alcohol and recreational drugs. If the dizziness does not get better within a couple of days, speak to your pharmacist or doctor.</li></ul>"
+        }
+      ]
+    },
+    {
+      "@type": "HealthTopicContent",
+      "url": "https://api.nhs.uk/medicines/acrivastine/#pregnancy-and-breastfeeding",
+      "hasHealthAspect": "http://schema.org/PregnancyHealthAspect",
+      "headline": "Pregnancy and breastfeeding",
+      "description": "Acrivastine is not usually recommended during pregnancy or when breastfeeding. Check with a pharmacist or doctor before taking it.",
+      "hasPart": [
+        {
+          "@type": "WebPageElement",
+          "headline": "Acrivastine and pregnancy",
+          "text": "<p>Acrivastine is not usually recommended during pregnancy because there is very little information about its use in pregnancy. Other antihistamines that we know more about may be more suitable.</p><p>If you think you need to take acrivastine in pregnancy, talk to your doctor or pharmacist. They will be able to help you decide, or may suggest other medicines for you.</p><h3>Acrivastine and breastfeeding</h3><p>If your doctor or health visitor says your baby is healthy, you can use acrivastine while breastfeeding, but it is better to take occasional doses or only for a short time.</p><p>We do not know how much acrivastine gets into breast milk, so it is better to take an antihistamine which we know more about.</p><p>If you're breastfeeding, or planning to breastfeed, talk to your doctor. They may prescribe similar antihistamines, called <a href=\"https://api.nhs.uk/medicines/loratadine/\">loratadine</a> or <a href=\"https://api.nhs.uk/medicines/cetirizine/\">cetirizine</a>, that are more suitable while you're breastfeeding.</p><p>Talk to your doctor, pharmacist, midwife or health visitor if your baby is not feeding as well as usual, seems unusually sleepy, seems irritable, or if you have any other concerns about your baby.</p>"
+        }
+      ]
+    },
+    {
+      "@type": "HealthTopicContent",
+      "url": "https://api.nhs.uk/medicines/acrivastine/#interactions",
+      "hasHealthAspect": "http://schema.org/InteractionsHealthAspect",
+      "headline": "Cautions with other medicines",
+      "description": "Taking acrivastine with other medicines, herbal remedies, vitamins or supplements can cause problems. Check with a pharmacist or doctor.",
+      "hasPart": [
+        {
+          "@type": "WebPageElement",
+          "headline": "",
+          "text": "<p>Some medicines affect how acrivastine works or can increase the chances of you having side effects.</p><p>Check with your pharmacist or doctor if you're taking:</p><ul><li><a href=\"https://api.nhs.uk/medicines/ketoconazole/\">ketoconazole</a>, a medicine to treat fungal infections</li><li><a href=\"https://api.nhs.uk/medicines/erythromycin/\">erythromycin</a>, an antibiotic</li><li>any medicine that makes you sleepy, gives you a dry mouth, or makes it difficult for you to pee \u2013 taking acrivastine might make these side effects worse</li></ul><p>Acrivastine mixed with <a>pseudoephedrine</a> (Benadryl Allergy Relief Plus Decongestant) affects lots of medicines. Check with your pharmacist or doctor before you take it.</p><h3>Mixing acrivastine with herbal remedies and supplements</h3><p>There might be a problem taking some <a href=\"/conditions/herbal-medicines/\">herbal remedies</a> and supplements alongside acrivastine, especially ones that cause sleepiness, a dry mouth, or make it difficult to pee.</p><p>Ask your pharmacist for advice.</p>"
+        }
+      ]
+    }
+  ],
+  "relatedLink": [
+    {
+      "name": "Atopic eczema",
+      "url": "/conditions/atopic-eczema/",
+      "description": "Link to Related Condition",
+      "linkRelationship": "Related Condition",
+      "@type": "LinkRole",
+      "position": 0
+    },
+    {
+      "name": "Conjunctivitis",
+      "url": "/conditions/conjunctivitis/",
+      "description": "Link to Related Condition",
+      "linkRelationship": "Related Condition",
+      "@type": "LinkRole",
+      "position": 1
+    },
+    {
+      "name": "Food allergy",
+      "url": "/conditions/food-allergy/",
+      "description": "Link to Related Condition",
+      "linkRelationship": "Related Condition",
+      "@type": "LinkRole",
+      "position": 2
+    },
+    {
+      "name": "Hay fever",
+      "url": "/conditions/hay-fever/",
+      "description": "Link to Related Condition",
+      "linkRelationship": "Related Condition",
+      "@type": "LinkRole",
+      "position": 3
+    },
+    {
+      "name": "Hives",
+      "url": "/conditions/hives/",
+      "description": "Link to Related Condition",
+      "linkRelationship": "Related Condition",
+      "@type": "LinkRole",
+      "position": 4
+    },
+    {
+      "name": "HealthUnlocked: acrivastine forum",
+      "url": "https://healthunlocked.com/acrivastine",
+      "description": "Link to Useful Resource",
+      "linkRelationship": "Useful Resource",
+      "@type": "LinkRole",
+      "position": 5
+    },
+    {
+      "name": "Allergy UK: charity",
+      "url": "https://www.allergyuk.org/",
+      "description": "Link to Useful Resource",
+      "linkRelationship": "Useful Resource",
+      "@type": "LinkRole",
+      "position": 6
+    },
+    {
+      "name": "Itchy Sneezy Wheezy: website for parents",
+      "url": "http://www.itchysneezywheezy.co.uk/",
+      "description": "Link to Useful Resource",
+      "linkRelationship": "Useful Resource",
+      "@type": "LinkRole",
+      "position": 7
+    }
+  ]
+}

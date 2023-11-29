@@ -1,0 +1,288 @@
+{
+  "@context": "http://schema.org",
+  "@type": "MedicalWebPage",
+  "name": "Cancer",
+  "copyrightHolder": { "name": "Crown Copyright", "@type": "Organization" },
+  "license": "https://developer.api.nhs.uk/terms",
+  "author": {
+    "url": "https://www.nhs.uk",
+    "logo": "https://www.nhs.uk/nhscwebservices/documents/logo1.jpg",
+    "email": "nhswebsite.servicedesk@nhs.net",
+    "@type": "Organization",
+    "name": "NHS website"
+  },
+  "about": { "@type": "WebPage", "name": "Cancer", "alternateName": "" },
+  "description": "Read about cancer, a condition where cells in a part of the body reproduce uncontrollably. Cancerous cells can invade and destroy surrounding healthy tissue.",
+  "url": "https://api.nhs.uk/conditions/cancer/",
+  "genre": ["Condition"],
+  "keywords": [],
+  "dateModified": "2023-08-10T15:27:26+00:00",
+  "lastReviewed": ["2022-10-13T00:00:00+00:00", "2025-10-13T00:00:00+00:00"],
+  "breadcrumb": {
+    "@context": "http://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 0,
+        "item": { "@id": "https://api.nhs.uk/conditions/", "name": "Health A to Z", "genre": [] }
+      },
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "item": { "@id": "https://api.nhs.uk/conditions/cancer/", "name": "Cancer", "genre": ["Condition"] }
+      }
+    ]
+  },
+  "hasPart": [],
+  "relatedLink": [
+    {
+      "@type": "LinkRole",
+      "url": "https://api.nhs.uk/conditions/cancer/",
+      "linkRelationship": "Navigation",
+      "position": 0,
+      "name": "Cancer",
+      "alternativeHeadline": "Overview"
+    },
+    {
+      "@type": "LinkRole",
+      "url": "https://api.nhs.uk/conditions/cancer/symptoms/",
+      "linkRelationship": "Navigation",
+      "position": 1,
+      "name": "Signs and symptoms"
+    }
+  ],
+  "contentSubTypes": ["Cancer"],
+  "mainEntityOfPage": [
+    {
+      "identifier": "0",
+      "name": "section heading",
+      "position": 0,
+      "@type": "WebPageElement",
+      "mainEntityOfPage": [
+        {
+          "position": 0,
+          "identifier": "1",
+          "text": "<p><b>Cancer is a condition where cells in a specific part of the\u00a0body grow and reproduce uncontrollably. The cancerous cells can invade and destroy surrounding healthy tissue, including organs.</b></p><p>Cancer sometimes begins in one part of the body before spreading to other areas. This process is known as metastasis.</p><p>1 in 2 people will develop some form of cancer during their lifetime. In the UK, the 4 most common types of cancer are:</p><ul><li><a href=\"https://api.nhs.uk/conditions/breast-cancer/\">breast cancer</a></li><li><a href=\"https://api.nhs.uk/conditions/lung-cancer/\">lung cancer</a></li><li><a href=\"https://api.nhs.uk/conditions/prostate-cancer/\">prostate cancer</a></li><li><a href=\"https://api.nhs.uk/conditions/bowel-cancer/\">bowel cancer</a></li></ul><p>There are\u00a0more than\u00a0200 different types of cancer, and\u00a0each is diagnosed and treated in a particular way. You can find\u00a0links on this page to\u00a0information about other types of cancer.</p>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": ""
+        }
+      ],
+      "description": "",
+      "hasPart": [
+        {
+          "position": 0,
+          "identifier": "1",
+          "text": "<p><b>Cancer is a condition where cells in a specific part of the\u00a0body grow and reproduce uncontrollably. The cancerous cells can invade and destroy surrounding healthy tissue, including organs.</b></p><p>Cancer sometimes begins in one part of the body before spreading to other areas. This process is known as metastasis.</p><p>1 in 2 people will develop some form of cancer during their lifetime. In the UK, the 4 most common types of cancer are:</p><ul><li><a href=\"https://api.nhs.uk/conditions/breast-cancer/\">breast cancer</a></li><li><a href=\"https://api.nhs.uk/conditions/lung-cancer/\">lung cancer</a></li><li><a href=\"https://api.nhs.uk/conditions/prostate-cancer/\">prostate cancer</a></li><li><a href=\"https://api.nhs.uk/conditions/bowel-cancer/\">bowel cancer</a></li></ul><p>There are\u00a0more than\u00a0200 different types of cancer, and\u00a0each is diagnosed and treated in a particular way. You can find\u00a0links on this page to\u00a0information about other types of cancer.</p>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": ""
+        }
+      ]
+    },
+    {
+      "identifier": "0",
+      "name": "section heading",
+      "position": 1,
+      "@type": "WebPageElement",
+      "mainEntityOfPage": [],
+      "description": "",
+      "hasPart": []
+    },
+    {
+      "identifier": "0",
+      "name": "section heading",
+      "position": 2,
+      "@type": "WebPageElement",
+      "mainEntityOfPage": [
+        {
+          "position": 0,
+          "identifier": "1",
+          "text": "<p>Changes to your body's normal processes or unusual, unexplained symptoms can sometimes be an early\u00a0sign of cancer.</p><p>Symptoms that need to be checked by a doctor include:</p><ul><li>a lump that suddenly\u00a0appears on your body</li><li>unexplained bleeding</li><li>changes to your bowel habits</li></ul><p>But in many cases\u00a0your symptoms\u00a0will not be related to cancer and will be caused by other, non-cancerous health conditions.</p><p>Read more about the\u00a0<a href=\"https://api.nhs.uk/conditions/cancer/symptoms/\">signs and symptoms of cancer</a>.</p>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": ""
+        }
+      ],
+      "description": "",
+      "hasPart": [
+        {
+          "position": 0,
+          "identifier": "1",
+          "text": "<p>Changes to your body's normal processes or unusual, unexplained symptoms can sometimes be an early\u00a0sign of cancer.</p><p>Symptoms that need to be checked by a doctor include:</p><ul><li>a lump that suddenly\u00a0appears on your body</li><li>unexplained bleeding</li><li>changes to your bowel habits</li></ul><p>But in many cases\u00a0your symptoms\u00a0will not be related to cancer and will be caused by other, non-cancerous health conditions.</p><p>Read more about the\u00a0<a href=\"https://api.nhs.uk/conditions/cancer/symptoms/\">signs and symptoms of cancer</a>.</p>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": ""
+        }
+      ],
+      "headline": "Spotting signs of cancer"
+    },
+    {
+      "identifier": "0",
+      "name": "section heading",
+      "position": 3,
+      "@type": "WebPageElement",
+      "mainEntityOfPage": [
+        {
+          "position": 0,
+          "identifier": "1",
+          "text": "<p>Making some simple changes to your lifestyle can significantly reduce your risk of developing cancer.</p><p>For example:</p><ul><li><a href=\"/live-well/eat-well/how-to-eat-a-balanced-diet/eating-a-balanced-diet/\">healthy eating</a></li><li>taking\u00a0<a href=\"/live-well/exercise/\">regular exercise</a></li><li><a href=\"/live-well/quit-smoking/\">not smoking</a></li></ul><p><a href=\"https://www.macmillan.org.uk/cancer-information-and-support/worried-about-cancer/causes-and-risk-factors\">Find out more about how a healthy lifestyle reduces your chances of developing cancer on the Macmillan Cancer Support website</a></p>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": ""
+        }
+      ],
+      "description": "",
+      "hasPart": [
+        {
+          "position": 0,
+          "identifier": "1",
+          "text": "<p>Making some simple changes to your lifestyle can significantly reduce your risk of developing cancer.</p><p>For example:</p><ul><li><a href=\"/live-well/eat-well/how-to-eat-a-balanced-diet/eating-a-balanced-diet/\">healthy eating</a></li><li>taking\u00a0<a href=\"/live-well/exercise/\">regular exercise</a></li><li><a href=\"/live-well/quit-smoking/\">not smoking</a></li></ul><p><a href=\"https://www.macmillan.org.uk/cancer-information-and-support/worried-about-cancer/causes-and-risk-factors\">Find out more about how a healthy lifestyle reduces your chances of developing cancer on the Macmillan Cancer Support website</a></p>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": ""
+        }
+      ],
+      "headline": "Reducing your risk of cancer"
+    },
+    {
+      "identifier": "0",
+      "name": "section heading",
+      "position": 4,
+      "@type": "WebPageElement",
+      "mainEntityOfPage": [
+        {
+          "position": 0,
+          "identifier": "1",
+          "text": "<p>Surgery is the first treatment to try for most types of cancer, as solid tumours can usually be surgically removed.</p><p>2 other\u00a0commonly used treatment methods are:</p><ul><li><a href=\"https://api.nhs.uk/conditions/chemotherapy/\">chemotherapy</a>\u00a0\u2013 powerful cancer-killing medicines</li><li><a href=\"https://api.nhs.uk/conditions/radiotherapy/\">radiotherapy</a>\u00a0\u2013 the controlled use of high-energy <a href=\"https://api.nhs.uk/conditions/x-ray/\">X-rays</a></li></ul>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": ""
+        }
+      ],
+      "description": "",
+      "hasPart": [
+        {
+          "position": 0,
+          "identifier": "1",
+          "text": "<p>Surgery is the first treatment to try for most types of cancer, as solid tumours can usually be surgically removed.</p><p>2 other\u00a0commonly used treatment methods are:</p><ul><li><a href=\"https://api.nhs.uk/conditions/chemotherapy/\">chemotherapy</a>\u00a0\u2013 powerful cancer-killing medicines</li><li><a href=\"https://api.nhs.uk/conditions/radiotherapy/\">radiotherapy</a>\u00a0\u2013 the controlled use of high-energy <a href=\"https://api.nhs.uk/conditions/x-ray/\">X-rays</a></li></ul>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": ""
+        }
+      ],
+      "headline": "Cancer treatment"
+    },
+    {
+      "identifier": "0",
+      "name": "section heading",
+      "position": 5,
+      "@type": "WebPageElement",
+      "mainEntityOfPage": [
+        {
+          "position": 0,
+          "identifier": "1",
+          "text": "<p>Accurately diagnosing cancer can take weeks or\u00a0months. As cancer often develops slowly over several years, waiting for\u00a0a few weeks will not usually impact on\u00a0the effectiveness of treatment.</p><p><a href=\"https://www.nice.org.uk/guidance/ng12\">The National Institute for Health and Care Excellence (NICE) has produced referral guidelines for suspected cancer</a>.</p><p>You\u00a0should not have to wait more than 2 weeks to see a specialist if your GP suspects you have cancer and urgently refers you.</p><p>In cases where cancer has been confirmed, you should not have to\u00a0wait more than 31 days from the\u00a0decision to treat to the start of treatment.</p><p><a href=\"https://www.england.nhs.uk/statistics/statistical-work-areas/cancer-waiting-times/\">NHS England has more detailed statistics on cancer waiting times</a></p>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": ""
+        }
+      ],
+      "description": "",
+      "hasPart": [
+        {
+          "position": 0,
+          "identifier": "1",
+          "text": "<p>Accurately diagnosing cancer can take weeks or\u00a0months. As cancer often develops slowly over several years, waiting for\u00a0a few weeks will not usually impact on\u00a0the effectiveness of treatment.</p><p><a href=\"https://www.nice.org.uk/guidance/ng12\">The National Institute for Health and Care Excellence (NICE) has produced referral guidelines for suspected cancer</a>.</p><p>You\u00a0should not have to wait more than 2 weeks to see a specialist if your GP suspects you have cancer and urgently refers you.</p><p>In cases where cancer has been confirmed, you should not have to\u00a0wait more than 31 days from the\u00a0decision to treat to the start of treatment.</p><p><a href=\"https://www.england.nhs.uk/statistics/statistical-work-areas/cancer-waiting-times/\">NHS England has more detailed statistics on cancer waiting times</a></p>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": ""
+        }
+      ],
+      "headline": "Waiting times"
+    },
+    {
+      "identifier": "0",
+      "name": "section heading",
+      "position": 6,
+      "@type": "WebPageElement",
+      "mainEntityOfPage": [
+        {
+          "position": 0,
+          "identifier": "1",
+          "text": "<ul><li><a href=\"/service-search/Cancer-information-and-support/LocationSearch/320\">Find local cancer support services</a></li><li><a href=\"/Service-Search/Cancer-support-for-women/LocationSearch/319\">Find cancer support services for women</a></li></ul>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": ""
+        }
+      ],
+      "description": "",
+      "hasPart": [
+        {
+          "position": 0,
+          "identifier": "1",
+          "text": "<ul><li><a href=\"/service-search/Cancer-information-and-support/LocationSearch/320\">Find local cancer support services</a></li><li><a href=\"/Service-Search/Cancer-support-for-women/LocationSearch/319\">Find cancer support services for women</a></li></ul>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": ""
+        }
+      ],
+      "headline": "Cancer services"
+    },
+    {
+      "identifier": "0",
+      "name": "section heading",
+      "position": 7,
+      "@type": "WebPageElement",
+      "mainEntityOfPage": [
+        {
+          "position": 0,
+          "identifier": "1",
+          "text": "<p>The Health A-Z covers\u00a0many different types of cancer:</p><ul><li><a href=\"https://api.nhs.uk/conditions/acute-lymphoblastic-leukaemia/\">Acute lymphoblastic leukaemia</a></li><li><a href=\"https://api.nhs.uk/conditions/acute-myeloid-leukaemia/\">Acute myeloid leukaemia</a></li><li><a href=\"https://api.nhs.uk/conditions/anal-cancer/\">Anal cancer</a></li><li><a href=\"https://api.nhs.uk/conditions/bile-duct-cancer/\">Bile duct cancer</a></li><li><a href=\"https://api.nhs.uk/conditions/bladder-cancer/\">Bladder cancer</a></li><li><a href=\"https://api.nhs.uk/conditions/bone-cancer/\">Bone cancer</a></li><li><a href=\"https://api.nhs.uk/conditions/bowel-cancer/\">Bowel cancer</a></li><li><a href=\"https://api.nhs.uk/conditions/malignant-brain-tumour/\">Brain tumour (cancerous)</a></li><li><a href=\"https://api.nhs.uk/conditions/benign-brain-tumour/\">Brain tumour (non-cancerous)</a></li><li><a href=\"https://api.nhs.uk/conditions/breast-cancer/\">Breast cancer (female)</a></li><li><a href=\"https://api.nhs.uk/conditions/breast-cancer-in-men/\">Breast cancer (male)</a></li><li><a href=\"https://api.nhs.uk/conditions/carcinoid-syndrome/\">Carcinoid tumours</a></li><li><a href=\"https://api.nhs.uk/conditions/cervical-cancer/\">Cervical cancer</a></li><li><a href=\"https://api.nhs.uk/conditions/chronic-lymphocytic-leukaemia/\">Chronic lymphocytic leukaemia</a></li><li><a href=\"https://api.nhs.uk/conditions/chronic-myeloid-leukaemia-old/\">Chronic myeloid leukaemia</a></li><li><a href=\"https://api.nhs.uk/conditions/womb-cancer/\">Endometrial cancer</a></li><li><a href=\"https://api.nhs.uk/conditions/ewing-sarcoma/\">Ewing sarcoma</a></li><li><a href=\"https://api.nhs.uk/conditions/eye-cancer/\">Eye cancer</a></li><li><a href=\"https://api.nhs.uk/conditions/gallbladder-cancer/\">Gallbladder cancer</a>\u00a0</li><li><a href=\"https://api.nhs.uk/conditions/hairy-cell-leukaemia/\">Hairy cell leukaemia</a></li><li><a href=\"https://api.nhs.uk/conditions/head-and-neck-cancer/\">Head and neck cancer</a></li><li><a href=\"https://api.nhs.uk/conditions/hodgkin-lymphoma/\">Hodgkin lymphoma</a></li><li><a href=\"https://api.nhs.uk/conditions/kaposis-sarcoma/\">Kaposi's sarcoma</a></li><li><a href=\"https://api.nhs.uk/conditions/kidney-cancer/\">Kidney cancer</a></li><li><a href=\"https://api.nhs.uk/conditions/laryngeal-cancer/\">Laryngeal cancer</a></li><li><a href=\"https://api.nhs.uk/conditions/liver-cancer/\">Liver cancer</a></li><li><a href=\"https://api.nhs.uk/conditions/lung-cancer/\">Lung cancer</a></li><li><a href=\"https://api.nhs.uk/conditions/mesothelioma/\">Mesothelioma</a></li><li><a href=\"https://api.nhs.uk/conditions/mouth-cancer/\">Mouth cancer</a></li><li><a href=\"https://api.nhs.uk/conditions/multiple-myeloma/\">Multiple myeloma</a></li><li><a href=\"https://api.nhs.uk/conditions/nasopharyngeal-cancer/\">Nasopharyngeal cancer</a></li><li><a href=\"https://api.nhs.uk/conditions/neuroendocrine-tumours/\">Neuroendocrine tumours</a></li><li><a href=\"https://api.nhs.uk/conditions/non-hodgkin-lymphoma/\">Non-Hodgkin lymphoma</a></li><li><a href=\"https://api.nhs.uk/conditions/nasal-and-sinus-cancer/\">Nasal and sinus cancer</a></li><li><a href=\"https://api.nhs.uk/conditions/oesophageal-cancer/\">Oesophageal cancer</a></li><li><a href=\"https://api.nhs.uk/conditions/ovarian-cancer/\">Ovarian cancer</a></li><li><a href=\"https://api.nhs.uk/conditions/pancreatic-cancer/\">Pancreatic cancer</a></li><li><a href=\"https://api.nhs.uk/conditions/penile-cancer/\">Penile cancer</a></li><li><a href=\"https://api.nhs.uk/conditions/prostate-cancer/\">Prostate cancer</a></li><li><a href=\"https://api.nhs.uk/conditions/bowel-cancer-old/\">Rectal cancer</a></li><li><a href=\"https://api.nhs.uk/conditions/retinoblastoma/\">Retinoblastoma</a></li><li><a href=\"https://api.nhs.uk/conditions/melanoma-skin-cancer/\">Skin cancer (melanoma)</a></li><li><a href=\"https://api.nhs.uk/conditions/non-melanoma-skin-cancer-old/\">Skin cancer (non-melanoma)</a></li><li><a href=\"https://api.nhs.uk/conditions/soft-tissue-sarcoma/\">Soft tissue sarcoma</a></li><li><a href=\"https://api.nhs.uk/conditions/stomach-cancer/\">Stomach cancer</a></li><li><a href=\"https://api.nhs.uk/conditions/testicular-cancer/\">Testicular cancer</a></li><li><a href=\"https://api.nhs.uk/conditions/thyroid-cancer/\">Thyroid cancer</a></li><li><a href=\"https://api.nhs.uk/conditions/vaginal-cancer/\">Vaginal cancer</a></li><li><a href=\"https://api.nhs.uk/conditions/vulval-cancer/\">Vulval cancer</a></li><li><a href=\"https://api.nhs.uk/conditions/womb-cancer/\">Womb cancer</a></li></ul>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": ""
+        }
+      ],
+      "description": "",
+      "hasPart": [
+        {
+          "position": 0,
+          "identifier": "1",
+          "text": "<p>The Health A-Z covers\u00a0many different types of cancer:</p><ul><li><a href=\"https://api.nhs.uk/conditions/acute-lymphoblastic-leukaemia/\">Acute lymphoblastic leukaemia</a></li><li><a href=\"https://api.nhs.uk/conditions/acute-myeloid-leukaemia/\">Acute myeloid leukaemia</a></li><li><a href=\"https://api.nhs.uk/conditions/anal-cancer/\">Anal cancer</a></li><li><a href=\"https://api.nhs.uk/conditions/bile-duct-cancer/\">Bile duct cancer</a></li><li><a href=\"https://api.nhs.uk/conditions/bladder-cancer/\">Bladder cancer</a></li><li><a href=\"https://api.nhs.uk/conditions/bone-cancer/\">Bone cancer</a></li><li><a href=\"https://api.nhs.uk/conditions/bowel-cancer/\">Bowel cancer</a></li><li><a href=\"https://api.nhs.uk/conditions/malignant-brain-tumour/\">Brain tumour (cancerous)</a></li><li><a href=\"https://api.nhs.uk/conditions/benign-brain-tumour/\">Brain tumour (non-cancerous)</a></li><li><a href=\"https://api.nhs.uk/conditions/breast-cancer/\">Breast cancer (female)</a></li><li><a href=\"https://api.nhs.uk/conditions/breast-cancer-in-men/\">Breast cancer (male)</a></li><li><a href=\"https://api.nhs.uk/conditions/carcinoid-syndrome/\">Carcinoid tumours</a></li><li><a href=\"https://api.nhs.uk/conditions/cervical-cancer/\">Cervical cancer</a></li><li><a href=\"https://api.nhs.uk/conditions/chronic-lymphocytic-leukaemia/\">Chronic lymphocytic leukaemia</a></li><li><a href=\"https://api.nhs.uk/conditions/chronic-myeloid-leukaemia-old/\">Chronic myeloid leukaemia</a></li><li><a href=\"https://api.nhs.uk/conditions/womb-cancer/\">Endometrial cancer</a></li><li><a href=\"https://api.nhs.uk/conditions/ewing-sarcoma/\">Ewing sarcoma</a></li><li><a href=\"https://api.nhs.uk/conditions/eye-cancer/\">Eye cancer</a></li><li><a href=\"https://api.nhs.uk/conditions/gallbladder-cancer/\">Gallbladder cancer</a>\u00a0</li><li><a href=\"https://api.nhs.uk/conditions/hairy-cell-leukaemia/\">Hairy cell leukaemia</a></li><li><a href=\"https://api.nhs.uk/conditions/head-and-neck-cancer/\">Head and neck cancer</a></li><li><a href=\"https://api.nhs.uk/conditions/hodgkin-lymphoma/\">Hodgkin lymphoma</a></li><li><a href=\"https://api.nhs.uk/conditions/kaposis-sarcoma/\">Kaposi's sarcoma</a></li><li><a href=\"https://api.nhs.uk/conditions/kidney-cancer/\">Kidney cancer</a></li><li><a href=\"https://api.nhs.uk/conditions/laryngeal-cancer/\">Laryngeal cancer</a></li><li><a href=\"https://api.nhs.uk/conditions/liver-cancer/\">Liver cancer</a></li><li><a href=\"https://api.nhs.uk/conditions/lung-cancer/\">Lung cancer</a></li><li><a href=\"https://api.nhs.uk/conditions/mesothelioma/\">Mesothelioma</a></li><li><a href=\"https://api.nhs.uk/conditions/mouth-cancer/\">Mouth cancer</a></li><li><a href=\"https://api.nhs.uk/conditions/multiple-myeloma/\">Multiple myeloma</a></li><li><a href=\"https://api.nhs.uk/conditions/nasopharyngeal-cancer/\">Nasopharyngeal cancer</a></li><li><a href=\"https://api.nhs.uk/conditions/neuroendocrine-tumours/\">Neuroendocrine tumours</a></li><li><a href=\"https://api.nhs.uk/conditions/non-hodgkin-lymphoma/\">Non-Hodgkin lymphoma</a></li><li><a href=\"https://api.nhs.uk/conditions/nasal-and-sinus-cancer/\">Nasal and sinus cancer</a></li><li><a href=\"https://api.nhs.uk/conditions/oesophageal-cancer/\">Oesophageal cancer</a></li><li><a href=\"https://api.nhs.uk/conditions/ovarian-cancer/\">Ovarian cancer</a></li><li><a href=\"https://api.nhs.uk/conditions/pancreatic-cancer/\">Pancreatic cancer</a></li><li><a href=\"https://api.nhs.uk/conditions/penile-cancer/\">Penile cancer</a></li><li><a href=\"https://api.nhs.uk/conditions/prostate-cancer/\">Prostate cancer</a></li><li><a href=\"https://api.nhs.uk/conditions/bowel-cancer-old/\">Rectal cancer</a></li><li><a href=\"https://api.nhs.uk/conditions/retinoblastoma/\">Retinoblastoma</a></li><li><a href=\"https://api.nhs.uk/conditions/melanoma-skin-cancer/\">Skin cancer (melanoma)</a></li><li><a href=\"https://api.nhs.uk/conditions/non-melanoma-skin-cancer-old/\">Skin cancer (non-melanoma)</a></li><li><a href=\"https://api.nhs.uk/conditions/soft-tissue-sarcoma/\">Soft tissue sarcoma</a></li><li><a href=\"https://api.nhs.uk/conditions/stomach-cancer/\">Stomach cancer</a></li><li><a href=\"https://api.nhs.uk/conditions/testicular-cancer/\">Testicular cancer</a></li><li><a href=\"https://api.nhs.uk/conditions/thyroid-cancer/\">Thyroid cancer</a></li><li><a href=\"https://api.nhs.uk/conditions/vaginal-cancer/\">Vaginal cancer</a></li><li><a href=\"https://api.nhs.uk/conditions/vulval-cancer/\">Vulval cancer</a></li><li><a href=\"https://api.nhs.uk/conditions/womb-cancer/\">Womb cancer</a></li></ul>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": ""
+        }
+      ],
+      "headline": "Other cancer pages"
+    },
+    {
+      "identifier": "0",
+      "name": "section heading",
+      "position": 8,
+      "@type": "WebPageElement",
+      "mainEntityOfPage": [
+        {
+          "position": 0,
+          "@type": "WebPageElement",
+          "name": "Information",
+          "identifier": "3",
+          "text": "<h3>Social care and support guide</h3><p>The <a href=\"https://api.nhs.uk/conditions/social-care-and-support-guide-old/\">guide to care and support</a> explains your options and where you can get support if you:</p><ul><li>need help with day-to-day living because of illness or disability</li><li>care for someone regularly because they're ill, elderly or disabled \u2013 including family members</li></ul>"
+        }
+      ],
+      "description": "",
+      "hasPart": [
+        {
+          "position": 0,
+          "@type": "WebPageElement",
+          "name": "Information",
+          "identifier": "3",
+          "text": "<h3>Social care and support guide</h3><p>The <a href=\"https://api.nhs.uk/conditions/social-care-and-support-guide-old/\">guide to care and support</a> explains your options and where you can get support if you:</p><ul><li>need help with day-to-day living because of illness or disability</li><li>care for someone regularly because they're ill, elderly or disabled \u2013 including family members</li></ul>"
+        }
+      ]
+    }
+  ],
+  "alternativeHeadline": "Overview"
+}

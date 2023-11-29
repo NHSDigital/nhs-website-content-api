@@ -1,0 +1,280 @@
+{
+  "@context": "http://schema.org",
+  "@type": "MedicalWebPage",
+  "name": "Zopiclone",
+  "copyrightHolder": { "name": "Crown Copyright", "@type": "Organization" },
+  "license": "https://developer.api.nhs.uk/terms",
+  "author": {
+    "url": "https://www.nhs.uk",
+    "logo": "https://www.nhs.uk/nhscwebservices/documents/logo1.jpg",
+    "email": "nhswebsite.servicedesk@nhs.net",
+    "@type": "Organization",
+    "name": "NHS website"
+  },
+  "about": { "@type": "WebPage", "name": "Zopiclone", "alternateName": "" },
+  "description": "Brand name: Zimovane. Find out how zopiclone treats sleeping problems (insomnia) and how to take it.",
+  "url": "https://api.nhs.uk/medicines/zopiclone/",
+  "genre": ["Medicine"],
+  "keywords": "",
+  "dateModified": "2023-03-15T14:45:39+00:00",
+  "hasPart": [
+    {
+      "@type": "HealthTopicContent",
+      "hasHealthAspect": "http://schema.org/OverviewHealthAspect",
+      "url": "https://api.nhs.uk/medicines/zopiclone/about-zopiclone/#overview",
+      "description": "Zopiclone is a sleeping pill you can get on prescription. It's used for short-term treatment of severe insomnia.",
+      "hasPart": [
+        {
+          "@type": "WebPageElement",
+          "headline": "",
+          "text": "<p>Zopiclone is a type of sleeping pill that can be taken for short-term treatment of severe insomnia.</p><p>It helps you fall asleep more quickly, and also helps stop you waking up during the night. It works by affecting a calming chemical in your brain called gamma-aminobutyric acid (GABA).</p><p>Zopiclone comes as tablets. It also comes as a liquid for people who find it hard to swallow tablets, but your doctor will have to order this specially.</p><p>This medicine is only available on prescription.</p>"
+        }
+      ],
+      "headline": ""
+    },
+    {
+      "@type": "HealthTopicContent",
+      "hasHealthAspect": "http://schema.org/SuitabilityHealthAspect",
+      "url": "https://api.nhs.uk/medicines/zopiclone/who-can-and-cannot-take-zopiclone/#who-its-for",
+      "description": "Most adults can take zopiclone. But always check before taking it, as it's not suitable for everyone.",
+      "hasPart": [
+        {
+          "@type": "WebPageElement",
+          "headline": "",
+          "text": "<p>Most adults over the age of 18 years can take zopiclone.</p><h2>Who may not be able to take zopiclone</h2><p>Zopiclone is not suitable for some people. To make sure it's safe for you, tell your doctor if you:</p><ul><li>have ever had an allergic reaction to zopiclone or any other medicine</li><li>have liver or kidney problems</li><li>have <a href=\"/conditions/myasthenia-gravis/\">myasthenia gravis</a>, a condition that causes muscle weakness</li><li>have breathing problems or <a href=\"/conditions/sleep-apnoea/\">sleep apnoea</a>, where you stop breathing for short bouts while sleeping</li><li>have ever had mental health problems</li><li>have had issues with alcohol or drug abuse</li><li>are trying to get pregnant, already pregnant, or breastfeeding</li></ul>"
+        }
+      ],
+      "headline": "Who can take zopiclone"
+    },
+    {
+      "@type": "HealthTopicContent",
+      "hasHealthAspect": "http://schema.org/UsageOrScheduleHealthAspect",
+      "url": "https://api.nhs.uk/medicines/zopiclone/how-and-when-to-take-zopiclone/#how-its-used-previously-dosage-and-administration",
+      "description": "Zopiclone comes as tablets that you take once a day before bed. Follow the instructions that come with your medicine.",
+      "hasPart": [
+        {
+          "@type": "WebPageElement",
+          "headline": "",
+          "text": "<p>Zopiclone tablets come in 2 different strengths: 3.75mg and 7.5mg.</p><p>The usual dose is one 7.5mg tablet, taken just before you go to bed. It takes around 1 hour to work.</p><p>A lower dose of 3.75mg may be recommended to begin with if you're over 65 years old or have kidney or liver problems. Taking a lower dose in these cases reduces the risk of excessive sleepiness and other side effects.</p>"
+        },
+        {
+          "@type": "WebPageElement",
+          "headline": "Important",
+          "text": "<p>Do not take more than your prescribed dose of zopiclone.</p>"
+        },
+        {
+          "@type": "WebPageElement",
+          "headline": "How to take it",
+          "text": "<p>It's important to take zopiclone exactly as your doctor has told you. Your doctor might ask you to take a tablet on only 2 or 3 nights each week, rather than every night.</p><p>Swallow the tablet whole. Do not crush or chew it.</p><p>You can take zopiclone with or without food.</p><h2>How long to take it for</h2><p>You'll usually be prescribed zopiclone for just 2 to 4 weeks.</p><p>This is because your body gets used to this medicine quickly, and after this time it's unlikely to have the same effect. Your body can also become dependent on it.</p><p>Do not stop taking zopiclone suddenly without speaking to your doctor. They may suggest you reduce your dose slowly to prevent withdrawal symptoms. However you're unlikely to have withdrawal symptoms if you've been taking it for less than a month.</p><p>If you still have sleeping problems after finishing your course of zopiclone, try lifestyle changes to <a>help you get to sleep</a>. See your doctor again if these do not help.</p><h2>If you forget to take it</h2><p>If you forget to take it by bedtime, just skip the missed dose and take your next dose at the usual time the next night.</p><p>Never take 2 doses at the same time. Never take an extra dose to make up for a forgotten one.</p><h2>If you take too much</h2><p>Taking more than your prescribed dose of zopiclone can be dangerous. You may get symptoms including:</p><ul><li>feeling drowsy, feeling confused, sleeping deeply and possibly going into a coma</li><li>feeling dizzy, light-headed or faint due to low blood pressure</li><li>floppy muscles</li><li>falling over or losing your balance</li><li>shallow breathing or difficulty breathing</li></ul>"
+        },
+        {
+          "@type": "WebPageElement",
+          "identifier": "urgent",
+          "headline": "Contact 111 for advice now if:",
+          "text": "<ul>\n<li>\n  you take more than your prescribed dose of zopiclone \u2013 even if you do not feel any different\n </li>\n</ul>\n<p>\n Go to\n <a href=\"https://111.nhs.uk/\">\n  111.nhs.uk\n </a>\n or call\n <a href=\"tel:111\">\n  111\n </a>\n</p>\n"
+        },
+        {
+          "@type": "WebPageElement",
+          "headline": "",
+          "text": "<p>If you need to go to <a href=\"https://www.nhs.uk/service-search/other-services/Accident-and-emergency-services/LocationSearch/428\">A&amp;E</a>, do not drive yourself. It's a good idea to get a friend or family member to go with you to hospital in case you become sleepy on the way.</p><p>Take the zopiclone packet or leaflet inside it, plus any remaining medicine, with you.</p>"
+        }
+      ],
+      "headline": "Dosage and strength"
+    },
+    {
+      "@type": "HealthTopicContent",
+      "hasHealthAspect": "http://schema.org/SideEffectsHealthAspect",
+      "url": "https://api.nhs.uk/medicines/zopiclone/side-effects-of-zopiclone/#side-effects",
+      "description": "Side effects of zopiclone include a bitter or metallic taste, a dry mouth and feeling tired. More serious side effects can happen in rare cases.",
+      "hasPart": [
+        {
+          "@type": "WebPageElement",
+          "headline": "",
+          "text": "<p>These common side effects of zopiclone happen in more than 1 in 100 people. There are things you can do to help cope with them:</p>"
+        },
+        {
+          "@type": "WebPageElement",
+          "headline": "",
+          "text": "<p>Speak to a doctor or pharmacist if the advice on how to cope does not help and a side effect is still bothering you or does not go away.</p><h2>Serious side effects</h2><p>It happens rarely, but some people have serious side effects when taking zopiclone.</p><p>Call your doctor or call 111 as soon as possible if you:</p><ul><li>get a poor memory (<a href=\"/conditions/memory-loss-amnesia/\">amnesia</a>)</li><li>see or hear things that are not real (<a href=\"/mental-health/feelings-symptoms-behaviours/feelings-and-symptoms/hallucinations-hearing-voices/\">hallucinations</a>)</li><li>fall over, especially if you're over 65 years of age</li><li>think things that are not true (delusions)</li><li>feel low or sad (have <a href=\"/mental-health/conditions/depression-in-adults/overview/\">depression</a>)</li></ul><h3>Serious allergic reaction</h3><p>In rare cases, it's possible to have a serious allergic reaction (<a href=\"/conditions/anaphylaxis/\">anaphylaxis</a>) to zopiclone.</p>"
+        },
+        {
+          "@type": "WebPageElement",
+          "headline": "Other side effects",
+          "text": "<p>These are not all the side effects of zopiclone. For a full list, see the leaflet inside your medicines packet.</p>"
+        }
+      ],
+      "headline": "Common side effects"
+    },
+    {
+      "@type": "HealthTopicContent",
+      "hasHealthAspect": "http://schema.org/PregnancyHealthAspect",
+      "url": "https://api.nhs.uk/medicines/zopiclone/pregnancy-breastfeeding-and-fertility-while-taking-zopiclone/#pregnancy-and-breastfeeding",
+      "description": "Zopiclone is not usually recommended during pregnancy. It may be taken while breastfeeding. Always check with a pharmacist or doctor.",
+      "hasPart": [
+        {
+          "@type": "WebPageElement",
+          "headline": "",
+          "text": "<p>Zopiclone is not usually recommend in pregnancy because little is known about its use. If you become pregnant while taking zopiclone, speak to your doctor. They will help you decide what to do and may switch you to a medicine that is more suitable for pregnancy.</p><p>Zopiclone may cause drowsiness or withdrawal symptoms such as being agitated or shaking in newborn babies. If you take it until the end of pregnancy, this may increase the chance of your baby having these problems. Your baby may need to stay in hospital for extra monitoring for a few days after they're born.</p><h2>Zopiclone and breastfeeding</h2><p>If you're having problems sleeping, talk to your doctor or pharmacist as there may be other ways of improving sleep without taking zopiclone.</p><p>But if your doctor or health visitor says your baby is healthy, you can take zopiclone while breastfeeding. It's better to only take occasional doses, and only for a short time.</p><p>Zopiclone passes into breast milk in very small amounts, and has not been known to cause any side effects in breastfed babies. However there is a very small risk that it might make your baby sleepy too.</p><p>It's important not to share a bed with your baby while you're taking zopiclone.</p><p>If you notice that your baby is not feeding as well as usual or seems unusually sleepy, or you have any other concerns about your baby, talk to your health visitor, midwife, pharmacist or doctor as soon as possible.</p><h2>Zopiclone and fertility</h2><p>There's no evidence to suggest that taking zopiclone reduces fertility in either men or women.</p><p>But speak to a pharmacist or your doctor if you're trying to get pregnant. They may want to review your treatment.</p>"
+        }
+      ],
+      "headline": "Zopiclone and pregnancy"
+    },
+    {
+      "@type": "HealthTopicContent",
+      "hasHealthAspect": "http://schema.org/InteractionsHealthAspect",
+      "url": "https://api.nhs.uk/medicines/zopiclone/taking-zopiclone-with-other-medicines-and-herbal-supplements/#interactions",
+      "description": "Taking zopiclone with other medicines, herbal remedies, vitamins or supplements can cause problems. Check with a pharmacist or doctor.",
+      "hasPart": [
+        {
+          "@type": "WebPageElement",
+          "headline": "",
+          "text": "<p>Some medicines and zopiclone can affect each other and increase the chances of you having side effects.</p><p>Certain medicines may increase the drowsy (sedating) effects of zopiclone.</p><p>Speak to your doctor or pharmacist before starting to take zopiclone if you take any of these medicines:</p><ul><li>medicines to treat <a href=\"/mental-health/conditions/schizophrenia/overview/\">schizophrenia</a> or <a href=\"/mental-health/conditions/bipolar-disorder/overview/\">bipolar disorder</a></li><li>medicines to treat <a href=\"/mental-health/conditions/depression-in-adults/overview/\">depression</a></li><li>medicines for <a href=\"/conditions/epilepsy/\">epilepsy</a></li><li>medicines to calm or reduce anxiety, or for sleep problems</li><li>medicines for <a href=\"/conditions/hay-fever/\">hay fever</a>, rashes or other allergies that can make you sleepy (sedating antihistamines, such as <a href=\"https://api.nhs.uk/medicines/chlorphenamine-including-piriton/\">chlorphenamine</a> or <a href=\"https://api.nhs.uk/medicines/promethazine/\">promethazine</a>)</li><li>strong painkillers such as <a href=\"https://api.nhs.uk/medicines/codeine/\">codeine</a>, <a href=\"https://api.nhs.uk/medicines/methadone/\">methadone</a>, <a href=\"https://api.nhs.uk/medicines/morphine/\">morphine</a>, <a href=\"https://api.nhs.uk/medicines/oxycodone/\">oxycodone</a>, pethidine or <a href=\"https://api.nhs.uk/medicines/tramadol/\">tramadol</a></li><li><a>erythromycin</a> or <a href=\"https://api.nhs.uk/medicines/clarithromycin/\">clarithromycin</a>, antibiotics used to treat infections</li><li>medicines used to treat fungal infections, such as <a href=\"https://api.nhs.uk/medicines/ketoconazole/\">ketoconazole</a> or itraconazole</li><li>ritonavir, a medicine used to treat HIV infections</li></ul><h2>Mixing zopiclone with herbal remedies and supplements</h2><p>Do not take any herbal remedies that make you feel sleepy while taking zopiclone.</p><p>They can increase the drowsy (sedating) effects of your medicine.</p>"
+        }
+      ],
+      "headline": "Cautions with other medicines"
+    }
+  ],
+  "breadcrumb": {
+    "@context": "http://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 0,
+        "item": { "@id": "https://api.nhs.uk/medicines/", "name": "Medicines A to Z", "genre": [] }
+      },
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "item": { "@id": "https://api.nhs.uk/medicines/zopiclone/", "name": "Zopiclone", "genre": ["Medicine"] }
+      }
+    ]
+  },
+  "headline": "Zopiclone",
+  "contentSubTypes": [],
+  "mainEntityOfPage": [
+    {
+      "identifier": "25",
+      "@type": "WebPageElement",
+      "name": "keylinks",
+      "headline": "",
+      "text": "",
+      "mainEntityOfPage": [
+        {
+          "@type": "WebPageElement",
+          "headline": "About zopiclone",
+          "url": "https://api.nhs.uk/medicines/zopiclone/about-zopiclone/",
+          "identifier": "26",
+          "text": "",
+          "name": "link"
+        },
+        {
+          "@type": "WebPageElement",
+          "headline": "Who can and cannot take it",
+          "url": "https://api.nhs.uk/medicines/zopiclone/who-can-and-cannot-take-zopiclone/",
+          "identifier": "26",
+          "text": "",
+          "name": "link"
+        },
+        {
+          "@type": "WebPageElement",
+          "headline": "How and when to take it",
+          "url": "https://api.nhs.uk/medicines/zopiclone/how-and-when-to-take-zopiclone/",
+          "identifier": "26",
+          "text": "",
+          "name": "link"
+        },
+        {
+          "@type": "WebPageElement",
+          "headline": "Side effects",
+          "url": "https://api.nhs.uk/medicines/zopiclone/side-effects-of-zopiclone/",
+          "identifier": "26",
+          "text": "",
+          "name": "link"
+        },
+        {
+          "@type": "WebPageElement",
+          "headline": "Pregnancy, breastfeeding and fertility",
+          "url": "https://api.nhs.uk/medicines/zopiclone/pregnancy-breastfeeding-and-fertility-while-taking-zopiclone/",
+          "identifier": "26",
+          "text": "",
+          "name": "link"
+        },
+        {
+          "@type": "WebPageElement",
+          "headline": "Taking zopiclone with other medicines and herbal supplements",
+          "url": "https://api.nhs.uk/medicines/zopiclone/taking-zopiclone-with-other-medicines-and-herbal-supplements/",
+          "identifier": "26",
+          "text": "",
+          "name": "link"
+        },
+        {
+          "@type": "WebPageElement",
+          "headline": "Common questions",
+          "url": "https://api.nhs.uk/medicines/zopiclone/common-questions-about-zopiclone/",
+          "identifier": "26",
+          "text": "",
+          "name": "link"
+        }
+      ]
+    },
+    {
+      "identifier": "27",
+      "@type": "WebPageElement",
+      "name": "RelatedLinks",
+      "headline": "Related conditions",
+      "text": "",
+      "mainEntityOfPage": [
+        {
+          "@type": "WebPageElement",
+          "headline": "Insomnia",
+          "url": "https://www.nhs.uk/conditions/insomnia/",
+          "identifier": "26",
+          "text": "",
+          "name": "link"
+        }
+      ]
+    },
+    {
+      "identifier": "27",
+      "@type": "WebPageElement",
+      "name": "RelatedLinks",
+      "headline": "Useful resources",
+      "text": "",
+      "mainEntityOfPage": [
+        {
+          "@type": "WebPageElement",
+          "headline": "HealthUnlocked: zopiclone forum",
+          "url": "https://healthunlocked.com/tag/zopiclone",
+          "identifier": "26",
+          "text": "healthunlocked.com",
+          "name": "link"
+        },
+        {
+          "@type": "WebPageElement",
+          "headline": "Health Talk: videos of real stories about sleep problems",
+          "url": "https://healthtalk.org/sleep-problems-later-life/overview",
+          "identifier": "26",
+          "text": "healthtalk.org",
+          "name": "link"
+        },
+        {
+          "@type": "WebPageElement",
+          "headline": "Mind: charity \u2013 coping with sleep problems",
+          "url": "https://www.mind.org.uk/information-support/types-of-mental-health-problems/sleep-problems/about-sleep-and-mental-health/",
+          "identifier": "26",
+          "text": "www.mind.org.uk",
+          "name": "link"
+        },
+        {
+          "@type": "WebPageElement",
+          "headline": "Royal College of Psychiatrists: sleep advice",
+          "url": "https://www.rcpsych.ac.uk/mental-health/problems-disorders/sleeping-well",
+          "identifier": "26",
+          "text": "www.rcpsych.ac.uk",
+          "name": "link"
+        }
+      ]
+    }
+  ]
+}
