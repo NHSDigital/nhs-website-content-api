@@ -13,7 +13,7 @@
   },
   "about": { "@type": "WebPage", "name": "Angiography", "alternateName": "" },
   "description": "Find out why angiography is used, what happens during the procedure, and the possible risks involved. Also, read about the different types of angiography.",
-  "url": "https://api.nhs.uk/conditions/angiography/",
+  "url": "https://api.service.nhs.uk/nhs-website-content/conditions/angiography/",
   "genre": ["Procedure", "Test"],
   "keywords": [],
   "dateModified": "2023-02-02T09:42:42+00:00",
@@ -25,12 +25,16 @@
       {
         "@type": "ListItem",
         "position": 0,
-        "item": { "@id": "https://api.nhs.uk/conditions/", "name": "Health A to Z", "genre": [] }
+        "item": { "@id": "https://api.service.nhs.uk/nhs-website-content/conditions/", "name": "Health A to Z", "genre": [] }
       },
       {
         "@type": "ListItem",
         "position": 1,
-        "item": { "@id": "https://api.nhs.uk/conditions/angiography/", "name": "Angiography", "genre": ["Procedure", "Test"] }
+        "item": {
+          "@id": "https://api.service.nhs.uk/nhs-website-content/conditions/angiography/",
+          "name": "Angiography",
+          "genre": ["Procedure", "Test"]
+        }
       }
     ]
   },
@@ -38,7 +42,7 @@
   "relatedLink": [
     {
       "@type": "LinkRole",
-      "url": "https://api.nhs.uk/conditions/angiography/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/angiography/",
       "linkRelationship": "Navigation",
       "position": 0,
       "name": "Angiography",
@@ -46,14 +50,14 @@
     },
     {
       "@type": "LinkRole",
-      "url": "https://api.nhs.uk/conditions/angiography/what-happens/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/angiography/what-happens/",
       "linkRelationship": "Navigation",
       "position": 1,
       "name": "What happens"
     },
     {
       "@type": "LinkRole",
-      "url": "https://api.nhs.uk/conditions/angiography/risks/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/angiography/risks/",
       "linkRelationship": "Navigation",
       "position": 2,
       "name": "Risks"
@@ -70,7 +74,7 @@
         {
           "position": 0,
           "identifier": "1",
-          "text": "<p><b>Angiography is a\u00a0type of\u00a0</b><a href=\"https://api.nhs.uk/conditions/x-ray/\"><b>X-ray</b></a><b> used to check\u00a0blood vessels.</b></p><p>Blood vessels do not show clearly on a normal X-ray, so a special dye called a contrast agent needs to be injected into your blood first.</p><p>This highlights your blood vessels, allowing your doctor to see any problems.</p><p>The X-ray images created during angiography are\u00a0called angiograms.</p>",
+          "text": "<p><b>Angiography is a\u00a0type of\u00a0</b><a href=\"https://api.service.nhs.uk/nhs-website-content/conditions/x-ray/\"><b>X-ray</b></a><b> used to check\u00a0blood vessels.</b></p><p>Blood vessels do not show clearly on a normal X-ray, so a special dye called a contrast agent needs to be injected into your blood first.</p><p>This highlights your blood vessels, allowing your doctor to see any problems.</p><p>The X-ray images created during angiography are\u00a0called angiograms.</p>",
           "@type": "WebPageElement",
           "name": "markdown",
           "headline": ""
@@ -81,7 +85,7 @@
         {
           "position": 0,
           "identifier": "1",
-          "text": "<p><b>Angiography is a\u00a0type of\u00a0</b><a href=\"https://api.nhs.uk/conditions/x-ray/\"><b>X-ray</b></a><b> used to check\u00a0blood vessels.</b></p><p>Blood vessels do not show clearly on a normal X-ray, so a special dye called a contrast agent needs to be injected into your blood first.</p><p>This highlights your blood vessels, allowing your doctor to see any problems.</p><p>The X-ray images created during angiography are\u00a0called angiograms.</p>",
+          "text": "<p><b>Angiography is a\u00a0type of\u00a0</b><a href=\"https://api.service.nhs.uk/nhs-website-content/conditions/x-ray/\"><b>X-ray</b></a><b> used to check\u00a0blood vessels.</b></p><p>Blood vessels do not show clearly on a normal X-ray, so a special dye called a contrast agent needs to be injected into your blood first.</p><p>This highlights your blood vessels, allowing your doctor to see any problems.</p><p>The X-ray images created during angiography are\u00a0called angiograms.</p>",
           "@type": "WebPageElement",
           "name": "markdown",
           "headline": ""
@@ -97,7 +101,7 @@
         {
           "position": 0,
           "identifier": "1",
-          "text": "<p>Angiography\u00a0is used to\u00a0check the health of your blood vessels and how blood flows through them.</p><p>It can help to diagnose or investigate several problems affecting blood vessels, including:</p><ul><li><a href=\"https://api.nhs.uk/conditions/atherosclerosis/\">atherosclerosis</a> \u2013 narrowing of the arteries, which could mean you're at risk of having a\u00a0<a href=\"https://api.nhs.uk/conditions/stroke/\">stroke</a> or\u00a0<a href=\"https://api.nhs.uk/conditions/heart-attack/\">heart attack</a></li><li><a href=\"https://api.nhs.uk/conditions/peripheral-arterial-disease-pad/\">peripheral arterial disease</a>\u00a0\u2013 reduced blood supply to the leg muscles</li><li>a <a href=\"https://api.nhs.uk/conditions/brain-aneurysm/\">brain aneurysm</a> \u2013 a bulge in a blood vessel in your brain</li><li><a href=\"https://api.nhs.uk/conditions/angina/\">angina</a>\u00a0\u2013 chest pain caused by reduced blood flow to the heart muscles</li><li><a href=\"https://api.nhs.uk/conditions/blood-clots/\">blood clots</a> or a <a href=\"https://api.nhs.uk/conditions/pulmonary-embolism/\">pulmonary embolism</a>\u00a0\u2013 a blockage in the artery supplying\u00a0your lungs</li><li>a blockage in the blood supply to your kidneys</li></ul><p>Angiography\u00a0may also be used to help plan treatment for some of these conditions.</p>",
+          "text": "<p>Angiography\u00a0is used to\u00a0check the health of your blood vessels and how blood flows through them.</p><p>It can help to diagnose or investigate several problems affecting blood vessels, including:</p><ul><li><a href=\"https://api.service.nhs.uk/nhs-website-content/conditions/atherosclerosis/\">atherosclerosis</a> \u2013 narrowing of the arteries, which could mean you're at risk of having a\u00a0<a href=\"https://api.service.nhs.uk/nhs-website-content/conditions/stroke/\">stroke</a> or\u00a0<a href=\"https://api.service.nhs.uk/nhs-website-content/conditions/heart-attack/\">heart attack</a></li><li><a href=\"https://api.service.nhs.uk/nhs-website-content/conditions/peripheral-arterial-disease-pad/\">peripheral arterial disease</a>\u00a0\u2013 reduced blood supply to the leg muscles</li><li>a <a href=\"https://api.service.nhs.uk/nhs-website-content/conditions/brain-aneurysm/\">brain aneurysm</a> \u2013 a bulge in a blood vessel in your brain</li><li><a href=\"https://api.service.nhs.uk/nhs-website-content/conditions/angina/\">angina</a>\u00a0\u2013 chest pain caused by reduced blood flow to the heart muscles</li><li><a href=\"https://api.service.nhs.uk/nhs-website-content/conditions/blood-clots/\">blood clots</a> or a <a href=\"https://api.service.nhs.uk/nhs-website-content/conditions/pulmonary-embolism/\">pulmonary embolism</a>\u00a0\u2013 a blockage in the artery supplying\u00a0your lungs</li><li>a blockage in the blood supply to your kidneys</li></ul><p>Angiography\u00a0may also be used to help plan treatment for some of these conditions.</p>",
           "@type": "WebPageElement",
           "name": "markdown",
           "headline": ""
@@ -108,7 +112,7 @@
         {
           "position": 0,
           "identifier": "1",
-          "text": "<p>Angiography\u00a0is used to\u00a0check the health of your blood vessels and how blood flows through them.</p><p>It can help to diagnose or investigate several problems affecting blood vessels, including:</p><ul><li><a href=\"https://api.nhs.uk/conditions/atherosclerosis/\">atherosclerosis</a> \u2013 narrowing of the arteries, which could mean you're at risk of having a\u00a0<a href=\"https://api.nhs.uk/conditions/stroke/\">stroke</a> or\u00a0<a href=\"https://api.nhs.uk/conditions/heart-attack/\">heart attack</a></li><li><a href=\"https://api.nhs.uk/conditions/peripheral-arterial-disease-pad/\">peripheral arterial disease</a>\u00a0\u2013 reduced blood supply to the leg muscles</li><li>a <a href=\"https://api.nhs.uk/conditions/brain-aneurysm/\">brain aneurysm</a> \u2013 a bulge in a blood vessel in your brain</li><li><a href=\"https://api.nhs.uk/conditions/angina/\">angina</a>\u00a0\u2013 chest pain caused by reduced blood flow to the heart muscles</li><li><a href=\"https://api.nhs.uk/conditions/blood-clots/\">blood clots</a> or a <a href=\"https://api.nhs.uk/conditions/pulmonary-embolism/\">pulmonary embolism</a>\u00a0\u2013 a blockage in the artery supplying\u00a0your lungs</li><li>a blockage in the blood supply to your kidneys</li></ul><p>Angiography\u00a0may also be used to help plan treatment for some of these conditions.</p>",
+          "text": "<p>Angiography\u00a0is used to\u00a0check the health of your blood vessels and how blood flows through them.</p><p>It can help to diagnose or investigate several problems affecting blood vessels, including:</p><ul><li><a href=\"https://api.service.nhs.uk/nhs-website-content/conditions/atherosclerosis/\">atherosclerosis</a> \u2013 narrowing of the arteries, which could mean you're at risk of having a\u00a0<a href=\"https://api.service.nhs.uk/nhs-website-content/conditions/stroke/\">stroke</a> or\u00a0<a href=\"https://api.service.nhs.uk/nhs-website-content/conditions/heart-attack/\">heart attack</a></li><li><a href=\"https://api.service.nhs.uk/nhs-website-content/conditions/peripheral-arterial-disease-pad/\">peripheral arterial disease</a>\u00a0\u2013 reduced blood supply to the leg muscles</li><li>a <a href=\"https://api.service.nhs.uk/nhs-website-content/conditions/brain-aneurysm/\">brain aneurysm</a> \u2013 a bulge in a blood vessel in your brain</li><li><a href=\"https://api.service.nhs.uk/nhs-website-content/conditions/angina/\">angina</a>\u00a0\u2013 chest pain caused by reduced blood flow to the heart muscles</li><li><a href=\"https://api.service.nhs.uk/nhs-website-content/conditions/blood-clots/\">blood clots</a> or a <a href=\"https://api.service.nhs.uk/nhs-website-content/conditions/pulmonary-embolism/\">pulmonary embolism</a>\u00a0\u2013 a blockage in the artery supplying\u00a0your lungs</li><li>a blockage in the blood supply to your kidneys</li></ul><p>Angiography\u00a0may also be used to help plan treatment for some of these conditions.</p>",
           "@type": "WebPageElement",
           "name": "markdown",
           "headline": ""
@@ -125,7 +129,7 @@
         {
           "position": 0,
           "identifier": "1",
-          "text": "<p>Angiography is done in\u00a0a hospital\u00a0X-ray or radiology department.</p><p>For the test:</p><ul><li>you'll usually\u00a0be awake, but may be given a medicine called a sedative to help you relax</li><li>you lie on an X-ray table and a\u00a0small cut (incision) is made over 1 of your arteries, usually near your groin or wrist\u00a0\u2013 <a href=\"https://api.nhs.uk/conditions/local-anaesthesia/\">local anaesthetic</a> is used to\u00a0numb the area where the cut is made</li><li>a very thin flexible tube (catheter) is inserted into the artery</li><li>the catheter is carefully guided to the area that's being examined (such as the heart)</li><li>a contrast agent (dye) is injected into the catheter</li><li>a series of X-rays are taken as contrast agent flows through your blood vessels</li></ul><p>The test\u00a0can take between 30 minutes and 2 hours. You'll usually be able to go home a few hours afterwards.</p><p>Read more about <a href=\"https://api.nhs.uk/conditions/angiography/what-happens/\">what happens before, during and after angiography</a>.</p>",
+          "text": "<p>Angiography is done in\u00a0a hospital\u00a0X-ray or radiology department.</p><p>For the test:</p><ul><li>you'll usually\u00a0be awake, but may be given a medicine called a sedative to help you relax</li><li>you lie on an X-ray table and a\u00a0small cut (incision) is made over 1 of your arteries, usually near your groin or wrist\u00a0\u2013 <a href=\"https://api.service.nhs.uk/nhs-website-content/conditions/local-anaesthesia/\">local anaesthetic</a> is used to\u00a0numb the area where the cut is made</li><li>a very thin flexible tube (catheter) is inserted into the artery</li><li>the catheter is carefully guided to the area that's being examined (such as the heart)</li><li>a contrast agent (dye) is injected into the catheter</li><li>a series of X-rays are taken as contrast agent flows through your blood vessels</li></ul><p>The test\u00a0can take between 30 minutes and 2 hours. You'll usually be able to go home a few hours afterwards.</p><p>Read more about <a href=\"https://api.service.nhs.uk/nhs-website-content/conditions/angiography/what-happens/\">what happens before, during and after angiography</a>.</p>",
           "@type": "WebPageElement",
           "name": "markdown",
           "headline": ""
@@ -136,7 +140,7 @@
         {
           "position": 0,
           "identifier": "1",
-          "text": "<p>Angiography is done in\u00a0a hospital\u00a0X-ray or radiology department.</p><p>For the test:</p><ul><li>you'll usually\u00a0be awake, but may be given a medicine called a sedative to help you relax</li><li>you lie on an X-ray table and a\u00a0small cut (incision) is made over 1 of your arteries, usually near your groin or wrist\u00a0\u2013 <a href=\"https://api.nhs.uk/conditions/local-anaesthesia/\">local anaesthetic</a> is used to\u00a0numb the area where the cut is made</li><li>a very thin flexible tube (catheter) is inserted into the artery</li><li>the catheter is carefully guided to the area that's being examined (such as the heart)</li><li>a contrast agent (dye) is injected into the catheter</li><li>a series of X-rays are taken as contrast agent flows through your blood vessels</li></ul><p>The test\u00a0can take between 30 minutes and 2 hours. You'll usually be able to go home a few hours afterwards.</p><p>Read more about <a href=\"https://api.nhs.uk/conditions/angiography/what-happens/\">what happens before, during and after angiography</a>.</p>",
+          "text": "<p>Angiography is done in\u00a0a hospital\u00a0X-ray or radiology department.</p><p>For the test:</p><ul><li>you'll usually\u00a0be awake, but may be given a medicine called a sedative to help you relax</li><li>you lie on an X-ray table and a\u00a0small cut (incision) is made over 1 of your arteries, usually near your groin or wrist\u00a0\u2013 <a href=\"https://api.service.nhs.uk/nhs-website-content/conditions/local-anaesthesia/\">local anaesthetic</a> is used to\u00a0numb the area where the cut is made</li><li>a very thin flexible tube (catheter) is inserted into the artery</li><li>the catheter is carefully guided to the area that's being examined (such as the heart)</li><li>a contrast agent (dye) is injected into the catheter</li><li>a series of X-rays are taken as contrast agent flows through your blood vessels</li></ul><p>The test\u00a0can take between 30 minutes and 2 hours. You'll usually be able to go home a few hours afterwards.</p><p>Read more about <a href=\"https://api.service.nhs.uk/nhs-website-content/conditions/angiography/what-happens/\">what happens before, during and after angiography</a>.</p>",
           "@type": "WebPageElement",
           "name": "markdown",
           "headline": ""
@@ -153,7 +157,7 @@
         {
           "position": 0,
           "identifier": "1",
-          "text": "<p>Angiography is generally a\u00a0safe and painless procedure.</p><p>But for a few days or weeks afterwards it's common to have:</p><ul><li>bruising</li><li>soreness</li><li>a very small\u00a0lump or collection of blood near where the cut was made</li></ul><p>There's also a very small risk of more serious complications, such as an allergic reaction to the contrast agent, a stroke or a heart attack.</p><p>Read more about the <a href=\"https://api.nhs.uk/conditions/angiography/risks/\">risks of angiography</a>.</p>",
+          "text": "<p>Angiography is generally a\u00a0safe and painless procedure.</p><p>But for a few days or weeks afterwards it's common to have:</p><ul><li>bruising</li><li>soreness</li><li>a very small\u00a0lump or collection of blood near where the cut was made</li></ul><p>There's also a very small risk of more serious complications, such as an allergic reaction to the contrast agent, a stroke or a heart attack.</p><p>Read more about the <a href=\"https://api.service.nhs.uk/nhs-website-content/conditions/angiography/risks/\">risks of angiography</a>.</p>",
           "@type": "WebPageElement",
           "name": "markdown",
           "headline": ""
@@ -164,7 +168,7 @@
         {
           "position": 0,
           "identifier": "1",
-          "text": "<p>Angiography is generally a\u00a0safe and painless procedure.</p><p>But for a few days or weeks afterwards it's common to have:</p><ul><li>bruising</li><li>soreness</li><li>a very small\u00a0lump or collection of blood near where the cut was made</li></ul><p>There's also a very small risk of more serious complications, such as an allergic reaction to the contrast agent, a stroke or a heart attack.</p><p>Read more about the <a href=\"https://api.nhs.uk/conditions/angiography/risks/\">risks of angiography</a>.</p>",
+          "text": "<p>Angiography is generally a\u00a0safe and painless procedure.</p><p>But for a few days or weeks afterwards it's common to have:</p><ul><li>bruising</li><li>soreness</li><li>a very small\u00a0lump or collection of blood near where the cut was made</li></ul><p>There's also a very small risk of more serious complications, such as an allergic reaction to the contrast agent, a stroke or a heart attack.</p><p>Read more about the <a href=\"https://api.service.nhs.uk/nhs-website-content/conditions/angiography/risks/\">risks of angiography</a>.</p>",
           "@type": "WebPageElement",
           "name": "markdown",
           "headline": ""
@@ -181,7 +185,7 @@
         {
           "position": 0,
           "identifier": "1",
-          "text": "<p>There are several different types of angiography, depending on which part of the body is being looked at.</p><p>Common types include:</p><ul><li><a href=\"https://api.nhs.uk/conditions/coronary-angiography/\">coronary angiography</a>\u00a0\u2013 to check the heart and nearby blood vessels</li><li>cerebral angiography\u00a0\u2013 to check the blood vessels in and around the\u00a0brain</li><li>pulmonary angiography\u00a0\u2013 to check the blood vessels supplying the\u00a0lungs</li><li>renal angiography\u00a0\u2013 to check the blood vessels supplying the kidneys</li></ul><p>Occasionally, angiography may be done using scans instead of X-rays. These are called <a href=\"https://api.nhs.uk/conditions/ct-scan/\">CT</a>\u00a0angiography or <a href=\"https://api.nhs.uk/conditions/mri-scan/\">MRI</a>\u00a0angiography.</p><p>There's also a type of angiography that's used to check the eyes, called fluorescein angiography. It's different to the other types of angiography and is not covered in this topic.</p>",
+          "text": "<p>There are several different types of angiography, depending on which part of the body is being looked at.</p><p>Common types include:</p><ul><li><a href=\"https://api.service.nhs.uk/nhs-website-content/conditions/coronary-angiography/\">coronary angiography</a>\u00a0\u2013 to check the heart and nearby blood vessels</li><li>cerebral angiography\u00a0\u2013 to check the blood vessels in and around the\u00a0brain</li><li>pulmonary angiography\u00a0\u2013 to check the blood vessels supplying the\u00a0lungs</li><li>renal angiography\u00a0\u2013 to check the blood vessels supplying the kidneys</li></ul><p>Occasionally, angiography may be done using scans instead of X-rays. These are called <a href=\"https://api.service.nhs.uk/nhs-website-content/conditions/ct-scan/\">CT</a>\u00a0angiography or <a href=\"https://api.service.nhs.uk/nhs-website-content/conditions/mri-scan/\">MRI</a>\u00a0angiography.</p><p>There's also a type of angiography that's used to check the eyes, called fluorescein angiography. It's different to the other types of angiography and is not covered in this topic.</p>",
           "@type": "WebPageElement",
           "name": "markdown",
           "headline": ""
@@ -192,7 +196,7 @@
         {
           "position": 0,
           "identifier": "1",
-          "text": "<p>There are several different types of angiography, depending on which part of the body is being looked at.</p><p>Common types include:</p><ul><li><a href=\"https://api.nhs.uk/conditions/coronary-angiography/\">coronary angiography</a>\u00a0\u2013 to check the heart and nearby blood vessels</li><li>cerebral angiography\u00a0\u2013 to check the blood vessels in and around the\u00a0brain</li><li>pulmonary angiography\u00a0\u2013 to check the blood vessels supplying the\u00a0lungs</li><li>renal angiography\u00a0\u2013 to check the blood vessels supplying the kidneys</li></ul><p>Occasionally, angiography may be done using scans instead of X-rays. These are called <a href=\"https://api.nhs.uk/conditions/ct-scan/\">CT</a>\u00a0angiography or <a href=\"https://api.nhs.uk/conditions/mri-scan/\">MRI</a>\u00a0angiography.</p><p>There's also a type of angiography that's used to check the eyes, called fluorescein angiography. It's different to the other types of angiography and is not covered in this topic.</p>",
+          "text": "<p>There are several different types of angiography, depending on which part of the body is being looked at.</p><p>Common types include:</p><ul><li><a href=\"https://api.service.nhs.uk/nhs-website-content/conditions/coronary-angiography/\">coronary angiography</a>\u00a0\u2013 to check the heart and nearby blood vessels</li><li>cerebral angiography\u00a0\u2013 to check the blood vessels in and around the\u00a0brain</li><li>pulmonary angiography\u00a0\u2013 to check the blood vessels supplying the\u00a0lungs</li><li>renal angiography\u00a0\u2013 to check the blood vessels supplying the kidneys</li></ul><p>Occasionally, angiography may be done using scans instead of X-rays. These are called <a href=\"https://api.service.nhs.uk/nhs-website-content/conditions/ct-scan/\">CT</a>\u00a0angiography or <a href=\"https://api.service.nhs.uk/nhs-website-content/conditions/mri-scan/\">MRI</a>\u00a0angiography.</p><p>There's also a type of angiography that's used to check the eyes, called fluorescein angiography. It's different to the other types of angiography and is not covered in this topic.</p>",
           "@type": "WebPageElement",
           "name": "markdown",
           "headline": ""

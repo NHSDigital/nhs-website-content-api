@@ -13,7 +13,7 @@
   },
   "about": { "@type": "WebPage", "name": "Health A to Z", "alternateName": "" },
   "description": "",
-  "url": "https://api.nhs.uk/conditions/",
+  "url": "https://api.service.nhs.uk/nhs-website-content/conditions/",
   "genre": [],
   "keywords": "",
   "dateModified": "2021-11-18T15:26:06+00:00",
@@ -24,7 +24,7 @@
       {
         "@type": "ListItem",
         "position": 0,
-        "item": { "@id": "https://api.nhs.uk/conditions/", "name": "Health A to Z", "genre": [] }
+        "item": { "@id": "https://api.service.nhs.uk/nhs-website-content/conditions/", "name": "Health A to Z", "genre": [] }
       }
     ]
   },
@@ -45,7 +45,7 @@
         "keywords": "",
         "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
       },
-      "url": "https://api.nhs.uk/conditions/balanitis/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/balanitis/",
       "name": "Balanitis"
     },
     {
@@ -63,7 +63,7 @@
         "keywords": "",
         "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
       },
-      "url": "https://api.nhs.uk/conditions/barium-enema/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/barium-enema/",
       "name": "Barium enema"
     },
     {
@@ -81,7 +81,7 @@
         "keywords": "",
         "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
       },
-      "url": "https://api.nhs.uk/conditions/bedbugs/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/bedbugs/",
       "name": "Bedbugs"
     },
     {
@@ -99,7 +99,7 @@
         "keywords": "",
         "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
       },
-      "url": "https://api.nhs.uk/conditions/beta-blockers/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/beta-blockers/",
       "name": "Beta blockers"
     },
     {
@@ -117,7 +117,7 @@
         "keywords": "",
         "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
       },
-      "url": "https://api.nhs.uk/conditions/black-eye/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/black-eye/",
       "name": "Black eye"
     },
     {
@@ -135,7 +135,7 @@
         "keywords": "",
         "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
       },
-      "url": "https://api.nhs.uk/conditions/blood-clots/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/blood-clots/",
       "name": "Blood clots"
     },
     {
@@ -153,7 +153,7 @@
         "keywords": "",
         "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
       },
-      "url": "https://api.nhs.uk/conditions/blood-groups/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/blood-groups/",
       "name": "Blood groups"
     },
     {
@@ -171,7 +171,7 @@
         "keywords": "",
         "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
       },
-      "url": "https://api.nhs.uk/conditions/blood-in-semen/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/blood-in-semen/",
       "name": "Blood in semen"
     },
     {
@@ -189,7 +189,7 @@
         "keywords": "",
         "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
       },
-      "url": "https://api.nhs.uk/conditions/blood-in-urine/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/blood-in-urine/",
       "name": "Blood in urine"
     },
     {
@@ -207,7 +207,7 @@
         "keywords": "",
         "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
       },
-      "url": "https://api.nhs.uk/conditions/blood-pressure-test/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/blood-pressure-test/",
       "name": "Blood pressure test"
     },
     {
@@ -225,7 +225,7 @@
         "keywords": "",
         "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
       },
-      "url": "https://api.nhs.uk/conditions/boils/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/boils/",
       "name": "Boils"
     },
     {
@@ -243,7 +243,7 @@
         "keywords": "",
         "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
       },
-      "url": "https://api.nhs.uk/conditions/botulism/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/botulism/",
       "name": "Botulism"
     },
     {
@@ -261,7 +261,7 @@
         "keywords": "",
         "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
       },
-      "url": "https://api.nhs.uk/conditions/bowel-polyps/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/bowel-polyps/",
       "name": "Bowel polyps"
     },
     {
@@ -279,7 +279,7 @@
         "keywords": "",
         "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
       },
-      "url": "https://api.nhs.uk/conditions/bowens-disease/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/bowens-disease/",
       "name": "Bowen's disease"
     },
     {
@@ -297,7 +297,7 @@
         "keywords": "",
         "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
       },
-      "url": "https://api.nhs.uk/conditions/brain-tumours/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/brain-tumours/",
       "name": "Brain tumours"
     },
     {
@@ -315,7 +315,7 @@
         "keywords": "",
         "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
       },
-      "url": "https://api.nhs.uk/conditions/breast-pain/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/breast-pain/",
       "name": "Breast pain"
     },
     {
@@ -333,7 +333,7 @@
         "keywords": "",
         "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
       },
-      "url": "https://api.nhs.uk/conditions/breast-reduction-on-the-nhs/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/breast-reduction-on-the-nhs/",
       "name": "Breast reduction on the NHS"
     },
     {
@@ -351,7 +351,7 @@
         "keywords": "",
         "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
       },
-      "url": "https://api.nhs.uk/conditions/breath-holding-in-babies-and-children/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/breath-holding-in-babies-and-children/",
       "name": "Breath-holding in babies and children"
     },
     {
@@ -369,7 +369,7 @@
         "keywords": "",
         "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
       },
-      "url": "https://api.nhs.uk/conditions/broken-ankle/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/broken-ankle/",
       "name": "Broken ankle"
     },
     {
@@ -387,7 +387,7 @@
         "keywords": "",
         "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
       },
-      "url": "https://api.nhs.uk/conditions/broken-arm-or-wrist/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/broken-arm-or-wrist/",
       "name": "Broken arm or wrist"
     },
     {
@@ -405,7 +405,7 @@
         "keywords": "",
         "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
       },
-      "url": "https://api.nhs.uk/conditions/broken-collarbone/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/broken-collarbone/",
       "name": "Broken collarbone"
     },
     {
@@ -423,7 +423,7 @@
         "keywords": "",
         "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
       },
-      "url": "https://api.nhs.uk/conditions/broken-finger/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/broken-finger/",
       "name": "Broken finger or thumb"
     },
     {
@@ -441,7 +441,7 @@
         "keywords": "",
         "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
       },
-      "url": "https://api.nhs.uk/conditions/broken-leg/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/broken-leg/",
       "name": "Broken leg"
     },
     {
@@ -459,7 +459,7 @@
         "keywords": "",
         "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
       },
-      "url": "https://api.nhs.uk/conditions/broken-nose/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/broken-nose/",
       "name": "Broken nose"
     },
     {
@@ -477,7 +477,7 @@
         "keywords": "",
         "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
       },
-      "url": "https://api.nhs.uk/conditions/broken-or-bruised-ribs/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/broken-or-bruised-ribs/",
       "name": "Broken or bruised ribs"
     },
     {
@@ -495,7 +495,7 @@
         "keywords": "",
         "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
       },
-      "url": "https://api.nhs.uk/conditions/broken-toe/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/broken-toe/",
       "name": "Broken toe"
     },
     {
@@ -513,7 +513,7 @@
         "keywords": "",
         "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
       },
-      "url": "https://api.nhs.uk/conditions/bronchitis/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/bronchitis/",
       "name": "Bronchitis"
     },
     {
@@ -531,7 +531,7 @@
         "keywords": "",
         "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
       },
-      "url": "https://api.nhs.uk/conditions/brucellosis/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/brucellosis/",
       "name": "Brucellosis"
     },
     {
@@ -549,7 +549,7 @@
         "keywords": "",
         "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
       },
-      "url": "https://api.nhs.uk/conditions/brugada-syndrome/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/brugada-syndrome/",
       "name": "Brugada syndrome"
     },
     {
@@ -568,7 +568,7 @@
         "alternateName": ["Cyanosis"],
         "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
       },
-      "url": "https://api.nhs.uk/conditions/blue-skin-or-lips-cyanosis/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/blue-skin-or-lips-cyanosis/",
       "name": "Blue or grey skin or lips (cyanosis)"
     },
     {
@@ -587,7 +587,7 @@
         "alternateName": ["Interstitial cystitis", "Painful bladder syndrome"],
         "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
       },
-      "url": "https://api.nhs.uk/conditions/interstitial-cystitis/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/interstitial-cystitis/",
       "name": "Bladder pain syndrome (interstitial cystitis)"
     },
     {
@@ -605,7 +605,7 @@
         "keywords": "",
         "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
       },
-      "url": "https://api.nhs.uk/conditions/vision-loss/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/vision-loss/",
       "name": "Blindness and vision loss"
     },
     {
@@ -624,7 +624,7 @@
         "alternateName": ["Lumbago", "Lower back pain", "Upper back pain"],
         "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
       },
-      "url": "https://api.nhs.uk/conditions/back-pain/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/back-pain/",
       "name": "Back pain"
     },
     {
@@ -642,7 +642,7 @@
         "keywords": "",
         "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
       },
-      "url": "https://api.nhs.uk/conditions/bacterial-vaginosis/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/bacterial-vaginosis/",
       "name": "Bacterial vaginosis"
     },
     {
@@ -661,7 +661,7 @@
         "alternateName": ["Halitosis"],
         "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
       },
-      "url": "https://api.nhs.uk/conditions/bad-breath/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/bad-breath/",
       "name": "Bad breath"
     },
     {
@@ -680,7 +680,7 @@
         "alternateName": ["Popliteal cyst"],
         "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
       },
-      "url": "https://api.nhs.uk/conditions/bakers-cyst/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/bakers-cyst/",
       "name": "Baker's cyst"
     },
     {
@@ -698,7 +698,7 @@
         "keywords": "",
         "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
       },
-      "url": "https://api.nhs.uk/conditions/bartholins-cyst/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/bartholins-cyst/",
       "name": "Bartholin's cyst"
     },
     {
@@ -716,7 +716,7 @@
         "keywords": "",
         "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
       },
-      "url": "https://api.nhs.uk/conditions/bedwetting/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/bedwetting/",
       "name": "Bedwetting in children"
     },
     {
@@ -734,7 +734,7 @@
         "keywords": "",
         "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
       },
-      "url": "https://api.nhs.uk/conditions/behcets-disease/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/behcets-disease/",
       "name": "Beh\u00e7et's disease"
     },
     {
@@ -752,7 +752,7 @@
         "keywords": "",
         "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
       },
-      "url": "https://api.nhs.uk/conditions/bells-palsy/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/bells-palsy/",
       "name": "Bell's palsy"
     },
     {
@@ -771,7 +771,7 @@
         "alternateName": ["Brain tumour (benign)"],
         "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
       },
-      "url": "https://api.nhs.uk/conditions/benign-brain-tumour/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/benign-brain-tumour/",
       "name": "Benign brain tumour (non-cancerous)"
     },
     {
@@ -789,7 +789,7 @@
         "keywords": "",
         "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
       },
-      "url": "https://api.nhs.uk/conditions/biopsy/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/biopsy/",
       "name": "Biopsy"
     },
     {
@@ -807,7 +807,7 @@
         "keywords": "",
         "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
       },
-      "url": "https://api.nhs.uk/conditions/birthmarks/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/birthmarks/",
       "name": "Birthmarks"
     },
     {
@@ -825,7 +825,7 @@
         "keywords": "",
         "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
       },
-      "url": "https://api.nhs.uk/conditions/bladder-cancer/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/bladder-cancer/",
       "name": "Bladder cancer"
     },
     {
@@ -843,7 +843,7 @@
         "keywords": "",
         "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
       },
-      "url": "https://api.nhs.uk/conditions/bladder-stones/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/bladder-stones/",
       "name": "Bladder stones"
     },
     {
@@ -862,7 +862,7 @@
         "alternateName": ["Rectal bleeding"],
         "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
       },
-      "url": "https://api.nhs.uk/conditions/bleeding-from-the-bottom-rectal-bleeding/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/bleeding-from-the-bottom-rectal-bleeding/",
       "name": "Bleeding from the bottom (rectal bleeding)"
     },
     {
@@ -880,7 +880,7 @@
         "keywords": "",
         "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
       },
-      "url": "https://api.nhs.uk/conditions/blepharitis/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/blepharitis/",
       "name": "Blepharitis"
     },
     {
@@ -898,7 +898,7 @@
         "keywords": "",
         "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
       },
-      "url": "https://api.nhs.uk/conditions/blisters/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/blisters/",
       "name": "Blisters"
     },
     {
@@ -916,7 +916,7 @@
         "keywords": "",
         "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
       },
-      "url": "https://api.nhs.uk/conditions/blood-tests/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/blood-tests/",
       "name": "Blood tests"
     },
     {
@@ -934,7 +934,7 @@
         "keywords": "",
         "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
       },
-      "url": "https://api.nhs.uk/conditions/blushing/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/blushing/",
       "name": "Blushing"
     },
     {
@@ -952,7 +952,7 @@
         "keywords": "",
         "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
       },
-      "url": "https://api.nhs.uk/conditions/bone-cancer/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/bone-cancer/",
       "name": "Bone cancer"
     },
     {
@@ -970,7 +970,7 @@
         "keywords": "",
         "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
       },
-      "url": "https://api.nhs.uk/conditions/bone-cyst/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/bone-cyst/",
       "name": "Bone cyst"
     },
     {
@@ -988,7 +988,7 @@
         "keywords": "",
         "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
       },
-      "url": "https://api.nhs.uk/conditions/bowel-cancer-screening/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/bowel-cancer-screening/",
       "name": "Bowel cancer screening"
     },
     {
@@ -1006,7 +1006,7 @@
         "keywords": "",
         "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
       },
-      "url": "https://api.nhs.uk/conditions/bowel-incontinence/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/bowel-incontinence/",
       "name": "Bowel incontinence"
     },
     {
@@ -1024,7 +1024,7 @@
         "keywords": "",
         "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
       },
-      "url": "https://api.nhs.uk/conditions/brain-abscess/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/brain-abscess/",
       "name": "Brain abscess"
     },
     {
@@ -1043,7 +1043,7 @@
         "alternateName": ["Aneurysm (brain)"],
         "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
       },
-      "url": "https://api.nhs.uk/conditions/brain-aneurysm/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/brain-aneurysm/",
       "name": "Brain aneurysm"
     },
     {
@@ -1061,7 +1061,7 @@
         "keywords": "",
         "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
       },
-      "url": "https://api.nhs.uk/conditions/brain-death/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/brain-death/",
       "name": "Brain death"
     },
     {
@@ -1079,7 +1079,7 @@
         "keywords": "",
         "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
       },
-      "url": "https://api.nhs.uk/conditions/breast-abscess/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/breast-abscess/",
       "name": "Breast abscess"
     },
     {
@@ -1097,7 +1097,7 @@
         "keywords": "",
         "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
       },
-      "url": "https://api.nhs.uk/conditions/breast-cancer/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/breast-cancer/",
       "name": "Breast cancer in women"
     },
     {
@@ -1115,7 +1115,7 @@
         "keywords": "",
         "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
       },
-      "url": "https://api.nhs.uk/conditions/breast-cancer-in-men/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/breast-cancer-in-men/",
       "name": "Breast cancer in men"
     },
     {
@@ -1133,7 +1133,7 @@
         "keywords": "",
         "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
       },
-      "url": "https://api.nhs.uk/conditions/breast-lump/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/breast-lump/",
       "name": "Breast lumps"
     },
     {
@@ -1151,7 +1151,7 @@
         "keywords": "",
         "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
       },
-      "url": "https://api.nhs.uk/conditions/bronchiectasis/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/bronchiectasis/",
       "name": "Bronchiectasis"
     },
     {
@@ -1169,7 +1169,7 @@
         "keywords": "",
         "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
       },
-      "url": "https://api.nhs.uk/conditions/bronchiolitis/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/bronchiolitis/",
       "name": "Bronchiolitis"
     },
     {
@@ -1187,7 +1187,7 @@
         "keywords": "",
         "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
       },
-      "url": "https://api.nhs.uk/conditions/bronchodilators/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/bronchodilators/",
       "name": "Bronchodilators"
     },
     {
@@ -1205,7 +1205,7 @@
         "keywords": "",
         "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
       },
-      "url": "https://api.nhs.uk/conditions/bulging-eyes/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/bulging-eyes/",
       "name": "Bulging eyes (exophthalmos)"
     },
     {
@@ -1223,7 +1223,7 @@
         "keywords": "",
         "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
       },
-      "url": "https://api.nhs.uk/conditions/burns-and-scalds/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/burns-and-scalds/",
       "name": "Burns and scalds"
     },
     {
@@ -1241,7 +1241,7 @@
         "keywords": "",
         "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
       },
-      "url": "https://api.nhs.uk/conditions/bursitis/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/bursitis/",
       "name": "Bursitis"
     },
     {
@@ -1260,7 +1260,7 @@
         "alternateName": ["DEXA scan"],
         "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
       },
-      "url": "https://api.nhs.uk/conditions/dexa-scan/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/dexa-scan/",
       "name": "Bone density scan (DEXA scan)"
     },
     {
@@ -1278,7 +1278,7 @@
         "keywords": "",
         "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
       },
-      "url": "https://api.nhs.uk/conditions/broken-hip/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/broken-hip/",
       "name": "Broken hip"
     },
     {
@@ -1297,7 +1297,7 @@
         "alternateName": ["Prostate enlargement"],
         "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
       },
-      "url": "https://api.nhs.uk/conditions/prostate-enlargement/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/prostate-enlargement/",
       "name": "Benign prostate enlargement"
     },
     {
@@ -1316,7 +1316,7 @@
         "alternateName": ["Avian flu"],
         "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
       },
-      "url": "https://api.nhs.uk/conditions/bird-flu/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/bird-flu/",
       "name": "Bird flu"
     },
     {
@@ -1334,7 +1334,7 @@
         "keywords": "",
         "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
       },
-      "url": "https://api.nhs.uk/conditions/blood-transfusion/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/blood-transfusion/",
       "name": "Blood transfusion"
     },
     {
@@ -1352,7 +1352,7 @@
         "keywords": "",
         "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
       },
-      "url": "https://api.nhs.uk/conditions/bunions/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/bunions/",
       "name": "Bunions"
     },
     {
@@ -1370,7 +1370,7 @@
         "keywords": "",
         "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
       },
-      "url": "https://api.nhs.uk/conditions/bullous-pemphigoid/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/bullous-pemphigoid/",
       "name": "Bullous pemphigoid"
     },
     {
@@ -1388,7 +1388,7 @@
         "keywords": "",
         "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
       },
-      "url": "https://api.nhs.uk/conditions/body-odour-bo/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/body-odour-bo/",
       "name": "Body odour (BO)"
     },
     {
@@ -1403,7 +1403,7 @@
         "dateModified": "2022-08-08T08:03:36+00:00",
         "keywords": ""
       },
-      "url": "https://api.nhs.uk/conditions/baby/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/baby/",
       "name": "Baby"
     },
     {
@@ -1419,7 +1419,7 @@
         "keywords": "",
         "alternateName": ["Mammogram"]
       },
-      "url": "https://api.nhs.uk/conditions/breast-screening-mammogram/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/breast-screening-mammogram/",
       "name": "Breast screening (mammogram)"
     },
     {
@@ -1437,7 +1437,7 @@
         "keywords": "",
         "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
       },
-      "url": "https://api.nhs.uk/conditions/bloating/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/bloating/",
       "name": "Bloating"
     },
     {
@@ -1455,7 +1455,7 @@
         "keywords": "",
         "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
       },
-      "url": "https://api.nhs.uk/conditions/braces-and-orthodontics/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/braces-and-orthodontics/",
       "name": "Braces and orthodontics"
     },
     {
@@ -1471,7 +1471,7 @@
         "keywords": "",
         "alternateName": ["Colon cancer", "Rectal cancer"]
       },
-      "url": "https://api.nhs.uk/conditions/bowel-cancer/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/bowel-cancer/",
       "name": "Bowel cancer"
     },
     {
@@ -1486,7 +1486,7 @@
         "dateModified": "2023-07-05T14:22:21+00:00",
         "keywords": ""
       },
-      "url": "https://api.nhs.uk/conditions/bile-duct-cancer/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/bile-duct-cancer/",
       "name": "Bile duct cancer (cholangiocarcinoma)"
     },
     {

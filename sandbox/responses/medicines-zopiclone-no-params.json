@@ -13,7 +13,7 @@
   },
   "about": { "@type": "WebPage", "name": "Zopiclone", "alternateName": "" },
   "description": "Brand name: Zimovane. Find out how zopiclone treats sleeping problems (insomnia) and how to take it.",
-  "url": "https://api.nhs.uk/medicines/zopiclone/",
+  "url": "https://api.service.nhs.uk/nhs-website-content/medicines/zopiclone/",
   "genre": ["Medicine"],
   "keywords": "",
   "dateModified": "2023-03-15T14:45:39+00:00",
@@ -21,7 +21,7 @@
     {
       "@type": "HealthTopicContent",
       "hasHealthAspect": "http://schema.org/OverviewHealthAspect",
-      "url": "https://api.nhs.uk/medicines/zopiclone/about-zopiclone/#overview",
+      "url": "https://api.service.nhs.uk/nhs-website-content/medicines/zopiclone/about-zopiclone/#overview",
       "description": "Zopiclone is a sleeping pill you can get on prescription. It's used for short-term treatment of severe insomnia.",
       "hasPart": [
         {
@@ -35,7 +35,7 @@
     {
       "@type": "HealthTopicContent",
       "hasHealthAspect": "http://schema.org/SuitabilityHealthAspect",
-      "url": "https://api.nhs.uk/medicines/zopiclone/who-can-and-cannot-take-zopiclone/#who-its-for",
+      "url": "https://api.service.nhs.uk/nhs-website-content/medicines/zopiclone/who-can-and-cannot-take-zopiclone/#who-its-for",
       "description": "Most adults can take zopiclone. But always check before taking it, as it's not suitable for everyone.",
       "hasPart": [
         {
@@ -49,7 +49,7 @@
     {
       "@type": "HealthTopicContent",
       "hasHealthAspect": "http://schema.org/UsageOrScheduleHealthAspect",
-      "url": "https://api.nhs.uk/medicines/zopiclone/how-and-when-to-take-zopiclone/#how-its-used-previously-dosage-and-administration",
+      "url": "https://api.service.nhs.uk/nhs-website-content/medicines/zopiclone/how-and-when-to-take-zopiclone/#how-its-used-previously-dosage-and-administration",
       "description": "Zopiclone comes as tablets that you take once a day before bed. Follow the instructions that come with your medicine.",
       "hasPart": [
         {
@@ -84,7 +84,7 @@
     {
       "@type": "HealthTopicContent",
       "hasHealthAspect": "http://schema.org/SideEffectsHealthAspect",
-      "url": "https://api.nhs.uk/medicines/zopiclone/side-effects-of-zopiclone/#side-effects",
+      "url": "https://api.service.nhs.uk/nhs-website-content/medicines/zopiclone/side-effects-of-zopiclone/#side-effects",
       "description": "Side effects of zopiclone include a bitter or metallic taste, a dry mouth and feeling tired. More serious side effects can happen in rare cases.",
       "hasPart": [
         {
@@ -108,7 +108,7 @@
     {
       "@type": "HealthTopicContent",
       "hasHealthAspect": "http://schema.org/PregnancyHealthAspect",
-      "url": "https://api.nhs.uk/medicines/zopiclone/pregnancy-breastfeeding-and-fertility-while-taking-zopiclone/#pregnancy-and-breastfeeding",
+      "url": "https://api.service.nhs.uk/nhs-website-content/medicines/zopiclone/pregnancy-breastfeeding-and-fertility-while-taking-zopiclone/#pregnancy-and-breastfeeding",
       "description": "Zopiclone is not usually recommended during pregnancy. It may be taken while breastfeeding. Always check with a pharmacist or doctor.",
       "hasPart": [
         {
@@ -122,13 +122,13 @@
     {
       "@type": "HealthTopicContent",
       "hasHealthAspect": "http://schema.org/InteractionsHealthAspect",
-      "url": "https://api.nhs.uk/medicines/zopiclone/taking-zopiclone-with-other-medicines-and-herbal-supplements/#interactions",
+      "url": "https://api.service.nhs.uk/nhs-website-content/medicines/zopiclone/taking-zopiclone-with-other-medicines-and-herbal-supplements/#interactions",
       "description": "Taking zopiclone with other medicines, herbal remedies, vitamins or supplements can cause problems. Check with a pharmacist or doctor.",
       "hasPart": [
         {
           "@type": "WebPageElement",
           "headline": "",
-          "text": "<p>Some medicines and zopiclone can affect each other and increase the chances of you having side effects.</p><p>Certain medicines may increase the drowsy (sedating) effects of zopiclone.</p><p>Speak to your doctor or pharmacist before starting to take zopiclone if you take any of these medicines:</p><ul><li>medicines to treat <a href=\"/mental-health/conditions/schizophrenia/overview/\">schizophrenia</a> or <a href=\"/mental-health/conditions/bipolar-disorder/overview/\">bipolar disorder</a></li><li>medicines to treat <a href=\"/mental-health/conditions/depression-in-adults/overview/\">depression</a></li><li>medicines for <a href=\"/conditions/epilepsy/\">epilepsy</a></li><li>medicines to calm or reduce anxiety, or for sleep problems</li><li>medicines for <a href=\"/conditions/hay-fever/\">hay fever</a>, rashes or other allergies that can make you sleepy (sedating antihistamines, such as <a href=\"https://api.nhs.uk/medicines/chlorphenamine-including-piriton/\">chlorphenamine</a> or <a href=\"https://api.nhs.uk/medicines/promethazine/\">promethazine</a>)</li><li>strong painkillers such as <a href=\"https://api.nhs.uk/medicines/codeine/\">codeine</a>, <a href=\"https://api.nhs.uk/medicines/methadone/\">methadone</a>, <a href=\"https://api.nhs.uk/medicines/morphine/\">morphine</a>, <a href=\"https://api.nhs.uk/medicines/oxycodone/\">oxycodone</a>, pethidine or <a href=\"https://api.nhs.uk/medicines/tramadol/\">tramadol</a></li><li><a>erythromycin</a> or <a href=\"https://api.nhs.uk/medicines/clarithromycin/\">clarithromycin</a>, antibiotics used to treat infections</li><li>medicines used to treat fungal infections, such as <a href=\"https://api.nhs.uk/medicines/ketoconazole/\">ketoconazole</a> or itraconazole</li><li>ritonavir, a medicine used to treat HIV infections</li></ul><h2>Mixing zopiclone with herbal remedies and supplements</h2><p>Do not take any herbal remedies that make you feel sleepy while taking zopiclone.</p><p>They can increase the drowsy (sedating) effects of your medicine.</p>"
+          "text": "<p>Some medicines and zopiclone can affect each other and increase the chances of you having side effects.</p><p>Certain medicines may increase the drowsy (sedating) effects of zopiclone.</p><p>Speak to your doctor or pharmacist before starting to take zopiclone if you take any of these medicines:</p><ul><li>medicines to treat <a href=\"/mental-health/conditions/schizophrenia/overview/\">schizophrenia</a> or <a href=\"/mental-health/conditions/bipolar-disorder/overview/\">bipolar disorder</a></li><li>medicines to treat <a href=\"/mental-health/conditions/depression-in-adults/overview/\">depression</a></li><li>medicines for <a href=\"/conditions/epilepsy/\">epilepsy</a></li><li>medicines to calm or reduce anxiety, or for sleep problems</li><li>medicines for <a href=\"/conditions/hay-fever/\">hay fever</a>, rashes or other allergies that can make you sleepy (sedating antihistamines, such as <a href=\"https://api.service.nhs.uk/nhs-website-content/medicines/chlorphenamine-including-piriton/\">chlorphenamine</a> or <a href=\"https://api.service.nhs.uk/nhs-website-content/medicines/promethazine/\">promethazine</a>)</li><li>strong painkillers such as <a href=\"https://api.service.nhs.uk/nhs-website-content/medicines/codeine/\">codeine</a>, <a href=\"https://api.service.nhs.uk/nhs-website-content/medicines/methadone/\">methadone</a>, <a href=\"https://api.service.nhs.uk/nhs-website-content/medicines/morphine/\">morphine</a>, <a href=\"https://api.service.nhs.uk/nhs-website-content/medicines/oxycodone/\">oxycodone</a>, pethidine or <a href=\"https://api.service.nhs.uk/nhs-website-content/medicines/tramadol/\">tramadol</a></li><li><a>erythromycin</a> or <a href=\"https://api.service.nhs.uk/nhs-website-content/medicines/clarithromycin/\">clarithromycin</a>, antibiotics used to treat infections</li><li>medicines used to treat fungal infections, such as <a href=\"https://api.service.nhs.uk/nhs-website-content/medicines/ketoconazole/\">ketoconazole</a> or itraconazole</li><li>ritonavir, a medicine used to treat HIV infections</li></ul><h2>Mixing zopiclone with herbal remedies and supplements</h2><p>Do not take any herbal remedies that make you feel sleepy while taking zopiclone.</p><p>They can increase the drowsy (sedating) effects of your medicine.</p>"
         }
       ],
       "headline": "Cautions with other medicines"
@@ -141,12 +141,16 @@
       {
         "@type": "ListItem",
         "position": 0,
-        "item": { "@id": "https://api.nhs.uk/medicines/", "name": "Medicines A to Z", "genre": [] }
+        "item": { "@id": "https://api.service.nhs.uk/nhs-website-content/medicines/", "name": "Medicines A to Z", "genre": [] }
       },
       {
         "@type": "ListItem",
         "position": 1,
-        "item": { "@id": "https://api.nhs.uk/medicines/zopiclone/", "name": "Zopiclone", "genre": ["Medicine"] }
+        "item": {
+          "@id": "https://api.service.nhs.uk/nhs-website-content/medicines/zopiclone/",
+          "name": "Zopiclone",
+          "genre": ["Medicine"]
+        }
       }
     ]
   },
@@ -163,7 +167,7 @@
         {
           "@type": "WebPageElement",
           "headline": "About zopiclone",
-          "url": "https://api.nhs.uk/medicines/zopiclone/about-zopiclone/",
+          "url": "https://api.service.nhs.uk/nhs-website-content/medicines/zopiclone/about-zopiclone/",
           "identifier": "26",
           "text": "",
           "name": "link"
@@ -171,7 +175,7 @@
         {
           "@type": "WebPageElement",
           "headline": "Who can and cannot take it",
-          "url": "https://api.nhs.uk/medicines/zopiclone/who-can-and-cannot-take-zopiclone/",
+          "url": "https://api.service.nhs.uk/nhs-website-content/medicines/zopiclone/who-can-and-cannot-take-zopiclone/",
           "identifier": "26",
           "text": "",
           "name": "link"
@@ -179,7 +183,7 @@
         {
           "@type": "WebPageElement",
           "headline": "How and when to take it",
-          "url": "https://api.nhs.uk/medicines/zopiclone/how-and-when-to-take-zopiclone/",
+          "url": "https://api.service.nhs.uk/nhs-website-content/medicines/zopiclone/how-and-when-to-take-zopiclone/",
           "identifier": "26",
           "text": "",
           "name": "link"
@@ -187,7 +191,7 @@
         {
           "@type": "WebPageElement",
           "headline": "Side effects",
-          "url": "https://api.nhs.uk/medicines/zopiclone/side-effects-of-zopiclone/",
+          "url": "https://api.service.nhs.uk/nhs-website-content/medicines/zopiclone/side-effects-of-zopiclone/",
           "identifier": "26",
           "text": "",
           "name": "link"
@@ -195,7 +199,7 @@
         {
           "@type": "WebPageElement",
           "headline": "Pregnancy, breastfeeding and fertility",
-          "url": "https://api.nhs.uk/medicines/zopiclone/pregnancy-breastfeeding-and-fertility-while-taking-zopiclone/",
+          "url": "https://api.service.nhs.uk/nhs-website-content/medicines/zopiclone/pregnancy-breastfeeding-and-fertility-while-taking-zopiclone/",
           "identifier": "26",
           "text": "",
           "name": "link"
@@ -203,7 +207,7 @@
         {
           "@type": "WebPageElement",
           "headline": "Taking zopiclone with other medicines and herbal supplements",
-          "url": "https://api.nhs.uk/medicines/zopiclone/taking-zopiclone-with-other-medicines-and-herbal-supplements/",
+          "url": "https://api.service.nhs.uk/nhs-website-content/medicines/zopiclone/taking-zopiclone-with-other-medicines-and-herbal-supplements/",
           "identifier": "26",
           "text": "",
           "name": "link"
@@ -211,7 +215,7 @@
         {
           "@type": "WebPageElement",
           "headline": "Common questions",
-          "url": "https://api.nhs.uk/medicines/zopiclone/common-questions-about-zopiclone/",
+          "url": "https://api.service.nhs.uk/nhs-website-content/medicines/zopiclone/common-questions-about-zopiclone/",
           "identifier": "26",
           "text": "",
           "name": "link"

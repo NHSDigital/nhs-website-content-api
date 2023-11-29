@@ -13,7 +13,7 @@
   },
   "about": { "@type": "WebPage", "name": "Health A to Z", "alternateName": "" },
   "description": "",
-  "url": "https://api.nhs.uk/conditions/",
+  "url": "https://api.service.nhs.uk/nhs-website-content/conditions/",
   "genre": [],
   "keywords": "",
   "dateModified": "2021-11-18T15:26:06+00:00",
@@ -24,7 +24,7 @@
       {
         "@type": "ListItem",
         "position": 0,
-        "item": { "@id": "https://api.nhs.uk/conditions/", "name": "Health A to Z", "genre": [] }
+        "item": { "@id": "https://api.service.nhs.uk/nhs-website-content/conditions/", "name": "Health A to Z", "genre": [] }
       }
     ]
   },
@@ -44,7 +44,7 @@
         "reviewDue": "2025-02-22T08:29:00+00:00",
         "keywords": ""
       },
-      "url": "https://api.nhs.uk/conditions/foot-pain/ankle-pain/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/foot-pain/ankle-pain/",
       "name": "Ankle pain"
     },
     {
@@ -60,7 +60,7 @@
         "keywords": "",
         "alternateName": ["Asperger's"]
       },
-      "url": "https://api.nhs.uk/conditions/autism/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/autism/",
       "name": "Autism"
     },
     {
@@ -76,7 +76,7 @@
         "keywords": "",
         "alternateName": ["Leukaemia (acute lymphoblastic)"]
       },
-      "url": "https://api.nhs.uk/conditions/acute-lymphoblastic-leukaemia/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/acute-lymphoblastic-leukaemia/",
       "name": "Acute lymphoblastic leukaemia"
     },
     {

@@ -13,7 +13,7 @@
   },
   "about": { "@type": "WebPage", "name": "Aciclovir (Zovirax)", "alternateName": "" },
   "description": "Find out how aciclovir treats cold sores, chickenpox, shingles and other herpes virus infections, and how to take it.",
-  "url": "https://api.nhs.uk/medicines/aciclovir/",
+  "url": "https://api.service.nhs.uk/nhs-website-content/medicines/aciclovir/",
   "genre": ["Medicine"],
   "keywords": "",
   "dateModified": "2023-03-15T14:49:43+00:00",
@@ -21,7 +21,7 @@
     {
       "@type": "HealthTopicContent",
       "hasHealthAspect": "http://schema.org/SuitabilityHealthAspect",
-      "url": "https://api.nhs.uk/medicines/aciclovir/who-can-and-cannot-take-or-use-aciclovir/#who-its-for",
+      "url": "https://api.service.nhs.uk/nhs-website-content/medicines/aciclovir/who-can-and-cannot-take-or-use-aciclovir/#who-its-for",
       "description": "Most adults and children can take aciclovir tablets and liquid and use the cream or ointment. Always check first, as it's not suitable for everyone.",
       "hasPart": [
         {
@@ -35,7 +35,7 @@
     {
       "@type": "HealthTopicContent",
       "hasHealthAspect": "http://schema.org/UsageOrScheduleHealthAspect",
-      "url": "https://api.nhs.uk/medicines/aciclovir/how-and-when-to-take-or-use-aciclovir/#how-its-used-previously-dosage-and-administration",
+      "url": "https://api.service.nhs.uk/nhs-website-content/medicines/aciclovir/how-and-when-to-take-or-use-aciclovir/#how-its-used-previously-dosage-and-administration",
       "description": "Aciclovir comes as tablets, liquid, cream, cold sore cream and eye ointment that you use 2 to 5 times a day. Follow the instructions in the packet.",
       "hasPart": [
         {
@@ -49,7 +49,7 @@
     {
       "@type": "HealthTopicContent",
       "hasHealthAspect": "http://schema.org/SideEffectsHealthAspect",
-      "url": "https://api.nhs.uk/medicines/aciclovir/side-effects-of-aciclovir/#side-effects",
+      "url": "https://api.service.nhs.uk/nhs-website-content/medicines/aciclovir/side-effects-of-aciclovir/#side-effects",
       "description": "Side effects of aciclovir include headaches, feeling dizzy and feeling or being sick. More serious side effects can happen in rare cases.",
       "hasPart": [
         {
@@ -83,7 +83,7 @@
     {
       "@type": "HealthTopicContent",
       "hasHealthAspect": "http://schema.org/PregnancyHealthAspect",
-      "url": "https://api.nhs.uk/medicines/aciclovir/pregnancy-breastfeeding-and-fertility-while-taking-or-using-aciclovir/#pregnancy-and-breastfeeding",
+      "url": "https://api.service.nhs.uk/nhs-website-content/medicines/aciclovir/pregnancy-breastfeeding-and-fertility-while-taking-or-using-aciclovir/#pregnancy-and-breastfeeding",
       "description": "Aciclovir can be taken or used during pregnancy and while breastfeeding. Always check with a pharmacist or doctor.",
       "hasPart": [
         {
@@ -97,7 +97,7 @@
     {
       "@type": "HealthTopicContent",
       "hasHealthAspect": "http://schema.org/InteractionsHealthAspect",
-      "url": "https://api.nhs.uk/medicines/aciclovir/taking-or-using-aciclovir-with-other-medicines-and-herbal-supplements/#interactions",
+      "url": "https://api.service.nhs.uk/nhs-website-content/medicines/aciclovir/taking-or-using-aciclovir-with-other-medicines-and-herbal-supplements/#interactions",
       "description": "Taking or using aciclovir with other medicines, herbal remedies, vitamins or supplements can cause problems. Check with a pharmacist or doctor.",
       "hasPart": [
         {
@@ -116,12 +116,16 @@
       {
         "@type": "ListItem",
         "position": 0,
-        "item": { "@id": "https://api.nhs.uk/medicines/", "name": "Medicines A to Z", "genre": [] }
+        "item": { "@id": "https://api.service.nhs.uk/nhs-website-content/medicines/", "name": "Medicines A to Z", "genre": [] }
       },
       {
         "@type": "ListItem",
         "position": 1,
-        "item": { "@id": "https://api.nhs.uk/medicines/aciclovir/", "name": "Aciclovir (Zovirax)", "genre": ["Medicine"] }
+        "item": {
+          "@id": "https://api.service.nhs.uk/nhs-website-content/medicines/aciclovir/",
+          "name": "Aciclovir (Zovirax)",
+          "genre": ["Medicine"]
+        }
       }
     ]
   },
@@ -138,7 +142,7 @@
         {
           "@type": "WebPageElement",
           "headline": "About aciclovir",
-          "url": "https://api.nhs.uk/medicines/aciclovir/about-aciclovir/",
+          "url": "https://api.service.nhs.uk/nhs-website-content/medicines/aciclovir/about-aciclovir/",
           "identifier": "26",
           "text": "",
           "name": "link"
@@ -146,7 +150,7 @@
         {
           "@type": "WebPageElement",
           "headline": "Who can and cannot take or use it",
-          "url": "https://api.nhs.uk/medicines/aciclovir/who-can-and-cannot-take-or-use-aciclovir/",
+          "url": "https://api.service.nhs.uk/nhs-website-content/medicines/aciclovir/who-can-and-cannot-take-or-use-aciclovir/",
           "identifier": "26",
           "text": "",
           "name": "link"
@@ -154,7 +158,7 @@
         {
           "@type": "WebPageElement",
           "headline": "How and when to take or use it",
-          "url": "https://api.nhs.uk/medicines/aciclovir/how-and-when-to-take-or-use-aciclovir/",
+          "url": "https://api.service.nhs.uk/nhs-website-content/medicines/aciclovir/how-and-when-to-take-or-use-aciclovir/",
           "identifier": "26",
           "text": "",
           "name": "link"
@@ -162,7 +166,7 @@
         {
           "@type": "WebPageElement",
           "headline": "Side effects",
-          "url": "https://api.nhs.uk/medicines/aciclovir/side-effects-of-aciclovir/",
+          "url": "https://api.service.nhs.uk/nhs-website-content/medicines/aciclovir/side-effects-of-aciclovir/",
           "identifier": "26",
           "text": "",
           "name": "link"
@@ -170,7 +174,7 @@
         {
           "@type": "WebPageElement",
           "headline": "Pregnancy, breastfeeding and fertility",
-          "url": "https://api.nhs.uk/medicines/aciclovir/pregnancy-breastfeeding-and-fertility-while-taking-or-using-aciclovir/",
+          "url": "https://api.service.nhs.uk/nhs-website-content/medicines/aciclovir/pregnancy-breastfeeding-and-fertility-while-taking-or-using-aciclovir/",
           "identifier": "26",
           "text": "",
           "name": "link"
@@ -178,7 +182,7 @@
         {
           "@type": "WebPageElement",
           "headline": "Taking or using aciclovir with other medicines and herbal supplements",
-          "url": "https://api.nhs.uk/medicines/aciclovir/taking-or-using-aciclovir-with-other-medicines-and-herbal-supplements/",
+          "url": "https://api.service.nhs.uk/nhs-website-content/medicines/aciclovir/taking-or-using-aciclovir-with-other-medicines-and-herbal-supplements/",
           "identifier": "26",
           "text": "",
           "name": "link"
@@ -186,7 +190,7 @@
         {
           "@type": "WebPageElement",
           "headline": "Common questions",
-          "url": "https://api.nhs.uk/medicines/aciclovir/common-questions-about-aciclovir/",
+          "url": "https://api.service.nhs.uk/nhs-website-content/medicines/aciclovir/common-questions-about-aciclovir/",
           "identifier": "26",
           "text": "",
           "name": "link"

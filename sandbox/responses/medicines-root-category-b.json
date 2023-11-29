@@ -13,7 +13,7 @@
   },
   "about": { "@type": "WebPage", "name": "Medicines A to Z", "alternateName": "" },
   "description": "Find out how your medicine works, how and when to take it, possible side effects and answers to your common questions.",
-  "url": "https://api.nhs.uk/medicines/",
+  "url": "https://api.service.nhs.uk/nhs-website-content/medicines/",
   "genre": [],
   "keywords": "",
   "dateModified": "",
@@ -24,7 +24,7 @@
       {
         "@type": "ListItem",
         "position": 0,
-        "item": { "@id": "https://api.nhs.uk/medicines/", "name": "Medicines A to Z", "genre": [] }
+        "item": { "@id": "https://api.service.nhs.uk/nhs-website-content/medicines/", "name": "Medicines A to Z", "genre": [] }
       }
     ]
   },
@@ -35,7 +35,7 @@
       "name": "Baclofen",
       "articleStatus": "published",
       "linkRelationship": "Result",
-      "url": "https://api.nhs.uk/medicines/baclofen/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/medicines/baclofen/",
       "description": "Brand names: Lioresal, Lyflex. Find out how baclofen relieves muscles spasms and helps manage conditions cerebral palsy, meningitis, motor neurone disease and multiple sclerosis.",
       "mainEntityOfPage": {
         "genre": ["Medicine"],
@@ -49,7 +49,7 @@
       "name": "Beclometasone inhalers",
       "articleStatus": "published",
       "linkRelationship": "Result",
-      "url": "https://api.nhs.uk/medicines/beclometasone-inhalers/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/medicines/beclometasone-inhalers/",
       "description": "Find out how beclometasone inhalers treat asthma and chronic obstructive pulmonary disease (COPD) and how to use them.",
       "mainEntityOfPage": {
         "genre": ["Medicine"],
@@ -63,7 +63,7 @@
       "name": "Beclometasone nasal spray",
       "articleStatus": "published",
       "linkRelationship": "Result",
-      "url": "https://api.nhs.uk/medicines/beclometasone-nasal-spray/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/medicines/beclometasone-nasal-spray/",
       "description": "Find out how beclometasone nasal spray treats allergic rhinitis including hay fever, and how to take it.",
       "mainEntityOfPage": {
         "genre": ["Medicine"],
@@ -77,7 +77,7 @@
       "name": "Beclometasone skin creams",
       "articleStatus": "published",
       "linkRelationship": "Result",
-      "url": "https://api.nhs.uk/medicines/beclometasone-skin-creams/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/medicines/beclometasone-skin-creams/",
       "description": "NHS medicines information on beclometasone skin creams - what they are used for, who can use them, how to apply them, side effects and dosage.",
       "mainEntityOfPage": {
         "genre": ["Medicine"],
@@ -91,7 +91,7 @@
       "name": "Beclometasone tablets",
       "articleStatus": "published",
       "linkRelationship": "Result",
-      "url": "https://api.nhs.uk/medicines/beclometasone-tablets/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/medicines/beclometasone-tablets/",
       "description": "Find out how beclometasone tablets treat ulcerative colitis and how to take them.",
       "mainEntityOfPage": {
         "genre": ["Medicine"],
@@ -105,7 +105,7 @@
       "name": "Bendroflumethiazide",
       "articleStatus": "published",
       "linkRelationship": "Result",
-      "url": "https://api.nhs.uk/medicines/bendroflumethiazide/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/medicines/bendroflumethiazide/",
       "description": "NHS medicines information on bendroflumethiazide - what it's used for, side effects, dosage and who can take it.",
       "mainEntityOfPage": {
         "genre": ["Medicine"],
@@ -119,7 +119,7 @@
       "name": "Benzoyl peroxide",
       "articleStatus": "published",
       "linkRelationship": "Result",
-      "url": "https://api.nhs.uk/medicines/benzoyl-peroxide/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/medicines/benzoyl-peroxide/",
       "description": "Find out how benzoyl peroxide treats acne and how to use it.",
       "mainEntityOfPage": {
         "genre": ["Medicine"],
@@ -133,7 +133,7 @@
       "name": "Benzydamine",
       "articleStatus": "published",
       "linkRelationship": "Result",
-      "url": "https://api.nhs.uk/medicines/benzydamine/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/medicines/benzydamine/",
       "description": "NHS information on benzydamine - what it's used for, side effects, dosage and who can take it.",
       "mainEntityOfPage": {
         "genre": ["Medicine"],
@@ -147,7 +147,7 @@
       "name": "Betahistine",
       "articleStatus": "published",
       "linkRelationship": "Result",
-      "url": "https://api.nhs.uk/medicines/betahistine/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/medicines/betahistine/",
       "description": "Find out how betahistine treats symptoms of M\u00e9ni\u00e8re's disease and how to take it.",
       "mainEntityOfPage": {
         "genre": ["Medicine"],
@@ -161,7 +161,7 @@
       "name": "Betamethasone for eyes, ears and nose",
       "articleStatus": "published",
       "linkRelationship": "Result",
-      "url": "https://api.nhs.uk/medicines/betamethasone-eyes-ears-and-nose/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/medicines/betamethasone-eyes-ears-and-nose/",
       "description": "NHS medicines information on betamethasone for eyes, ears and nose \u2013 what it's used for, side effects, dosage and who can take it.",
       "mainEntityOfPage": {
         "genre": ["Medicine"],
@@ -175,7 +175,7 @@
       "name": "Betamethasone for skin",
       "articleStatus": "published",
       "linkRelationship": "Result",
-      "url": "https://api.nhs.uk/medicines/betamethasone-skin/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/medicines/betamethasone-skin/",
       "description": "NHS medicines information on betamethasone \u2013 what it's used for, side effects, dosage and who can take it.",
       "mainEntityOfPage": {
         "genre": ["Medicine"],
@@ -189,7 +189,7 @@
       "name": "Betamethasone tablets",
       "articleStatus": "published",
       "linkRelationship": "Result",
-      "url": "https://api.nhs.uk/medicines/betamethasone-tablets/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/medicines/betamethasone-tablets/",
       "description": "Find out how betamethasone tablets treat conditions including allergies, swelling (inflammation) and autoimmune conditions, and how to take them.",
       "mainEntityOfPage": {
         "genre": ["Medicine"],
@@ -203,7 +203,7 @@
       "name": "Bimatoprost",
       "articleStatus": "published",
       "linkRelationship": "Result",
-      "url": "https://api.nhs.uk/medicines/bimatoprost/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/medicines/bimatoprost/",
       "description": "NHS medicines information on bimatoprost \u2013 what it\u2019s used for, side effects, dosage and who can use it.",
       "mainEntityOfPage": {
         "genre": ["Medicine"],
@@ -217,7 +217,7 @@
       "name": "Bisacodyl",
       "articleStatus": "published",
       "linkRelationship": "Result",
-      "url": "https://api.nhs.uk/medicines/bisacodyl/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/medicines/bisacodyl/",
       "description": "NHS medicines information on bisacodyl \u2013 what it\u2019s used for, side effects, dosage and who can take it.",
       "mainEntityOfPage": {
         "genre": ["Medicine"],
@@ -231,7 +231,7 @@
       "name": "Bisoprolol",
       "articleStatus": "published",
       "linkRelationship": "Result",
-      "url": "https://api.nhs.uk/medicines/bisoprolol/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/medicines/bisoprolol/",
       "description": "Brand names: Cardicor, Congescor. Find out how bisoprolol treats high blood pressure (hypertension) and heart failure, and how to take it.",
       "mainEntityOfPage": {
         "genre": ["Medicine"],
@@ -245,7 +245,7 @@
       "name": "Brinzolamide",
       "articleStatus": "published",
       "linkRelationship": "Result",
-      "url": "https://api.nhs.uk/medicines/brinzolamide/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/medicines/brinzolamide/",
       "description": "NHS medicines information on brinzolamide \u2013 what it\u2019s used for, side effects, dosage and who can use it.",
       "mainEntityOfPage": {
         "genre": ["Medicine"],
@@ -259,7 +259,7 @@
       "name": "Budesonide inhalers",
       "articleStatus": "published",
       "linkRelationship": "Result",
-      "url": "https://api.nhs.uk/medicines/budesonide-inhalers/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/medicines/budesonide-inhalers/",
       "description": "Find out how budesonide inhalers treat asthma and chronic obstructive pulmonary disease (COPD) symptoms and how to use them.",
       "mainEntityOfPage": {
         "genre": ["Medicine"],
@@ -273,7 +273,7 @@
       "name": "Budesonide nasal spray",
       "articleStatus": "published",
       "linkRelationship": "Result",
-      "url": "https://api.nhs.uk/medicines/budesonide-nasal-spray/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/medicines/budesonide-nasal-spray/",
       "description": "Find out how budesonide nasal spray treats cold-like symptoms caused by allergic rhinitis, and how to take it.",
       "mainEntityOfPage": {
         "genre": ["Medicine"],
@@ -287,7 +287,7 @@
       "name": "Budesonide rectal foam and enemas",
       "articleStatus": "published",
       "linkRelationship": "Result",
-      "url": "https://api.nhs.uk/medicines/budesonide-rectal-foam-and-enemas/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/medicines/budesonide-rectal-foam-and-enemas/",
       "description": "Find out how to use budesonide rectal foam and enemas to treat ulcerative colitis.",
       "mainEntityOfPage": {
         "genre": ["Medicine"],
@@ -301,7 +301,7 @@
       "name": "Budesonide tablets, capsules and granules",
       "articleStatus": "published",
       "linkRelationship": "Result",
-      "url": "https://api.nhs.uk/medicines/budesonide-tablets-capsules-and-granules/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/medicines/budesonide-tablets-capsules-and-granules/",
       "description": "Find out how budesonide tablets, capsules and granules treat swelling (inflammation) including inflammatory bowel diseases, and how to take them.",
       "mainEntityOfPage": {
         "genre": ["Medicine"],
@@ -315,7 +315,7 @@
       "name": "Bumetanide",
       "articleStatus": "published",
       "linkRelationship": "Result",
-      "url": "https://api.nhs.uk/medicines/bumetanide/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/medicines/bumetanide/",
       "description": "Find out how bumetanide treats oedema (too much fluid in your body) and heart failure, and how to take it.",
       "mainEntityOfPage": {
         "genre": ["Medicine"],
@@ -329,7 +329,7 @@
       "name": "Buprenorphine for pain",
       "articleStatus": "published",
       "linkRelationship": "Result",
-      "url": "https://api.nhs.uk/medicines/buprenorphine-for-pain/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/medicines/buprenorphine-for-pain/",
       "description": "Find out how buprenorphine treats moderate to severe pain and how to take or use it.",
       "mainEntityOfPage": {
         "genre": ["Medicine"],
@@ -343,7 +343,7 @@
       "name": "Buscopan (hyoscine butylbromide)",
       "articleStatus": "published",
       "linkRelationship": "Result",
-      "url": "https://api.nhs.uk/medicines/buscopan-hyoscine-butylbromide/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/medicines/buscopan-hyoscine-butylbromide/",
       "description": "NHS medicines information on Buscopan \u2013 what it's used for, side effects, dosage and who can take it.",
       "mainEntityOfPage": {
         "genre": ["Medicine"],
@@ -356,21 +356,21 @@
   "relatedLink": [
     {
       "@type": "LinkRole",
-      "url": "https://api.nhs.uk/medicines/?category=b&page=1",
+      "url": "https://api.service.nhs.uk/nhs-website-content/medicines/?category=b&page=1",
       "name": "First Page",
       "description": "Link to First Page",
       "linkRelationship": "Pagination"
     },
     {
       "@type": "LinkRole",
-      "url": "https://api.nhs.uk/medicines/?category=b&page=1",
+      "url": "https://api.service.nhs.uk/nhs-website-content/medicines/?category=b&page=1",
       "name": "Last Page",
       "description": "Link to Last Page",
       "linkRelationship": "Pagination"
     },
     {
       "@type": "LinkRole",
-      "url": "https://api.nhs.uk/medicines/?category=b",
+      "url": "https://api.service.nhs.uk/nhs-website-content/medicines/?category=b",
       "name": "Self",
       "description": "Link to nhs.uk Page",
       "linkRelationship": "Self"

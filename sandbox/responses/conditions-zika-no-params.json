@@ -13,7 +13,7 @@
   },
   "about": { "@type": "WebPage", "name": "Zika virus", "alternateName": "" },
   "description": "Find out more about Zika virus, including where it's found, how you catch it and what the symptoms are.",
-  "url": "https://api.nhs.uk/conditions/zika/",
+  "url": "https://api.service.nhs.uk/nhs-website-content/conditions/zika/",
   "genre": ["Condition"],
   "keywords": [],
   "dateModified": "2022-02-23T15:41:03+00:00",
@@ -25,19 +25,23 @@
       {
         "@type": "ListItem",
         "position": 0,
-        "item": { "@id": "https://api.nhs.uk/conditions/", "name": "Health A to Z", "genre": [] }
+        "item": { "@id": "https://api.service.nhs.uk/nhs-website-content/conditions/", "name": "Health A to Z", "genre": [] }
       },
       {
         "@type": "ListItem",
         "position": 1,
-        "item": { "@id": "https://api.nhs.uk/conditions/zika/", "name": "Zika virus", "genre": ["Condition"] }
+        "item": {
+          "@id": "https://api.service.nhs.uk/nhs-website-content/conditions/zika/",
+          "name": "Zika virus",
+          "genre": ["Condition"]
+        }
       }
     ]
   },
   "hasPart": [
     {
       "@type": "HealthTopicContent",
-      "url": "https://api.nhs.uk/conditions/zika/#causes",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/zika/#causes",
       "hasHealthAspect": "http://schema.org/CausesHealthAspect",
       "headline": "Check if you're at risk of Zika virus",
       "description": "Zika virus is usually caught by being bitten by an infected mosquito. There's also a very small risk of it being passed on through sex.",
@@ -51,7 +55,7 @@
     },
     {
       "@type": "HealthTopicContent",
-      "url": "https://api.nhs.uk/conditions/zika/#prevention",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/zika/#prevention",
       "hasHealthAspect": "http://schema.org/PreventionHealthAspect",
       "headline": "How to avoid Zika virus",
       "description": "You can reduce your risk of getting Zika virus by avoiding mosquito bites. For example, use insect repellent and sleep under a mosquito net.",
@@ -70,7 +74,7 @@
     },
     {
       "@type": "HealthTopicContent",
-      "url": "https://api.nhs.uk/conditions/zika/#symptoms",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/zika/#symptoms",
       "hasHealthAspect": "http://schema.org/SymptomsHealthAspect",
       "headline": "Symptoms of Zika virus",
       "description": "Zika virus often has no symptoms. Some people get symptoms like a rash, high temperature, headache or muscle aches for a few days.",
@@ -84,7 +88,7 @@
     },
     {
       "@type": "HealthTopicContent",
-      "url": "https://api.nhs.uk/conditions/zika/#urgent-medical-help",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/zika/#urgent-medical-help",
       "hasHealthAspect": "http://schema.org/MedicalHelpUrgentHealthAspect",
       "headline": "",
       "description": "",
@@ -99,7 +103,7 @@
     },
     {
       "@type": "HealthTopicContent",
-      "url": "https://api.nhs.uk/conditions/zika/#medical-treatments",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/zika/#medical-treatments",
       "hasHealthAspect": "http://schema.org/TreatmentsHealthAspect",
       "headline": "Treatments for Zika virus",
       "description": "There's no treatment for Zika virus. It usually gets better in about a week. Staying hydrated and taking painkillers can ease symptoms.",
@@ -113,7 +117,7 @@
     },
     {
       "@type": "HealthTopicContent",
-      "url": "https://api.nhs.uk/conditions/zika/#complications",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/zika/#complications",
       "hasHealthAspect": "http://schema.org/RisksOrComplicationsHealthAspect",
       "headline": "Complications of Zika virus",
       "description": "Zika virus can harm your baby if you get it when you're pregnant. Rarely, it can also cause a serious condition called Guillain-Barr\u00e9 syndrome.",
@@ -121,13 +125,13 @@
         {
           "@type": "WebPageElement",
           "headline": "",
-          "text": "<p>Zika virus can harm a developing baby if you get it when you're pregnant.</p><p>It can cause problems with the baby's brain and the baby having an unusually small head (microcephaly).</p><p>You can have Zika virus without having any symptoms. This is why it's important to avoid getting pregnant for up to 3 months after you've come back to the UK from a country where there's a Zika virus risk.</p><p>Speak to your midwife or doctor for advice if you're worried your unborn baby may be affected by Zika virus.</p><p>Rarely, Zika virus can also cause <a href=\"https://api.nhs.uk/conditions/guillain-barre-syndrome/\">Guillain-Barr\u00e9 syndrome (GBS)</a>, a serious condition that affects the nervous system.</p>"
+          "text": "<p>Zika virus can harm a developing baby if you get it when you're pregnant.</p><p>It can cause problems with the baby's brain and the baby having an unusually small head (microcephaly).</p><p>You can have Zika virus without having any symptoms. This is why it's important to avoid getting pregnant for up to 3 months after you've come back to the UK from a country where there's a Zika virus risk.</p><p>Speak to your midwife or doctor for advice if you're worried your unborn baby may be affected by Zika virus.</p><p>Rarely, Zika virus can also cause <a href=\"https://api.service.nhs.uk/nhs-website-content/conditions/guillain-barre-syndrome/\">Guillain-Barr\u00e9 syndrome (GBS)</a>, a serious condition that affects the nervous system.</p>"
         }
       ]
     },
     {
       "@type": "HealthTopicContent",
-      "url": "https://api.nhs.uk/conditions/zika/#overview",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/zika/#overview",
       "hasHealthAspect": "http://schema.org/OverviewHealthAspect",
       "headline": "",
       "description": "Zika virus is mainly spread by mosquitoes found in some parts of the world. For most people it's mild, but it can cause problems if you're pregnant.",
@@ -158,7 +162,7 @@
   "relatedLink": [
     {
       "@type": "LinkRole",
-      "url": "https://api.nhs.uk/conditions/zika/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/zika/",
       "linkRelationship": "Navigation",
       "position": 0,
       "name": "Zika virus"
@@ -383,7 +387,7 @@
         {
           "position": 0,
           "identifier": "1",
-          "text": "<p>Zika virus can harm a developing baby if you get it when you're pregnant.</p><p>It can cause problems with the baby's brain and the baby having an unusually small head (microcephaly).</p><p>You can have Zika virus without having any symptoms. This is why it's important to avoid getting pregnant for up to 3 months after you've come back to the UK from a country where there's a Zika virus risk.</p><p>Speak to your midwife or doctor for advice if you're worried your unborn baby may be affected by Zika virus.</p><p>Rarely, Zika virus can also cause <a href=\"https://api.nhs.uk/conditions/guillain-barre-syndrome/\">Guillain-Barr\u00e9 syndrome (GBS)</a>, a serious condition that affects the nervous system.</p>",
+          "text": "<p>Zika virus can harm a developing baby if you get it when you're pregnant.</p><p>It can cause problems with the baby's brain and the baby having an unusually small head (microcephaly).</p><p>You can have Zika virus without having any symptoms. This is why it's important to avoid getting pregnant for up to 3 months after you've come back to the UK from a country where there's a Zika virus risk.</p><p>Speak to your midwife or doctor for advice if you're worried your unborn baby may be affected by Zika virus.</p><p>Rarely, Zika virus can also cause <a href=\"https://api.service.nhs.uk/nhs-website-content/conditions/guillain-barre-syndrome/\">Guillain-Barr\u00e9 syndrome (GBS)</a>, a serious condition that affects the nervous system.</p>",
           "@type": "WebPageElement",
           "name": "markdown",
           "headline": ""
@@ -394,7 +398,7 @@
         {
           "position": 0,
           "identifier": "1",
-          "text": "<p>Zika virus can harm a developing baby if you get it when you're pregnant.</p><p>It can cause problems with the baby's brain and the baby having an unusually small head (microcephaly).</p><p>You can have Zika virus without having any symptoms. This is why it's important to avoid getting pregnant for up to 3 months after you've come back to the UK from a country where there's a Zika virus risk.</p><p>Speak to your midwife or doctor for advice if you're worried your unborn baby may be affected by Zika virus.</p><p>Rarely, Zika virus can also cause <a href=\"https://api.nhs.uk/conditions/guillain-barre-syndrome/\">Guillain-Barr\u00e9 syndrome (GBS)</a>, a serious condition that affects the nervous system.</p>",
+          "text": "<p>Zika virus can harm a developing baby if you get it when you're pregnant.</p><p>It can cause problems with the baby's brain and the baby having an unusually small head (microcephaly).</p><p>You can have Zika virus without having any symptoms. This is why it's important to avoid getting pregnant for up to 3 months after you've come back to the UK from a country where there's a Zika virus risk.</p><p>Speak to your midwife or doctor for advice if you're worried your unborn baby may be affected by Zika virus.</p><p>Rarely, Zika virus can also cause <a href=\"https://api.service.nhs.uk/nhs-website-content/conditions/guillain-barre-syndrome/\">Guillain-Barr\u00e9 syndrome (GBS)</a>, a serious condition that affects the nervous system.</p>",
           "@type": "WebPageElement",
           "name": "markdown",
           "headline": ""
