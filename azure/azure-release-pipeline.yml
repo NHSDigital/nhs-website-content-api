@@ -53,7 +53,7 @@ extends:
                   - template: ./templates/run-tests.yml
             - environment: sandbox
               depends_on:
-                  - internal-dev-sandbox
+                  - internal_qa
                   - internal_qa_sandbox
               proxy_path: sandbox
               post_deploy:
