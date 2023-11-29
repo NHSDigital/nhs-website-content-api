@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": "MedicalWebPage",
+  "name": "Health A to Z",
+  "copyrightHolder": { "name": "Crown Copyright", "@type": "Organization" },
+  "license": "https://developer.api.nhs.uk/terms",
+  "author": {
+    "url": "https://www.nhs.uk",
+    "logo": "https://www.nhs.uk/nhscwebservices/documents/logo1.jpg",
+    "email": "nhswebsite.servicedesk@nhs.net",
+    "@type": "Organization",
+    "name": "NHS website"
+  },
+  "about": { "@type": "WebPage", "name": "Health A to Z", "alternateName": "" },
+  "description": "",
+  "url": "https://api.nhs.uk/conditions/",
+  "genre": [],
+  "keywords": "",
+  "dateModified": "2021-11-18T15:26:06+00:00",
+  "breadcrumb": {
+    "@context": "http://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 0,
+        "item": { "@id": "https://api.nhs.uk/conditions/", "name": "Health A to Z", "genre": [] }
+      }
+    ]
+  },
+  "contentSubTypes": [],
+  "significantLink": [
+    {
+      "description": "Find out more about Zika virus, including where it's found, how you catch it and what the symptoms are.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Condition"],
+        "datePublished": "2017-10-18T14:31:13+00:00",
+        "dateModified": "2022-02-23T15:41:03+00:00",
+        "lastReviewed": ["2022-02-18T00:00:00+00:00", "2025-02-18T00:00:00+00:00"],
+        "reviewDue": "2025-02-18T00:00:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.nhs.uk/conditions/zika/",
+      "name": "Zika virus"
+    }
+  ]
+}

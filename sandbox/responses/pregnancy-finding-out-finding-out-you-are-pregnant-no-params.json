@@ -1,0 +1,304 @@
+{
+  "@context": "http://schema.org",
+  "@type": "WebPage",
+  "name": "Finding out you're pregnant",
+  "copyrightHolder": { "name": "Crown Copyright", "@type": "Organization" },
+  "license": "https://developer.api.nhs.uk/terms",
+  "author": {
+    "url": "https://www.nhs.uk",
+    "logo": "https://www.nhs.uk/nhscwebservices/documents/logo1.jpg",
+    "email": "nhswebsite.servicedesk@nhs.net",
+    "@type": "Organization",
+    "name": "NHS website"
+  },
+  "about": { "@type": "WebPage", "name": "Finding out you're pregnant", "alternateName": "" },
+  "description": "How you might feel when you find out you're pregnant, plus links to taking a pregnancy test and early signs and symptoms.",
+  "url": "https://www.nhs.uk/pregnancy/finding-out/finding-out-you-are-pregnant/",
+  "genre": ["Advice or information"],
+  "keywords": "",
+  "dateModified": "2022-12-23T16:30:42+00:00",
+  "lastReviewed": ["2022-12-21T09:58:00+00:00", "2025-12-21T09:58:00+00:00"],
+  "breadcrumb": {
+    "@context": "http://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 0,
+        "item": { "@id": "https://www.nhs.uk/pregnancy/", "name": "Pregnancy", "genre": [] }
+      },
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "item": { "@id": "https://www.nhs.uk/pregnancy/finding-out/", "name": "Finding out you're pregnant", "genre": [] }
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "item": {
+          "@id": "https://www.nhs.uk/pregnancy/finding-out/finding-out-you-are-pregnant/",
+          "name": "Finding out you're pregnant",
+          "genre": ["Advice or information"]
+        }
+      }
+    ]
+  },
+  "hasPart": [],
+  "relatedLink": [
+    {
+      "@type": "LinkRole",
+      "url": "https://www.nhs.uk/pregnancy/finding-out/",
+      "name": "Finding out you're pregnant",
+      "linkRelationship": "Navigation",
+      "position": 0
+    },
+    {
+      "@type": "LinkRole",
+      "url": "https://www.nhs.uk/pregnancy/finding-out/due-date-calculator/",
+      "name": "Due date calculator",
+      "linkRelationship": "Navigation",
+      "position": 1
+    },
+    {
+      "@type": "LinkRole",
+      "url": "https://www.nhs.uk/pregnancy/finding-out/finding-out-you-are-pregnant/",
+      "name": "Finding out you're pregnant",
+      "linkRelationship": "Navigation",
+      "position": 2
+    },
+    {
+      "@type": "LinkRole",
+      "url": "https://www.nhs.uk/pregnancy/finding-out/your-nhs-pregnancy-journey/",
+      "name": "Your NHS pregnancy journey",
+      "linkRelationship": "Navigation",
+      "position": 3
+    },
+    {
+      "@type": "LinkRole",
+      "url": "https://www.nhs.uk/pregnancy/finding-out/your-first-midwife-appointment/",
+      "name": "Your first midwife appointment",
+      "linkRelationship": "Navigation",
+      "position": 4
+    },
+    {
+      "@type": "LinkRole",
+      "url": "https://www.nhs.uk/pregnancy/finding-out/health-things-you-should-know-in-pregnancy/",
+      "name": "Health things you should know in pregnancy",
+      "linkRelationship": "Navigation",
+      "position": 5
+    },
+    {
+      "@type": "LinkRole",
+      "url": "https://www.nhs.uk/pregnancy/finding-out/your-pregnancy-to-do-list/",
+      "name": "Your pregnancy to-do list",
+      "linkRelationship": "Navigation",
+      "position": 6
+    },
+    {
+      "@type": "LinkRole",
+      "url": "https://www.nhs.uk/pregnancy/finding-out/maternity-and-paternity-benefits-and-leave/",
+      "name": "Maternity and paternity benefits and leave",
+      "linkRelationship": "Navigation",
+      "position": 7
+    },
+    {
+      "@type": "LinkRole",
+      "url": "https://www.nhs.uk/pregnancy/finding-out/pregnant-with-twins/",
+      "name": "Pregnant with twins",
+      "linkRelationship": "Navigation",
+      "position": 8
+    }
+  ],
+  "contentSubTypes": [],
+  "mainEntityOfPage": [
+    {
+      "identifier": "0",
+      "name": "section heading",
+      "position": 0,
+      "@type": "WebPageElement",
+      "mainEntityOfPage": [
+        {
+          "position": 0,
+          "identifier": "1",
+          "text": "<p>You should contact your GP surgery or local midwife service as soon as you find out you're pregnant (before 8 weeks into the pregnancy).</p><p>It's important to see a midwife as early as possible to get the <a href=\"/pregnancy/your-pregnancy-care/your-antenatal-care/\">antenatal (pregnancy) care</a> and information you need to have a healthy pregnancy.</p><p>If you\u2019re not registered with a GP, you can <a href=\"https://www.nhs.uk/service-search/find-a-GP\">find a GP</a> in your area and contact them to register.</p><p>Your pregnancy can be treated confidentially, even if you're under 16. A GP or midwife can tell you about your choices for antenatal care in your local area. Being pregnant may affect the treatment of any current illness or conditions you have or later develop.</p><p>Read about the <a href=\"/pregnancy/trying-for-a-baby/signs-and-symptoms-of-pregnancy/\">signs and symptoms of pregnancy</a> and <a href=\"/pregnancy/trying-for-a-baby/doing-a-pregnancy-test/\">doing a pregnancy test</a>.</p>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": ""
+        }
+      ],
+      "description": "",
+      "hasPart": [
+        {
+          "position": 0,
+          "identifier": "1",
+          "text": "<p>You should contact your GP surgery or local midwife service as soon as you find out you're pregnant (before 8 weeks into the pregnancy).</p><p>It's important to see a midwife as early as possible to get the <a href=\"/pregnancy/your-pregnancy-care/your-antenatal-care/\">antenatal (pregnancy) care</a> and information you need to have a healthy pregnancy.</p><p>If you\u2019re not registered with a GP, you can <a href=\"https://www.nhs.uk/service-search/find-a-GP\">find a GP</a> in your area and contact them to register.</p><p>Your pregnancy can be treated confidentially, even if you're under 16. A GP or midwife can tell you about your choices for antenatal care in your local area. Being pregnant may affect the treatment of any current illness or conditions you have or later develop.</p><p>Read about the <a href=\"/pregnancy/trying-for-a-baby/signs-and-symptoms-of-pregnancy/\">signs and symptoms of pregnancy</a> and <a href=\"/pregnancy/trying-for-a-baby/doing-a-pregnancy-test/\">doing a pregnancy test</a>.</p>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": ""
+        }
+      ]
+    },
+    {
+      "identifier": "0",
+      "name": "section heading",
+      "position": 1,
+      "@type": "WebPageElement",
+      "mainEntityOfPage": [],
+      "description": "",
+      "hasPart": []
+    },
+    {
+      "identifier": "0",
+      "name": "section heading",
+      "position": 2,
+      "@type": "WebPageElement",
+      "mainEntityOfPage": [
+        {
+          "position": 0,
+          "identifier": "1",
+          "text": "<p>When you find out you're pregnant, you may feel happy and excited, or shocked, confused and upset. Everybody is different.</p><p>Some of this may be caused by changes in your hormone levels, which can make you feel more emotional.</p><p>If you're feeling anxious or worried it will help to talk to someone. Read about <a href=\"/pregnancy/keeping-well/mental-health/\">mental health in pregnancy</a>.</p><p>However you're feeling, contact an NHS professional (such as a midwife, GP or practice nurse) so you can start getting <a href=\"/pregnancy/your-pregnancy-care/your-antenatal-care/\">antenatal care</a>. This is the care that you'll receive leading up to the birth of your baby.</p><p>Find out about your <a href=\"/pregnancy/your-pregnancy-care/your-antenatal-appointments/\">schedule of antenatal appointments</a>.</p>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": ""
+        }
+      ],
+      "description": "",
+      "hasPart": [
+        {
+          "position": 0,
+          "identifier": "1",
+          "text": "<p>When you find out you're pregnant, you may feel happy and excited, or shocked, confused and upset. Everybody is different.</p><p>Some of this may be caused by changes in your hormone levels, which can make you feel more emotional.</p><p>If you're feeling anxious or worried it will help to talk to someone. Read about <a href=\"/pregnancy/keeping-well/mental-health/\">mental health in pregnancy</a>.</p><p>However you're feeling, contact an NHS professional (such as a midwife, GP or practice nurse) so you can start getting <a href=\"/pregnancy/your-pregnancy-care/your-antenatal-care/\">antenatal care</a>. This is the care that you'll receive leading up to the birth of your baby.</p><p>Find out about your <a href=\"/pregnancy/your-pregnancy-care/your-antenatal-appointments/\">schedule of antenatal appointments</a>.</p>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": ""
+        }
+      ],
+      "headline": "Knowing that you're pregnant"
+    },
+    {
+      "identifier": "0",
+      "name": "section heading",
+      "position": 3,
+      "@type": "WebPageElement",
+      "mainEntityOfPage": [
+        {
+          "position": 0,
+          "identifier": "1",
+          "text": "<p>Partners may also have mixed feelings when they find out you're pregnant. They may find it hard to talk about their feelings because they do not want to upset you. Both of you should encourage each other to talk about your feelings and any worries or concerns.</p>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": ""
+        }
+      ],
+      "description": "",
+      "hasPart": [
+        {
+          "position": 0,
+          "identifier": "1",
+          "text": "<p>Partners may also have mixed feelings when they find out you're pregnant. They may find it hard to talk about their feelings because they do not want to upset you. Both of you should encourage each other to talk about your feelings and any worries or concerns.</p>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": ""
+        }
+      ],
+      "headline": "Partners"
+    },
+    {
+      "identifier": "0",
+      "name": "section heading",
+      "position": 4,
+      "@type": "WebPageElement",
+      "mainEntityOfPage": [
+        {
+          "position": 0,
+          "identifier": "1",
+          "text": "<p>You may want to tell your family and friends that you're pregnant immediately or wait a while until you know how you feel. Or you may want to wait until you've had your first <a href=\"/pregnancy/your-pregnancy-care/ultrasound-scans/\">ultrasound scan</a>, when you're around 12 weeks pregnant, before you tell people.</p><p>Some of your family or friends may have mixed feelings or react in unexpected ways to your news. You may wish to discuss this with a midwife.</p><p>Read about dealing with <a href=\"/pregnancy/support/feelings-and-relationships/\">feelings and relationships in pregnancy</a>.</p>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": ""
+        }
+      ],
+      "description": "",
+      "hasPart": [
+        {
+          "position": 0,
+          "identifier": "1",
+          "text": "<p>You may want to tell your family and friends that you're pregnant immediately or wait a while until you know how you feel. Or you may want to wait until you've had your first <a href=\"/pregnancy/your-pregnancy-care/ultrasound-scans/\">ultrasound scan</a>, when you're around 12 weeks pregnant, before you tell people.</p><p>Some of your family or friends may have mixed feelings or react in unexpected ways to your news. You may wish to discuss this with a midwife.</p><p>Read about dealing with <a href=\"/pregnancy/support/feelings-and-relationships/\">feelings and relationships in pregnancy</a>.</p>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": ""
+        }
+      ],
+      "headline": "Telling people that you're pregnant"
+    },
+    {
+      "identifier": "0",
+      "name": "section heading",
+      "position": 5,
+      "@type": "WebPageElement",
+      "mainEntityOfPage": [
+        {
+          "position": 0,
+          "identifier": "1",
+          "text": "<p>The seasonal flu vaccine is offered if you're pregnant and at any stage of pregnancy. If you're pregnant and get flu, you're at an increased risk of complications and flu-related hospital admissions.</p><p>Find out about <a href=\"/pregnancy/keeping-well/flu-jab/\">the flu jab and pregnancy</a>.</p><p>Talk to a GP or midwife if you're unsure about which vaccinations you should have.</p><h2>Further information</h2><ul><li><a href=\"https://www.sexwise.fpa.org.uk/unplanned-pregnancy/pregnant-and-dont-know-what-do\">Sexwise: pregnant and don't know what to do</a></li></ul>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": ""
+        }
+      ],
+      "description": "",
+      "hasPart": [
+        {
+          "position": 0,
+          "identifier": "1",
+          "text": "<p>The seasonal flu vaccine is offered if you're pregnant and at any stage of pregnancy. If you're pregnant and get flu, you're at an increased risk of complications and flu-related hospital admissions.</p><p>Find out about <a href=\"/pregnancy/keeping-well/flu-jab/\">the flu jab and pregnancy</a>.</p><p>Talk to a GP or midwife if you're unsure about which vaccinations you should have.</p><h2>Further information</h2><ul><li><a href=\"https://www.sexwise.fpa.org.uk/unplanned-pregnancy/pregnant-and-dont-know-what-do\">Sexwise: pregnant and don't know what to do</a></li></ul>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": ""
+        }
+      ],
+      "headline": "Flu and pregnancy"
+    },
+    {
+      "identifier": "0",
+      "name": "section heading",
+      "position": 6,
+      "@type": "WebPageElement",
+      "mainEntityOfPage": [
+        {
+          "@type": "VideoObject",
+          "name": "Sex during pregnancy",
+          "embedUrl": "//players.brightcove.net/79855382001/EkC1XU82e_default/index.html?videoId=681548129001",
+          "content_url": "https://manifest.prod.boltdns.net/manifest/v1/hls/v4/clear/79855382001/2045327d-fa45-45db-9543-09467aacb948/10s/master.m3u8?fastly_token=NjUzOTM1YTdfMDYzNjhmOWQ0MmQ3NmI2ZjU3MDQ3NjVhYzBmNTQ0ZmZlZDE2ZDY2YTFkN2E2MzkxZGNiYzZiOWQyNjkzZGZhOA%3D%3D",
+          "duration": "PT3M43.872S",
+          "position": 0,
+          "identifier": "14",
+          "alternateName": "681548129001",
+          "description": "This video explores the myths surrounding sex during pregnancy.",
+          "uploadDate": "2021-06-07T17:13:19.445000+00:00",
+          "lastReviewed": ["2020-12-02", "2023-12-02"],
+          "thumbnailUrl": "https://cf-images.eu-west-1.prod.boltdns.net/v1/static/79855382001/2045327d-fa45-45db-9543-09467aacb948/bff6405e-a383-46b5-a990-dcf4660091c3/160x90/match/image.jpg",
+          "text": "<video></video><script src=\"//players.brightcove.net/79855382001/EkC1XU82e_default/index.min.js\"></script>"
+        }
+      ],
+      "description": "",
+      "hasPart": [
+        {
+          "@type": "VideoObject",
+          "name": "Sex during pregnancy",
+          "embedUrl": "//players.brightcove.net/79855382001/EkC1XU82e_default/index.html?videoId=681548129001",
+          "content_url": "https://manifest.prod.boltdns.net/manifest/v1/hls/v4/clear/79855382001/2045327d-fa45-45db-9543-09467aacb948/10s/master.m3u8?fastly_token=NjUzOTM1YTdfMDYzNjhmOWQ0MmQ3NmI2ZjU3MDQ3NjVhYzBmNTQ0ZmZlZDE2ZDY2YTFkN2E2MzkxZGNiYzZiOWQyNjkzZGZhOA%3D%3D",
+          "duration": "PT3M43.872S",
+          "position": 0,
+          "identifier": "14",
+          "alternateName": "681548129001",
+          "description": "This video explores the myths surrounding sex during pregnancy.",
+          "uploadDate": "2021-06-07T17:13:19.445000+00:00",
+          "lastReviewed": ["2020-12-02", "2023-12-02"],
+          "thumbnailUrl": "https://cf-images.eu-west-1.prod.boltdns.net/v1/static/79855382001/2045327d-fa45-45db-9543-09467aacb948/bff6405e-a383-46b5-a990-dcf4660091c3/160x90/match/image.jpg",
+          "text": "<video></video><script src=\"//players.brightcove.net/79855382001/EkC1XU82e_default/index.min.js\"></script>"
+        }
+      ]
+    }
+  ]
+}

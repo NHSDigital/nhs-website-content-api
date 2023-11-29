@@ -1,0 +1,123 @@
+{
+  "@context": "http://schema.org",
+  "@type": "MedicalWebPage",
+  "name": "Trying for a baby",
+  "copyrightHolder": { "name": "Crown Copyright", "@type": "Organization" },
+  "license": "https://developer.api.nhs.uk/terms",
+  "author": {
+    "url": "https://www.nhs.uk",
+    "logo": "https://www.nhs.uk/nhscwebservices/documents/logo1.jpg",
+    "email": "nhswebsite.servicedesk@nhs.net",
+    "@type": "Organization",
+    "name": "NHS website"
+  },
+  "about": { "@type": "WebPage", "name": "Trying for a baby", "alternateName": "" },
+  "description": "Advice about trying for a baby, including planning a pregnancy and LGBT+ routes into parenthood.",
+  "url": "https://www.nhs.uk/pregnancy/trying-for-a-baby/",
+  "genre": [],
+  "keywords": "",
+  "dateModified": "2021-11-18T16:12:20+00:00",
+  "hasPart": [],
+  "breadcrumb": {
+    "@context": "http://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 0,
+        "item": { "@id": "https://www.nhs.uk/pregnancy/", "name": "Pregnancy", "genre": [] }
+      },
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "item": { "@id": "https://www.nhs.uk/pregnancy/trying-for-a-baby/", "name": "Trying for a baby", "genre": [] }
+      }
+    ]
+  },
+  "headline": "Trying for a baby",
+  "contentSubTypes": [],
+  "mainEntityOfPage": [
+    {
+      "identifier": "25",
+      "@type": "WebPageElement",
+      "name": "keylinks",
+      "headline": "",
+      "text": "",
+      "mainEntityOfPage": [
+        {
+          "@type": "WebPageElement",
+          "headline": "Trying to get pregnant",
+          "url": "https://www.nhs.uk/pregnancy/trying-for-a-baby/trying-to-get-pregnant/",
+          "identifier": "26",
+          "text": "",
+          "name": "link"
+        },
+        {
+          "@type": "WebPageElement",
+          "headline": "Getting pregnant if you have a mental health condition",
+          "url": "https://www.nhs.uk/pregnancy/trying-for-a-baby/getting-pregnant-if-you-have-a-mental-health-condition/",
+          "identifier": "26",
+          "text": "",
+          "name": "link"
+        },
+        {
+          "@type": "WebPageElement",
+          "headline": "Planning your pregnancy",
+          "url": "https://www.nhs.uk/pregnancy/trying-for-a-baby/planning-your-pregnancy/",
+          "identifier": "26",
+          "text": "",
+          "name": "link"
+        },
+        {
+          "@type": "WebPageElement",
+          "headline": "Doing a pregnancy test",
+          "url": "https://www.nhs.uk/pregnancy/trying-for-a-baby/doing-a-pregnancy-test/",
+          "identifier": "26",
+          "text": "",
+          "name": "link"
+        },
+        {
+          "@type": "WebPageElement",
+          "headline": "Signs and symptoms of pregnancy",
+          "url": "https://www.nhs.uk/pregnancy/trying-for-a-baby/signs-and-symptoms-of-pregnancy/",
+          "identifier": "26",
+          "text": "",
+          "name": "link"
+        },
+        {
+          "@type": "WebPageElement",
+          "headline": "How long does it usually take to get pregnant?",
+          "url": "https://www.nhs.uk/pregnancy/trying-for-a-baby/how-long-it-takes-to-get-pregnant/",
+          "identifier": "26",
+          "text": "",
+          "name": "link"
+        },
+        {
+          "@type": "WebPageElement",
+          "headline": "Planning another pregnancy",
+          "url": "https://www.nhs.uk/pregnancy/trying-for-a-baby/planning-another-pregnancy/",
+          "identifier": "26",
+          "text": "",
+          "name": "link"
+        }
+      ]
+    },
+    {
+      "identifier": "27",
+      "@type": "WebPageElement",
+      "name": "RelatedLinks",
+      "headline": "Related links",
+      "text": "",
+      "mainEntityOfPage": [
+        {
+          "@type": "WebPageElement",
+          "headline": "Infertility help and support",
+          "url": "https://www.nhs.uk/conditions/infertility/",
+          "identifier": "26",
+          "text": "",
+          "name": "link"
+        }
+      ]
+    }
+  ]
+}

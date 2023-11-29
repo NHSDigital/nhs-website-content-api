@@ -1,0 +1,78 @@
+{
+  "@context": "http://schema.org",
+  "@type": "MedicalWebPage",
+  "name": "Having a baby if you're LGBT+",
+  "copyrightHolder": { "name": "Crown Copyright", "@type": "Organization" },
+  "license": "https://developer.api.nhs.uk/terms",
+  "author": {
+    "url": "https://www.nhs.uk",
+    "logo": "https://www.nhs.uk/nhscwebservices/documents/logo1.jpg",
+    "email": "nhswebsite.servicedesk@nhs.net",
+    "@type": "Organization",
+    "name": "NHS website"
+  },
+  "about": { "@type": "WebPage", "name": "Having a baby if you're LGBT+", "alternateName": "" },
+  "description": "Find out about starting a family if you're lesbian, gay, bisexual, transgender or non-binary.",
+  "url": "https://www.nhs.uk/pregnancy/having-a-baby-if-you-are-lgbt-plus/",
+  "genre": [],
+  "keywords": "",
+  "dateModified": "2022-05-31T12:43:34+00:00",
+  "hasPart": [],
+  "breadcrumb": {
+    "@context": "http://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 0,
+        "item": { "@id": "https://www.nhs.uk/pregnancy/", "name": "Pregnancy", "genre": [] }
+      },
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@id": "https://www.nhs.uk/pregnancy/having-a-baby-if-you-are-lgbt-plus/",
+          "name": "Having a baby if you're LGBT+",
+          "genre": []
+        }
+      }
+    ]
+  },
+  "headline": "Having a baby if you're LGBT+",
+  "contentSubTypes": [],
+  "mainEntityOfPage": [
+    {
+      "identifier": "25",
+      "@type": "WebPageElement",
+      "name": "keylinks",
+      "headline": "",
+      "text": "",
+      "mainEntityOfPage": [
+        {
+          "@type": "WebPageElement",
+          "headline": "Ways to become a parent if you're LGBT+",
+          "url": "https://www.nhs.uk/pregnancy/having-a-baby-if-you-are-lgbt-plus/ways-to-become-a-parent-if-you-are-lgbt-plus/",
+          "identifier": "26",
+          "text": "",
+          "name": "link"
+        },
+        {
+          "@type": "WebPageElement",
+          "headline": "Testosterone and pregnancy",
+          "url": "https://www.nhs.uk/pregnancy/having-a-baby-if-you-are-lgbt-plus/testosterone-and-pregnancy/",
+          "identifier": "26",
+          "text": "",
+          "name": "link"
+        },
+        {
+          "@type": "WebPageElement",
+          "headline": "Chestfeeding if you're trans or non-binary",
+          "url": "https://www.nhs.uk/pregnancy/having-a-baby-if-you-are-lgbt-plus/chestfeeding-if-youre-trans-or-non-binary/",
+          "identifier": "26",
+          "text": "",
+          "name": "link"
+        }
+      ]
+    }
+  ]
+}
