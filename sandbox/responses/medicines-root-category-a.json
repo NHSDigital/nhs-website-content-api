@@ -1,0 +1,309 @@
+{
+  "@context": "http://schema.org",
+  "@type": "MedicalWebPage",
+  "name": "Medicines A to Z",
+  "copyrightHolder": { "name": "Crown Copyright", "@type": "Organization" },
+  "license": "https://developer.api.nhs.uk/terms",
+  "author": {
+    "url": "https://www.nhs.uk",
+    "logo": "https://www.nhs.uk/nhscwebservices/documents/logo1.jpg",
+    "email": "nhswebsite.servicedesk@nhs.net",
+    "@type": "Organization",
+    "name": "NHS website"
+  },
+  "about": { "@type": "WebPage", "name": "Medicines A to Z", "alternateName": "" },
+  "description": "Find out how your medicine works, how and when to take it, possible side effects and answers to your common questions.",
+  "url": "https://api.service.nhs.uk/nhs-website-content/medicines/",
+  "genre": [],
+  "keywords": "",
+  "dateModified": "",
+  "breadcrumb": {
+    "@context": "http://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 0,
+        "item": { "@id": "https://api.service.nhs.uk/nhs-website-content/medicines/", "name": "Medicines A to Z", "genre": [] }
+      }
+    ]
+  },
+  "contentSubTypes": [],
+  "significantLink": [
+    {
+      "@type": "LinkRole",
+      "name": "Aciclovir (Zovirax)",
+      "articleStatus": "published",
+      "linkRelationship": "Result",
+      "url": "https://api.service.nhs.uk/nhs-website-content/medicines/aciclovir/",
+      "description": "Find out how aciclovir treats cold sores, chickenpox, shingles and other herpes virus infections, and how to take it.",
+      "mainEntityOfPage": {
+        "genre": ["Medicine"],
+        "lastReviewed": null,
+        "dateModified": "2023-03-15T14:49:43+00:00",
+        "@type": "MedicalWebPage"
+      }
+    },
+    {
+      "@type": "LinkRole",
+      "name": "Acrivastine",
+      "articleStatus": "published",
+      "linkRelationship": "Result",
+      "url": "https://api.service.nhs.uk/nhs-website-content/medicines/acrivastine/",
+      "description": "NHS medicines information on acrivastine (Benadryl) \u2013 what it's used for, side effects, dosage and who can take it",
+      "mainEntityOfPage": {
+        "genre": ["Medicine"],
+        "lastReviewed": ["2021-10-13T13:39:00+00:00", "2024-10-13T13:39:00+00:00"],
+        "dateModified": "2023-06-16T13:38:10+00:00",
+        "@type": "MedicalWebPage"
+      }
+    },
+    {
+      "@type": "LinkRole",
+      "name": "Adalimumab",
+      "articleStatus": "published",
+      "linkRelationship": "Result",
+      "url": "https://api.service.nhs.uk/nhs-website-content/medicines/adalimumab/",
+      "description": "Brand names: Humira, Amgevita, Hyrimoz, Idacio, Imraldi, Yuflyma. Find out how adalimumab treats swelling (inflammation), and how to take it.",
+      "mainEntityOfPage": {
+        "genre": ["Medicine"],
+        "lastReviewed": null,
+        "dateModified": "2023-03-15T14:52:10+00:00",
+        "@type": "MedicalWebPage"
+      }
+    },
+    {
+      "@type": "LinkRole",
+      "name": "Alendronic acid",
+      "articleStatus": "published",
+      "linkRelationship": "Result",
+      "url": "https://api.service.nhs.uk/nhs-website-content/medicines/alendronic-acid/",
+      "description": "NHS medicines information on alendronic acid \u2013 what it's used for, side effects, dosage and who can take it.",
+      "mainEntityOfPage": {
+        "genre": ["Medicine"],
+        "lastReviewed": ["2021-09-10T14:00:00+00:00", "2024-09-10T14:00:00+00:00"],
+        "dateModified": "2023-09-08T14:42:02+00:00",
+        "@type": "MedicalWebPage"
+      }
+    },
+    {
+      "@type": "LinkRole",
+      "name": "Allopurinol",
+      "articleStatus": "published",
+      "linkRelationship": "Result",
+      "url": "https://api.service.nhs.uk/nhs-website-content/medicines/allopurinol/",
+      "description": "Find out how allopurinol treats gout and how to take it.",
+      "mainEntityOfPage": {
+        "genre": ["Medicine"],
+        "lastReviewed": null,
+        "dateModified": "2023-03-15T14:53:01+00:00",
+        "@type": "MedicalWebPage"
+      }
+    },
+    {
+      "@type": "LinkRole",
+      "name": "Alogliptin",
+      "articleStatus": "published",
+      "linkRelationship": "Result",
+      "url": "https://api.service.nhs.uk/nhs-website-content/medicines/alogliptin/",
+      "description": "Brand name: Vipidia. Find out how alogliptin treats type 2 diabetes, and how to take it.",
+      "mainEntityOfPage": {
+        "genre": ["Medicine"],
+        "lastReviewed": null,
+        "dateModified": "2023-03-15T14:57:00+00:00",
+        "@type": "MedicalWebPage"
+      }
+    },
+    {
+      "@type": "LinkRole",
+      "name": "Amitriptyline for depression",
+      "articleStatus": "published",
+      "linkRelationship": "Result",
+      "url": "https://api.service.nhs.uk/nhs-website-content/medicines/amitriptyline-for-depression/",
+      "description": "NHS medicines information on amitriptyline for depression \u2013 how it works, side effects, dosage and who can take it.",
+      "mainEntityOfPage": {
+        "genre": ["Medicine"],
+        "lastReviewed": ["2021-09-09T10:00:00+00:00", "2024-09-09T10:00:00+00:00"],
+        "dateModified": "2023-08-22T10:58:58+00:00",
+        "@type": "MedicalWebPage"
+      }
+    },
+    {
+      "@type": "LinkRole",
+      "name": "Amitriptyline for pain and migraine",
+      "articleStatus": "published",
+      "linkRelationship": "Result",
+      "url": "https://api.service.nhs.uk/nhs-website-content/medicines/amitriptyline-for-pain/",
+      "description": "Find out how amitriptyline treats pain and prevents migraine and how to take it.",
+      "mainEntityOfPage": {
+        "genre": ["Medicine"],
+        "lastReviewed": null,
+        "dateModified": "2023-08-22T10:56:15+00:00",
+        "@type": "MedicalWebPage"
+      }
+    },
+    {
+      "@type": "LinkRole",
+      "name": "Amlodipine",
+      "articleStatus": "published",
+      "linkRelationship": "Result",
+      "url": "https://api.service.nhs.uk/nhs-website-content/medicines/amlodipine/",
+      "description": "Brand name: Istin. Find out how amlodipine treats high blood pressure and helps to prevent heart disease, and how to take it.",
+      "mainEntityOfPage": {
+        "genre": ["Medicine"],
+        "lastReviewed": null,
+        "dateModified": "2023-04-24T14:30:10+00:00",
+        "@type": "MedicalWebPage"
+      }
+    },
+    {
+      "@type": "LinkRole",
+      "name": "Amoxicillin",
+      "articleStatus": "published",
+      "linkRelationship": "Result",
+      "url": "https://api.service.nhs.uk/nhs-website-content/medicines/amoxicillin/",
+      "description": "NHS medicines information on amoxicillin \u2013 what it's used for, side effects, dosage and who can take it.",
+      "mainEntityOfPage": {
+        "genre": ["Medicine"],
+        "lastReviewed": ["2021-11-12T15:00:00+00:00", "2024-11-12T15:00:00+00:00"],
+        "dateModified": "2023-07-03T16:23:28+00:00",
+        "@type": "MedicalWebPage"
+      }
+    },
+    {
+      "@type": "LinkRole",
+      "name": "Anastrozole",
+      "articleStatus": "published",
+      "linkRelationship": "Result",
+      "url": "https://api.service.nhs.uk/nhs-website-content/medicines/anastrozole/",
+      "description": "NHS medicines information on anastrozole \u2013 what it's used for, side effects, dosage and who can take it.",
+      "mainEntityOfPage": {
+        "genre": ["Medicine"],
+        "lastReviewed": ["2021-06-02T10:21:00+00:00", "2024-06-02T10:21:00+00:00"],
+        "dateModified": "2022-10-21T10:30:42+00:00",
+        "@type": "MedicalWebPage"
+      }
+    },
+    {
+      "@type": "LinkRole",
+      "name": "Apixaban",
+      "articleStatus": "published",
+      "linkRelationship": "Result",
+      "url": "https://api.service.nhs.uk/nhs-website-content/medicines/apixaban/",
+      "description": "Find out how apixaban helps to prevent blood clots and reduces risk of heart attacks and stroke, and how to take it.",
+      "mainEntityOfPage": {
+        "genre": ["Medicine"],
+        "lastReviewed": null,
+        "dateModified": "2023-03-15T14:58:54+00:00",
+        "@type": "MedicalWebPage"
+      }
+    },
+    {
+      "@type": "LinkRole",
+      "name": "Aripiprazole",
+      "articleStatus": "published",
+      "linkRelationship": "Result",
+      "url": "https://api.service.nhs.uk/nhs-website-content/medicines/aripiprazole/",
+      "description": "Find out how aripiprazole treats mental health conditions, including schizophrenia and bipolar disorder, and how to take it.",
+      "mainEntityOfPage": {
+        "genre": ["Medicine"],
+        "lastReviewed": null,
+        "dateModified": "2023-04-12T11:33:52+00:00",
+        "@type": "MedicalWebPage"
+      }
+    },
+    {
+      "@type": "LinkRole",
+      "name": "Aspirin for pain relief",
+      "articleStatus": "published",
+      "linkRelationship": "Result",
+      "url": "https://api.service.nhs.uk/nhs-website-content/medicines/aspirin-for-pain-relief/",
+      "description": "Find out more about how aspirin is used for pain relief, and how to take or use it.",
+      "mainEntityOfPage": {
+        "genre": ["Medicine"],
+        "lastReviewed": null,
+        "dateModified": "2023-03-15T14:59:26+00:00",
+        "@type": "MedicalWebPage"
+      }
+    },
+    {
+      "@type": "LinkRole",
+      "name": "Atenolol",
+      "articleStatus": "published",
+      "linkRelationship": "Result",
+      "url": "https://api.service.nhs.uk/nhs-website-content/medicines/atenolol/",
+      "description": "Brand name: Tenormin. Find out how atenolol treats high blood pressure (hypertension), irregular heartbeats (arrhythmia) and angina, and how to take it.",
+      "mainEntityOfPage": {
+        "genre": ["Medicine"],
+        "lastReviewed": null,
+        "dateModified": "2023-04-24T14:30:35+00:00",
+        "@type": "MedicalWebPage"
+      }
+    },
+    {
+      "@type": "LinkRole",
+      "name": "Atorvastatin",
+      "articleStatus": "published",
+      "linkRelationship": "Result",
+      "url": "https://api.service.nhs.uk/nhs-website-content/medicines/atorvastatin/",
+      "description": "Brand name: Lipitor. Find out how atorvastatin treats heart problems and how to take it.",
+      "mainEntityOfPage": {
+        "genre": ["Medicine"],
+        "lastReviewed": null,
+        "dateModified": "2023-03-15T15:01:41+00:00",
+        "@type": "MedicalWebPage"
+      }
+    },
+    {
+      "@type": "LinkRole",
+      "name": "Azathioprine",
+      "articleStatus": "published",
+      "linkRelationship": "Result",
+      "url": "https://api.service.nhs.uk/nhs-website-content/medicines/azathioprine/",
+      "description": "Find out how azathioprine treats conditions that affect the immune system such as rheumatoid arthritis, Crohn's disease and ulcerative colitis, skin conditions such as lupus, and helps after an organ transplant, and how to take it.",
+      "mainEntityOfPage": {
+        "genre": ["Medicine"],
+        "lastReviewed": null,
+        "dateModified": "2023-03-15T15:02:11+00:00",
+        "@type": "MedicalWebPage"
+      }
+    },
+    {
+      "@type": "LinkRole",
+      "name": "Azithromycin",
+      "articleStatus": "published",
+      "linkRelationship": "Result",
+      "url": "https://api.service.nhs.uk/nhs-website-content/medicines/azithromycin/",
+      "description": "Brand name: Zithromax. Find out how azithromycin treats infections and how to take it.",
+      "mainEntityOfPage": {
+        "genre": ["Medicine"],
+        "lastReviewed": null,
+        "dateModified": "2023-03-15T15:02:43+00:00",
+        "@type": "MedicalWebPage"
+      }
+    }
+  ],
+  "relatedLink": [
+    {
+      "@type": "LinkRole",
+      "url": "https://api.service.nhs.uk/nhs-website-content/medicines/?category=a&page=1",
+      "name": "First Page",
+      "description": "Link to First Page",
+      "linkRelationship": "Pagination"
+    },
+    {
+      "@type": "LinkRole",
+      "url": "https://api.service.nhs.uk/nhs-website-content/medicines/?category=a&page=1",
+      "name": "Last Page",
+      "description": "Link to Last Page",
+      "linkRelationship": "Pagination"
+    },
+    {
+      "@type": "LinkRole",
+      "url": "https://api.service.nhs.uk/nhs-website-content/medicines/?category=a",
+      "name": "Self",
+      "description": "Link to nhs.uk Page",
+      "linkRelationship": "Self"
+    }
+  ]
+}

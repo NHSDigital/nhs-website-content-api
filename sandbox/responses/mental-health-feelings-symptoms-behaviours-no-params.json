@@ -1,0 +1,138 @@
+{
+  "@context": "http://schema.org",
+  "@type": "MedicalWebPage",
+  "name": "Feelings, symptoms and behaviours",
+  "copyrightHolder": { "name": "Crown Copyright", "@type": "Organization" },
+  "license": "https://developer.api.nhs.uk/terms",
+  "author": {
+    "url": "https://www.nhs.uk",
+    "logo": "https://www.nhs.uk/nhscwebservices/documents/logo1.jpg",
+    "email": "nhswebsite.servicedesk@nhs.net",
+    "@type": "Organization",
+    "name": "NHS website"
+  },
+  "about": { "@type": "WebPage", "name": "Feelings, symptoms and behaviours", "alternateName": "" },
+  "description": "Find information about feelings and symptoms that can affect your mental health.",
+  "url": "https://www.nhs.uk/mental-health/feelings-symptoms-behaviours/",
+  "genre": [],
+  "keywords": "",
+  "dateModified": "2021-11-18T16:17:21+00:00",
+  "hasPart": [
+    {
+      "@type": "HealthTopicContent",
+      "hasHealthAspect": "http://schema.org/SymptomsHealthAspect",
+      "url": "https://www.nhs.uk/mental-health/feelings-symptoms-behaviours/behaviours/eating-disorders/overview/#symptoms",
+      "description": "Symptoms of an eating disorder include worrying about your weight, eating too little or making yourself sick after eating.",
+      "hasPart": [
+        {
+          "@type": "WebPageElement",
+          "headline": "",
+          "text": "<p>If you or people around you are worried that you have an unhealthy relationship with food, you could have an eating disorder.</p><p>Symptoms of eating disorders include:</p><ul><li>spending a lot of time worrying about your weight and body shape</li><li>avoiding socialising when you think food will be involved</li><li>eating very little food</li><li>making yourself sick or taking laxatives after you eat</li><li>exercising too much</li><li>having very strict habits or routines around food</li><li>changes in your mood such as being withdrawn, anxious or depressed</li></ul><p>You may also notice physical signs, including:</p><ul><li>feeling cold, tired or dizzy</li><li>pains, tingling or numbness in your arms and legs (poor circulation)</li><li>feeling your heart racing, fainting or feeling faint</li><li>problems with your digestion, such as bloating, constipation or diarrhoea</li><li>your weight being very high or very low for someone of your age and height</li><li>not getting your period or other delayed signs of puberty</li></ul>"
+        }
+      ],
+      "headline": "Check if you have an eating disorder"
+    },
+    {
+      "@type": "HealthTopicContent",
+      "hasHealthAspect": "http://schema.org/TreatmentsHealthAspect",
+      "url": "https://www.nhs.uk/mental-health/feelings-symptoms-behaviours/behaviours/eating-disorders/overview/#medical-treatments",
+      "description": "Treatment for an eating disorder depends on the type of condition you have. It usually involves talking therapy.",
+      "hasPart": [
+        {
+          "@type": "WebPageElement",
+          "headline": "",
+          "text": "<p>You can recover from an eating disorder, but it may take time and recovery will be different for everyone.</p><p>If you're referred to an eating disorder specialist or team of specialists, they'll be responsible for your care.</p><p>They should talk to you about the support you might need, such as for other conditions you have, and include this in your treatment plan.</p><p>Your treatment will depend on the type of eating disorder you have, but usually includes a talking therapy.</p><p>You may also need regular health checks if your eating disorder is having an impact on your physical health.</p><p>Your treatment may also involve working through a guided self-help programme if you have bulimia or binge eating disorder.</p><p>Most people will be offered individual therapy, but those with binge eating disorder may be offered group therapy.</p>"
+        }
+      ],
+      "headline": "Treatment for eating disorders"
+    },
+    {
+      "@type": "HealthTopicContent",
+      "hasHealthAspect": "http://schema.org/CausesHealthAspect",
+      "url": "https://www.nhs.uk/mental-health/feelings-symptoms-behaviours/behaviours/eating-disorders/overview/#causes",
+      "description": "Anyone can get an eating disorder but things that make it more likely include family problems, depression or dealing with difficult things like death.",
+      "hasPart": [
+        {
+          "@type": "WebPageElement",
+          "headline": "",
+          "text": "<p>We do not know exactly what causes eating disorders.</p><p>You may be more likely to get an eating disorder if:</p><ul><li>you or a member of your family has a history of eating disorders, depression, or alcohol or drug misuse</li><li>you've been criticised for your eating habits, body shape or weight</li><li>you're really worried about being slim, particularly if you also feel pressure from society or your job, for example, ballet dancers, models or athletes</li><li>you have anxiety, low self-esteem, an obsessive personality or are a perfectionist</li><li>you've been sexually abused</li></ul>"
+        }
+      ],
+      "headline": "What causes eating disorders?"
+    }
+  ],
+  "breadcrumb": {
+    "@context": "http://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 0,
+        "item": { "@id": "https://www.nhs.uk/mental-health/", "name": "Mental health", "genre": [] }
+      },
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@id": "https://www.nhs.uk/mental-health/feelings-symptoms-behaviours/",
+          "name": "Feelings, symptoms and behaviours",
+          "genre": []
+        }
+      }
+    ]
+  },
+  "headline": "Feelings, symptoms and behaviours",
+  "contentSubTypes": [],
+  "mainEntityOfPage": [
+    {
+      "identifier": "23",
+      "@type": "WebPageElement",
+      "name": "toptasks",
+      "headline": "",
+      "text": "",
+      "mainEntityOfPage": [
+        {
+          "@type": "WebPageElement",
+          "headline": "Get urgent help now for mental health",
+          "url": "https://www.nhs.uk/mental-health/get-urgent-help-for-mental-health/",
+          "identifier": "26",
+          "text": "",
+          "name": "link"
+        },
+        {
+          "@type": "WebPageElement",
+          "headline": "Help for suicidal thoughts",
+          "url": "https://www.nhs.uk/mental-health/feelings-symptoms-behaviours/behaviours/help-for-suicidal-thoughts/",
+          "identifier": "26",
+          "text": "",
+          "name": "link"
+        }
+      ]
+    },
+    {
+      "identifier": "24",
+      "@type": "WebPageElement",
+      "name": "secondarycanonicallinks",
+      "headline": "",
+      "text": "",
+      "mainEntityOfPage": [
+        {
+          "@type": "WebPageElement",
+          "headline": "Feelings and symptoms",
+          "url": "https://www.nhs.uk/mental-health/feelings-symptoms-behaviours/feelings-and-symptoms/",
+          "identifier": "26",
+          "text": "<p>Read about feelings and symptoms related to mental health problems, including:<br/></p><ul><li>feelings and symptoms that can affect everyday life</li><li>feelings and symptoms caused by life events</li><li>feelings and symptoms in younger and older people</li></ul>",
+          "name": "link"
+        },
+        {
+          "@type": "WebPageElement",
+          "headline": "Behaviours",
+          "url": "https://www.nhs.uk/mental-health/feelings-symptoms-behaviours/behaviours/",
+          "identifier": "26",
+          "text": "<p>Read about behaviours related to mental health problems, including:</p><ul><li>understanding and getting help for mental health behaviours</li><li>understanding behaviours in young people</li></ul>",
+          "name": "link"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "@context": "http://schema.org",
+  "@type": "MedicalWebPage",
+  "name": "GPs",
+  "copyrightHolder": { "name": "Crown Copyright", "@type": "Organization" },
+  "license": "https://developer.api.nhs.uk/terms",
+  "author": {
+    "url": "https://www.nhs.uk",
+    "logo": "https://www.nhs.uk/nhscwebservices/documents/logo1.jpg",
+    "email": "nhswebsite.servicedesk@nhs.net",
+    "@type": "Organization",
+    "name": "NHS website"
+  },
+  "about": { "@type": "WebPage", "name": "GPs", "alternateName": "" },
+  "description": "About GP services, including how to find and register with a local GP and how to book an appointment.",
+  "url": "https://www.nhs.uk/nhs-services/gps/",
+  "genre": [],
+  "keywords": "",
+  "dateModified": "2021-11-18T16:11:21+00:00",
+  "hasPart": [],
+  "breadcrumb": {
+    "@context": "http://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 0,
+        "item": { "@id": "https://www.nhs.uk/nhs-services/", "name": "NHS services", "genre": [] }
+      },
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "item": { "@id": "https://www.nhs.uk/nhs-services/gps/", "name": "GPs", "genre": [] }
+      }
+    ]
+  },
+  "headline": "GPs",
+  "contentSubTypes": [],
+  "mainEntityOfPage": [
+    {
+      "identifier": "25",
+      "@type": "WebPageElement",
+      "name": "keylinks",
+      "headline": "",
+      "text": "",
+      "mainEntityOfPage": [
+        {
+          "@type": "WebPageElement",
+          "headline": "How to register with a GP surgery",
+          "url": "https://www.nhs.uk/nhs-services/gps/how-to-register-with-a-gp-surgery/",
+          "identifier": "26",
+          "text": "",
+          "name": "link"
+        },
+        {
+          "@type": "WebPageElement",
+          "headline": "Registering with a GP surgery outside your local area",
+          "url": "https://www.nhs.uk/nhs-services/gps/registering-with-a-gp-outside-your-area/",
+          "identifier": "26",
+          "text": "",
+          "name": "link"
+        },
+        {
+          "@type": "WebPageElement",
+          "headline": "Appointments and bookings at your GP surgery",
+          "url": "https://www.nhs.uk/nhs-services/gps/gp-appointments-and-bookings/",
+          "identifier": "26",
+          "text": "",
+          "name": "link"
+        },
+        {
+          "@type": "WebPageElement",
+          "headline": "Using an online form to contact your GP surgery",
+          "url": "https://www.nhs.uk/nhs-services/gps/using-an-online-form-to-contact-your-gp-surgery/",
+          "identifier": "26",
+          "text": "",
+          "name": "link"
+        },
+        {
+          "@type": "WebPageElement",
+          "headline": "Video consultations",
+          "url": "https://www.nhs.uk/nhs-services/gps/video-consultations/",
+          "identifier": "26",
+          "text": "",
+          "name": "link"
+        },
+        {
+          "@type": "WebPageElement",
+          "headline": "What to ask your doctor or other healthcare professional",
+          "url": "https://www.nhs.uk/nhs-services/gps/what-to-ask-your-doctor/",
+          "identifier": "26",
+          "text": "",
+          "name": "link"
+        },
+        {
+          "@type": "WebPageElement",
+          "headline": "Using online services",
+          "url": "https://www.nhs.uk/nhs-services/gps/using-online-services/",
+          "identifier": "26",
+          "text": "",
+          "name": "link"
+        },
+        {
+          "@type": "WebPageElement",
+          "headline": "Online health and prescription services",
+          "url": "https://www.nhs.uk/nhs-services/gps/online-health-and-prescription-services/",
+          "identifier": "26",
+          "text": "",
+          "name": "link"
+        }
+      ]
+    },
+    {
+      "identifier": "27",
+      "@type": "WebPageElement",
+      "name": "RelatedLinks",
+      "headline": "Related services",
+      "text": "",
+      "mainEntityOfPage": [
+        {
+          "@type": "WebPageElement",
+          "headline": "Referrals for specialist care",
+          "url": "https://www.nhs.uk/nhs-services/hospitals/referrals-for-specialist-care/",
+          "identifier": "26",
+          "text": "",
+          "name": "link"
+        },
+        {
+          "@type": "WebPageElement",
+          "headline": "Book an appointment using the NHS e-Referral Service",
+          "url": "https://www.nhs.uk/nhs-services/hospitals/book-an-appointment/",
+          "identifier": "26",
+          "text": "",
+          "name": "link"
+        },
+        {
+          "@type": "WebPageElement",
+          "headline": "Coronavirus (COVID-19) vaccine",
+          "url": "https://www.nhs.uk/conditions/coronavirus-covid-19/coronavirus-vaccination-old/coronavirus-vaccine/",
+          "identifier": "26",
+          "text": "",
+          "name": "link"
+        }
+      ]
+    }
+  ]
+}

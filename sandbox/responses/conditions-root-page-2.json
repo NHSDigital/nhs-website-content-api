@@ -1,0 +1,445 @@
+{
+  "@context": "http://schema.org",
+  "@type": "MedicalWebPage",
+  "name": "Health A to Z",
+  "copyrightHolder": { "name": "Crown Copyright", "@type": "Organization" },
+  "license": "https://developer.api.nhs.uk/terms",
+  "author": {
+    "url": "https://www.nhs.uk",
+    "logo": "https://www.nhs.uk/nhscwebservices/documents/logo1.jpg",
+    "email": "nhswebsite.servicedesk@nhs.net",
+    "@type": "Organization",
+    "name": "NHS website"
+  },
+  "about": { "@type": "WebPage", "name": "Health A to Z", "alternateName": "" },
+  "description": "",
+  "url": "https://api.service.nhs.uk/nhs-website-content/conditions/",
+  "genre": [],
+  "keywords": "",
+  "dateModified": "2021-11-18T15:26:06+00:00",
+  "breadcrumb": {
+    "@context": "http://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 0,
+        "item": { "@id": "https://api.service.nhs.uk/nhs-website-content/conditions/", "name": "Health A to Z", "genre": [] }
+      }
+    ]
+  },
+  "contentSubTypes": [],
+  "significantLink": [
+    {
+      "description": "Find out what causes anal pain, what you can do to ease the pain and when to get medical help.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Symptom"],
+        "datePublished": "2017-10-17T15:49:36+00:00",
+        "dateModified": "2022-03-16T09:04:13+00:00",
+        "lastReviewed": ["2022-03-15T01:00:00+00:00", "2025-03-15T01:00:00+00:00"],
+        "reviewDue": "2025-03-15T01:00:00+00:00",
+        "keywords": "",
+        "alternateName": ["Proctalgia"],
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/anal-pain/",
+      "name": "Anal pain"
+    },
+    {
+      "description": "Read about Angelman syndrome, a genetic disorder that affects the nervous system and causes severe physical and intellectual disability",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Condition"],
+        "datePublished": "2017-10-17T16:28:17+00:00",
+        "dateModified": "2023-04-13T10:12:21+00:00",
+        "lastReviewed": ["2023-03-09T01:00:00+00:00", "2026-03-09T01:00:00+00:00"],
+        "reviewDue": "2026-03-09T01:00:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/angelman-syndrome/",
+      "name": "Angelman syndrome"
+    },
+    {
+      "description": "Find out what to do if you\u2019ve been bitten by an animal or person, including first aid advice, when to get medical help and what treatment you may need.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Accident or injury"],
+        "datePublished": "2017-10-17T15:53:13+00:00",
+        "dateModified": "2023-08-08T09:25:16+00:00",
+        "lastReviewed": ["2022-06-22T23:00:00+00:00", "2025-06-22T23:00:00+00:00"],
+        "reviewDue": "2025-06-22T23:00:00+00:00",
+        "keywords": "",
+        "alternateName": ["Dog bites", "Human bites", "Bite (animal or human)", "Cat bites"],
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/animal-and-human-bites/",
+      "name": "Animal and human bites"
+    },
+    {
+      "description": "Find out about antacids, a type of medicine used to control the acid levels in the stomach.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Medicine"],
+        "datePublished": "2017-10-17T15:54:58+00:00",
+        "dateModified": "2023-04-13T14:41:26+00:00",
+        "lastReviewed": ["2023-03-24T10:33:00+00:00", "2026-03-24T10:33:00+00:00"],
+        "reviewDue": "2026-03-24T10:33:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/antacids/",
+      "name": "Antacids"
+    },
+    {
+      "description": "Antihistamines are a type of medicine often used to treat allergies. Find out about the different types, who can take them and what side effects they can cause.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Medicine"],
+        "datePublished": "2017-10-17T15:57:58+00:00",
+        "dateModified": "2023-05-18T14:32:06+00:00",
+        "lastReviewed": ["2023-05-15T23:00:00+00:00", "2026-05-15T23:00:00+00:00"],
+        "reviewDue": "2026-05-15T23:00:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/antihistamines/",
+      "name": "Antihistamines"
+    },
+    {
+      "description": "Read about anxiety disorders in children and teenagers, with links to other useful resources.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Condition"],
+        "datePublished": "2017-10-17T16:28:08+00:00",
+        "dateModified": "2021-11-18T15:26:34+00:00",
+        "lastReviewed": ["2020-12-01T00:00:00+00:00", "2023-12-01T00:00:00+00:00"],
+        "reviewDue": "2023-12-01T00:00:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/anxiety-disorders-in-children/",
+      "name": "Anxiety disorders in children"
+    },
+    {
+      "description": "Arrhythmias or heart rhythm problems are experienced by more than 2 million people in the UK. Most people with an abnormal heart rhythm can lead a normal life if it is properly diagnosed.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Condition"],
+        "datePublished": "2018-02-19T15:41:03+00:00",
+        "dateModified": "2023-10-20T08:46:13+00:00",
+        "lastReviewed": ["2021-09-14T00:00:00+00:00", "2024-09-14T00:00:00+00:00"],
+        "reviewDue": "2024-09-14T00:00:00+00:00",
+        "keywords": "",
+        "alternateName": ["Heart rhythm problems"],
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/arrhythmia/",
+      "name": "Arrhythmia"
+    },
+    {
+      "description": "Arterial thrombosis is a blood clot in an artery. Find out why it happens and how it is treated.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Condition"],
+        "datePublished": "2017-10-17T15:56:14+00:00",
+        "dateModified": "2023-08-07T07:30:32+00:00",
+        "lastReviewed": ["2020-01-09T00:00:00+00:00", "2023-01-09T00:00:00+00:00"],
+        "reviewDue": "2023-01-09T00:00:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/arterial-thrombosis/",
+      "name": "Arterial thrombosis"
+    },
+    {
+      "description": "Find out about intrauterine (artificial) insemination, or IUI, a fertility treatment that involves directly inserting sperm into a woman's womb.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Procedure", "Treatment"],
+        "datePublished": "2017-10-17T16:07:35+00:00",
+        "dateModified": "2023-10-09T07:35:09+00:00",
+        "lastReviewed": ["2020-03-10T00:00:00+00:00", "2023-03-10T00:00:00+00:00"],
+        "reviewDue": "2023-03-10T00:00:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/artificial-insemination/",
+      "name": "Intrauterine insemination (IUI)"
+    },
+    {
+      "description": "Asbestosis is a serious lung condition caused by exposure to asbestos \u2013 a building material used mostly from the 1950s to the 1990s.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Condition"],
+        "datePublished": "2017-10-17T16:02:11+00:00",
+        "dateModified": "2023-10-03T12:28:12+00:00",
+        "lastReviewed": ["2023-07-31T15:03:00+00:00", "2026-07-31T00:00:00+00:00"],
+        "reviewDue": "2026-07-31T00:00:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/asbestosis/",
+      "name": "Asbestosis"
+    },
+    {
+      "description": "Find out about aspirin, including what it's used for, who can take it, and what the main side effects are.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Medicine"],
+        "datePublished": "2017-10-17T16:05:29+00:00",
+        "dateModified": "2021-11-18T15:26:40+00:00",
+        "lastReviewed": ["2016-05-06T00:00:00+00:00", "2019-05-01T00:00:00+00:00"],
+        "reviewDue": "2019-05-01T00:00:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/aspirin/",
+      "name": "Aspirin"
+    },
+    {
+      "description": "Find out more about atherosclerosis, what the symptoms are, how you can help stop it getting worse, how it's treated and what causes it.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Condition"],
+        "datePublished": "2017-10-17T15:59:05+00:00",
+        "dateModified": "2023-04-24T14:20:31+00:00",
+        "lastReviewed": ["2023-01-30T01:00:00+00:00", "2026-01-30T01:00:00+00:00"],
+        "reviewDue": "2026-01-30T01:00:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/atherosclerosis/",
+      "name": "Atherosclerosis"
+    },
+    {
+      "description": "Read about athlete's foot, a common fungal infection of the foot. Find out about the symptoms, what causes it, and how it's treated.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Condition"],
+        "datePublished": "2017-10-17T16:02:41+00:00",
+        "dateModified": "2023-05-17T08:49:09+00:00",
+        "lastReviewed": ["2021-06-08T17:00:00+00:00", "2024-06-08T17:00:00+00:00"],
+        "reviewDue": "2024-06-08T17:00:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/athletes-foot/",
+      "name": "Athlete's foot"
+    },
+    {
+      "description": "Find out about auditory processing disorder, a condition where you have difficulty understanding sounds including spoken words.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Condition"],
+        "datePublished": "2017-10-17T16:01:41+00:00",
+        "dateModified": "2023-08-02T11:28:29+00:00",
+        "lastReviewed": ["2023-07-31T00:00:00+00:00", "2026-07-31T00:00:00+00:00"],
+        "reviewDue": "2026-07-31T00:00:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/auditory-processing-disorder/",
+      "name": "Auditory processing disorder (APD)"
+    },
+    {
+      "description": "Read about balanitis, which is where the head of the penis is swollen and sore. Find out about the symptoms, causes, treatments and when to get medical help.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Condition"],
+        "datePublished": "2017-10-17T16:07:52+00:00",
+        "dateModified": "2023-05-30T12:15:43+00:00",
+        "lastReviewed": ["2023-05-30T00:00:00+00:00", "2026-05-30T00:00:00+00:00"],
+        "reviewDue": "2026-05-30T00:00:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/balanitis/",
+      "name": "Balanitis"
+    },
+    {
+      "description": "Read about having a barium enema, including what you need to do to prepare, what happens during the test, and what happens afterwards.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Procedure", "Test"],
+        "datePublished": "2017-10-17T16:09:38+00:00",
+        "dateModified": "2023-04-04T10:12:03+00:00",
+        "lastReviewed": ["2022-05-13T00:00:00+00:00", "2025-05-13T00:00:00+00:00"],
+        "reviewDue": "2025-05-13T00:00:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/barium-enema/",
+      "name": "Barium enema"
+    },
+    {
+      "description": "Find out about bedbugs, including checking if you have them, how to get rid of them and how to treat bedbug bites.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Condition"],
+        "datePublished": "2017-10-17T16:09:19+00:00",
+        "dateModified": "2022-08-04T13:49:39+00:00",
+        "lastReviewed": ["2022-08-01T23:00:00+00:00", "2025-08-01T23:00:00+00:00"],
+        "reviewDue": "2025-08-01T23:00:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/bedbugs/",
+      "name": "Bedbugs"
+    },
+    {
+      "description": "Read about a group of medicines called beta blockers, including what they're used for, side effects and what to do if you miss a dose or take too much.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Medicine"],
+        "datePublished": "2017-10-17T16:13:30+00:00",
+        "dateModified": "2023-02-17T16:57:13+00:00",
+        "lastReviewed": ["2022-12-02T01:00:00+00:00", "2025-12-02T01:00:00+00:00"],
+        "reviewDue": "2025-12-02T01:00:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/beta-blockers/",
+      "name": "Beta blockers"
+    },
+    {
+      "description": "Find out more about a black eye, which is bruising and swelling around your eye, usually caused by a blow.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Accident or injury"],
+        "datePublished": "2017-10-17T16:07:56+00:00",
+        "dateModified": "2023-08-04T08:10:00+00:00",
+        "lastReviewed": ["2023-07-27T00:00:00+00:00", "2026-07-27T00:00:00+00:00"],
+        "reviewDue": "2026-07-27T00:00:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/black-eye/",
+      "name": "Black eye"
+    },
+    {
+      "description": "Read about blood clots, their symptoms, when to get help and how to prevent them.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": ["Condition"],
+        "datePublished": "2017-10-18T08:20:04+00:00",
+        "dateModified": "2023-04-26T15:02:30+00:00",
+        "lastReviewed": ["2021-02-16T00:00:00+00:00", "2024-02-16T00:00:00+00:00"],
+        "reviewDue": "2024-02-16T00:00:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/blood-clots/",
+      "name": "Blood clots"
+    },
+    {
+      "description": "Find out about blood groups. There are 4 main blood groups \u2013 A, B, AB and O.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "genre": ["Advice or information"],
+        "datePublished": "2017-10-17T16:22:10+00:00",
+        "dateModified": "2023-05-17T11:24:01+00:00",
+        "lastReviewed": ["2023-05-10T08:40:00+00:00", "2026-05-10T08:40:00+00:00"],
+        "reviewDue": "2026-05-10T08:40:00+00:00",
+        "keywords": "",
+        "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
+      },
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/blood-groups/",
+      "name": "Blood groups"
+    }
+  ],
+  "relatedLink": [
+    {
+      "@type": "LinkRole",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/?page=1",
+      "name": "First Page",
+      "description": "Link to First Page",
+      "linkRelationship": "Pagination"
+    },
+    {
+      "@type": "LinkRole",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/?page=208",
+      "name": "Last Page",
+      "description": "Link to Last Page",
+      "linkRelationship": "Pagination"
+    },
+    {
+      "@type": "LinkRole",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/?page=2",
+      "name": "Self",
+      "description": "Link to nhs.uk Page",
+      "linkRelationship": "Self"
+    },
+    {
+      "@type": "LinkRole",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/?page=3",
+      "name": "Next Page",
+      "description": "Link to Next Page",
+      "linkRelationship": "Pagination"
+    }
+  ]
+}

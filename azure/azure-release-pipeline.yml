@@ -4,69 +4,71 @@ trigger: none
 pr: none
 
 resources:
-  repositories:
-    - repository: common
-      type: github
-      name: NHSDigital/api-management-utils
-      ref: refs/heads/edge
-      endpoint: NHSDigital
-  pipelines:
-  - pipeline: build_pipeline
-    source: "Nhs-Website-Content-Api-Build"
-    trigger:
-      branches:
-        include:
-          - refs/tags/v*
+    repositories:
+        - repository: common
+          type: github
+          name: NHSDigital/api-management-utils
+          ref: refs/heads/edge
+          endpoint: NHSDigital
+    pipelines:
+        - pipeline: build_pipeline
+          source: "Nhs-Website-Content-Api-Build"
+          trigger:
+              branches:
+                  include:
+                      - refs/tags/v*
 
 pool:
-  name: 'AWS-ECS'
+    name: "AWS-ECS"
 
 variables:
-  - template: project.yml
+    - template: project.yml
 
 extends:
-  template: azure/common/apigee-deployment.yml@common
-  parameters:
-    service_name: ${{ variables.service_name }}
-    short_service_name: ${{ variables.short_service_name }}
-    service_base_path: ${{ variables.service_base_path }}
-    jinja_templates:
-        NHS_CONTENT_API_TARGET_SERVER: nhs-website-content-api
-    apigee_deployments:
-      - environment: internal-dev
-        post_deploy:
-          - template: ./templates/run-tests.yml
-            parameters:
-              full: true
-      - environment: internal-qa
-        post_deploy:
-          - template: ./templates/run-tests.yml
-            parameters:
-              full: true
-      - environment: internal-dev-sandbox
-        proxy_path: sandbox
-        post_deploy:
-           - template: ./templates/run-tests.yml
-      - environment: internal-qa-sandbox
-        proxy_path: sandbox
-        post_deploy:
-           - template: ./templates/run-tests.yml
-      - environment: int
-        depends_on:
-           - internal_qa
-           - internal_qa_sandbox
-        post_deploy:
-          - template: ./templates/run-tests.yml
-            parameters:
-                full: false
-    #   - environment: ref
-    #     depends_on:
-    #       - internal_qa
-    #       - internal_qa_sandbox
-    #     post_deploy:
-    #       - template: ./templates/run-tests.yml
-    #   - environment: sandbox
-    #     proxy_path: sandbox
-    #     post_deploy:
-    #       - template: ./templates/run-tests.yml
-
+    template: azure/common/apigee-deployment.yml@common
+    parameters:
+        service_name: ${{ variables.service_name }}
+        short_service_name: ${{ variables.short_service_name }}
+        service_base_path: ${{ variables.service_base_path }}
+        jinja_templates:
+            NHS_CONTENT_API_TARGET_SERVER: nhs-website-content-api
+        apigee_deployments:
+            - environment: internal-dev
+              post_deploy:
+                  - template: ./templates/run-tests.yml
+                    parameters:
+                        full: true
+            - environment: internal-qa
+              post_deploy:
+                  - template: ./templates/run-tests.yml
+                    parameters:
+                        full: true
+            - environment: internal-dev-sandbox
+              proxy_path: sandbox
+              post_deploy:
+                  - template: ./templates/run-tests.yml
+            - environment: internal-qa-sandbox
+              proxy_path: sandbox
+              post_deploy:
+                  - template: ./templates/run-tests.yml
+            - environment: sandbox
+              depends_on:
+                  - internal_qa
+                  - internal_qa_sandbox
+              proxy_path: sandbox
+              post_deploy:
+                  -   template: ./templates/run-tests.yml
+            - environment: int
+              depends_on:
+                  - internal_qa
+                  - internal_qa_sandbox
+              post_deploy:
+                  - template: ./templates/run-tests.yml
+                    parameters:
+                        full: false
+        #   - environment: ref
+        #     depends_on:
+        #       - internal_qa
+        #       - internal_qa_sandbox
+        #     post_deploy:
+        #       - template: ./templates/run-tests.yml

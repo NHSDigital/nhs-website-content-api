@@ -1,0 +1,442 @@
+{
+  "@context": "http://schema.org",
+  "@type": "MedicalWebPage",
+  "name": "Acne",
+  "copyrightHolder": { "name": "Crown Copyright", "@type": "Organization" },
+  "license": "https://developer.api.nhs.uk/terms",
+  "author": {
+    "url": "https://www.nhs.uk",
+    "logo": "https://www.nhs.uk/nhscwebservices/documents/logo1.jpg",
+    "email": "nhswebsite.servicedesk@nhs.net",
+    "@type": "Organization",
+    "name": "NHS website"
+  },
+  "about": { "@type": "WebPage", "name": "Acne", "alternateName": "" },
+  "description": "Acne is a common skin condition that affects most people at some point. It causes spots, oily skin and sometimes skin that's hot or painful to touch.",
+  "url": "https://api.service.nhs.uk/nhs-website-content/conditions/acne/",
+  "genre": ["Condition"],
+  "keywords": [],
+  "dateModified": "2023-01-04T15:58:59+00:00",
+  "lastReviewed": ["2023-01-03T01:00:00+00:00", "2026-01-03T01:00:00+00:00"],
+  "breadcrumb": {
+    "@context": "http://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 0,
+        "item": { "@id": "https://api.service.nhs.uk/nhs-website-content/conditions/", "name": "Health A to Z", "genre": [] }
+      },
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@id": "https://api.service.nhs.uk/nhs-website-content/conditions/acne/",
+          "name": "Acne",
+          "genre": ["Condition"]
+        }
+      }
+    ]
+  },
+  "hasPart": [
+    {
+      "@type": "HealthTopicContent",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/acne/#symptoms",
+      "hasHealthAspect": "http://schema.org/SymptomsHealthAspect",
+      "headline": "Symptoms of acne",
+      "description": "The main symptoms of acne are spots on your face, back and chest. Your skin may be oily, or it may be hot or painful to touch.",
+      "hasPart": [
+        {
+          "@type": "WebPageElement",
+          "headline": "",
+          "text": "<p>Acne most commonly develops on the:</p><ul><li>face \u2013 this affects almost everyone with acne</li><li>back \u2013 this affects\u00a0more than\u00a0half of people with acne</li><li>chest \u2013 this affects\u00a0about 15% of\u00a0people with acne</li></ul>"
+        },
+        {
+          "@type": "WebPageElement",
+          "text": "",
+          "image": [
+            {
+              "@type": "ImageObject",
+              "name": "Picture of acne spots.",
+              "url": "https://assets.nhs.uk/nhsuk-cms/images/S_0917_acne_M1080444.max-600x600.jpg",
+              "caption": "",
+              "provider": "Science Photo Library",
+              "license": "<p data-block-key=\"hdfnr\">DR P. MARAZZI/SCIENCE PHOTO LIBRARY https://www.sciencephoto.com/media/250116/view</p>",
+              "datePublished": "2017-09-21T10:41:58+00:00",
+              "keywords": [
+                "Skin",
+                "Acne",
+                "Face",
+                "Chest",
+                "skin condition",
+                "Cysts",
+                "Spots",
+                "back",
+                "dermatology",
+                "dermatological",
+                "pustule",
+                "hormones",
+                "pustules",
+                "blackheads",
+                "whiteheads",
+                "nodules"
+              ]
+            }
+          ]
+        },
+        {
+          "@type": "WebPageElement",
+          "headline": "Types of spots",
+          "text": "<p>There are 6 main types of spot caused by acne:</p><ul><li>blackheads\u00a0\u2013\u00a0small black or yellowish bumps that develop on the skin;\u00a0they're not filled with dirt, but are black because the inner lining of the hair follicle produces colour</li><li>whiteheads\u00a0\u2013 have a similar appearance to blackheads, but\u00a0may be firmer and will not empty when squeezed</li><li>papules \u2013\u00a0small red bumps that may feel tender or sore</li><li>pustules \u2013\u00a0similar to papules, but have a white tip in the centre, caused by a build-up of pus</li><li>nodules \u2013\u00a0large hard lumps that build up beneath the surface of the skin and can be\u00a0painful</li><li>cysts \u2013\u00a0the most severe type of spot caused by acne; they're large pus-filled lumps that look similar to <a href=\"https://api.service.nhs.uk/nhs-website-content/conditions/boils/\">boils</a>\u00a0and carry the greatest risk of causing permanent <a href=\"https://api.service.nhs.uk/nhs-website-content/conditions/scars/\">scarring</a></li></ul>"
+        }
+      ]
+    },
+    {
+      "@type": "HealthTopicContent",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/acne/#self-care",
+      "hasHealthAspect": "http://schema.org/SelfCareHealthAspect",
+      "headline": "Things you can try if you have acne",
+      "description": "You can often treat acne with creams and gels bought from a pharmacy. If your acne is severe, a GP may prescribe stronger medicines or antibiotics.",
+      "hasPart": [
+        {
+          "@type": "WebPageElement",
+          "headline": "",
+          "text": "<p>These self-help techniques may be useful:</p><ul><li>Do not wash affected areas of skin more than twice a day. Frequent washing can irritate the skin and make symptoms worse.</li><li>Wash the affected area with\u00a0a mild soap or cleanser and lukewarm water. Very hot or cold water can make acne worse.</li><li>Do not try to \"clean out\" blackheads or squeeze spots.\u00a0This can make them worse and cause permanent <a href=\"https://api.service.nhs.uk/nhs-website-content/conditions/scars/\">scarring</a>.</li><li>Avoid make-up, skincare and suncare products that are oil-based (sometimes labelled \u201ccomedogenic\u201d). Use water-based non-comedogenic products, as they\u2019re less likely to block the pores in your skin.</li><li>Completely remove make-up before going to bed.</li><li>If dry skin is a problem, use a fragrance-free water-based <a href=\"https://api.service.nhs.uk/nhs-website-content/conditions/emollients/\">emollient</a>.</li><li>Regular exercise cannot improve your acne, but it can boost your mood and improve your self-esteem.\u00a0Shower as soon as possible once you finish exercising as sweat can irritate your acne.</li><li>Wash your hair regularly\u00a0and try to avoid letting\u00a0your hair fall across your face.</li></ul><p>Although acne cannot be cured, it can be controlled with treatment.</p><p>If you develop <a href=\"https://api.service.nhs.uk/nhs-website-content/conditions/acne/diagnosis/\">mild acne</a>, it's a good idea to speak to a pharmacist for advice.</p><p>Several creams, lotions and gels\u00a0for treating spots are available to buy from pharmacies.</p><p>Products containing a low concentration of benzoyl peroxide may be recommended, but be careful as this can bleach clothing.</p><p>If your acne is severe or appears on your chest and back,\u00a0it may need to be treated with\u00a0<a href=\"https://api.service.nhs.uk/nhs-website-content/conditions/antibiotics/\">antibiotics</a> or stronger creams that are only\u00a0available on prescription.</p>"
+        }
+      ]
+    },
+    {
+      "@type": "HealthTopicContent",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/acne/#causes",
+      "hasHealthAspect": "http://schema.org/CausesHealthAspect",
+      "headline": "Why do I have acne?",
+      "description": "Acne is often linked to changes in hormone levels during puberty, but can start at any age. It's also known to run in families.",
+      "hasPart": [
+        {
+          "@type": "WebPageElement",
+          "headline": "",
+          "text": "<p>Acne is most commonly\u00a0linked to the changes in hormone levels during puberty, but can start at any age.</p><p>Certain hormones cause\u00a0the grease-producing glands next to hair follicles in the skin to produce larger amounts of oil (abnormal sebum).</p><p>This abnormal sebum changes the activity of a usually harmless skin bacterium called P. acnes, which becomes more aggressive and causes inflammation and pus.</p><p>The hormones also thicken the inner lining of the hair follicle, causing blockage of the pores. Cleaning the skin does not help to remove this blockage.</p><h3>Other possible causes</h3><p>Acne is known to run in families. If both your mother and father had acne, it's likely that you'll also have acne.</p><p>Hormonal changes, such as those that occur during the menstrual cycle or pregnancy, can also lead to episodes of acne in women.</p><p>There's no evidence that diet, poor hygiene or sexual activity play a role in acne.</p>"
+        }
+      ]
+    },
+    {
+      "@type": "HealthTopicContent",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/acne/#overview",
+      "hasHealthAspect": "http://schema.org/OverviewHealthAspect",
+      "headline": "",
+      "description": "Acne is a common skin condition that causes spots and oily skin.",
+      "hasPart": [
+        {
+          "text": "<p>The main symptoms of acne are spots on your face, back and chest. Your skin may be oily, or it may be hot or painful to touch.</p> ",
+          "@type": "WebPageElement"
+        },
+        {
+          "text": "<p>You can often treat acne with creams and gels bought from a pharmacy. If your acne is severe, a GP may prescribe stronger medicines or antibiotics.</p> ",
+          "@type": "WebPageElement"
+        },
+        {
+          "text": "<p>Acne is often linked to changes in hormone levels during puberty, but can start at any age. It's also known to run in families.</p> ",
+          "@type": "WebPageElement"
+        }
+      ]
+    },
+    {
+      "@type": "HealthTopicContent",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/acne/treatment/#medical-treatments",
+      "hasHealthAspect": "http://schema.org/TreatmentsHealthAspect",
+      "headline": "Treatments from a GP",
+      "description": "You can often treat acne with creams and gels bought from a pharmacy. If your acne is severe, a GP may prescribe stronger medicines or antibiotics.",
+      "hasPart": [
+        {
+          "@type": "WebPageElement",
+          "headline": "",
+          "text": "<p>See a GP if your acne is <a href=\"https://api.service.nhs.uk/nhs-website-content/conditions/acne/diagnosis/\">moderate or severe</a>,\u00a0or medicine from your pharmacy has not worked, as you probably need prescription medicine.</p><p>Prescription medicines that can be used to treat acne include:</p><ul><li>topical retinoids</li><li>topical\u00a0<a href=\"https://api.service.nhs.uk/nhs-website-content/conditions/antibiotics/\">antibiotics</a></li><li>azelaic acid</li><li>antibiotic tablets</li><li>in women, the <a href=\"https://api.service.nhs.uk/nhs-website-content/conditions/contraception/combined-contraceptive-pill/\">combined oral contraceptive pill</a></li></ul><p>If you have severe acne, or prescription medicines are not working, your GP can refer you to an expert in treating skin conditions (dermatologist).</p><p>For example, if:</p><ul><li>you have a large number of papules and pustules on your chest and back, as well as your face</li><li>you have painful nodules</li><li>you have scarring, or are at risk of scarring</li><li>your condition is making you feel very low or anxious</li></ul><p>For mild to moderate or moderate to severe acne, you\u2019ll usually be started on a combination of topical treatments, or antibiotic tablets combined with topical treatments.</p><p>Hormonal therapies or the combined oral contraceptive pill can also be effective in women who have acne.</p><p>But the\u00a0<a href=\"https://api.service.nhs.uk/nhs-website-content/conditions/contraception/the-pill-progestogen-only/\">progestogen-only pill</a> or\u00a0<a href=\"https://api.service.nhs.uk/nhs-website-content/conditions/contraception/contraceptive-implant/\">contraceptive implant</a> can sometimes make acne worse.</p><p>Many of these treatments can take 2 to 3 months before they start to work.</p><p>It's important to be patient and persist with a recommended treatment, even if\u00a0there's no immediate effect.</p>"
+        }
+      ]
+    }
+  ],
+  "relatedLink": [
+    {
+      "@type": "LinkRole",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/acne/",
+      "linkRelationship": "Navigation",
+      "position": 0,
+      "name": "Acne",
+      "alternativeHeadline": "Overview"
+    },
+    {
+      "@type": "LinkRole",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/acne/causes/",
+      "linkRelationship": "Navigation",
+      "position": 1,
+      "name": "Causes"
+    },
+    {
+      "@type": "LinkRole",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/acne/diagnosis/",
+      "linkRelationship": "Navigation",
+      "position": 2,
+      "name": "Diagnosis"
+    },
+    {
+      "@type": "LinkRole",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/acne/treatment/",
+      "linkRelationship": "Navigation",
+      "position": 3,
+      "name": "Treatment"
+    },
+    {
+      "@type": "LinkRole",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/acne/complications/",
+      "linkRelationship": "Navigation",
+      "position": 4,
+      "name": "Complications"
+    }
+  ],
+  "contentSubTypes": [],
+  "mainEntityOfPage": [
+    {
+      "identifier": "0",
+      "name": "section heading",
+      "position": 0,
+      "@type": "WebPageElement",
+      "mainEntityOfPage": [
+        {
+          "position": 0,
+          "identifier": "1",
+          "text": "<p><b>Acne is a common skin condition that affects most people at some point. It causes spots, oily skin and sometimes skin\u00a0that's hot or painful to touch.</b></p>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": ""
+        }
+      ],
+      "description": "",
+      "hasPart": [
+        {
+          "position": 0,
+          "identifier": "1",
+          "text": "<p><b>Acne is a common skin condition that affects most people at some point. It causes spots, oily skin and sometimes skin\u00a0that's hot or painful to touch.</b></p>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": ""
+        }
+      ]
+    },
+    {
+      "identifier": "0",
+      "name": "section heading",
+      "position": 1,
+      "@type": "WebPageElement",
+      "mainEntityOfPage": [
+        {
+          "position": 0,
+          "identifier": "1",
+          "text": "<p>Acne most commonly develops on the:</p><ul><li>face \u2013 this affects almost everyone with acne</li><li>back \u2013 this affects\u00a0more than\u00a0half of people with acne</li><li>chest \u2013 this affects\u00a0about 15% of\u00a0people with acne</li></ul>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": ""
+        },
+        {
+          "position": 1,
+          "identifier": "13",
+          "@type": "ImageObject",
+          "name": "Picture of acne spots.",
+          "url": "https://assets.nhs.uk/nhsuk-cms/images/S_0917_acne_M1080444.max-600x600.jpg",
+          "caption": "",
+          "provider": "Science Photo Library",
+          "datePublished": "2017-09-21T10:41:58+00:00",
+          "keywords": [
+            "Skin",
+            "Acne",
+            "Face",
+            "Chest",
+            "skin condition",
+            "Cysts",
+            "Spots",
+            "back",
+            "dermatology",
+            "dermatological",
+            "pustule",
+            "hormones",
+            "pustules",
+            "blackheads",
+            "whiteheads",
+            "nodules"
+          ],
+          "credit": "<p>DR P. MARAZZI/SCIENCE PHOTO LIBRARY https://www.sciencephoto.com/media/250116/view</p>"
+        },
+        {
+          "position": 2,
+          "identifier": "1",
+          "text": "<p>There are 6 main types of spot caused by acne:</p><ul><li>blackheads\u00a0\u2013\u00a0small black or yellowish bumps that develop on the skin;\u00a0they're not filled with dirt, but are black because the inner lining of the hair follicle produces colour</li><li>whiteheads\u00a0\u2013 have a similar appearance to blackheads, but\u00a0may be firmer and will not empty when squeezed</li><li>papules \u2013\u00a0small red bumps that may feel tender or sore</li><li>pustules \u2013\u00a0similar to papules, but have a white tip in the centre, caused by a build-up of pus</li><li>nodules \u2013\u00a0large hard lumps that build up beneath the surface of the skin and can be\u00a0painful</li><li>cysts \u2013\u00a0the most severe type of spot caused by acne; they're large pus-filled lumps that look similar to <a href=\"https://api.service.nhs.uk/nhs-website-content/conditions/boils/\">boils</a>\u00a0and carry the greatest risk of causing permanent <a href=\"https://api.service.nhs.uk/nhs-website-content/conditions/scars/\">scarring</a></li></ul>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": "Types of spots"
+        }
+      ],
+      "description": "The main symptoms of acne are spots on your face, back and chest. Your skin may be oily, or it may be hot or painful to touch.",
+      "hasPart": [
+        {
+          "position": 0,
+          "identifier": "1",
+          "text": "<p>Acne most commonly develops on the:</p><ul><li>face \u2013 this affects almost everyone with acne</li><li>back \u2013 this affects\u00a0more than\u00a0half of people with acne</li><li>chest \u2013 this affects\u00a0about 15% of\u00a0people with acne</li></ul>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": ""
+        },
+        {
+          "position": 1,
+          "identifier": "13",
+          "@type": "ImageObject",
+          "name": "Picture of acne spots.",
+          "url": "https://assets.nhs.uk/nhsuk-cms/images/S_0917_acne_M1080444.max-600x600.jpg",
+          "caption": "",
+          "provider": "Science Photo Library",
+          "datePublished": "2017-09-21T10:41:58+00:00",
+          "keywords": [
+            "Skin",
+            "Acne",
+            "Face",
+            "Chest",
+            "skin condition",
+            "Cysts",
+            "Spots",
+            "back",
+            "dermatology",
+            "dermatological",
+            "pustule",
+            "hormones",
+            "pustules",
+            "blackheads",
+            "whiteheads",
+            "nodules"
+          ],
+          "credit": "<p>DR P. MARAZZI/SCIENCE PHOTO LIBRARY https://www.sciencephoto.com/media/250116/view</p>"
+        },
+        {
+          "position": 2,
+          "identifier": "1",
+          "text": "<p>There are 6 main types of spot caused by acne:</p><ul><li>blackheads\u00a0\u2013\u00a0small black or yellowish bumps that develop on the skin;\u00a0they're not filled with dirt, but are black because the inner lining of the hair follicle produces colour</li><li>whiteheads\u00a0\u2013 have a similar appearance to blackheads, but\u00a0may be firmer and will not empty when squeezed</li><li>papules \u2013\u00a0small red bumps that may feel tender or sore</li><li>pustules \u2013\u00a0similar to papules, but have a white tip in the centre, caused by a build-up of pus</li><li>nodules \u2013\u00a0large hard lumps that build up beneath the surface of the skin and can be\u00a0painful</li><li>cysts \u2013\u00a0the most severe type of spot caused by acne; they're large pus-filled lumps that look similar to <a href=\"https://api.service.nhs.uk/nhs-website-content/conditions/boils/\">boils</a>\u00a0and carry the greatest risk of causing permanent <a href=\"https://api.service.nhs.uk/nhs-website-content/conditions/scars/\">scarring</a></li></ul>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": "Types of spots"
+        }
+      ],
+      "hasHealthAspect": "http://schema.org/SymptomsHealthAspect",
+      "headline": "Symptoms of acne"
+    },
+    {
+      "identifier": "0",
+      "name": "section heading",
+      "position": 2,
+      "@type": "WebPageElement",
+      "mainEntityOfPage": [
+        {
+          "position": 0,
+          "identifier": "1",
+          "text": "<p>These self-help techniques may be useful:</p><ul><li>Do not wash affected areas of skin more than twice a day. Frequent washing can irritate the skin and make symptoms worse.</li><li>Wash the affected area with\u00a0a mild soap or cleanser and lukewarm water. Very hot or cold water can make acne worse.</li><li>Do not try to \"clean out\" blackheads or squeeze spots.\u00a0This can make them worse and cause permanent <a href=\"https://api.service.nhs.uk/nhs-website-content/conditions/scars/\">scarring</a>.</li><li>Avoid make-up, skincare and suncare products that are oil-based (sometimes labelled \u201ccomedogenic\u201d). Use water-based non-comedogenic products, as they\u2019re less likely to block the pores in your skin.</li><li>Completely remove make-up before going to bed.</li><li>If dry skin is a problem, use a fragrance-free water-based <a href=\"https://api.service.nhs.uk/nhs-website-content/conditions/emollients/\">emollient</a>.</li><li>Regular exercise cannot improve your acne, but it can boost your mood and improve your self-esteem.\u00a0Shower as soon as possible once you finish exercising as sweat can irritate your acne.</li><li>Wash your hair regularly\u00a0and try to avoid letting\u00a0your hair fall across your face.</li></ul><p>Although acne cannot be cured, it can be controlled with treatment.</p><p>If you develop <a href=\"https://api.service.nhs.uk/nhs-website-content/conditions/acne/diagnosis/\">mild acne</a>, it's a good idea to speak to a pharmacist for advice.</p><p>Several creams, lotions and gels\u00a0for treating spots are available to buy from pharmacies.</p><p>Products containing a low concentration of benzoyl peroxide may be recommended, but be careful as this can bleach clothing.</p><p>If your acne is severe or appears on your chest and back,\u00a0it may need to be treated with\u00a0<a href=\"https://api.service.nhs.uk/nhs-website-content/conditions/antibiotics/\">antibiotics</a> or stronger creams that are only\u00a0available on prescription.</p>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": ""
+        }
+      ],
+      "description": "You can often treat acne with creams and gels bought from a pharmacy. If your acne is severe, a GP may prescribe stronger medicines or antibiotics.",
+      "hasPart": [
+        {
+          "position": 0,
+          "identifier": "1",
+          "text": "<p>These self-help techniques may be useful:</p><ul><li>Do not wash affected areas of skin more than twice a day. Frequent washing can irritate the skin and make symptoms worse.</li><li>Wash the affected area with\u00a0a mild soap or cleanser and lukewarm water. Very hot or cold water can make acne worse.</li><li>Do not try to \"clean out\" blackheads or squeeze spots.\u00a0This can make them worse and cause permanent <a href=\"https://api.service.nhs.uk/nhs-website-content/conditions/scars/\">scarring</a>.</li><li>Avoid make-up, skincare and suncare products that are oil-based (sometimes labelled \u201ccomedogenic\u201d). Use water-based non-comedogenic products, as they\u2019re less likely to block the pores in your skin.</li><li>Completely remove make-up before going to bed.</li><li>If dry skin is a problem, use a fragrance-free water-based <a href=\"https://api.service.nhs.uk/nhs-website-content/conditions/emollients/\">emollient</a>.</li><li>Regular exercise cannot improve your acne, but it can boost your mood and improve your self-esteem.\u00a0Shower as soon as possible once you finish exercising as sweat can irritate your acne.</li><li>Wash your hair regularly\u00a0and try to avoid letting\u00a0your hair fall across your face.</li></ul><p>Although acne cannot be cured, it can be controlled with treatment.</p><p>If you develop <a href=\"https://api.service.nhs.uk/nhs-website-content/conditions/acne/diagnosis/\">mild acne</a>, it's a good idea to speak to a pharmacist for advice.</p><p>Several creams, lotions and gels\u00a0for treating spots are available to buy from pharmacies.</p><p>Products containing a low concentration of benzoyl peroxide may be recommended, but be careful as this can bleach clothing.</p><p>If your acne is severe or appears on your chest and back,\u00a0it may need to be treated with\u00a0<a href=\"https://api.service.nhs.uk/nhs-website-content/conditions/antibiotics/\">antibiotics</a> or stronger creams that are only\u00a0available on prescription.</p>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": ""
+        }
+      ],
+      "hasHealthAspect": "http://schema.org/SelfCareHealthAspect",
+      "headline": "Things you can try if you have acne"
+    },
+    {
+      "identifier": "0",
+      "name": "section heading",
+      "position": 3,
+      "@type": "WebPageElement",
+      "mainEntityOfPage": [
+        {
+          "position": 0,
+          "identifier": "1",
+          "text": "<p>If you have <a href=\"https://api.service.nhs.uk/nhs-website-content/conditions/acne/diagnosis/\">mild acne</a>, speak to a pharmacist about medicines to treat it.</p><p>If these do not control your acne, or it's making you feel very unhappy, see a GP.</p><p>You should see a GP if you have <a href=\"https://api.service.nhs.uk/nhs-website-content/conditions/acne/diagnosis/\">moderate or severe acne</a> or you develop nodules or cysts, as they need to be treated properly to avoid scarring.\u00a0</p><p>Try to resist the temptation to pick or squeeze the spots, as this can lead to permanent scarring.</p><p>Treatments can take several months to work, so do not expect results overnight. Once they do start to work, the results are usually good.</p>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": "When to seek medical advice"
+        }
+      ],
+      "description": "",
+      "hasPart": [
+        {
+          "position": 0,
+          "identifier": "1",
+          "text": "<p>If you have <a href=\"https://api.service.nhs.uk/nhs-website-content/conditions/acne/diagnosis/\">mild acne</a>, speak to a pharmacist about medicines to treat it.</p><p>If these do not control your acne, or it's making you feel very unhappy, see a GP.</p><p>You should see a GP if you have <a href=\"https://api.service.nhs.uk/nhs-website-content/conditions/acne/diagnosis/\">moderate or severe acne</a> or you develop nodules or cysts, as they need to be treated properly to avoid scarring.\u00a0</p><p>Try to resist the temptation to pick or squeeze the spots, as this can lead to permanent scarring.</p><p>Treatments can take several months to work, so do not expect results overnight. Once they do start to work, the results are usually good.</p>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": "When to seek medical advice"
+        }
+      ]
+    },
+    {
+      "identifier": "0",
+      "name": "section heading",
+      "position": 4,
+      "@type": "WebPageElement",
+      "mainEntityOfPage": [
+        {
+          "position": 0,
+          "identifier": "1",
+          "text": "<p>Acne is most commonly\u00a0linked to the changes in hormone levels during puberty, but can start at any age.</p><p>Certain hormones cause\u00a0the grease-producing glands next to hair follicles in the skin to produce larger amounts of oil (abnormal sebum).</p><p>This abnormal sebum changes the activity of a usually harmless skin bacterium called P. acnes, which becomes more aggressive and causes inflammation and pus.</p><p>The hormones also thicken the inner lining of the hair follicle, causing blockage of the pores. Cleaning the skin does not help to remove this blockage.</p><h3>Other possible causes</h3><p>Acne is known to run in families. If both your mother and father had acne, it's likely that you'll also have acne.</p><p>Hormonal changes, such as those that occur during the menstrual cycle or pregnancy, can also lead to episodes of acne in women.</p><p>There's no evidence that diet, poor hygiene or sexual activity play a role in acne.</p>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": ""
+        }
+      ],
+      "description": "Acne is often linked to changes in hormone levels during puberty, but can start at any age. It's also known to run in families.",
+      "hasPart": [
+        {
+          "position": 0,
+          "identifier": "1",
+          "text": "<p>Acne is most commonly\u00a0linked to the changes in hormone levels during puberty, but can start at any age.</p><p>Certain hormones cause\u00a0the grease-producing glands next to hair follicles in the skin to produce larger amounts of oil (abnormal sebum).</p><p>This abnormal sebum changes the activity of a usually harmless skin bacterium called P. acnes, which becomes more aggressive and causes inflammation and pus.</p><p>The hormones also thicken the inner lining of the hair follicle, causing blockage of the pores. Cleaning the skin does not help to remove this blockage.</p><h3>Other possible causes</h3><p>Acne is known to run in families. If both your mother and father had acne, it's likely that you'll also have acne.</p><p>Hormonal changes, such as those that occur during the menstrual cycle or pregnancy, can also lead to episodes of acne in women.</p><p>There's no evidence that diet, poor hygiene or sexual activity play a role in acne.</p>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": ""
+        }
+      ],
+      "hasHealthAspect": "http://schema.org/CausesHealthAspect",
+      "headline": "Why do I have acne?"
+    },
+    {
+      "identifier": "0",
+      "name": "section heading",
+      "position": 5,
+      "@type": "WebPageElement",
+      "mainEntityOfPage": [
+        {
+          "position": 0,
+          "identifier": "1",
+          "text": "<p>Acne is very common in teenagers and younger adults. About 95% of people aged 11\u00a0to 30\u00a0are affected by acne to some extent.</p><p>Acne is most common in girls from the ages of 14\u00a0to 17, and in boys from the ages of 16\u00a0to 19.</p><p>Most people have acne on and off for several years before their symptoms start to improve as they get older.</p><p>Acne often disappears when a person is in their mid-20s.</p><p>In some cases, acne can continue into adult life. About 3% of adults have acne over the age of 35.</p>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": "Who's affected?"
+        }
+      ],
+      "description": "",
+      "hasPart": [
+        {
+          "position": 0,
+          "identifier": "1",
+          "text": "<p>Acne is very common in teenagers and younger adults. About 95% of people aged 11\u00a0to 30\u00a0are affected by acne to some extent.</p><p>Acne is most common in girls from the ages of 14\u00a0to 17, and in boys from the ages of 16\u00a0to 19.</p><p>Most people have acne on and off for several years before their symptoms start to improve as they get older.</p><p>Acne often disappears when a person is in their mid-20s.</p><p>In some cases, acne can continue into adult life. About 3% of adults have acne over the age of 35.</p>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": "Who's affected?"
+        }
+      ]
+    }
+  ],
+  "alternativeHeadline": "Overview"
+}
