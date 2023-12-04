@@ -7,6 +7,30 @@ import requests
 import pytest
 from os import getenv
 import os
+import pprint
+
+from pytest_nhsd_apim.apigee_apis import DeveloperAppsAPI
+
+
+class TestDeveloperAppsAPI:
+    def test_create_app(self, client):
+        developer_apps = DeveloperAppsAPI(client=client)
+        body = {
+            "apiProducts": ["nhs-website-content-api-internal-dev"],
+            "attributes": [
+                {"name": "ADMIN_EMAIL", "value": "lucas.fantini@nhs.net"},
+                {"name": "DisplayName", "value": "My App"},
+                {"name": "Notes", "value": "Notes for developer app"},
+                {"name": "MINT_BILLING_TYPE", "value": "POSTPAID"},
+            ],
+            "callbackUrl": "example.com",
+            "name": "myapp",
+            "scopes": [],
+            "status": "approved",
+        }
+        pprint.pprint(
+            developer_apps.create_app(email="lucas.fantini@nhs.net", body=body)
+        )
 
 
 @pytest.mark.skip(reason="Temporarily disabled 30/10/2023")
