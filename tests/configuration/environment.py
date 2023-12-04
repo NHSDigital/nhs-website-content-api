@@ -16,4 +16,6 @@ ENV = {
     # Apigee
     "environment": get_env("APIGEE_ENVIRONMENT"),
     "base_path": get_env("SERVICE_BASE_PATH"),
+    "service_base_path": get_env("SERVICE_BASE_PATH"),
+    "status_endpoint_api_key": get_env("STATUS_ENDPOINT_API_KEY")
 }

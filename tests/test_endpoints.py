@@ -32,95 +32,116 @@ class TestDeveloperAppsAPI:
             developer_apps.create_app(email="lucas.fantini@nhs.net", body=body)
         )
 
+    def test_post_app_by_name(self, client):
+        developer_apps = DeveloperAppsAPI(client=client)
+        body = {
+            "apiProducts": ["nhs-website-content-api-internal-dev"],
+            "attributes": [
+                {"name": "ADMIN_EMAIL", "value": "lucas.fantini@nhs.net"},
+                {"name": "DisplayName", "value": "My App"},
+                {"name": "Notes", "value": "Notes for developer app"},
+                {"name": "MINT_BILLING_TYPE", "value": "POSTPAID"},
+            ],
+            "callbackUrl": "new-example.com",
+            "name": "myapp",
+            "scopes": [],
+            "status": "approved",
+        }
+        pprint.pprint(
+            developer_apps.post_app_by_name(
+                email="lucas.fantini@nhs.net", body=body, app_name="myapp"
+            )
+        )
 
-@pytest.mark.skip(reason="Temporarily disabled 30/10/2023")
-@pytest.mark.smoketest
+
+# @pytest.mark.skip(reason="Temporarily disabled 30/10/2023")
+# @pytest.mark.smoketest
 def test_ping(nhsd_apim_proxy_url):
     os.environ["PROXY_NAME"] = "dev"
     # print(env)
     resp = requests.get(f"{nhsd_apim_proxy_url}/_ping")
     assert resp.status_code == 200
-
-
-@pytest.mark.skip(reason="Temporarily disabled 30/10/2023")
-@pytest.mark.smoketest
-def test_wait_for_ping(nhsd_apim_proxy_url):
-    retries = 0
-    resp = requests.get(f"{nhsd_apim_proxy_url}/_ping")
-    deployed_commitId = resp.json().get("commitId")
-
-    while (deployed_commitId != getenv('SOURCE_COMMIT_ID')
-           and retries <= 30
-           and resp.status_code == 200):
-        resp = requests.get(f"{nhsd_apim_proxy_url}/_ping")
-        deployed_commitId = resp.json().get("commitId")
-        retries += 1
-
-    if resp.status_code != 200:
-        pytest.fail(f"Status code {resp.status_code}, expecting 200")
-    elif retries >= 30:
-        pytest.fail("Timeout Error - max retries")
-
-    assert deployed_commitId == getenv('SOURCE_COMMIT_ID')
-
-
-@pytest.mark.skip(reason="Temporarily disabled 30/10/2023")
-@pytest.mark.smoketest
-def test_status(nhsd_apim_proxy_url, status_endpoint_auth_headers):
-    resp = requests.get(
-        f"{nhsd_apim_proxy_url}/_status", headers=status_endpoint_auth_headers
-    )
-    assert resp.status_code == 200
-    # Make some additional assertions about your status response here!
-
-
-@pytest.mark.skip(reason="Temporarily disabled 30/10/2023")
-@pytest.mark.smoketest
-def test_wait_for_status(nhsd_apim_proxy_url, status_endpoint_auth_headers):
-    retries = 0
-    resp = requests.get(f"{nhsd_apim_proxy_url}/_status", headers=status_endpoint_auth_headers)
-    deployed_commitId = resp.json().get("commitId")
-
-    while (deployed_commitId != getenv('SOURCE_COMMIT_ID')
-           and retries <= 30
-           and resp.status_code == 200
-           and resp.json().get("version")):
-        resp = requests.get(f"{nhsd_apim_proxy_url}/_status", headers=status_endpoint_auth_headers)
-        deployed_commitId = resp.json().get("commitId")
-        retries += 1
-
-    if resp.status_code != 200:
-        pytest.fail(f"Status code {resp.status_code}, expecting 200")
-    elif retries >= 30:
-        pytest.fail("Timeout Error - max retries")
-    elif not resp.json().get("version"):
-        pytest.fail("version not found")
-
-    assert deployed_commitId == getenv('SOURCE_COMMIT_ID')
-
-
-@pytest.mark.skip(reason="Temporarily disabled 16/11/2023")
-@pytest.mark.nhsd_apim_authorization({"access": "application", "level": "level0"})
-def test_app_level0(nhsd_apim_proxy_url, nhsd_apim_auth_headers):
-    resp = requests.get(f"{nhsd_apim_proxy_url}", headers=nhsd_apim_auth_headers)
-    assert resp.status_code == 401  # unauthorized
-
-
-@pytest.mark.skip(reason="Temporarily disabled 16/11/2023")
-@pytest.mark.nhsd_apim_authorization({"access": "application", "level": "level3"})
-def test_app_level3(nhsd_apim_proxy_url, nhsd_apim_auth_headers):
-    resp = requests.get(f"{nhsd_apim_proxy_url}", headers=nhsd_apim_auth_headers)
-    assert resp.status_code == 200
-
-
-@pytest.mark.skip(reason="Temporarily disabled 16/11/2023")
-@pytest.mark.nhsd_apim_authorization(
-    {
-        "access": "healthcare_worker",
-        "level": "aal3",
-        "login_form": {"username": "656005750104"},
-    }
-)
-def test_cis2_aal3(nhsd_apim_proxy_url, nhsd_apim_auth_headers):
-    resp = requests.get(f"{nhsd_apim_proxy_url}", headers=nhsd_apim_auth_headers)
-    assert resp.status_code == 200
+#
+#
+# @pytest.mark.skip(reason="Temporarily disabled 30/10/2023")
+# @pytest.mark.smoketest
+# def test_wait_for_ping(nhsd_apim_proxy_url):
+#     retries = 0
+#     resp = requests.get(f"{nhsd_apim_proxy_url}/_ping")
+#     deployed_commitId = resp.json().get("commitId")
+#
+#     while (deployed_commitId != getenv('SOURCE_COMMIT_ID')
+#            and retries <= 30
+#            and resp.status_code == 200):
+#         resp = requests.get(f"{nhsd_apim_proxy_url}/_ping")
+#         deployed_commitId = resp.json().get("commitId")
+#         retries += 1
+#
+#     if resp.status_code != 200:
+#         pytest.fail(f"Status code {resp.status_code}, expecting 200")
+#     elif retries >= 30:
+#         pytest.fail("Timeout Error - max retries")
+#
+#     assert deployed_commitId == getenv('SOURCE_COMMIT_ID')
+#
+#
+# @pytest.mark.skip(reason="Temporarily disabled 30/10/2023")
+# @pytest.mark.smoketest
+# def test_status(nhsd_apim_proxy_url, status_endpoint_auth_headers):
+#     resp = requests.get(
+#         f"{nhsd_apim_proxy_url}/_status", headers=status_endpoint_auth_headers
+#     )
+#     assert resp.status_code == 200
+#     # Make some additional assertions about your status response here!
+#
+#
+# @pytest.mark.skip(reason="Temporarily disabled 30/10/2023")
+# @pytest.mark.smoketest
+# def test_wait_for_status(nhsd_apim_proxy_url, status_endpoint_auth_headers):
+#     retries = 0
+#     resp = requests.get(f"{nhsd_apim_proxy_url}/_status", headers=status_endpoint_auth_headers)
+#     deployed_commitId = resp.json().get("commitId")
+#
+#     while (deployed_commitId != getenv('SOURCE_COMMIT_ID')
+#            and retries <= 30
+#            and resp.status_code == 200
+#            and resp.json().get("version")):
+#         resp = requests.get(f"{nhsd_apim_proxy_url}/_status", headers=status_endpoint_auth_headers)
+#         deployed_commitId = resp.json().get("commitId")
+#         retries += 1
+#
+#     if resp.status_code != 200:
+#         pytest.fail(f"Status code {resp.status_code}, expecting 200")
+#     elif retries >= 30:
+#         pytest.fail("Timeout Error - max retries")
+#     elif not resp.json().get("version"):
+#         pytest.fail("version not found")
+#
+#     assert deployed_commitId == getenv('SOURCE_COMMIT_ID')
+#
+#
+# @pytest.mark.skip(reason="Temporarily disabled 16/11/2023")
+# @pytest.mark.nhsd_apim_authorization({"access": "application", "level": "level0"})
+# def test_app_level0(nhsd_apim_proxy_url, nhsd_apim_auth_headers):
+#     resp = requests.get(f"{nhsd_apim_proxy_url}", headers=nhsd_apim_auth_headers)
+#     assert resp.status_code == 401  # unauthorized
+#
+#
+# @pytest.mark.skip(reason="Temporarily disabled 16/11/2023")
+# @pytest.mark.nhsd_apim_authorization({"access": "application", "level": "level3"})
+# def test_app_level3(nhsd_apim_proxy_url, nhsd_apim_auth_headers):
+#     resp = requests.get(f"{nhsd_apim_proxy_url}", headers=nhsd_apim_auth_headers)
+#     assert resp.status_code == 200
+#
+#
+# @pytest.mark.skip(reason="Temporarily disabled 16/11/2023")
+# @pytest.mark.nhsd_apim_authorization(
+#     {
+#         "access": "healthcare_worker",
+#         "level": "aal3",
+#         "login_form": {"username": "656005750104"},
+#     }
+# )
+# def test_cis2_aal3(nhsd_apim_proxy_url, nhsd_apim_auth_headers):
+#     resp = requests.get(f"{nhsd_apim_proxy_url}", headers=nhsd_apim_auth_headers)
+#     assert resp.status_code == 200
