@@ -9,7 +9,7 @@ from os import getenv
 import os
 
 
-@pytest.mark.skip(reason="Temporarily disabled 30/10/2023")
+# @pytest.mark.skip(reason="Temporarily disabled 30/10/2023")
 @pytest.mark.smoketest
 def test_ping(nhsd_apim_proxy_url):
     os.environ["PROXY_NAME"] = "dev"
@@ -18,7 +18,7 @@ def test_ping(nhsd_apim_proxy_url):
     assert resp.status_code == 200
 
 
-@pytest.mark.skip(reason="Temporarily disabled 30/10/2023")
+# @pytest.mark.skip(reason="Temporarily disabled 30/10/2023")
 @pytest.mark.smoketest
 def test_wait_for_ping(nhsd_apim_proxy_url):
     retries = 0
@@ -40,7 +40,7 @@ def test_wait_for_ping(nhsd_apim_proxy_url):
     assert deployed_commitId == getenv('SOURCE_COMMIT_ID')
 
 
-@pytest.mark.skip(reason="Temporarily disabled 30/10/2023")
+# @pytest.mark.skip(reason="Temporarily disabled 30/10/2023")
 @pytest.mark.smoketest
 def test_status(nhsd_apim_proxy_url, status_endpoint_auth_headers):
     resp = requests.get(
@@ -50,7 +50,7 @@ def test_status(nhsd_apim_proxy_url, status_endpoint_auth_headers):
     # Make some additional assertions about your status response here!
 
 
-@pytest.mark.skip(reason="Temporarily disabled 30/10/2023")
+# @pytest.mark.skip(reason="Temporarily disabled 30/10/2023")
 @pytest.mark.smoketest
 def test_wait_for_status(nhsd_apim_proxy_url, status_endpoint_auth_headers):
     retries = 0
@@ -75,21 +75,21 @@ def test_wait_for_status(nhsd_apim_proxy_url, status_endpoint_auth_headers):
     assert deployed_commitId == getenv('SOURCE_COMMIT_ID')
 
 
-@pytest.mark.skip(reason="Temporarily disabled 16/11/2023")
+# @pytest.mark.skip(reason="Temporarily disabled 16/11/2023")
 @pytest.mark.nhsd_apim_authorization({"access": "application", "level": "level0"})
 def test_app_level0(nhsd_apim_proxy_url, nhsd_apim_auth_headers):
     resp = requests.get(f"{nhsd_apim_proxy_url}", headers=nhsd_apim_auth_headers)
     assert resp.status_code == 401  # unauthorized
 
 
-@pytest.mark.skip(reason="Temporarily disabled 16/11/2023")
+# @pytest.mark.skip(reason="Temporarily disabled 16/11/2023")
 @pytest.mark.nhsd_apim_authorization({"access": "application", "level": "level3"})
 def test_app_level3(nhsd_apim_proxy_url, nhsd_apim_auth_headers):
     resp = requests.get(f"{nhsd_apim_proxy_url}", headers=nhsd_apim_auth_headers)
     assert resp.status_code == 200
 
 
-@pytest.mark.skip(reason="Temporarily disabled 16/11/2023")
+# @pytest.mark.skip(reason="Temporarily disabled 16/11/2023")
 @pytest.mark.nhsd_apim_authorization(
     {
         "access": "healthcare_worker",
