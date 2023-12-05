@@ -53,6 +53,15 @@
         </Step>
       </Request>
     </Flow>
+    <Flow name="SearchAndReplace">
+      <Description/>
+      <Request/>
+      <Response>
+        <Step>
+          <Name>javascript.SearchAndReplace</Name>
+        </Step>
+      </Response>
+    </Flow>
   </Flows>
   <PostClientFlow name="PostClientFlow">
     <Response>
