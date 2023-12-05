@@ -151,7 +151,7 @@ paths:
           description: |
             A valid query for the conditions.
           content:
-            application/schema+json:
+            application/json:
               schema:
                 $ref: components/schemas/WebPage.json
               example:
@@ -192,7 +192,7 @@ paths:
           description: |
             A valid query which returns a page object for the chosen page
           content:
-            application/schema+json:
+            application/json:
               schema:
                 $ref: components/schemas/WebPage.json
               example:
@@ -242,7 +242,7 @@ paths:
           description: |
             A valid query for medicines.
           content:
-            application/schema+json:
+            application/json:
               schema:
                 $ref: components/schemas/WebPage.json
               example:
@@ -273,7 +273,7 @@ paths:
           description: |
             A valid query for medicines.
           content:
-            application/schema+json:
+            application/json:
               schema:
                 $ref: components/schemas/WebPage.json
               example:
@@ -308,7 +308,7 @@ paths:
           description: |
             A valid query for the mental health hub.
           content:
-            application/schema+json:
+            application/json:
               schema:
                 $ref: components/schemas/WebPage.json
               example:
@@ -343,7 +343,7 @@ paths:
           description: |
             A valid query for the pregnancy hub.
           content:
-            application/schema+json:
+            application/json:
               schema:
                 $ref: components/schemas/WebPage.json
               example:
@@ -378,7 +378,7 @@ paths:
           description: |
             A valid query for the common health questions pages.
           content:
-            application/schema+json:
+            application/json:
               schema:
                 $ref: components/schemas/WebPage.json
               example:
@@ -412,7 +412,7 @@ paths:
           description: |
             A valid query for the Live Well pages.
           content:
-            application/schema+json:
+            application/json:
               schema:
                 $ref: components/schemas/WebPage.json
               example:
