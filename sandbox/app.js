@@ -153,6 +153,7 @@ app.all(
 // ** Conditions pages
 // ******************************************************************
 app.all('/conditions/', handlers.conditionsRoot)
+app.all('/conditions/*', handlers.conditionsWildcard)
 app.all('/conditions/acanthosis-nigricans/', handlers.conditionsAcanthosisNigricans)
 app.all('/conditions/achalasia/', handlers.conditionsAchalasia)
 app.all('/conditions/acne/', handlers.conditionsAcne)
@@ -172,6 +173,7 @@ app.all('/live-well/healthy-weight/', handlers.liveWellHealthyWeight)
 // ** Medicines pages
 // ******************************************************************
 app.all('/medicines/', handlers.medicinesRoot)
+app.all('/medicines/*', handlers.medicinesWildcard)
 app.all('/medicines/aciclovir/', handlers.medicinesAciclovir)
 app.all('/medicines/acrivastine/', handlers.medicinesAcrivastine)
 app.all('/medicines/zopiclone/', handlers.medicinesZopiclone)
