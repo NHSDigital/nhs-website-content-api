@@ -2,7 +2,7 @@
 # for the nhs-website-content-api owned by NHS England (https://digital.nhs.uk/)
 openapi: "3.0.0"
 info:
-  title: "nhs-website-content-api"
+  title: "NHS Website Content API v2"
   version: "Computed and injected at build time by `scripts/set_version.py`"
   description: |
     ## Overview
@@ -113,10 +113,12 @@ info:
     Additional onboarding information exists on the [developer hub](https://digital.nhs.uk//developer/api-catalogue/nhs-syndicated-content/onboarding-support-information).
 
   contact:
-    name: "nhs-website-content-api API Support"
+    name: "NHS Website Content API v2 Support"
     url: "https://digital.nhs.uk/developer/help-and-support"
     email: api.management@nhs.net
 servers:
+  - url: "https://sandbox.api.service.nhs.uk/nhs-website-content"
+    description: Sandbox environment.
   - url: "https://int.api.service.nhs.uk/nhs-website-content"
     description: Integration test environment.
   - url: "https://api.service.nhs.uk/nhs-website-content"
