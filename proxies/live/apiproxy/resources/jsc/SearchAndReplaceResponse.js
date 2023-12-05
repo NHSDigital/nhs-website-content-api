@@ -29,10 +29,10 @@ const searchAndReplaceStrings = [
   },
 ];
 
-let responseJsonStr = context.getVariable("response.content");
+let responseContent = context.getVariable("response.content");
 let regex;
 for (let item of searchAndReplaceStrings) {
   regex = new RegExp(item.searchFor, "g");
-  responseJsonStr = responseJsonStr.replace(regex, item.replaceWith);
+  responseContent = responseContent.replace(regex, item.replaceWith);
 }
-context.setVariable("response.content", responseJsonStr);
+context.setVariable("response.content", responseContent);
