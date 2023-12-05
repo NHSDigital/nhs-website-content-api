@@ -58,7 +58,7 @@
       <Request/>
       <Response>
         <Step>
-          <Name>javascript.SearchAndReplace</Name>
+          <Name>javascript.SearchAndReplaceResponse</Name>
         </Step>
       </Response>
     </Flow>
