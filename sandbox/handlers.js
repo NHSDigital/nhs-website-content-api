@@ -13,7 +13,7 @@ const commonHealthQuestionsChildrensHealthCanMyBabyGoSwimmingBeforeOrAfterVaccin
 const conditionsRootNoParamsResponse = require('./responses/conditions-root-no-params.json')
 const conditionsAcanthosisNigricansResponse = require('./responses/conditions-acanthosis-nigricans-no-params.json')
 const conditionsAchalasiaResponse = require('./responses/conditions-achalasia-no-params.json')
-const conditionsAcneResponseNoParams = require('./responses/conditions-acne-no-params.json')
+const conditionsAcneNoParamsResponse = require('./responses/conditions-acne-no-params.json')
 const conditionsAcneModulesTrueResponse = require('./responses/conditions-acne-modules-true.json')
 const conditionsAngiographyResponse = require('./responses/conditions-angiography-no-params.json')
 const conditionsCancerResponse = require('./responses/conditions-cancer-no-params.json')
@@ -26,6 +26,8 @@ const conditionsRootCategoryZResponse = require('./responses/conditions-root-cat
 const conditionsRootPage1Response = require('./responses/conditions-root-page-1.json')
 const conditionsRootPage2Response = require('./responses/conditions-root-page-2.json')
 const conditionsRootPage70Response = require('./responses/conditions-root-page-70.json')
+const conditionsWildcardResponseNoParams = require('./responses/conditions-acne-no-params.json')
+const conditionsWildcardModulesTrueResponse = require('./responses/conditions-acne-modules-true.json')
 const conditionsZikaResponse = require('./responses/conditions-zika-no-params.json')
 
 const liveWellRootResponse = require('./responses/live-well-root-no-params.json')
@@ -35,12 +37,15 @@ const liveWellHealthyWeightResponse = require('./responses/live-well-healthy-wei
 
 const medicinesRootNoParamsResponse = require('./responses/medicines-root-no-params.json')
 const medicinesAciclovirResponse = require('./responses/medicines-aciclovir-no-params.json')
-const medicinesAcrivastineResponse = require('./responses/medicines-acrivastine-no-params.json')
+const medicinesAcrivastineNoParamsResponse = require('./responses/medicines-acrivastine-no-params.json')
+const medicinesAcrivastineModulesTrueResponse = require('./responses/medicines-acrivastine-modules-true.json')
 const medicinesRootCategoryAResponse = require('./responses/medicines-root-category-a.json')
 const medicinesRootCategoryBResponse = require('./responses/medicines-root-category-b.json')
 const medicinesRootCategoryZResponse = require('./responses/medicines-root-category-z.json')
 const medicinesRootPage1Response = require('./responses/medicines-root-page-1.json')
 const medicinesRootPage11Response = require('./responses/medicines-root-page-11.json')
+const medicinesWildcardNoParamsResponse = require('./responses/medicines-acrivastine-no-params.json')
+const medicinesWildcardModulesTrueResponse = require('./responses/medicines-acrivastine-modules-true.json')
 const medicinesZopicloneResponse = require('./responses/medicines-zopiclone-no-params.json')
 
 const mentalHealthRootResponse = require('./responses/mental-health-root-no-params.json')
@@ -279,7 +284,7 @@ async function conditionsAchalasia(req, res, next) {
 
 // Modules: false
 // This sandbox on localhost
-// http://localhost:9000/conditions/acne/?modules=false&subscription-key=123456
+// http://localhost:9000/conditions/acne/?modules=false
 // API on Azure API Management
 // https://api.nhs.uk/conditions/acne/
 // Wagtail (Python) Application (no auth key required)
@@ -293,7 +298,7 @@ async function conditionsAchalasia(req, res, next) {
 
 // Modules: true
 // This sandbox on localhost
-// http://localhost:9000/conditions/acne/?modules=true&subscription-key=123456
+// http://localhost:9000/conditions/acne/?modules=true
 // API on Azure API Management
 // https://api.nhs.uk/conditions/acne/?modules=true
 // Wagtail (Python) Application (no auth key required)
@@ -308,7 +313,24 @@ async function conditionsAcne(req, res, next) {
   if (req.query.modules.toLowerCase() === 'true') {
     res.status(200).json(conditionsAcneModulesTrueResponse)
   } else {
-    res.status(200).json(conditionsAcneResponseNoParams)
+    res.status(200).json(conditionsAcneNoParamsResponse)
+  }
+  res.end()
+  next()
+}
+
+// Modules: false
+// This sandbox on localhost
+// http://localhost:9000/conditions/*?modules=false
+
+// Modules: true
+// This sandbox on localhost
+// http://localhost:9000/conditions/*?modules=true
+async function conditionsWildcard(req, res, next) {
+  if (req.query.modules.toLowerCase() === 'true') {
+    res.status(200).json(conditionsWildcardModulesTrueResponse)
+  } else {
+    res.status(200).json(conditionsWildcardResponseNoParams)
   }
   res.end()
   next()
@@ -533,6 +555,8 @@ async function medicinesAciclovir(req, res, next) {
 
 // Live website URL
 // https://www.nhs.uk/medicines/acrivastine/
+
+// Modules: false
 // This sandbox on localhost
 // http://localhost:9000/medicines/acrivastine/
 // API on Azure API Management
@@ -545,8 +569,43 @@ async function medicinesAciclovir(req, res, next) {
 // https://int.api.service.nhs.uk/nhs-website-content/medicines/acrivastine/
 // Apigee Production environment ('apikey' required in Header)
 // https://api.service.nhs.uk/nhs-website-content/medicines/acrivastine/
+
+// Modules: true
+// This sandbox on localhost
+// http://localhost:9000/medicines/acrivastine/?modules=true
+// API on Azure API Management
+// https://api.nhs.uk/medicines/acrivastine/?modules=true
+// Wagtail (Python) Application (no auth key required)
+// https://api.nhs.uk/content-api/medicines/acrivastine/?modules=true
+// Apigee Sandbox environment (no auth key required)
+// https://sandbox.api.service.nhs.uk/nhs-website-content/medicines/acrivastine/?modules=true
+// Apigee Integration environment ('apikey' required in Header)
+// https://int.api.service.nhs.uk/nhs-website-content/medicines/acrivastine/?modules=true
+// Apigee Production environment ('apikey' required in Header)
+// https://api.service.nhs.uk/nhs-website-content/medicines/acrivastine/?modules=true
 async function medicinesAcrivastine(req, res, next) {
-  res.status(200).json(medicinesAcrivastineResponse)
+  if (req.query.modules.toLowerCase() === 'true') {
+    res.status(200).json(medicinesAcrivastineModulesTrueResponse)
+  } else {
+    res.status(200).json(medicinesAcrivastineNoParamsResponse)
+  }
+  res.end()
+  next()
+}
+
+// Modules: false
+// This sandbox on localhost
+// http://localhost:9000/medicines/*?modules=false
+
+// Modules: true
+// This sandbox on localhost
+// http://localhost:9000/medicines/*?modules=true
+async function medicinesWildcard(req, res, next) {
+  if (req.query.modules.toLowerCase() === 'true') {
+    res.status(200).json(medicinesWildcardModulesTrueResponse)
+  } else {
+    res.status(200).json(medicinesWildcardNoParamsResponse)
+  }
   res.end()
   next()
 }
@@ -850,6 +909,7 @@ module.exports = {
   conditionsAngiography,
   conditionsCancer,
   conditionsRoot,
+  conditionsWildcard,
   conditionsZika,
   liveWellAlcoholAdviceAlcoholSupport,
   liveWellExercise,
@@ -858,6 +918,7 @@ module.exports = {
   medicinesAciclovir,
   medicinesAcrivastine,
   medicinesRoot,
+  medicinesWildcard,
   medicinesZopiclone,
   mentalHealthAdviceForLifeSituationsAndEventsSupportForWorkplaceBullying,
   mentalHealthConditions,

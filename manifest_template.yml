@@ -5,23 +5,35 @@ APIGEE_ENVIRONMENTS:
   - name: internal-dev
     display_name: Internal Development
     has_mock_auth: true
+    ratelimit: '600pm'
+    quota: '600'
   - name: internal-qa
     display_name: Internal QA
     has_mock_auth: true
   - name: ref
     display_name: Reference
     has_mock_auth: true
+    ratelimit: '600pm'
+    quota: '600'
   - name: internal-dev-sandbox
     display_name: Internal Development Sandbox
     portal_visibility: false
+    ratelimit: '600pm'
+    quota: '600'
   - name: internal-qa-sandbox
     display_name: Internal QA Sandbox
     portal_visibility: false
+    ratelimit: '600pm'
+    quota: '600'
   - name: int
     display_name: Integration Testing
+    ratelimit: '1200pm'
+    quota: '1200'
   - name: sandbox
     display_name: Sandbox
     portal_visibility: false
+    ratelimit: '600pm'
+    quota: '600'
 # Enable environments when ready by uncommenting:
   # - name: internal-qa
   #   display_name: Internal QA
@@ -54,17 +66,17 @@ apigee:
               {{ NAME }}:
                 quota:
                   enabled: true
-                  limit: 300
+                  limit: {{ env.quota | default(300)}}
                   interval: 1
                   timeunit: minute
                 spikeArrest:
                   enabled: true
-                  ratelimit: 600pm # 10 requests per second
-              app:
-                quota:
-                  enabled: false
-                spikeArrest:
-                  enabled: false
+                  ratelimit: {{ env.ratelimit | default('300pm') }}
+#              app:
+#                quota:
+#                  enabled: false
+#                spikeArrest:
+#                  enabled: false
         description: {{ DESCRIPTION }}
         displayName: {{ TITLE }}
         environments: [ {{ ENV.name }} ]
