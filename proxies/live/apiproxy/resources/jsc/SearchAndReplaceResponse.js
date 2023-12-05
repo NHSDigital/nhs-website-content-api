@@ -1,4 +1,4 @@
-const searchAndReplaceStrings = [
+var searchAndReplaceStrings = [
   {
     searchFor: "www.nhs.uk/conditions/",
     replaceWith: "api.nhs.uk/conditions/",
@@ -29,9 +29,10 @@ const searchAndReplaceStrings = [
   },
 ];
 
-let responseContent = context.getVariable("response.content");
-let regex;
-for (let item of searchAndReplaceStrings) {
+var responseContent = context.getVariable("response.content");
+var regex;
+for (var i = 0; i < searchAndReplaceStrings.length; i++) {
+  var item = searchAndReplaceStrings[i];
   regex = new RegExp(item.searchFor, "g");
   responseContent = responseContent.replace(regex, item.replaceWith);
 }
