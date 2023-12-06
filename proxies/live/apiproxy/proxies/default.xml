@@ -53,7 +53,7 @@
         </Step>
       </Request>
     </Flow>
-    <Flow name="SearchAndReplace">
+    <Flow name="SearchAndReplaceResponse">
       <Description/>
       <Request/>
       <Response>
