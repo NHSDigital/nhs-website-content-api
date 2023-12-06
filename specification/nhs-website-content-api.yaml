@@ -2,7 +2,7 @@
 # for the nhs-website-content-api owned by NHS England (https://digital.nhs.uk/)
 openapi: "3.0.0"
 info:
-  title: "nhs-website-content-api"
+  title: "NHS Website Content API v2"
   version: "Computed and injected at build time by `scripts/set_version.py`"
   description: |
     ## Overview
@@ -22,14 +22,37 @@ info:
       * get Ratings and Reviews of NHS services.
 
     ## Who can use this API
-    Anyone can use this API for any purpose, so long as they include an attribution as per our [terms and conditions](https://developer.api.nhs.uk/about/terms).
+    Anyone can use this API for any purpose, so long as they include an [attribution](#overview--attribution) as outlined below.
+
+    ## Attribution
+    Any syndicated content must incorporate the following attribution (credit) to the NHS website:
+
+    <img src="https://www.nhs.uk/nhscwebservices/documents/logo1.jpg" alt="Content supplied by the NHS website" width="875" height="177" style="width: 250px; height: 49px;" />
+
+    The logo should be clearly visible and in line with the associated content on every web page that contains the syndicated content. You should also link this logo to the relevant page on the NHS website that the content has been supplied from. This URL is supplied as part of the feed under author:
+
+    ```
+    "author": {
+      "url": "https://www.nhs.uk",
+      "logo": "https://www.nhs.uk/nhscwebservices/documents/logo1.jpg",
+      "email": "nhswebsite.servicedesk@nhs.net",
+      "@type": "Organization",
+      "name": "NHS website"
+    }
+    ```
+
+    If you are displaying NHS syndicated content in a context where a functional link back to the article on the NHS website is not possible then you should use the following attribution (credit):
+
+    ```
+    <p>From <a href="https://www.nhs.uk/" target="_blank">www.nhs.uk<a/></p>
+    ```
 
     ## API status
     This API has moved from the [NHS website developer portal](https://developer.api.nhs.uk/). 
     It is currently [in development](https://digital.nhs.uk/developer/guides-and-documentation/reference-guide#statuses).
 
     ## Service level
-    This API is a [gold service](https://digital.nhs.uk/developer/guides-and-documentation/reference-guide#service-levels), meaning that it is operational and supported 24 hours a day, 365 days a year.
+    This API is a [bronze service](https://digital.nhs.uk/developer/guides-and-documentation/reference-guide#service-levels).
 
     ## Technology
     This API is [RESTful](https://digital.nhs.uk/developer/guides-and-documentation/our-api-technologies#basic-rest).
@@ -90,10 +113,12 @@ info:
     Additional onboarding information exists on the [developer hub](https://digital.nhs.uk//developer/api-catalogue/nhs-syndicated-content/onboarding-support-information).
 
   contact:
-    name: "nhs-website-content-api API Support"
+    name: "NHS Website Content API v2 Support"
     url: "https://digital.nhs.uk/developer/help-and-support"
     email: api.management@nhs.net
 servers:
+  - url: "https://sandbox.api.service.nhs.uk/nhs-website-content"
+    description: Sandbox environment.
   - url: "https://int.api.service.nhs.uk/nhs-website-content"
     description: Integration test environment.
   - url: "https://api.service.nhs.uk/nhs-website-content"
@@ -126,7 +151,7 @@ paths:
           description: |
             A valid query for the conditions.
           content:
-            application/schema+json:
+            application/json:
               schema:
                 $ref: components/schemas/WebPage.json
               example:
@@ -167,7 +192,7 @@ paths:
           description: |
             A valid query which returns a page object for the chosen page
           content:
-            application/schema+json:
+            application/json:
               schema:
                 $ref: components/schemas/WebPage.json
               example:
@@ -217,7 +242,7 @@ paths:
           description: |
             A valid query for medicines.
           content:
-            application/schema+json:
+            application/json:
               schema:
                 $ref: components/schemas/WebPage.json
               example:
@@ -248,7 +273,7 @@ paths:
           description: |
             A valid query for medicines.
           content:
-            application/schema+json:
+            application/json:
               schema:
                 $ref: components/schemas/WebPage.json
               example:
@@ -283,7 +308,7 @@ paths:
           description: |
             A valid query for the mental health hub.
           content:
-            application/schema+json:
+            application/json:
               schema:
                 $ref: components/schemas/WebPage.json
               example:
@@ -318,7 +343,7 @@ paths:
           description: |
             A valid query for the pregnancy hub.
           content:
-            application/schema+json:
+            application/json:
               schema:
                 $ref: components/schemas/WebPage.json
               example:
@@ -353,7 +378,7 @@ paths:
           description: |
             A valid query for the common health questions pages.
           content:
-            application/schema+json:
+            application/json:
               schema:
                 $ref: components/schemas/WebPage.json
               example:
@@ -387,7 +412,7 @@ paths:
           description: |
             A valid query for the Live Well pages.
           content:
-            application/schema+json:
+            application/json:
               schema:
                 $ref: components/schemas/WebPage.json
               example:
