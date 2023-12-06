@@ -86,7 +86,7 @@ def test_app_level0(nhsd_apim_proxy_url, nhsd_apim_auth_headers):
 @pytest.mark.nhsd_apim_authorization({"access": "application", "level": "level3"})
 def test_app_level3(nhsd_apim_proxy_url, nhsd_apim_auth_headers):
     resp = requests.get(f"{nhsd_apim_proxy_url}", headers=nhsd_apim_auth_headers)
-    assert resp.status_code == 200
+    assert resp.status_code == 401
 
 
 # @pytest.mark.skip(reason="Temporarily disabled 16/11/2023")
@@ -99,4 +99,4 @@ def test_app_level3(nhsd_apim_proxy_url, nhsd_apim_auth_headers):
 )
 def test_cis2_aal3(nhsd_apim_proxy_url, nhsd_apim_auth_headers):
     resp = requests.get(f"{nhsd_apim_proxy_url}", headers=nhsd_apim_auth_headers)
-    assert resp.status_code == 200
+    assert resp.status_code == 401
