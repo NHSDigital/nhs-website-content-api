@@ -5,7 +5,7 @@ const log = require('loglevel')
 const errorResourceNotFoundResponse = require('./responses/error-resource-not-found.json')
 const errorSandboxResponseNotFound = require('./responses/error-sandbox-response-not-found.json')
 
-const commonHealthQuestionsRootResponse = require('./responses/conditions-root-no-params.json')
+const commonHealthQuestionsRootResponse = require('./responses/common-health-questions-root-no-params.json')
 const commonHealthQuestionsAccidentsFirstAidAndTreatmentsResponse = require('./responses/common-health-questions-accidents-first-aid-and-treatments-no-params.json')
 const commonHealthQuestionsCaringCarersAndLongTermConditionsResponse = require('./responses/common-health-questions-caring-carers-and-long-term-conditions-no-params.json')
 const commonHealthQuestionsChildrensHealthCanMyBabyGoSwimmingBeforeOrAfterVaccinationsResponse = require('./responses/common-health-questions-childrens-health-can-my-baby-go-swimming-before-or-after-vaccinations-no-params.json')
@@ -284,7 +284,7 @@ async function conditionsAchalasia(req, res, next) {
 
 // Modules: false
 // This sandbox on localhost
-// http://localhost:9000/conditions/acne/?modules=false
+// http://localhost:9000/conditions/acne/
 // API on Azure API Management
 // https://api.nhs.uk/conditions/acne/
 // Wagtail (Python) Application (no auth key required)
@@ -321,11 +321,15 @@ async function conditionsAcne(req, res, next) {
 
 // Modules: false
 // This sandbox on localhost
-// http://localhost:9000/conditions/*?modules=false
+// http://localhost:9000/conditions/*
+// Apigee Sandbox environment (no auth key required)
+// https://sandbox.api.service.nhs.uk/nhs-website-content/conditions/*
 
 // Modules: true
 // This sandbox on localhost
 // http://localhost:9000/conditions/*?modules=true
+// Apigee Sandbox environment (no auth key required)
+// https://sandbox.api.service.nhs.uk/nhs-website-content/conditions/*?modules=true
 async function conditionsWildcard(req, res, next) {
   if (req.query.modules.toLowerCase() === 'true') {
     res.status(200).json(conditionsWildcardModulesTrueResponse)
@@ -595,11 +599,15 @@ async function medicinesAcrivastine(req, res, next) {
 
 // Modules: false
 // This sandbox on localhost
-// http://localhost:9000/medicines/*?modules=false
+// http://localhost:9000/medicines/*
+// Apigee Sandbox environment (no auth key required)
+// https://sandbox.api.service.nhs.uk/nhs-website-content/medicines/*
 
 // Modules: true
 // This sandbox on localhost
 // http://localhost:9000/medicines/*?modules=true
+// Apigee Sandbox environment (no auth key required)
+// https://sandbox.api.service.nhs.uk/nhs-website-content/medicines/*?modules=true
 async function medicinesWildcard(req, res, next) {
   if (req.query.modules.toLowerCase() === 'true') {
     res.status(200).json(medicinesWildcardModulesTrueResponse)
