@@ -61,6 +61,7 @@
           <Name>javascript.SearchAndReplaceResponse</Name>
         </Step>
       </Response>
+      <Condition/>
     </Flow>
   </Flows>
   <PostClientFlow name="PostClientFlow">
