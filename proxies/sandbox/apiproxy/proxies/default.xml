@@ -46,16 +46,6 @@
         </Step>
       </Request>
     </Flow>
-    <Flow name="SearchAndReplaceResponse">
-      <Description/>
-      <Request/>
-      <Response>
-        <Step>
-          <Name>javascript.SearchAndReplaceResponse</Name>
-        </Step>
-      </Response>
-      <Condition/>
-    </Flow>
   </Flows>
   <PreFlow/>
   <PostClientFlow name="PostClientFlow">

@@ -6,7 +6,6 @@
       </Step>
     </Request>
   </PreFlow>
-
   <Flows>
     <Flow name="OptionsPreFlight">
       <Request/>
@@ -52,16 +51,6 @@
           <Name>javascript.CaptureProxyHostName</Name>
         </Step>
       </Request>
-    </Flow>
-    <Flow name="SearchAndReplaceResponse">
-      <Description/>
-      <Request/>
-      <Response>
-        <Step>
-          <Name>javascript.SearchAndReplaceResponse</Name>
-        </Step>
-      </Response>
-      <Condition/>
     </Flow>
   </Flows>
   <PostClientFlow name="PostClientFlow">
