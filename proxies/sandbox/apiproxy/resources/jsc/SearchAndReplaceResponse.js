@@ -80,9 +80,9 @@ var searchAndReplaceStrings = [
 ];
 
 var responseContent = context.getVariable("response.content");
-var regex;
+var regex, item;
 for (var i = 0; i < searchAndReplaceStrings.length; i++) {
-  var item = searchAndReplaceStrings[i];
+  item = searchAndReplaceStrings[i];
   regex = new RegExp(item.searchFor, "g");
   responseContent = responseContent.replace(regex, item.replaceWith);
 }
