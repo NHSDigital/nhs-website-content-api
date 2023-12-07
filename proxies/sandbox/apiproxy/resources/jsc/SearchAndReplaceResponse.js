@@ -1,5 +1,5 @@
-var requestUrl = context.getVariable("request.url");
 // An example requestUrl would be https://internal-dev-sandbox.apis.ptl.api.platform.nhs.uk/nwca-48/conditions/
+var requestUrl = context.getVariable("request.url");
 var environmentSubdomain = requestUrl.split("/");
 environmentSubdomain = environmentSubdomain[2];
 environmentSubdomain = environmentSubdomain.split(".");
