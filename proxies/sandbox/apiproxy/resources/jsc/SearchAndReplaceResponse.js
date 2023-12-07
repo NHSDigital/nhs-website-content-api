@@ -43,6 +43,36 @@ var searchAndReplaceStrings = [
     replaceWith:
       apiVersion2Host + "api.service.nhs.uk/nhs-website-content/mental-health/",
   },
+  {
+    searchFor: "api.nhs.uk/conditions/",
+    replaceWith: apiVersion2Host + "/nhs-website-content/conditions/",
+  },
+  {
+    searchFor: "api.nhs.uk/live-well/",
+    replaceWith: apiVersion2Host + "/nhs-website-content/live-well/",
+  },
+  {
+    searchFor: "api.nhs.uk/medicines/",
+    replaceWith: apiVersion2Host + "/nhs-website-content/medicines/",
+  },
+  {
+    searchFor: "api.nhs.uk/nhs-services/",
+    replaceWith: apiVersion2Host + "/nhs-website-content/nhs-services/",
+  },
+  {
+    searchFor: "api.nhs.uk/pregnancy/",
+    replaceWith: apiVersion2Host + "/nhs-website-content/pregnancy/",
+  },
+  {
+    searchFor: "api.nhs.uk/common-health-questions/",
+    replaceWith:
+      apiVersion2Host + "/nhs-website-content/common-health-questions/",
+  },
+  {
+    searchFor: "api.nhs.uk/mental-health/",
+    replaceWith:
+      apiVersion2Host + "api.service.nhs.uk/nhs-website-content/mental-health/",
+  },
 ];
 
 var responseContent = context.getVariable("response.content");
