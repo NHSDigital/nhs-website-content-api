@@ -42,6 +42,7 @@ for (var i = 0; i < searchAndReplaceStrings.length; i++) {
 // var subdomain = basePath.split("/")[1];
 responseContent = JSON.parse(responseContent);
 responseContent.proxyRequest = context.getVariable("proxyRequest");
+responseContent.request = context.getVariable("request");
 // responseContent.contextProxyRequest = context.proxyRequest;
 // responseContent.contextProxyRequestUrl = context.proxyRequest.url;
 // responseContent.contextTargetRequest = context.targetRequest;
@@ -49,6 +50,6 @@ responseContent.proxyRequest = context.getVariable("proxyRequest");
 // responseContent.basePath = basePath;
 // responseContent.subdomain = subdomain;
 responseContent.proxy = context.getVariable("proxy");
-responseContent.timestamp = "2023-12-07@10:59pm";
+responseContent.timestamp = "2023-12-07@11:14am";
 responseContent = JSON.stringify(responseContent);
 context.setVariable("response.content", responseContent);
