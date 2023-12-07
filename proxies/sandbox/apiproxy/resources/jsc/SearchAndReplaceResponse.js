@@ -1,10 +1,17 @@
-var targetName = context.getVariable("target.name");
+var requestUrl = context.getVariable("request.url");
+// An example requestUrl would be https://internal-dev-sandbox.apis.ptl.api.platform.nhs.uk/nwca-48/conditions/
+var environmentSubdomain = requestUrl.split("/");
+environmentSubdomain = environmentSubdomain[2];
+environmentSubdomain = environmentSubdomain.split(".");
+environmentSubdomain = environmentSubdomain[0];
+
 var apiVersion2Host;
-if (targetName === "prod") {
+if (environmentSubdomain === "apis" || environmentSubdomain === "prod") {
   apiVersion2Host = "api.service.nhs.uk";
 } else {
-  apiVersion2Host = targetName + ".api.service.nhs.uk";
+  apiVersion2Host = environmentSubdomain + ".api.service.nhs.uk";
 }
+
 var searchAndReplaceStrings = [
   {
     searchFor: "www.nhs.uk/conditions/",
@@ -45,5 +52,9 @@ for (var i = 0; i < searchAndReplaceStrings.length; i++) {
   regex = new RegExp(item.searchFor, "g");
   responseContent = responseContent.replace(regex, item.replaceWith);
 }
+
+responseContent = JSON.parse(responseContent);
+responseContent.targetName = targetName;
+responseContent = JSON.stringify(responseContent);
 
 context.setVariable("response.content", responseContent);
