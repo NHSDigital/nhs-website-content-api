@@ -1,7 +1,18 @@
 <TargetEndpoint name="sandbox">
     <Description/>
     <FaultRules/>
-    <Flows/>
+    <Flows>
+      <Flow name="SearchAndReplaceResponse">
+        <Description/>
+        <Request/>
+        <Response>
+          <Step>
+            <Name>javascript.SearchAndReplaceResponse</Name>
+          </Step>
+        </Response>
+        <Condition/>
+      </Flow>
+    </Flows>
     <PostFlow name="PostFlow">
         <Request/>
         <Response/>
