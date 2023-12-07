@@ -6,7 +6,11 @@ environmentSubdomain = environmentSubdomain.split(".");
 environmentSubdomain = environmentSubdomain[0];
 
 var apiVersion2Host;
-if (environmentSubdomain === "apis" || environmentSubdomain === "prod") {
+if (
+  environmentSubdomain === "api" ||
+  environmentSubdomain === "apis" ||
+  environmentSubdomain === "prod"
+) {
   apiVersion2Host = "api.service.nhs.uk";
 } else {
   apiVersion2Host = environmentSubdomain + ".api.service.nhs.uk";
