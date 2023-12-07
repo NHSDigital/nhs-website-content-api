@@ -37,4 +37,10 @@ for (var i = 0; i < searchAndReplaceStrings.length; i++) {
   regex = new RegExp(item.searchFor, "g");
   responseContent = responseContent.replace(regex, item.replaceWith);
 }
+var basePath = context.proxyRequest.basePath;
+var subdomain = basePath.split("/")[1];
+responseContent = JSON.parse(responseContent);
+responseContent.basePath = basePath;
+responseContent.subdomain = subdomain;
+responseContent = JSON.stringify(responseContent);
 context.setVariable("response.content", responseContent);
