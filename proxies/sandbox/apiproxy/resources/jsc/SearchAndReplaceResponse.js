@@ -1,32 +1,49 @@
+var targetName = context.getVariable("target.name");
+var apiVersion2Host;
+switch (targetName) {
+  case "sandbox":
+    apiVersion2Host = "sandbox.api.service.nhs.uk";
+    break;
+  case "int":
+    apiVersion2Host = "int.api.service.nhs.uk";
+    break;
+  case "prod":
+    apiVersion2Host = "api.service.nhs.uk";
+    break;
+  default:
+    apiVersion2Host = "api.service.nhs.uk";
+}
+
 var searchAndReplaceStrings = [
   {
     searchFor: "www.nhs.uk/conditions/",
-    replaceWith: "api.service.nhs.uk/nhs-website-content/conditions/",
+    replaceWith: apiVersion2Host + "/nhs-website-content/conditions/",
   },
   {
     searchFor: "www.nhs.uk/live-well/",
-    replaceWith: "api.service.nhs.uk/nhs-website-content/live-well/",
+    replaceWith: apiVersion2Host + "/nhs-website-content/live-well/",
   },
   {
     searchFor: "www.nhs.uk/medicines/",
-    replaceWith: "api.service.nhs.uk/nhs-website-content/medicines/",
+    replaceWith: apiVersion2Host + "/nhs-website-content/medicines/",
   },
   {
     searchFor: "www.nhs.uk/nhs-services/",
-    replaceWith: "api.service.nhs.uk/nhs-website-content/nhs-services/",
+    replaceWith: apiVersion2Host + "/nhs-website-content/nhs-services/",
   },
   {
     searchFor: "www.nhs.uk/pregnancy/",
-    replaceWith: "api.service.nhs.uk/nhs-website-content/pregnancy/",
+    replaceWith: apiVersion2Host + "/nhs-website-content/pregnancy/",
   },
   {
     searchFor: "www.nhs.uk/common-health-questions/",
     replaceWith:
-      "api.service.nhs.uk/nhs-website-content/common-health-questions/",
+      apiVersion2Host + "/nhs-website-content/common-health-questions/",
   },
   {
     searchFor: "www.nhs.uk/mental-health/",
-    replaceWith: "api.service.nhs.uk/nhs-website-content/mental-health/",
+    replaceWith:
+      apiVersion2Host + "api.service.nhs.uk/nhs-website-content/mental-health/",
   },
 ];
 
@@ -37,23 +54,5 @@ for (var i = 0; i < searchAndReplaceStrings.length; i++) {
   regex = new RegExp(item.searchFor, "g");
   responseContent = responseContent.replace(regex, item.replaceWith);
 }
-// var context =
-// var basePath = context.proxyRequest.basePath;
-// var subdomain = basePath.split("/")[1];
-responseContent = JSON.parse(responseContent);
-// responseContent.proxyRequest = context.getVariable("proxyRequest");
-// responseContent.request = context.getVariable("request");
-// responseContent.response = context.getVariable("response");
-// responseContent.contextProxyRequest = context.proxyRequest;
-// responseContent.contextProxyRequestUrl = context.proxyRequest.url;
-// responseContent.contextTargetRequest = context.targetRequest;
-// responseContent.contextTargetRequestUrl = context.targetRequest.url;
-// responseContent.basePath = basePath;
-// responseContent.subdomain = subdomain;
-// responseContent.proxy = context.getVariable("proxy");
-var firstname = "Adrian";
-var lastnamne = "Parr";
-responseContent.name = firstname + " " + lastnamne;
-responseContent.timestamp = "2023-12-07@12:14pm";
-responseContent = JSON.stringify(responseContent);
+
 context.setVariable("response.content", responseContent);
