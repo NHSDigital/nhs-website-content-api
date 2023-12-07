@@ -1,19 +1,10 @@
 var targetName = context.getVariable("target.name");
 var apiVersion2Host;
-switch (targetName) {
-  case "sandbox":
-    apiVersion2Host = "sandbox.api.service.nhs.uk";
-    break;
-  case "int":
-    apiVersion2Host = "int.api.service.nhs.uk";
-    break;
-  case "prod":
-    apiVersion2Host = "api.service.nhs.uk";
-    break;
-  default:
-    apiVersion2Host = "api.service.nhs.uk";
+if (targetName === "prod") {
+  apiVersion2Host = "api.service.nhs.uk";
+} else {
+  apiVersion2Host = targetName + ".api.service.nhs.uk";
 }
-
 var searchAndReplaceStrings = [
   {
     searchFor: "www.nhs.uk/conditions/",
