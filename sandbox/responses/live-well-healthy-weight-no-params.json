@@ -13,7 +13,7 @@
   },
   "about": { "@type": "WebPage", "name": "Healthy weight", "alternateName": "" },
   "description": "Information and advice for adults and children about healthy weight, including how to find out if you\u2019re a healthy weight.",
-  "url": "https://www.nhs.uk/live-well/healthy-weight/",
+  "url": "https://api.service.nhs.uk/nhs-website-content/live-well/healthy-weight/",
   "genre": [],
   "keywords": "",
   "dateModified": "2021-11-25T15:58:30+00:00",
@@ -25,12 +25,16 @@
       {
         "@type": "ListItem",
         "position": 0,
-        "item": { "@id": "https://www.nhs.uk/live-well/", "name": "Live Well", "genre": [] }
+        "item": { "@id": "https://api.service.nhs.uk/nhs-website-content/live-well/", "name": "Live Well", "genre": [] }
       },
       {
         "@type": "ListItem",
         "position": 1,
-        "item": { "@id": "https://www.nhs.uk/live-well/healthy-weight/", "name": "Healthy weight", "genre": [] }
+        "item": {
+          "@id": "https://api.service.nhs.uk/nhs-website-content/live-well/healthy-weight/",
+          "name": "Healthy weight",
+          "genre": []
+        }
       }
     ]
   },
@@ -47,7 +51,7 @@
         {
           "@type": "WebPageElement",
           "headline": "BMI healthy weight calculator",
-          "url": "https://www.nhs.uk/live-well/healthy-weight/bmi-calculator/",
+          "url": "https://api.service.nhs.uk/nhs-website-content/live-well/healthy-weight/bmi-calculator/",
           "identifier": "26",
           "text": "",
           "name": "link"
@@ -55,7 +59,7 @@
         {
           "@type": "WebPageElement",
           "headline": "Managing your weight",
-          "url": "https://www.nhs.uk/live-well/healthy-weight/managing-your-weight/",
+          "url": "https://api.service.nhs.uk/nhs-website-content/live-well/healthy-weight/managing-your-weight/",
           "identifier": "26",
           "text": "",
           "name": "link"
@@ -63,7 +67,7 @@
         {
           "@type": "WebPageElement",
           "headline": "Children's weight",
-          "url": "https://www.nhs.uk/live-well/healthy-weight/childrens-weight/",
+          "url": "https://api.service.nhs.uk/nhs-website-content/live-well/healthy-weight/childrens-weight/",
           "identifier": "26",
           "text": "",
           "name": "link"

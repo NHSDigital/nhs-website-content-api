@@ -232,7 +232,7 @@
         {
           "@type": "WebPageElement",
           "headline": "Insomnia",
-          "url": "https://www.nhs.uk/conditions/insomnia/",
+          "url": "https://api.service.nhs.uk/nhs-website-content/conditions/insomnia/",
           "identifier": "26",
           "text": "",
           "name": "link"

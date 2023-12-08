@@ -13,7 +13,7 @@
   },
   "about": { "@type": "WebPage", "name": "Alcohol support", "alternateName": "" },
   "description": "Realising you have a problem with alcohol is the first step to getting better, but it's often the hardest one.",
-  "url": "https://www.nhs.uk/live-well/alcohol-advice/alcohol-support/",
+  "url": "https://api.service.nhs.uk/nhs-website-content/live-well/alcohol-advice/alcohol-support/",
   "genre": ["Advice or information"],
   "keywords": "",
   "dateModified": "2022-12-28T10:58:44+00:00",
@@ -25,18 +25,22 @@
       {
         "@type": "ListItem",
         "position": 0,
-        "item": { "@id": "https://www.nhs.uk/live-well/", "name": "Live Well", "genre": [] }
+        "item": { "@id": "https://api.service.nhs.uk/nhs-website-content/live-well/", "name": "Live Well", "genre": [] }
       },
       {
         "@type": "ListItem",
         "position": 1,
-        "item": { "@id": "https://www.nhs.uk/live-well/alcohol-advice/", "name": "Alcohol advice", "genre": [] }
+        "item": {
+          "@id": "https://api.service.nhs.uk/nhs-website-content/live-well/alcohol-advice/",
+          "name": "Alcohol advice",
+          "genre": []
+        }
       },
       {
         "@type": "ListItem",
         "position": 2,
         "item": {
-          "@id": "https://www.nhs.uk/live-well/alcohol-advice/alcohol-support/",
+          "@id": "https://api.service.nhs.uk/nhs-website-content/live-well/alcohol-advice/alcohol-support/",
           "name": "Alcohol support",
           "genre": ["Advice or information"]
         }
@@ -47,42 +51,42 @@
   "relatedLink": [
     {
       "@type": "LinkRole",
-      "url": "https://www.nhs.uk/live-well/alcohol-advice/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/live-well/alcohol-advice/",
       "name": "Alcohol advice",
       "linkRelationship": "Navigation",
       "position": 0
     },
     {
       "@type": "LinkRole",
-      "url": "https://www.nhs.uk/live-well/alcohol-advice/calculating-alcohol-units/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/live-well/alcohol-advice/calculating-alcohol-units/",
       "name": "Alcohol units",
       "linkRelationship": "Navigation",
       "position": 1
     },
     {
       "@type": "LinkRole",
-      "url": "https://www.nhs.uk/live-well/alcohol-advice/alcohol-support/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/live-well/alcohol-advice/alcohol-support/",
       "name": "Alcohol support",
       "linkRelationship": "Navigation",
       "position": 2
     },
     {
       "@type": "LinkRole",
-      "url": "https://www.nhs.uk/live-well/alcohol-advice/calories-in-alcohol/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/live-well/alcohol-advice/calories-in-alcohol/",
       "name": "Calories in alcohol",
       "linkRelationship": "Navigation",
       "position": 3
     },
     {
       "@type": "LinkRole",
-      "url": "https://www.nhs.uk/live-well/alcohol-advice/the-risks-of-drinking-too-much/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/live-well/alcohol-advice/the-risks-of-drinking-too-much/",
       "name": "The risks of drinking too much",
       "linkRelationship": "Navigation",
       "position": 4
     },
     {
       "@type": "LinkRole",
-      "url": "https://www.nhs.uk/live-well/alcohol-advice/tips-on-cutting-down-alcohol/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/live-well/alcohol-advice/tips-on-cutting-down-alcohol/",
       "name": "Tips on cutting down",
       "linkRelationship": "Navigation",
       "position": 5

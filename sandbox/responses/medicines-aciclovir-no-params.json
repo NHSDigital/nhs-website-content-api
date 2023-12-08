@@ -207,7 +207,7 @@
         {
           "@type": "WebPageElement",
           "headline": "Chickenpox",
-          "url": "https://www.nhs.uk/conditions/chickenpox/",
+          "url": "https://api.service.nhs.uk/nhs-website-content/conditions/chickenpox/",
           "identifier": "26",
           "text": "",
           "name": "link"
@@ -215,7 +215,7 @@
         {
           "@type": "WebPageElement",
           "headline": "Cold sores",
-          "url": "https://www.nhs.uk/conditions/cold-sores/",
+          "url": "https://api.service.nhs.uk/nhs-website-content/conditions/cold-sores/",
           "identifier": "26",
           "text": "",
           "name": "link"
@@ -223,7 +223,7 @@
         {
           "@type": "WebPageElement",
           "headline": "Genital herpes",
-          "url": "https://www.nhs.uk/conditions/genital-herpes/",
+          "url": "https://api.service.nhs.uk/nhs-website-content/conditions/genital-herpes/",
           "identifier": "26",
           "text": "",
           "name": "link"
@@ -231,7 +231,7 @@
         {
           "@type": "WebPageElement",
           "headline": "Herpes simplex eye infections",
-          "url": "https://www.nhs.uk/conditions/herpes-simplex-eye-infections/",
+          "url": "https://api.service.nhs.uk/nhs-website-content/conditions/herpes-simplex-eye-infections/",
           "identifier": "26",
           "text": "",
           "name": "link"
@@ -239,7 +239,7 @@
         {
           "@type": "WebPageElement",
           "headline": "Shingles",
-          "url": "https://www.nhs.uk/conditions/shingles/",
+          "url": "https://api.service.nhs.uk/nhs-website-content/conditions/shingles/",
           "identifier": "26",
           "text": "",
           "name": "link"
