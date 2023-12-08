@@ -1,14 +1,5 @@
 <ProxyEndpoint name="default">
   <Flows>
-    <!-- <Flow name="CopyRequest">
-      <Request/>
-      <Response>
-        <Step>
-          <Name>AssignMessage.CopyRequest</Name>
-        </Step>
-      </Response>
-      <Condition/>
-    </Flow> -->
     <Flow name="OptionsPreFlight">
       <Request/>
       <Response>
