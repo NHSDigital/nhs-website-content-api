@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<AssignMessage continueOnError="false" enabled="true" name="AssignMessage.CopyRequest">
+    <DisplayName>AssignMessage.CopyRequest</DisplayName>
+    <Properties/>
+    <Copy source="request">
+        <FormParams/>
+        <Headers/>
+        <Path>true</Path>
+        <Payload>true</Payload>
+        <QueryParams/>
+        <Verb>true</Verb>
+        <Version>true</Version>
+    </Copy>
+    <IgnoreUnresolvedVariables>true</IgnoreUnresolvedVariables>
+    <AssignTo createNew="true" transport="http" type="request">request_msg</AssignTo>
+</AssignMessage>
