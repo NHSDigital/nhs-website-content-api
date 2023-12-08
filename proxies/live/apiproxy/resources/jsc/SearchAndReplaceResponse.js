@@ -6,7 +6,11 @@ environmentSubdomain = environmentSubdomain.split(".");
 environmentSubdomain = environmentSubdomain[0];
 
 var apiVersion2Host;
-if (environmentSubdomain === "apis" || environmentSubdomain === "prod") {
+if (
+  environmentSubdomain === "api" ||
+  environmentSubdomain === "apis" ||
+  environmentSubdomain === "prod"
+) {
   apiVersion2Host = "api.service.nhs.uk";
 } else {
   apiVersion2Host = environmentSubdomain + ".api.service.nhs.uk";
@@ -76,11 +80,16 @@ var searchAndReplaceStrings = [
 ];
 
 var responseContent = context.getVariable("response.content");
-var regex;
+var regex, item;
 for (var i = 0; i < searchAndReplaceStrings.length; i++) {
-  var item = searchAndReplaceStrings[i];
+  item = searchAndReplaceStrings[i];
   regex = new RegExp(item.searchFor, "g");
   responseContent = responseContent.replace(regex, item.replaceWith);
 }
+
+responseContent = JSON.parse(responseContent);
+responseContent.requestUrl = requestUrl;
+responseContent.environmentSubdomain = environmentSubdomain;
+responseContent = JSON.stringify(responseContent);
 
 context.setVariable("response.content", responseContent);
