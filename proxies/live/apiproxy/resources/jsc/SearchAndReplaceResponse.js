@@ -73,8 +73,4 @@ for (var i = 0; i < searchAndReplaceStrings.length; i++) {
   responseContent = responseContent.replace(regex, item.replaceWith);
 }
 
-responseContent = JSON.parse(responseContent);
-responseContent.requestHostnameEnv = requestHostnameEnv;
-responseContent = JSON.stringify(responseContent);
-
 context.setVariable("response.content", responseContent);
