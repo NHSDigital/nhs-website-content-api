@@ -9,6 +9,18 @@
       </Step>
     </Request>
   </PreFlow>
+  <Flows>
+    <Flow name="SearchAndReplaceResponse">
+      <Description/>
+      <Request/>
+      <Response>
+        <Step>
+          <Name>javascript.SearchAndReplaceResponse</Name>
+        </Step>
+      </Response>
+      <Condition/>
+    </Flow>
+  </Flows>
   <FaultRules>
     <FaultRule name="api_key_invalid">
       <Condition>verifyapikey.VerifyAPIKey.FromHeader.failed</Condition>
