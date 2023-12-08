@@ -1,6 +1,6 @@
 // An example requestUrl would be https://internal-dev-sandbox.apis.ptl.api.platform.nhs.uk/nwca-48/conditions/
 var requestUrl = context.getVariable("request.url");
-var requestMessageUri = context.getVariable("request_msg.uri");
+// var requestMessageUri = context.getVariable("request_msg.uri");
 var requestHostnameEnv = context.getVariable("request_hostname_env");
 
 var environmentSubdomain = requestUrl.split("/");
@@ -92,7 +92,7 @@ for (var i = 0; i < searchAndReplaceStrings.length; i++) {
 
 responseContent = JSON.parse(responseContent);
 
-responseContent.requestMessageUri = requestMessageUri;
+// responseContent.requestMessageUri = requestMessageUri;
 responseContent.requestHostnameEnv = requestHostnameEnv;
 responseContent.requestUrl = requestUrl;
 responseContent.environmentSubdomain = environmentSubdomain;

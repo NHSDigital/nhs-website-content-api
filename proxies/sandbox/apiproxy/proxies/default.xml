@@ -1,6 +1,6 @@
 <ProxyEndpoint name="default">
   <Flows>
-  <Flow name="CopyRequest">
+    <!-- <Flow name="CopyRequest">
       <Request/>
       <Response>
         <Step>
@@ -8,7 +8,7 @@
         </Step>
       </Response>
       <Condition/>
-    </Flow>
+    </Flow> -->
     <Flow name="OptionsPreFlight">
       <Request/>
       <Response>
