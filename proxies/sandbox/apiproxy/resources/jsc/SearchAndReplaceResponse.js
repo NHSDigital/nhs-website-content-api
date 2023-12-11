@@ -7,12 +7,12 @@ var searchAndReplaceStrings = [
     comment3: "=============================================================",
     searchForRegex: /:\s?"https:\/\/api.nhs.uk\/conditions\//gm,
     replaceWithStr:
-      ':"https://' + requestHostnameEnv + "/nhs-website-content/conditions/",
+      ': "https://' + requestHostnameEnv + "/nhs-website-content/conditions/",
   },
   {
     searchForRegex: /:\s?"https:\/\/www.nhs.uk\/conditions\//gm,
     replaceWithStr:
-      ':"https://' + requestHostnameEnv + "/nhs-website-content/conditions/",
+      ': "https://' + requestHostnameEnv + "/nhs-website-content/conditions/",
   },
   {
     searchForRegex: /href=\\"https:\/\/api.nhs.uk\/conditions\//gm,
@@ -28,12 +28,12 @@ var searchAndReplaceStrings = [
     comment3: "=============================================================",
     searchForRegex: /:\s?"https:\/\/api.nhs.uk\/live-well\//gm,
     replaceWithStr:
-      ':"https://' + requestHostnameEnv + "/nhs-website-content/live-well/",
+      ': "https://' + requestHostnameEnv + "/nhs-website-content/live-well/",
   },
   {
     searchForRegex: /:\s?"https:\/\/www.nhs.uk\/live-well\//gm,
     replaceWithStr:
-      ':"https://' + requestHostnameEnv + "/nhs-website-content/live-well/",
+      ': "https://' + requestHostnameEnv + "/nhs-website-content/live-well/",
   },
   {
     searchForRegex: /href=\\"https:\/\/api.nhs.uk\/live-well\//gm,
@@ -49,12 +49,16 @@ var searchAndReplaceStrings = [
     comment3: "=============================================================",
     searchForRegex: /:\s?"https:\/\/api.nhs.uk\/mental-health\//gm,
     replaceWithStr:
-      ':"https://' + requestHostnameEnv + "/nhs-website-content/mental-health/",
+      ': "https://' +
+      requestHostnameEnv +
+      "/nhs-website-content/mental-health/",
   },
   {
     searchForRegex: /:\s?"https:\/\/www.nhs.uk\/mental-health\//gm,
     replaceWithStr:
-      ':"https://' + requestHostnameEnv + "/nhs-website-content/mental-health/",
+      ': "https://' +
+      requestHostnameEnv +
+      "/nhs-website-content/mental-health/",
   },
   {
     searchForRegex: /href=\\"https:\/\/api.nhs.uk\/mental-health\//gm,
@@ -70,12 +74,12 @@ var searchAndReplaceStrings = [
     comment3: "=============================================================",
     searchForRegex: /:\s?"https:\/\/api.nhs.uk\/medicines\//gm,
     replaceWithStr:
-      ':"https://' + requestHostnameEnv + "/nhs-website-content/medicines/",
+      ': "https://' + requestHostnameEnv + "/nhs-website-content/medicines/",
   },
   {
     searchForRegex: /:\s?"https:\/\/www.nhs.uk\/medicines\//gm,
     replaceWithStr:
-      ':"https://' + requestHostnameEnv + "/nhs-website-content/medicines/",
+      ': "https://' + requestHostnameEnv + "/nhs-website-content/medicines/",
   },
   {
     searchForRegex: /href=\\"https:\/\/api.nhs.uk\/medicines\//gm,
@@ -91,12 +95,12 @@ var searchAndReplaceStrings = [
     comment3: "=============================================================",
     searchForRegex: /:\s?"https:\/\/api.nhs.uk\/nhs-services\//gm,
     replaceWithStr:
-      ':"https://' + requestHostnameEnv + "/nhs-website-content/nhs-services/",
+      ': "https://' + requestHostnameEnv + "/nhs-website-content/nhs-services/",
   },
   {
     searchForRegex: /:\s?"https:\/\/www.nhs.uk\/nhs-services\//gm,
     replaceWithStr:
-      ':"https://' + requestHostnameEnv + "/nhs-website-content/nhs-services/",
+      ': "https://' + requestHostnameEnv + "/nhs-website-content/nhs-services/",
   },
   {
     searchForRegex: /href=\\"https:\/\/api.nhs.uk\/nhs-services\//gm,
@@ -112,12 +116,12 @@ var searchAndReplaceStrings = [
     comment3: "=============================================================",
     searchForRegex: /:\s?"https:\/\/api.nhs.uk\/pregnancy\//gm,
     replaceWithStr:
-      ':"https://' + requestHostnameEnv + "/nhs-website-content/pregnancy/",
+      ': "https://' + requestHostnameEnv + "/nhs-website-content/pregnancy/",
   },
   {
     searchForRegex: /:\s?"https:\/\/www.nhs.uk\/pregnancy\//gm,
     replaceWithStr:
-      ':"https://' + requestHostnameEnv + "/nhs-website-content/pregnancy/",
+      ': "https://' + requestHostnameEnv + "/nhs-website-content/pregnancy/",
   },
   {
     searchForRegex: /href=\\"https:\/\/api.nhs.uk\/pregnancy\//gm,
@@ -133,14 +137,14 @@ var searchAndReplaceStrings = [
     comment3: "=============================================================",
     searchForRegex: /:\s?"https:\/\/api.nhs.uk\/common-health-questions\//gm,
     replaceWithStr:
-      ':"https://' +
+      ': "https://' +
       requestHostnameEnv +
       "/nhs-website-content/common-health-questions/",
   },
   {
     searchForRegex: /:\s?"https:\/\/www.nhs.uk\/common-health-questions\//gm,
     replaceWithStr:
-      ':"https://' +
+      ': "https://' +
       requestHostnameEnv +
       "/nhs-website-content/common-health-questions/",
   },
