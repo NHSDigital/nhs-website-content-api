@@ -85,6 +85,7 @@ info:
     | Environment       | Base URL                                                               |
     | ----------------- | ---------------------------------------------------------------------- |
     | Sandbox           | `https://sandbox.api.service.nhs.uk/nhs-website-content/`              |
+    | Development       |  Not used                                                              |
     | Integration test  | `https://int.api.service.nhs.uk/nhs-website-content/`                  |
     | Production        |  Not available yet                                                     |
 
