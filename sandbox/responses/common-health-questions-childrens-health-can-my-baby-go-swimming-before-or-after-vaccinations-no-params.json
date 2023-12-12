@@ -99,7 +99,7 @@
                 {
                   "position": 0,
                   "identifier": "1",
-                  "text": "\n<ul>\n<li><a href=\"/conditions/vaccinations/6-in-1-infant-vaccine/\">6-in-1 vaccination</a>\u00a0 </li>\n<li><a href=\"/conditions/vaccinations/mmr-vaccine/\">MMR vaccine</a>\u00a0\u00a0\u00a0\u00a0\u00a0 </li>\n<li><a href=\"/conditions/vaccinations/\">Vaccination\u00a0schedule</a></li>\n</ul>\n",
+                  "text": "\n<ul>\n<li><a href=\"https://www.nhs.uk/conditions/vaccinations/6-in-1-infant-vaccine/\">6-in-1 vaccination</a>\u00a0 </li>\n<li><a href=\"https://www.nhs.uk/conditions/vaccinations/mmr-vaccine/\">MMR vaccine</a>\u00a0\u00a0\u00a0\u00a0\u00a0 </li>\n<li><a href=\"https://www.nhs.uk/conditions/vaccinations/\">Vaccination\u00a0schedule</a></li>\n</ul>\n",
                   "@type": "WebPageElement",
                   "name": "markdown",
                   "headline": "Further information:"
@@ -110,7 +110,7 @@
                 {
                   "position": 0,
                   "identifier": "1",
-                  "text": "\n<ul>\n<li><a href=\"/conditions/vaccinations/6-in-1-infant-vaccine/\">6-in-1 vaccination</a>\u00a0 </li>\n<li><a href=\"/conditions/vaccinations/mmr-vaccine/\">MMR vaccine</a>\u00a0\u00a0\u00a0\u00a0\u00a0 </li>\n<li><a href=\"/conditions/vaccinations/\">Vaccination\u00a0schedule</a></li>\n</ul>\n",
+                  "text": "\n<ul>\n<li><a href=\"https://www.nhs.uk/conditions/vaccinations/6-in-1-infant-vaccine/\">6-in-1 vaccination</a>\u00a0 </li>\n<li><a href=\"https://www.nhs.uk/conditions/vaccinations/mmr-vaccine/\">MMR vaccine</a>\u00a0\u00a0\u00a0\u00a0\u00a0 </li>\n<li><a href=\"https://www.nhs.uk/conditions/vaccinations/\">Vaccination\u00a0schedule</a></li>\n</ul>\n",
                   "@type": "WebPageElement",
                   "name": "markdown",
                   "headline": "Further information:"
