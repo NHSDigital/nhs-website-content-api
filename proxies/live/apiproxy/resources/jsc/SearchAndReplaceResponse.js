@@ -1,27 +1,4 @@
-<<<<<<< HEAD
-// An example requestUrl would be https://internal-dev-sandbox.apis.ptl.api.platform.nhs.uk/nwca-48/conditions/
-var requestUrl = context.getVariable("request.url");
-var requestMessageUri = context.getVariable("request_msg.uri");
 var requestHostnameEnv = context.getVariable("request_hostname_env");
-
-var environmentSubdomain = requestUrl.split("/");
-environmentSubdomain = environmentSubdomain[2];
-environmentSubdomain = environmentSubdomain.split(".");
-environmentSubdomain = environmentSubdomain[0];
-
-var apiVersion2Host;
-if (
-  environmentSubdomain === "api" ||
-  environmentSubdomain === "apis" ||
-  environmentSubdomain === "prod"
-) {
-  apiVersion2Host = "api.service.nhs.uk";
-} else {
-  apiVersion2Host = environmentSubdomain + ".api.service.nhs.uk";
-}
-=======
-var requestHostnameEnv = context.getVariable("request_hostname_env");
->>>>>>> master
 
 var searchAndReplaceStrings = [
   {
