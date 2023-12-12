@@ -27,7 +27,7 @@
         {
           "@type": "WebPageElement",
           "headline": "",
-          "text": "<p>Most adults and children can take aciclovir tablets or liquid, or use aciclovir cream, cold sore cream or eye ointment.</p><h2>Who may not be able to take or use aciclovir</h2><p>Aciclovir is not suitable for some people. To make sure it's safe for you, tell your doctor if you:</p><ul><li>have ever had an allergic reaction to aciclovir or any other medicine</li><li>have kidney problems</li><li>are over 65 years old</li><li>are pregnant, trying to get pregnant or breastfeeding</li></ul><p>If your immune system is weakened (for example, if you have <a href=\"/conditions/hiv-and-aids/\">HIV or AIDS</a>, or you have had a <a href=\"/conditions/stem-cell-transplant/\">bone marrow transplant</a>), talk to your doctor about the best type of aciclovir for you. They may recommend tablets rather than the cream.</p>"
+          "text": "<p>Most adults and children can take aciclovir tablets or liquid, or use aciclovir cream, cold sore cream or eye ointment.</p><h2>Who may not be able to take or use aciclovir</h2><p>Aciclovir is not suitable for some people. To make sure it's safe for you, tell your doctor if you:</p><ul><li>have ever had an allergic reaction to aciclovir or any other medicine</li><li>have kidney problems</li><li>are over 65 years old</li><li>are pregnant, trying to get pregnant or breastfeeding</li></ul><p>If your immune system is weakened (for example, if you have <a href=\"https://www.nhs.uk/conditions/hiv-and-aids/\">HIV or AIDS</a>, or you have had a <a href=\"https://www.nhs.uk/conditions/stem-cell-transplant/\">bone marrow transplant</a>), talk to your doctor about the best type of aciclovir for you. They may recommend tablets rather than the cream.</p>"
         }
       ],
       "headline": "Who can take or use aciclovir"
@@ -70,7 +70,7 @@
         {
           "@type": "WebPageElement",
           "headline": "Serious allergic reaction",
-          "text": "<p>In rare cases, aciclovir can cause a serious allergic reaction (<a href=\"/conditions/anaphylaxis/\">anaphylaxis</a>).</p>"
+          "text": "<p>In rare cases, aciclovir can cause a serious allergic reaction (<a href=\"https://www.nhs.uk/conditions/anaphylaxis/\">anaphylaxis</a>).</p>"
         },
         {
           "@type": "WebPageElement",
@@ -103,7 +103,7 @@
         {
           "@type": "WebPageElement",
           "headline": "",
-          "text": "<p>Some medicines can affect the way aciclovir tablets or liquid work. They can also make you more likely to get side effects.</p><p>If you're using aciclovir cream on your skin, this is less likely to react with other medicines.</p><p>Tell your doctor if you take any of the following medicines before taking aciclovir:</p><ul><li>cimetidine, a medicine for stomach ulcers</li><li>mycophenolate mofetil, a medicine given after organ transplants</li><li>probenecid, a medicine for gout</li><li>aminophylline or theophylline, medicines for asthma</li></ul><h2>Mixing aciclovir with herbal remedies and supplements</h2><p>There's not enough information to say that <a href=\"/conditions/herbal-medicines/\">herbal remedies</a> or supplements are safe to take with aciclovir. They're not tested in the same way as pharmacy and prescription medicines. They're generally not tested for the effect they have on other medicines.</p>"
+          "text": "<p>Some medicines can affect the way aciclovir tablets or liquid work. They can also make you more likely to get side effects.</p><p>If you're using aciclovir cream on your skin, this is less likely to react with other medicines.</p><p>Tell your doctor if you take any of the following medicines before taking aciclovir:</p><ul><li>cimetidine, a medicine for stomach ulcers</li><li>mycophenolate mofetil, a medicine given after organ transplants</li><li>probenecid, a medicine for gout</li><li>aminophylline or theophylline, medicines for asthma</li></ul><h2>Mixing aciclovir with herbal remedies and supplements</h2><p>There's not enough information to say that <a href=\"https://www.nhs.uk/conditions/herbal-medicines/\">herbal remedies</a> or supplements are safe to take with aciclovir. They're not tested in the same way as pharmacy and prescription medicines. They're generally not tested for the effect they have on other medicines.</p>"
         }
       ],
       "headline": "Cautions with other medicines"
@@ -207,7 +207,7 @@
         {
           "@type": "WebPageElement",
           "headline": "Chickenpox",
-          "url": "https://www.nhs.uk/conditions/chickenpox/",
+          "url": "https://api.service.nhs.uk/nhs-website-content/conditions/chickenpox/",
           "identifier": "26",
           "text": "",
           "name": "link"
@@ -215,7 +215,7 @@
         {
           "@type": "WebPageElement",
           "headline": "Cold sores",
-          "url": "https://www.nhs.uk/conditions/cold-sores/",
+          "url": "https://api.service.nhs.uk/nhs-website-content/conditions/cold-sores/",
           "identifier": "26",
           "text": "",
           "name": "link"
@@ -223,7 +223,7 @@
         {
           "@type": "WebPageElement",
           "headline": "Genital herpes",
-          "url": "https://www.nhs.uk/conditions/genital-herpes/",
+          "url": "https://api.service.nhs.uk/nhs-website-content/conditions/genital-herpes/",
           "identifier": "26",
           "text": "",
           "name": "link"
@@ -231,7 +231,7 @@
         {
           "@type": "WebPageElement",
           "headline": "Herpes simplex eye infections",
-          "url": "https://www.nhs.uk/conditions/herpes-simplex-eye-infections/",
+          "url": "https://api.service.nhs.uk/nhs-website-content/conditions/herpes-simplex-eye-infections/",
           "identifier": "26",
           "text": "",
           "name": "link"
@@ -239,7 +239,7 @@
         {
           "@type": "WebPageElement",
           "headline": "Shingles",
-          "url": "https://www.nhs.uk/conditions/shingles/",
+          "url": "https://api.service.nhs.uk/nhs-website-content/conditions/shingles/",
           "identifier": "26",
           "text": "",
           "name": "link"

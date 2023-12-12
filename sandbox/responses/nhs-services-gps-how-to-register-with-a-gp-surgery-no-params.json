@@ -13,7 +13,7 @@
   },
   "about": { "@type": "WebPage", "name": "How to register with a GP surgery", "alternateName": "" },
   "description": "Find out how to register with a GP surgery in England.",
-  "url": "https://www.nhs.uk/nhs-services/gps/how-to-register-with-a-gp-surgery/",
+  "url": "https://api.service.nhs.uk/nhs-website-content/nhs-services/gps/how-to-register-with-a-gp-surgery/",
   "genre": ["Advice or information"],
   "keywords": "",
   "dateModified": "2023-08-17T12:48:11+00:00",
@@ -25,18 +25,18 @@
       {
         "@type": "ListItem",
         "position": 0,
-        "item": { "@id": "https://www.nhs.uk/nhs-services/", "name": "NHS services", "genre": [] }
+        "item": { "@id": "https://api.service.nhs.uk/nhs-website-content/nhs-services/", "name": "NHS services", "genre": [] }
       },
       {
         "@type": "ListItem",
         "position": 1,
-        "item": { "@id": "https://www.nhs.uk/nhs-services/gps/", "name": "GPs", "genre": [] }
+        "item": { "@id": "https://api.service.nhs.uk/nhs-website-content/nhs-services/gps/", "name": "GPs", "genre": [] }
       },
       {
         "@type": "ListItem",
         "position": 2,
         "item": {
-          "@id": "https://www.nhs.uk/nhs-services/gps/how-to-register-with-a-gp-surgery/",
+          "@id": "https://api.service.nhs.uk/nhs-website-content/nhs-services/gps/how-to-register-with-a-gp-surgery/",
           "name": "How to register with a GP surgery",
           "genre": ["Advice or information"]
         }
@@ -47,63 +47,63 @@
   "relatedLink": [
     {
       "@type": "LinkRole",
-      "url": "https://www.nhs.uk/nhs-services/gps/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/nhs-services/gps/",
       "name": "GPs",
       "linkRelationship": "Navigation",
       "position": 0
     },
     {
       "@type": "LinkRole",
-      "url": "https://www.nhs.uk/nhs-services/gps/how-to-register-with-a-gp-surgery/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/nhs-services/gps/how-to-register-with-a-gp-surgery/",
       "name": "How to register with a GP surgery",
       "linkRelationship": "Navigation",
       "position": 1
     },
     {
       "@type": "LinkRole",
-      "url": "https://www.nhs.uk/nhs-services/gps/registering-with-a-gp-outside-your-area/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/nhs-services/gps/registering-with-a-gp-outside-your-area/",
       "name": "Registering with a GP surgery outside your local area",
       "linkRelationship": "Navigation",
       "position": 2
     },
     {
       "@type": "LinkRole",
-      "url": "https://www.nhs.uk/nhs-services/gps/gp-appointments-and-bookings/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/nhs-services/gps/gp-appointments-and-bookings/",
       "name": "Appointments and bookings at your GP surgery",
       "linkRelationship": "Navigation",
       "position": 3
     },
     {
       "@type": "LinkRole",
-      "url": "https://www.nhs.uk/nhs-services/gps/using-an-online-form-to-contact-your-gp-surgery/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/nhs-services/gps/using-an-online-form-to-contact-your-gp-surgery/",
       "name": "Using an online form to contact your GP surgery",
       "linkRelationship": "Navigation",
       "position": 4
     },
     {
       "@type": "LinkRole",
-      "url": "https://www.nhs.uk/nhs-services/gps/video-consultations/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/nhs-services/gps/video-consultations/",
       "name": "Video consultations",
       "linkRelationship": "Navigation",
       "position": 5
     },
     {
       "@type": "LinkRole",
-      "url": "https://www.nhs.uk/nhs-services/gps/what-to-ask-your-doctor/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/nhs-services/gps/what-to-ask-your-doctor/",
       "name": "What to ask your doctor or other healthcare professional",
       "linkRelationship": "Navigation",
       "position": 6
     },
     {
       "@type": "LinkRole",
-      "url": "https://www.nhs.uk/nhs-services/gps/using-online-services/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/nhs-services/gps/using-online-services/",
       "name": "Using online services",
       "linkRelationship": "Navigation",
       "position": 7
     },
     {
       "@type": "LinkRole",
-      "url": "https://www.nhs.uk/nhs-services/gps/online-health-and-prescription-services/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/nhs-services/gps/online-health-and-prescription-services/",
       "name": "Online health and prescription services",
       "linkRelationship": "Navigation",
       "position": 8

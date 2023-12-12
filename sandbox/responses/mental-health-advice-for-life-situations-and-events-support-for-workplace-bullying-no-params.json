@@ -13,7 +13,7 @@
   },
   "about": { "@type": "WebPage", "name": "Bullying at work", "alternateName": "" },
   "description": "Find out how to identify if you're being bullied at work, how to stop it and advice on getting support.",
-  "url": "https://www.nhs.uk/mental-health/advice-for-life-situations-and-events/support-for-workplace-bullying/",
+  "url": "https://api.service.nhs.uk/nhs-website-content/mental-health/advice-for-life-situations-and-events/support-for-workplace-bullying/",
   "genre": ["Advice or information"],
   "keywords": "",
   "dateModified": "2022-12-07T17:27:05+00:00",
@@ -25,13 +25,13 @@
       {
         "@type": "ListItem",
         "position": 0,
-        "item": { "@id": "https://www.nhs.uk/mental-health/", "name": "Mental health", "genre": [] }
+        "item": { "@id": "https://api.service.nhs.uk/nhs-website-content/mental-health/", "name": "Mental health", "genre": [] }
       },
       {
         "@type": "ListItem",
         "position": 1,
         "item": {
-          "@id": "https://www.nhs.uk/mental-health/advice-for-life-situations-and-events/",
+          "@id": "https://api.service.nhs.uk/nhs-website-content/mental-health/advice-for-life-situations-and-events/",
           "name": "Advice for life situations and events",
           "genre": []
         }
@@ -40,7 +40,7 @@
         "@type": "ListItem",
         "position": 2,
         "item": {
-          "@id": "https://www.nhs.uk/mental-health/advice-for-life-situations-and-events/support-for-workplace-bullying/",
+          "@id": "https://api.service.nhs.uk/nhs-website-content/mental-health/advice-for-life-situations-and-events/support-for-workplace-bullying/",
           "name": "Bullying at work",
           "genre": ["Advice or information"]
         }
@@ -51,56 +51,56 @@
   "relatedLink": [
     {
       "@type": "LinkRole",
-      "url": "https://www.nhs.uk/mental-health/advice-for-life-situations-and-events/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/mental-health/advice-for-life-situations-and-events/",
       "name": "Advice for life situations and events",
       "linkRelationship": "Navigation",
       "position": 0
     },
     {
       "@type": "LinkRole",
-      "url": "https://www.nhs.uk/mental-health/advice-for-life-situations-and-events/return-to-work-after-mental-health-issues/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/mental-health/advice-for-life-situations-and-events/return-to-work-after-mental-health-issues/",
       "name": "Returning to work after mental health issues",
       "linkRelationship": "Navigation",
       "position": 1
     },
     {
       "@type": "LinkRole",
-      "url": "https://www.nhs.uk/mental-health/advice-for-life-situations-and-events/support-for-workplace-bullying/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/mental-health/advice-for-life-situations-and-events/support-for-workplace-bullying/",
       "name": "Bullying at work",
       "linkRelationship": "Navigation",
       "position": 2
     },
     {
       "@type": "LinkRole",
-      "url": "https://www.nhs.uk/mental-health/advice-for-life-situations-and-events/how-to-cope-with-financial-worries/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/mental-health/advice-for-life-situations-and-events/how-to-cope-with-financial-worries/",
       "name": "Coping with financial worries",
       "linkRelationship": "Navigation",
       "position": 3
     },
     {
       "@type": "LinkRole",
-      "url": "https://www.nhs.uk/mental-health/advice-for-life-situations-and-events/mental-health-support-if-you-are-gay-lesbian-bisexual-lgbtq/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/mental-health/advice-for-life-situations-and-events/mental-health-support-if-you-are-gay-lesbian-bisexual-lgbtq/",
       "name": "Mental health support if you're lesbian, gay, bisexual or trans (LGBTQ+)",
       "linkRelationship": "Navigation",
       "position": 4
     },
     {
       "@type": "LinkRole",
-      "url": "https://www.nhs.uk/mental-health/advice-for-life-situations-and-events/how-to-help-someone-with-depression/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/mental-health/advice-for-life-situations-and-events/how-to-help-someone-with-depression/",
       "name": "How to help someone with depression",
       "linkRelationship": "Navigation",
       "position": 5
     },
     {
       "@type": "LinkRole",
-      "url": "https://www.nhs.uk/mental-health/advice-for-life-situations-and-events/loneliness-in-older-people-how-to-help/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/mental-health/advice-for-life-situations-and-events/loneliness-in-older-people-how-to-help/",
       "name": "Loneliness in older people: how to help",
       "linkRelationship": "Navigation",
       "position": 6
     },
     {
       "@type": "LinkRole",
-      "url": "https://www.nhs.uk/mental-health/advice-for-life-situations-and-events/how-to-help-someone-with-eating-disorder/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/mental-health/advice-for-life-situations-and-events/how-to-help-someone-with-eating-disorder/",
       "name": "How to help someone with an eating disorder",
       "linkRelationship": "Navigation",
       "position": 7

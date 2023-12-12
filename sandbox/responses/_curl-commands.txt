@@ -18,7 +18,7 @@ curl -X GET 'https://api.nhs.uk/medicines/' \
   -H 'Content-Type: application/json' \
   -H 'subscription-key: 9b95c5be0278482baf6cd8a01903d5b3' --> ./responses/medicines-root-no-params.json
 
-curl -X GET 'https://api.nhs.uk/mental-health/' \
+curl -X GET 'https://api.service.nhs.uk/nhs-website-content/mental-health/' \
   -H 'Content-Type: application/json' \
   -H 'subscription-key: 9b95c5be0278482baf6cd8a01903d5b3' --> ./responses/mental-health-root-no-params.json
 
@@ -175,15 +175,15 @@ curl -X GET 'https://api.nhs.uk/medicines/?page=11' \
 ** Mental Health pages                                                                                         **
 *****************************************************************************************************************
 
-curl -X GET 'https://api.nhs.uk/mental-health/feelings-symptoms-behaviours/' \
+curl -X GET 'https://api.service.nhs.uk/nhs-website-content/mental-health/feelings-symptoms-behaviours/' \
   -H 'Content-Type: application/json' \
   -H 'subscription-key: 9b95c5be0278482baf6cd8a01903d5b3' --> ./responses/mental-health-feelings-symptoms-behaviours-no-params.json
 
-curl -X GET 'https://api.nhs.uk/mental-health/conditions/' \
+curl -X GET 'https://api.service.nhs.uk/nhs-website-content/mental-health/conditions/' \
   -H 'Content-Type: application/json' \
   -H 'subscription-key: 9b95c5be0278482baf6cd8a01903d5b3' --> ./responses/mental-health-conditions-no-params.json
 
-curl -X GET 'https://api.nhs.uk/mental-health/advice-for-life-situations-and-events/support-for-workplace-bullying/' \
+curl -X GET 'https://api.service.nhs.uk/nhs-website-content/mental-health/advice-for-life-situations-and-events/support-for-workplace-bullying/' \
   -H 'Content-Type: application/json' \
   -H 'subscription-key: 9b95c5be0278482baf6cd8a01903d5b3' --> ./responses/mental-health-advice-for-life-situations-and-events-support-for-workplace-bullying-no-params.json
 

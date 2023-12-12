@@ -13,7 +13,7 @@
   },
   "about": { "@type": "WebPage", "name": "Accidents, first aid and treatments", "alternateName": "" },
   "description": "Read common questions about accidents, first aid and treatments.",
-  "url": "https://www.nhs.uk/common-health-questions/accidents-first-aid-and-treatments/",
+  "url": "https://api.service.nhs.uk/nhs-website-content/common-health-questions/accidents-first-aid-and-treatments/",
   "genre": [],
   "keywords": "",
   "dateModified": "2021-11-18T15:59:41+00:00",
@@ -24,13 +24,17 @@
       {
         "@type": "ListItem",
         "position": 0,
-        "item": { "@id": "https://www.nhs.uk/common-health-questions/", "name": "Common health questions", "genre": [] }
+        "item": {
+          "@id": "https://api.service.nhs.uk/nhs-website-content/common-health-questions/",
+          "name": "Common health questions",
+          "genre": []
+        }
       },
       {
         "@type": "ListItem",
         "position": 1,
         "item": {
-          "@id": "https://www.nhs.uk/common-health-questions/accidents-first-aid-and-treatments/",
+          "@id": "https://api.service.nhs.uk/nhs-website-content/common-health-questions/accidents-first-aid-and-treatments/",
           "name": "Accidents, first aid and treatments",
           "genre": []
         }
@@ -41,21 +45,21 @@
   "relatedLink": [
     {
       "@type": "LinkRole",
-      "url": "https://www.nhs.uk/common-health-questions/accidents-first-aid-and-treatments/?page=1",
+      "url": "https://api.service.nhs.uk/nhs-website-content/common-health-questions/accidents-first-aid-and-treatments/?page=1",
       "name": "First Page",
       "description": "Link to First Page",
       "linkRelationship": "Pagination"
     },
     {
       "@type": "LinkRole",
-      "url": "https://www.nhs.uk/common-health-questions/accidents-first-aid-and-treatments/?page=1",
+      "url": "https://api.service.nhs.uk/nhs-website-content/common-health-questions/accidents-first-aid-and-treatments/?page=1",
       "name": "Last Page",
       "description": "Link to Last Page",
       "linkRelationship": "Pagination"
     },
     {
       "@type": "LinkRole",
-      "url": "https://www.nhs.uk/common-health-questions/accidents-first-aid-and-treatments/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/common-health-questions/accidents-first-aid-and-treatments/",
       "name": "Self",
       "description": "Link to nhs.uk Page",
       "linkRelationship": "Self"
@@ -66,7 +70,7 @@
       "@type": "LinkRole",
       "linkRelationship": "Result",
       "name": "How do I clean a wound?",
-      "url": "https://www.nhs.uk/common-health-questions/accidents-first-aid-and-treatments/how-do-i-clean-a-wound/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/common-health-questions/accidents-first-aid-and-treatments/how-do-i-clean-a-wound/",
       "genre": ["Advice or information"],
       "description": "A wound is a break in the skin. A plaster or larger dressing is usually all that is needed to stop a wound bleeding.",
       "mainEntityOfPage": {
@@ -79,7 +83,7 @@
       "@type": "LinkRole",
       "linkRelationship": "Result",
       "name": "What should I keep in my first aid kit?",
-      "url": "https://www.nhs.uk/common-health-questions/accidents-first-aid-and-treatments/what-should-i-keep-in-my-first-aid-kit/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/common-health-questions/accidents-first-aid-and-treatments/what-should-i-keep-in-my-first-aid-kit/",
       "genre": ["Advice or information"],
       "description": "It's important to have a well-stocked first aid kit in your home so you can deal with minor accidents and injuries. Your first aid kit should be locked and kept in a cool, dry place out of the reach of children.",
       "mainEntityOfPage": {
@@ -92,7 +96,7 @@
       "@type": "LinkRole",
       "linkRelationship": "Result",
       "name": "How do I apply plasters and other dressings?",
-      "url": "https://www.nhs.uk/common-health-questions/accidents-first-aid-and-treatments/how-do-i-apply-plasters-and-other-dressings/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/common-health-questions/accidents-first-aid-and-treatments/how-do-i-apply-plasters-and-other-dressings/",
       "genre": ["Advice or information"],
       "description": "Before applying any dressing, you should wash and dry your hands, and wear disposable surgical gloves if you have them.",
       "mainEntityOfPage": {
@@ -105,7 +109,7 @@
       "@type": "LinkRole",
       "linkRelationship": "Result",
       "name": "How do I apply a bandage?",
-      "url": "https://www.nhs.uk/common-health-questions/accidents-first-aid-and-treatments/how-do-i-apply-a-bandage/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/common-health-questions/accidents-first-aid-and-treatments/how-do-i-apply-a-bandage/",
       "genre": ["Advice or information"],
       "description": "How to correctly apply bandages.",
       "mainEntityOfPage": {
@@ -118,7 +122,7 @@
       "@type": "LinkRole",
       "linkRelationship": "Result",
       "name": "Does my cut need stitches?",
-      "url": "https://www.nhs.uk/common-health-questions/accidents-first-aid-and-treatments/does-my-cut-need-stitches/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/common-health-questions/accidents-first-aid-and-treatments/does-my-cut-need-stitches/",
       "genre": ["Advice or information"],
       "description": "Find out if a cut needs stitches, when to get medical help if you have a cut, and how to control bleeding from minor cuts and grazes.",
       "mainEntityOfPage": {
@@ -131,7 +135,7 @@
       "@type": "LinkRole",
       "linkRelationship": "Result",
       "name": "How should I care for my stitches?",
-      "url": "https://www.nhs.uk/common-health-questions/accidents-first-aid-and-treatments/how-should-i-care-for-my-stitches/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/common-health-questions/accidents-first-aid-and-treatments/how-should-i-care-for-my-stitches/",
       "genre": ["Advice or information"],
       "description": "If you have stitches (sutures), make sure that you keep them clean and dry.",
       "mainEntityOfPage": {
@@ -144,7 +148,7 @@
       "@type": "LinkRole",
       "linkRelationship": "Result",
       "name": "Can I get my stitches wet in the bath or shower?",
-      "url": "https://www.nhs.uk/common-health-questions/accidents-first-aid-and-treatments/can-i-get-my-stitches-sutures-wet-in-the-bath-or-shower/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/common-health-questions/accidents-first-aid-and-treatments/can-i-get-my-stitches-sutures-wet-in-the-bath-or-shower/",
       "genre": ["Advice or information"],
       "description": "Try to keep your stitches (sutures) dry for at least 48 hours after surgery.",
       "mainEntityOfPage": {
@@ -157,7 +161,7 @@
       "@type": "LinkRole",
       "linkRelationship": "Result",
       "name": "How long will my stitches (sutures) take to dissolve?",
-      "url": "https://www.nhs.uk/common-health-questions/accidents-first-aid-and-treatments/how-long-will-my-stitches-sutures-take-to-dissolve/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/common-health-questions/accidents-first-aid-and-treatments/how-long-will-my-stitches-sutures-take-to-dissolve/",
       "genre": ["Advice or information"],
       "description": "NHS information about how long dissolvable or absorbable stitches (sutures) take to disappear.",
       "mainEntityOfPage": {
@@ -170,7 +174,7 @@
       "@type": "LinkRole",
       "linkRelationship": "Result",
       "name": "How do I care for a wound treated with skin glue?",
-      "url": "https://www.nhs.uk/common-health-questions/accidents-first-aid-and-treatments/how-do-i-care-for-a-wound-treated-with-skin-glue/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/common-health-questions/accidents-first-aid-and-treatments/how-do-i-care-for-a-wound-treated-with-skin-glue/",
       "genre": ["Advice or information"],
       "description": "Doctors and nurses sometimes use skin glue to close wounds. There are some simple steps you can take to help your wound heal.",
       "mainEntityOfPage": {
@@ -183,7 +187,7 @@
       "@type": "LinkRole",
       "linkRelationship": "Result",
       "name": "How do I take a temperature?",
-      "url": "https://www.nhs.uk/common-health-questions/accidents-first-aid-and-treatments/how-do-i-take-someones-temperature/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/common-health-questions/accidents-first-aid-and-treatments/how-do-i-take-someones-temperature/",
       "genre": ["Advice or information"],
       "description": "You can take someone's temperature quickly and easily using a thermometer. Make sure the thermometer is clean and you read the manufacturer's instructions first.",
       "mainEntityOfPage": {
@@ -196,7 +200,7 @@
       "@type": "LinkRole",
       "linkRelationship": "Result",
       "name": "How do I check my pulse?",
-      "url": "https://www.nhs.uk/common-health-questions/accidents-first-aid-and-treatments/how-do-i-check-my-pulse/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/common-health-questions/accidents-first-aid-and-treatments/how-do-i-check-my-pulse/",
       "genre": ["Advice or information"],
       "description": "Find how to check your heart rate and pulse and what to do if you think you have an irregular heartbeat.",
       "mainEntityOfPage": {
@@ -209,7 +213,7 @@
       "@type": "LinkRole",
       "linkRelationship": "Result",
       "name": "How do I check someone's pulse?",
-      "url": "https://www.nhs.uk/common-health-questions/accidents-first-aid-and-treatments/how-do-i-check-someones-pulse/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/common-health-questions/accidents-first-aid-and-treatments/how-do-i-check-someones-pulse/",
       "genre": ["Advice or information"],
       "description": "You can normally check a person\u2019s pulse by putting 2 fingers on a vein in their wrist (just underneath the thumb bone) or an artery in their neck (just underneath the jaw).",
       "mainEntityOfPage": {
@@ -222,7 +226,7 @@
       "@type": "LinkRole",
       "linkRelationship": "Result",
       "name": "How do I know if I've broken a bone?",
-      "url": "https://www.nhs.uk/common-health-questions/accidents-first-aid-and-treatments/how-do-i-know-if-i-have-broken-a-bone/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/common-health-questions/accidents-first-aid-and-treatments/how-do-i-know-if-i-have-broken-a-bone/",
       "genre": ["Advice or information"],
       "description": "Broken bones can occur after an accident such as a fall, or by being hit by an object.",
       "mainEntityOfPage": {
@@ -235,7 +239,7 @@
       "@type": "LinkRole",
       "linkRelationship": "Result",
       "name": "How should I care for my plaster cast?",
-      "url": "https://www.nhs.uk/common-health-questions/accidents-first-aid-and-treatments/how-should-i-care-for-my-plaster-cast/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/common-health-questions/accidents-first-aid-and-treatments/how-should-i-care-for-my-plaster-cast/",
       "genre": ["Advice or information"],
       "description": "Find out how to take good care of your cast to help ensure a better recovery from a broken bone.",
       "mainEntityOfPage": {
@@ -248,7 +252,7 @@
       "@type": "LinkRole",
       "linkRelationship": "Result",
       "name": "How should I dispose of used needles or sharps?",
-      "url": "https://www.nhs.uk/common-health-questions/accidents-first-aid-and-treatments/how-should-i-dispose-of-used-needles-or-sharps/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/common-health-questions/accidents-first-aid-and-treatments/how-should-i-dispose-of-used-needles-or-sharps/",
       "genre": ["Advice or information"],
       "description": "Find out how to use a sharps bin, a specially designed rigid box with a lid. Sharps bins are available on prescription (FP10 prescription form) from your GP or pharmacist.",
       "mainEntityOfPage": {
@@ -261,7 +265,7 @@
       "@type": "LinkRole",
       "linkRelationship": "Result",
       "name": "What should I do if I injure myself with a used needle?",
-      "url": "https://www.nhs.uk/common-health-questions/accidents-first-aid-and-treatments/what-should-i-do-if-i-injure-myself-with-a-used-needle/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/common-health-questions/accidents-first-aid-and-treatments/what-should-i-do-if-i-injure-myself-with-a-used-needle/",
       "genre": ["Advice or information"],
       "description": "The healthcare professional treating you will assess the risks to your health and ask about your injury \u2013 for example, how and when it happened or who had used the needle.",
       "mainEntityOfPage": {
@@ -274,7 +278,7 @@
       "@type": "LinkRole",
       "linkRelationship": "Result",
       "name": "What should I do if someone is choking?",
-      "url": "https://www.nhs.uk/common-health-questions/accidents-first-aid-and-treatments/what-should-i-do-if-someone-is-choking/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/common-health-questions/accidents-first-aid-and-treatments/what-should-i-do-if-someone-is-choking/",
       "genre": ["Advice or information"],
       "description": "Find out how to help someone who is choking. You need to assess the situation quickly to see how best you can help.",
       "mainEntityOfPage": {
@@ -287,7 +291,7 @@
       "@type": "LinkRole",
       "linkRelationship": "Result",
       "name": "When can I fly after surgery?",
-      "url": "https://www.nhs.uk/common-health-questions/accidents-first-aid-and-treatments/when-can-i-fly-after-surgery/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/common-health-questions/accidents-first-aid-and-treatments/when-can-i-fly-after-surgery/",
       "genre": ["Advice or information"],
       "description": "Find out about how soon you can fly after different types of surgery.",
       "mainEntityOfPage": {
@@ -300,7 +304,7 @@
       "@type": "LinkRole",
       "linkRelationship": "Result",
       "name": "How long should I wear compression stockings to improve my circulation?",
-      "url": "https://www.nhs.uk/common-health-questions/accidents-first-aid-and-treatments/how-long-should-i-wear-compression-stockings-to-improve-my-circulation/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/common-health-questions/accidents-first-aid-and-treatments/how-long-should-i-wear-compression-stockings-to-improve-my-circulation/",
       "genre": ["Advice or information"],
       "description": "Read advice on how long you will need to wear compression stockings if they're needed to help treat poor circulation.",
       "mainEntityOfPage": {
@@ -313,7 +317,7 @@
       "@type": "LinkRole",
       "linkRelationship": "Result",
       "name": "Do I need a tetanus vaccine after an accident or injury?",
-      "url": "https://www.nhs.uk/common-health-questions/accidents-first-aid-and-treatments/do-i-need-a-tetanus-jab-vaccine-after-an-accident-or-injury/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/common-health-questions/accidents-first-aid-and-treatments/do-i-need-a-tetanus-jab-vaccine-after-an-accident-or-injury/",
       "genre": ["Advice or information"],
       "description": "Find out if you need a tetanus vaccine after an accident or injury. You may need one if your skin is broken and your tetanus vaccinations are not up to date.",
       "mainEntityOfPage": {

@@ -13,7 +13,7 @@
   },
   "about": { "@type": "WebPage", "name": "Caring, carers and long-term conditions", "alternateName": "" },
   "description": "Read common questions about caring, carers and long-term conditions.",
-  "url": "https://www.nhs.uk/common-health-questions/caring-carers-and-long-term-conditions/",
+  "url": "https://api.service.nhs.uk/nhs-website-content/common-health-questions/caring-carers-and-long-term-conditions/",
   "genre": [],
   "keywords": "",
   "dateModified": "2021-11-18T15:59:54+00:00",
@@ -24,13 +24,17 @@
       {
         "@type": "ListItem",
         "position": 0,
-        "item": { "@id": "https://www.nhs.uk/common-health-questions/", "name": "Common health questions", "genre": [] }
+        "item": {
+          "@id": "https://api.service.nhs.uk/nhs-website-content/common-health-questions/",
+          "name": "Common health questions",
+          "genre": []
+        }
       },
       {
         "@type": "ListItem",
         "position": 1,
         "item": {
-          "@id": "https://www.nhs.uk/common-health-questions/caring-carers-and-long-term-conditions/",
+          "@id": "https://api.service.nhs.uk/nhs-website-content/common-health-questions/caring-carers-and-long-term-conditions/",
           "name": "Caring, carers and long-term conditions",
           "genre": []
         }
@@ -41,21 +45,21 @@
   "relatedLink": [
     {
       "@type": "LinkRole",
-      "url": "https://www.nhs.uk/common-health-questions/caring-carers-and-long-term-conditions/?page=1",
+      "url": "https://api.service.nhs.uk/nhs-website-content/common-health-questions/caring-carers-and-long-term-conditions/?page=1",
       "name": "First Page",
       "description": "Link to First Page",
       "linkRelationship": "Pagination"
     },
     {
       "@type": "LinkRole",
-      "url": "https://www.nhs.uk/common-health-questions/caring-carers-and-long-term-conditions/?page=1",
+      "url": "https://api.service.nhs.uk/nhs-website-content/common-health-questions/caring-carers-and-long-term-conditions/?page=1",
       "name": "Last Page",
       "description": "Link to Last Page",
       "linkRelationship": "Pagination"
     },
     {
       "@type": "LinkRole",
-      "url": "https://www.nhs.uk/common-health-questions/caring-carers-and-long-term-conditions/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/common-health-questions/caring-carers-and-long-term-conditions/",
       "name": "Self",
       "description": "Link to nhs.uk Page",
       "linkRelationship": "Self"
@@ -66,7 +70,7 @@
       "@type": "LinkRole",
       "linkRelationship": "Result",
       "name": "When do I need a fit note?",
-      "url": "https://www.nhs.uk/common-health-questions/caring-carers-and-long-term-conditions/when-do-i-need-a-fit-note/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/common-health-questions/caring-carers-and-long-term-conditions/when-do-i-need-a-fit-note/",
       "genre": ["Advice or information"],
       "description": "If you're off work sick for seven days or fewer, your employer should not ask for medical evidence that you've been ill.",
       "mainEntityOfPage": {
@@ -79,7 +83,7 @@
       "@type": "LinkRole",
       "linkRelationship": "Result",
       "name": "Can I get a fit note without seeing a healthcare professional?",
-      "url": "https://www.nhs.uk/common-health-questions/caring-carers-and-long-term-conditions/can-i-get-a-fit-note-without-seeing-a-healthcare-professional/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/common-health-questions/caring-carers-and-long-term-conditions/can-i-get-a-fit-note-without-seeing-a-healthcare-professional/",
       "genre": ["Advice or information"],
       "description": "A fit note must be issued by a healthcare professional, but you do not always need to see a healthcare professional in person to get one.",
       "mainEntityOfPage": {
@@ -92,7 +96,7 @@
       "@type": "LinkRole",
       "linkRelationship": "Result",
       "name": "Can I go back to work before the end date on my fit note?",
-      "url": "https://www.nhs.uk/common-health-questions/caring-carers-and-long-term-conditions/can-i-go-back-to-work-before-the-end-date-on-my-fit-note/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/common-health-questions/caring-carers-and-long-term-conditions/can-i-go-back-to-work-before-the-end-date-on-my-fit-note/",
       "genre": ["Advice or information"],
       "description": "You do not always have to be 100% \"fit\" to be able to do some work. You should go back to work as soon as you feel able to and with your employer's agreement.",
       "mainEntityOfPage": {
@@ -105,7 +109,7 @@
       "@type": "LinkRole",
       "linkRelationship": "Result",
       "name": "Can I speak to a GP about someone else's health?",
-      "url": "https://www.nhs.uk/common-health-questions/caring-carers-and-long-term-conditions/can-i-speak-to-a-gp-about-someone-elses-health/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/common-health-questions/caring-carers-and-long-term-conditions/can-i-speak-to-a-gp-about-someone-elses-health/",
       "genre": ["Advice or information"],
       "description": "If you have consent, you can speak about a friend or relative's health with their GP.",
       "mainEntityOfPage": {
@@ -118,7 +122,7 @@
       "@type": "LinkRole",
       "linkRelationship": "Result",
       "name": "Can I pick up a prescription for someone else?",
-      "url": "https://www.nhs.uk/common-health-questions/caring-carers-and-long-term-conditions/can-i-pick-up-a-prescription-for-someone-else/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/common-health-questions/caring-carers-and-long-term-conditions/can-i-pick-up-a-prescription-for-someone-else/",
       "genre": ["Advice or information"],
       "description": "What you need to know about picking up a prescription on behalf of someone else. The prescription can be either electronic or a paper prescription.",
       "mainEntityOfPage": {

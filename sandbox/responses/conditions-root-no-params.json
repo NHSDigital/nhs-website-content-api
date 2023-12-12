@@ -13,7 +13,7 @@
   },
   "about": { "@type": "WebPage", "name": "Health A to Z", "alternateName": "" },
   "description": "",
-  "url": "https://www.nhs.uk/conditions/",
+  "url": "https://api.service.nhs.uk/nhs-website-content/conditions/",
   "genre": [],
   "keywords": "",
   "dateModified": "2021-11-18T15:26:06+00:00",
@@ -24,7 +24,7 @@
       {
         "@type": "ListItem",
         "position": 0,
-        "item": { "@id": "https://www.nhs.uk/conditions/", "name": "Health A to Z", "genre": [] }
+        "item": { "@id": "https://api.service.nhs.uk/nhs-website-content/conditions/", "name": "Health A to Z", "genre": [] }
       }
     ]
   },
@@ -45,7 +45,7 @@
         "keywords": "",
         "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
       },
-      "url": "https://www.nhs.uk/conditions/acanthosis-nigricans/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/acanthosis-nigricans/",
       "name": "Acanthosis nigricans"
     },
     {
@@ -63,7 +63,7 @@
         "keywords": "",
         "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
       },
-      "url": "https://www.nhs.uk/conditions/achalasia/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/achalasia/",
       "name": "Achalasia"
     },
     {
@@ -81,7 +81,7 @@
         "keywords": "",
         "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
       },
-      "url": "https://www.nhs.uk/conditions/acid-and-chemical-burns/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/acid-and-chemical-burns/",
       "name": "Acid and chemical burns"
     },
     {
@@ -100,7 +100,7 @@
         "alternateName": ["Vestibular schwannoma"],
         "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
       },
-      "url": "https://www.nhs.uk/conditions/acoustic-neuroma/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/acoustic-neuroma/",
       "name": "Acoustic neuroma (vestibular schwannoma)"
     },
     {
@@ -119,7 +119,7 @@
         "alternateName": ["Gigantism"],
         "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
       },
-      "url": "https://www.nhs.uk/conditions/acromegaly/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/acromegaly/",
       "name": "Acromegaly"
     },
     {
@@ -137,7 +137,7 @@
         "keywords": "",
         "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
       },
-      "url": "https://www.nhs.uk/conditions/acr-test/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/acr-test/",
       "name": "Urine albumin to creatinine ratio (ACR)"
     },
     {
@@ -156,7 +156,7 @@
         "alternateName": ["Solar keratoses"],
         "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
       },
-      "url": "https://www.nhs.uk/conditions/actinic-keratoses/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/actinic-keratoses/",
       "name": "Actinic keratoses (solar keratoses)"
     },
     {
@@ -174,7 +174,7 @@
         "keywords": "",
         "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
       },
-      "url": "https://www.nhs.uk/conditions/acupuncture/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/acupuncture/",
       "name": "Acupuncture"
     },
     {
@@ -193,7 +193,7 @@
         "alternateName": ["Gallbladder pain", "Cholecystitis (acute)"],
         "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
       },
-      "url": "https://www.nhs.uk/conditions/acute-cholecystitis/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/acute-cholecystitis/",
       "name": "Acute cholecystitis"
     },
     {
@@ -211,7 +211,7 @@
         "keywords": "",
         "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
       },
-      "url": "https://www.nhs.uk/conditions/acute-kidney-injury/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/acute-kidney-injury/",
       "name": "Acute kidney injury"
     },
     {
@@ -229,7 +229,7 @@
         "keywords": "",
         "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
       },
-      "url": "https://www.nhs.uk/conditions/acute-respiratory-distress-syndrome/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/acute-respiratory-distress-syndrome/",
       "name": "Acute respiratory distress syndrome (ARDS)"
     },
     {
@@ -247,7 +247,7 @@
         "keywords": "",
         "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
       },
-      "url": "https://www.nhs.uk/conditions/adenoidectomy/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/adenoidectomy/",
       "name": "Adenoidectomy"
     },
     {
@@ -266,7 +266,7 @@
         "alternateName": ["Decompression sickness"],
         "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
       },
-      "url": "https://www.nhs.uk/conditions/air-embolism/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/air-embolism/",
       "name": "Air or gas embolism"
     },
     {
@@ -284,7 +284,7 @@
         "keywords": "",
         "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
       },
-      "url": "https://www.nhs.uk/conditions/alcohol-poisoning/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/alcohol-poisoning/",
       "name": "Alcohol poisoning"
     },
     {
@@ -302,7 +302,7 @@
         "keywords": "",
         "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
       },
-      "url": "https://www.nhs.uk/conditions/alexander-technique/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/alexander-technique/",
       "name": "Alexander technique"
     },
     {
@@ -320,7 +320,7 @@
         "keywords": "",
         "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
       },
-      "url": "https://www.nhs.uk/conditions/alkaptonuria/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/alkaptonuria/",
       "name": "Alkaptonuria"
     },
     {
@@ -338,7 +338,7 @@
         "keywords": "",
         "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
       },
-      "url": "https://www.nhs.uk/conditions/amputation/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/amputation/",
       "name": "Amputation"
     },
     {
@@ -356,7 +356,7 @@
         "keywords": "",
         "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
       },
-      "url": "https://www.nhs.uk/conditions/amyloidosis/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/amyloidosis/",
       "name": "Amyloidosis"
     },
     {
@@ -375,7 +375,7 @@
         "alternateName": ["Steroid misuse"],
         "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
       },
-      "url": "https://www.nhs.uk/conditions/anabolic-steroid-misuse/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/anabolic-steroid-misuse/",
       "name": "Anabolic steroid misuse"
     },
     {
@@ -393,7 +393,7 @@
         "keywords": "",
         "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
       },
-      "url": "https://www.nhs.uk/conditions/anaesthesia/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/anaesthesia/",
       "name": "Anaesthesia"
     },
     {
@@ -411,35 +411,35 @@
         "keywords": "",
         "code": [{ "@type": "MedicalCode", "codeValue": "", "codingSystem": "SNOMED-CT" }]
       },
-      "url": "https://www.nhs.uk/conditions/anal-cancer/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/anal-cancer/",
       "name": "Anal cancer"
     }
   ],
   "relatedLink": [
     {
       "@type": "LinkRole",
-      "url": "https://www.nhs.uk/conditions/?page=1",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/?page=1",
       "name": "First Page",
       "description": "Link to First Page",
       "linkRelationship": "Pagination"
     },
     {
       "@type": "LinkRole",
-      "url": "https://www.nhs.uk/conditions/?page=208",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/?page=208",
       "name": "Last Page",
       "description": "Link to Last Page",
       "linkRelationship": "Pagination"
     },
     {
       "@type": "LinkRole",
-      "url": "https://www.nhs.uk/conditions/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/",
       "name": "Self",
       "description": "Link to nhs.uk Page",
       "linkRelationship": "Self"
     },
     {
       "@type": "LinkRole",
-      "url": "https://www.nhs.uk/conditions/?page=2",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/?page=2",
       "name": "Next Page",
       "description": "Link to Next Page",
       "linkRelationship": "Pagination"

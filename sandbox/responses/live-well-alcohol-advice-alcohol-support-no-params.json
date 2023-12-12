@@ -13,7 +13,7 @@
   },
   "about": { "@type": "WebPage", "name": "Alcohol support", "alternateName": "" },
   "description": "Realising you have a problem with alcohol is the first step to getting better, but it's often the hardest one.",
-  "url": "https://www.nhs.uk/live-well/alcohol-advice/alcohol-support/",
+  "url": "https://api.service.nhs.uk/nhs-website-content/live-well/alcohol-advice/alcohol-support/",
   "genre": ["Advice or information"],
   "keywords": "",
   "dateModified": "2022-12-28T10:58:44+00:00",
@@ -25,18 +25,22 @@
       {
         "@type": "ListItem",
         "position": 0,
-        "item": { "@id": "https://www.nhs.uk/live-well/", "name": "Live Well", "genre": [] }
+        "item": { "@id": "https://api.service.nhs.uk/nhs-website-content/live-well/", "name": "Live Well", "genre": [] }
       },
       {
         "@type": "ListItem",
         "position": 1,
-        "item": { "@id": "https://www.nhs.uk/live-well/alcohol-advice/", "name": "Alcohol advice", "genre": [] }
+        "item": {
+          "@id": "https://api.service.nhs.uk/nhs-website-content/live-well/alcohol-advice/",
+          "name": "Alcohol advice",
+          "genre": []
+        }
       },
       {
         "@type": "ListItem",
         "position": 2,
         "item": {
-          "@id": "https://www.nhs.uk/live-well/alcohol-advice/alcohol-support/",
+          "@id": "https://api.service.nhs.uk/nhs-website-content/live-well/alcohol-advice/alcohol-support/",
           "name": "Alcohol support",
           "genre": ["Advice or information"]
         }
@@ -47,42 +51,42 @@
   "relatedLink": [
     {
       "@type": "LinkRole",
-      "url": "https://www.nhs.uk/live-well/alcohol-advice/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/live-well/alcohol-advice/",
       "name": "Alcohol advice",
       "linkRelationship": "Navigation",
       "position": 0
     },
     {
       "@type": "LinkRole",
-      "url": "https://www.nhs.uk/live-well/alcohol-advice/calculating-alcohol-units/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/live-well/alcohol-advice/calculating-alcohol-units/",
       "name": "Alcohol units",
       "linkRelationship": "Navigation",
       "position": 1
     },
     {
       "@type": "LinkRole",
-      "url": "https://www.nhs.uk/live-well/alcohol-advice/alcohol-support/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/live-well/alcohol-advice/alcohol-support/",
       "name": "Alcohol support",
       "linkRelationship": "Navigation",
       "position": 2
     },
     {
       "@type": "LinkRole",
-      "url": "https://www.nhs.uk/live-well/alcohol-advice/calories-in-alcohol/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/live-well/alcohol-advice/calories-in-alcohol/",
       "name": "Calories in alcohol",
       "linkRelationship": "Navigation",
       "position": 3
     },
     {
       "@type": "LinkRole",
-      "url": "https://www.nhs.uk/live-well/alcohol-advice/the-risks-of-drinking-too-much/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/live-well/alcohol-advice/the-risks-of-drinking-too-much/",
       "name": "The risks of drinking too much",
       "linkRelationship": "Navigation",
       "position": 4
     },
     {
       "@type": "LinkRole",
-      "url": "https://www.nhs.uk/live-well/alcohol-advice/tips-on-cutting-down-alcohol/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/live-well/alcohol-advice/tips-on-cutting-down-alcohol/",
       "name": "Tips on cutting down",
       "linkRelationship": "Navigation",
       "position": 5
@@ -210,7 +214,7 @@
         {
           "position": 0,
           "identifier": "1",
-          "text": "<p>Some people are assessed as needing intensive rehabilitation and recovery support for a period after they stop drinking completely, either through attending a programme of intensive support in their local community or by attending a residential rehabilitation service.</p><p>This type of intensive treatment is usually reserved for people with medium or high levels of alcohol dependence, and those who have received other forms of help previously that have not been successful.</p><p>Local authorities are responsible for alcohol treatment services. Intensive residential rehabilitation may require an additional assessment process to determine if there is funding for this.</p><p>It's also possible to pay for residential rehabilitation privately. Medical insurance companies may fund this for a certain period.</p><p>Find out more about <a href=\"/conditions/alcohol-misuse/treatment/\">treatments for alcohol misuse</a>.</p>",
+          "text": "<p>Some people are assessed as needing intensive rehabilitation and recovery support for a period after they stop drinking completely, either through attending a programme of intensive support in their local community or by attending a residential rehabilitation service.</p><p>This type of intensive treatment is usually reserved for people with medium or high levels of alcohol dependence, and those who have received other forms of help previously that have not been successful.</p><p>Local authorities are responsible for alcohol treatment services. Intensive residential rehabilitation may require an additional assessment process to determine if there is funding for this.</p><p>It's also possible to pay for residential rehabilitation privately. Medical insurance companies may fund this for a certain period.</p><p>Find out more about <a href=\"https://www.nhs.uk/conditions/alcohol-misuse/treatment/\">treatments for alcohol misuse</a>.</p>",
           "@type": "WebPageElement",
           "name": "markdown",
           "headline": ""
@@ -221,7 +225,7 @@
         {
           "position": 0,
           "identifier": "1",
-          "text": "<p>Some people are assessed as needing intensive rehabilitation and recovery support for a period after they stop drinking completely, either through attending a programme of intensive support in their local community or by attending a residential rehabilitation service.</p><p>This type of intensive treatment is usually reserved for people with medium or high levels of alcohol dependence, and those who have received other forms of help previously that have not been successful.</p><p>Local authorities are responsible for alcohol treatment services. Intensive residential rehabilitation may require an additional assessment process to determine if there is funding for this.</p><p>It's also possible to pay for residential rehabilitation privately. Medical insurance companies may fund this for a certain period.</p><p>Find out more about <a href=\"/conditions/alcohol-misuse/treatment/\">treatments for alcohol misuse</a>.</p>",
+          "text": "<p>Some people are assessed as needing intensive rehabilitation and recovery support for a period after they stop drinking completely, either through attending a programme of intensive support in their local community or by attending a residential rehabilitation service.</p><p>This type of intensive treatment is usually reserved for people with medium or high levels of alcohol dependence, and those who have received other forms of help previously that have not been successful.</p><p>Local authorities are responsible for alcohol treatment services. Intensive residential rehabilitation may require an additional assessment process to determine if there is funding for this.</p><p>It's also possible to pay for residential rehabilitation privately. Medical insurance companies may fund this for a certain period.</p><p>Find out more about <a href=\"https://www.nhs.uk/conditions/alcohol-misuse/treatment/\">treatments for alcohol misuse</a>.</p>",
           "@type": "WebPageElement",
           "name": "markdown",
           "headline": ""

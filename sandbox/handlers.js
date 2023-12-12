@@ -5,11 +5,13 @@ const log = require('loglevel')
 const errorResourceNotFoundResponse = require('./responses/error-resource-not-found.json')
 const errorSandboxResponseNotFound = require('./responses/error-sandbox-response-not-found.json')
 
+// Common health questions - Responses
 const commonHealthQuestionsRootResponse = require('./responses/common-health-questions-root-no-params.json')
 const commonHealthQuestionsAccidentsFirstAidAndTreatmentsResponse = require('./responses/common-health-questions-accidents-first-aid-and-treatments-no-params.json')
 const commonHealthQuestionsCaringCarersAndLongTermConditionsResponse = require('./responses/common-health-questions-caring-carers-and-long-term-conditions-no-params.json')
 const commonHealthQuestionsChildrensHealthCanMyBabyGoSwimmingBeforeOrAfterVaccinationsResponse = require('./responses/common-health-questions-childrens-health-can-my-baby-go-swimming-before-or-after-vaccinations-no-params.json')
 
+// Conditions - Responses
 const conditionsRootNoParamsResponse = require('./responses/conditions-root-no-params.json')
 const conditionsAcanthosisNigricansResponse = require('./responses/conditions-acanthosis-nigricans-no-params.json')
 const conditionsAchalasiaResponse = require('./responses/conditions-achalasia-no-params.json')
@@ -30,11 +32,13 @@ const conditionsWildcardResponseNoParams = require('./responses/conditions-acne-
 const conditionsWildcardModulesTrueResponse = require('./responses/conditions-acne-modules-true.json')
 const conditionsZikaResponse = require('./responses/conditions-zika-no-params.json')
 
+// Live Well - Responses
 const liveWellRootResponse = require('./responses/live-well-root-no-params.json')
 const liveWellAlcoholAdviceAlcoholSupportResponse = require('./responses/live-well-alcohol-advice-alcohol-support-no-params.json')
 const liveWellExerciseResponse = require('./responses/live-well-exercise-no-params.json')
 const liveWellHealthyWeightResponse = require('./responses/live-well-healthy-weight-no-params.json')
 
+// Medicines - Responses
 const medicinesRootNoParamsResponse = require('./responses/medicines-root-no-params.json')
 const medicinesAciclovirResponse = require('./responses/medicines-aciclovir-no-params.json')
 const medicinesAcrivastineNoParamsResponse = require('./responses/medicines-acrivastine-no-params.json')
@@ -48,16 +52,19 @@ const medicinesWildcardNoParamsResponse = require('./responses/medicines-acrivas
 const medicinesWildcardModulesTrueResponse = require('./responses/medicines-acrivastine-modules-true.json')
 const medicinesZopicloneResponse = require('./responses/medicines-zopiclone-no-params.json')
 
+// Mental health - Responses
 const mentalHealthRootResponse = require('./responses/mental-health-root-no-params.json')
 const mentalHealthAdviceForLifeSituationsAndEventsSupportForWorkplaceBullyingResponse = require('./responses/mental-health-advice-for-life-situations-and-events-support-for-workplace-bullying-no-params.json')
 const mentalHealthConditionsResponse = require('./responses/mental-health-conditions-no-params.json')
 const mentalHealthFeelingsSymptomsBehavioursResponse = require('./responses/mental-health-feelings-symptoms-behaviours-no-params.json')
 
+// NHS services - Responses
 const nhsServicesRootResponse = require('./responses/nhs-services-root-no-params.json')
 const nhsServicesGpsHowToRegisterWithAGpSurgeryResponse = require('./responses/nhs-services-gps-how-to-register-with-a-gp-surgery-no-params.json')
 const nhsServicesGpsResponse = require('./responses/nhs-services-gps-no-params.json')
 const nhsServicesPrescriptionsAndPharmaciesResponse = require('./responses/nhs-services-prescriptions-and-pharmacies-no-params.json')
 
+// Pregnancy - Responses
 const pregnancyRootResponse = require('./responses/pregnancy-root-no-params.json')
 const pregnancyFindingOutFindingOutYouArePregnantResponse = require('./responses/pregnancy-finding-out-finding-out-you-are-pregnant-no-params.json')
 const pregnancyHavingABabyIfYouAreLgbtPlusResponse = require('./responses/pregnancy-having-a-baby-if-you-are-lgbt-plus-no-params.json')
