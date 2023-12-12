@@ -91,7 +91,7 @@
         "dateModified": "2022-08-16T12:47:57+00:00",
         "keywords": ""
       },
-      "url": "https://api.nhs.uk/mental-health/conditions/anorexia/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/mental-health/conditions/anorexia/",
       "name": "Anorexia nervosa"
     },
     {
@@ -108,7 +108,7 @@
         "reviewDue": "2024-12-23T15:40:00+00:00",
         "keywords": ""
       },
-      "url": "https://api.nhs.uk/mental-health/conditions/antisocial-personality-disorder/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/mental-health/conditions/antisocial-personality-disorder/",
       "name": "Antisocial personality disorder"
     },
     {
@@ -123,7 +123,7 @@
         "dateModified": "2022-03-29T10:14:46+00:00",
         "keywords": ""
       },
-      "url": "https://api.nhs.uk/mental-health/conditions/agoraphobia/",
+      "url": "https://api.service.nhs.uk/nhs-website-content/mental-health/conditions/agoraphobia/",
       "name": "Agoraphobia"
     }
   ]

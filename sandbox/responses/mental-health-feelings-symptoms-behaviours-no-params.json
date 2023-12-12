@@ -13,7 +13,7 @@
   },
   "about": { "@type": "WebPage", "name": "Feelings, symptoms and behaviours", "alternateName": "" },
   "description": "Find information about feelings and symptoms that can affect your mental health.",
-  "url": "https://www.nhs.uk/mental-health/feelings-symptoms-behaviours/",
+  "url": "https://api.service.nhs.uk/nhs-website-content/mental-health/feelings-symptoms-behaviours/",
   "genre": [],
   "keywords": "",
   "dateModified": "2021-11-18T16:17:21+00:00",
@@ -21,7 +21,7 @@
     {
       "@type": "HealthTopicContent",
       "hasHealthAspect": "http://schema.org/SymptomsHealthAspect",
-      "url": "https://www.nhs.uk/mental-health/feelings-symptoms-behaviours/behaviours/eating-disorders/overview/#symptoms",
+      "url": "https://api.service.nhs.uk/nhs-website-content/mental-health/feelings-symptoms-behaviours/behaviours/eating-disorders/overview/#symptoms",
       "description": "Symptoms of an eating disorder include worrying about your weight, eating too little or making yourself sick after eating.",
       "hasPart": [
         {
@@ -35,7 +35,7 @@
     {
       "@type": "HealthTopicContent",
       "hasHealthAspect": "http://schema.org/TreatmentsHealthAspect",
-      "url": "https://www.nhs.uk/mental-health/feelings-symptoms-behaviours/behaviours/eating-disorders/overview/#medical-treatments",
+      "url": "https://api.service.nhs.uk/nhs-website-content/mental-health/feelings-symptoms-behaviours/behaviours/eating-disorders/overview/#medical-treatments",
       "description": "Treatment for an eating disorder depends on the type of condition you have. It usually involves talking therapy.",
       "hasPart": [
         {
@@ -49,7 +49,7 @@
     {
       "@type": "HealthTopicContent",
       "hasHealthAspect": "http://schema.org/CausesHealthAspect",
-      "url": "https://www.nhs.uk/mental-health/feelings-symptoms-behaviours/behaviours/eating-disorders/overview/#causes",
+      "url": "https://api.service.nhs.uk/nhs-website-content/mental-health/feelings-symptoms-behaviours/behaviours/eating-disorders/overview/#causes",
       "description": "Anyone can get an eating disorder but things that make it more likely include family problems, depression or dealing with difficult things like death.",
       "hasPart": [
         {
@@ -68,13 +68,13 @@
       {
         "@type": "ListItem",
         "position": 0,
-        "item": { "@id": "https://www.nhs.uk/mental-health/", "name": "Mental health", "genre": [] }
+        "item": { "@id": "https://api.service.nhs.uk/nhs-website-content/mental-health/", "name": "Mental health", "genre": [] }
       },
       {
         "@type": "ListItem",
         "position": 1,
         "item": {
-          "@id": "https://www.nhs.uk/mental-health/feelings-symptoms-behaviours/",
+          "@id": "https://api.service.nhs.uk/nhs-website-content/mental-health/feelings-symptoms-behaviours/",
           "name": "Feelings, symptoms and behaviours",
           "genre": []
         }
@@ -94,7 +94,7 @@
         {
           "@type": "WebPageElement",
           "headline": "Get urgent help now for mental health",
-          "url": "https://www.nhs.uk/mental-health/get-urgent-help-for-mental-health/",
+          "url": "https://api.service.nhs.uk/nhs-website-content/mental-health/get-urgent-help-for-mental-health/",
           "identifier": "26",
           "text": "",
           "name": "link"
@@ -102,7 +102,7 @@
         {
           "@type": "WebPageElement",
           "headline": "Help for suicidal thoughts",
-          "url": "https://www.nhs.uk/mental-health/feelings-symptoms-behaviours/behaviours/help-for-suicidal-thoughts/",
+          "url": "https://api.service.nhs.uk/nhs-website-content/mental-health/feelings-symptoms-behaviours/behaviours/help-for-suicidal-thoughts/",
           "identifier": "26",
           "text": "",
           "name": "link"
@@ -119,7 +119,7 @@
         {
           "@type": "WebPageElement",
           "headline": "Feelings and symptoms",
-          "url": "https://www.nhs.uk/mental-health/feelings-symptoms-behaviours/feelings-and-symptoms/",
+          "url": "https://api.service.nhs.uk/nhs-website-content/mental-health/feelings-symptoms-behaviours/feelings-and-symptoms/",
           "identifier": "26",
           "text": "<p>Read about feelings and symptoms related to mental health problems, including:<br/></p><ul><li>feelings and symptoms that can affect everyday life</li><li>feelings and symptoms caused by life events</li><li>feelings and symptoms in younger and older people</li></ul>",
           "name": "link"
@@ -127,7 +127,7 @@
         {
           "@type": "WebPageElement",
           "headline": "Behaviours",
-          "url": "https://www.nhs.uk/mental-health/feelings-symptoms-behaviours/behaviours/",
+          "url": "https://api.service.nhs.uk/nhs-website-content/mental-health/feelings-symptoms-behaviours/behaviours/",
           "identifier": "26",
           "text": "<p>Read about behaviours related to mental health problems, including:</p><ul><li>understanding and getting help for mental health behaviours</li><li>understanding behaviours in young people</li></ul>",
           "name": "link"

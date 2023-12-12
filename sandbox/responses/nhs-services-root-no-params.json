@@ -13,7 +13,7 @@
   },
   "about": { "@type": "WebPage", "name": "NHS services", "alternateName": "" },
   "description": "",
-  "url": "https://www.nhs.uk/nhs-services/",
+  "url": "https://api.service.nhs.uk/nhs-website-content/nhs-services/",
   "genre": [],
   "keywords": "",
   "dateModified": "2023-09-18T08:47:15+00:00",
@@ -25,7 +25,7 @@
       {
         "@type": "ListItem",
         "position": 0,
-        "item": { "@id": "https://www.nhs.uk/nhs-services/", "name": "NHS services", "genre": [] }
+        "item": { "@id": "https://api.service.nhs.uk/nhs-website-content/nhs-services/", "name": "NHS services", "genre": [] }
       }
     ]
   },
@@ -42,7 +42,7 @@
         {
           "@type": "WebPageElement",
           "headline": "Book or manage a COVID-19 vaccination",
-          "url": "https://www.nhs.uk/nhs-services/covid-19-services/covid-19-vaccination-services/book-covid-19-vaccination/",
+          "url": "https://api.service.nhs.uk/nhs-website-content/nhs-services/covid-19-services/covid-19-vaccination-services/book-covid-19-vaccination/",
           "identifier": "26",
           "text": "",
           "name": "link"
@@ -50,7 +50,7 @@
         {
           "@type": "WebPageElement",
           "headline": "Find a pharmacy that offers NHS flu vaccination",
-          "url": "https://www.nhs.uk/nhs-services/prescriptions-and-pharmacies/pharmacy-nhs-flu-vaccine-service/",
+          "url": "https://api.service.nhs.uk/nhs-website-content/nhs-services/prescriptions-and-pharmacies/pharmacy-nhs-flu-vaccine-service/",
           "identifier": "26",
           "text": "",
           "name": "link"
@@ -58,7 +58,7 @@
         {
           "@type": "WebPageElement",
           "headline": "Order a repeat prescription",
-          "url": "https://www.nhs.uk/nhs-services/online-services/how-to-order-a-repeat-prescription/",
+          "url": "https://api.service.nhs.uk/nhs-website-content/nhs-services/online-services/how-to-order-a-repeat-prescription/",
           "identifier": "26",
           "text": "",
           "name": "link"
@@ -75,7 +75,7 @@
         {
           "@type": "WebPageElement",
           "headline": "GPs",
-          "url": "https://www.nhs.uk/nhs-services/gps/",
+          "url": "https://api.service.nhs.uk/nhs-website-content/nhs-services/gps/",
           "identifier": "26",
           "text": "<p data-block-key=\"qwcyg\">About GP services, including how to find and register with a local GP and how to book an appointment</p>",
           "name": "link"
@@ -83,7 +83,7 @@
         {
           "@type": "WebPageElement",
           "headline": "Prescriptions and pharmacies",
-          "url": "https://www.nhs.uk/nhs-services/prescriptions-and-pharmacies/",
+          "url": "https://api.service.nhs.uk/nhs-website-content/nhs-services/prescriptions-and-pharmacies/",
           "identifier": "26",
           "text": "<p data-block-key=\"r0sca\">Order repeat prescriptions, find out about prescription charges and how pharmacists can help you with medicines and medical advice</p>",
           "name": "link"
@@ -91,7 +91,7 @@
         {
           "@type": "WebPageElement",
           "headline": "Hospitals",
-          "url": "https://www.nhs.uk/nhs-services/hospitals/",
+          "url": "https://api.service.nhs.uk/nhs-website-content/nhs-services/hospitals/",
           "identifier": "26",
           "text": "<p data-block-key=\"barcd\">About NHS hospitals, booking and changing appointments with the NHS e-Referral Service and going into hospital</p>",
           "name": "link"
@@ -99,7 +99,7 @@
         {
           "@type": "WebPageElement",
           "headline": "Mental health services",
-          "url": "https://www.nhs.uk/nhs-services/mental-health-services/",
+          "url": "https://api.service.nhs.uk/nhs-website-content/nhs-services/mental-health-services/",
           "identifier": "26",
           "text": "<p data-block-key=\"qzh8w\">Find out how to access NHS mental health services and where to get urgent help</p>",
           "name": "link"
@@ -107,7 +107,7 @@
         {
           "@type": "WebPageElement",
           "headline": "Visiting or moving to England",
-          "url": "https://www.nhs.uk/nhs-services/visiting-or-moving-to-england/",
+          "url": "https://api.service.nhs.uk/nhs-website-content/nhs-services/visiting-or-moving-to-england/",
           "identifier": "26",
           "text": "<p data-block-key=\"9xa8i\">Advice about using the NHS if you&#x27;re planning to visit or move to England</p>",
           "name": "link"
@@ -115,7 +115,7 @@
         {
           "@type": "WebPageElement",
           "headline": "COVID-19 services",
-          "url": "https://www.nhs.uk/nhs-services/covid-19-services/",
+          "url": "https://api.service.nhs.uk/nhs-website-content/nhs-services/covid-19-services/",
           "identifier": "26",
           "text": "<p data-block-key=\"5vseh\">Find out more about COVID-19 services including vaccination services, testing, the NHS COVID Pass, NHS 119 and research.</p>",
           "name": "link"
@@ -132,7 +132,7 @@
         {
           "@type": "WebPageElement",
           "headline": "Urgent and emergency care services",
-          "url": "https://www.nhs.uk/nhs-services/urgent-and-emergency-care-services/",
+          "url": "https://api.service.nhs.uk/nhs-website-content/nhs-services/urgent-and-emergency-care-services/",
           "identifier": "26",
           "text": "<p data-block-key=\"eyh8w\">Services the NHS provides if you need urgent or emergency medical help</p>",
           "name": "link"
@@ -140,7 +140,7 @@
         {
           "@type": "WebPageElement",
           "headline": "Sexual health services",
-          "url": "https://www.nhs.uk/nhs-services/sexual-health-services/",
+          "url": "https://api.service.nhs.uk/nhs-website-content/nhs-services/sexual-health-services/",
           "identifier": "26",
           "text": "<p data-block-key=\"7x8cr\">Information about NHS sexual health services</p>",
           "name": "link"
@@ -148,7 +148,7 @@
         {
           "@type": "WebPageElement",
           "headline": "Help with health costs",
-          "url": "https://www.nhs.uk/nhs-services/help-with-health-costs/",
+          "url": "https://api.service.nhs.uk/nhs-website-content/nhs-services/help-with-health-costs/",
           "identifier": "26",
           "text": "<p data-block-key=\"ntzzz\">Find out about when you need to pay, help when on universal credit, travel costs and personal health budgets</p>",
           "name": "link"
@@ -156,7 +156,7 @@
         {
           "@type": "WebPageElement",
           "headline": "Dentists",
-          "url": "https://www.nhs.uk/nhs-services/dentists/",
+          "url": "https://api.service.nhs.uk/nhs-website-content/nhs-services/dentists/",
           "identifier": "26",
           "text": "<p data-block-key=\"dxt1g\">About NHS dental services, how to find an NHS dentist and how much treatment costs</p>",
           "name": "link"
@@ -164,7 +164,7 @@
         {
           "@type": "WebPageElement",
           "headline": "Opticians and sight tests",
-          "url": "https://www.nhs.uk/nhs-services/opticians/",
+          "url": "https://api.service.nhs.uk/nhs-website-content/nhs-services/opticians/",
           "identifier": "26",
           "text": "<p data-block-key=\"mfcnk\">Find an opticians and see if you are entitled to free NHS eye tests</p>",
           "name": "link"
@@ -172,7 +172,7 @@
         {
           "@type": "WebPageElement",
           "headline": "Alcohol addiction",
-          "url": "https://www.nhs.uk/nhs-services/find-alcohol-addiction-support-services/",
+          "url": "https://api.service.nhs.uk/nhs-website-content/nhs-services/find-alcohol-addiction-support-services/",
           "identifier": "26",
           "text": "<p data-block-key=\"f58or\">Find services to help you stop or reduce your drinking</p>",
           "name": "link"
@@ -180,7 +180,7 @@
         {
           "@type": "WebPageElement",
           "headline": "Healthcare for the armed forces community",
-          "url": "https://www.nhs.uk/nhs-services/armed-forces-and-veterans-healthcare/",
+          "url": "https://api.service.nhs.uk/nhs-website-content/nhs-services/armed-forces-and-veterans-healthcare/",
           "identifier": "26",
           "text": "<p data-block-key=\"qgm1c\">Find information for the armed forces community, including veterans, serving personnel, reservists and their families</p>",
           "name": "link"
@@ -188,7 +188,7 @@
         {
           "@type": "WebPageElement",
           "headline": "Online services",
-          "url": "https://www.nhs.uk/nhs-services/online-services/",
+          "url": "https://api.service.nhs.uk/nhs-website-content/nhs-services/online-services/",
           "identifier": "26",
           "text": "<p data-block-key=\"i7q89\">Get your NHS number and find out how to order repeat prescriptions using an app or website</p>",
           "name": "link"
@@ -196,7 +196,7 @@
         {
           "@type": "WebPageElement",
           "headline": "How to find an NHS gender dysphoria clinic",
-          "url": "https://www.nhs.uk/nhs-services/how-to-find-an-nhs-gender-identity-clinic/",
+          "url": "https://api.service.nhs.uk/nhs-website-content/nhs-services/how-to-find-an-nhs-gender-identity-clinic/",
           "identifier": "26",
           "text": "<p data-block-key=\"365nj\">Find information about gender dysphoria clinics (GDCs) in England</p>",
           "name": "link"
@@ -204,7 +204,7 @@
         {
           "@type": "WebPageElement",
           "headline": "Getting medical care as a student",
-          "url": "https://www.nhs.uk/nhs-services/getting-medical-care-as-a-student/",
+          "url": "https://api.service.nhs.uk/nhs-website-content/nhs-services/getting-medical-care-as-a-student/",
           "identifier": "26",
           "text": "<p data-block-key=\"00hqa\">Find information about looking after your health as a student, including registering with a GP and getting contraception</p>",
           "name": "link"

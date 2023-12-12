@@ -13,7 +13,7 @@
   },
   "about": { "@type": "WebPage", "name": "Prescriptions and pharmacies", "alternateName": "" },
   "description": "Order repeat prescriptions, find prescription charges and learn how pharmacists can help you with medicines and medical advice.",
-  "url": "https://www.nhs.uk/nhs-services/prescriptions-and-pharmacies/",
+  "url": "https://api.service.nhs.uk/nhs-website-content/nhs-services/prescriptions-and-pharmacies/",
   "genre": [],
   "keywords": "",
   "dateModified": "2023-03-14T13:03:26+00:00",
@@ -25,13 +25,13 @@
       {
         "@type": "ListItem",
         "position": 0,
-        "item": { "@id": "https://www.nhs.uk/nhs-services/", "name": "NHS services", "genre": [] }
+        "item": { "@id": "https://api.service.nhs.uk/nhs-website-content/nhs-services/", "name": "NHS services", "genre": [] }
       },
       {
         "@type": "ListItem",
         "position": 1,
         "item": {
-          "@id": "https://www.nhs.uk/nhs-services/prescriptions-and-pharmacies/",
+          "@id": "https://api.service.nhs.uk/nhs-website-content/nhs-services/prescriptions-and-pharmacies/",
           "name": "Prescriptions and pharmacies",
           "genre": []
         }
@@ -51,7 +51,7 @@
         {
           "@type": "WebPageElement",
           "headline": "Electronic prescriptions",
-          "url": "https://www.nhs.uk/nhs-services/prescriptions-and-pharmacies/electronic-prescriptions/",
+          "url": "https://api.service.nhs.uk/nhs-website-content/nhs-services/prescriptions-and-pharmacies/electronic-prescriptions/",
           "identifier": "26",
           "text": "",
           "name": "link"
@@ -59,7 +59,7 @@
         {
           "@type": "WebPageElement",
           "headline": "Who can get free prescriptions",
-          "url": "https://www.nhs.uk/nhs-services/prescriptions-and-pharmacies/who-can-get-free-prescriptions/",
+          "url": "https://api.service.nhs.uk/nhs-website-content/nhs-services/prescriptions-and-pharmacies/who-can-get-free-prescriptions/",
           "identifier": "26",
           "text": "",
           "name": "link"
@@ -67,7 +67,7 @@
         {
           "@type": "WebPageElement",
           "headline": "NHS prescription charges",
-          "url": "https://www.nhs.uk/nhs-services/prescriptions-and-pharmacies/nhs-prescription-charges/",
+          "url": "https://api.service.nhs.uk/nhs-website-content/nhs-services/prescriptions-and-pharmacies/nhs-prescription-charges/",
           "identifier": "26",
           "text": "",
           "name": "link"
@@ -75,7 +75,7 @@
         {
           "@type": "WebPageElement",
           "headline": "Save money with a prescription prepayment certificate (PPC)",
-          "url": "https://www.nhs.uk/nhs-services/prescriptions-and-pharmacies/save-money-with-a-prescription-prepayment-certificate-ppc/",
+          "url": "https://api.service.nhs.uk/nhs-website-content/nhs-services/prescriptions-and-pharmacies/save-money-with-a-prescription-prepayment-certificate-ppc/",
           "identifier": "26",
           "text": "",
           "name": "link"
@@ -83,7 +83,7 @@
         {
           "@type": "WebPageElement",
           "headline": "Pharmacies",
-          "url": "https://www.nhs.uk/nhs-services/prescriptions-and-pharmacies/pharmacies/",
+          "url": "https://api.service.nhs.uk/nhs-website-content/nhs-services/prescriptions-and-pharmacies/pharmacies/",
           "identifier": "26",
           "text": "",
           "name": "link"
@@ -91,7 +91,7 @@
         {
           "@type": "WebPageElement",
           "headline": "Find a pharmacy that offers NHS flu vaccination",
-          "url": "https://www.nhs.uk/nhs-services/prescriptions-and-pharmacies/pharmacy-nhs-flu-vaccine-service/",
+          "url": "https://api.service.nhs.uk/nhs-website-content/nhs-services/prescriptions-and-pharmacies/pharmacy-nhs-flu-vaccine-service/",
           "identifier": "26",
           "text": "",
           "name": "link"
@@ -99,7 +99,7 @@
         {
           "@type": "WebPageElement",
           "headline": "Find a pharmacy that offers free blood pressure checks",
-          "url": "https://www.nhs.uk/nhs-services/prescriptions-and-pharmacies/find-a-pharmacy-that-offers-free-blood-pressure-checks/",
+          "url": "https://api.service.nhs.uk/nhs-website-content/nhs-services/prescriptions-and-pharmacies/find-a-pharmacy-that-offers-free-blood-pressure-checks/",
           "identifier": "26",
           "text": "",
           "name": "link"
@@ -133,7 +133,7 @@
         {
           "@type": "WebPageElement",
           "headline": "How to order a repeat prescription",
-          "url": "https://www.nhs.uk/nhs-services/online-services/how-to-order-a-repeat-prescription/",
+          "url": "https://api.service.nhs.uk/nhs-website-content/nhs-services/online-services/how-to-order-a-repeat-prescription/",
           "identifier": "26",
           "text": "",
           "name": "link"
@@ -141,7 +141,7 @@
         {
           "@type": "WebPageElement",
           "headline": "Coronavirus (COVID-19) vaccine",
-          "url": "https://www.nhs.uk/conditions/coronavirus-covid-19/coronavirus-vaccination/coronavirus-vaccine/",
+          "url": "https://api.service.nhs.uk/nhs-website-content/conditions/coronavirus-covid-19/coronavirus-vaccination/coronavirus-vaccine/",
           "identifier": "26",
           "text": "",
           "name": "link"
