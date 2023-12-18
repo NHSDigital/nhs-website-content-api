@@ -21,8 +21,12 @@ info:
       * [find services near you](https://www.nhs.uk/nhs-services/services-near-you/)
       * get Ratings and Reviews of NHS services.
 
+    Pick a page from one of these sections on the [NHS website](https://www.nhs.uk/). 
+    Make a note of the path in the page URL (the bit that appears after '`https://www.nhs.uk/`'). 
+    You can then use this path to make API calls to the 'Integration test' environment and the 'Production' environment like so ...\n\n**Integration test environment**\n\n`https://int.api.service.nhs.uk/nhs-website-content/YOUR_PATH_GOES_HERE`\n\n**Production environment**\n\n`https://api.service.nhs.uk/nhs-website-content/YOUR_PATH_GOES_HERE`
+
     ## Who can use this API
-    Anyone can use this API for any purpose, so long as they include an [attribution](#overview--attribution) as outlined below.
+    Anyone can use this API for any purpose, so long as they have agreed to the [Online connection agreement](https://digital.nhs.uk/developer/guides-and-documentation/online-connection-agreement) during the [onboarding process](https://digital.nhs.uk/developer/guides-and-documentation/onboarding-process) and they include an [attribution](#overview--attribution) as outlined below.
 
     ## Attribution
     Any syndicated content must incorporate the following attribution (credit) to the NHS website:
@@ -46,6 +50,11 @@ info:
     ```
     <p>From <a href="https://www.nhs.uk/" target="_blank">www.nhs.uk<a/></p>
     ```
+
+    ## Modularised content
+    The standard content available through our syndication service is based on the full pages on the NHS website. With our modularised content, you can instead choose to use shorter, more specific sections of content (called “modules”) from our pages. This means you can show your users only the content that’s most relevant to them. You can also use this content more easily in services like apps and voice assistants.
+
+    For more details see [Modularised NHS content](https://digital.nhs.uk/developer/api-catalogue/nhs-website-content/modularised-nhs-content#about-our-modularised-content).
 
     ## API status
     This API has moved from the [NHS website developer portal](https://developer.api.nhs.uk/). 
@@ -109,9 +118,22 @@ info:
     For more details see [integration testing with our RESTful APIs](https://digital.nhs.uk/developer/guides-and-documentation/testing#integration-testing-with-our-restful-apis).
 
     ## Onboarding
-    The onboarding journey for this API is currently in development.
+    You need to get your software approved by us before it can go live with this API. We call this onboarding.
 
-    Additional onboarding information exists on the [developer hub](https://digital.nhs.uk//developer/api-catalogue/nhs-syndicated-content/onboarding-support-information).
+    The [onboarding process](https://digital.nhs.uk/developer/guides-and-documentation/onboarding-process) for this API is currently in development.
+
+    During this process you will be asked agree to the [Online connection agreement](https://digital.nhs.uk/developer/guides-and-documentation/online-connection-agreement).
+
+    ## Caching
+    Caching of all responses from the NHS website content API is recommended, and you should do so where possible, unless otherwise notified to you by NHS Digital. The cached data should be refreshed no less than once every 7 days. If instructed to refresh cached NHS website content, you must do so immediately.
+
+    ## Usage caps
+    Calls to this API are rate limited as follows:
+    | Environment       | Rate limit                      |
+    | ----------------- | ------------------------------- |
+    | Sandbox           | 60 requests per minute          |
+    | Integration test  | 10 requests per minute          |
+    | Production        | 6000 requests per minute        |
 
   contact:
     name: "NHS Website Content API v2 Support"
