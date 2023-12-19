@@ -22,8 +22,17 @@ info:
       * get Ratings and Reviews of NHS services.
 
     Pick a page from one of these sections on the [NHS website](https://www.nhs.uk/). 
-    Make a note of the path in the page URL (the bit that appears after '`https://www.nhs.uk/`'). 
-    You can then use this path to make API calls to the 'Integration test' environment and the 'Production' environment like so ...\n\n**Integration test environment**\n\n`https://int.api.service.nhs.uk/nhs-website-content/YOUR_PATH_GOES_HERE`\n\n**Production environment**\n\n`https://api.service.nhs.uk/nhs-website-content/YOUR_PATH_GOES_HERE`
+    Make a note of the path in the page URL (the bit that appears after '`https://www.nhs.uk/`').
+
+    You can then use this path to make API calls to the 'Integration test' environment and the 'Production' environment like so &hellip;
+
+    **Integration test environment**
+
+    `https://int.api.service.nhs.uk/nhs-website-content/YOUR_PATH_GOES_HERE`
+
+    **Production environment**
+
+    `https://api.service.nhs.uk/nhs-website-content/YOUR_PATH_GOES_HERE`
 
     ## Who can use this API
     Anyone can use this API for any purpose, so long as they have agreed to the [Online connection agreement](https://digital.nhs.uk/developer/guides-and-documentation/online-connection-agreement) during the [onboarding process](https://digital.nhs.uk/developer/guides-and-documentation/onboarding-process) and they include an [attribution](#overview--attribution) as outlined below.
