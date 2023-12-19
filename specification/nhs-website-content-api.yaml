@@ -11,18 +11,22 @@ info:
     You can reuse the content from the following sections of the NHS website:
       * [Health A to Z (conditions)](https://www.nhs.uk/conditions/)
       * [Medicines A to Z](https://www.nhs.uk/medicines/)
-      * [Pregnancy](https://www.nhs.uk/pregnancy/)
       * [Mental health](https://www.nhs.uk/mental-health/)
       * [Live Well](https://www.nhs.uk/live-well/)
-      * [Common health questions](https://www.nhs.uk/common-health-questions/)
-      * [NHS services](https://www.nhs.uk/nhs-services/).
+      * [Pregnancy](https://www.nhs.uk/pregnancy/)
+      * [NHS services](https://www.nhs.uk/nhs-services/)
+      * [Common health questions](https://www.nhs.uk/common-health-questions/).
 
     You cannot use this API to:
       * [find services near you](https://www.nhs.uk/nhs-services/services-near-you/)
       * get Ratings and Reviews of NHS services.
 
+    Pick a page from one of these sections on the [NHS website](https://www.nhs.uk/). 
+    Make a note of the path in the page URL (the bit that appears after '`https://www.nhs.uk/`'). 
+    You can then use this path to make API calls to the 'Integration test' environment and the 'Production' environment like so ...\n\n**Integration test environment**\n\n`https://int.api.service.nhs.uk/nhs-website-content/YOUR_PATH_GOES_HERE`\n\n**Production environment**\n\n`https://api.service.nhs.uk/nhs-website-content/YOUR_PATH_GOES_HERE`
+
     ## Who can use this API
-    Anyone can use this API for any purpose, so long as they include an [attribution](#overview--attribution) as outlined below.
+    Anyone can use this API for any purpose, so long as they have agreed to the [Online connection agreement](https://digital.nhs.uk/developer/guides-and-documentation/online-connection-agreement) during the [onboarding process](https://digital.nhs.uk/developer/guides-and-documentation/onboarding-process) and they include an [attribution](#overview--attribution) as outlined below.
 
     ## Attribution
     Any syndicated content must incorporate the following attribution (credit) to the NHS website:
@@ -46,6 +50,11 @@ info:
     ```
     <p>From <a href="https://www.nhs.uk/" target="_blank">www.nhs.uk<a/></p>
     ```
+
+    ## Modularised content
+    The standard content available through our syndication service is based on the full pages on the NHS website. With our modularised content, you can instead choose to use shorter, more specific sections of content (called “modules”) from our pages. This means you can show your users only the content that’s most relevant to them. You can also use this content more easily in services like apps and voice assistants.
+
+    For more details see [Modularised NHS content](https://digital.nhs.uk/developer/api-catalogue/nhs-website-content/modularised-nhs-content#about-our-modularised-content).
 
     ## API status
     This API has moved from the [NHS website developer portal](https://developer.api.nhs.uk/). 
@@ -85,6 +94,7 @@ info:
     | Environment       | Base URL                                                               |
     | ----------------- | ---------------------------------------------------------------------- |
     | Sandbox           | `https://sandbox.api.service.nhs.uk/nhs-website-content/`              |
+    | Development       |  Not used                                                              |
     | Integration test  | `https://int.api.service.nhs.uk/nhs-website-content/`                  |
     | Production        |  Not available yet                                                     |
 
@@ -108,9 +118,22 @@ info:
     For more details see [integration testing with our RESTful APIs](https://digital.nhs.uk/developer/guides-and-documentation/testing#integration-testing-with-our-restful-apis).
 
     ## Onboarding
-    The onboarding journey for this API is currently in development.
+    You need to get your software approved by us before it can go live with this API. We call this onboarding.
 
-    Additional onboarding information exists on the [developer hub](https://digital.nhs.uk//developer/api-catalogue/nhs-syndicated-content/onboarding-support-information).
+    The [onboarding process](https://digital.nhs.uk/developer/guides-and-documentation/onboarding-process) for this API is currently in development.
+
+    During this process you will be asked agree to the [Online connection agreement](https://digital.nhs.uk/developer/guides-and-documentation/online-connection-agreement).
+
+    ## Caching
+    Caching of all responses from the NHS website content API is recommended, and you should do so where possible, unless otherwise notified to you by NHS Digital. The cached data should be refreshed no less than once every 7 days. If instructed to refresh cached NHS website content, you must do so immediately.
+
+    ## Usage caps
+    Calls to this API are rate limited as follows:
+    | Environment       | Rate limit                      |
+    | ----------------- | ------------------------------- |
+    | Sandbox           | 60 requests per minute          |
+    | Integration test  | 10 requests per minute          |
+    | Production        | 6000 requests per minute        |
 
   contact:
     name: "NHS Website Content API v2 Support"
@@ -162,7 +185,7 @@ paths:
 
             | HTTP status | Error code                 | Description |
             | ----------- | -------------------------- | --------------------------------------------- |
-            | 401         | ACCESS_DENIED              | ApiKey missing, invalid or expired, or calling application not configured for this operation. |
+            | 401         | ACCESS_DENIED              | Api key missing, invalid or expired, or calling application not configured for this operation. |
             | 403         | ACCESS_DENIED              | User cannot perform this action. |
             | 404         | RESOURCE_NOT_FOUND         | Page not found. |
             | 429         | TOO_MANY_REQUESTS          | You have exceeded your application's [rate limit](https://digital.nhs.uk/developer/guides-and-documentation/reference-guide#rate-limits). |
@@ -203,7 +226,7 @@ paths:
 
             | HTTP status | Error code                 | Description |
             | ----------- | -------------------------- | --------------------------------------------- |
-            | 401         | ACCESS_DENIED              | ApiKey missing, invalid or expired, or calling application not configured for this operation. |
+            | 401         | ACCESS_DENIED              | Api key missing, invalid or expired, or calling application not configured for this operation. |
             | 403         | ACCESS_DENIED              | User cannot perform this action. |
             | 404         | RESOURCE_NOT_FOUND         | Page not found. |
             | 429         | TOO_MANY_REQUESTS          | You have exceeded your application's [rate limit](https://digital.nhs.uk/developer/guides-and-documentation/reference-guide#rate-limits). |
@@ -253,7 +276,7 @@ paths:
 
             | HTTP status | Error code                 | Description |
             | ----------- | -------------------------- | --------------------------------------------- |
-            | 401         | ACCESS_DENIED              | ApiKey missing, invalid or expired, or calling application not configured for this operation. |
+            | 401         | ACCESS_DENIED              | Api key missing, invalid or expired, or calling application not configured for this operation. |
             | 403         | ACCESS_DENIED              | User cannot perform this action. |
             | 404         | RESOURCE_NOT_FOUND         | Page not found. |
             | 429         | TOO_MANY_REQUESTS          | You have exceeded your application's [rate limit](https://digital.nhs.uk/developer/guides-and-documentation/reference-guide#rate-limits). |
@@ -284,7 +307,7 @@ paths:
 
             | HTTP status | Error code                 | Description |
             | ----------- | -------------------------- | --------------------------------------------- |
-            | 401         | ACCESS_DENIED              | ApiKey missing, invalid or expired, or calling application not configured for this operation. |
+            | 401         | ACCESS_DENIED              | Api key missing, invalid or expired, or calling application not configured for this operation. |
             | 403         | ACCESS_DENIED              | User cannot perform this action. |
             | 404         | RESOURCE_NOT_FOUND         | Page not found. |
             | 429         | TOO_MANY_REQUESTS          | You have exceeded your application's [rate limit](https://digital.nhs.uk/developer/guides-and-documentation/reference-guide#rate-limits). |
@@ -319,7 +342,41 @@ paths:
 
             | HTTP status | Error code                 | Description |
             | ----------- | -------------------------- | --------------------------------------------- |
-            | 401         | ACCESS_DENIED              | ApiKey missing, invalid or expired, or calling application not configured for this operation. |
+            | 401         | ACCESS_DENIED              | Api key missing, invalid or expired, or calling application not configured for this operation. |
+            | 403         | ACCESS_DENIED              | User cannot perform this action. |
+            | 404         | RESOURCE_NOT_FOUND         | Page not found. |
+            | 429         | TOO_MANY_REQUESTS          | You have exceeded your application's [rate limit](https://digital.nhs.uk/developer/guides-and-documentation/reference-guide#rate-limits). |
+  /live-well:
+    parameters:
+      - $ref: "#/components/parameters/apikey"
+    get:
+      summary: Get content from the Live Well hub.
+      operationId: get-live-well
+      description: |
+        ## Overview
+
+        The [Live Well hub](https://www.nhs.uk/live-well/) contains a number of navigational and content pages.
+
+        The content of the page can be taken from the `mainEntityOfPage` part of the response. This includes the navigational links to child pages.
+
+        At the top level, modularised content of child pages is highlighted by the `hasPart` field. In child pages, only the individual page is shown.
+      responses:
+        "200":
+          description: |
+            A valid query for the Live Well pages.
+          content:
+            application/json:
+              schema:
+                $ref: components/schemas/WebPage.json
+              example:
+                $ref: components/examples/LiveWellHubPage.json
+        "4XX":
+          description: |
+            An error occurred as follows:
+
+            | HTTP status | Error code                 | Description |
+            | ----------- | -------------------------- | --------------------------------------------- |
+            | 401         | ACCESS_DENIED              | Api key missing, invalid or expired, or calling application not configured for this operation. |
             | 403         | ACCESS_DENIED              | User cannot perform this action. |
             | 404         | RESOURCE_NOT_FOUND         | Page not found. |
             | 429         | TOO_MANY_REQUESTS          | You have exceeded your application's [rate limit](https://digital.nhs.uk/developer/guides-and-documentation/reference-guide#rate-limits). |
@@ -354,7 +411,42 @@ paths:
 
             | HTTP status | Error code                 | Description |
             | ----------- | -------------------------- | --------------------------------------------- |
-            | 401         | ACCESS_DENIED              | ApiKey missing, invalid or expired, or calling application not configured for this operation. |
+            | 401         | ACCESS_DENIED              | Api key missing, invalid or expired, or calling application not configured for this operation. |
+            | 403         | ACCESS_DENIED              | User cannot perform this action. |
+            | 404         | RESOURCE_NOT_FOUND         | Page not found. |
+            | 429         | TOO_MANY_REQUESTS          | You have exceeded your application's [rate limit](https://digital.nhs.uk/developer/guides-and-documentation/reference-guide#rate-limits). |
+  /nhs-services:
+    parameters:
+      - $ref: "#/components/parameters/apikey"
+    get:
+      summary: Get content from the NHS services hub
+      operationId: get-nhs-services
+      description: |
+        ## Overview
+
+        The [NHS services hub](https://www.nhs.uk/nhs-services/) contains a number of navigational and content pages.
+
+        The content of the page can be taken from `mainEntityOfPage`. This includes the navigational patterns to child pages.
+
+        At the top level, child modularised content is highlighted by the `hasPart` field. In child pages, only the individual page is highlighted.
+
+      responses:
+        "200":
+          description: |
+            A valid query for the NHS services hub.
+          content:
+            application/json:
+              schema:
+                $ref: components/schemas/WebPage.json
+              example:
+                $ref: components/examples/NhsServicesHubPage.json
+        "4XX":
+          description: |
+            An error occurred as follows:
+
+            | HTTP status | Error code                 | Description |
+            | ----------- | -------------------------- | --------------------------------------------- |
+            | 401         | ACCESS_DENIED              | Api key missing, invalid or expired, or calling application not configured for this operation. |
             | 403         | ACCESS_DENIED              | User cannot perform this action. |
             | 404         | RESOURCE_NOT_FOUND         | Page not found. |
             | 429         | TOO_MANY_REQUESTS          | You have exceeded your application's [rate limit](https://digital.nhs.uk/developer/guides-and-documentation/reference-guide#rate-limits). |
@@ -389,41 +481,7 @@ paths:
 
             | HTTP status | Error code                 | Description |
             | ----------- | -------------------------- | --------------------------------------------- |
-            | 401         | ACCESS_DENIED              | ApiKey missing, invalid or expired, or calling application not configured for this operation. |
-            | 403         | ACCESS_DENIED              | User cannot perform this action. |
-            | 404         | RESOURCE_NOT_FOUND         | Page not found. |
-            | 429         | TOO_MANY_REQUESTS          | You have exceeded your application's [rate limit](https://digital.nhs.uk/developer/guides-and-documentation/reference-guide#rate-limits). |
-  /live-well:
-    parameters:
-      - $ref: "#/components/parameters/apikey"
-    get:
-      summary: Get content from the Live Well hub.
-      operationId: get-live-well
-      description: |
-        ## Overview
-
-        The [Live Well hub](https://www.nhs.uk/live-well/) contains a number of navigational and content pages.
-
-        The content of the page can be taken from the `mainEntityOfPage` part of the response. This includes the navigational links to child pages.
-
-        At the top level, modularised content of child pages is highlighted by the `hasPart` field. In child pages, only the individual page is shown.
-      responses:
-        "200":
-          description: |
-            A valid query for the Live Well pages.
-          content:
-            application/json:
-              schema:
-                $ref: components/schemas/WebPage.json
-              example:
-                $ref: components/examples/LiveWellHubPage.json
-        "4XX":
-          description: |
-            An error occurred as follows:
-
-            | HTTP status | Error code                 | Description |
-            | ----------- | -------------------------- | --------------------------------------------- |
-            | 401         | ACCESS_DENIED              | ApiKey missing, invalid or expired, or calling application not configured for this operation. |
+            | 401         | ACCESS_DENIED              | Api key missing, invalid or expired, or calling application not configured for this operation. |
             | 403         | ACCESS_DENIED              | User cannot perform this action. |
             | 404         | RESOURCE_NOT_FOUND         | Page not found. |
             | 429         | TOO_MANY_REQUESTS          | You have exceeded your application's [rate limit](https://digital.nhs.uk/developer/guides-and-documentation/reference-guide#rate-limits). |
