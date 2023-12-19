@@ -22,7 +22,8 @@ info:
       * get Ratings and Reviews of NHS services.
 
     Pick a page from one of these sections on the [NHS website](https://www.nhs.uk/). 
-    Make a note of the path in the page URL (the bit that appears after '`https://www.nhs.uk/`'). 
+    Make a note of the path in the page URL (the bit that appears after '`https://www.nhs.uk/`').
+
     You can then use this path to make API calls to the 'Integration test' environment and the 'Production' environment like so &hellip;
 
     **Integration test environment**
