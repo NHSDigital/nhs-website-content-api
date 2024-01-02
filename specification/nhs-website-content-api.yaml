@@ -113,6 +113,84 @@ info:
     * only covers a limited set of scenarios
     * is open access, so does not allow you to test authorisation
 
+    <details>
+      <summary>The sandbox environment includes the following 48 endpoints (mocked):</summary>
+      <div id="output" class="content markdown-body">
+        <h4>API v2 root</h4>
+        <ul>
+          <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/</a> (Not a valid endpoint)</li>
+        </ul>
+        <h4>Conditions (Health A to Z)</h4>
+        <ul>
+          <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/conditions/" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/conditions/</a></li>
+          <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/conditions/?category=a">https://sandbox.api.service.nhs.uk/nhs-website-content/conditions/?category=a</a></li>
+          <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/conditions/?category=a&amp;genre=condition">https://sandbox.api.service.nhs.uk/nhs-website-content/conditions/?category=a&amp;genre=condition</a></li>
+          <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/conditions/?category=a&amp;genre=guide">https://sandbox.api.service.nhs.uk/nhs-website-content/conditions/?category=a&amp;genre=guide</a></li>
+          <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/conditions/?category=a&amp;genre=hub">https://sandbox.api.service.nhs.uk/nhs-website-content/conditions/?category=a&amp;genre=hub</a></li>
+          <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/conditions/?category=b">https://sandbox.api.service.nhs.uk/nhs-website-content/conditions/?category=b</a></li>
+          <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/conditions/?category=z">https://sandbox.api.service.nhs.uk/nhs-website-content/conditions/?category=z</a></li>
+          <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/conditions/?page=1">https://sandbox.api.service.nhs.uk/nhs-website-content/conditions/?page=1</a></li>
+          <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/conditions/?page=2">https://sandbox.api.service.nhs.uk/nhs-website-content/conditions/?page=2</a></li>
+          <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/conditions/?page=70">https://sandbox.api.service.nhs.uk/nhs-website-content/conditions/?page=70</a></li>
+          <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/conditions/acanthosis-nigricans/" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/conditions/acanthosis-nigricans/</a></li>
+          <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/conditions/achalasia/" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/conditions/achalasia/</a></li>
+          <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/conditions/acne/" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/conditions/acne/</a></li>
+          <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/conditions/acne/?modules=true">https://sandbox.api.service.nhs.uk/nhs-website-content/conditions/acne/?modules=true</a></li>
+          <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/conditions/angiography/" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/conditions/angiography/</a></li>
+          <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/conditions/cancer/" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/conditions/cancer/</a></li>
+          <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/conditions/zika/" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/conditions/zika/</a></li>
+        </ul>
+        <h4>Medicines</h4>
+        <ul>
+          <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/medicines/" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/medicines/</a></li>
+          <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/medicines/?category=a">https://sandbox.api.service.nhs.uk/nhs-website-content/medicines/?category=a</a></li>
+          <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/medicines/?category=b">https://sandbox.api.service.nhs.uk/nhs-website-content/medicines/?category=b</a></li>
+          <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/medicines/?category=z">https://sandbox.api.service.nhs.uk/nhs-website-content/medicines/?category=z</a></li>
+          <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/medicines/?page=1">https://sandbox.api.service.nhs.uk/nhs-website-content/medicines/?page=1</a></li>
+          <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/medicines/?page=11">https://sandbox.api.service.nhs.uk/nhs-website-content/medicines/?page=11</a></li>
+          <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/medicines/aciclovir/" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/medicines/aciclovir/</a></li>
+          <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/medicines/acrivastine/" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/medicines/acrivastine/</a></li>
+          <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/medicines/acrivastine/?modules=true">https://sandbox.api.service.nhs.uk/nhs-website-content/medicines/acrivastine/?modules=true</a></li>
+          <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/medicines/zopiclone/" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/medicines/zopiclone/</a></li>
+        </ul>
+        <h4>Mental health</h4>
+        <ul>
+          <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/mental-health/" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/mental-health/</a></li>
+          <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/mental-health/advice-for-life-situations-and-events/support-for-workplace-bullying/" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/mental-health/advice-for-life-situations-and-events/support-for-workplace-bullying/</a></li>
+          <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/mental-health/conditions/" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/mental-health/conditions/</a></li>
+          <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/mental-health/feelings-symptoms-behaviours/" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/mental-health/feelings-symptoms-behaviours/</a></li>
+        </ul>
+        <h4>Live Well</h4>
+        <ul>
+          <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/live-well/" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/live-well/</a></li>
+          <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/live-well/alcohol-advice/alcohol-support/" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/live-well/alcohol-advice/alcohol-support/</a></li>
+          <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/live-well/exercise/" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/live-well/exercise/</a></li>
+          <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/live-well/healthy-weight/" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/live-well/healthy-weight/</a></li>
+        </ul>
+        <h4>Pregnancy</h4>
+        <ul>
+          <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/pregnancy/" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/pregnancy/</a></li>
+          <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/pregnancy/finding-out/finding-out-you-are-pregnant/" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/pregnancy/finding-out/finding-out-you-are-pregnant/</a></li>
+          <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/pregnancy/having-a-baby-if-you-are-lgbt-plus/" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/pregnancy/having-a-baby-if-you-are-lgbt-plus/</a></li>
+          <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/pregnancy/trying-for-a-baby/" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/pregnancy/trying-for-a-baby/</a>"</li>
+        </ul>
+        <h4>NHS Services</h4>
+        <ul>
+          <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/nhs-services/" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/nhs-services/</a></li>
+          <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/nhs-services/gps/" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/nhs-services/gps/</a></li>
+          <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/nhs-services/gps/how-to-register-with-a-gp-surgery/" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/nhs-services/gps/how-to-register-with-a-gp-surgery/</a></li>
+          <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/nhs-services/prescriptions-and-pharmacies/" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/nhs-services/prescriptions-and-pharmacies/</a></li>
+        </ul>
+        <h4>Common health questions</h4>
+        <ul>
+          <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/common-health-questions/" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/common-health-questions/</a></li>
+          <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/common-health-questions/accidents-first-aid-and-treatments/" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/common-health-questions/accidents-first-aid-and-treatments/</a></li>
+          <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/common-health-questions/caring-carers-and-long-term-conditions/" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/common-health-questions/caring-carers-and-long-term-conditions/</a></li>
+          <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/common-health-questions/childrens-health/can-my-baby-go-swimming-before-or-after-vaccinations/" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/common-health-questions/childrens-health/can-my-baby-go-swimming-before-or-after-vaccinations/</a></li>
+        </ul>
+      </div>
+    </details>
+
     For details of sandbox test scenarios, or to try out the sandbox using our 'Try this API' feature, see the documentation for each endpoint.
 
     Alternatively, you can try out the sandbox using our Postman collection:
