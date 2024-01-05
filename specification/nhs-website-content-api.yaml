@@ -123,15 +123,15 @@ info:
         <h4>Conditions (Health A to Z)</h4>
         <ul>
           <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/conditions/" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/conditions/</a></li>
-          <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/conditions/?category=a">https://sandbox.api.service.nhs.uk/nhs-website-content/conditions/?category=a</a></li>
-          <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/conditions/?category=a&amp;genre=condition">https://sandbox.api.service.nhs.uk/nhs-website-content/conditions/?category=a&amp;genre=condition</a></li>
-          <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/conditions/?category=a&amp;genre=guide">https://sandbox.api.service.nhs.uk/nhs-website-content/conditions/?category=a&amp;genre=guide</a></li>
-          <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/conditions/?category=a&amp;genre=hub">https://sandbox.api.service.nhs.uk/nhs-website-content/conditions/?category=a&amp;genre=hub</a></li>
-          <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/conditions/?category=b">https://sandbox.api.service.nhs.uk/nhs-website-content/conditions/?category=b</a></li>
-          <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/conditions/?category=z">https://sandbox.api.service.nhs.uk/nhs-website-content/conditions/?category=z</a></li>
-          <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/conditions/?page=1">https://sandbox.api.service.nhs.uk/nhs-website-content/conditions/?page=1</a></li>
-          <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/conditions/?page=2">https://sandbox.api.service.nhs.uk/nhs-website-content/conditions/?page=2</a></li>
-          <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/conditions/?page=70">https://sandbox.api.service.nhs.uk/nhs-website-content/conditions/?page=70</a></li>
+          <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/conditions/?category=a" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/conditions/?category=a</a></li>
+          <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/conditions/?category=a&amp;genre=condition" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/conditions/?category=a&amp;genre=condition</a></li>
+          <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/conditions/?category=a&amp;genre=guide" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/conditions/?category=a&amp;genre=guide</a></li>
+          <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/conditions/?category=a&amp;genre=hub" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/conditions/?category=a&amp;genre=hub</a></li>
+          <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/conditions/?category=b" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/conditions/?category=b</a></li>
+          <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/conditions/?category=z" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/conditions/?category=z</a></li>
+          <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/conditions/?page=1" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/conditions/?page=1</a></li>
+          <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/conditions/?page=2" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/conditions/?page=2</a></li>
+          <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/conditions/?page=70" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/conditions/?page=70</a></li>
           <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/conditions/acanthosis-nigricans/" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/conditions/acanthosis-nigricans/</a></li>
           <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/conditions/achalasia/" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/conditions/achalasia/</a></li>
           <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/conditions/acne/" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/conditions/acne/</a></li>
@@ -143,14 +143,14 @@ info:
         <h4>Medicines</h4>
         <ul>
           <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/medicines/" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/medicines/</a></li>
-          <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/medicines/?category=a">https://sandbox.api.service.nhs.uk/nhs-website-content/medicines/?category=a</a></li>
-          <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/medicines/?category=b">https://sandbox.api.service.nhs.uk/nhs-website-content/medicines/?category=b</a></li>
-          <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/medicines/?category=z">https://sandbox.api.service.nhs.uk/nhs-website-content/medicines/?category=z</a></li>
-          <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/medicines/?page=1">https://sandbox.api.service.nhs.uk/nhs-website-content/medicines/?page=1</a></li>
-          <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/medicines/?page=11">https://sandbox.api.service.nhs.uk/nhs-website-content/medicines/?page=11</a></li>
+          <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/medicines/?category=a" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/medicines/?category=a</a></li>
+          <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/medicines/?category=b" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/medicines/?category=b</a></li>
+          <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/medicines/?category=z" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/medicines/?category=z</a></li>
+          <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/medicines/?page=1" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/medicines/?page=1</a></li>
+          <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/medicines/?page=11" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/medicines/?page=11</a></li>
           <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/medicines/aciclovir/" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/medicines/aciclovir/</a></li>
           <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/medicines/acrivastine/" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/medicines/acrivastine/</a></li>
-          <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/medicines/acrivastine/?modules=true">https://sandbox.api.service.nhs.uk/nhs-website-content/medicines/acrivastine/?modules=true</a></li>
+          <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/medicines/acrivastine/?modules=true" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/medicines/acrivastine/?modules=true</a></li>
           <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/medicines/zopiclone/" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/medicines/zopiclone/</a></li>
         </ul>
         <h4>Mental health</h4>
