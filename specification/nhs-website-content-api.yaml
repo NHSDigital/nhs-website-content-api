@@ -121,9 +121,11 @@ info:
     * only covers a limited set of scenarios
     * is open access, so does not allow you to test authorisation
 
-    <details style="margin-bottom: 1rem;">
-      <summary>The sandbox environment includes the following 48 mocked endpoints (click to reveal):</summary>
-      <div style="margin-top: 1rem;">
+    <details class="nhsuk-details">
+      <summary class="nhsuk-details__summary">
+        <span class="nhsuk-details__summary-text">The sandbox environment includes the following 48 mocked endpoints</span>
+      </summary>
+      <div class="nhsuk-details__text">
         <h4>API v2 root</h4>
         <ul>
           <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/</a> (Not a valid endpoint)</li>
