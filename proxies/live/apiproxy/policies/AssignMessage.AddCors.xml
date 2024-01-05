@@ -4,10 +4,10 @@
     <Set>
         <Headers>
             <Header name="Access-Control-Allow-Origin">*</Header>
-            <Header name="Access-Control-Allow-Headers">origin, x-requested-with, accept, content-type, nhsd-session-urid, apikey</Header>
-            <Header name="Access-Control-Expose-Headers">origin, x-requested-with, accept, content-type, nhsd-session-urid, Access-Control-Allow-Origin, x-my-new-header</Header>
+            <Header name="Access-Control-Allow-Headers">content-type, apikey</Header>
+            <!-- <Header name="Access-Control-Expose-Headers">x-content-type-options, referrer-policy, x-frame-options, x-instana-l, traceparent, tracestate, x-instana-t, x-instana-s, Server-Timing, Content-Encoding, Connection, Vary, Strict-Transport-Security, Date</Header> -->
             <Header name="Access-Control-Max-Age">3628800</Header>
-            <Header name="Access-Control-Allow-Methods">GET, PUT, POST, DELETE</Header>
+            <Header name="Access-Control-Allow-Methods">GET</Header>
         </Headers>
     </Set>
     <IgnoreUnresolvedVariables>true</IgnoreUnresolvedVariables>
