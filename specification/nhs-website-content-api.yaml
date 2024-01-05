@@ -42,7 +42,15 @@ info:
 
     <img src="https://www.nhs.uk/nhscwebservices/documents/logo1.jpg" alt="Content supplied by the NHS website" width="875" height="177" style="width: 250px; height: 49px;" />
 
-    The logo should be clearly visible and in line with the associated content on every web page that contains the syndicated content. You should also link this logo to the relevant page on the NHS website that the content has been supplied from. This URL is supplied as part of the feed under author:
+    The logo should be clearly visible and in line with the associated content on every web page that contains the syndicated content. You should also link this logo to the relevant page on the NHS website that the content has been supplied from.
+
+    ```
+    <a href="https://www.nhs.uk/YOUR_PATH_GOES_HERE" target="_blank">
+      <img src="https://www.nhs.uk/nhscwebservices/documents/logo1.jpg" alt="Content supplied by the NHS website" width="875" height="177" style="width: 250px; height: 49px;" />
+    </a>
+    ```
+
+    This URL is supplied as part of the JSON response under author:
 
     ```
     "author": {
