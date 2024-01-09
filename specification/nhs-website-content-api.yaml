@@ -121,12 +121,12 @@ info:
     * only covers a limited set of scenarios
     * is open access, so does not allow you to test authorisation
 
-    <div class="nhsd-m-expander">
+    <div class="nhsd-m-expander" style="margin-bottom: 1rem;">
       <details>
         <summary class="nhsd-m-expander__heading-container" aria-label="The sandbox environment includes the following 48 mocked endpoints" >
           <div>
             <span class="nhsd-m-expander__icon nhsd-!t-margin-right-1">
-              <span class="nhsd-a-icon nhsd-a-icon--size-xs">
+              <span class="nhsd-a-icon nhsd-a-icon--size-xs" style="margin: 0;">
                 <svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" focusable="false" viewBox="0 0 16 16">
                   <path d="M12,8l-6.5,7L4,13.5L9.2,8L4,2.5L5.5,1L12,8z"/>
                 </svg>
