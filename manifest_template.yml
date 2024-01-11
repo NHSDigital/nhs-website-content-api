@@ -1,5 +1,5 @@
 SERVICE_NAME: nhs-website-content-api
-PRODUCT_DISPLAY_NAME: nhs-website-content-api
+PRODUCT_DISPLAY_NAME: NHS Website Content API
 DESCRIPTION: Provides content from the NHS website as JSON data
 APIGEE_ENVIRONMENTS:
   - name: internal-dev
