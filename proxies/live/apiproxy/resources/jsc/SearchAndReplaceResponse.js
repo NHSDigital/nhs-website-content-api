@@ -208,7 +208,7 @@ for (var i = 0; i < searchAndReplaceStrings.length; i++) {
 }
 
 var responseJsonObj = JSON.parse(responseContent);
-responseJsonObj.url = responseJsonObj.url.replace(
+responseJsonObj.webpage = responseJsonObj.url.replace(
   "https://" + requestHostnameEnv + "/nhs-website-content/",
   "https://www.nhs.uk/"
 );
