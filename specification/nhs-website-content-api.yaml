@@ -2,7 +2,7 @@
 # for the nhs-website-content-api owned by NHS England (https://digital.nhs.uk/)
 openapi: "3.0.0"
 info:
-  title: "NHS Website Content API v2"
+  title: "NHS Website Content API v2 (feature/copy-of-master)"
   version: "Computed and injected at build time by `scripts/set_version.py`"
   description: |
     ## Overview
