@@ -5,6 +5,8 @@ var searchAndReplaceStrings = [
     comment1: "=============================================================",
     comment2: "Conditions                                                   ",
     comment3: "=============================================================",
+  },
+  {
     searchForRegex: /:\s?"https:\/\/api.nhs.uk\/conditions\//gm,
     replaceWithStr:
       ': "https://' + requestHostnameEnv + "/nhs-website-content/conditions/",
@@ -26,6 +28,8 @@ var searchAndReplaceStrings = [
     comment1: "=============================================================",
     comment2: "Live Well                                                    ",
     comment3: "=============================================================",
+  },
+  {
     searchForRegex: /:\s?"https:\/\/api.nhs.uk\/live-well\//gm,
     replaceWithStr:
       ': "https://' + requestHostnameEnv + "/nhs-website-content/live-well/",
@@ -47,6 +51,8 @@ var searchAndReplaceStrings = [
     comment1: "=============================================================",
     comment2: "Mental health                                                ",
     comment3: "=============================================================",
+  },
+  {
     searchForRegex: /:\s?"https:\/\/api.nhs.uk\/mental-health\//gm,
     replaceWithStr:
       ': "https://' +
@@ -72,6 +78,8 @@ var searchAndReplaceStrings = [
     comment1: "=============================================================",
     comment2: "Medicines                                                    ",
     comment3: "=============================================================",
+  },
+  {
     searchForRegex: /:\s?"https:\/\/api.nhs.uk\/medicines\//gm,
     replaceWithStr:
       ': "https://' + requestHostnameEnv + "/nhs-website-content/medicines/",
@@ -93,6 +101,8 @@ var searchAndReplaceStrings = [
     comment1: "=============================================================",
     comment2: "NHS services                                                 ",
     comment3: "=============================================================",
+  },
+  {
     searchForRegex: /:\s?"https:\/\/api.nhs.uk\/nhs-services\//gm,
     replaceWithStr:
       ': "https://' + requestHostnameEnv + "/nhs-website-content/nhs-services/",
@@ -114,6 +124,8 @@ var searchAndReplaceStrings = [
     comment1: "=============================================================",
     comment2: "Pregnancy                                                    ",
     comment3: "=============================================================",
+  },
+  {
     searchForRegex: /:\s?"https:\/\/api.nhs.uk\/pregnancy\//gm,
     replaceWithStr:
       ': "https://' + requestHostnameEnv + "/nhs-website-content/pregnancy/",
@@ -135,6 +147,8 @@ var searchAndReplaceStrings = [
     comment1: "=============================================================",
     comment2: "Common health questions                                      ",
     comment3: "=============================================================",
+  },
+  {
     searchForRegex: /:\s?"https:\/\/api.nhs.uk\/common-health-questions\//gm,
     replaceWithStr:
       ': "https://' +
@@ -162,10 +176,19 @@ var responseContent = context.getVariable("response.content");
 var regex, item;
 for (var i = 0; i < searchAndReplaceStrings.length; i++) {
   item = searchAndReplaceStrings[i];
-  responseContent = responseContent.replace(
-    item.searchForRegex,
-    item.replaceWithStr
-  );
+  if (item.searchForRegex && item.replaceWithStr) {
+    responseContent = responseContent.replace(
+      item.searchForRegex,
+      item.replaceWithStr
+    );
+  }
 }
+
+var responseJsonObj = JSON.parse(responseContent);
+responseJsonObj.webpage = responseJsonObj.url.replace(
+  "https://" + requestHostnameEnv + "/nhs-website-content/",
+  "https://www.nhs.uk/"
+);
+responseContent = JSON.stringify(responseJsonObj);
 
 context.setVariable("response.content", responseContent);
