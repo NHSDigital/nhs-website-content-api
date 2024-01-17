@@ -126,5 +126,6 @@
       "url": "https://api.service.nhs.uk/nhs-website-content/mental-health/conditions/agoraphobia/",
       "name": "Agoraphobia"
     }
-  ]
+  ],
+  "webpage": "https://www.nhs.uk/conditions/"
 }
