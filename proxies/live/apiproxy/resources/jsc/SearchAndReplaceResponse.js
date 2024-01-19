@@ -224,10 +224,17 @@ for (var i = 0; i < searchAndReplaceStrings.length; i++) {
 }
 
 var responseJsonObj = JSON.parse(responseContent);
-responseJsonObj.webpage = responseJsonObj.url.replace(
-  "https://" + requestHostnameEnv + "/nhs-website-content/",
-  "https://www.nhs.uk/"
-);
+if (responseJsonObj.url) {
+  responseJsonObj.webpage = responseJsonObj.url.replace(
+    "https://" + requestHostnameEnv + "/nhs-website-content/",
+    "https://www.nhs.uk/"
+  );
+} else if (responseJsonObj.about.url) {
+  responseJsonObj.about.webpage = responseJsonObj.about.url.replace(
+    "https://" + requestHostnameEnv + "/nhs-website-content/",
+    "https://www.nhs.uk/"
+  );
+}
 responseContent = JSON.stringify(responseJsonObj);
 
 context.setVariable("response.content", responseContent);
