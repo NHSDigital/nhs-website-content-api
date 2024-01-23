@@ -317,10 +317,10 @@ async function conditionsAchalasia(req, res, next) {
 // Apigee Production environment ('apikey' required in Header)
 // https://api.service.nhs.uk/nhs-website-content/conditions/acne/?modules=true
 async function conditionsAcne(req, res, next) {
-  if (req.query.modules.toLowerCase() === 'true') {
-    res.status(200).json(conditionsAcneModulesTrueResponse)
-  } else {
+  if (!req.query.modules || req.query.modules.toLowerCase() === 'false') {
     res.status(200).json(conditionsAcneNoParamsResponse)
+  } else if (req.query.modules?.toLowerCase() === 'true') {
+    res.status(200).json(conditionsAcneModulesTrueResponse)
   }
   res.end()
   next()
@@ -338,10 +338,10 @@ async function conditionsAcne(req, res, next) {
 // Apigee Sandbox environment (no auth key required)
 // https://sandbox.api.service.nhs.uk/nhs-website-content/conditions/*?modules=true
 async function conditionsWildcard(req, res, next) {
-  if (req.query.modules.toLowerCase() === 'true') {
-    res.status(200).json(conditionsWildcardModulesTrueResponse)
-  } else {
+  if (!req.query.modules || req.query.modules.toLowerCase() === 'false') {
     res.status(200).json(conditionsWildcardResponseNoParams)
+  } else if (req.query.modules.toLowerCase() === 'true') {
+    res.status(200).json(conditionsWildcardModulesTrueResponse)
   }
   res.end()
   next()
@@ -595,10 +595,10 @@ async function medicinesAciclovir(req, res, next) {
 // Apigee Production environment ('apikey' required in Header)
 // https://api.service.nhs.uk/nhs-website-content/medicines/acrivastine/?modules=true
 async function medicinesAcrivastine(req, res, next) {
-  if (req.query.modules.toLowerCase() === 'true') {
-    res.status(200).json(medicinesAcrivastineModulesTrueResponse)
-  } else {
+  if (!req.query.modules || req.query.modules.toLowerCase() === 'false') {
     res.status(200).json(medicinesAcrivastineNoParamsResponse)
+  } else if (req.query.modules.toLowerCase() === 'true') {
+    res.status(200).json(medicinesAcrivastineModulesTrueResponse)
   }
   res.end()
   next()
@@ -616,10 +616,10 @@ async function medicinesAcrivastine(req, res, next) {
 // Apigee Sandbox environment (no auth key required)
 // https://sandbox.api.service.nhs.uk/nhs-website-content/medicines/*?modules=true
 async function medicinesWildcard(req, res, next) {
-  if (req.query.modules.toLowerCase() === 'true') {
-    res.status(200).json(medicinesWildcardModulesTrueResponse)
-  } else {
+  if (!req.query.modules || req.query.modules.toLowerCase() === 'false') {
     res.status(200).json(medicinesWildcardNoParamsResponse)
+  } else if (req.query.modules.toLowerCase() === 'true') {
+    res.status(200).json(medicinesWildcardModulesTrueResponse)
   }
   res.end()
   next()
