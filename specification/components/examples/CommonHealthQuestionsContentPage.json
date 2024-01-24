@@ -1,271 +1,262 @@
 {
-    "@context": "http://schema.org",
+  "@context": "http://schema.org",
+  "@type": "WebPage",
+  "name": "Why should I use dental floss?",
+  "copyrightHolder": {
+    "name": "Crown Copyright",
+    "@type": "Organization"
+  },
+  "license": "https://developer.api.nhs.uk/terms",
+  "author": {
+    "url": "https://www.nhs.uk",
+    "logo": "https://www.nhs.uk/nhscwebservices/documents/logo1.jpg",
+    "email": "nhswebsite.servicedesk@nhs.net",
+    "@type": "Organization",
+    "name": "NHS website"
+  },
+  "about": {
     "@type": "WebPage",
-    "name": "Why should I use dental floss?",
-    "copyrightHolder": {
-        "name": "Crown Copyright",
-        "@type": "Organization"
-    },
-    "license": "https://developer.api.nhs.uk/terms",
-    "author": {
-        "url": "https://www.nhs.uk",
-        "logo": "https://www.nhs.uk/nhscwebservices/documents/logo1.jpg",
-        "email": "nhswebsite.servicedesk@nhs.net",
-        "@type": "Organization",
-        "name": "NHS website"
-    },
-    "about": {
-        "@type": "WebPage",
-        "name": "Why should I use dental floss?"
-    },
-    "description": "You're advised to use interdental brushes as part of your oral health routine. But if you don't have large enough spaces in between your teeth, flossing can be a useful alternative.",
-    "url": "https://www.nhs.uk/common-health-questions/dental-health/why-should-i-use-dental-floss/",
-    "genre": [
-        "Advice or information"
-    ],
-    "keywords": "",
-    "lastReviewed": [
-        "2019-12-30T00:00:00+00:00",
-        "2022-12-30T00:00:00+00:00"
-    ],
-    "breadcrumb": {
-        "@context": "http://schema.org",
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-            {
-                "@type": "ListItem",
-                "position": 0,
-                "item": {
-                    "@id": "https://www.nhs.uk/common-health-questions/",
-                    "name": "Common health questions",
-                    "genre": []
-                }
-            },
-            {
-                "@type": "ListItem",
-                "position": 1,
-                "item": {
-                    "@id": "https://www.nhs.uk/common-health-questions/dental-health/",
-                    "name": "Dental health",
-                    "genre": []
-                }
-            },
-            {
-                "@type": "ListItem",
-                "position": 2,
-                "item": {
-                    "@id": "https://www.nhs.uk/common-health-questions/dental-health/why-should-i-use-dental-floss/",
-                    "name": "Why should I use dental floss?",
-                    "genre": [
-                        "Advice or information"
-                    ]
-                }
-            }
-        ]
-    },
-    "contentSubTypes": [],
-    "mainEntityOfPage": [
-        {
-            "text": "Why should I use dental floss?",
-            "@type": "Question",
-            "name": [
-                "Advice or information"
-            ],
-            "position": 0,
-            "identifier": "18",
-            "acceptedAnswer": [
-                {
-                    "@type": "Answer",
-                    "mainEntity": [
-                        {
-                            "identifier": "0",
-                            "name": "section heading",
-                            "position": 0,
-                            "@type": "WebPageElement",
-                            "mainEntityOfPage": [
-                                {
-                                    "position": 0,
-                                    "identifier": "1",
-                                    "text": "<p>You're advised to\u00a0use\u00a0interdental brushes in addition to brushing as part of your daily oral health routine from the age of 12.</p><p>Some people may not have large enough spaces in between their teeth to use an interdental brush, so flossing can be a useful alternative.</p><p>Your dental team\u00a0can show you how best to clean between your teeth.</p>",
-                                    "@type": "WebPageElement",
-                                    "name": "markdown",
-                                    "headline": ""
-                                }
-                            ],
-                            "description": "",
-                            "hasPart": [
-                                {
-                                    "position": 0,
-                                    "identifier": "1",
-                                    "text": "<p>You're advised to\u00a0use\u00a0interdental brushes in addition to brushing as part of your daily oral health routine from the age of 12.</p><p>Some people may not have large enough spaces in between their teeth to use an interdental brush, so flossing can be a useful alternative.</p><p>Your dental team\u00a0can show you how best to clean between your teeth.</p>",
-                                    "@type": "WebPageElement",
-                                    "name": "markdown",
-                                    "headline": ""
-                                }
-                            ]
-                        },
-                        {
-                            "identifier": "0",
-                            "name": "section heading",
-                            "position": 1,
-                            "@type": "WebPageElement",
-                            "mainEntityOfPage": [
-                                {
-                                    "position": 0,
-                                    "identifier": "1",
-                                    "text": "<p>Dental floss is a thin, soft thread. If you find floss hard to use, you can try dental tape, which is thicker.</p><p>Do not be too aggressive with the floss: you risk harming your gums.</p><p>The main action of flossing is a firm but gentle scraping of the tooth from the top down.</p><p>Your dental team can advise you about using dental floss.</p>",
-                                    "@type": "WebPageElement",
-                                    "name": "markdown",
-                                    "headline": "How to use dental floss"
-                                }
-                            ],
-                            "description": "",
-                            "hasPart": [
-                                {
-                                    "position": 0,
-                                    "identifier": "1",
-                                    "text": "<p>Dental floss is a thin, soft thread. If you find floss hard to use, you can try dental tape, which is thicker.</p><p>Do not be too aggressive with the floss: you risk harming your gums.</p><p>The main action of flossing is a firm but gentle scraping of the tooth from the top down.</p><p>Your dental team can advise you about using dental floss.</p>",
-                                    "@type": "WebPageElement",
-                                    "name": "markdown",
-                                    "headline": "How to use dental floss"
-                                }
-                            ]
-                        },
-                        {
-                            "identifier": "0",
-                            "name": "section heading",
-                            "position": 2,
-                            "@type": "WebPageElement",
-                            "mainEntityOfPage": [
-                                {
-                                    "position": 0,
-                                    "identifier": "1",
-                                    "text": "<ul><li>Break off about 45cm of floss and wind some around 1 finger of each hand.</li><li>Hold the floss tightly between your thumbs and forefingers, with about 2.5cm of floss between them, leaving no slack.</li><li>Use a gentle \"rocking\" motion to guide the floss between your teeth. Do not snap the floss into the gums.</li><li>When the floss reaches your gumline, curve it into a C-shape against a tooth until you feel resistance.</li><li>Hold the floss against the tooth. Gently scrape the side of the tooth, moving the floss away from the gum. Repeat on the other side of the gap, along the side of the next tooth.</li><li>Do not forget the back of your last tooth.</li><li>When flossing, keep to a regular pattern. Start at the top and work from left to right, then move to the bottom and again work from the left to right. This way you're less likely to miss any teeth.</li></ul>",
-                                    "@type": "WebPageElement",
-                                    "name": "markdown",
-                                    "headline": "Flossing tips"
-                                }
-                            ],
-                            "description": "",
-                            "hasPart": [
-                                {
-                                    "position": 0,
-                                    "identifier": "1",
-                                    "text": "<ul><li>Break off about 45cm of floss and wind some around 1 finger of each hand.</li><li>Hold the floss tightly between your thumbs and forefingers, with about 2.5cm of floss between them, leaving no slack.</li><li>Use a gentle \"rocking\" motion to guide the floss between your teeth. Do not snap the floss into the gums.</li><li>When the floss reaches your gumline, curve it into a C-shape against a tooth until you feel resistance.</li><li>Hold the floss against the tooth. Gently scrape the side of the tooth, moving the floss away from the gum. Repeat on the other side of the gap, along the side of the next tooth.</li><li>Do not forget the back of your last tooth.</li><li>When flossing, keep to a regular pattern. Start at the top and work from left to right, then move to the bottom and again work from the left to right. This way you're less likely to miss any teeth.</li></ul>",
-                                    "@type": "WebPageElement",
-                                    "name": "markdown",
-                                    "headline": "Flossing tips"
-                                }
-                            ]
-                        },
-                        {
-                            "identifier": "0",
-                            "name": "section heading",
-                            "position": 3,
-                            "@type": "WebPageElement",
-                            "mainEntityOfPage": [
-                                {
-                                    "position": 0,
-                                    "identifier": "1",
-                                    "text": "<p>When you first start flossing, your gums may be tender and bleed a little. Carry on flossing your teeth as directed by your dental team and the bleeding should stop as your gums become healthier.</p><p>If you're still getting regular bleeding after a few days, see your dental team. They can check if you're flossing correctly.</p>",
-                                    "@type": "WebPageElement",
-                                    "name": "markdown",
-                                    "headline": "What if my gums bleed?"
-                                }
-                            ],
-                            "description": "",
-                            "hasPart": [
-                                {
-                                    "position": 0,
-                                    "identifier": "1",
-                                    "text": "<p>When you first start flossing, your gums may be tender and bleed a little. Carry on flossing your teeth as directed by your dental team and the bleeding should stop as your gums become healthier.</p><p>If you're still getting regular bleeding after a few days, see your dental team. They can check if you're flossing correctly.</p>",
-                                    "@type": "WebPageElement",
-                                    "name": "markdown",
-                                    "headline": "What if my gums bleed?"
-                                }
-                            ]
-                        },
-                        {
-                            "identifier": "0",
-                            "name": "section heading",
-                            "position": 4,
-                            "@type": "WebPageElement",
-                            "mainEntityOfPage": [
-                                {
-                                    "position": 0,
-                                    "identifier": "1",
-                                    "text": "<p>If you find flossing difficult, your dental team can give you advice about other ways of cleaning between your teeth.</p>",
-                                    "@type": "WebPageElement",
-                                    "name": "markdown",
-                                    "headline": "What if I find flossing difficult?"
-                                }
-                            ],
-                            "description": "",
-                            "hasPart": [
-                                {
-                                    "position": 0,
-                                    "identifier": "1",
-                                    "text": "<p>If you find flossing difficult, your dental team can give you advice about other ways of cleaning between your teeth.</p>",
-                                    "@type": "WebPageElement",
-                                    "name": "markdown",
-                                    "headline": "What if I find flossing difficult?"
-                                }
-                            ]
-                        },
-                        {
-                            "identifier": "0",
-                            "name": "section heading",
-                            "position": 5,
-                            "@type": "WebPageElement",
-                            "mainEntityOfPage": [
-                                {
-                                    "position": 0,
-                                    "identifier": "1",
-                                    "text": "<ul><li><a href=\"/common-health-questions/dental-health/why-should-i-use-interdental-brushes/\">Why should I use interdental brushes?</a></li></ul>",
-                                    "@type": "WebPageElement",
-                                    "name": "markdown",
-                                    "headline": "Further information:"
-                                }
-                            ],
-                            "description": "",
-                            "hasPart": [
-                                {
-                                    "position": 0,
-                                    "identifier": "1",
-                                    "text": "<ul><li><a href=\"/common-health-questions/dental-health/why-should-i-use-interdental-brushes/\">Why should I use interdental brushes?</a></li></ul>",
-                                    "@type": "WebPageElement",
-                                    "name": "markdown",
-                                    "headline": "Further information:"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
+    "name": "Why should I use dental floss?"
+  },
+  "description": "You're advised to use interdental brushes as part of your oral health routine. But if you don't have large enough spaces in between your teeth, flossing can be a useful alternative.",
+  "url": "https://api.service.nhs.uk/nhs-website-content/common-health-questions/dental-health/why-should-i-use-dental-floss/",
+  "genre": ["Advice or information"],
+  "keywords": "",
+  "lastReviewed": ["2019-12-30T00:00:00+00:00", "2022-12-30T00:00:00+00:00"],
+  "breadcrumb": {
+    "@context": "http://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 0,
+        "item": {
+          "@id": "https://www.nhs.uk/common-health-questions/",
+          "name": "Common health questions",
+          "genre": []
         }
-    ],
-    "dateModified": "2022-04-21T13:44:42+00:00",
-    "relatedLink": [
-        {
-            "@type": "LinkRole",
-            "url": "https://www.nhs.uk/common-health-questions/dental-health/",
-            "name": "Dental health",
-            "linkRelationship": "Navigation",
-            "position": 0
-        },
-        {
-            "@type": "LinkRole",
-            "url": "https://www.nhs.uk/common-health-questions/dental-health/why-should-i-use-interdental-brushes/",
-            "name": "Why should I use interdental brushes?",
-            "linkRelationship": "Navigation",
-            "position": 1
-        },
-        {
-            "@type": "LinkRole",
-            "url": "https://www.nhs.uk/common-health-questions/dental-health/what-are-nhs-fillings-and-crowns-made-of/",
-            "name": "What are NHS fillings and crowns made of?",
-            "linkRelationship": "Navigation",
-            "position": 2
+      },
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@id": "https://www.nhs.uk/common-health-questions/dental-health/",
+          "name": "Dental health",
+          "genre": []
         }
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "item": {
+          "@id": "https://www.nhs.uk/common-health-questions/dental-health/why-should-i-use-dental-floss/",
+          "name": "Why should I use dental floss?",
+          "genre": ["Advice or information"]
+        }
+      }
     ]
+  },
+  "contentSubTypes": [],
+  "mainEntityOfPage": [
+    {
+      "text": "Why should I use dental floss?",
+      "@type": "Question",
+      "name": ["Advice or information"],
+      "position": 0,
+      "identifier": "18",
+      "acceptedAnswer": [
+        {
+          "@type": "Answer",
+          "mainEntity": [
+            {
+              "identifier": "0",
+              "name": "section heading",
+              "position": 0,
+              "@type": "WebPageElement",
+              "mainEntityOfPage": [
+                {
+                  "position": 0,
+                  "identifier": "1",
+                  "text": "<p>You're advised to\u00a0use\u00a0interdental brushes in addition to brushing as part of your daily oral health routine from the age of 12.</p><p>Some people may not have large enough spaces in between their teeth to use an interdental brush, so flossing can be a useful alternative.</p><p>Your dental team\u00a0can show you how best to clean between your teeth.</p>",
+                  "@type": "WebPageElement",
+                  "name": "markdown",
+                  "headline": ""
+                }
+              ],
+              "description": "",
+              "hasPart": [
+                {
+                  "position": 0,
+                  "identifier": "1",
+                  "text": "<p>You're advised to\u00a0use\u00a0interdental brushes in addition to brushing as part of your daily oral health routine from the age of 12.</p><p>Some people may not have large enough spaces in between their teeth to use an interdental brush, so flossing can be a useful alternative.</p><p>Your dental team\u00a0can show you how best to clean between your teeth.</p>",
+                  "@type": "WebPageElement",
+                  "name": "markdown",
+                  "headline": ""
+                }
+              ]
+            },
+            {
+              "identifier": "0",
+              "name": "section heading",
+              "position": 1,
+              "@type": "WebPageElement",
+              "mainEntityOfPage": [
+                {
+                  "position": 0,
+                  "identifier": "1",
+                  "text": "<p>Dental floss is a thin, soft thread. If you find floss hard to use, you can try dental tape, which is thicker.</p><p>Do not be too aggressive with the floss: you risk harming your gums.</p><p>The main action of flossing is a firm but gentle scraping of the tooth from the top down.</p><p>Your dental team can advise you about using dental floss.</p>",
+                  "@type": "WebPageElement",
+                  "name": "markdown",
+                  "headline": "How to use dental floss"
+                }
+              ],
+              "description": "",
+              "hasPart": [
+                {
+                  "position": 0,
+                  "identifier": "1",
+                  "text": "<p>Dental floss is a thin, soft thread. If you find floss hard to use, you can try dental tape, which is thicker.</p><p>Do not be too aggressive with the floss: you risk harming your gums.</p><p>The main action of flossing is a firm but gentle scraping of the tooth from the top down.</p><p>Your dental team can advise you about using dental floss.</p>",
+                  "@type": "WebPageElement",
+                  "name": "markdown",
+                  "headline": "How to use dental floss"
+                }
+              ]
+            },
+            {
+              "identifier": "0",
+              "name": "section heading",
+              "position": 2,
+              "@type": "WebPageElement",
+              "mainEntityOfPage": [
+                {
+                  "position": 0,
+                  "identifier": "1",
+                  "text": "<ul><li>Break off about 45cm of floss and wind some around 1 finger of each hand.</li><li>Hold the floss tightly between your thumbs and forefingers, with about 2.5cm of floss between them, leaving no slack.</li><li>Use a gentle \"rocking\" motion to guide the floss between your teeth. Do not snap the floss into the gums.</li><li>When the floss reaches your gumline, curve it into a C-shape against a tooth until you feel resistance.</li><li>Hold the floss against the tooth. Gently scrape the side of the tooth, moving the floss away from the gum. Repeat on the other side of the gap, along the side of the next tooth.</li><li>Do not forget the back of your last tooth.</li><li>When flossing, keep to a regular pattern. Start at the top and work from left to right, then move to the bottom and again work from the left to right. This way you're less likely to miss any teeth.</li></ul>",
+                  "@type": "WebPageElement",
+                  "name": "markdown",
+                  "headline": "Flossing tips"
+                }
+              ],
+              "description": "",
+              "hasPart": [
+                {
+                  "position": 0,
+                  "identifier": "1",
+                  "text": "<ul><li>Break off about 45cm of floss and wind some around 1 finger of each hand.</li><li>Hold the floss tightly between your thumbs and forefingers, with about 2.5cm of floss between them, leaving no slack.</li><li>Use a gentle \"rocking\" motion to guide the floss between your teeth. Do not snap the floss into the gums.</li><li>When the floss reaches your gumline, curve it into a C-shape against a tooth until you feel resistance.</li><li>Hold the floss against the tooth. Gently scrape the side of the tooth, moving the floss away from the gum. Repeat on the other side of the gap, along the side of the next tooth.</li><li>Do not forget the back of your last tooth.</li><li>When flossing, keep to a regular pattern. Start at the top and work from left to right, then move to the bottom and again work from the left to right. This way you're less likely to miss any teeth.</li></ul>",
+                  "@type": "WebPageElement",
+                  "name": "markdown",
+                  "headline": "Flossing tips"
+                }
+              ]
+            },
+            {
+              "identifier": "0",
+              "name": "section heading",
+              "position": 3,
+              "@type": "WebPageElement",
+              "mainEntityOfPage": [
+                {
+                  "position": 0,
+                  "identifier": "1",
+                  "text": "<p>When you first start flossing, your gums may be tender and bleed a little. Carry on flossing your teeth as directed by your dental team and the bleeding should stop as your gums become healthier.</p><p>If you're still getting regular bleeding after a few days, see your dental team. They can check if you're flossing correctly.</p>",
+                  "@type": "WebPageElement",
+                  "name": "markdown",
+                  "headline": "What if my gums bleed?"
+                }
+              ],
+              "description": "",
+              "hasPart": [
+                {
+                  "position": 0,
+                  "identifier": "1",
+                  "text": "<p>When you first start flossing, your gums may be tender and bleed a little. Carry on flossing your teeth as directed by your dental team and the bleeding should stop as your gums become healthier.</p><p>If you're still getting regular bleeding after a few days, see your dental team. They can check if you're flossing correctly.</p>",
+                  "@type": "WebPageElement",
+                  "name": "markdown",
+                  "headline": "What if my gums bleed?"
+                }
+              ]
+            },
+            {
+              "identifier": "0",
+              "name": "section heading",
+              "position": 4,
+              "@type": "WebPageElement",
+              "mainEntityOfPage": [
+                {
+                  "position": 0,
+                  "identifier": "1",
+                  "text": "<p>If you find flossing difficult, your dental team can give you advice about other ways of cleaning between your teeth.</p>",
+                  "@type": "WebPageElement",
+                  "name": "markdown",
+                  "headline": "What if I find flossing difficult?"
+                }
+              ],
+              "description": "",
+              "hasPart": [
+                {
+                  "position": 0,
+                  "identifier": "1",
+                  "text": "<p>If you find flossing difficult, your dental team can give you advice about other ways of cleaning between your teeth.</p>",
+                  "@type": "WebPageElement",
+                  "name": "markdown",
+                  "headline": "What if I find flossing difficult?"
+                }
+              ]
+            },
+            {
+              "identifier": "0",
+              "name": "section heading",
+              "position": 5,
+              "@type": "WebPageElement",
+              "mainEntityOfPage": [
+                {
+                  "position": 0,
+                  "identifier": "1",
+                  "text": "<ul><li><a href=\"/common-health-questions/dental-health/why-should-i-use-interdental-brushes/\">Why should I use interdental brushes?</a></li></ul>",
+                  "@type": "WebPageElement",
+                  "name": "markdown",
+                  "headline": "Further information:"
+                }
+              ],
+              "description": "",
+              "hasPart": [
+                {
+                  "position": 0,
+                  "identifier": "1",
+                  "text": "<ul><li><a href=\"/common-health-questions/dental-health/why-should-i-use-interdental-brushes/\">Why should I use interdental brushes?</a></li></ul>",
+                  "@type": "WebPageElement",
+                  "name": "markdown",
+                  "headline": "Further information:"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "dateModified": "2022-04-21T13:44:42+00:00",
+  "relatedLink": [
+    {
+      "@type": "LinkRole",
+      "url": "https://api.service.nhs.uk/nhs-website-content/common-health-questions/dental-health/",
+      "name": "Dental health",
+      "linkRelationship": "Navigation",
+      "position": 0
+    },
+    {
+      "@type": "LinkRole",
+      "url": "https://api.service.nhs.uk/nhs-website-content/common-health-questions/dental-health/why-should-i-use-interdental-brushes/",
+      "name": "Why should I use interdental brushes?",
+      "linkRelationship": "Navigation",
+      "position": 1
+    },
+    {
+      "@type": "LinkRole",
+      "url": "https://api.service.nhs.uk/nhs-website-content/common-health-questions/dental-health/what-are-nhs-fillings-and-crowns-made-of/",
+      "name": "What are NHS fillings and crowns made of?",
+      "linkRelationship": "Navigation",
+      "position": 2
+    }
+  ]
 }
