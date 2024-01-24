@@ -1,5 +1,9 @@
 {
-  "about": { "name": "Acne", "url": "https://api.service.nhs.uk/nhs-website-content/conditions/acne/" },
+  "about": {
+    "name": "Acne",
+    "url": "https://api.service.nhs.uk/nhs-website-content/conditions/acne/",
+    "webpage": "https://www.nhs.uk/conditions/acne/"
+  },
   "modules": [
     {
       "@type": "HealthTopicContent",
