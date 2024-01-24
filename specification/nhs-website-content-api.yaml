@@ -391,14 +391,24 @@ paths:
   /medicines/*:
     parameters:
       - $ref: "#/components/parameters/apikey"
+      - $ref: "#/components/parameters/modules"
     get:
       summary: Get specific medicine page
       operationId: get-medicine-page
       description: |
         ## Overview
-        There is an endpoint for each page under the Medicines A to Z, for example https://www.nhs.uk/medicines/amoxicillin.
+        There is an endpoint for each page under the Medicines A to Z, for example https://www.nhs.uk/medicines/acrivastine.
 
         This can be used to get specific information about individual medicines.
+
+        There is only one query parameter for these pages:
+
+        | Query parameter   | Description                                                            | Type        |
+        | ----------------- | ---------------------------------------------------------------------- | ----------- |
+        | modules           | If topic is modularised, only return these modules                     | boolean     |
+
+        # Modularisation
+        We modularise some of our content, meaning that individual parts of the page can be reused. If a page is modularised, content appears in the `hasPart` field.
       responses:
         "200":
           description: |
