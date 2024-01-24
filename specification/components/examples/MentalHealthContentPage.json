@@ -1,389 +1,381 @@
 {
-    "@context": "http://schema.org",
+  "@context": "http://schema.org",
+  "@type": "WebPage",
+  "name": "5 steps to mental wellbeing",
+  "copyrightHolder": {
+    "name": "Crown Copyright",
+    "@type": "Organization"
+  },
+  "license": "https://developer.api.nhs.uk/terms",
+  "author": {
+    "url": "https://www.nhs.uk",
+    "logo": "https://www.nhs.uk/nhscwebservices/documents/logo1.jpg",
+    "email": "nhswebsite.servicedesk@nhs.net",
+    "@type": "Organization",
+    "name": "NHS website"
+  },
+  "about": {
     "@type": "WebPage",
     "name": "5 steps to mental wellbeing",
-    "copyrightHolder": {
-        "name": "Crown Copyright",
-        "@type": "Organization"
-    },
-    "license": "https://developer.api.nhs.uk/terms",
-    "author": {
-        "url": "https://www.nhs.uk",
-        "logo": "https://www.nhs.uk/nhscwebservices/documents/logo1.jpg",
-        "email": "nhswebsite.servicedesk@nhs.net",
-        "@type": "Organization",
-        "name": "NHS website"
-    },
-    "about": {
-        "@type": "WebPage",
-        "name": "5 steps to mental wellbeing",
-        "alternateName": ""
-    },
-    "description": "Read about 5 steps you can take to improve your mental health and wellbeing.",
-    "url": "https://www.nhs.uk/mental-health/self-help/guides-tools-and-activities/five-steps-to-mental-wellbeing/",
-    "genre": [
-        "Advice or information"
-    ],
-    "keywords": "",
-    "lastReviewed": [
-        "2022-12-16T13:37:00+00:00",
-        "2025-12-16T13:37:00+00:00"
-    ],
-    "breadcrumb": {
-        "@context": "http://schema.org",
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-            {
-                "@type": "ListItem",
-                "position": 0,
-                "item": {
-                    "@id": "https://www.nhs.uk/mental-health/",
-                    "name": "Mental health",
-                    "genre": []
-                }
-            },
-            {
-                "@type": "ListItem",
-                "position": 1,
-                "item": {
-                    "@id": "https://www.nhs.uk/mental-health/self-help/",
-                    "name": "Self-help",
-                    "genre": []
-                }
-            },
-            {
-                "@type": "ListItem",
-                "position": 2,
-                "item": {
-                    "@id": "https://www.nhs.uk/mental-health/self-help/guides-tools-and-activities/",
-                    "name": "Guides, tools and activities",
-                    "genre": [
-                        "Advice or information"
-                    ]
-                }
-            },
-            {
-                "@type": "ListItem",
-                "position": 3,
-                "item": {
-                    "@id": "https://www.nhs.uk/mental-health/self-help/guides-tools-and-activities/five-steps-to-mental-wellbeing/",
-                    "name": "5 steps to mental wellbeing",
-                    "genre": [
-                        "Advice or information"
-                    ]
-                }
-            }
-        ]
-    },
-    "hasPart": [],
-    "relatedLink": [
-        {
-            "@type": "LinkRole",
-            "url": "https://www.nhs.uk/mental-health/self-help/guides-tools-and-activities/",
-            "name": "Guides, tools and activities",
-            "linkRelationship": "Navigation",
-            "position": 0
-        },
-        {
-            "@type": "LinkRole",
-            "url": "https://www.nhs.uk/mental-health/self-help/guides-tools-and-activities/tips-to-reduce-stress/",
-            "name": "10 stress busters",
-            "linkRelationship": "Navigation",
-            "position": 1
-        },
-        {
-            "@type": "LinkRole",
-            "url": "https://www.nhs.uk/mental-health/self-help/guides-tools-and-activities/mental-wellbeing-audio-guides/",
-            "name": "Mental wellbeing audio guides",
-            "linkRelationship": "Navigation",
-            "position": 2
-        },
-        {
-            "@type": "LinkRole",
-            "url": "https://www.nhs.uk/mental-health/self-help/guides-tools-and-activities/exercise-for-depression/",
-            "name": "Exercise for depression",
-            "linkRelationship": "Navigation",
-            "position": 3
-        },
-        {
-            "@type": "LinkRole",
-            "url": "https://www.nhs.uk/mental-health/self-help/guides-tools-and-activities/five-steps-to-mental-wellbeing/",
-            "name": "5 steps to mental wellbeing",
-            "linkRelationship": "Navigation",
-            "position": 4
-        },
-        {
-            "@type": "LinkRole",
-            "url": "https://www.nhs.uk/mental-health/self-help/guides-tools-and-activities/breathing-exercises-for-stress/",
-            "name": "Breathing exercises for stress",
-            "linkRelationship": "Navigation",
-            "position": 5
+    "alternateName": ""
+  },
+  "description": "Read about 5 steps you can take to improve your mental health and wellbeing.",
+  "url": "https://api.service.nhs.uk/nhs-website-content/mental-health/self-help/guides-tools-and-activities/five-steps-to-mental-wellbeing/",
+  "genre": ["Advice or information"],
+  "keywords": "",
+  "lastReviewed": ["2022-12-16T13:37:00+00:00", "2025-12-16T13:37:00+00:00"],
+  "breadcrumb": {
+    "@context": "http://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 0,
+        "item": {
+          "@id": "https://www.nhs.uk/mental-health/",
+          "name": "Mental health",
+          "genre": []
         }
-    ],
-    "dateModified": "2022-12-28T13:52:56+00:00",
-    "mainEntityOfPage": [
-        {
-            "identifier": "0",
-            "name": "section heading",
-            "position": 0,
-            "@type": "WebPageElement",
-            "mainEntityOfPage": [
-                {
-                    "position": 0,
-                    "identifier": "1",
-                    "text": "<p><b>Evidence suggests there are 5 steps you can take to improve your mental health and wellbeing. Trying these things could help you feel more positive and able to get the most out of life.</b></p>",
-                    "@type": "WebPageElement",
-                    "name": "markdown",
-                    "headline": ""
-                },
-                {
-                    "position": 1,
-                    "identifier": "1",
-                    "text": "<p>Good relationships are important for your mental wellbeing. They can:</p><ul><li>help you to build a sense of belonging and self-worth</li><li>give you an opportunity to share positive experiences</li><li>provide emotional support and allow you to support others</li></ul><p>There are lots of things you could try to help build stronger and closer relationships:</p>",
-                    "@type": "WebPageElement",
-                    "name": "markdown",
-                    "headline": "1. Connect with other people"
-                },
-                {
-                    "position": 2,
-                    "@type": "WebPageElement",
-                    "name": "Do/Don't",
-                    "identifier": "9",
-                    "text": "<div><h3>Do</h3><ul><li><p>if possible, take time each day to be with your family, for example, try arranging a fixed time to eat dinner together</p></li><li><p>arrange a day out with friends you have not seen for a while</p></li><li><p>try switching off the TV to talk or play a game with your children, friends or family</p></li><li><p>have lunch with a colleague</p></li><li><p>visit a friend or family member who needs support or company</p></li><li><p>volunteer at a local school, hospital or community group. <a href=\"https://www.gov.uk/government/get-involved/take-part/volunteer\">Find out how to volunteer on the GOV.UK website</a></p></li><li><p>make the most of technology to stay in touch with friends and family. Video-chat apps like Skype and FaceTime are useful, especially if you live far apart</p></li></ul></div>"
-                },
-                {
-                    "position": 3,
-                    "@type": "WebPageElement",
-                    "name": "Do/Don't",
-                    "identifier": "9",
-                    "text": "<div><h3>Don't</h3><ul><li><p>do not rely on technology or social media alone to build relationships. It's easy to get into the habit of only ever texting, messaging or emailing people</p></li></ul></div>"
-                }
-            ],
-            "description": "",
-            "hasPart": [
-                {
-                    "position": 0,
-                    "identifier": "1",
-                    "text": "<p><b>Evidence suggests there are 5 steps you can take to improve your mental health and wellbeing. Trying these things could help you feel more positive and able to get the most out of life.</b></p>",
-                    "@type": "WebPageElement",
-                    "name": "markdown",
-                    "headline": ""
-                },
-                {
-                    "position": 1,
-                    "identifier": "1",
-                    "text": "<p>Good relationships are important for your mental wellbeing. They can:</p><ul><li>help you to build a sense of belonging and self-worth</li><li>give you an opportunity to share positive experiences</li><li>provide emotional support and allow you to support others</li></ul><p>There are lots of things you could try to help build stronger and closer relationships:</p>",
-                    "@type": "WebPageElement",
-                    "name": "markdown",
-                    "headline": "1. Connect with other people"
-                },
-                {
-                    "position": 2,
-                    "@type": "WebPageElement",
-                    "name": "Do/Don't",
-                    "identifier": "9",
-                    "text": "<div><h3>Do</h3><ul><li><p>if possible, take time each day to be with your family, for example, try arranging a fixed time to eat dinner together</p></li><li><p>arrange a day out with friends you have not seen for a while</p></li><li><p>try switching off the TV to talk or play a game with your children, friends or family</p></li><li><p>have lunch with a colleague</p></li><li><p>visit a friend or family member who needs support or company</p></li><li><p>volunteer at a local school, hospital or community group. <a href=\"https://www.gov.uk/government/get-involved/take-part/volunteer\">Find out how to volunteer on the GOV.UK website</a></p></li><li><p>make the most of technology to stay in touch with friends and family. Video-chat apps like Skype and FaceTime are useful, especially if you live far apart</p></li></ul></div>"
-                },
-                {
-                    "position": 3,
-                    "@type": "WebPageElement",
-                    "name": "Do/Don't",
-                    "identifier": "9",
-                    "text": "<div><h3>Don't</h3><ul><li><p>do not rely on technology or social media alone to build relationships. It's easy to get into the habit of only ever texting, messaging or emailing people</p></li></ul></div>"
-                }
-            ]
-        },
-        {
-            "identifier": "0",
-            "name": "section heading",
-            "position": 1,
-            "@type": "WebPageElement",
-            "mainEntityOfPage": [
-                {
-                    "position": 0,
-                    "identifier": "1",
-                    "text": "<p>Being active is not only great for your physical health and fitness. Evidence also shows it can also improve your mental wellbeing by:</p><ul><li><a href=\"/mental-health/self-help/tips-and-support/raise-low-self-esteem/\">raising your self-esteem</a></li><li>helping you to set goals or challenges and achieve them</li><li>causing chemical changes in your brain which can help to positively change your mood</li></ul><p><a href=\"/live-well/exercise/\">Read about exercise guidelines and workouts to help improve your fitness and wellbeing</a></p>",
-                    "@type": "WebPageElement",
-                    "name": "markdown",
-                    "headline": "2. Be physically active"
-                },
-                {
-                    "position": 1,
-                    "@type": "WebPageElement",
-                    "name": "Do/Don't",
-                    "identifier": "9",
-                    "text": "<div><h3>Do</h3><ul><li><p>read about <a href=\"/live-well/exercise/running-and-aerobic-exercises/\">running and aerobic exercises</a> to help get you moving and improve your fitness</p></li><li><p>read about <a href=\"/live-well/exercise/strength-and-flexibility-exercises/\">strength and flexibility exercises</a> to increase muscle strength, improve balance and reduce joint pain</p></li><li><p>if you're a wheelchair user, read <a href=\"/live-well/exercise/exercise-guidelines/wheelchair-users-fitness-advice/\">fitness advice for wheelchair users</a></p></li></ul></div>"
-                },
-                {
-                    "position": 2,
-                    "@type": "WebPageElement",
-                    "name": "Do/Don't",
-                    "identifier": "9",
-                    "text": "<div><h3>Don't</h3><ul><li><p>do not feel you have to spend hours in a gym. It's best to find activities you enjoy and make them a part of your life</p></li></ul></div>"
-                }
-            ],
-            "description": "",
-            "hasPart": [
-                {
-                    "position": 0,
-                    "identifier": "1",
-                    "text": "<p>Being active is not only great for your physical health and fitness. Evidence also shows it can also improve your mental wellbeing by:</p><ul><li><a href=\"/mental-health/self-help/tips-and-support/raise-low-self-esteem/\">raising your self-esteem</a></li><li>helping you to set goals or challenges and achieve them</li><li>causing chemical changes in your brain which can help to positively change your mood</li></ul><p><a href=\"/live-well/exercise/\">Read about exercise guidelines and workouts to help improve your fitness and wellbeing</a></p>",
-                    "@type": "WebPageElement",
-                    "name": "markdown",
-                    "headline": "2. Be physically active"
-                },
-                {
-                    "position": 1,
-                    "@type": "WebPageElement",
-                    "name": "Do/Don't",
-                    "identifier": "9",
-                    "text": "<div><h3>Do</h3><ul><li><p>read about <a href=\"/live-well/exercise/running-and-aerobic-exercises/\">running and aerobic exercises</a> to help get you moving and improve your fitness</p></li><li><p>read about <a href=\"/live-well/exercise/strength-and-flexibility-exercises/\">strength and flexibility exercises</a> to increase muscle strength, improve balance and reduce joint pain</p></li><li><p>if you're a wheelchair user, read <a href=\"/live-well/exercise/exercise-guidelines/wheelchair-users-fitness-advice/\">fitness advice for wheelchair users</a></p></li></ul></div>"
-                },
-                {
-                    "position": 2,
-                    "@type": "WebPageElement",
-                    "name": "Do/Don't",
-                    "identifier": "9",
-                    "text": "<div><h3>Don't</h3><ul><li><p>do not feel you have to spend hours in a gym. It's best to find activities you enjoy and make them a part of your life</p></li></ul></div>"
-                }
-            ]
-        },
-        {
-            "identifier": "0",
-            "name": "section heading",
-            "position": 2,
-            "@type": "WebPageElement",
-            "mainEntityOfPage": [
-                {
-                    "position": 0,
-                    "identifier": "1",
-                    "text": "<p>Research shows that learning new skills can also improve your mental wellbeing by:</p><ul><li>boosting self-confidence and <a href=\"/mental-health/self-help/tips-and-support/raise-low-self-esteem/\">raising self-esteem</a></li><li>helping you to build a sense of purpose</li><li>helping you to connect with others</li></ul><p>Even if you feel like you do not have enough time, or you may not need to learn new things, there are lots of different ways to bring learning into your life.</p><p>Some of the things you could try include:</p>",
-                    "@type": "WebPageElement",
-                    "name": "markdown",
-                    "headline": "3. Learn new skills"
-                },
-                {
-                    "position": 1,
-                    "@type": "WebPageElement",
-                    "name": "Do/Don't",
-                    "identifier": "9",
-                    "text": "<div><h3>Do</h3><ul><li><p>try learning to cook something new. Find out about <a href=\"/live-well/eat-well/\">eating a healthy, balanced diet</a></p></li><li><p>try taking on a new responsibility at work, such as mentoring a junior staff member or improving your presentation skills</p></li><li><p>work on a DIY project, such as fixing a broken bike, garden gate or something bigger. There are lots of free video tutorials online</p></li><li><p>consider signing up for a course at a local college. You could try learning a new language or a practical skill such as plumbing</p></li><li><p>try new hobbies that challenge you, such as writing a blog, taking up a new sport or learning to paint</p></li></ul></div>"
-                },
-                {
-                    "position": 2,
-                    "@type": "WebPageElement",
-                    "name": "Do/Don't",
-                    "identifier": "9",
-                    "text": "<div><h3>Don't</h3><ul><li><p>do not feel you have to learn new qualifications or sit exams if this does not interest you. It's best to find activities you enjoy and make them a part of your life</p></li></ul></div>"
-                }
-            ],
-            "description": "",
-            "hasPart": [
-                {
-                    "position": 0,
-                    "identifier": "1",
-                    "text": "<p>Research shows that learning new skills can also improve your mental wellbeing by:</p><ul><li>boosting self-confidence and <a href=\"/mental-health/self-help/tips-and-support/raise-low-self-esteem/\">raising self-esteem</a></li><li>helping you to build a sense of purpose</li><li>helping you to connect with others</li></ul><p>Even if you feel like you do not have enough time, or you may not need to learn new things, there are lots of different ways to bring learning into your life.</p><p>Some of the things you could try include:</p>",
-                    "@type": "WebPageElement",
-                    "name": "markdown",
-                    "headline": "3. Learn new skills"
-                },
-                {
-                    "position": 1,
-                    "@type": "WebPageElement",
-                    "name": "Do/Don't",
-                    "identifier": "9",
-                    "text": "<div><h3>Do</h3><ul><li><p>try learning to cook something new. Find out about <a href=\"/live-well/eat-well/\">eating a healthy, balanced diet</a></p></li><li><p>try taking on a new responsibility at work, such as mentoring a junior staff member or improving your presentation skills</p></li><li><p>work on a DIY project, such as fixing a broken bike, garden gate or something bigger. There are lots of free video tutorials online</p></li><li><p>consider signing up for a course at a local college. You could try learning a new language or a practical skill such as plumbing</p></li><li><p>try new hobbies that challenge you, such as writing a blog, taking up a new sport or learning to paint</p></li></ul></div>"
-                },
-                {
-                    "position": 2,
-                    "@type": "WebPageElement",
-                    "name": "Do/Don't",
-                    "identifier": "9",
-                    "text": "<div><h3>Don't</h3><ul><li><p>do not feel you have to learn new qualifications or sit exams if this does not interest you. It's best to find activities you enjoy and make them a part of your life</p></li></ul></div>"
-                }
-            ]
-        },
-        {
-            "identifier": "0",
-            "name": "section heading",
-            "position": 3,
-            "@type": "WebPageElement",
-            "mainEntityOfPage": [
-                {
-                    "position": 0,
-                    "identifier": "1",
-                    "text": "<p>Research suggests that acts of giving and kindness can help improve your mental wellbeing by:</p><ul><li>creating positive feelings and a sense of reward</li><li>giving you a feeling of purpose and self-worth</li><li>helping you connect with other people</li></ul><p>It could be small acts of kindness towards other people, or larger ones like volunteering in your local community.</p><p>Some examples of the things you could try include:</p><ul><li>saying thank you to someone for something they have done for you</li><li>asking friends, family or colleagues how they are and really listening to their answer</li><li>spending time with friends or relatives who need support or company</li><li>offering to help someone you know with DIY or a work project</li><li>volunteering in your community, such as helping at a school, hospital or care home</li></ul>",
-                    "@type": "WebPageElement",
-                    "name": "markdown",
-                    "headline": "4. Give to others"
-                }
-            ],
-            "description": "",
-            "hasPart": [
-                {
-                    "position": 0,
-                    "identifier": "1",
-                    "text": "<p>Research suggests that acts of giving and kindness can help improve your mental wellbeing by:</p><ul><li>creating positive feelings and a sense of reward</li><li>giving you a feeling of purpose and self-worth</li><li>helping you connect with other people</li></ul><p>It could be small acts of kindness towards other people, or larger ones like volunteering in your local community.</p><p>Some examples of the things you could try include:</p><ul><li>saying thank you to someone for something they have done for you</li><li>asking friends, family or colleagues how they are and really listening to their answer</li><li>spending time with friends or relatives who need support or company</li><li>offering to help someone you know with DIY or a work project</li><li>volunteering in your community, such as helping at a school, hospital or care home</li></ul>",
-                    "@type": "WebPageElement",
-                    "name": "markdown",
-                    "headline": "4. Give to others"
-                }
-            ]
-        },
-        {
-            "identifier": "0",
-            "name": "section heading",
-            "position": 4,
-            "@type": "WebPageElement",
-            "mainEntityOfPage": [
-                {
-                    "position": 0,
-                    "identifier": "1",
-                    "text": "<p>Paying more attention to the present moment can improve your mental wellbeing. This includes your thoughts and feelings, your body and the world around you.</p><p>Some people call this awareness \"mindfulness\". Mindfulness can help you enjoy life more and understand yourself better. It can positively change the way you feel about life and how you approach challenges.</p><p>Read more about <a href=\"/mental-health/self-help/tips-and-support/mindfulness/\">mindfulness</a>, including steps you can take to be more mindful in your everyday life.</p>",
-                    "@type": "WebPageElement",
-                    "name": "markdown",
-                    "headline": "5. Pay attention to the present moment (mindfulness)"
-                }
-            ],
-            "description": "",
-            "hasPart": [
-                {
-                    "position": 0,
-                    "identifier": "1",
-                    "text": "<p>Paying more attention to the present moment can improve your mental wellbeing. This includes your thoughts and feelings, your body and the world around you.</p><p>Some people call this awareness \"mindfulness\". Mindfulness can help you enjoy life more and understand yourself better. It can positively change the way you feel about life and how you approach challenges.</p><p>Read more about <a href=\"/mental-health/self-help/tips-and-support/mindfulness/\">mindfulness</a>, including steps you can take to be more mindful in your everyday life.</p>",
-                    "@type": "WebPageElement",
-                    "name": "markdown",
-                    "headline": "5. Pay attention to the present moment (mindfulness)"
-                }
-            ]
-        },
-        {
-            "identifier": "0",
-            "name": "section heading",
-            "position": 5,
-            "@type": "WebPageElement",
-            "mainEntityOfPage": [
-                {
-                    "position": 0,
-                    "identifier": "1",
-                    "text": "<ul><li><a href=\"https://neweconomics.org/2011/07/five-ways-well-new-applications-new-ways-thinking\">Five Ways to Wellbeing: a report researched and developed by the New Economics Foundation</a></li><li><a href=\"https://www.mind.org.uk/workplace/mental-health-at-work/taking-care-of-yourself/five-ways-to-wellbeing/\">Find out more about the 5 ways to wellbeing on the MIND website</a></li></ul>",
-                    "@type": "WebPageElement",
-                    "name": "markdown",
-                    "headline": ""
-                }
-            ],
-            "description": "",
-            "hasPart": [
-                {
-                    "position": 0,
-                    "identifier": "1",
-                    "text": "<ul><li><a href=\"https://neweconomics.org/2011/07/five-ways-well-new-applications-new-ways-thinking\">Five Ways to Wellbeing: a report researched and developed by the New Economics Foundation</a></li><li><a href=\"https://www.mind.org.uk/workplace/mental-health-at-work/taking-care-of-yourself/five-ways-to-wellbeing/\">Find out more about the 5 ways to wellbeing on the MIND website</a></li></ul>",
-                    "@type": "WebPageElement",
-                    "name": "markdown",
-                    "headline": ""
-                }
-            ],
-            "headline": "Further information"
+      },
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@id": "https://www.nhs.uk/mental-health/self-help/",
+          "name": "Self-help",
+          "genre": []
         }
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "item": {
+          "@id": "https://www.nhs.uk/mental-health/self-help/guides-tools-and-activities/",
+          "name": "Guides, tools and activities",
+          "genre": ["Advice or information"]
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "@id": "https://www.nhs.uk/mental-health/self-help/guides-tools-and-activities/five-steps-to-mental-wellbeing/",
+          "name": "5 steps to mental wellbeing",
+          "genre": ["Advice or information"]
+        }
+      }
     ]
+  },
+  "hasPart": [],
+  "relatedLink": [
+    {
+      "@type": "LinkRole",
+      "url": "https://api.service.nhs.uk/nhs-website-content/mental-health/self-help/guides-tools-and-activities/",
+      "name": "Guides, tools and activities",
+      "linkRelationship": "Navigation",
+      "position": 0
+    },
+    {
+      "@type": "LinkRole",
+      "url": "https://api.service.nhs.uk/nhs-website-content/mental-health/self-help/guides-tools-and-activities/tips-to-reduce-stress/",
+      "name": "10 stress busters",
+      "linkRelationship": "Navigation",
+      "position": 1
+    },
+    {
+      "@type": "LinkRole",
+      "url": "https://api.service.nhs.uk/nhs-website-content/mental-health/self-help/guides-tools-and-activities/mental-wellbeing-audio-guides/",
+      "name": "Mental wellbeing audio guides",
+      "linkRelationship": "Navigation",
+      "position": 2
+    },
+    {
+      "@type": "LinkRole",
+      "url": "https://api.service.nhs.uk/nhs-website-content/mental-health/self-help/guides-tools-and-activities/exercise-for-depression/",
+      "name": "Exercise for depression",
+      "linkRelationship": "Navigation",
+      "position": 3
+    },
+    {
+      "@type": "LinkRole",
+      "url": "https://api.service.nhs.uk/nhs-website-content/mental-health/self-help/guides-tools-and-activities/five-steps-to-mental-wellbeing/",
+      "name": "5 steps to mental wellbeing",
+      "linkRelationship": "Navigation",
+      "position": 4
+    },
+    {
+      "@type": "LinkRole",
+      "url": "https://api.service.nhs.uk/nhs-website-content/mental-health/self-help/guides-tools-and-activities/breathing-exercises-for-stress/",
+      "name": "Breathing exercises for stress",
+      "linkRelationship": "Navigation",
+      "position": 5
+    }
+  ],
+  "dateModified": "2022-12-28T13:52:56+00:00",
+  "mainEntityOfPage": [
+    {
+      "identifier": "0",
+      "name": "section heading",
+      "position": 0,
+      "@type": "WebPageElement",
+      "mainEntityOfPage": [
+        {
+          "position": 0,
+          "identifier": "1",
+          "text": "<p><b>Evidence suggests there are 5 steps you can take to improve your mental health and wellbeing. Trying these things could help you feel more positive and able to get the most out of life.</b></p>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": ""
+        },
+        {
+          "position": 1,
+          "identifier": "1",
+          "text": "<p>Good relationships are important for your mental wellbeing. They can:</p><ul><li>help you to build a sense of belonging and self-worth</li><li>give you an opportunity to share positive experiences</li><li>provide emotional support and allow you to support others</li></ul><p>There are lots of things you could try to help build stronger and closer relationships:</p>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": "1. Connect with other people"
+        },
+        {
+          "position": 2,
+          "@type": "WebPageElement",
+          "name": "Do/Don't",
+          "identifier": "9",
+          "text": "<div><h3>Do</h3><ul><li><p>if possible, take time each day to be with your family, for example, try arranging a fixed time to eat dinner together</p></li><li><p>arrange a day out with friends you have not seen for a while</p></li><li><p>try switching off the TV to talk or play a game with your children, friends or family</p></li><li><p>have lunch with a colleague</p></li><li><p>visit a friend or family member who needs support or company</p></li><li><p>volunteer at a local school, hospital or community group. <a href=\"https://www.gov.uk/government/get-involved/take-part/volunteer\">Find out how to volunteer on the GOV.UK website</a></p></li><li><p>make the most of technology to stay in touch with friends and family. Video-chat apps like Skype and FaceTime are useful, especially if you live far apart</p></li></ul></div>"
+        },
+        {
+          "position": 3,
+          "@type": "WebPageElement",
+          "name": "Do/Don't",
+          "identifier": "9",
+          "text": "<div><h3>Don't</h3><ul><li><p>do not rely on technology or social media alone to build relationships. It's easy to get into the habit of only ever texting, messaging or emailing people</p></li></ul></div>"
+        }
+      ],
+      "description": "",
+      "hasPart": [
+        {
+          "position": 0,
+          "identifier": "1",
+          "text": "<p><b>Evidence suggests there are 5 steps you can take to improve your mental health and wellbeing. Trying these things could help you feel more positive and able to get the most out of life.</b></p>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": ""
+        },
+        {
+          "position": 1,
+          "identifier": "1",
+          "text": "<p>Good relationships are important for your mental wellbeing. They can:</p><ul><li>help you to build a sense of belonging and self-worth</li><li>give you an opportunity to share positive experiences</li><li>provide emotional support and allow you to support others</li></ul><p>There are lots of things you could try to help build stronger and closer relationships:</p>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": "1. Connect with other people"
+        },
+        {
+          "position": 2,
+          "@type": "WebPageElement",
+          "name": "Do/Don't",
+          "identifier": "9",
+          "text": "<div><h3>Do</h3><ul><li><p>if possible, take time each day to be with your family, for example, try arranging a fixed time to eat dinner together</p></li><li><p>arrange a day out with friends you have not seen for a while</p></li><li><p>try switching off the TV to talk or play a game with your children, friends or family</p></li><li><p>have lunch with a colleague</p></li><li><p>visit a friend or family member who needs support or company</p></li><li><p>volunteer at a local school, hospital or community group. <a href=\"https://www.gov.uk/government/get-involved/take-part/volunteer\">Find out how to volunteer on the GOV.UK website</a></p></li><li><p>make the most of technology to stay in touch with friends and family. Video-chat apps like Skype and FaceTime are useful, especially if you live far apart</p></li></ul></div>"
+        },
+        {
+          "position": 3,
+          "@type": "WebPageElement",
+          "name": "Do/Don't",
+          "identifier": "9",
+          "text": "<div><h3>Don't</h3><ul><li><p>do not rely on technology or social media alone to build relationships. It's easy to get into the habit of only ever texting, messaging or emailing people</p></li></ul></div>"
+        }
+      ]
+    },
+    {
+      "identifier": "0",
+      "name": "section heading",
+      "position": 1,
+      "@type": "WebPageElement",
+      "mainEntityOfPage": [
+        {
+          "position": 0,
+          "identifier": "1",
+          "text": "<p>Being active is not only great for your physical health and fitness. Evidence also shows it can also improve your mental wellbeing by:</p><ul><li><a href=\"/mental-health/self-help/tips-and-support/raise-low-self-esteem/\">raising your self-esteem</a></li><li>helping you to set goals or challenges and achieve them</li><li>causing chemical changes in your brain which can help to positively change your mood</li></ul><p><a href=\"/live-well/exercise/\">Read about exercise guidelines and workouts to help improve your fitness and wellbeing</a></p>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": "2. Be physically active"
+        },
+        {
+          "position": 1,
+          "@type": "WebPageElement",
+          "name": "Do/Don't",
+          "identifier": "9",
+          "text": "<div><h3>Do</h3><ul><li><p>read about <a href=\"/live-well/exercise/running-and-aerobic-exercises/\">running and aerobic exercises</a> to help get you moving and improve your fitness</p></li><li><p>read about <a href=\"/live-well/exercise/strength-and-flexibility-exercises/\">strength and flexibility exercises</a> to increase muscle strength, improve balance and reduce joint pain</p></li><li><p>if you're a wheelchair user, read <a href=\"/live-well/exercise/exercise-guidelines/wheelchair-users-fitness-advice/\">fitness advice for wheelchair users</a></p></li></ul></div>"
+        },
+        {
+          "position": 2,
+          "@type": "WebPageElement",
+          "name": "Do/Don't",
+          "identifier": "9",
+          "text": "<div><h3>Don't</h3><ul><li><p>do not feel you have to spend hours in a gym. It's best to find activities you enjoy and make them a part of your life</p></li></ul></div>"
+        }
+      ],
+      "description": "",
+      "hasPart": [
+        {
+          "position": 0,
+          "identifier": "1",
+          "text": "<p>Being active is not only great for your physical health and fitness. Evidence also shows it can also improve your mental wellbeing by:</p><ul><li><a href=\"/mental-health/self-help/tips-and-support/raise-low-self-esteem/\">raising your self-esteem</a></li><li>helping you to set goals or challenges and achieve them</li><li>causing chemical changes in your brain which can help to positively change your mood</li></ul><p><a href=\"/live-well/exercise/\">Read about exercise guidelines and workouts to help improve your fitness and wellbeing</a></p>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": "2. Be physically active"
+        },
+        {
+          "position": 1,
+          "@type": "WebPageElement",
+          "name": "Do/Don't",
+          "identifier": "9",
+          "text": "<div><h3>Do</h3><ul><li><p>read about <a href=\"/live-well/exercise/running-and-aerobic-exercises/\">running and aerobic exercises</a> to help get you moving and improve your fitness</p></li><li><p>read about <a href=\"/live-well/exercise/strength-and-flexibility-exercises/\">strength and flexibility exercises</a> to increase muscle strength, improve balance and reduce joint pain</p></li><li><p>if you're a wheelchair user, read <a href=\"/live-well/exercise/exercise-guidelines/wheelchair-users-fitness-advice/\">fitness advice for wheelchair users</a></p></li></ul></div>"
+        },
+        {
+          "position": 2,
+          "@type": "WebPageElement",
+          "name": "Do/Don't",
+          "identifier": "9",
+          "text": "<div><h3>Don't</h3><ul><li><p>do not feel you have to spend hours in a gym. It's best to find activities you enjoy and make them a part of your life</p></li></ul></div>"
+        }
+      ]
+    },
+    {
+      "identifier": "0",
+      "name": "section heading",
+      "position": 2,
+      "@type": "WebPageElement",
+      "mainEntityOfPage": [
+        {
+          "position": 0,
+          "identifier": "1",
+          "text": "<p>Research shows that learning new skills can also improve your mental wellbeing by:</p><ul><li>boosting self-confidence and <a href=\"/mental-health/self-help/tips-and-support/raise-low-self-esteem/\">raising self-esteem</a></li><li>helping you to build a sense of purpose</li><li>helping you to connect with others</li></ul><p>Even if you feel like you do not have enough time, or you may not need to learn new things, there are lots of different ways to bring learning into your life.</p><p>Some of the things you could try include:</p>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": "3. Learn new skills"
+        },
+        {
+          "position": 1,
+          "@type": "WebPageElement",
+          "name": "Do/Don't",
+          "identifier": "9",
+          "text": "<div><h3>Do</h3><ul><li><p>try learning to cook something new. Find out about <a href=\"/live-well/eat-well/\">eating a healthy, balanced diet</a></p></li><li><p>try taking on a new responsibility at work, such as mentoring a junior staff member or improving your presentation skills</p></li><li><p>work on a DIY project, such as fixing a broken bike, garden gate or something bigger. There are lots of free video tutorials online</p></li><li><p>consider signing up for a course at a local college. You could try learning a new language or a practical skill such as plumbing</p></li><li><p>try new hobbies that challenge you, such as writing a blog, taking up a new sport or learning to paint</p></li></ul></div>"
+        },
+        {
+          "position": 2,
+          "@type": "WebPageElement",
+          "name": "Do/Don't",
+          "identifier": "9",
+          "text": "<div><h3>Don't</h3><ul><li><p>do not feel you have to learn new qualifications or sit exams if this does not interest you. It's best to find activities you enjoy and make them a part of your life</p></li></ul></div>"
+        }
+      ],
+      "description": "",
+      "hasPart": [
+        {
+          "position": 0,
+          "identifier": "1",
+          "text": "<p>Research shows that learning new skills can also improve your mental wellbeing by:</p><ul><li>boosting self-confidence and <a href=\"/mental-health/self-help/tips-and-support/raise-low-self-esteem/\">raising self-esteem</a></li><li>helping you to build a sense of purpose</li><li>helping you to connect with others</li></ul><p>Even if you feel like you do not have enough time, or you may not need to learn new things, there are lots of different ways to bring learning into your life.</p><p>Some of the things you could try include:</p>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": "3. Learn new skills"
+        },
+        {
+          "position": 1,
+          "@type": "WebPageElement",
+          "name": "Do/Don't",
+          "identifier": "9",
+          "text": "<div><h3>Do</h3><ul><li><p>try learning to cook something new. Find out about <a href=\"/live-well/eat-well/\">eating a healthy, balanced diet</a></p></li><li><p>try taking on a new responsibility at work, such as mentoring a junior staff member or improving your presentation skills</p></li><li><p>work on a DIY project, such as fixing a broken bike, garden gate or something bigger. There are lots of free video tutorials online</p></li><li><p>consider signing up for a course at a local college. You could try learning a new language or a practical skill such as plumbing</p></li><li><p>try new hobbies that challenge you, such as writing a blog, taking up a new sport or learning to paint</p></li></ul></div>"
+        },
+        {
+          "position": 2,
+          "@type": "WebPageElement",
+          "name": "Do/Don't",
+          "identifier": "9",
+          "text": "<div><h3>Don't</h3><ul><li><p>do not feel you have to learn new qualifications or sit exams if this does not interest you. It's best to find activities you enjoy and make them a part of your life</p></li></ul></div>"
+        }
+      ]
+    },
+    {
+      "identifier": "0",
+      "name": "section heading",
+      "position": 3,
+      "@type": "WebPageElement",
+      "mainEntityOfPage": [
+        {
+          "position": 0,
+          "identifier": "1",
+          "text": "<p>Research suggests that acts of giving and kindness can help improve your mental wellbeing by:</p><ul><li>creating positive feelings and a sense of reward</li><li>giving you a feeling of purpose and self-worth</li><li>helping you connect with other people</li></ul><p>It could be small acts of kindness towards other people, or larger ones like volunteering in your local community.</p><p>Some examples of the things you could try include:</p><ul><li>saying thank you to someone for something they have done for you</li><li>asking friends, family or colleagues how they are and really listening to their answer</li><li>spending time with friends or relatives who need support or company</li><li>offering to help someone you know with DIY or a work project</li><li>volunteering in your community, such as helping at a school, hospital or care home</li></ul>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": "4. Give to others"
+        }
+      ],
+      "description": "",
+      "hasPart": [
+        {
+          "position": 0,
+          "identifier": "1",
+          "text": "<p>Research suggests that acts of giving and kindness can help improve your mental wellbeing by:</p><ul><li>creating positive feelings and a sense of reward</li><li>giving you a feeling of purpose and self-worth</li><li>helping you connect with other people</li></ul><p>It could be small acts of kindness towards other people, or larger ones like volunteering in your local community.</p><p>Some examples of the things you could try include:</p><ul><li>saying thank you to someone for something they have done for you</li><li>asking friends, family or colleagues how they are and really listening to their answer</li><li>spending time with friends or relatives who need support or company</li><li>offering to help someone you know with DIY or a work project</li><li>volunteering in your community, such as helping at a school, hospital or care home</li></ul>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": "4. Give to others"
+        }
+      ]
+    },
+    {
+      "identifier": "0",
+      "name": "section heading",
+      "position": 4,
+      "@type": "WebPageElement",
+      "mainEntityOfPage": [
+        {
+          "position": 0,
+          "identifier": "1",
+          "text": "<p>Paying more attention to the present moment can improve your mental wellbeing. This includes your thoughts and feelings, your body and the world around you.</p><p>Some people call this awareness \"mindfulness\". Mindfulness can help you enjoy life more and understand yourself better. It can positively change the way you feel about life and how you approach challenges.</p><p>Read more about <a href=\"/mental-health/self-help/tips-and-support/mindfulness/\">mindfulness</a>, including steps you can take to be more mindful in your everyday life.</p>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": "5. Pay attention to the present moment (mindfulness)"
+        }
+      ],
+      "description": "",
+      "hasPart": [
+        {
+          "position": 0,
+          "identifier": "1",
+          "text": "<p>Paying more attention to the present moment can improve your mental wellbeing. This includes your thoughts and feelings, your body and the world around you.</p><p>Some people call this awareness \"mindfulness\". Mindfulness can help you enjoy life more and understand yourself better. It can positively change the way you feel about life and how you approach challenges.</p><p>Read more about <a href=\"/mental-health/self-help/tips-and-support/mindfulness/\">mindfulness</a>, including steps you can take to be more mindful in your everyday life.</p>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": "5. Pay attention to the present moment (mindfulness)"
+        }
+      ]
+    },
+    {
+      "identifier": "0",
+      "name": "section heading",
+      "position": 5,
+      "@type": "WebPageElement",
+      "mainEntityOfPage": [
+        {
+          "position": 0,
+          "identifier": "1",
+          "text": "<ul><li><a href=\"https://neweconomics.org/2011/07/five-ways-well-new-applications-new-ways-thinking\">Five Ways to Wellbeing: a report researched and developed by the New Economics Foundation</a></li><li><a href=\"https://www.mind.org.uk/workplace/mental-health-at-work/taking-care-of-yourself/five-ways-to-wellbeing/\">Find out more about the 5 ways to wellbeing on the MIND website</a></li></ul>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": ""
+        }
+      ],
+      "description": "",
+      "hasPart": [
+        {
+          "position": 0,
+          "identifier": "1",
+          "text": "<ul><li><a href=\"https://neweconomics.org/2011/07/five-ways-well-new-applications-new-ways-thinking\">Five Ways to Wellbeing: a report researched and developed by the New Economics Foundation</a></li><li><a href=\"https://www.mind.org.uk/workplace/mental-health-at-work/taking-care-of-yourself/five-ways-to-wellbeing/\">Find out more about the 5 ways to wellbeing on the MIND website</a></li></ul>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": ""
+        }
+      ],
+      "headline": "Further information"
+    }
+  ],
+  "webpage": "https://www.nhs.uk/mental-health/self-help/guides-tools-and-activities/five-steps-to-mental-wellbeing/"
 }
