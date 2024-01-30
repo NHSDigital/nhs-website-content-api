@@ -1,5 +1,9 @@
 {
-  "about": { "name": "Acrivastine", "url": "https://api.service.nhs.uk/nhs-website-content/medicines/acrivastine/" },
+  "about": {
+    "name": "Acrivastine",
+    "url": "https://api.service.nhs.uk/nhs-website-content/medicines/acrivastine/",
+    "webpage": "https://www.nhs.uk/medicines/acrivastine/"
+  },
   "modules": [
     {
       "@type": "HealthTopicContent",

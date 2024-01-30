@@ -3,6 +3,23 @@ var requestHostnameEnv = context.getVariable("request_hostname_env");
 var searchAndReplaceStrings = [
   {
     comment1: "=============================================================",
+    comment2: "Secure protocol and www subdomain                            ",
+    comment3: "=============================================================",
+  },
+  {
+    searchForRegex: /http:\/\/www.nhs.uk/gm,
+    replaceWithStr: "https://www.nhs.uk",
+  },
+  {
+    searchForRegex: /http:\/\/nhs.uk/gm,
+    replaceWithStr: "https://www.nhs.uk",
+  },
+  {
+    searchForRegex: /https:\/\/nhs.uk/gm,
+    replaceWithStr: "https://www.nhs.uk",
+  },
+  {
+    comment1: "=============================================================",
     comment2: "Conditions                                                   ",
     comment3: "=============================================================",
   },
@@ -229,7 +246,7 @@ if (responseJsonObj.url) {
     "https://" + requestHostnameEnv + "/nhs-website-content/",
     "https://www.nhs.uk/"
   );
-} else if (responseJsonObj.about.url) {
+} else if (responseJsonObj.about && responseJsonObj.about.url) {
   responseJsonObj.about.webpage = responseJsonObj.about.url.replace(
     "https://" + requestHostnameEnv + "/nhs-website-content/",
     "https://www.nhs.uk/"

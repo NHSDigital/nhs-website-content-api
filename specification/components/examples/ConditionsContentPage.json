@@ -1,516 +1,504 @@
 {
-	"@context": "http://schema.org",
-	"@type": "MedicalWebPage",
-	"name": "Chickenpox",
-	"copyrightHolder": {
-		"name": "Crown Copyright",
-		"@type": "Organization"
-	},
-	"license": "https://developer.api.nhs.uk/terms",
-	"author": {
-		"url": "https://www.nhs.uk",
-		"logo": "https://www.nhs.uk/nhscwebservices/documents/logo1.jpg",
-		"email": "nhswebsite.servicedesk@nhs.net",
-		"@type": "Organization",
-		"name": "NHS website"
-	},
-	"about": {
-		"@type": "WebPage",
-		"name": "Chickenpox",
-		"alternateName": ""
-	},
-	"description": "Chickenpox is a very contagious infection that causes an itchy, spotty rash. Read NHS information about chickenpox symptoms and when to get medical advice.",
-	"url": "https://www.nhs.uk/conditions/chickenpox/",
-	"genre": [
-		"Condition"
-	],
-	"keywords": [
-
-	],
-	"lastReviewed": [
-		"2021-11-12T01:00:00+00:00",
-		"2024-11-12T01:00:00+00:00"
-	],
-	"breadcrumb": {
-		"@context": "http://schema.org",
-		"@type": "BreadcrumbList",
-		"itemListElement": [
-			{
-				"@type": "ListItem",
-				"position": 0,
-				"item": {
-					"@id": "https://www.nhs.uk/conditions/",
-					"name": "Health A to Z",
-					"genre": [
-
-					]
-				}
-			},
-			{
-				"@type": "ListItem",
-				"position": 1,
-				"item": {
-					"@id": "https://www.nhs.uk/conditions/chickenpox/",
-					"name": "Chickenpox",
-					"genre": [
-						"Condition"
-					]
-				}
-			}
-		]
-	},
-	"dateModified": "2022-11-15T11:50:45+00:00",
-	"hasPart": [
-		{
-			"@type": "HealthTopicContent",
-			"url": "https://www.nhs.uk/conditions/chickenpox/#symptoms",
-			"hasHealthAspect": "http://schema.org/SymptomsHealthAspect",
-			"headline": "Check if it's chickenpox",
-			"description": "Symptoms of chickenpox include itchy spots that become blisters, then scabs. It can be anywhere on the body, including in the mouth.",
-			"hasPart": [
-				{
-					"@type": "WebPageElement",
-					"headline": "Stage 1: small spots appear",
-					"text": "<p>An itchy, spotty rash is the main symptom of chickenpox. It can be anywhere on the body.</p><p>Chickenpox happens in 3 stages. But new spots can appear while others are becoming blisters or forming a scab.</p><p>The spots can:</p><ul><li>be anywhere on the body, including inside the mouth and around the genitals, which can be painful</li><li>spread or stay in a small area</li><li>be red, pink, darker or the same colour as surrounding skin, depending on your skin tone</li><li>be harder to see on brown and black skin</li></ul>"
-				},
-				{
-					"@type": "WebPageElement",
-					"headline": "Stage 2: the spots become blisters",
-					"text": "<p>The spots fill with fluid and become blisters. The blisters are very itchy and may burst.</p>"
-				},
-				{
-					"@type": "WebPageElement",
-					"headline": "Stage 3: the blisters become scabs",
-					"text": "<p>The spots form a scab. Some scabs are flaky while others leak fluid.</p>"
-				},
-				{
-					"@type": "WebPageElement",
-					"headline": "Other symptoms",
-					"text": "<p>Before or after the rash appears, you might also get:</p><ul><li>a high temperature</li><li>aches and pains, and generally feeling unwell</li><li>loss of appetite</li></ul><p>Chickenpox is very itchy and can make children feel miserable, even if they do not have many spots.</p><p>The chickenpox spots look the same on children and adults. But adults usually have a high temperature for longer and more spots than children.</p><p>It's possible to get chickenpox more than once, but it's unusual.</p>"
-				}
-			]
-		},
-		{
-			"@type": "HealthTopicContent",
-			"url": "https://www.nhs.uk/conditions/chickenpox/#self-care",
-			"hasHealthAspect": "http://schema.org/SelfCareHealthAspect",
-			"headline": "How to treat chickenpox at home",
-			"description": "Chickenpox usually gets better on its own after 1 to 2 weeks. You can ease symptoms with cooling creams, antihistamines and paracetamol.",
-			"hasPart": [
-				{
-					"@type": "WebPageElement",
-					"headline": "Stay off school or work",
-					"text": "<p>You'll need to stay away from school, nursery or work until all the spots have formed a scab. This is usually 5 days after the spots appeared.</p>"
-				},
-				{
-					"@type": "WebPageElement",
-					"headline": "Do",
-					"text": "<ul><li><p>drink plenty of fluid (try ice lollies if your child is not drinking) to avoid dehydration</p></li><li><p>take <a href=\"/medicines/paracetamol-for-children/\">paracetamol</a> to help with pain and discomfort</p></li><li><p>cut your child's fingernails and put socks on their hands at night to stop them scratching</p></li><li><p>use cooling creams or gels from a pharmacy</p></li><li><p>speak to a pharmacist about using <a href=\"/conditions/antihistamines/\">antihistamine medicine</a> to help itching</p></li><li><p>bathe in cool water and pat the skin dry (do not rub)</p></li><li><p>dress in loose clothes</p></li></ul>"
-				},
-				{
-					"@type": "WebPageElement",
-					"headline": "Don't",
-					"text": "<ul><li><p>do not use <a href=\"/medicines/ibuprofen-for-children/\">ibuprofen</a> unless advised to do so by a doctor, as it may cause serious skin infections</p></li><li><p>do not give aspirin to children under 16</p></li><li><p>do not go near newborn babies, people who are pregnant and people with a weakened immune system, as chickenpox can be dangerous for them</p></li><li><p>do not scratch the spots, as scratching can cause scarring</p></li></ul>"
-				}
-			]
-		},
-		{
-			"@type": "HealthTopicContent",
-			"url": "https://www.nhs.uk/conditions/chickenpox/#causes",
-			"hasHealthAspect": "http://schema.org/CausesHealthAspect",
-			"headline": "It's easy to catch chickenpox",
-			"description": "You can catch chickenpox by being in the same room as someone with it. It's also spread by touching things that have fluid from the blisters on them.",
-			"hasPart": [
-				{
-					"@type": "WebPageElement",
-					"headline": "When chickenpox can be spread",
-					"text": "<p>You can catch chickenpox by being in the same room as someone with it. It's also spread by touching things that have fluid from the blisters on them.</p><p>You can spread chickenpox to other people from 2 days before your spots appear until they have all formed scabs \u2013 usually 5 days after your spots appeared.</p><h3>How soon you get symptoms after catching chickenpox</h3><p>The spots start appearing around 1 to 3 weeks after you caught chickenpox.</p>"
-				}
-			]
-		},
-		{
-			"@type": "HealthTopicContent",
-			"url": "https://www.nhs.uk/conditions/chickenpox/#overview",
-			"hasHealthAspect": "http://schema.org/OverviewHealthAspect",
-			"headline": "",
-			"description": "Chickenpox is a very contagious infection that causes an itchy, spotty rash. It's common in children but adults can get it too.",
-			"hasPart": [
-				{
-					"text": "<p>Symptoms of chickenpox include itchy spots that become blisters, then scabs. It can be anywhere on the body, including in the mouth.</p> ",
-					"@type": "WebPageElement"
-				},
-				{
-					"text": "<p>Chickenpox usually gets better on its own after 1 to 2 weeks. You can ease symptoms with cooling creams, antihistamines and paracetamol.</p> ",
-					"@type": "WebPageElement"
-				},
-				{
-					"text": "<p>You can catch chickenpox by being in the same room as someone with it. It's also spread by touching things that have fluid from the blisters on them.</p> ",
-					"@type": "WebPageElement"
-				}
-			]
-		}
-	],
-	"relatedLink": [
-		{
-			"@type": "LinkRole",
-			"url": "https://www.nhs.uk/conditions/chickenpox/",
-			"linkRelationship": "Navigation",
-			"position": 0,
-			"name": "Chickenpox"
-		}
-	],
-	"contentSubTypes": [
-
-	],
-	"mainEntityOfPage": [
-		{
-			"identifier": "0",
-			"name": "section heading",
-			"position": 0,
-			"@type": "WebPageElement",
-			"mainEntityOfPage": [
-				{
-					"position": 0,
-					"identifier": "1",
-					"text": "<p><b>Chickenpox is common and mostly affects children, but you can get it at any age. It usually gets better by itself after 1 to 2 weeks without needing to see a GP.</b></p>",
-					"@type": "WebPageElement",
-					"name": "markdown",
-					"headline": ""
-				}
-			],
-			"description": "",
-			"hasPart": [
-				{
-					"position": 0,
-					"identifier": "1",
-					"text": "<p><b>Chickenpox is common and mostly affects children, but you can get it at any age. It usually gets better by itself after 1 to 2 weeks without needing to see a GP.</b></p>",
-					"@type": "WebPageElement",
-					"name": "markdown",
-					"headline": ""
-				}
-			]
-		},
-		{
-			"identifier": "0",
-			"name": "section heading",
-			"position": 1,
-			"@type": "WebPageElement",
-			"mainEntityOfPage": [
-				{
-					"position": 0,
-					"identifier": "1",
-					"text": "<p>An itchy, spotty rash is the main symptom of chickenpox. It can be anywhere on the body.</p><p>Chickenpox happens in 3 stages. But new spots can appear while others are becoming blisters or forming a scab.</p><p>The spots can:</p><ul><li>be anywhere on the body, including inside the mouth and around the genitals, which can be painful</li><li>spread or stay in a small area</li><li>be red, pink, darker or the same colour as surrounding skin, depending on your skin tone</li><li>be harder to see on brown and black skin</li></ul>",
-					"@type": "WebPageElement",
-					"name": "markdown",
-					"headline": "Stage 1: small spots appear"
-				},
-				{
-					"position": 2,
-					"identifier": "1",
-					"text": "<p>The spots fill with fluid and become blisters. The blisters are very itchy and may burst.</p>",
-					"@type": "WebPageElement",
-					"name": "markdown",
-					"headline": "Stage 2: the spots become blisters"
-				},
-				{
-					"position": 4,
-					"identifier": "1",
-					"text": "<p>The spots form a scab. Some scabs are flaky while others leak fluid.</p>",
-					"@type": "WebPageElement",
-					"name": "markdown",
-					"headline": "Stage 3: the blisters become scabs"
-				},
-				{
-					"position": 6,
-					"identifier": "1",
-					"text": "<p>Before or after the rash appears, you might also get:</p><ul><li>a high temperature</li><li>aches and pains, and generally feeling unwell</li><li>loss of appetite</li></ul><p>Chickenpox is very itchy and can make children feel miserable, even if they do not have many spots.</p><p>The chickenpox spots look the same on children and adults. But adults usually have a high temperature for longer and more spots than children.</p><p>It's possible to get chickenpox more than once, but it's unusual.</p>",
-					"@type": "WebPageElement",
-					"name": "markdown",
-					"headline": "Other symptoms"
-				}
-			],
-			"description": "Symptoms of chickenpox include itchy spots that become blisters, then scabs. It can be anywhere on the body, including in the mouth.",
-			"hasPart": [
-				{
-					"position": 0,
-					"identifier": "1",
-					"text": "<p>An itchy, spotty rash is the main symptom of chickenpox. It can be anywhere on the body.</p><p>Chickenpox happens in 3 stages. But new spots can appear while others are becoming blisters or forming a scab.</p><p>The spots can:</p><ul><li>be anywhere on the body, including inside the mouth and around the genitals, which can be painful</li><li>spread or stay in a small area</li><li>be red, pink, darker or the same colour as surrounding skin, depending on your skin tone</li><li>be harder to see on brown and black skin</li></ul>",
-					"@type": "WebPageElement",
-					"name": "markdown",
-					"headline": "Stage 1: small spots appear"
-				},
-				{
-					"position": 2,
-					"identifier": "1",
-					"text": "<p>The spots fill with fluid and become blisters. The blisters are very itchy and may burst.</p>",
-					"@type": "WebPageElement",
-					"name": "markdown",
-					"headline": "Stage 2: the spots become blisters"
-				},
-				{
-					"position": 4,
-					"identifier": "1",
-					"text": "<p>The spots form a scab. Some scabs are flaky while others leak fluid.</p>",
-					"@type": "WebPageElement",
-					"name": "markdown",
-					"headline": "Stage 3: the blisters become scabs"
-				},
-				{
-					"position": 6,
-					"identifier": "1",
-					"text": "<p>Before or after the rash appears, you might also get:</p><ul><li>a high temperature</li><li>aches and pains, and generally feeling unwell</li><li>loss of appetite</li></ul><p>Chickenpox is very itchy and can make children feel miserable, even if they do not have many spots.</p><p>The chickenpox spots look the same on children and adults. But adults usually have a high temperature for longer and more spots than children.</p><p>It's possible to get chickenpox more than once, but it's unusual.</p>",
-					"@type": "WebPageElement",
-					"name": "markdown",
-					"headline": "Other symptoms"
-				}
-			],
-			"hasHealthAspect": "http://schema.org/SymptomsHealthAspect",
-			"headline": "Check if it's chickenpox"
-		},
-		{
-			"identifier": "0",
-			"name": "section heading",
-			"position": 2,
-			"@type": "WebPageElement",
-			"mainEntityOfPage": [
-				{
-					"position": 0,
-					"identifier": "1",
-					"text": "<p><a href=\"/conditions/rashes-babies-and-children/\">Check other rashes in children</a></p>",
-					"@type": "WebPageElement",
-					"name": "markdown",
-					"headline": "If you're not sure it's chickenpox"
-				}
-			],
-			"description": "",
-			"hasPart": [
-				{
-					"position": 0,
-					"identifier": "1",
-					"text": "<p><a href=\"/conditions/rashes-babies-and-children/\">Check other rashes in children</a></p>",
-					"@type": "WebPageElement",
-					"name": "markdown",
-					"headline": "If you're not sure it's chickenpox"
-				}
-			]
-		},
-		{
-			"identifier": "0",
-			"name": "section heading",
-			"position": 3,
-			"@type": "WebPageElement",
-			"mainEntityOfPage": [
-				{
-					"position": 0,
-					"@type": "WebPageElement",
-					"name": "Callout",
-					"identifier": "4",
-					"text": "<h3>Stay off school or work</h3><p>You'll need to stay away from school, nursery or work until all the spots have formed a scab. This is usually 5 days after the spots appeared.</p>"
-				},
-				{
-					"position": 1,
-					"@type": "WebPageElement",
-					"name": "Do/Don't",
-					"identifier": "9",
-					"text": "<div><h3>Do</h3><ul><li><p>drink plenty of fluid (try ice lollies if your child is not drinking) to avoid dehydration</p></li><li><p>take <a href=\"/medicines/paracetamol-for-children/\">paracetamol</a> to help with pain and discomfort</p></li><li><p>cut your child's fingernails and put socks on their hands at night to stop them scratching</p></li><li><p>use cooling creams or gels from a pharmacy</p></li><li><p>speak to a pharmacist about using <a href=\"/conditions/antihistamines/\">antihistamine medicine</a> to help itching</p></li><li><p>bathe in cool water and pat the skin dry (do not rub)</p></li><li><p>dress in loose clothes</p></li></ul></div>"
-				},
-				{
-					"position": 2,
-					"@type": "WebPageElement",
-					"name": "Do/Don't",
-					"identifier": "9",
-					"text": "<div><h3>Don't</h3><ul><li><p>do not use <a href=\"/medicines/ibuprofen-for-children/\">ibuprofen</a> unless advised to do so by a doctor, as it may cause serious skin infections</p></li><li><p>do not give aspirin to children under 16</p></li><li><p>do not go near newborn babies, people who are pregnant and people with a weakened immune system, as chickenpox can be dangerous for them</p></li><li><p>do not scratch the spots, as scratching can cause scarring</p></li></ul></div>"
-				}
-			],
-			"description": "Chickenpox usually gets better on its own after 1 to 2 weeks. You can ease symptoms with cooling creams, antihistamines and paracetamol.",
-			"hasPart": [
-				{
-					"position": 0,
-					"@type": "WebPageElement",
-					"name": "Callout",
-					"identifier": "4",
-					"text": "<h3>Stay off school or work</h3><p>You'll need to stay away from school, nursery or work until all the spots have formed a scab. This is usually 5 days after the spots appeared.</p>"
-				},
-				{
-					"position": 1,
-					"@type": "WebPageElement",
-					"name": "Do/Don't",
-					"identifier": "9",
-					"text": "<div><h3>Do</h3><ul><li><p>drink plenty of fluid (try ice lollies if your child is not drinking) to avoid dehydration</p></li><li><p>take <a href=\"/medicines/paracetamol-for-children/\">paracetamol</a> to help with pain and discomfort</p></li><li><p>cut your child's fingernails and put socks on their hands at night to stop them scratching</p></li><li><p>use cooling creams or gels from a pharmacy</p></li><li><p>speak to a pharmacist about using <a href=\"/conditions/antihistamines/\">antihistamine medicine</a> to help itching</p></li><li><p>bathe in cool water and pat the skin dry (do not rub)</p></li><li><p>dress in loose clothes</p></li></ul></div>"
-				},
-				{
-					"position": 2,
-					"@type": "WebPageElement",
-					"name": "Do/Don't",
-					"identifier": "9",
-					"text": "<div><h3>Don't</h3><ul><li><p>do not use <a href=\"/medicines/ibuprofen-for-children/\">ibuprofen</a> unless advised to do so by a doctor, as it may cause serious skin infections</p></li><li><p>do not give aspirin to children under 16</p></li><li><p>do not go near newborn babies, people who are pregnant and people with a weakened immune system, as chickenpox can be dangerous for them</p></li><li><p>do not scratch the spots, as scratching can cause scarring</p></li></ul></div>"
-				}
-			],
-			"hasHealthAspect": "http://schema.org/SelfCareHealthAspect",
-			"headline": "How to treat chickenpox at home"
-		},
-		{
-			"identifier": "0",
-			"name": "section heading",
-			"position": 4,
-			"@type": "WebPageElement",
-			"mainEntityOfPage": [
-				{
-					"position": 0,
-					"@type": "WebPageElement",
-					"name": "non-urgent",
-					"identifier": "5",
-					"text": "<h2>Speak to a GP if:</h2><div class=\"block-richtext\">\n<ul><li>you're not sure it's chickenpox</li><li>you're concerned about your child</li></ul><p>Tell the receptionist you think it might be chickenpox before going in to a GP surgery.</p>\n</div>"
-				}
-			],
-			"description": "",
-			"hasPart": [
-				{
-					"position": 0,
-					"@type": "WebPageElement",
-					"name": "non-urgent",
-					"identifier": "5",
-					"text": "<h2>Speak to a GP if:</h2><div class=\"block-richtext\">\n<ul><li>you're not sure it's chickenpox</li><li>you're concerned about your child</li></ul><p>Tell the receptionist you think it might be chickenpox before going in to a GP surgery.</p>\n</div>"
-				}
-			]
-		},
-		{
-			"identifier": "0",
-			"name": "section heading",
-			"position": 5,
-			"@type": "WebPageElement",
-			"mainEntityOfPage": [
-				{
-					"position": 0,
-					"@type": "WebPageElement",
-					"name": "urgent",
-					"identifier": "5",
-					"text": "<h2>Get advice from 111 now if:</h2><div class=\"block-richtext\">\n<ul><li>the skin around the chickenpox blisters is hot, painful and red, but redness may be harder to see on brown or black skin</li><li>your child has chickenpox and is <a href=\"/conditions/dehydration/\">dehydrated</a></li><li>chickenpox symptoms suddenly get worse</li><li>you're pregnant and have not had chickenpox before, or you're not sure, and you've been near someone with chickenpox</li><li>you have a weakened immune system and have been near someone with chickenpox</li><li>you think your newborn baby has chickenpox</li></ul><p>Some people may be able to take medicine to prevent complications. It needs to be started within 24 hours of the spots appearing.</p><p>111 will tell you what to do. They can arrange a phone call from a nurse or doctor if you need one.</p><p>Go to <a href=\"https://111.nhs.uk/?utm_source=nhsuk&amp;utm_campaign=conditions&amp;utm_content=chickenpox\">111.nhs.uk</a> or call <a href=\"tel:111\">111</a>.</p>\n</div>"
-				}
-			],
-			"description": "",
-			"hasPart": [
-				{
-					"position": 0,
-					"@type": "WebPageElement",
-					"name": "urgent",
-					"identifier": "5",
-					"text": "<h2>Get advice from 111 now if:</h2><div class=\"block-richtext\">\n<ul><li>the skin around the chickenpox blisters is hot, painful and red, but redness may be harder to see on brown or black skin</li><li>your child has chickenpox and is <a href=\"/conditions/dehydration/\">dehydrated</a></li><li>chickenpox symptoms suddenly get worse</li><li>you're pregnant and have not had chickenpox before, or you're not sure, and you've been near someone with chickenpox</li><li>you have a weakened immune system and have been near someone with chickenpox</li><li>you think your newborn baby has chickenpox</li></ul><p>Some people may be able to take medicine to prevent complications. It needs to be started within 24 hours of the spots appearing.</p><p>111 will tell you what to do. They can arrange a phone call from a nurse or doctor if you need one.</p><p>Go to <a href=\"https://111.nhs.uk/?utm_source=nhsuk&amp;utm_campaign=conditions&amp;utm_content=chickenpox\">111.nhs.uk</a> or call <a href=\"tel:111\">111</a>.</p>\n</div>"
-				}
-			]
-		},
-		{
-			"identifier": "0",
-			"name": "section heading",
-			"position": 6,
-			"@type": "WebPageElement",
-			"mainEntityOfPage": [
-				{
-					"position": 0,
-					"identifier": "1",
-					"text": "<p>You can catch chickenpox by being in the same room as someone with it. It's also spread by touching things that have fluid from the blisters on them.</p><p>You can spread chickenpox to other people from 2 days before your spots appear until they have all formed scabs \u2013 usually 5 days after your spots appeared.</p><h3>How soon you get symptoms after catching chickenpox</h3><p>The spots start appearing around 1 to 3 weeks after you caught chickenpox.</p>",
-					"@type": "WebPageElement",
-					"name": "markdown",
-					"headline": "When chickenpox can be spread"
-				}
-			],
-			"description": "You can catch chickenpox by being in the same room as someone with it. It's also spread by touching things that have fluid from the blisters on them.",
-			"hasPart": [
-				{
-					"position": 0,
-					"identifier": "1",
-					"text": "<p>You can catch chickenpox by being in the same room as someone with it. It's also spread by touching things that have fluid from the blisters on them.</p><p>You can spread chickenpox to other people from 2 days before your spots appear until they have all formed scabs \u2013 usually 5 days after your spots appeared.</p><h3>How soon you get symptoms after catching chickenpox</h3><p>The spots start appearing around 1 to 3 weeks after you caught chickenpox.</p>",
-					"@type": "WebPageElement",
-					"name": "markdown",
-					"headline": "When chickenpox can be spread"
-				}
-			],
-			"hasHealthAspect": "http://schema.org/CausesHealthAspect",
-			"headline": "It's easy to catch chickenpox"
-		},
-		{
-			"identifier": "0",
-			"name": "section heading",
-			"position": 7,
-			"@type": "WebPageElement",
-			"mainEntityOfPage": [
-				{
-					"position": 0,
-					"identifier": "1",
-					"text": "<p>Most people get chickenpox during childhood, so it's rare to get chickenpox when you're pregnant.</p><p>If you do get chickenpox when you're pregnant, there's a small risk of your baby being very ill when it's born.</p><p>Go to <a href=\"https://111.nhs.uk/?utm_source=nhsuk&amp;utm_campaign=conditions&amp;utm_content=chickenpox\">111.nhs.uk</a> or call <a href=\"tel:111\">111</a> if you have not had chickenpox before and you've been near someone with it.</p>",
-					"@type": "WebPageElement",
-					"name": "markdown",
-					"headline": ""
-				}
-			],
-			"description": "",
-			"hasPart": [
-				{
-					"position": 0,
-					"identifier": "1",
-					"text": "<p>Most people get chickenpox during childhood, so it's rare to get chickenpox when you're pregnant.</p><p>If you do get chickenpox when you're pregnant, there's a small risk of your baby being very ill when it's born.</p><p>Go to <a href=\"https://111.nhs.uk/?utm_source=nhsuk&amp;utm_campaign=conditions&amp;utm_content=chickenpox\">111.nhs.uk</a> or call <a href=\"tel:111\">111</a> if you have not had chickenpox before and you've been near someone with it.</p>",
-					"@type": "WebPageElement",
-					"name": "markdown",
-					"headline": ""
-				}
-			],
-			"headline": "Chickenpox in pregnancy"
-		},
-		{
-			"identifier": "0",
-			"name": "section heading",
-			"position": 8,
-			"@type": "WebPageElement",
-			"mainEntityOfPage": [
-				{
-					"position": 0,
-					"identifier": "1",
-					"text": "<p>You can get the <a href=\"/conditions/vaccinations/chickenpox-vaccine/\">chickenpox vaccine</a> on the NHS if there's a risk of harming someone with a weakened immune system if you spread the virus to them.</p><p>For example, a child can be vaccinated if 1 of their parents is having chemotherapy.</p><p>You can also pay for the vaccine at some private clinics or travel clinics. It costs between \u00a3120 and \u00a3200.</p>",
-					"@type": "WebPageElement",
-					"name": "markdown",
-					"headline": ""
-				}
-			],
-			"description": "",
-			"hasPart": [
-				{
-					"position": 0,
-					"identifier": "1",
-					"text": "<p>You can get the <a href=\"/conditions/vaccinations/chickenpox-vaccine/\">chickenpox vaccine</a> on the NHS if there's a risk of harming someone with a weakened immune system if you spread the virus to them.</p><p>For example, a child can be vaccinated if 1 of their parents is having chemotherapy.</p><p>You can also pay for the vaccine at some private clinics or travel clinics. It costs between \u00a3120 and \u00a3200.</p>",
-					"@type": "WebPageElement",
-					"name": "markdown",
-					"headline": ""
-				}
-			],
-			"headline": "The chickenpox vaccine"
-		},
-		{
-			"identifier": "0",
-			"name": "section heading",
-			"position": 9,
-			"@type": "WebPageElement",
-			"mainEntityOfPage": [
-				{
-					"position": 0,
-					"identifier": "1",
-					"text": "<p>You cannot catch shingles from someone with chickenpox.</p><p>You can catch chickenpox from someone with shingles if you have not had chickenpox before.</p><p>When you get chickenpox, the virus stays in your body. The virus can be triggered again if your immune system is weak. This causes shingles.</p><p>This can happen because of stress, certain conditions, or treatments like chemotherapy.</p>",
-					"@type": "WebPageElement",
-					"name": "markdown",
-					"headline": ""
-				}
-			],
-			"description": "",
-			"hasPart": [
-				{
-					"position": 0,
-					"identifier": "1",
-					"text": "<p>You cannot catch shingles from someone with chickenpox.</p><p>You can catch chickenpox from someone with shingles if you have not had chickenpox before.</p><p>When you get chickenpox, the virus stays in your body. The virus can be triggered again if your immune system is weak. This causes shingles.</p><p>This can happen because of stress, certain conditions, or treatments like chemotherapy.</p>",
-					"@type": "WebPageElement",
-					"name": "markdown",
-					"headline": ""
-				}
-			],
-			"headline": "Shingles and chickenpox"
-		}
-	]
+  "@context": "http://schema.org",
+  "@type": "MedicalWebPage",
+  "name": "Chickenpox",
+  "copyrightHolder": {
+    "name": "Crown Copyright",
+    "@type": "Organization"
+  },
+  "license": "https://developer.api.nhs.uk/terms",
+  "author": {
+    "url": "https://www.nhs.uk",
+    "logo": "https://www.nhs.uk/nhscwebservices/documents/logo1.jpg",
+    "email": "nhswebsite.servicedesk@nhs.net",
+    "@type": "Organization",
+    "name": "NHS website"
+  },
+  "about": {
+    "@type": "WebPage",
+    "name": "Chickenpox",
+    "alternateName": ""
+  },
+  "description": "Chickenpox is a very contagious infection that causes an itchy, spotty rash. Read NHS information about chickenpox symptoms and when to get medical advice.",
+  "url": "https://api.service.nhs.uk/nhs-website-content/conditions/chickenpox/",
+  "genre": ["Condition"],
+  "keywords": [],
+  "lastReviewed": ["2021-11-12T01:00:00+00:00", "2024-11-12T01:00:00+00:00"],
+  "breadcrumb": {
+    "@context": "http://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 0,
+        "item": {
+          "@id": "https://www.nhs.uk/conditions/",
+          "name": "Health A to Z",
+          "genre": []
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@id": "https://www.nhs.uk/conditions/chickenpox/",
+          "name": "Chickenpox",
+          "genre": ["Condition"]
+        }
+      }
+    ]
+  },
+  "dateModified": "2022-11-15T11:50:45+00:00",
+  "hasPart": [
+    {
+      "@type": "HealthTopicContent",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/chickenpox/#symptoms",
+      "hasHealthAspect": "http://schema.org/SymptomsHealthAspect",
+      "headline": "Check if it's chickenpox",
+      "description": "Symptoms of chickenpox include itchy spots that become blisters, then scabs. It can be anywhere on the body, including in the mouth.",
+      "hasPart": [
+        {
+          "@type": "WebPageElement",
+          "headline": "Stage 1: small spots appear",
+          "text": "<p>An itchy, spotty rash is the main symptom of chickenpox. It can be anywhere on the body.</p><p>Chickenpox happens in 3 stages. But new spots can appear while others are becoming blisters or forming a scab.</p><p>The spots can:</p><ul><li>be anywhere on the body, including inside the mouth and around the genitals, which can be painful</li><li>spread or stay in a small area</li><li>be red, pink, darker or the same colour as surrounding skin, depending on your skin tone</li><li>be harder to see on brown and black skin</li></ul>"
+        },
+        {
+          "@type": "WebPageElement",
+          "headline": "Stage 2: the spots become blisters",
+          "text": "<p>The spots fill with fluid and become blisters. The blisters are very itchy and may burst.</p>"
+        },
+        {
+          "@type": "WebPageElement",
+          "headline": "Stage 3: the blisters become scabs",
+          "text": "<p>The spots form a scab. Some scabs are flaky while others leak fluid.</p>"
+        },
+        {
+          "@type": "WebPageElement",
+          "headline": "Other symptoms",
+          "text": "<p>Before or after the rash appears, you might also get:</p><ul><li>a high temperature</li><li>aches and pains, and generally feeling unwell</li><li>loss of appetite</li></ul><p>Chickenpox is very itchy and can make children feel miserable, even if they do not have many spots.</p><p>The chickenpox spots look the same on children and adults. But adults usually have a high temperature for longer and more spots than children.</p><p>It's possible to get chickenpox more than once, but it's unusual.</p>"
+        }
+      ]
+    },
+    {
+      "@type": "HealthTopicContent",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/chickenpox/#self-care",
+      "hasHealthAspect": "http://schema.org/SelfCareHealthAspect",
+      "headline": "How to treat chickenpox at home",
+      "description": "Chickenpox usually gets better on its own after 1 to 2 weeks. You can ease symptoms with cooling creams, antihistamines and paracetamol.",
+      "hasPart": [
+        {
+          "@type": "WebPageElement",
+          "headline": "Stay off school or work",
+          "text": "<p>You'll need to stay away from school, nursery or work until all the spots have formed a scab. This is usually 5 days after the spots appeared.</p>"
+        },
+        {
+          "@type": "WebPageElement",
+          "headline": "Do",
+          "text": "<ul><li><p>drink plenty of fluid (try ice lollies if your child is not drinking) to avoid dehydration</p></li><li><p>take <a href=\"/medicines/paracetamol-for-children/\">paracetamol</a> to help with pain and discomfort</p></li><li><p>cut your child's fingernails and put socks on their hands at night to stop them scratching</p></li><li><p>use cooling creams or gels from a pharmacy</p></li><li><p>speak to a pharmacist about using <a href=\"/conditions/antihistamines/\">antihistamine medicine</a> to help itching</p></li><li><p>bathe in cool water and pat the skin dry (do not rub)</p></li><li><p>dress in loose clothes</p></li></ul>"
+        },
+        {
+          "@type": "WebPageElement",
+          "headline": "Don't",
+          "text": "<ul><li><p>do not use <a href=\"/medicines/ibuprofen-for-children/\">ibuprofen</a> unless advised to do so by a doctor, as it may cause serious skin infections</p></li><li><p>do not give aspirin to children under 16</p></li><li><p>do not go near newborn babies, people who are pregnant and people with a weakened immune system, as chickenpox can be dangerous for them</p></li><li><p>do not scratch the spots, as scratching can cause scarring</p></li></ul>"
+        }
+      ]
+    },
+    {
+      "@type": "HealthTopicContent",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/chickenpox/#causes",
+      "hasHealthAspect": "http://schema.org/CausesHealthAspect",
+      "headline": "It's easy to catch chickenpox",
+      "description": "You can catch chickenpox by being in the same room as someone with it. It's also spread by touching things that have fluid from the blisters on them.",
+      "hasPart": [
+        {
+          "@type": "WebPageElement",
+          "headline": "When chickenpox can be spread",
+          "text": "<p>You can catch chickenpox by being in the same room as someone with it. It's also spread by touching things that have fluid from the blisters on them.</p><p>You can spread chickenpox to other people from 2 days before your spots appear until they have all formed scabs \u2013 usually 5 days after your spots appeared.</p><h3>How soon you get symptoms after catching chickenpox</h3><p>The spots start appearing around 1 to 3 weeks after you caught chickenpox.</p>"
+        }
+      ]
+    },
+    {
+      "@type": "HealthTopicContent",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/chickenpox/#overview",
+      "hasHealthAspect": "http://schema.org/OverviewHealthAspect",
+      "headline": "",
+      "description": "Chickenpox is a very contagious infection that causes an itchy, spotty rash. It's common in children but adults can get it too.",
+      "hasPart": [
+        {
+          "text": "<p>Symptoms of chickenpox include itchy spots that become blisters, then scabs. It can be anywhere on the body, including in the mouth.</p> ",
+          "@type": "WebPageElement"
+        },
+        {
+          "text": "<p>Chickenpox usually gets better on its own after 1 to 2 weeks. You can ease symptoms with cooling creams, antihistamines and paracetamol.</p> ",
+          "@type": "WebPageElement"
+        },
+        {
+          "text": "<p>You can catch chickenpox by being in the same room as someone with it. It's also spread by touching things that have fluid from the blisters on them.</p> ",
+          "@type": "WebPageElement"
+        }
+      ]
+    }
+  ],
+  "relatedLink": [
+    {
+      "@type": "LinkRole",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/chickenpox/",
+      "linkRelationship": "Navigation",
+      "position": 0,
+      "name": "Chickenpox"
+    }
+  ],
+  "contentSubTypes": [],
+  "mainEntityOfPage": [
+    {
+      "identifier": "0",
+      "name": "section heading",
+      "position": 0,
+      "@type": "WebPageElement",
+      "mainEntityOfPage": [
+        {
+          "position": 0,
+          "identifier": "1",
+          "text": "<p><b>Chickenpox is common and mostly affects children, but you can get it at any age. It usually gets better by itself after 1 to 2 weeks without needing to see a GP.</b></p>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": ""
+        }
+      ],
+      "description": "",
+      "hasPart": [
+        {
+          "position": 0,
+          "identifier": "1",
+          "text": "<p><b>Chickenpox is common and mostly affects children, but you can get it at any age. It usually gets better by itself after 1 to 2 weeks without needing to see a GP.</b></p>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": ""
+        }
+      ]
+    },
+    {
+      "identifier": "0",
+      "name": "section heading",
+      "position": 1,
+      "@type": "WebPageElement",
+      "mainEntityOfPage": [
+        {
+          "position": 0,
+          "identifier": "1",
+          "text": "<p>An itchy, spotty rash is the main symptom of chickenpox. It can be anywhere on the body.</p><p>Chickenpox happens in 3 stages. But new spots can appear while others are becoming blisters or forming a scab.</p><p>The spots can:</p><ul><li>be anywhere on the body, including inside the mouth and around the genitals, which can be painful</li><li>spread or stay in a small area</li><li>be red, pink, darker or the same colour as surrounding skin, depending on your skin tone</li><li>be harder to see on brown and black skin</li></ul>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": "Stage 1: small spots appear"
+        },
+        {
+          "position": 2,
+          "identifier": "1",
+          "text": "<p>The spots fill with fluid and become blisters. The blisters are very itchy and may burst.</p>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": "Stage 2: the spots become blisters"
+        },
+        {
+          "position": 4,
+          "identifier": "1",
+          "text": "<p>The spots form a scab. Some scabs are flaky while others leak fluid.</p>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": "Stage 3: the blisters become scabs"
+        },
+        {
+          "position": 6,
+          "identifier": "1",
+          "text": "<p>Before or after the rash appears, you might also get:</p><ul><li>a high temperature</li><li>aches and pains, and generally feeling unwell</li><li>loss of appetite</li></ul><p>Chickenpox is very itchy and can make children feel miserable, even if they do not have many spots.</p><p>The chickenpox spots look the same on children and adults. But adults usually have a high temperature for longer and more spots than children.</p><p>It's possible to get chickenpox more than once, but it's unusual.</p>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": "Other symptoms"
+        }
+      ],
+      "description": "Symptoms of chickenpox include itchy spots that become blisters, then scabs. It can be anywhere on the body, including in the mouth.",
+      "hasPart": [
+        {
+          "position": 0,
+          "identifier": "1",
+          "text": "<p>An itchy, spotty rash is the main symptom of chickenpox. It can be anywhere on the body.</p><p>Chickenpox happens in 3 stages. But new spots can appear while others are becoming blisters or forming a scab.</p><p>The spots can:</p><ul><li>be anywhere on the body, including inside the mouth and around the genitals, which can be painful</li><li>spread or stay in a small area</li><li>be red, pink, darker or the same colour as surrounding skin, depending on your skin tone</li><li>be harder to see on brown and black skin</li></ul>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": "Stage 1: small spots appear"
+        },
+        {
+          "position": 2,
+          "identifier": "1",
+          "text": "<p>The spots fill with fluid and become blisters. The blisters are very itchy and may burst.</p>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": "Stage 2: the spots become blisters"
+        },
+        {
+          "position": 4,
+          "identifier": "1",
+          "text": "<p>The spots form a scab. Some scabs are flaky while others leak fluid.</p>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": "Stage 3: the blisters become scabs"
+        },
+        {
+          "position": 6,
+          "identifier": "1",
+          "text": "<p>Before or after the rash appears, you might also get:</p><ul><li>a high temperature</li><li>aches and pains, and generally feeling unwell</li><li>loss of appetite</li></ul><p>Chickenpox is very itchy and can make children feel miserable, even if they do not have many spots.</p><p>The chickenpox spots look the same on children and adults. But adults usually have a high temperature for longer and more spots than children.</p><p>It's possible to get chickenpox more than once, but it's unusual.</p>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": "Other symptoms"
+        }
+      ],
+      "hasHealthAspect": "http://schema.org/SymptomsHealthAspect",
+      "headline": "Check if it's chickenpox"
+    },
+    {
+      "identifier": "0",
+      "name": "section heading",
+      "position": 2,
+      "@type": "WebPageElement",
+      "mainEntityOfPage": [
+        {
+          "position": 0,
+          "identifier": "1",
+          "text": "<p><a href=\"/conditions/rashes-babies-and-children/\">Check other rashes in children</a></p>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": "If you're not sure it's chickenpox"
+        }
+      ],
+      "description": "",
+      "hasPart": [
+        {
+          "position": 0,
+          "identifier": "1",
+          "text": "<p><a href=\"/conditions/rashes-babies-and-children/\">Check other rashes in children</a></p>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": "If you're not sure it's chickenpox"
+        }
+      ]
+    },
+    {
+      "identifier": "0",
+      "name": "section heading",
+      "position": 3,
+      "@type": "WebPageElement",
+      "mainEntityOfPage": [
+        {
+          "position": 0,
+          "@type": "WebPageElement",
+          "name": "Callout",
+          "identifier": "4",
+          "text": "<h3>Stay off school or work</h3><p>You'll need to stay away from school, nursery or work until all the spots have formed a scab. This is usually 5 days after the spots appeared.</p>"
+        },
+        {
+          "position": 1,
+          "@type": "WebPageElement",
+          "name": "Do/Don't",
+          "identifier": "9",
+          "text": "<div><h3>Do</h3><ul><li><p>drink plenty of fluid (try ice lollies if your child is not drinking) to avoid dehydration</p></li><li><p>take <a href=\"/medicines/paracetamol-for-children/\">paracetamol</a> to help with pain and discomfort</p></li><li><p>cut your child's fingernails and put socks on their hands at night to stop them scratching</p></li><li><p>use cooling creams or gels from a pharmacy</p></li><li><p>speak to a pharmacist about using <a href=\"/conditions/antihistamines/\">antihistamine medicine</a> to help itching</p></li><li><p>bathe in cool water and pat the skin dry (do not rub)</p></li><li><p>dress in loose clothes</p></li></ul></div>"
+        },
+        {
+          "position": 2,
+          "@type": "WebPageElement",
+          "name": "Do/Don't",
+          "identifier": "9",
+          "text": "<div><h3>Don't</h3><ul><li><p>do not use <a href=\"/medicines/ibuprofen-for-children/\">ibuprofen</a> unless advised to do so by a doctor, as it may cause serious skin infections</p></li><li><p>do not give aspirin to children under 16</p></li><li><p>do not go near newborn babies, people who are pregnant and people with a weakened immune system, as chickenpox can be dangerous for them</p></li><li><p>do not scratch the spots, as scratching can cause scarring</p></li></ul></div>"
+        }
+      ],
+      "description": "Chickenpox usually gets better on its own after 1 to 2 weeks. You can ease symptoms with cooling creams, antihistamines and paracetamol.",
+      "hasPart": [
+        {
+          "position": 0,
+          "@type": "WebPageElement",
+          "name": "Callout",
+          "identifier": "4",
+          "text": "<h3>Stay off school or work</h3><p>You'll need to stay away from school, nursery or work until all the spots have formed a scab. This is usually 5 days after the spots appeared.</p>"
+        },
+        {
+          "position": 1,
+          "@type": "WebPageElement",
+          "name": "Do/Don't",
+          "identifier": "9",
+          "text": "<div><h3>Do</h3><ul><li><p>drink plenty of fluid (try ice lollies if your child is not drinking) to avoid dehydration</p></li><li><p>take <a href=\"/medicines/paracetamol-for-children/\">paracetamol</a> to help with pain and discomfort</p></li><li><p>cut your child's fingernails and put socks on their hands at night to stop them scratching</p></li><li><p>use cooling creams or gels from a pharmacy</p></li><li><p>speak to a pharmacist about using <a href=\"/conditions/antihistamines/\">antihistamine medicine</a> to help itching</p></li><li><p>bathe in cool water and pat the skin dry (do not rub)</p></li><li><p>dress in loose clothes</p></li></ul></div>"
+        },
+        {
+          "position": 2,
+          "@type": "WebPageElement",
+          "name": "Do/Don't",
+          "identifier": "9",
+          "text": "<div><h3>Don't</h3><ul><li><p>do not use <a href=\"/medicines/ibuprofen-for-children/\">ibuprofen</a> unless advised to do so by a doctor, as it may cause serious skin infections</p></li><li><p>do not give aspirin to children under 16</p></li><li><p>do not go near newborn babies, people who are pregnant and people with a weakened immune system, as chickenpox can be dangerous for them</p></li><li><p>do not scratch the spots, as scratching can cause scarring</p></li></ul></div>"
+        }
+      ],
+      "hasHealthAspect": "http://schema.org/SelfCareHealthAspect",
+      "headline": "How to treat chickenpox at home"
+    },
+    {
+      "identifier": "0",
+      "name": "section heading",
+      "position": 4,
+      "@type": "WebPageElement",
+      "mainEntityOfPage": [
+        {
+          "position": 0,
+          "@type": "WebPageElement",
+          "name": "non-urgent",
+          "identifier": "5",
+          "text": "<h2>Speak to a GP if:</h2><div class=\"block-richtext\">\n<ul><li>you're not sure it's chickenpox</li><li>you're concerned about your child</li></ul><p>Tell the receptionist you think it might be chickenpox before going in to a GP surgery.</p>\n</div>"
+        }
+      ],
+      "description": "",
+      "hasPart": [
+        {
+          "position": 0,
+          "@type": "WebPageElement",
+          "name": "non-urgent",
+          "identifier": "5",
+          "text": "<h2>Speak to a GP if:</h2><div class=\"block-richtext\">\n<ul><li>you're not sure it's chickenpox</li><li>you're concerned about your child</li></ul><p>Tell the receptionist you think it might be chickenpox before going in to a GP surgery.</p>\n</div>"
+        }
+      ]
+    },
+    {
+      "identifier": "0",
+      "name": "section heading",
+      "position": 5,
+      "@type": "WebPageElement",
+      "mainEntityOfPage": [
+        {
+          "position": 0,
+          "@type": "WebPageElement",
+          "name": "urgent",
+          "identifier": "5",
+          "text": "<h2>Get advice from 111 now if:</h2><div class=\"block-richtext\">\n<ul><li>the skin around the chickenpox blisters is hot, painful and red, but redness may be harder to see on brown or black skin</li><li>your child has chickenpox and is <a href=\"/conditions/dehydration/\">dehydrated</a></li><li>chickenpox symptoms suddenly get worse</li><li>you're pregnant and have not had chickenpox before, or you're not sure, and you've been near someone with chickenpox</li><li>you have a weakened immune system and have been near someone with chickenpox</li><li>you think your newborn baby has chickenpox</li></ul><p>Some people may be able to take medicine to prevent complications. It needs to be started within 24 hours of the spots appearing.</p><p>111 will tell you what to do. They can arrange a phone call from a nurse or doctor if you need one.</p><p>Go to <a href=\"https://111.nhs.uk/?utm_source=nhsuk&amp;utm_campaign=conditions&amp;utm_content=chickenpox\">111.nhs.uk</a> or call <a href=\"tel:111\">111</a>.</p>\n</div>"
+        }
+      ],
+      "description": "",
+      "hasPart": [
+        {
+          "position": 0,
+          "@type": "WebPageElement",
+          "name": "urgent",
+          "identifier": "5",
+          "text": "<h2>Get advice from 111 now if:</h2><div class=\"block-richtext\">\n<ul><li>the skin around the chickenpox blisters is hot, painful and red, but redness may be harder to see on brown or black skin</li><li>your child has chickenpox and is <a href=\"/conditions/dehydration/\">dehydrated</a></li><li>chickenpox symptoms suddenly get worse</li><li>you're pregnant and have not had chickenpox before, or you're not sure, and you've been near someone with chickenpox</li><li>you have a weakened immune system and have been near someone with chickenpox</li><li>you think your newborn baby has chickenpox</li></ul><p>Some people may be able to take medicine to prevent complications. It needs to be started within 24 hours of the spots appearing.</p><p>111 will tell you what to do. They can arrange a phone call from a nurse or doctor if you need one.</p><p>Go to <a href=\"https://111.nhs.uk/?utm_source=nhsuk&amp;utm_campaign=conditions&amp;utm_content=chickenpox\">111.nhs.uk</a> or call <a href=\"tel:111\">111</a>.</p>\n</div>"
+        }
+      ]
+    },
+    {
+      "identifier": "0",
+      "name": "section heading",
+      "position": 6,
+      "@type": "WebPageElement",
+      "mainEntityOfPage": [
+        {
+          "position": 0,
+          "identifier": "1",
+          "text": "<p>You can catch chickenpox by being in the same room as someone with it. It's also spread by touching things that have fluid from the blisters on them.</p><p>You can spread chickenpox to other people from 2 days before your spots appear until they have all formed scabs \u2013 usually 5 days after your spots appeared.</p><h3>How soon you get symptoms after catching chickenpox</h3><p>The spots start appearing around 1 to 3 weeks after you caught chickenpox.</p>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": "When chickenpox can be spread"
+        }
+      ],
+      "description": "You can catch chickenpox by being in the same room as someone with it. It's also spread by touching things that have fluid from the blisters on them.",
+      "hasPart": [
+        {
+          "position": 0,
+          "identifier": "1",
+          "text": "<p>You can catch chickenpox by being in the same room as someone with it. It's also spread by touching things that have fluid from the blisters on them.</p><p>You can spread chickenpox to other people from 2 days before your spots appear until they have all formed scabs \u2013 usually 5 days after your spots appeared.</p><h3>How soon you get symptoms after catching chickenpox</h3><p>The spots start appearing around 1 to 3 weeks after you caught chickenpox.</p>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": "When chickenpox can be spread"
+        }
+      ],
+      "hasHealthAspect": "http://schema.org/CausesHealthAspect",
+      "headline": "It's easy to catch chickenpox"
+    },
+    {
+      "identifier": "0",
+      "name": "section heading",
+      "position": 7,
+      "@type": "WebPageElement",
+      "mainEntityOfPage": [
+        {
+          "position": 0,
+          "identifier": "1",
+          "text": "<p>Most people get chickenpox during childhood, so it's rare to get chickenpox when you're pregnant.</p><p>If you do get chickenpox when you're pregnant, there's a small risk of your baby being very ill when it's born.</p><p>Go to <a href=\"https://111.nhs.uk/?utm_source=nhsuk&amp;utm_campaign=conditions&amp;utm_content=chickenpox\">111.nhs.uk</a> or call <a href=\"tel:111\">111</a> if you have not had chickenpox before and you've been near someone with it.</p>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": ""
+        }
+      ],
+      "description": "",
+      "hasPart": [
+        {
+          "position": 0,
+          "identifier": "1",
+          "text": "<p>Most people get chickenpox during childhood, so it's rare to get chickenpox when you're pregnant.</p><p>If you do get chickenpox when you're pregnant, there's a small risk of your baby being very ill when it's born.</p><p>Go to <a href=\"https://111.nhs.uk/?utm_source=nhsuk&amp;utm_campaign=conditions&amp;utm_content=chickenpox\">111.nhs.uk</a> or call <a href=\"tel:111\">111</a> if you have not had chickenpox before and you've been near someone with it.</p>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": ""
+        }
+      ],
+      "headline": "Chickenpox in pregnancy"
+    },
+    {
+      "identifier": "0",
+      "name": "section heading",
+      "position": 8,
+      "@type": "WebPageElement",
+      "mainEntityOfPage": [
+        {
+          "position": 0,
+          "identifier": "1",
+          "text": "<p>You can get the <a href=\"/conditions/vaccinations/chickenpox-vaccine/\">chickenpox vaccine</a> on the NHS if there's a risk of harming someone with a weakened immune system if you spread the virus to them.</p><p>For example, a child can be vaccinated if 1 of their parents is having chemotherapy.</p><p>You can also pay for the vaccine at some private clinics or travel clinics. It costs between \u00a3120 and \u00a3200.</p>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": ""
+        }
+      ],
+      "description": "",
+      "hasPart": [
+        {
+          "position": 0,
+          "identifier": "1",
+          "text": "<p>You can get the <a href=\"/conditions/vaccinations/chickenpox-vaccine/\">chickenpox vaccine</a> on the NHS if there's a risk of harming someone with a weakened immune system if you spread the virus to them.</p><p>For example, a child can be vaccinated if 1 of their parents is having chemotherapy.</p><p>You can also pay for the vaccine at some private clinics or travel clinics. It costs between \u00a3120 and \u00a3200.</p>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": ""
+        }
+      ],
+      "headline": "The chickenpox vaccine"
+    },
+    {
+      "identifier": "0",
+      "name": "section heading",
+      "position": 9,
+      "@type": "WebPageElement",
+      "mainEntityOfPage": [
+        {
+          "position": 0,
+          "identifier": "1",
+          "text": "<p>You cannot catch shingles from someone with chickenpox.</p><p>You can catch chickenpox from someone with shingles if you have not had chickenpox before.</p><p>When you get chickenpox, the virus stays in your body. The virus can be triggered again if your immune system is weak. This causes shingles.</p><p>This can happen because of stress, certain conditions, or treatments like chemotherapy.</p>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": ""
+        }
+      ],
+      "description": "",
+      "hasPart": [
+        {
+          "position": 0,
+          "identifier": "1",
+          "text": "<p>You cannot catch shingles from someone with chickenpox.</p><p>You can catch chickenpox from someone with shingles if you have not had chickenpox before.</p><p>When you get chickenpox, the virus stays in your body. The virus can be triggered again if your immune system is weak. This causes shingles.</p><p>This can happen because of stress, certain conditions, or treatments like chemotherapy.</p>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": ""
+        }
+      ],
+      "headline": "Shingles and chickenpox"
+    }
+  ],
+  "webpage": "https://www.nhs.uk/conditions/chickenpox/"
 }
