@@ -317,9 +317,11 @@ async function conditionsAchalasia(req, res, next) {
 // Apigee Production environment ('apikey' required in Header)
 // https://api.service.nhs.uk/nhs-website-content/conditions/acne/?modules=true
 async function conditionsAcne(req, res, next) {
-  if (!req.query.modules || req.query.modules.toLowerCase() === 'false') {
+  if (req.query.modules === undefined) {
     res.status(200).json(conditionsAcneNoParamsResponse)
-  } else if (req.query.modules?.toLowerCase() === 'true') {
+  } else if (req.query.modules.toLowerCase() === 'false') {
+    res.status(200).json(conditionsAcneNoParamsResponse)
+  } else if (req.query.modules.toLowerCase() === 'true') {
     res.status(200).json(conditionsAcneModulesTrueResponse)
   }
   res.end()
@@ -338,7 +340,9 @@ async function conditionsAcne(req, res, next) {
 // Apigee Sandbox environment (no auth key required)
 // https://sandbox.api.service.nhs.uk/nhs-website-content/conditions/*?modules=true
 async function conditionsWildcard(req, res, next) {
-  if (!req.query.modules || req.query.modules.toLowerCase() === 'false') {
+  if (req.query.modules === undefined) {
+    res.status(200).json(conditionsWildcardResponseNoParams)
+  } else if (req.query.modules.toLowerCase() === 'false') {
     res.status(200).json(conditionsWildcardResponseNoParams)
   } else if (req.query.modules.toLowerCase() === 'true') {
     res.status(200).json(conditionsWildcardModulesTrueResponse)
@@ -595,7 +599,9 @@ async function medicinesAciclovir(req, res, next) {
 // Apigee Production environment ('apikey' required in Header)
 // https://api.service.nhs.uk/nhs-website-content/medicines/acrivastine/?modules=true
 async function medicinesAcrivastine(req, res, next) {
-  if (!req.query.modules || req.query.modules.toLowerCase() === 'false') {
+  if (req.query.modules === undefined) {
+    res.status(200).json(medicinesAcrivastineNoParamsResponse)
+  } else if (req.query.modules.toLowerCase() === 'false') {
     res.status(200).json(medicinesAcrivastineNoParamsResponse)
   } else if (req.query.modules.toLowerCase() === 'true') {
     res.status(200).json(medicinesAcrivastineModulesTrueResponse)
@@ -616,7 +622,9 @@ async function medicinesAcrivastine(req, res, next) {
 // Apigee Sandbox environment (no auth key required)
 // https://sandbox.api.service.nhs.uk/nhs-website-content/medicines/*?modules=true
 async function medicinesWildcard(req, res, next) {
-  if (!req.query.modules || req.query.modules.toLowerCase() === 'false') {
+  if (req.query.modules === undefined) {
+    res.status(200).json(medicinesWildcardNoParamsResponse)
+  } else if (req.query.modules.toLowerCase() === 'false') {
     res.status(200).json(medicinesWildcardNoParamsResponse)
   } else if (req.query.modules.toLowerCase() === 'true') {
     res.status(200).json(medicinesWildcardModulesTrueResponse)
