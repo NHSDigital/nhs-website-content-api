@@ -191,7 +191,7 @@ var responseContent = context.getVariable("response.content");
 //     "https://api.service.nhs.uk/nhs-website-content/",
 //     "https://www.nhs.uk/"
 //   );
-// } else if (responseJsonObj.about.url) {
+// } else if (responseJsonObj.about && responseJsonObj.about.url) {
 //   responseJsonObj.about.webpage = responseJsonObj.about.url.replace(
 //     "https://api.service.nhs.uk/nhs-website-content/",
 //     "https://www.nhs.uk/"
