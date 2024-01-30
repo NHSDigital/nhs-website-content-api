@@ -3,6 +3,23 @@ var requestHostnameEnv = context.getVariable("request_hostname_env");
 var searchAndReplaceStrings = [
   {
     comment1: "=============================================================",
+    comment2: "Secure protocol and www subdomain                            ",
+    comment3: "=============================================================",
+  },
+  {
+    searchForRegex: /http:\/\/www.nhs.uk/gm,
+    replaceWithStr: "https://www.nhs.uk",
+  },
+  {
+    searchForRegex: /http:\/\/nhs.uk/gm,
+    replaceWithStr: "https://www.nhs.uk",
+  },
+  {
+    searchForRegex: /https:\/\/nhs.uk/gm,
+    replaceWithStr: "https://www.nhs.uk",
+  },
+  {
+    comment1: "=============================================================",
     comment2: "Conditions                                                   ",
     comment3: "=============================================================",
   },
@@ -208,23 +225,6 @@ var searchAndReplaceStrings = [
   {
     searchForRegex: /href=\\"\/common-health-questions\//gm,
     replaceWithStr: 'href=\\"https://www.nhs.uk/common-health-questions/',
-  },
-  {
-    comment1: "=============================================================",
-    comment2: "Secure protocol and www subdomain                            ",
-    comment3: "=============================================================",
-  },
-  {
-    searchForRegex: /http:\/\/www.nhs.uk/gm,
-    replaceWithStr: "https://www.nhs.uk",
-  },
-  {
-    searchForRegex: /http:\/\/nhs.uk/gm,
-    replaceWithStr: "https://www.nhs.uk",
-  },
-  {
-    searchForRegex: /https:\/\/nhs.uk/gm,
-    replaceWithStr: "https://www.nhs.uk",
   },
 ];
 
