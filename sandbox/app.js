@@ -48,11 +48,11 @@ function beforeRequest(req, res, next) {
   next()
 }
 
-const _health_endpoints = ['/_ping', '/health']
+const _health_endpoints = ['/_ping']
 
 function afterRequest(req, res, next) {
   if (_health_endpoints.includes(req.path) && !('log' in Object.assign({}, req.query))) {
-    // don't log ping / health by default
+    // don't log _ping by default
     return next()
   }
   let finished_at = Date.now()
@@ -125,7 +125,6 @@ app.use(beforeRequest)
 
 app.get('/_ping', handlers.status)
 app.get('/_status', handlers.status)
-app.get('/health', handlers.status)
 
 // ******************************************************************
 // ** Root page
