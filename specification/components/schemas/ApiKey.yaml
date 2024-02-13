@@ -1,5 +1,0 @@
-schema:
-  type: string
-  example: aTfjAa9vHfnmaQNABgSXGFCS9SFVMLWc
-description: |
-  The API key required to send a successful request.

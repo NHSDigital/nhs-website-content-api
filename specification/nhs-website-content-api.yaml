@@ -254,10 +254,11 @@ servers:
     description: Integration test environment.
   - url: "https://api.service.nhs.uk/nhs-website-content"
     description: Production environment.
+security:
+  - apikey: []
 paths:
   /conditions:
     parameters:
-      - $ref: "#/components/parameters/apikey"
       - $ref: "#/components/parameters/order"
       - $ref: "#/components/parameters/page"
       - $ref: "#/components/parameters/category"
@@ -299,7 +300,6 @@ paths:
             | 429         | TOO_MANY_REQUESTS          | You have exceeded your application's [rate limit](https://digital.nhs.uk/developer/guides-and-documentation/reference-guide#rate-limits). |
   /conditions/*:
     parameters:
-      - $ref: "#/components/parameters/apikey"
       - $ref: "#/components/parameters/modules"
     get:
       summary: Get details of a condition page
@@ -340,7 +340,6 @@ paths:
             | 429         | TOO_MANY_REQUESTS          | You have exceeded your application's [rate limit](https://digital.nhs.uk/developer/guides-and-documentation/reference-guide#rate-limits). |
   /medicines:
     parameters:
-      - $ref: "#/components/parameters/apikey"
       - $ref: "#/components/parameters/startDate"
       - $ref: "#/components/parameters/endDate"
       - $ref: "#/components/parameters/order"
@@ -390,7 +389,6 @@ paths:
             | 429         | TOO_MANY_REQUESTS          | You have exceeded your application's [rate limit](https://digital.nhs.uk/developer/guides-and-documentation/reference-guide#rate-limits). |
   /medicines/*:
     parameters:
-      - $ref: "#/components/parameters/apikey"
       - $ref: "#/components/parameters/modules"
     get:
       summary: Get specific medicine page
@@ -430,8 +428,6 @@ paths:
             | 404         | RESOURCE_NOT_FOUND         | Page not found. |
             | 429         | TOO_MANY_REQUESTS          | You have exceeded your application's [rate limit](https://digital.nhs.uk/developer/guides-and-documentation/reference-guide#rate-limits). |
   /mental-health:
-    parameters:
-      - $ref: "#/components/parameters/apikey"
     get:
       summary: Get content from the mental health hub
       operationId: get-mental-health
@@ -465,8 +461,6 @@ paths:
             | 404         | RESOURCE_NOT_FOUND         | Page not found. |
             | 429         | TOO_MANY_REQUESTS          | You have exceeded your application's [rate limit](https://digital.nhs.uk/developer/guides-and-documentation/reference-guide#rate-limits). |
   /live-well:
-    parameters:
-      - $ref: "#/components/parameters/apikey"
     get:
       summary: Get content from the Live Well hub.
       operationId: get-live-well
@@ -499,8 +493,6 @@ paths:
             | 404         | RESOURCE_NOT_FOUND         | Page not found. |
             | 429         | TOO_MANY_REQUESTS          | You have exceeded your application's [rate limit](https://digital.nhs.uk/developer/guides-and-documentation/reference-guide#rate-limits). |
   /pregnancy:
-    parameters:
-      - $ref: "#/components/parameters/apikey"
     get:
       summary: Get content from the pregnancy hub
       operationId: get-pregnancy
@@ -534,8 +526,6 @@ paths:
             | 404         | RESOURCE_NOT_FOUND         | Page not found. |
             | 429         | TOO_MANY_REQUESTS          | You have exceeded your application's [rate limit](https://digital.nhs.uk/developer/guides-and-documentation/reference-guide#rate-limits). |
   /nhs-services:
-    parameters:
-      - $ref: "#/components/parameters/apikey"
     get:
       summary: Get content from the NHS services hub
       operationId: get-nhs-services
@@ -569,8 +559,6 @@ paths:
             | 404         | RESOURCE_NOT_FOUND         | Page not found. |
             | 429         | TOO_MANY_REQUESTS          | You have exceeded your application's [rate limit](https://digital.nhs.uk/developer/guides-and-documentation/reference-guide#rate-limits). |
   /common-health-questions:
-    parameters:
-      - $ref: "#/components/parameters/apikey"
     get:
       summary: Get content from the common health questions hub
       operationId: get-common-health-questions
@@ -604,18 +592,12 @@ paths:
             | 404         | RESOURCE_NOT_FOUND         | Page not found. |
             | 429         | TOO_MANY_REQUESTS          | You have exceeded your application's [rate limit](https://digital.nhs.uk/developer/guides-and-documentation/reference-guide#rate-limits). |
 components:
-  headers:
+  securitySchemes:
     apikey:
-      $ref: components/schemas/ApiKey.yaml
-  parameters:
-    apikey:
+      type: apiKey
+      in: header
       name: apikey
-      in: query
-      description: The API key required to send a successful request.
-      required: true
-      schema:
-        type: string
-        example: "aTfjAa9vHfnmaQNABgSXGFCS9SFVMLWc"
+  parameters:
     startDate:
       name: startDate
       in: query
