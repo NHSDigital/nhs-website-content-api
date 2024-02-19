@@ -36,8 +36,8 @@ def test_wait_for_ping(nhsd_apim_proxy_url):
     assert deployed_commit_id == getenv('SOURCE_COMMIT_ID')
 
 
-@pytest.mark.smoketest
-@pytest.mark.skip(reason="No longer required 30/10/2023")
+# @pytest.mark.smoketest
+# @pytest.mark.skip(reason="No longer required 30/10/2023")
 def test_status(nhsd_apim_proxy_url, status_endpoint_auth_headers):
     resp = requests.get(
         f"{nhsd_apim_proxy_url}/_status", headers=status_endpoint_auth_headers
