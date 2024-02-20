@@ -6,15 +6,6 @@
         <IgnoreUnresolvedVariables>false</IgnoreUnresolvedVariables>
     </Request>
     <Response>healthcheckResponse</Response>
-<!--    <HTTPTargetConnection>-->
-<!--        <SSLInfo>-->
-<!--            <Enabled>true</Enabled>-->
-<!--        </SSLInfo>-->
-<!--        <LoadBalancer>-->
-<!--            <Server name="nhs-website-content-api" />-->
-<!--        </LoadBalancer>-->
-<!--        <Path>/_ping</Path>-->
-<!--    </HTTPTargetConnection>-->
     <HTTPTargetConnection>
         <URL>http://mocktarget.apigee.net</URL>
         <Properties>
