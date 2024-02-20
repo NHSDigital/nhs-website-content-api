@@ -11,7 +11,6 @@ import os
 
 def test_ping(nhsd_apim_proxy_url):
     os.environ["PROXY_NAME"] = "dev"
-    # print(env)
     resp = requests.get(f"{nhsd_apim_proxy_url}/_ping")
     assert resp.status_code == 200
 
@@ -36,14 +35,15 @@ def test_wait_for_ping(nhsd_apim_proxy_url):
     assert deployed_commit_id == getenv('SOURCE_COMMIT_ID')
 
 
-# @pytest.mark.smoketest
+@pytest.mark.smoketest
 # @pytest.mark.skip(reason="No longer required 30/10/2023")
-def test_status(nhsd_apim_proxy_url, status_endpoint_auth_headers):
+def test_status_endpoint(nhsd_apim_proxy_url, status_endpoint_auth_headers):
     resp = requests.get(
         f"{nhsd_apim_proxy_url}/_status", headers=status_endpoint_auth_headers
     )
     assert resp.status_code == 200
-    # Make some additional assertions about your status response here!
+    status_json = resp.json()
+    assert status_json["status"] == "pass"
 
 
 def test_wait_for_status(nhsd_apim_proxy_url, status_endpoint_auth_headers):
