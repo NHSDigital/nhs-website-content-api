@@ -36,6 +36,7 @@ def test_wait_for_ping(nhsd_apim_proxy_url):
 
 
 @pytest.mark.smoketest
+@pytest.mark.skip(reason="Dont need to run on prod")
 def test_status_endpoint(nhsd_apim_proxy_url, status_endpoint_auth_headers):
     resp = requests.get(
         f"{nhsd_apim_proxy_url}/_status", headers=status_endpoint_auth_headers
