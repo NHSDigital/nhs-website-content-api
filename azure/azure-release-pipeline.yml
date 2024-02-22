@@ -60,8 +60,7 @@ extends:
                   -   template: ./templates/run-tests.yml
             - environment: int
               depends_on:
-                  - internal_qa
-                  - internal_qa_sandbox
+                  - internal-dev
               post_deploy:
                   - template: ./templates/run-tests.yml
                     parameters:
