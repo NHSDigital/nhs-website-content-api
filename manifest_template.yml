@@ -5,7 +5,7 @@ APIGEE_ENVIRONMENTS:
   - name: internal-dev
     display_name: Internal Development
     has_mock_auth: true
-    ratelimit: 60pm # 1 request per second
+    ratelimit: 1pm # 1 request per minute
     quota: 60
   - name: internal-qa
     display_name: Internal QA
