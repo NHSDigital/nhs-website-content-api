@@ -70,12 +70,12 @@ apigee:
               {{ NAME }}:
                 quota:
                   enabled: true
-                  limit: {{ env.quota | default(300)}}
+                  limit: {{ ENV.quota | default(300)}}
                   interval: 1
                   timeunit: minute
                 spikeArrest:
                   enabled: true
-                  ratelimit: {{ env.ratelimit | default('300pm') }}
+                  ratelimit: {{ ENV.ratelimit | default('300pm') }}
 #              app:
 #                quota:
 #                  enabled: false
