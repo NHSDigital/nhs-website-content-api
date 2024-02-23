@@ -5,12 +5,12 @@ APIGEE_ENVIRONMENTS:
   - name: internal-dev
     display_name: Internal Development
     has_mock_auth: true
-    ratelimit: 60pm # 1 request per second
-    quota: 60
+    ratelimit: 1pm # 1 request per second
+    quota: 1
   - name: internal-qa
     display_name: Internal QA
     has_mock_auth: true
-    ratelimit: 1pm # 1 request per minute
+    ratelimit: 60pm # 1 request per second
     quota: 60
   - name: ref
     display_name: Reference
@@ -20,12 +20,12 @@ APIGEE_ENVIRONMENTS:
   - name: internal-dev-sandbox
     display_name: Internal Development Sandbox
     portal_visibility: false
-    ratelimit: 60pm # 1 request per second
-    quota: 60
+    ratelimit: 1pm # 1 request per second
+    quota: 1
   - name: internal-qa-sandbox
     display_name: Internal QA Sandbox
     portal_visibility: false
-    ratelimit: 1pm # 1 request per minute
+    ratelimit: 60pm # 1 request per second
     quota: 60
   - name: sandbox
     display_name: Sandbox
@@ -76,11 +76,11 @@ apigee:
                 spikeArrest:
                   enabled: true
                   ratelimit: {{ ENV.ratelimit | default('300pm') }}
-#              app:
-#                quota:
-#                  enabled: false
-#                spikeArrest:
-#                  enabled: false
+              app:
+                quota:
+                  enabled: false
+                spikeArrest:
+                  enabled: false
         description: {{ DESCRIPTION }}
         displayName: {{ TITLE }}
         environments: [ {{ ENV.name }} ]
