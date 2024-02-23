@@ -76,11 +76,11 @@ apigee:
                 spikeArrest:
                   enabled: true
                   ratelimit: {{ ENV.ratelimit | default('300pm') }}
-#              app:
-#                quota:
-#                  enabled: false
-#                spikeArrest:
-#                  enabled: false
+              app:
+                quota:
+                  enabled: false
+                spikeArrest:
+                  enabled: false
         description: {{ DESCRIPTION }}
         displayName: {{ TITLE }}
         environments: [ {{ ENV.name }} ]
