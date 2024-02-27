@@ -2,4 +2,7 @@
 <FlowCallout async="false" continueOnError="false" enabled="true" name="FlowCallout.ApplyRateLimiting">
     <DisplayName>FlowCallout.ApplyRateLimiting</DisplayName>
     <SharedFlowBundle>ApplyRateLimiting</SharedFlowBundle>
+    <Parameters>
+      <Parameter name="verifyApiKeyPolicyName">VerifyApiKey.FromHeader</Parameter>
+    </Parameters>
 </FlowCallout>
