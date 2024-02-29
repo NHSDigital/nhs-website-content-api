@@ -3,6 +3,6 @@
     <DisplayName>FlowCallout.ApplyRateLimiting</DisplayName>
     <SharedFlowBundle>ApplyRateLimiting</SharedFlowBundle>
     <Parameters>
-      <Parameter name="verifyApiKeyPolicyName">VerifyApiKey.FromHeader</Parameter>
+      <Parameter name="verifyApiKeyPolicyName">VerifyAPIKey.FromHeader</Parameter>
     </Parameters>
 </FlowCallout>
