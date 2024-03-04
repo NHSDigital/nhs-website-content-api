@@ -5,8 +5,8 @@ APIGEE_ENVIRONMENTS:
   - name: internal-dev
     display_name: Internal Development
     has_mock_auth: true
-    ratelimit: 1pm # 1 request per second
-    quota: 1
+    ratelimit: 60pm # 1 request per second
+    quota: 60
   - name: internal-qa
     display_name: Internal QA
     has_mock_auth: true
@@ -20,8 +20,8 @@ APIGEE_ENVIRONMENTS:
   - name: internal-dev-sandbox
     display_name: Internal Development Sandbox
     portal_visibility: false
-    ratelimit: 1pm # 1 request per second
-    quota: 1
+    ratelimit: 60pm # 1 request per second
+    quota: 60
   - name: internal-qa-sandbox
     display_name: Internal QA Sandbox
     portal_visibility: false
@@ -41,8 +41,8 @@ APIGEE_ENVIRONMENTS:
   #   display_name: Production
   #   has_mock_auth: false
   #   portal_visibility: true
-  #   ratelimit: 6000pm # 100 requests per second
-  #   quota: 6000 # 6000 requests per minute
+  #   ratelimit: 600pm # 10 requests per second
+  #   quota: 600 # 600 requests per minute
 ---
 meta:
   api:
