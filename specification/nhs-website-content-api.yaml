@@ -241,7 +241,7 @@ info:
     | ----------------- | ------------------------------- |
     | Sandbox           | 60 requests per minute          |
     | Integration test  | 10 requests per minute          |
-    | Production        | 6000 requests per minute        |
+    | Production        | 600 requests per minute         |
 
   contact:
     name: "NHS Website Content API v2 Support"
