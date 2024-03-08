@@ -12,8 +12,8 @@ newman/
 
 __pycache__/
 .envrc
-.idea/
 .venv/
+.idea/
 
 smoketest-report.xml
 env
