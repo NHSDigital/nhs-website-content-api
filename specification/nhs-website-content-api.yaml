@@ -243,6 +243,10 @@ info:
     | Integration test  | 10 requests per minute          |
     | Production        | 600 requests per minute         |
 
+    ## Developer Community
+
+    If you require any assistance understanding or using the NHS Website Content API please visit our [Developer Community](https://developer.community.nhs.uk/). This is where you can post your questions and get help from both NHS developer support staff and other community members. We recommend you tag your post using the tag `website-content`
+
   contact:
     name: "NHS Website Content API v2 Support"
     url: "https://digital.nhs.uk/developer/help-and-support"
