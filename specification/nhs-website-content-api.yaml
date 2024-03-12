@@ -21,18 +21,7 @@ info:
       * [find services near you](https://www.nhs.uk/nhs-services/services-near-you/)
       * get Ratings and Reviews of NHS services.
 
-    Pick a page from one of these sections on the [NHS website](https://www.nhs.uk/). 
-    Make a note of the path in the page URL (the bit that appears after '`https://www.nhs.uk/`').
-
-    You can then use this path to make API calls to the 'Integration test' environment and the 'Production' environment like so &hellip;
-
-    **Integration test environment**
-
-    `https://int.api.service.nhs.uk/nhs-website-content/YOUR_PATH_GOES_HERE`
-
-    **Production environment**
-
-    `https://api.service.nhs.uk/nhs-website-content/YOUR_PATH_GOES_HERE`
+    If you are migrating from our [old NHS website APIs](https://developer.api.nhs.uk/nhs-api), we have a [migration guide](https://developer.api.nhs.uk/support/migration/assistant) to help walk you through the process and a [migration assistant](https://developer.api.nhs.uk/support/migration/guide) to illustrate the differences in how your API requests will need to be updated.
 
     ## Who can use this API
     Anyone can use this API for any purpose, so long as they have agreed to the [Online connection agreement](https://digital.nhs.uk/developer/guides-and-documentation/online-connection-agreement) during the [onboarding process](https://digital.nhs.uk/developer/guides-and-documentation/onboarding-process) and they include an [attribution](#overview--attribution) as outlined below.
@@ -45,12 +34,12 @@ info:
     The logo should be clearly visible and in line with the associated content on every web page that contains the syndicated content. You should also link this logo to the relevant page on the NHS website that the content has been supplied from.
 
     ```
-    <a href="https://www.nhs.uk/THE_PATH_TO_THE_CONTENT_GOES_HERE" target="_blank">
+    <a href="https://www.nhs.uk/THE_PATH_TO_THE_ORIGINAL_CONTENT_GOES_HERE" target="_blank">
       <img src="https://digital.nhs.uk/binaries/content/gallery/website/developer/api-catalogue/nhs-website-content/nhs-attribution.png" alt="Content supplied by the NHS website" width="801" height="157" style="width: 250px; height: 49px;" />
     </a>
     ```
 
-    This URL is supplied as part of the JSON response under author:
+    The logo image URL is supplied as part of the JSON response under author:
 
     ```
     "author": {
