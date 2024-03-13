@@ -89,7 +89,7 @@ info:
 
     To obtain an API key for each of these environments you must sign in to the [Developer and integration hub](https://onboarding.prod.api.platform.nhs.uk/Index) and register your application to be granted [environment access](https://onboarding.prod.api.platform.nhs.uk/MyApplications).
 
-    Your API keys will look something like: `XW7DGBVQzO0yPKdPbRXeqITzbdJ1jNh7`
+    Your API keys will look something like: `XW7DGBVQzO0yPKdPbRXeqITzbdJ1jNh7` (Example apikey)
 
     <strong>NOTE:</strong> You will not need the 'Secret', and you don't need to specify a 'Public key URL' or a 'Callback URL' to use this API.
 
