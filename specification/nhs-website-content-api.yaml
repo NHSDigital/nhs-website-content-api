@@ -104,11 +104,11 @@ info:
     | Integration test  | `https://int.api.service.nhs.uk/nhs-website-content/`                  |
     | Production        |  Not available yet                                                     |
 
-    ### Sandbox testing
+    ### Sandbox environment
     Our [sandbox environment](https://digital.nhs.uk/developer/guides-and-documentation/testing#sandbox-testing):
     * is for early developer testing
     * only covers a limited set of scenarios
-    * is open access, so does not allow you to test authorisation
+    * is open access, so does not allow you to test authorisation (you do not need to provide an `apikey` in the request header)
 
     <div class="nhsd-m-expander" style="margin-bottom: 1rem;">
       <details>
@@ -207,10 +207,10 @@ info:
 
     [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/222854-abafff02-a96d-4259-9c0d-2f4d3fd6d4bf)
 
-    ### Integration testing
+    ### Integration test environment
     Our [integration test environment](https://digital.nhs.uk/developer/guides-and-documentation/testing#integration-testing):
     * is for formal integration testing
-    * includes authorisation via an API Key
+    * includes authorisation via an API Key, which can be obtained from the 
          
     For more details see [integration testing with our RESTful APIs](https://digital.nhs.uk/developer/guides-and-documentation/testing#integration-testing-with-our-restful-apis).
 
