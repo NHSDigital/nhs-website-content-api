@@ -214,7 +214,7 @@ info:
     * includes authorisation via an API Key, which can be obtained from the [NHS Digital Onboarding Service - Developer account](https://onboarding.prod.api.platform.nhs.uk/Index)
     * has a restricted [rate limit](#overview--usage-caps)
 
-    Here is an example cURL request, calling the Integration test environment
+    Here is an example cURL request, calling the integration test environment
     ```
     curl -X GET 'https://int.api.service.nhs.uk/nhs-website-content/conditions/' \
       -H 'Content-Type: application/json' \
@@ -230,7 +230,7 @@ info:
     * includes authorisation via an API Key, which can be obtained from the [NHS Digital Onboarding Service - Developer account](https://onboarding.prod.api.platform.nhs.uk/Index). This will be different from your Integration test API key.
     * has a higher [rate limit](#overview--usage-caps)
 
-    Here is an example cURL request, calling the Integration test environment
+    Here is an example cURL request, calling the production environment
     ```
     curl -X GET 'https://api.service.nhs.uk/nhs-website-content/conditions/' \
       -H 'Content-Type: application/json' \
