@@ -87,7 +87,7 @@ info:
 
     When calling the Integration Test environment or Production environment, you must provide a valid `apikey` in your request header.
 
-    To obtain an API key for each of these environments you must sign in to the [Developer and integration hub](https://onboarding.prod.api.platform.nhs.uk/Index) and register your application to be granted [environment access](https://onboarding.prod.api.platform.nhs.uk/MyApplications).
+    To obtain an API key for each of these environments you must sign in to the [NHS Digital Onboarding Service - Developer account](https://onboarding.prod.api.platform.nhs.uk/Index) and register your application to be granted [environment access](https://onboarding.prod.api.platform.nhs.uk/MyApplications).
 
     Your API keys will look something like: `XW7DGBVQzO0yPKdPbRXeqITzbdJ1jNh7` (example apikey)
 
