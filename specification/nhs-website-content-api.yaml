@@ -109,11 +109,12 @@ info:
     | Integration test  | `https://int.api.service.nhs.uk/nhs-website-content/`                  |
     | Production        |  Not available yet                                                     |
 
-    ### Sandbox testing
+    ### Sandbox environment
     Our [sandbox environment](https://digital.nhs.uk/developer/guides-and-documentation/testing#sandbox-testing):
     * is for early developer testing
     * only covers a limited set of scenarios
-    * is open access, so does not allow you to test authorisation
+    * is open access, so does not allow you to test authorisation (you do not need to provide an `apikey` in the request header)
+    * is [rate limited](#overview--usage-caps)
 
     <div class="nhsd-m-expander" style="margin-bottom: 1rem;">
       <details>
@@ -212,12 +213,34 @@ info:
 
     [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/222854-abafff02-a96d-4259-9c0d-2f4d3fd6d4bf)
 
-    ### Integration testing
+    ### Integration test environment
     Our [integration test environment](https://digital.nhs.uk/developer/guides-and-documentation/testing#integration-testing):
     * is for formal integration testing
-    * includes authorisation via an API Key
+    * includes authorisation via an API Key, which can be obtained from the [NHS Digital Onboarding Service - Developer account](https://onboarding.prod.api.platform.nhs.uk/Index)
+    * has a restricted [rate limit](#overview--usage-caps)
+
+    Here is an example cURL request, calling the integration test environment
+    ```
+    curl -X GET 'https://int.api.service.nhs.uk/nhs-website-content/conditions/' \
+      -H 'Content-Type: application/json' \
+      -H 'apikey: YOUR_INTEGRATION_TEST_ENVIRONMENT_APIKEY_GOES_HERE'
+    ```
          
     For more details see [integration testing with our RESTful APIs](https://digital.nhs.uk/developer/guides-and-documentation/testing#integration-testing-with-our-restful-apis).
+
+    ### Production environment
+    Our production environment:
+    * requires you to get your [application/product onboarded](#overview--onboarding) and approved by us
+    * is to be used by your production application
+    * includes authorisation via an API Key, which can be obtained from the [NHS Digital Onboarding Service - Developer account](https://onboarding.prod.api.platform.nhs.uk/Index). This will be different from your Integration test API key.
+    * has a higher [rate limit](#overview--usage-caps)
+
+    Here is an example cURL request, calling the production environment
+    ```
+    curl -X GET 'https://api.service.nhs.uk/nhs-website-content/conditions/' \
+      -H 'Content-Type: application/json' \
+      -H 'apikey: YOUR_PRODUCTION_ENVIRONMENT_APIKEY_GOES_HERE'
+    ```
 
     ## Onboarding
     You need to get your software approved by us before it can go live with this API. We call this onboarding.
@@ -225,6 +248,8 @@ info:
     The [onboarding process](https://digital.nhs.uk/developer/guides-and-documentation/onboarding-process) for this API is currently in development.
 
     During this process you will be asked agree to the [Online connection agreement](https://digital.nhs.uk/developer/guides-and-documentation/online-connection-agreement).
+
+    You can [submit your application/product for onboarding](https://onboarding.prod.api.platform.nhs.uk/Products) using the [Digital Onboarding Service](https://onboarding.prod.api.platform.nhs.uk/Index)
 
     ## Caching
     Caching of all responses from the NHS website content API is recommended, and you should do so where possible, unless otherwise notified to you by NHS Digital. The cached data should be refreshed no less than once every 7 days. If instructed to refresh cached NHS website content, you must do so immediately.
