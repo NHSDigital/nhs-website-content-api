@@ -83,10 +83,15 @@ info:
 
     ## Security and authorisation
 
-    This access mode is [application-restricted](https://digital.nhs.uk/developer/guides-and-documentation/security-and-authorisation#application-restricted-apis), meaning we authenticate the calling application but not the end user.
+    This API use the [Application-restricted RESTful API - API key authentication](https://digital.nhs.uk/developer/guides-and-documentation/security-and-authorisation/application-restricted-restful-apis-api-key-authentication) security pattern, meaning we authenticate the calling application but not the end user.
 
-    To use this access mode, use the following security pattern:
-    * [Application-restricted RESTful API - API key authentication](https://digital.nhs.uk/developer/guides-and-documentation/security-and-authorisation/application-restricted-restful-apis-api-key-authentication).
+    When calling the Integration Test environment or Production environment, you must provide a valid `apikey` in your request header.
+
+    To obtain an API key for each of these environments you must sign in to the [Developer and integration hub](https://onboarding.prod.api.platform.nhs.uk/Index) and register your application to be granted [environment access](https://onboarding.prod.api.platform.nhs.uk/MyApplications).
+
+    Your API keys will look something like: `XW7DGBVQzO0yPKdPbRXeqITzbdJ1jNh7`
+
+    <strong>NOTE:</strong> You will not need the 'Secret', and you don't need to specify a 'Public key URL' or a 'Callback URL' to use this API.
 
     ## Errors
     We use standard HTTP status codes to show whether an API request succeeded or not. They are usually in the range:
