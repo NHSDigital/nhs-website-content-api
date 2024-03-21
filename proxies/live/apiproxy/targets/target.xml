@@ -7,6 +7,12 @@
       <Step>
         <Name>FlowCallout.ApplyRateLimiting</Name>
       </Step>
+      <Step>
+        <Name>KeyValueMapOperations.GetSubscriptionKey</Name>
+      </Step>
+      <Step>
+        <Name>AssignMessage.AddSubscriptionKey</Name>
+      </Step>
     </Request>
     <Response>
       <Step>
@@ -26,14 +32,6 @@
       <Condition/>
     </Flow>
   </Flows>
-  <PostFlow>
-    <Request>
-      <Step>
-        <Name>AssignMessage.AddAzureApimSubscriptionKey</Name>
-      </Step>
-    </Request>
-    <Response/>
-  </PostFlow>
   <FaultRules>
     <FaultRule name="api_key_invalid">
       <Condition>verifyapikey.VerifyAPIKey.FromHeader.failed</Condition>
