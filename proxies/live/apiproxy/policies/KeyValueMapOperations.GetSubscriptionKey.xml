@@ -1,4 +1,4 @@
-<KeyValueMapOperations name="KeyValueMapOperations.GetSubscriptionKey" mapIdentifier="service-search">
+<KeyValueMapOperations name="KeyValueMapOperations.GetSubscriptionKey" mapIdentifier="nhs-website-content-api">
    <Get assignTo="private.subscriptionKey" index='1'>
       <Key>
          <Parameter>subscription-key</Parameter>
