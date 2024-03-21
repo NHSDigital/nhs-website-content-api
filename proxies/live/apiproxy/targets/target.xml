@@ -7,6 +7,12 @@
       <Step>
         <Name>FlowCallout.ApplyRateLimiting</Name>
       </Step>
+      <Step>
+        <Name>KeyValueMapOperations.GetSubscriptionKey</Name>
+      </Step>
+      <Step>
+        <Name>AssignMessage.AddSubscriptionKey</Name>
+      </Step>
     </Request>
     <Response>
       <Step>
