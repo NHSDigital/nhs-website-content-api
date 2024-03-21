@@ -1,0 +1,7 @@
+<AssignMessage async="false" continueOnError="false" enabled="true" name="AssignMessage.AddAzureApimSubscriptionKey">
+  <Set>
+    <Headers>
+      <Header name='subscription-key'>7c13a1ea36fb45b397e9cdce27f6c79d</Header>
+    </Headers>
+  </Set>
+</AssignMessage>
