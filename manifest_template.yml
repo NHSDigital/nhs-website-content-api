@@ -34,15 +34,15 @@ APIGEE_ENVIRONMENTS:
     quota: 60
   - name: int
     display_name: Integration Testing
-    ratelimit: 10pm # 1 request every 6 seconds
-    quota: 10 # 10 requests per minute
+    ratelimit: 120pm # 2 requests per second
+    quota: 120 # 2 requests per second
 # Enable environments when ready by uncommenting:
   # - name: prod
   #   display_name: Production
   #   has_mock_auth: false
   #   portal_visibility: true
-  #   ratelimit: 600pm # 10 requests per second
-  #   quota: 600 # 600 requests per minute
+  #   ratelimit: 1200pm # 20 requests per second
+  #   quota: 1200 # 20 requests per second
 ---
 meta:
   api:
