@@ -259,8 +259,8 @@ info:
     | Environment       | Rate limit                      |
     | ----------------- | ------------------------------- |
     | Sandbox           | 60 requests per minute          |
-    | Integration test  | 10 requests per minute          |
-    | Production        | 600 requests per minute         |
+    | Integration test  | 120 requests per minute         |
+    | Production        | 1200 requests per minute        |
 
     ## Developer Community
 
