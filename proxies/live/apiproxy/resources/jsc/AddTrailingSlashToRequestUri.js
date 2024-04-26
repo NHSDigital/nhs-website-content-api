@@ -1,6 +1,6 @@
 function fixUrl(url) {
   if (url !== null && url.length > 0) {
-    let parts = url.split("?");
+    var parts = url.split("?");
     if (parts[0].charAt(parts[0].length - 1) !== "/") {
       parts[0] = parts[0] + "/";
     }
