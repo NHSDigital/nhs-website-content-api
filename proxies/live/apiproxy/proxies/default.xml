@@ -52,16 +52,6 @@
         </Step>
       </Request>
     </Flow>
-    <Flow name="AddTrailingSlashToRequestUri">
-      <Description/>
-      <Request>
-        <Step>
-          <Name>javascript.AddTrailingSlashToRequestUri</Name>
-        </Step>
-      </Request>
-      <Response/>
-      <Condition/>
-    </Flow>
   </Flows>
   <PostClientFlow name="PostClientFlow">
     <Response>
