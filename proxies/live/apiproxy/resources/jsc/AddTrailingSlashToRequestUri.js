@@ -10,6 +10,6 @@ function fixUrl(url) {
   }
 }
 
-var originalUri = context.getVariable("request.uri");
-var modifiedUri = fixUrl(originalUri);
-context.setVariable("request.uri", modifiedUri);
+var originalProxyPathSuffix = context.getVariable("proxy.pathsuffix");
+var modifiedProxyPathSuffix = fixUrl(originalProxyPathSuffix);
+context.setVariable("proxy.pathsuffix", modifiedProxyPathSuffix);
