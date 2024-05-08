@@ -2,9 +2,6 @@
   <PreFlow>
     <Request>
       <Step>
-        <Name>javascript.AddTrailingSlashToRequestUri</Name>
-      </Step>
-      <Step>
         <Name>VerifyAPIKey.FromHeader</Name>
       </Step>
       <Step>
@@ -35,6 +32,15 @@
       <Condition/>
     </Flow>
   </Flows>
+  <PostFlow>
+    <Request>
+      <Step>
+        <Name>javascript.AddTrailingSlashToTargetPath</Name>
+      </Step>
+    </Request>
+    <Response>
+    </Response>
+  </PostFlow>
   <FaultRules>
     <FaultRule name="api_key_invalid">
       <Condition>verifyapikey.VerifyAPIKey.FromHeader.failed</Condition>
@@ -44,7 +50,7 @@
     <SSLInfo>
       <Enabled>true</Enabled>
     </SSLInfo>
-    <Path>/content-api</Path>
+    <Path>/content-api/{pathWithTrailingSlash}</Path>
     <LoadBalancer>
       <Server name= "{{ NHS_CONTENT_API_TARGET_SERVER }}" />
     </LoadBalancer>
