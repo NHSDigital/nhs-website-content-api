@@ -35,7 +35,7 @@
   <PostFlow>
     <Request>
       <Step>
-        <Name>javascript.AddTrailingSlashToRequestUri</Name>
+        <Name>javascript.AddTrailingSlashToTargetPath</Name>
       </Step>
     </Request>
     <Response>
@@ -50,7 +50,7 @@
     <SSLInfo>
       <Enabled>true</Enabled>
     </SSLInfo>
-    <Path>/content-api</Path>
+    <Path>/content-api/{pathWithTrailingSlash}</Path>
     <LoadBalancer>
       <Server name= "{{ NHS_CONTENT_API_TARGET_SERVER }}" />
     </LoadBalancer>
