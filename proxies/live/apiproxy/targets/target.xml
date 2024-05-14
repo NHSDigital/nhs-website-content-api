@@ -1,6 +1,12 @@
 <TargetEndpoint name="nhs-website-content-api-target">
   <PreFlow>
     <Request>
+      <!-- EnhancedVerifyApiKey shared flow checks apikeys with no associated products which is missed by Apigee's VerifyApiKey policy. -->
+      <Step>
+        <Name>FlowCallout.EnhancedVerifyApiKey</Name>
+      </Step>
+      <!-- VerifyAPIKey policy is still needed but set to continueOnError="true" to pass rate limiting info from the app to the
+      ApplyRateLimiting policy in the shared flow. -->
       <Step>
         <Name>VerifyAPIKey.FromHeader</Name>
       </Step>
