@@ -60,11 +60,60 @@ info:
     ## Modularised content
     The standard content available through our syndication service is based on the full pages on the NHS website. With our modularised content, you can instead choose to use shorter, more specific sections of content (called "modules") from our pages. This means you can show your users only the content that's most relevant to them. You can also use this content more easily in services like apps and voice assistants.
 
-    For more details see [Modularised NHS content](https://digital.nhs.uk/developer/api-catalogue/nhs-website-content/modularised-nhs-content#about-our-modularised-content).
+    ### Benefits of our modularised content
+
+    1. **More relevant content for users** &mdash; Users do not always want or need full pages of content. With our modularised content, you can choose exactly what your users get.
+
+    2. **Suitable for a range of services** &mdash; Short, specific content modules can be used more easily than full web pages in services like apps, chatbots and voice assistants.
+
+    3. **Clinical assurance** &mdash; Each module is checked by NHS clinicians before being made available and carries the trusted NHS brand.
+
+    ### Available labels / health aspects
+
+    We create modules by adding labels (health aspects) to sections of content on our web pages. For example, on our medical condition pages we have labels (health aspects) for sections on "Overview", "Symptoms", "Treatments", "Causes" and more. These labels (health aspects) are based on international standards for structured data from [Schema.org](https://schema.org/HealthAspectEnumeration). Before being made available, each module is checked by our clinical team to make sure it remains accurate and safe to use in isolation.
+
+    Here are the 31 health aspects that we currently have available for modularisation, in order of frequency of use:
+
+    * OverviewHealthAspect
+    * SymptomsHealthAspect
+    * TreatmentsHealthAspect
+    * CausesHealthAspect
+    * MedicalHelpNonurgentHealthAspect
+    * SelfCareHealthAspect
+    * MedicalHelpUrgentHealthAspect
+    * MedicalHelpEmergencyHealthAspect
+    * DiagnosisHealthAspect
+    * PreventionHealthAspect
+    * SideEffectsHealthAspect
+    * LivingWithHealthAspect
+    * SuitabilityHealthAspect
+    * InteractionsHealthAspect
+    * UsageOrScheduleHealthAspect
+    * PregnancyHealthAspect
+    * RisksOrComplicationsHealthAspect
+    * PrognosisHealthAspect
+    * BenefitsHealthAspect
+    * ContagiousnessHealthAspect
+    * WhatHappensHealthAspect
+    * PreparationHealthAspect
+    * ResultsHealthAspect
+    * TypesHealthAspect
+    * ContraindicationsHealthAspect
+    * GettingAccessHealthAspect
+    * WarningHealthAspect
+    * EffectivenessHealthAspect
+    * HowItWorksHealthAspect
+    * IngredientsHealthAspect
+
+    ### Getting modularised content
+
+    To get modularised content, you can use the boolean `modules` query parameter in the [conditions/*](#get-/conditions/*) and [medicines/*](#get-/medicines/*) endpoints. This will return the modularised version of the page (if there is one). If the requested page has not been modularised, the full page will be returned.
+
+    You can get a list of which pages have (and have not) been modularised by calling the `/manifest/pages/` endpoint.
 
     ## API status
     This API has moved from the [NHS website developer portal](https://developer.api.nhs.uk/). 
-    It is currently [in development](https://digital.nhs.uk/developer/guides-and-documentation/reference-guide#statuses).
+    It is currently [in production](https://digital.nhs.uk/developer/guides-and-documentation/reference-guide#statuses).
 
     ## Service level
     This API is a [bronze service](https://digital.nhs.uk/developer/guides-and-documentation/reference-guide#service-levels).
