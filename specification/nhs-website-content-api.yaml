@@ -109,7 +109,7 @@ info:
 
     To get modularised content, you can use the boolean `modules` query parameter in the [conditions/*](#get-/conditions/*) and [medicines/*](#get-/medicines/*) endpoints. This will return the modularised version of the page (if there is one). If the requested page has not been modularised, the full page will be returned.
 
-    You can get a list of which pages have (and have not) been modularised by calling the `/manifest/pages/` endpoint.
+    You can get a list of which pages have (and have not) been modularised and which health aspects they contain by calling the `/manifest/pages/` endpoint.
 
     ## API status
     This API has moved from the [NHS website developer portal](https://developer.api.nhs.uk/). 
