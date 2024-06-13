@@ -130,6 +130,40 @@ info:
 
     You can get a list of which pages have (and have not) been modularised and which health aspects they contain by calling the `/manifest/pages/` endpoint.
 
+    ## Schema page types
+
+    Throughout the NHS website we have a couple of page models which are defined using the `@type` property. It is a good thing to implement each page type into your product, as multiple page types can be used within in a single genre (conditions, live-well, medicines, etc).
+
+    1. **WebPage** &mdash; This is the default type and is [defined by Schema.org](https://schema.org/WebPage)
+
+    2. **MedicalWebPage** &mdash; A web page that provides medical information and is [defined by Schema.org](https://schema.org/MedicalWebPage)
+
+    Here is a list of properties for each schema page type we are currently using:
+
+    | WebPage          | MedicalWebPage      |
+    | ---------------- | ------------------- |
+    | @context         | @context            |
+    | @type            | @type               |
+    | name             | name                |
+    | copyrightHolder  | copyrightHolder     |
+    | license          | license             |
+    | author           | author              |
+    | about            | about               |
+    | description      | description         |
+    | url              | url                 |
+    | genre            | genre               |
+    | keywords         | keywords            |
+    | dateModified     | dateModified        |
+    | lastReviewed     | lastReviewed        |
+    | breadcrumb       | breadcrumb          |
+    | hasPart          | hasPart             |
+    | relatedLink      | relatedLink         |
+    | contentSubTypes  | contentSubTypes     |
+    | mainEntityOfPage | mainEntityOfPage    |
+    |                  | alternativeHeadline |
+
+    It is worth noting that the `genre` property is what we use to define which section the article sits in, and the `@type` is used to define how that article is structured.
+
     ## API status
     This API has moved from the [NHS website developer portal](https://developer.api.nhs.uk/). 
     It is currently [in production](https://digital.nhs.uk/developer/guides-and-documentation/reference-guide#statuses).
