@@ -21,7 +21,7 @@ info:
       * [find services near you](https://www.nhs.uk/nhs-services/services-near-you/)
       * get Ratings and Reviews of NHS services.
 
-    If you are migrating from our [old NHS website APIs](https://developer.api.nhs.uk/nhs-api), we have a [migration guide](https://developer.api.nhs.uk/support/migration/assistant) to help walk you through the process and a [migration assistant](https://developer.api.nhs.uk/support/migration/guide) to illustrate the differences in how your API requests will need to be updated.
+    If you are migrating from our [old NHS website APIs](https://developer.api.nhs.uk/nhs-api), we have a [migration guide](https://developer.api.nhs.uk/support/migration/guide) to help walk you through the process and a [migration assistant](https://developer.api.nhs.uk/support/migration/assistant) to illustrate the differences in how your API requests will need to be updated.
 
     ## Who can use this API
     Anyone can use this API for any purpose, so long as they have agreed to the [Online connection agreement](https://digital.nhs.uk/developer/guides-and-documentation/online-connection-agreement) during the [onboarding process](https://digital.nhs.uk/developer/guides-and-documentation/onboarding-process) and they include an [attribution](#overview--attribution) as outlined below.
@@ -293,8 +293,6 @@ info:
 
     ## Onboarding
     You need to get your software approved by us before it can go live with this API. We call this onboarding.
-
-    The [onboarding process](https://digital.nhs.uk/developer/guides-and-documentation/onboarding-process) for this API is currently in development.
 
     During this process you will be asked agree to the [Online connection agreement](https://digital.nhs.uk/developer/guides-and-documentation/online-connection-agreement).
 
