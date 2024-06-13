@@ -124,39 +124,6 @@ info:
       </details>
     </div>
 
-    Here are the 31 health aspects that we currently have available for modularisation, in order of frequency of use:
-
-    * OverviewHealthAspect
-    * SymptomsHealthAspect
-    * TreatmentsHealthAspect
-    * CausesHealthAspect
-    * MedicalHelpNonurgentHealthAspect
-    * SelfCareHealthAspect
-    * MedicalHelpUrgentHealthAspect
-    * MedicalHelpEmergencyHealthAspect
-    * DiagnosisHealthAspect
-    * PreventionHealthAspect
-    * SideEffectsHealthAspect
-    * LivingWithHealthAspect
-    * SuitabilityHealthAspect
-    * InteractionsHealthAspect
-    * UsageOrScheduleHealthAspect
-    * PregnancyHealthAspect
-    * RisksOrComplicationsHealthAspect
-    * PrognosisHealthAspect
-    * BenefitsHealthAspect
-    * ContagiousnessHealthAspect
-    * WhatHappensHealthAspect
-    * PreparationHealthAspect
-    * ResultsHealthAspect
-    * TypesHealthAspect
-    * ContraindicationsHealthAspect
-    * GettingAccessHealthAspect
-    * WarningHealthAspect
-    * EffectivenessHealthAspect
-    * HowItWorksHealthAspect
-    * IngredientsHealthAspect
-
     ### Getting modularised content
 
     To get modularised content, you can use the boolean `modules` query parameter in the [conditions/*](#get-/conditions/*) and [medicines/*](#get-/medicines/*) endpoints. This will return the modularised version of the page (if there is one). If the requested page has not been modularised, the full page will be returned.
