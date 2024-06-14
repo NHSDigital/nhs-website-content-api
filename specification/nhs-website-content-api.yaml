@@ -72,44 +72,97 @@ info:
 
     We create modules by adding labels (health aspects) to sections of content on our web pages. For example, on our medical condition pages we have labels (health aspects) for sections on "Overview", "Symptoms", "Treatments", "Causes" and more. These labels (health aspects) are based on international standards for structured data from [Schema.org](https://schema.org/HealthAspectEnumeration). Before being made available, each module is checked by our clinical team to make sure it remains accurate and safe to use in isolation.
 
-    Here are the 31 health aspects that we currently have available for modularisation, in order of frequency of use:
-
-    * OverviewHealthAspect
-    * SymptomsHealthAspect
-    * TreatmentsHealthAspect
-    * CausesHealthAspect
-    * MedicalHelpNonurgentHealthAspect
-    * SelfCareHealthAspect
-    * MedicalHelpUrgentHealthAspect
-    * MedicalHelpEmergencyHealthAspect
-    * DiagnosisHealthAspect
-    * PreventionHealthAspect
-    * SideEffectsHealthAspect
-    * LivingWithHealthAspect
-    * SuitabilityHealthAspect
-    * InteractionsHealthAspect
-    * UsageOrScheduleHealthAspect
-    * PregnancyHealthAspect
-    * RisksOrComplicationsHealthAspect
-    * PrognosisHealthAspect
-    * BenefitsHealthAspect
-    * ContagiousnessHealthAspect
-    * WhatHappensHealthAspect
-    * PreparationHealthAspect
-    * ResultsHealthAspect
-    * TypesHealthAspect
-    * ContraindicationsHealthAspect
-    * GettingAccessHealthAspect
-    * WarningHealthAspect
-    * EffectivenessHealthAspect
-    * HowItWorksHealthAspect
-    * IngredientsHealthAspect
+    <div class="nhsd-m-expander" style="margin-bottom: 1rem;">
+      <details>
+        <summary class="nhsd-m-expander__heading-container" aria-label="List of health aspects" >
+          <div>
+            <span class="nhsd-m-expander__icon nhsd-!t-margin-right-1">
+              <span class="nhsd-a-icon nhsd-a-icon--size-xs" style="margin: 0;">
+                <svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" focusable="false" viewBox="0 0 16 16">
+                  <path d="M12,8l-6.5,7L4,13.5L9.2,8L4,2.5L5.5,1L12,8z"/>
+                </svg>
+              </span>
+            </span>
+            <p class="nhsd-m-expander__heading nhsd-t-body">List of health aspects</p>
+          </div>
+        </summary>
+        <div class="nhsd-m-expander__content-container">
+          <p>Here are the 31 health aspects that we currently have available for modularisation, in order of frequency of use:</p>
+          <ul>
+            <li>OverviewHealthAspect</li>
+            <li>SymptomsHealthAspect</li>
+            <li>TreatmentsHealthAspect</li>
+            <li>CausesHealthAspect</li>
+            <li>MedicalHelpNonurgentHealthAspect</li>
+            <li>SelfCareHealthAspect</li>
+            <li>MedicalHelpUrgentHealthAspect</li>
+            <li>MedicalHelpEmergencyHealthAspect</li>
+            <li>DiagnosisHealthAspect</li>
+            <li>PreventionHealthAspect</li>
+            <li>SideEffectsHealthAspect</li>
+            <li>LivingWithHealthAspect</li>
+            <li>SuitabilityHealthAspect</li>
+            <li>InteractionsHealthAspect</li>
+            <li>UsageOrScheduleHealthAspect</li>
+            <li>PregnancyHealthAspect</li>
+            <li>RisksOrComplicationsHealthAspect</li>
+            <li>PrognosisHealthAspect</li>
+            <li>BenefitsHealthAspect</li>
+            <li>ContagiousnessHealthAspect</li>
+            <li>WhatHappensHealthAspect</li>
+            <li>PreparationHealthAspect</li>
+            <li>ResultsHealthAspect</li>
+            <li>TypesHealthAspect</li>
+            <li>ContraindicationsHealthAspect</li>
+            <li>GettingAccessHealthAspect</li>
+            <li>WarningHealthAspect</li>
+            <li>EffectivenessHealthAspect</li>
+            <li>HowItWorksHealthAspect</li>
+            <li>IngredientsHealthAspect</li>
+          </ul>
+        </div>
+      </details>
+    </div>
 
     ### Getting modularised content
 
     To get modularised content, you can use the boolean `modules` query parameter in the [conditions/*](#get-/conditions/*) and [medicines/*](#get-/medicines/*) endpoints. This will return the modularised version of the page (if there is one). If the requested page has not been modularised, the full page will be returned.
 
     You can get a list of which pages have (and have not) been modularised and which health aspects they contain by calling the `/manifest/pages/` endpoint.
+
+    ## Schema page types
+
+    Throughout the NHS website we have a couple of page models which are defined using the `@type` property. It is a good thing to implement each page type into your product, as multiple page types can be used within in a single genre (conditions, live-well, medicines, etc).
+
+    1. **WebPage** &mdash; This is the default type and is [defined by Schema.org](https://schema.org/WebPage)
+
+    2. **MedicalWebPage** &mdash; A web page that provides medical information and is [defined by Schema.org](https://schema.org/MedicalWebPage)
+
+    Here is a list of properties for each schema page type we are currently using:
+
+    | WebPage          | MedicalWebPage      |
+    | ---------------- | ------------------- |
+    | @context         | @context            |
+    | @type            | @type               |
+    | name             | name                |
+    | copyrightHolder  | copyrightHolder     |
+    | license          | license             |
+    | author           | author              |
+    | about            | about               |
+    | description      | description         |
+    | url              | url                 |
+    | genre            | genre               |
+    | keywords         | keywords            |
+    | dateModified     | dateModified        |
+    | lastReviewed     | lastReviewed        |
+    | breadcrumb       | breadcrumb          |
+    | hasPart          | hasPart             |
+    | relatedLink      | relatedLink         |
+    | contentSubTypes  | contentSubTypes     |
+    | mainEntityOfPage | mainEntityOfPage    |
+    |                  | alternativeHeadline |
+
+    It is worth noting that the `genre` property is what we use to define which section the article sits in, and the `@type` is used to define how that article is structured.
 
     ## API status
     This API has moved from the [NHS website developer portal](https://developer.api.nhs.uk/). 
