@@ -170,6 +170,68 @@
 //     searchForRegex: /href=\\"\/common-health-questions\//gm,
 //     replaceWithStr: 'href=\\"https://www.nhs.uk/common-health-questions/',
 //   },
+//   {
+//     comment1: "=============================================================",
+//     comment2: "Contraception                                                ",
+//     comment3: "=============================================================",
+//   },
+//   {
+//     searchForRegex: /:\s?"https:\/\/api.nhs.uk\/contraception\//gm,
+//     replaceWithStr:
+//       ': "https://' +
+//       requestHostnameEnv +
+//       "/nhs-website-content/contraception/",
+//   },
+//   {
+//     searchForRegex: /:\s?"https:\/\/www.nhs.uk\/contraception\//gm,
+//     replaceWithStr:
+//       ': "https://' +
+//       requestHostnameEnv +
+//       "/nhs-website-content/contraception/",
+//   },
+//   {
+//     searchForRegex: /:\s?"\/contraception\//gm,
+//     replaceWithStr:
+//       ': "https://' +
+//       requestHostnameEnv +
+//       "/nhs-website-content/contraception/",
+//   },
+//   {
+//     searchForRegex: /href=\\"https:\/\/api.nhs.uk\/contraception\//gm,
+//     replaceWithStr: 'href=\\"https://www.nhs.uk/contraception/',
+//   },
+//   {
+//     searchForRegex: /href=\\"\/contraception\//gm,
+//     replaceWithStr: 'href=\\"https://www.nhs.uk/contraception/',
+//   },
+//   {
+//     comment1: "=============================================================",
+//     comment2: "Vaccinations                                                 ",
+//     comment3: "=============================================================",
+//   },
+//   {
+//     searchForRegex: /:\s?"https:\/\/api.nhs.uk\/vaccinations\//gm,
+//     replaceWithStr:
+//       ': "https://' + requestHostnameEnv + "/nhs-website-content/vaccinations/",
+//   },
+//   {
+//     searchForRegex: /:\s?"https:\/\/www.nhs.uk\/vaccinations\//gm,
+//     replaceWithStr:
+//       ': "https://' + requestHostnameEnv + "/nhs-website-content/vaccinations/",
+//   },
+//   {
+//     searchForRegex: /:\s?"\/vaccinations\//gm,
+//     replaceWithStr:
+//       ': "https://' + requestHostnameEnv + "/nhs-website-content/vaccinations/",
+//   },
+//   {
+//     searchForRegex: /href=\\"https:\/\/api.nhs.uk\/vaccinations\//gm,
+//     replaceWithStr: 'href=\\"https://www.nhs.uk/vaccinations/',
+//   },
+//   {
+//     searchForRegex: /href=\\"\/vaccinations\//gm,
+//     replaceWithStr: 'href=\\"https://www.nhs.uk/vaccinations/',
+//   },
 // ];
 
 var responseContent = context.getVariable("response.content");

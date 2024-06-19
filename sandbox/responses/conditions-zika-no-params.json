@@ -111,7 +111,7 @@
         {
           "@type": "WebPageElement",
           "headline": "",
-          "text": "<p>There are no specific treatments for Zika virus.</p><p>If you have symptoms, you should:</p><ul><li>get plenty of rest</li><li>drink lots of fluids</li><li>take pain relief, such as paracetamol</li></ul><p>If you're pregnant and have Zika virus, your midwife or hospital doctor will talk about the risk with you and may arrange an <a href=\"/pregnancy/your-pregnancy-care/ultrasound-scans/\">ultrasound scan</a> to check your baby's growth.</p><p>You may also be referred to a specialist for more monitoring.</p>"
+          "text": "<p>There are no specific treatments for Zika virus.</p><p>If you have symptoms, you should:</p><ul><li>get plenty of rest</li><li>drink lots of fluids</li><li>take pain relief, such as paracetamol</li></ul><p>If you're pregnant and have Zika virus, your midwife or hospital doctor will talk about the risk with you and may arrange an <a href=\"https://www.nhs.uk/pregnancy/your-pregnancy-care/ultrasound-scans/\">ultrasound scan</a> to check your baby's growth.</p><p>You may also be referred to a specialist for more monitoring.</p>"
         }
       ]
     },
@@ -358,7 +358,7 @@
         {
           "position": 0,
           "identifier": "1",
-          "text": "<p>There are no specific treatments for Zika virus.</p><p>If you have symptoms, you should:</p><ul><li>get plenty of rest</li><li>drink lots of fluids</li><li>take pain relief, such as paracetamol</li></ul><p>If you're pregnant and have Zika virus, your midwife or hospital doctor will talk about the risk with you and may arrange an <a href=\"/pregnancy/your-pregnancy-care/ultrasound-scans/\">ultrasound scan</a> to check your baby's growth.</p><p>You may also be referred to a specialist for more monitoring.</p>",
+          "text": "<p>There are no specific treatments for Zika virus.</p><p>If you have symptoms, you should:</p><ul><li>get plenty of rest</li><li>drink lots of fluids</li><li>take pain relief, such as paracetamol</li></ul><p>If you're pregnant and have Zika virus, your midwife or hospital doctor will talk about the risk with you and may arrange an <a href=\"https://www.nhs.uk/pregnancy/your-pregnancy-care/ultrasound-scans/\">ultrasound scan</a> to check your baby's growth.</p><p>You may also be referred to a specialist for more monitoring.</p>",
           "@type": "WebPageElement",
           "name": "markdown",
           "headline": ""
@@ -369,7 +369,7 @@
         {
           "position": 0,
           "identifier": "1",
-          "text": "<p>There are no specific treatments for Zika virus.</p><p>If you have symptoms, you should:</p><ul><li>get plenty of rest</li><li>drink lots of fluids</li><li>take pain relief, such as paracetamol</li></ul><p>If you're pregnant and have Zika virus, your midwife or hospital doctor will talk about the risk with you and may arrange an <a href=\"/pregnancy/your-pregnancy-care/ultrasound-scans/\">ultrasound scan</a> to check your baby's growth.</p><p>You may also be referred to a specialist for more monitoring.</p>",
+          "text": "<p>There are no specific treatments for Zika virus.</p><p>If you have symptoms, you should:</p><ul><li>get plenty of rest</li><li>drink lots of fluids</li><li>take pain relief, such as paracetamol</li></ul><p>If you're pregnant and have Zika virus, your midwife or hospital doctor will talk about the risk with you and may arrange an <a href=\"https://www.nhs.uk/pregnancy/your-pregnancy-care/ultrasound-scans/\">ultrasound scan</a> to check your baby's growth.</p><p>You may also be referred to a specialist for more monitoring.</p>",
           "@type": "WebPageElement",
           "name": "markdown",
           "headline": ""

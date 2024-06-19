@@ -131,7 +131,7 @@
         {
           "position": 0,
           "identifier": "1",
-          "text": "<p>Making some simple changes to your lifestyle can significantly reduce your risk of developing cancer.</p><p>For example:</p><ul><li><a href=\"/live-well/eat-well/how-to-eat-a-balanced-diet/eating-a-balanced-diet/\">healthy eating</a></li><li>taking\u00a0<a href=\"/live-well/exercise/\">regular exercise</a></li><li><a href=\"/live-well/quit-smoking/\">not smoking</a></li></ul><p><a href=\"https://www.macmillan.org.uk/cancer-information-and-support/worried-about-cancer/causes-and-risk-factors\">Find out more about how a healthy lifestyle reduces your chances of developing cancer on the Macmillan Cancer Support website</a></p>",
+          "text": "<p>Making some simple changes to your lifestyle can significantly reduce your risk of developing cancer.</p><p>For example:</p><ul><li><a href=\"https://www.nhs.uk/live-well/eat-well/how-to-eat-a-balanced-diet/eating-a-balanced-diet/\">healthy eating</a></li><li>taking\u00a0<a href=\"https://www.nhs.uk/live-well/exercise/\">regular exercise</a></li><li><a href=\"https://www.nhs.uk/live-well/quit-smoking/\">not smoking</a></li></ul><p><a href=\"https://www.macmillan.org.uk/cancer-information-and-support/worried-about-cancer/causes-and-risk-factors\">Find out more about how a healthy lifestyle reduces your chances of developing cancer on the Macmillan Cancer Support website</a></p>",
           "@type": "WebPageElement",
           "name": "markdown",
           "headline": ""
@@ -142,7 +142,7 @@
         {
           "position": 0,
           "identifier": "1",
-          "text": "<p>Making some simple changes to your lifestyle can significantly reduce your risk of developing cancer.</p><p>For example:</p><ul><li><a href=\"/live-well/eat-well/how-to-eat-a-balanced-diet/eating-a-balanced-diet/\">healthy eating</a></li><li>taking\u00a0<a href=\"/live-well/exercise/\">regular exercise</a></li><li><a href=\"/live-well/quit-smoking/\">not smoking</a></li></ul><p><a href=\"https://www.macmillan.org.uk/cancer-information-and-support/worried-about-cancer/causes-and-risk-factors\">Find out more about how a healthy lifestyle reduces your chances of developing cancer on the Macmillan Cancer Support website</a></p>",
+          "text": "<p>Making some simple changes to your lifestyle can significantly reduce your risk of developing cancer.</p><p>For example:</p><ul><li><a href=\"https://www.nhs.uk/live-well/eat-well/how-to-eat-a-balanced-diet/eating-a-balanced-diet/\">healthy eating</a></li><li>taking\u00a0<a href=\"https://www.nhs.uk/live-well/exercise/\">regular exercise</a></li><li><a href=\"https://www.nhs.uk/live-well/quit-smoking/\">not smoking</a></li></ul><p><a href=\"https://www.macmillan.org.uk/cancer-information-and-support/worried-about-cancer/causes-and-risk-factors\">Find out more about how a healthy lifestyle reduces your chances of developing cancer on the Macmillan Cancer Support website</a></p>",
           "@type": "WebPageElement",
           "name": "markdown",
           "headline": ""
@@ -215,7 +215,7 @@
         {
           "position": 0,
           "identifier": "1",
-          "text": "<ul><li><a href=\"/service-search/Cancer-information-and-support/LocationSearch/320\">Find local cancer support services</a></li><li><a href=\"/Service-Search/Cancer-support-for-women/LocationSearch/319\">Find cancer support services for women</a></li></ul>",
+          "text": "<ul><li><a href=\"https://www.nhs.uk/service-search/Cancer-information-and-support/LocationSearch/320\">Find local cancer support services</a></li><li><a href=\"https://www.nhs.uk/Service-Search/Cancer-support-for-women/LocationSearch/319\">Find cancer support services for women</a></li></ul>",
           "@type": "WebPageElement",
           "name": "markdown",
           "headline": ""
@@ -226,7 +226,7 @@
         {
           "position": 0,
           "identifier": "1",
-          "text": "<ul><li><a href=\"/service-search/Cancer-information-and-support/LocationSearch/320\">Find local cancer support services</a></li><li><a href=\"/Service-Search/Cancer-support-for-women/LocationSearch/319\">Find cancer support services for women</a></li></ul>",
+          "text": "<ul><li><a href=\"https://www.nhs.uk/service-search/Cancer-information-and-support/LocationSearch/320\">Find local cancer support services</a></li><li><a href=\"https://www.nhs.uk/Service-Search/Cancer-support-for-women/LocationSearch/319\">Find cancer support services for women</a></li></ul>",
           "@type": "WebPageElement",
           "name": "markdown",
           "headline": ""
