@@ -2,15 +2,11 @@
 
 ## API Root
 
-[API Root - Without](http://localhost:9000/)
-
-[API Root - With example](http://localhost:9000/)
+[API Root](http://localhost:9000/)
 
 ## Common Health Questions
 
-[Common Health Questions Root - Without](http://localhost:9000/common-health-questions/)
-
-[Common Health Questions Root - With example](http://localhost:9000/common-health-questions/)
+[Common Health Questions Root](http://localhost:9000/common-health-questions/)
 
 [Accidents, first aid and treatments](http://localhost:9000/common-health-questions/accidents-first-aid-and-treatments/)
 
@@ -20,9 +16,7 @@
 
 ## Conditions
 
-[Conditions Root - Without](http://localhost:9000/conditions/)
-
-[Conditions Root - With example](http://localhost:9000/conditions/)
+[Conditions Root](http://localhost:9000/conditions/)
 
 [Conditions Root - Category: A](http://localhost:9000/conditions/?category=a)
 
@@ -62,9 +56,7 @@
 
 ## Live Well
 
-[Live Well Root - Without](http://localhost:9000/live-well/)
-
-[Live Well Root - With example](http://localhost:9000/live-well/)
+[Live Well Root](http://localhost:9000/live-well/)
 
 [Alcohol advice - Alcohol support](http://localhost:9000/live-well/alcohol-advice/alcohol-support/)
 
@@ -74,9 +66,7 @@
 
 ## Medicines
 
-[Medicines Root - Without](http://localhost:9000/medicines/)
-
-[Medicines Root - With example](http://localhost:9000/medicines/)
+[Medicines Root](http://localhost:9000/medicines/)
 
 [Medicines Root - Category: A](http://localhost:9000/medicines/?category=a)
 
@@ -102,9 +92,7 @@
 
 ## Mental Health
 
-[Mental Health Root - Without](http://localhost:9000/mental-health/)
-
-[Mental Health Root - With example](http://localhost:9000/mental-health/)
+[Mental Health Root](http://localhost:9000/mental-health/)
 
 [Advice for life situations and events - Bullying at work](http://localhost:9000/mental-health/advice-for-life-situations-and-events/support-for-workplace-bullying/)
 
@@ -114,9 +102,7 @@
 
 ## NHS Services
 
-[NHS Services Root - Without](http://localhost:9000/nhs-services/)
-
-[NHS Services Root - With example](http://localhost:9000/nhs-services/)
+[NHS Services Root](http://localhost:9000/nhs-services/)
 
 [GPs](http://localhost:9000/nhs-services/gps/)
 
@@ -126,12 +112,30 @@
 
 ## Pregnancy
 
-[Pregnancy Root - Without](http://localhost:9000/pregnancy/)
-
-[Pregnancy Root - With example](http://localhost:9000/pregnancy/)
+[Pregnancy Root](http://localhost:9000/pregnancy/)
 
 [Finding out you're pregnant - Finding out you're pregnant](http://localhost:9000/pregnancy/finding-out/finding-out-you-are-pregnant/)
 
 [Having a baby if you're LGBT+](http://localhost:9000/pregnancy/having-a-baby-if-you-are-lgbt-plus/)
 
 [Trying for a baby](http://localhost:9000/pregnancy/trying-for-a-baby/)
+
+## Contraception
+
+[Contraception Root](http://localhost:9000/contraception/)
+
+[Methods of contraception](http://localhost:9000/contraception/methods-of-contraception/)
+
+[What is the combined pill?](http://localhost:9000/contraception/methods-of-contraception/combined-pill/what-is-it/)
+
+[Condoms](http://localhost:9000/contraception/methods-of-contraception/condoms/)
+
+## Vaccinations
+
+[Vaccinations Root](http://localhost:9000/vaccinations/)
+
+[NHS vaccinations and when to have them](http://localhost:9000/vaccinations/nhs-vaccinations-and-when-to-have-them/)
+
+[6-in-1 vaccine](http://localhost:9000/vaccinations/6-in-1-vaccine/)
+
+[Available travel vaccines](http://localhost:9000/vaccinations/travel-vaccinations/available-travel-vaccines/)
