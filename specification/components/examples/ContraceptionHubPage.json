@@ -1,0 +1,1778 @@
+{
+  "@context": "http://schema.org",
+  "@type": "MedicalWebPage",
+  "name": "Contraception",
+  "copyrightHolder": {
+    "name": "Crown Copyright",
+    "@type": "Organization"
+  },
+  "license": "https://developer.api.nhs.uk/terms",
+  "author": {
+    "url": "https://www.nhs.uk",
+    "logo": "https://digital.nhs.uk/binaries/content/gallery/website/developer/api-catalogue/nhs-website-content/nhs-attribution.png",
+    "email": "nhswebsite.servicedesk@nhs.net",
+    "@type": "Organization",
+    "name": "NHS website"
+  },
+  "about": {
+    "@type": "WebPage",
+    "name": "Contraception",
+    "alternateName": ""
+  },
+  "description": "Find out about different types of contraception, including where to get them and how well they work at preventing pregnancy",
+  "url": "https://api.service.nhs.uk/nhs-website-content/contraception/",
+  "genre": [
+    "Contraception"
+  ],
+  "keywords": "",
+  "dateModified": "2024-03-18T13:02:42+00:00",
+  "hasPart": [
+    {
+      "@type": "HealthTopicContent",
+      "hasHealthAspect": "http://schema.org/SuitabilityHealthAspect",
+      "url": "https://api.service.nhs.uk/nhs-website-content/contraception/methods-of-contraception/contraceptive-patch/who-can-use-it/#who-its-for",
+      "description": "Talk to a doctor or nurse to find out if the contraceptive patch is suitable for you. The patch may not be recommended if you're breastfeeding.",
+      "hasPart": [
+        {
+          "@type": "WebPageElement",
+          "headline": "",
+          "text": "<p>The contraceptive patch is not suitable for everyone.</p><p>You may not be able to use it if you’re living with obesity, or you’re aged 35 or over and you smoke.</p><p>The patch may not be suitable if you have ever had:</p><ul><li><a href=\"https://www.nhs.uk/conditions/blood-clots/\">blood clots</a>, or a family member had blood clots under the age of 45</li><li>narrowed or blocked arteries, or you’ve had a stroke</li><li>a heart problem, heart disease, or high blood pressure</li><li><a href=\"https://www.nhs.uk/conditions/migraine/\">migraines</a> with warning signs called aura</li><li>breast cancer</li><li>gallbladder or bile duct problems</li><li>liver cancer or severe <a href=\"https://www.nhs.uk/conditions/cirrhosis/\">cirrhosis</a></li><li>complications due to <a href=\"https://www.nhs.uk/conditions/diabetes/\">diabetes</a></li></ul><p>If you have any of these health conditions, talk to a doctor, nurse or pharmacist about whether it’s safe for you to use the patch.</p><h3>Giving birth</h3><p>You can start using the contraceptive patch on day 21 after giving birth, if you're not breastfeeding. You'll need to use condoms for 7 days after starting the patch. Your midwife can discuss this with you.</p><p>Avoid using the contraceptive patch if you’re breastfeeding as it can reduce your milk supply</p><h3>Miscarriage or abortion</h3><p>If you had a miscarriage or abortion before 24 weeks of pregnancy, you can use the patch as soon as you want to. You'll need to start using the patch within 5 days of the end of the pregnancy to be protected against another pregnancy.</p><p>If you do start using the patch after these 5 days, you'll need to use a condom for 7 days after starting the patch. A doctor, nurse or midwife can discuss this with you.</p><p>If you had a miscarriage or abortion after 24 weeks, talk to a doctor, nurse or midwife to see if the contraceptive patch is suitable for you.</p>"
+        }
+      ],
+      "headline": "Can I use the contraceptive patch?"
+    },
+    {
+      "@type": "HealthTopicContent",
+      "hasHealthAspect": "http://schema.org/GettingAccessHealthAspect",
+      "url": "https://api.service.nhs.uk/nhs-website-content/contraception/methods-of-contraception/contraceptive-patch/where-to-get-it/#how-to-get-it",
+      "description": "You can get the contraceptive patch for free on the NHS from sexual health clinics, some GP surgeries and young people's services.",
+      "hasPart": [
+        {
+          "@type": "WebPageElement",
+          "headline": "",
+          "text": "<p>Contraception services are free and confidential on the NHS.</p><p>You can get the contraceptive patch from:</p><ul><li>sexual health clinics, also called family planning or contraception clinics</li><li>some GP surgeries</li><li>some young people’s services (call the national sexual health helpline on 0300 123 7123 for more information)</li></ul>"
+        },
+        {
+          "potentialAction": {
+            "@type": "ViewAction",
+            "target": "https://www.nhs.uk/service-search/other-health-services/contraception-information-and-advice/",
+            "name": "Find contraception information and advice services"
+          }
+        }
+      ],
+      "headline": "Getting the contraceptive patch"
+    },
+    {
+      "@type": "HealthTopicContent",
+      "hasHealthAspect": "http://schema.org/UsageOrScheduleHealthAspect",
+      "url": "https://api.service.nhs.uk/nhs-website-content/contraception/methods-of-contraception/contraceptive-patch/how-to-use-it/#how-its-used-previously-dosage-and-administration",
+      "description": "You wear a contraceptive patch on your skin for 7 days, then replace it with a new one.  After 3 patches you have 7 days without and then start again.",
+      "hasPart": [
+        {
+          "@type": "WebPageElement",
+          "headline": "",
+          "text": "<p>You put the contraceptive patch on an area of clean, dry hairless skin that's unlikely to get rubbed against tight clothing.</p><p>This could be the top of your arm or back, your bottom or your tummy.</p><p>You use 3 patches each month.</p><p>To use contraceptive patches correctly:</p><ul><li>wear the 1st patch for 7 days before taking it off and putting on the 2nd patch</li><li>wear the 2nd patch for 7 days before taking it off and putting on the 3rd patch</li><li>wear the 3rd patch for 7 days before taking it off</li><li>have 7 days with no patch – you may have a bleed during your patch free week</li><li>after 7 days, put on a new patch – this is the 1st patch of your new cycle</li></ul>"
+        }
+      ],
+      "headline": "Putting on the contraceptive patch"
+    },
+    {
+      "@type": "HealthTopicContent",
+      "hasHealthAspect": "http://schema.org/EffectivenessHealthAspect",
+      "url": "https://api.service.nhs.uk/nhs-website-content/contraception/methods-of-contraception/contraceptive-patch/how-to-use-it/#effectiveness",
+      "description": "If used correctly, the contraceptive patch is more than 99% effective at preventing pregnancy.",
+      "hasPart": [
+        {
+          "@type": "WebPageElement",
+          "headline": "",
+          "text": "<p>When used correctly all the time, the contraceptive patch is more than 99% effective.</p><p>If not used correctly, it’s 91% effective and about 9 in 100 women will get pregnant in a year. Incorrect use includes things like forgetting to put a new patch on at the right time.</p>"
+        }
+      ],
+      "headline": "How well the contraceptive patch works"
+    },
+    {
+      "@type": "HealthTopicContent",
+      "hasHealthAspect": "http://schema.org/InteractionsHealthAspect",
+      "url": "https://api.service.nhs.uk/nhs-website-content/contraception/methods-of-contraception/contraceptive-patch/how-to-use-it/#interactions",
+      "description": "Some medicines and herbal remedies can stop the contraceptive patch from working properly. Ask a doctor or pharmacist for advice.",
+      "hasPart": [
+        {
+          "@type": "WebPageElement",
+          "headline": "",
+          "text": "<p>Some medicines and herbal remedies can affect how the contraceptive patch works. The patch may not work properly to stop you getting pregnant.</p><p>You may need to use another type of contraception.</p><p>Ask a doctor or pharmacist for advice before using the contraceptive patch if you take medicine to treat TB (tuberculosis), epilepsy or HIV.</p><p>You should also ask for advice if you take griseofulvin (an antifungal medicine), lamotrigine (a mood stabiliser), bosentan (a high blood pressure medicine) or St John's wort (a herbal remedy).</p>"
+        }
+      ],
+      "headline": "Medicines and herbal remedies that affect the contraceptive patch"
+    },
+    {
+      "@type": "HealthTopicContent",
+      "hasHealthAspect": "http://schema.org/SideEffectsHealthAspect",
+      "url": "https://api.service.nhs.uk/nhs-website-content/contraception/methods-of-contraception/contraceptive-patch/side-effects-and-risks/#side-effects",
+      "description": "Using the contraceptive patch can change your periods and you may get bleeding between periods. This often improves after a few months.",
+      "hasPart": [
+        {
+          "@type": "WebPageElement",
+          "headline": "",
+          "text": "<p>You may have some side effects when you first start using the contraceptive patch.</p><p>Bleeding between periods (breakthrough bleeding) or changes to your periods are common in the first few months.</p><p>Using the contraceptive patch can cause <a href=\"https://www.nhs.uk/conditions/high-blood-pressure-hypertension/\">high blood pressure</a> in a small number of people.</p><p>Some people have headaches, feel sick or dizzy, or have sore breasts. But there is not enough evidence to say whether this is caused by using the patch.</p><p>For some people the patch improves period pain and other symptoms linked to periods, such as headaches.</p><p>There is no evidence that using the patch makes you put on weight or changes your sex drive.</p><p>If you have side effects 3 months after starting the patch and they’re a problem for you, trying another type of contraception may help. Staff at a sexual health clinic or a GP can discuss this with you.</p>"
+        }
+      ],
+      "headline": "Common side effects of the contraceptive patch"
+    },
+    {
+      "@type": "HealthTopicContent",
+      "hasHealthAspect": "http://schema.org/RisksOrComplicationsHealthAspect",
+      "url": "https://api.service.nhs.uk/nhs-website-content/contraception/methods-of-contraception/contraceptive-patch/side-effects-and-risks/#complications",
+      "description": "Using the contraceptive patch is linked with a very small risk of problems like blood clots. A doctor will check your risk before they prescribe it.",
+      "hasPart": [
+        {
+          "@type": "WebPageElement",
+          "headline": "",
+          "text": "<p>There are some risks linked to using the contraceptive patch. But the chance of getting these is small.</p><h3>Blood clots</h3><p>The risk of getting a <a href=\"https://www.nhs.uk/conditions/blood-clots/\">blood clot</a> is very small and affects up to 1 in 1,000 people using combined hormonal contraception like the patch.</p><p>Your doctor will check if you have certain risk factors before prescribing the patch.</p><p>There is a small risk of:</p><ul><li>getting a blood clot in your leg or lung</li><li>a blood clot causing a <a href=\"https://www.nhs.uk/conditions/heart-attack/\">heart attack</a></li><li>a blood clot causing a <a href=\"https://www.nhs.uk/conditions/stroke/\">stroke</a></li></ul><h3>Cancer</h3><p>Using the patch can slightly increase your risk of getting:</p><ul><li><a href=\"https://www.nhs.uk/conditions/breast-cancer/\">breast cancer</a></li><li><a href=\"https://www.nhs.uk/conditions/cervical-cancer/\">cervical cancer</a></li></ul><p>But your risk of breast cancer and cervical cancer goes back to normal 10 years after you stop using the patch.</p><p>Using the patch can also lower your risk of getting:</p><ul><li><a href=\"https://www.nhs.uk/conditions/womb-cancer/\">womb (uterus) cancer</a></li><li><a href=\"https://www.nhs.uk/conditions/ovarian-cancer/\">ovarian cancer</a></li><li><a href=\"https://www.nhs.uk/conditions/bowel-cancer/\">bowel cancer</a></li></ul>"
+        }
+      ],
+      "headline": "Risks of the contraceptive patch"
+    },
+    {
+      "@type": "HealthTopicContent",
+      "hasHealthAspect": "http://schema.org/GettingAccessHealthAspect",
+      "url": "https://api.service.nhs.uk/nhs-website-content/contraception/methods-of-contraception/vaginal-ring/where-to-get-it/#how-to-get-it",
+      "description": "You can get the vaginal ring for free on the NHS from sexual health clinics, some GP surgeries and young people's services.",
+      "hasPart": [
+        {
+          "@type": "WebPageElement",
+          "headline": "",
+          "text": "<p>Contraception services are free and confidential on the NHS.</p><p>You can get the vaginal ring from:</p><ul><li>sexual health clinics, also called family planning or contraception clinics</li><li>some GP surgeries</li><li>some young people’s services (call the national sexual health helpline on 0300 123 7123 for more information)</li></ul>"
+        },
+        {
+          "potentialAction": {
+            "@type": "ViewAction",
+            "target": "https://www.nhs.uk/service-search/other-health-services/contraception-information-and-advice/",
+            "name": "Find contraception information and advice services"
+          }
+        }
+      ],
+      "headline": "Getting the vaginal ring"
+    },
+    {
+      "@type": "HealthTopicContent",
+      "hasHealthAspect": "http://schema.org/SuitabilityHealthAspect",
+      "url": "https://api.service.nhs.uk/nhs-website-content/contraception/methods-of-contraception/vaginal-ring/who-can-use-it/#who-its-for",
+      "description": "A vaginal ring is not suitable for everyone. A doctor or nurse can discuss this with you. A ring may not be recommended if you’re breastfeeding.",
+      "hasPart": [
+        {
+          "@type": "WebPageElement",
+          "headline": "",
+          "text": "<p>The vaginal ring is not suitable for everyone.</p><p>You may not be able to use it if you’re living with obesity, or you’re aged 35 or over and you smoke.</p><p>The ring may not be suitable if you have ever had:</p><ul><li><a href=\"https://www.nhs.uk/conditions/blood-clots/\">blood clots</a>, or a family member has had blood clots under the age of 45</li><li>narrowed or blocked arteries, or you’ve had a stroke</li><li>a heart problem, heart disease, or high blood pressure</li><li><a href=\"https://www.nhs.uk/conditions/migraine/\">migraines</a> with warning signs called aura</li><li>breast cancer</li><li>gallbladder or bile duct problems</li><li>liver cancer or severe <a href=\"https://www.nhs.uk/conditions/cirrhosis/\">cirrhosis</a></li><li><a href=\"https://www.nhs.uk/conditions/diabetes/\">diabetes</a></li></ul><p>If you have any of these health conditions, talk to a doctor, nurse or pharmacist about whether it’s safe for you to use the vaginal ring.</p><h3>Using the vaginal ring after giving birth</h3><p>You can start using the vaginal ring on day 21 after giving birth.</p><p>If you choose to start using the ring after this date, you should use another method of contraception, such as condoms, for 7 days after starting the ring.</p><p>Avoid using the vaginal ring if you’re breastfeeding as it can reduce your milk supply.</p><h3>Using the vaginal ring after a miscarriage or abortion</h3><p>If you had a miscarriage or abortion before 24 weeks of pregnancy, you should be able to start using a vaginal ring as soon as you want to.</p><p>If you had a miscarriage or abortion after 24 weeks you may be advised to wait 21 days before using a ring. A doctor or pharmacist can give you more information.</p>"
+        },
+        {
+          "@type": "WebPageElement",
+          "headline": "Information",
+          "text": "<p>A GP, pharmacist, nurse or midwife can give you more advice about what methods of contraception are suitable for you.</p>"
+        }
+      ],
+      "headline": "Can I use the vaginal ring?"
+    },
+    {
+      "@type": "HealthTopicContent",
+      "hasHealthAspect": "http://schema.org/UsageOrScheduleHealthAspect",
+      "url": "https://api.service.nhs.uk/nhs-website-content/contraception/methods-of-contraception/vaginal-ring/how-to-use-it/#how-its-used-previously-dosage-and-administration",
+      "description": "You put the vaginal ring inside your vagina and leave it there for 21 days. You then take it out and have 7 days with no ring before starting again.",
+      "hasPart": [
+        {
+          "@type": "WebPageElement",
+          "headline": "",
+          "text": "<p>You put the vaginal ring inside your vagina on the first day of your period. The ring is soft and flexible, and it’s similar to inserting a tampon.</p><p>Once the ring is in place, you should not be able to feel it, including during sex.</p><p>You leave the ring in for 21 days before removing it using your finger.</p><p>You then wait 7 days before putting in a new ring. You may have period-like bleeding during this time. This is nothing to worry about.</p><p>When you’ve taken the vaginal ring out, put it in the pouch that comes in the pack and throw it in the bin. Do not flush it down the toilet.</p><p>The packaging that comes with your vaginal ring will have a leaflet with pictures showing how to put the ring in and take it out.</p><p>Follow the instructions carefully to make sure the ring is properly fitted in place.</p>"
+        }
+      ],
+      "headline": "Putting in the vaginal ring"
+    },
+    {
+      "@type": "HealthTopicContent",
+      "hasHealthAspect": "http://schema.org/EffectivenessHealthAspect",
+      "url": "https://api.service.nhs.uk/nhs-website-content/contraception/methods-of-contraception/vaginal-ring/how-to-use-it/#effectiveness",
+      "description": "If used correctly, the vaginal ring is more than 99% effective at preventing pregnancy.",
+      "hasPart": [
+        {
+          "@type": "WebPageElement",
+          "headline": "",
+          "text": "<p>When used correctly all the time, the vaginal ring is more than 99% effective.</p><p>If not used correctly, it’s 91% effective, which means that about 9 in 100 women will get pregnant in a year. This is because things can go wrong, for example you might forget to replace a ring at the right time.</p>"
+        }
+      ],
+      "headline": "How well the vaginal ring works"
+    },
+    {
+      "@type": "HealthTopicContent",
+      "hasHealthAspect": "http://schema.org/InteractionsHealthAspect",
+      "url": "https://api.service.nhs.uk/nhs-website-content/contraception/methods-of-contraception/vaginal-ring/how-to-use-it/#interactions",
+      "description": "Some medicines and herbal remedies can stop the vaginal ring from working properly. Ask a doctor or pharmacist for advice.",
+      "hasPart": [
+        {
+          "@type": "WebPageElement",
+          "headline": "",
+          "text": "<p>Some medicines and herbal remedies can affect how the vaginal ring works. The ring may not work properly to stop you getting pregnant.</p><p>You may need to use another type of contraception.</p><p>Ask a doctor or pharmacist for advice before using the ring if you take medicine to treat TB (tuberculosis), epilepsy or HIV.</p><p>You should also ask for advice if you take griseofulvin (an antifungal medicine), lamotrigine (a mood stabiliser), bosentan (a high blood pressure medicine) or St John's wort (a herbal remedy).</p>"
+        }
+      ],
+      "headline": "Medicines and herbal remedies that affect the vaginal ring"
+    },
+    {
+      "@type": "HealthTopicContent",
+      "hasHealthAspect": "http://schema.org/SideEffectsHealthAspect",
+      "url": "https://api.service.nhs.uk/nhs-website-content/contraception/methods-of-contraception/vaginal-ring/side-effects-and-risks/#side-effects",
+      "description": "Using the vaginal ring can change your periods and some people get bleeding between periods. This often improves after a few months.",
+      "hasPart": [
+        {
+          "@type": "WebPageElement",
+          "headline": "",
+          "text": "<p>You may have some side effects when you first start using the vaginal ring.</p><p>Bleeding between periods (breakthrough bleeding) or changes to your periods are common in the first few months.</p><p>Some people report headaches, feeling sick or having sore breasts. But there is not enough evidence to say whether this is caused by using the ring.</p><p>There is a small chance your blood pressure may go up so you will have regular blood pressure tests while using the ring.</p><p>For some people the ring improves period pain and other symptoms linked to periods, such as headaches.</p><p>There is no evidence that using the ring makes you put on weight or changes your sex drive.</p><p>If you have side effects 3 months after starting the ring and they’re a problem for you, a doctor or nurse at a sexual health clinic or GP surgery can discuss this with you.</p>"
+        }
+      ],
+      "headline": "Common side effects of the vaginal ring"
+    },
+    {
+      "@type": "HealthTopicContent",
+      "hasHealthAspect": "http://schema.org/RisksOrComplicationsHealthAspect",
+      "url": "https://api.service.nhs.uk/nhs-website-content/contraception/methods-of-contraception/vaginal-ring/side-effects-and-risks/#complications",
+      "description": "Using the vaginal ring is linked with a very small risk of problems like blood clots. A doctor will check your risk before they prescribe it.",
+      "hasPart": [
+        {
+          "@type": "WebPageElement",
+          "headline": "",
+          "text": "<p>There are some risks linked to using the vaginal ring. But the chance of getting these is small.</p><h3>Blood clots</h3><p>The risk of getting a <a href=\"https://www.nhs.uk/conditions/blood-clots/\">blood clot</a> is very small and affects up to 1 in 1,000 people using combined hormonal contraception like the vaginal ring.</p><p>Your doctor will check if you have certain risk factors before prescribing the ring.</p><p>There is a small risk of:</p><ul><li>getting a blood clot in your leg or lung</li><li>a blood clot causing a <a href=\"https://www.nhs.uk/conditions/heart-attack/\">heart attack</a></li><li>a blood clot causing a <a href=\"https://www.nhs.uk/conditions/stroke/\">stroke</a></li></ul><h3>Cancer</h3><p>Using the vaginal ring can slightly increase your risk of getting:</p><ul><li><a href=\"https://www.nhs.uk/conditions/breast-cancer/\">breast cancer</a></li><li><a href=\"https://www.nhs.uk/conditions/cervical-cancer/\">cervical cancer</a></li></ul><p>But your risk of getting breast cancer and cervical cancer goes back to normal 10 years after you stop using the ring.</p><p>Using the vaginal ring can also lower your risk of getting:</p><ul><li><a href=\"https://www.nhs.uk/conditions/womb-cancer/\">womb (uterus) cancer</a></li><li><a href=\"https://www.nhs.uk/conditions/ovarian-cancer/\">ovarian cancer</a></li><li><a href=\"https://www.nhs.uk/conditions/bowel-cancer/\">bowel cancer</a></li></ul>"
+        }
+      ],
+      "headline": "Risks of the vaginal ring"
+    },
+    {
+      "@type": "HealthTopicContent",
+      "hasHealthAspect": "http://schema.org/SuitabilityHealthAspect",
+      "url": "https://api.service.nhs.uk/nhs-website-content/contraception/methods-of-contraception/contraceptive-diaphragm-or-cap/who-can-use-it/#who-its-for",
+      "description": "Diaphragms or caps are not suitable for everyone. To find out whether they are right for you, talk to a GP, nurse or pharmacist.",
+      "hasPart": [
+        {
+          "@type": "WebPageElement",
+          "headline": "",
+          "text": "<p>Diaphragms and caps are not suitable for everyone.</p><p>The diaphragm or cap may not be suitable for you if:</p><ul><li>you have a latex <a href=\"https://www.nhs.uk/conditions/allergies/\">allergy</a></li><li>you often have <a href=\"https://www.nhs.uk/conditions/urinary-tract-infections-utis/\">urinary tract infections</a> (UTIs)</li><li>you have ever had <a href=\"https://www.nhs.uk/conditions/toxic-shock-syndrome/\">toxic shock syndrome</a></li><li>you or your sexual partner has a sexually transmitted infection (STI) such as chlamydia – you should wait until the infection clears before having sex</li><li>you have a higher risk of getting HIV, for example your partner has HIV, you have sex with multiple people or share needles</li></ul><p>The cap may be less effective if you've given birth.</p><p>If any of these apply to you, talk to a doctor or nurse about whether it’s safe for you to use a diaphragm or cap.</p>"
+        }
+      ],
+      "headline": "Can I use a diaphragm or cap?"
+    },
+    {
+      "@type": "HealthTopicContent",
+      "hasHealthAspect": "http://schema.org/UsageOrScheduleHealthAspect",
+      "url": "https://api.service.nhs.uk/nhs-website-content/contraception/methods-of-contraception/contraceptive-diaphragm-or-cap/how-to-use-it/#how-its-used-previously-dosage-and-administration",
+      "description": "You put a contraceptive diaphragm or cap in the vagina before sex and leave it in for 6 hours after sex.",
+      "hasPart": [
+        {
+          "@type": "WebPageElement",
+          "headline": "",
+          "text": "<p>Diaphragms and caps come in different sizes. Caps are smaller than diaphragms.</p><p>A doctor or nurse will check the size you need by feeling inside your vagina. You can have a friend, family member or other member of staff in the room with you if you want.</p><p>The doctor or nurse will show you how to use the diaphragm or cap, and make an appointment for you to go back in a few weeks to check you're using it correctly.</p>"
+        }
+      ],
+      "headline": "Getting a diaphragm or cap fitted"
+    },
+    {
+      "@type": "HealthTopicContent",
+      "hasHealthAspect": "http://schema.org/EffectivenessHealthAspect",
+      "url": "https://api.service.nhs.uk/nhs-website-content/contraception/methods-of-contraception/contraceptive-diaphragm-or-cap/how-to-use-it/#effectiveness",
+      "description": "If correctly used diaphragms and caps are estimated to be between 92 and 96% effective. If not used correctly they are less effective.",
+      "hasPart": [
+        {
+          "@type": "WebPageElement",
+          "headline": "",
+          "text": "<p>If used correctly diaphragms and caps are estimated to be between 92 and 96% effective. If not used correctly (for example, forgetting to add spermicide) they are less effective.</p>"
+        },
+        {
+          "@type": "WebPageElement",
+          "headline": "Important",
+          "text": "<p>If you notice a hole in your diaphragm or cap after sex, there may be a chance you could get pregnant. You may need <a href=\"https://www.nhs.uk/contraception/emergency-contraception/\">emergency contraception.</a></p><p>Speak to a pharmacist, sexual health clinic, GP or call 111 for advice.</p>"
+        }
+      ],
+      "headline": "How well diaphragms and caps work"
+    },
+    {
+      "@type": "HealthTopicContent",
+      "hasHealthAspect": "http://schema.org/GettingAccessHealthAspect",
+      "url": "https://api.service.nhs.uk/nhs-website-content/contraception/methods-of-contraception/contraceptive-diaphragm-or-cap/where-to-get-it/#how-to-get-it",
+      "description": "You can get diaphragms or caps free on the NHS from sexual health clinics, some GP surgeries and young people's services.",
+      "hasPart": [
+        {
+          "@type": "WebPageElement",
+          "headline": "",
+          "text": "<p>Contraception services are free and confidential on the NHS.</p><p>You can get diaphragms or caps along with a supply of spermicide from:</p><ul><li>sexual health clinics, also called family planning or contraception clinics</li><li>some GP surgeries</li><li>some young people's services (call the national sexual health helpline on 0300 123 7123 for more information)</li></ul>"
+        },
+        {
+          "potentialAction": {
+            "@type": "ViewAction",
+            "target": "https://www.nhs.uk/service-search/other-health-services/contraception-information-and-advice/",
+            "name": "Find contraception information and advice services"
+          }
+        }
+      ],
+      "headline": "Getting diaphragms or caps"
+    },
+    {
+      "@type": "HealthTopicContent",
+      "hasHealthAspect": "http://schema.org/SideEffectsHealthAspect",
+      "url": "https://api.service.nhs.uk/nhs-website-content/contraception/methods-of-contraception/contraceptive-diaphragm-or-cap/side-effects-and-risks/#side-effects",
+      "description": "Diaphragms and caps are very safe. Side effects can include urinary tract infections or latex allergy. A rare complication is toxic shock syndrome.",
+      "hasPart": [
+        {
+          "@type": "WebPageElement",
+          "headline": "",
+          "text": "<p>Diaphragms and caps are very safe and serious side effects are rare.</p><p>Side effects include:</p><ul><li><a href=\"https://www.nhs.uk/conditions/urinary-tract-infections-utis/\">urinary tract infections</a> (UTIs)</li><li><a href=\"https://www.nhs.uk/conditions/toxic-shock-syndrome/\">toxic shock syndrome</a> (this is very rare)</li><li>skin irritation to you or your sexual partner caused by latex or spermicide</li></ul><p>If a diaphragm or cap is causing pain or irritation, contact a sexual health clinic or GP for advice.</p><p>If you are unable to speak to a GP or sexual health clinic, then call 111 or visit <a href=\"https://111.nhs.uk/\">111 online</a> for advice.</p>"
+        }
+      ],
+      "headline": "Side effects"
+    },
+    {
+      "@type": "HealthTopicContent",
+      "hasHealthAspect": "http://schema.org/SuitabilityHealthAspect",
+      "url": "https://api.service.nhs.uk/nhs-website-content/contraception/methods-of-contraception/condoms/#who-its-for",
+      "description": "Most people can use condoms. Do not use latex condoms if you have a latex allergy or are using certain antifungal medicines.",
+      "hasPart": [
+        {
+          "@type": "WebPageElement",
+          "headline": "",
+          "text": "<p>Most people can use condoms.</p><p>Some condoms are made from latex, others are latex free. It will say on the packet what the condom is made of.</p><p>Do not use latex condoms if:</p><ul><li>you have a latex allergy</li><li>you’re using antifungal medicine on or around your anus, vulva and vagina, or penis and testicles</li></ul>"
+        }
+      ],
+      "headline": "Who can use condoms"
+    },
+    {
+      "@type": "HealthTopicContent",
+      "hasHealthAspect": "http://schema.org/UsageOrScheduleHealthAspect",
+      "url": "https://api.service.nhs.uk/nhs-website-content/contraception/methods-of-contraception/condoms/#how-its-used-previously-dosage-and-administration",
+      "description": "Use a new condom every time you have sex. Condoms can be used for vaginal, anal and oral sex, and when using sex toys. Always follow the instructions.",
+      "hasPart": [
+        {
+          "@type": "WebPageElement",
+          "headline": "",
+          "text": "<p>Condoms can be used for:</p><ul><li>vaginal sex</li><li>anal sex</li><li>oral sex</li></ul><p>Some people also put condoms on sex toys.</p>"
+        },
+        {
+          "@type": "WebPageElement",
+          "headline": "Do",
+          "text": "<ul><li><p>use a new condom every time you have sex</p></li><li><p>follow the instructions on the condom packet to put it on correctly</p></li><li><p>check the use by date has not expired – an expired condom may not be effective</p></li><li><p>check the packet for a European CE mark or UKCA mark – this means it’s been tested to high safety standards</p></li></ul>"
+        },
+        {
+          "@type": "WebPageElement",
+          "headline": "Don't",
+          "text": "<ul><li><p>do not use more than one condom – this can make one or both condoms split</p></li><li><p>do not use oil-based lubricant with latex condoms – use water-based or silicone-based lubricant instead</p></li></ul>"
+        },
+        {
+          "@type": "WebPageElement",
+          "headline": "How to use a condom",
+          "text": "<p>Put the condom on before you start having sex (before the penis touches the vagina or anus).</p><ol><li>Make sure the penis is fully erect.</li><li>Open the packet carefully so you do not damage the condom. Do not use your teeth as this could rip the condom.</li><li>Hold the tip of the condom to squeeze out any air.</li><li>Roll the condom all the way down to the base of the penis. If the condom does not roll down, you may have put it on the wrong way round. Throw it away and use a new condom.</li><li>Keep the condom on until you finish having sex. When you've finished, grip the base of the condom as you pull out to stop it coming off the penis.</li><li>Always put used condoms in the bin, not in the toilet.</li></ol>"
+        },
+        {
+          "@type": "WebPageElement",
+          "headline": "Information",
+          "text": "<p><a href=\"https://youtu.be/vww9rk1USss/\">Watch a video about how to put on a condom on the NHS YouTube channel</a>.</p>"
+        }
+      ],
+      "headline": "Using a condom"
+    },
+    {
+      "@type": "HealthTopicContent",
+      "hasHealthAspect": "http://schema.org/MedicalHelpUrgentHealthAspect",
+      "url": "https://api.service.nhs.uk/nhs-website-content/contraception/methods-of-contraception/condoms/#urgent-medical-help",
+      "description": "",
+      "hasPart": [
+        {
+          "@type": "WebPageElement",
+          "identifier": "urgent",
+          "headline": "Get urgent help from a pharmacist, sexual health clinic, 111 or a GP if:",
+          "text": "<ul>\n<li>\n  a condom splits or comes off during sex\n </li>\n</ul>\n<p>\n You may need\n <a href=\"https://www.nhs.uk/contraception/emergency-contraception/\">\n  emergency contraception\n </a>\n or an STI test.\n</p>\n<p>\n You can call 111 or\n <a href=\"https://111.nhs.uk/\">\n  get help from 111 online\n </a>\n .\n</p>\n"
+        }
+      ],
+      "headline": ""
+    },
+    {
+      "@type": "HealthTopicContent",
+      "hasHealthAspect": "http://schema.org/EffectivenessHealthAspect",
+      "url": "https://api.service.nhs.uk/nhs-website-content/contraception/methods-of-contraception/condoms/#effectiveness",
+      "description": "If used correctly every time you have sex, condoms are up to 98% effective at preventing pregnancy. If not used correctly, they are less effective.",
+      "hasPart": [
+        {
+          "@type": "WebPageElement",
+          "headline": "How well condoms work at preventing pregnancy",
+          "text": "<p>Condoms are up to 98% effective at preventing pregnancy if you use them correctly every time you have sex.</p><p>If not used correctly they’re 82% effective, which means around 1 in 5 women who use condoms for a year will get pregnant.</p><p>Incorrect use includes:</p><ul><li>putting a condom on after the penis has touched the vagina</li><li>a condom splitting or coming off during sex</li></ul><h3>How well condoms work to prevent sexually transmitted infections (STIs)</h3><p>Using a condom every time you have sex is the best way to protect you and your partner from HIV and other STIs.</p>"
+        }
+      ],
+      "headline": "How well condoms work"
+    },
+    {
+      "@type": "HealthTopicContent",
+      "hasHealthAspect": "http://schema.org/GettingAccessHealthAspect",
+      "url": "https://api.service.nhs.uk/nhs-website-content/contraception/methods-of-contraception/condoms/#how-to-get-it",
+      "description": "You can get condoms free at sexual health clinics, some GP surgeries and young people’s services. You can buy them in pharmacies, shops and online.",
+      "hasPart": [
+        {
+          "@type": "WebPageElement",
+          "headline": "",
+          "text": "<p>Contraception services are free and confidential on the NHS.</p><p>You can get condoms for free from:</p><ul><li>sexual health clinics, also called family planning or contraception clinics</li><li>some GP surgeries and pharmacies</li><li>some young people's services (call the national sexual health helpline on 0300 123 7123 for more information)</li></ul><p>You can also buy condoms from pharmacies and supermarkets or online.</p>"
+        },
+        {
+          "potentialAction": {
+            "@type": "ViewAction",
+            "target": "https://www.nhs.uk/service-search/other-health-services/contraception-information-and-advice",
+            "name": "Find contraception information and advice services"
+          }
+        }
+      ],
+      "headline": "Where to get condoms"
+    },
+    {
+      "@type": "HealthTopicContent",
+      "hasHealthAspect": "http://schema.org/OverviewHealthAspect",
+      "description": "Condoms can help prevent pregnancy and the spread of sexually transmitted infections (STIs). Condoms go on the penis before vaginal, anal or oral sex.",
+      "hasPart": [
+        {
+          "text": "<p>Use a new condom every time you have sex. Condoms can be used for vaginal, anal and oral sex, and when using sex toys. Always follow the instructions.</p> ",
+          "@type": "WebPageElement"
+        },
+        {
+          "text": "<p>If used correctly every time you have sex, condoms are up to 98% effective at preventing pregnancy. If not used correctly, they are less effective.</p> ",
+          "@type": "WebPageElement"
+        },
+        {
+          "text": "<p>You can get condoms free at sexual health clinics, some GP surgeries and young people’s services. You can buy them in pharmacies, shops and online.</p> ",
+          "@type": "WebPageElement"
+        }
+      ],
+      "headline": "",
+      "url": "https://api.service.nhs.uk/nhs-website-content/contraception/methods-of-contraception/condoms/#overview"
+    },
+    {
+      "@type": "HealthTopicContent",
+      "hasHealthAspect": "http://schema.org/GettingAccessHealthAspect",
+      "url": "https://api.service.nhs.uk/nhs-website-content/contraception/methods-of-contraception/vasectomy-male-sterilisation/how-to-get-a-vasectomy/#how-to-get-it",
+      "description": "Talk to a GP if you're considering having a vasectomy.",
+      "hasPart": [
+        {
+          "@type": "WebPageElement",
+          "headline": "",
+          "text": "<p>Make an appointment at your GP surgery or a sexual health clinic if you're thinking about having a vasectomy.</p><p>A nurse or doctor can explain what's involved, the possible risks and answer any questions to help you decide whether you want to have a vasectomy.</p><p>You may also want to discuss it with your partner, if you have one.</p><p>If you decide to have a vasectomy, you'll be referred to a hospital or clinic to have it done. There's likely to be a waiting list.</p><p>You can choose to pay for a vasectomy privately if you wish.</p><p>A few weeks before the vasectomy, you may have an appointment to check your health and discuss the procedure. This may be on the phone or in person.</p>"
+        },
+        {
+          "potentialAction": {
+            "@type": "ViewAction",
+            "target": "https://www.nhs.uk/service-search/other-health-services/contraception-information-and-advice/",
+            "name": "Find contraception information and advice services"
+          }
+        }
+      ],
+      "headline": "Getting a vasectomy"
+    },
+    {
+      "@type": "HealthTopicContent",
+      "hasHealthAspect": "http://schema.org/SuitabilityHealthAspect",
+      "url": "https://api.service.nhs.uk/nhs-website-content/contraception/methods-of-contraception/vasectomy-male-sterilisation/how-to-get-a-vasectomy/#who-its-for",
+      "description": "A vasectomy may be suitable if you already have children and do not want any more, or you do not want to have children.",
+      "hasPart": [
+        {
+          "@type": "WebPageElement",
+          "headline": "",
+          "text": "<p>A vasectomy is a permanent type of contraception.</p><p>It may be suitable if:</p><ul><li>you already have children and do not want any more</li><li>you do not want to have children</li></ul>"
+        }
+      ],
+      "headline": "Who can have a vasectomy"
+    },
+    {
+      "@type": "HealthTopicContent",
+      "hasHealthAspect": "http://schema.org/EffectivenessHealthAspect",
+      "url": "https://api.service.nhs.uk/nhs-website-content/contraception/methods-of-contraception/vasectomy-male-sterilisation/how-to-get-a-vasectomy/#effectiveness",
+      "description": "A vasectomy is very effective method of contraception. It is very unlikely  you will be able to have children after having a vasectomy.",
+      "hasPart": [
+        {
+          "@type": "WebPageElement",
+          "headline": "",
+          "text": "<p>A vasectomy is a very effective method of contraception, with a success rate of over 99%.</p>"
+        }
+      ],
+      "headline": "How well a vasectomy works"
+    },
+    {
+      "@type": "HealthTopicContent",
+      "hasHealthAspect": "http://schema.org/PreparationHealthAspect",
+      "url": "https://api.service.nhs.uk/nhs-website-content/contraception/methods-of-contraception/vasectomy-male-sterilisation/preparation/#preparation",
+      "description": "You may be asked to shave your testicles and have a bath or shower before having a vasectomy.",
+      "hasPart": [
+        {
+          "@type": "WebPageElement",
+          "headline": "",
+          "text": "<p>Before your surgery, you’ll receive information explaining how to prepare for your vasectomy. You may be asked to:</p><ul><li>shave your testicles a few days before the procedure – the information will tell you how to do this at home safely</li><li>have a shower or bath on the morning of your vasectomy – this helps reduce the risk of infection</li><li>wear or bring tight-fitting underwear on the day of the surgery</li></ul><p>You’re likely to have some pain after the procedure. Make sure you have painkillers at home for the pain. If you're concerned about pain, speak to the nurse or doctor. They may be able to offer you extra pain relief.</p><p><a href=\"https://www.nhs.uk/medicines/ibuprofen-for-adults/\">Ibuprofen</a> is usually recommended, but you can use <a href=\"https://www.nhs.uk/medicines/paracetamol-for-adults/\">paracetamol</a> if you cannot take ibuprofen.</p>"
+        }
+      ],
+      "headline": "How to prepare for a vasectomy"
+    },
+    {
+      "@type": "HealthTopicContent",
+      "hasHealthAspect": "http://schema.org/WhatHappensHealthAspect",
+      "url": "https://api.service.nhs.uk/nhs-website-content/contraception/methods-of-contraception/vasectomy-male-sterilisation/what-happens/#what-happens",
+      "description": "During a vasectomy your scrotum is numbed and the tubes carrying semen are blocked, sealed or cut.",
+      "hasPart": [
+        {
+          "@type": "WebPageElement",
+          "headline": "",
+          "text": "<p>Vasectomy is done at a GP surgery, sexual health clinic or hospital.</p><p>A vasectomy usually takes around 15 to 20 minutes.</p><p>The doctor will: :</p><ul><li>use a local anaesthetic to numb your scrotum (the skin around your testicles)</li><li>make a small cut in your scrotum</li><li>seal, block or cut the tubes that carry sperm (sperm ducts)</li><li>close the cut, usually with dissolvable stitches</li></ul>"
+        }
+      ],
+      "headline": "On the day of your vasectomy"
+    },
+    {
+      "@type": "HealthTopicContent",
+      "hasHealthAspect": "http://schema.org/PrognosisHealthAspect",
+      "url": "https://api.service.nhs.uk/nhs-website-content/contraception/methods-of-contraception/vasectomy-male-sterilisation/recovery/#recovery",
+      "description": "It’s common to have testicular pain and swelling for a week after a vasectomy. Taking painkiller should help.",
+      "hasPart": [
+        {
+          "@type": "WebPageElement",
+          "headline": "",
+          "text": "<p>It is common to have testicle pain and swelling for around a week after a vasectomy. Taking a painkiller such as ibuprofen or paracetamol should help.</p><p>At first, getting an erection may feel painful and there may be some blood in your semen. These symptoms should quickly pass.</p><p>There is no evidence that having a vasectomy affects long-term sexual performance or enjoyment.</p><p>You should be able to return to work within 24 hours.</p>"
+        },
+        {
+          "@type": "WebPageElement",
+          "headline": "Do",
+          "text": "<ul><li><p>wear tight-fitting underwear for about a week to support and protect your testicles</p></li><li><p>avoid sport or lifting anything heavy for as long as the doctor or nurse advises – this is usually 1 to 2 weeks</p></li><li><p>use another method of contraception until a doctor confirms that the vasectomy has been successful – this usually takes around 12 weeks</p></li></ul>"
+        },
+        {
+          "@type": "WebPageElement",
+          "headline": "Don't",
+          "text": "<ul><li><p>do not take part in sexual activity, including masturbation, for at least 2 to 7 days after having a vasectomy</p></li><li><p>do not drive until you can safely do an emergency stop – check with your insurance company</p></li></ul>"
+        }
+      ],
+      "headline": "Recovering from a vasectomy"
+    },
+    {
+      "@type": "HealthTopicContent",
+      "hasHealthAspect": "http://schema.org/RisksOrComplicationsHealthAspect",
+      "url": "https://api.service.nhs.uk/nhs-website-content/contraception/methods-of-contraception/vasectomy-male-sterilisation/complications/#complications",
+      "description": "Side effects of a vasectomy include infection, and long-term testicular pain",
+      "hasPart": [
+        {
+          "@type": "WebPageElement",
+          "headline": "",
+          "text": "<p>A vasectomy is usually a very safe type of surgery and serious side effects are rare.</p><p>Side effects include:</p><ul><li>mild bruising and swelling of the testicles</li><li>a small yellow lump (or lumps) on the scrotum – these lumps are made up of sperm (sperm granuloma) and are usually harmless</li><li>infection</li></ul><p>Bruising and swelling of the testicles should go away as your scrotum recovers from surgery.</p><p>Sperm granulomas should also go away by themselves. Anti-inflammatory types of painkillers, such as ibuprofen, can help with pain caused by a granuloma.</p><p>An infection will need treating with antibiotics.</p>"
+        }
+      ],
+      "headline": "Side effects of a vasectomy"
+    },
+    {
+      "@type": "HealthTopicContent",
+      "hasHealthAspect": "http://schema.org/MedicalHelpUrgentHealthAspect",
+      "url": "https://api.service.nhs.uk/nhs-website-content/contraception/methods-of-contraception/vasectomy-male-sterilisation/complications/#urgent-medical-help",
+      "description": "",
+      "hasPart": [
+        {
+          "@type": "WebPageElement",
+          "identifier": "urgent",
+          "headline": "Ask for an urgent GP appointment or get help from NHS 111 if:",
+          "text": "<p>\n After your vasectomy :\n</p>\n<ul>\n<li>\n  the pain and swelling in your scrotum and testicles suddenly gets worse or shows no sign of getting better after a few days\n </li>\n<li>\n  you have a high temperature\n </li>\n<li>\n  you notice blood, pus or liquid leaking from the wound\n </li>\n<li>\n  a lump develops inside your scrotum (the skin around your testicles) and it keeps getting bigger\n </li>\n</ul>\n<p>\n You can call 111 or\n <a href=\"https://111.nhs.uk/triage/check-your-symptoms\">\n  get help from 111 online\n </a>\n .\n</p>\n"
+        }
+      ],
+      "headline": ""
+    },
+    {
+      "@type": "HealthTopicContent",
+      "hasHealthAspect": "http://schema.org/SuitabilityHealthAspect",
+      "url": "https://api.service.nhs.uk/nhs-website-content/contraception/methods-of-contraception/internal-condoms/#who-its-for",
+      "description": "Most people can use internal condoms. They’re usually suitable for people with a latex allergy, but always read the packet.",
+      "hasPart": [
+        {
+          "@type": "WebPageElement",
+          "headline": "",
+          "text": "<p>Most people can use internal condoms.</p><p>Almost all internal condoms are made of thin, soft plastic or synthetic rubber.</p><p>Some internal condoms are made of latex. It will say on the packet what the condom is made of.</p><p>Do not use latex condoms if:</p><ul><li>you have a latex allergy</li><li>you're using antifungal medicine on or around your anus, vulva and vagina, or penis and testicles</li></ul>"
+        }
+      ],
+      "headline": "Who can use internal condoms"
+    },
+    {
+      "@type": "HealthTopicContent",
+      "hasHealthAspect": "http://schema.org/UsageOrScheduleHealthAspect",
+      "url": "https://api.service.nhs.uk/nhs-website-content/contraception/methods-of-contraception/internal-condoms/#how-its-used-previously-dosage-and-administration",
+      "description": "You put internal condoms into the vagina or anus before sex.",
+      "hasPart": [
+        {
+          "@type": "WebPageElement",
+          "headline": "Do",
+          "text": "<ul><li><p>use a new internal condom every time you have sex</p></li><li><p>follow the instructions on the condom packet</p></li><li><p>check the use by date has not expired – an expired condom may not be effective</p></li><li><p>check the packet for a European CE mark or UKCA mark – this means it’s been tested to high safety standards</p></li></ul>"
+        },
+        {
+          "@type": "WebPageElement",
+          "headline": "Don't",
+          "text": "<ul><li><p>do not use more than one internal condom, or an internal condom with an external (male) condom – this can make one or both condoms split</p></li><li><p>do not use oil-based lubricant with internal condoms made of latex – use water-based or silicone-based lubricant instead</p></li></ul>"
+        },
+        {
+          "@type": "WebPageElement",
+          "headline": "How to use an internal condom",
+          "text": "<p>You can insert an internal condom up to 8 hours before sex.</p><ol><li>Open the packet carefully so you do not damage the condom. Do not use your teeth.</li><li>Hold the inner ring and insert the condom into the vagina.</li><li>Put a finger into the condom and push it as far into the vagina as you can.</li><li>Make sure the outer ring stays outside the vagina.</li><li>During sex, make sure the penis goes inside the condom.</li><li>After sex, twist the outer ring a few times to prevent semen leaking out when you remove the condom.</li><li>Always put used internal condoms in the bin, not the toilet.</li></ol>"
+        },
+        {
+          "@type": "WebPageElement",
+          "headline": "Information",
+          "text": "<p>If you choose to use an internal condom for anal sex, you can insert it into the anus using your finger, or by putting it on the penis or a sex toy like an external (male) condom.</p><p>Always use lubricant on the outside and inside of the condom.</p>"
+        }
+      ],
+      "headline": "Using an internal condom"
+    },
+    {
+      "@type": "HealthTopicContent",
+      "hasHealthAspect": "http://schema.org/MedicalHelpUrgentHealthAspect",
+      "url": "https://api.service.nhs.uk/nhs-website-content/contraception/methods-of-contraception/internal-condoms/#urgent-medical-help",
+      "description": "",
+      "hasPart": [
+        {
+          "@type": "WebPageElement",
+          "identifier": "urgent",
+          "headline": "Get urgent help from a pharmacist, sexual health clinic, 111 or a GP if:",
+          "text": "<ul>\n<li>\n  an internal condom splits, moves out of place, or leaks during sex\n </li>\n</ul>\n<p>\n You may need\n <a href=\"https://www.nhs.uk/contraception/emergency-contraception/\">\n  emergency contraception\n </a>\n or an STI test.\n</p>\n<p>\n You can call 111 or\n <a href=\"https://111.nhs.uk/\">\n  get help from 111 online\n </a>\n .\n</p>\n"
+        }
+      ],
+      "headline": ""
+    },
+    {
+      "@type": "HealthTopicContent",
+      "hasHealthAspect": "http://schema.org/EffectivenessHealthAspect",
+      "url": "https://api.service.nhs.uk/nhs-website-content/contraception/methods-of-contraception/internal-condoms/#effectiveness",
+      "description": "If used correctly every time you have sex, internal condoms are 95% effective at preventing pregnancy. They are less effective if not used correctly.",
+      "hasPart": [
+        {
+          "@type": "WebPageElement",
+          "headline": "How well internal condoms work at preventing pregnancy",
+          "text": "<p>Internal condoms are up to 95% effective at preventing pregnancy if you use them correctly every time you have sex.</p><p>If not used correctly they’re 79% effective, which means around 1 in 5 women who use internal condoms for a year will get pregnant.</p><p>Incorrect use includes:</p><ul><li>inserting an internal condom after the penis has touched the vagina</li><li>an internal condom splitting or moving out of place during sex</li><li>the penis entering the vagina outside the internal condom</li></ul><h3>How well internal condoms work at preventing sexually transmitted infections</h3><p>When used correctly for vaginal sex, internal condoms help protect against <a href=\"https://www.nhs.uk/conditions/sexually-transmitted-infections-stis/\">sexually transmitted infections (STIs)</a>.</p><p>When used correctly for anal sex, internal condoms may help protect against STIs, but there’s not enough evidence to say how much protection they offer.</p>"
+        }
+      ],
+      "headline": "How well internal condoms work"
+    },
+    {
+      "@type": "HealthTopicContent",
+      "hasHealthAspect": "http://schema.org/GettingAccessHealthAspect",
+      "url": "https://api.service.nhs.uk/nhs-website-content/contraception/methods-of-contraception/internal-condoms/#how-to-get-it",
+      "description": "You can get internal condoms for free at sexual health clinics and other NHS services. You can also buy them in pharmacies, shops and online.",
+      "hasPart": [
+        {
+          "@type": "WebPageElement",
+          "headline": "",
+          "text": "<p>Contraception services are free and confidential on the NHS.</p><p>You can get internal condoms for free from:</p><ul><li>some sexual health clinics, also called family planning or contraception clinics</li><li>some GP surgeries and pharmacies</li><li>some young people's services (call the national sexual health helpline on 0300 123 7123 for more information)</li></ul><p>You can also buy internal condoms online or from pharmacies and supermarkets.</p>"
+        },
+        {
+          "potentialAction": {
+            "@type": "ViewAction",
+            "target": "https://www.nhs.uk/service-search/other-health-services/contraception-information-and-advice",
+            "name": "Find contraception information and advice services"
+          }
+        }
+      ],
+      "headline": "Where to get internal condoms"
+    },
+    {
+      "@type": "HealthTopicContent",
+      "hasHealthAspect": "http://schema.org/OverviewHealthAspect",
+      "description": "Internal condoms can help prevent pregnancy and sexually transmitted infections (STIs). They go inside the vagina or anus before sex.",
+      "hasPart": [
+        {
+          "text": "<p>Most people can use internal condoms. They’re usually suitable for people with a latex allergy, but always read the packet.</p> ",
+          "@type": "WebPageElement"
+        },
+        {
+          "text": "<p>If used correctly every time you have sex, internal condoms are 95% effective at preventing pregnancy. They are less effective if not used correctly.</p> ",
+          "@type": "WebPageElement"
+        },
+        {
+          "text": "<p>You can get internal condoms for free at sexual health clinics and other NHS services. You can also buy them in pharmacies, shops and online.</p> ",
+          "@type": "WebPageElement"
+        }
+      ],
+      "headline": "",
+      "url": "https://api.service.nhs.uk/nhs-website-content/contraception/methods-of-contraception/internal-condoms/#overview"
+    },
+    {
+      "@type": "HealthTopicContent",
+      "hasHealthAspect": "http://schema.org/EffectivenessHealthAspect",
+      "url": "https://api.service.nhs.uk/nhs-website-content/contraception/methods-of-contraception/natural-family-planning/#effectiveness",
+      "description": "Natural family planning is between 91% and 99% effective if used correctly all the time. It’s less effective if you do not follow the instructions.",
+      "hasPart": [
+        {
+          "@type": "WebPageElement",
+          "headline": "Effectiveness of fertility awareness method",
+          "text": "<p>When used correctly all the time, fertility awareness methods are between 91% and 99% effective at preventing pregnancy.</p><p>If you do not follow the instructions exactly, it is only 76% effective. This means 24 in 100 women will get pregnant when tracking their fertility for a year.</p><h3><b>Effectiveness of lactational amenorrhea method</b></h3><p>If you are breastfeeding and follow lactational amenorrhea method correctly all the time, it is more than 99% effective at preventing pregnancy.</p><p>If you do not follow the instructions exactly, it’s 98% effective and 2 in 100 women will get pregnant again within 6 months of giving birth.</p>"
+        }
+      ],
+      "headline": "How well natural family planning works"
+    },
+    {
+      "@type": "HealthTopicContent",
+      "hasHealthAspect": "http://schema.org/GettingAccessHealthAspect",
+      "url": "https://api.service.nhs.uk/nhs-website-content/contraception/methods-of-contraception/natural-family-planning/#how-to-get-it",
+      "description": "You need to learn about natural family planning from an expert such as a midwife, or a fertility awareness practitioner.",
+      "hasPart": [
+        {
+          "@type": "WebPageElement",
+          "headline": "",
+          "text": "<p>You need an expert such as a fertility awareness practitioner or a midwife to teach you about natural family planning.</p><p>You can find out about natural family planning from:</p><ul><li>sexual health clinics, also called family planning or contraception clinics</li><li>some GP surgeries</li><li>some young people's services (call the national sexual health helpline on 0300 123 7123 for more information)</li></ul><p><a href=\"https://www.fertilityuk.org/find-a-clinic/\">You can find a fertility awareness practitioner on the Fertility UK website</a>.</p><p>If you’re pregnant, you can talk to your midwife about breastfeeding and the lactational amenorrhoea method.</p>"
+        },
+        {
+          "potentialAction": {
+            "@type": "ViewAction",
+            "target": "https://www.nhs.uk/service-search/other-health-services/contraception-information-and-advice/",
+            "name": "Find contraception information and advice services"
+          }
+        }
+      ],
+      "headline": "How to find out about natural family planning"
+    },
+    {
+      "@type": "HealthTopicContent",
+      "hasHealthAspect": "http://schema.org/UsageOrScheduleHealthAspect",
+      "url": "https://api.service.nhs.uk/nhs-website-content/contraception/methods-of-contraception/natural-family-planning/#how-its-used-previously-dosage-and-administration",
+      "description": "Natural family planning involves avoiding sex or using condoms when you’re fertile, or breastfeeding your baby for 6 months to delay ovulation.",
+      "hasPart": [
+        {
+          "@type": "WebPageElement",
+          "headline": "",
+          "text": "<p>There are different instructions for:</p><ul><li>tracking your menstrual cycle to know when you're fertile (fertility awareness method)</li><li>breastfeeding a newborn baby to delay ovulation (lactational amenorrhoea method)</li></ul><p>A healthcare professional specially trained in fertility awareness can teach you what you need to do every day for natural family planning to work.</p><p>Ask a midwife, or ask at a GP surgery or sexual health clinic to see if there’s someone available who can support you.</p><h3>Using the fertility awareness method</h3><p>With the fertility awareness method, you record the following every day:</p><ul><li>your body temperature</li><li>details of your vaginal discharge</li><li>your menstrual cycle</li></ul><p>By tracking these you can see the days when you’re most likely to get pregnant (most fertile) each month. On fertile days, use a condom or avoid having sex.</p><p>It can take 2 to 3 menstrual cycles to understand how to do this properly. Use additional contraception during this time, or do not have sex.</p><p>There are apps and fertility monitoring devices designed to help you track your fertile days, but none are officially recommended by the NHS.</p><h3>Using the lactational amenorrhoea method</h3><p>With the lactional amenorrhoea method, you need to breastfeed your baby:</p><ul><li>at least every 4 hours during the day</li><li>at least every 6 hours during the night</li></ul><p>This method only works for the first 6 months after giving birth and you need to start as soon as you have your baby.</p><p>It will not work if you have a period, or you give your baby formula milk or solid food.</p><p>If you express breastmilk it may not be as effective, but there’s very little research into this.</p>"
+        }
+      ],
+      "headline": "How natural family planning works"
+    },
+    {
+      "@type": "HealthTopicContent",
+      "hasHealthAspect": "http://schema.org/SuitabilityHealthAspect",
+      "url": "https://api.service.nhs.uk/nhs-website-content/contraception/methods-of-contraception/natural-family-planning/#who-its-for",
+      "description": "Natural family planning is not suitable for everyone. Ask a GP for advice or speak to a trained practitioner in natural family planning.",
+      "hasPart": [
+        {
+          "@type": "WebPageElement",
+          "headline": "",
+          "text": "<p>Natural family planning is not suitable for everyone.</p><p>It may be helpful if you cannot use other types of contraception because of a health condition.</p><p>Natural family planning may not be suitable for you if:</p><ul><li>you have irregular periods (fertility awareness method)</li><li>you cannot breastfeed (lactational awareness method)</li><li>you need to avoid getting pregnant due to a health condition</li><li>you take a medicine that can affect your baby, such as some medicines for bipolar disorder, migraine and epilepsy</li></ul><p>Speak to a doctor or nurse, or ask your midwife, if you want to know whether you can use natural family planning.</p><p>Do not stop taking your medicine without talking to a doctor first.</p>"
+        }
+      ],
+      "headline": "Can I use natural family planning?"
+    },
+    {
+      "@type": "HealthTopicContent",
+      "hasHealthAspect": "http://schema.org/OverviewHealthAspect",
+      "description": "Natural family planning helps prevent pregnancy by avoiding sex on fertile days, or fully breastfeeding a baby under 6 months to delay your periods.",
+      "hasPart": [
+        {
+          "text": "<p>Natural family planning is between 91% and 99% effective if used correctly all the time. It’s less effective if you do not follow the instructions.</p> ",
+          "@type": "WebPageElement"
+        },
+        {
+          "text": "<p>You need to learn about natural family planning from an expert such as a midwife, or a fertility awareness practitioner.</p> ",
+          "@type": "WebPageElement"
+        },
+        {
+          "text": "<p>Natural family planning involves avoiding sex or using condoms when you’re fertile, or breastfeeding your baby for 6 months to delay ovulation.</p> ",
+          "@type": "WebPageElement"
+        }
+      ],
+      "headline": "",
+      "url": "https://api.service.nhs.uk/nhs-website-content/contraception/methods-of-contraception/natural-family-planning/#overview"
+    },
+    {
+      "@type": "HealthTopicContent",
+      "hasHealthAspect": "http://schema.org/GettingAccessHealthAspect",
+      "url": "https://api.service.nhs.uk/nhs-website-content/contraception/methods-of-contraception/iud-coil/where-to-get-it/#how-to-get-it",
+      "description": "You can get an IUD (copper coil) free on the NHS from sexual health clinics, GP surgeries and young people's services.",
+      "hasPart": [
+        {
+          "@type": "WebPageElement",
+          "headline": "",
+          "text": "<p>Contraception services are free and confidential on the NHS.</p><p>You can get an IUD (intrauterine device), also called a copper coil, free from:</p><ul><li>sexual health clinics, also called family planning or contraception clinics</li><li>some GP surgeries</li><li>some young people's services (call the national sexual health helpline on 0300 123 7123 for more information)</li></ul>"
+        },
+        {
+          "potentialAction": {
+            "@type": "ViewAction",
+            "target": "https://www.nhs.uk/service-search/other-health-services/contraception-information-and-advice",
+            "name": "Find contraception information and advice services"
+          }
+        },
+        {
+          "@type": "WebPageElement",
+          "headline": "Information",
+          "text": "<p>If you need an IUD for emergency contraception, it must be fitted within 5 days after having unprotected sex (sex without contraception). Make an appointment as soon as you can.</p>"
+        }
+      ],
+      "headline": "Getting an IUD"
+    },
+    {
+      "@type": "HealthTopicContent",
+      "hasHealthAspect": "http://schema.org/SuitabilityHealthAspect",
+      "url": "https://api.service.nhs.uk/nhs-website-content/contraception/methods-of-contraception/iud-coil/who-can-get-it/#who-its-for",
+      "description": "Speak to a doctor or nurse to find out if an IUD (copper coil) is suitable for you.",
+      "hasPart": [
+        {
+          "@type": "WebPageElement",
+          "headline": "",
+          "text": "<p>A doctor or nurse will ask about your medical history to check if you can get an IUD (intrauterine device), also called a copper coil.</p><p>You may not be able to have an IUD if:</p><ul><li>you think you might be pregnant</li><li>you have a sexually transmitted infection (STI) or pelvic infection</li><li>you have problems with your womb or cervix, such as fibroids or cervical cancer</li><li>you have unexplained bleeding between periods or after sex</li></ul><p>If any of these apply to you, speak to the doctor or nurse about your contraception options.</p><h3>Getting an IUD after giving birth</h3><p>An IUD can sometimes be fitted within 48 hours of giving birth. But you'll usually be advised to wait until 4 weeks after birth to have an IUD fitted.</p><p>It’s possible to get pregnant starting from 3 weeks (21 days) after giving birth. It's important to use another form of contraception, such as condoms, until your IUD is fitted.</p><h4>IUDs and breastfeeding</h4><p>It's safe to have an IUD when you're breastfeeding, and it will not affect your baby or your milk supply.</p><h3>Getting an IUD after a miscarriage or abortion</h3><p>You can get an IUD straight after an abortion or miscarriage. You'll be protected against pregnancy straight away.</p>"
+        }
+      ],
+      "headline": "Can I get an IUD?"
+    },
+    {
+      "@type": "HealthTopicContent",
+      "hasHealthAspect": "http://schema.org/InteractionsHealthAspect",
+      "url": "https://api.service.nhs.uk/nhs-website-content/contraception/methods-of-contraception/iud-coil/who-can-get-it/#interactions",
+      "description": "An IUD (copper coil) will not be affected by any other medicines you are taking.",
+      "hasPart": [
+        {
+          "@type": "WebPageElement",
+          "headline": "",
+          "text": "<p>An IUD is not affected by other medicines, including prescription medicines or herbal remedies.</p>"
+        }
+      ],
+      "headline": "IUD and medicines"
+    },
+    {
+      "@type": "HealthTopicContent",
+      "hasHealthAspect": "http://schema.org/UsageOrScheduleHealthAspect",
+      "url": "https://api.service.nhs.uk/nhs-website-content/contraception/methods-of-contraception/iud-coil/getting-it-fitted-or-removed/#how-its-used-previously-dosage-and-administration",
+      "description": "An IUD (copper coil) is inserted into your womb by a doctor or nurse. This usually takes 5 to 10 minutes.",
+      "hasPart": [
+        {
+          "@type": "WebPageElement",
+          "headline": "",
+          "text": "<p>You can usually have an IUD (intrauterine device), also called a copper coil, fitted by a specially trained doctor or nurse at a GP surgery or sexual health clinic.</p><p>Having an IUD fitted should take about 5 to 10 minutes, but allow at least 30 minutes for the appointment.</p><p>Before your IUD is fitted you might be offered:</p><ul><li>a test for sexually transmitted infections (STIs)</li><li>a pregnancy test (an IUD cannot be fitted if you might be pregnant)</li></ul><p>Some people find having an IUD fitted painful. You may want to take some painkillers like paracetamol or ibuprofen an hour before.</p><p>If you're concerned about pain during the fitting, speak to the nurse or doctor. They may be able to offer you extra pain relief.</p><h3>The procedure</h3><p>During the procedure:</p><ul><li>a nurse or doctor will gently put a smooth, tube-shaped tool (a speculum) into your vagina so they can open it, like a <a href=\"https://www.nhs.uk/conditions/cervical-screening/\">cervical screening (a smear test)</a></li><li>they will insert the IUD into your womb through your cervix</li></ul><p>Tell the person fitting your IUD if you feel any pain or discomfort. You can ask them to stop at any time.</p><p>You can have a friend, family member or other member of staff in the room with you during the fitting if you want.</p><h3>After an IUD is fitted</h3><p>You might have some period-like pain for a few days after having an IUD fitted. Painkillers such as paracetamol and ibuprofen can help with any pain. You may also have some light bleeding (spotting).</p>"
+        }
+      ],
+      "headline": "Having an IUD fitted"
+    },
+    {
+      "@type": "HealthTopicContent",
+      "hasHealthAspect": "http://schema.org/SideEffectsHealthAspect",
+      "url": "https://api.service.nhs.uk/nhs-website-content/contraception/methods-of-contraception/iud-coil/side-effects/#side-effects",
+      "description": "An IUD (copper coil) has very few side effects, but it can make periods heavier and more painful for some people.",
+      "hasPart": [
+        {
+          "@type": "WebPageElement",
+          "headline": "",
+          "text": "<p>After you get an IUD fitted:</p><ul><li>you might have some period-like pain for a few days</li><li>you may have some bleeding between your periods</li><li>your periods may become heavier, longer or more painful – this may improve after a few months</li><li>you have a small chance of getting thrush that keeps coming back – talk to your GP if this happens</li></ul><p>Your partner should not be able to feel your IUD threads during sex. If they can and it’s a problem, see a doctor or nurse to get the threads checked.</p>"
+        }
+      ],
+      "headline": "Side effects of an IUD"
+    },
+    {
+      "@type": "HealthTopicContent",
+      "hasHealthAspect": "http://schema.org/EffectivenessHealthAspect",
+      "url": "https://api.service.nhs.uk/nhs-website-content/contraception/methods-of-contraception/iud-coil/side-effects/#effectiveness",
+      "description": "An IUD (copper coil) is over 99% effective. Less than 1 in 100 women with an IUD will get pregnant in one year.",
+      "hasPart": [
+        {
+          "@type": "WebPageElement",
+          "headline": "",
+          "text": "<p>An IUD is over 99% effective at preventing pregnancy.</p><p>This means that less than 1 in 100 women using an IUD as their method of contraception get pregnant each year.</p>"
+        }
+      ],
+      "headline": "How well an IUD works"
+    },
+    {
+      "@type": "HealthTopicContent",
+      "hasHealthAspect": "http://schema.org/RisksOrComplicationsHealthAspect",
+      "url": "https://api.service.nhs.uk/nhs-website-content/contraception/methods-of-contraception/iud-coil/side-effects/#complications",
+      "description": "An IUD (copper coil) is very safe, but it has some very rare risks including infection, damage to the womb and ectopic pregnancy.",
+      "hasPart": [
+        {
+          "@type": "WebPageElement",
+          "headline": "",
+          "text": "<p>An IUD is very safe, but there are some rare risks, including:</p><ul><li>pelvic infections, usually within 3 weeks of having an IUD fitted</li><li>your IUD moving or coming out, usually within 3 months after it’s fitted</li><li>damage to the womb</li><li><a href=\"https://www.nhs.uk/conditions/ectopic-pregnancy/\">ectopic pregnancy</a> in the rare case that your IUD fails</li></ul>"
+        }
+      ],
+      "headline": "Risks of an IUD"
+    },
+    {
+      "@type": "HealthTopicContent",
+      "hasHealthAspect": "http://schema.org/MedicalHelpUrgentHealthAspect",
+      "url": "https://api.service.nhs.uk/nhs-website-content/contraception/methods-of-contraception/iud-coil/side-effects/#urgent-medical-help",
+      "description": "",
+      "hasPart": [
+        {
+          "@type": "WebPageElement",
+          "identifier": "urgent",
+          "headline": "Ask for an urgent GP appointment or get help from NHS 111 if:",
+          "text": "<p>\n You've had an IUD fitted and:\n</p>\n<ul>\n<li>\n  you have pain in your lower tummy (abdomen) and painkillers do not help\n </li>\n<li>\n  you get sudden pain in your lower tummy that gets worse or does not go away\n </li>\n<li>\n  you have a high temperature\n </li>\n<li>\n  you have abnormal or smelly discharge\n </li>\n<li>\n  you have very heavy vaginal bleeding\n </li>\n<li>\n  you think you might be pregnant\n </li>\n<li>\n  you cannot feel the threads of your IUD, or they feel different\n </li>\n</ul>\n<p>\n You can call 111 or\n <a href=\"https://111.nhs.uk/\">\n  get help from 111 online\n </a>\n .\n</p>\n"
+        }
+      ],
+      "headline": ""
+    },
+    {
+      "@type": "HealthTopicContent",
+      "hasHealthAspect": "http://schema.org/GettingAccessHealthAspect",
+      "url": "https://api.service.nhs.uk/nhs-website-content/contraception/methods-of-contraception/ius-hormonal-coil/where-to-get-it/#how-to-get-it",
+      "description": "You can get an IUS (hormonal coil) for free on the NHS from sexual health clinics, GP surgeries and young people's services.",
+      "hasPart": [
+        {
+          "@type": "WebPageElement",
+          "headline": "",
+          "text": "<p>Contraception services are free and confidential on the NHS.</p><p>You can get an IUS (intrauterine system), also called a hormonal coil, for free from:</p><ul><li>sexual health clinics, also called family planning or contraception clinics</li><li>some GP surgeries</li><li>some young people's services (call the national sexual health helpline on 0300 123 7123 for more information)</li></ul>"
+        },
+        {
+          "potentialAction": {
+            "@type": "ViewAction",
+            "target": "https://www.nhs.uk/service-search/other-health-services/contraception-information-and-advice",
+            "name": "Find contraception information and advice services"
+          }
+        }
+      ],
+      "headline": "Where can I get an IUS?"
+    },
+    {
+      "@type": "HealthTopicContent",
+      "hasHealthAspect": "http://schema.org/SuitabilityHealthAspect",
+      "url": "https://api.service.nhs.uk/nhs-website-content/contraception/methods-of-contraception/ius-hormonal-coil/who-can-get-it/#who-its-for",
+      "description": "Speak to a doctor or nurse to find out if an IUS (hormonal coil) is suitable for you.",
+      "hasPart": [
+        {
+          "@type": "WebPageElement",
+          "headline": "",
+          "text": "<p>A doctor or nurse will ask about your medical history to check if you can get an IUS (intrauterine system), also called a hormonal coil.</p><p>An IUS may not be suitable if you have:</p><ul><li>breast cancer, or have had it in the past</li><li>cervical cancer or womb (uterus) cancer</li><li>a liver condition</li><li>unexplained bleeding between periods or after sex</li><li>a history of serious heart disease or stroke</li><li>a sexually transmitted infection (STI) or pelvic infection</li><li>problems with your womb or cervix, such as fibroids</li></ul><p>If any of these apply to you, speak to the doctor or nurse about your contraception options.</p><h3>Getting an IUS after giving birth</h3><p>An IUS can sometimes be fitted within 48 hours of giving birth. But you'll usually be advised to wait until 4 weeks after birth to have an IUS fitted.</p><p>It’s possible to get pregnant from 3 weeks (21 days) after giving birth. It's important to use another form of contraception, such as condoms, until your IUS is fitted.</p><h4>Breastfeeding with an IUS</h4><p>It's safe to have an IUS when you're breastfeeding, and it will not affect your baby or your milk supply.</p><h3>Getting an IUS after a miscarriage or abortion</h3><p>You can get an IUS straight after an abortion or miscarriage. You'll be protected against pregnancy straight away.</p>"
+        }
+      ],
+      "headline": "Can I get an IUS?"
+    },
+    {
+      "@type": "HealthTopicContent",
+      "hasHealthAspect": "http://schema.org/InteractionsHealthAspect",
+      "url": "https://api.service.nhs.uk/nhs-website-content/contraception/methods-of-contraception/ius-hormonal-coil/who-can-get-it/#interactions",
+      "description": "An IUS (hormonal coil) is not affected by most other medicines.",
+      "hasPart": [
+        {
+          "@type": "WebPageElement",
+          "headline": "",
+          "text": "<p>An IUS is not affected by most other medicines, including prescription medicines or herbal remedies.</p>"
+        }
+      ],
+      "headline": "IUS and medicines"
+    },
+    {
+      "@type": "HealthTopicContent",
+      "hasHealthAspect": "http://schema.org/UsageOrScheduleHealthAspect",
+      "url": "https://api.service.nhs.uk/nhs-website-content/contraception/methods-of-contraception/ius-hormonal-coil/getting-it-fitted-or-removed/#how-its-used-previously-dosage-and-administration",
+      "description": "An IUS (hormonal coil) is inserted into your womb by a doctor or nurse. This usually takes 5 to 10 minutes.",
+      "hasPart": [
+        {
+          "@type": "WebPageElement",
+          "headline": "",
+          "text": "<p>You can usually have an IUS (intrauterine system), also called a hormonal coil, fitted by a specially trained doctor or nurse at a GP surgery or sexual health clinic.</p><p>An IUS can be fitted any time in your menstrual cycle, as long as you're not pregnant.</p><p>If it's fitted in the first 5 days of your cycle (day 1 is the first day of your period), you'll be protected against pregnancy straight away.</p><p>If it's fitted at any other time, use another type of contraception, such as condoms, for 7 days afterwards.</p><p>Having an IUS fitted should take about 5 to10 minutes, but allow at least 30 minutes for the appointment.</p><h3>Before your IUS is fitted</h3><p>Before your IUS is fitted you might be offered:</p><ul><li>a test for sexually transmitted infections (STIs)</li><li>a pregnancy test (an IUS cannot be fitted if you might be pregnant)</li></ul><p>Some people may find having an IUS fitted painful. You may want to take some painkillers like paracetamol or ibuprofen an hour before.</p><p>If you're concerned about pain during the fitting, speak to the nurse or doctor. They may be able to offer you extra pain relief.</p><h3>The procedure</h3><p>During the procedure:</p><ul><li>a nurse or doctor will gently put a smooth, tube-shaped tool (a speculum) into your vagina so they can open it, like a cervical screening (a smear test)</li><li>they will insert the IUS into your womb through your cervix</li></ul><p>Tell the person fitting your IUS if you feel any pain or discomfort. You can ask them to stop at any time.</p><p>You can have a friend, family member or other member of staff in the room with you during the fitting if you want.</p><h3>After an IUS is fitted</h3><p>You might have some period-like pain for a few days after having an IUS fitted. Painkillers such as paracetamol and ibuprofen can help with any pain. You might also have some light bleeding (spotting).</p>"
+        }
+      ],
+      "headline": "Having an IUS fitted"
+    },
+    {
+      "@type": "HealthTopicContent",
+      "hasHealthAspect": "http://schema.org/EffectivenessHealthAspect",
+      "url": "https://api.service.nhs.uk/nhs-website-content/contraception/methods-of-contraception/ius-hormonal-coil/side-effects-and-risks/#effectiveness",
+      "description": "An IUS (hormonal coil) is over 99% effective. Less than 1 in 100 women with an IUS will get pregnant in one year.",
+      "hasPart": [
+        {
+          "@type": "WebPageElement",
+          "headline": "",
+          "text": "<p>An IUS is over 99% effective at preventing pregnancy.</p><p>This means that less than 1 in 100 women using an IUS as their method of contraception get pregnant each year.</p>"
+        }
+      ],
+      "headline": "How well does an IUS work?"
+    },
+    {
+      "@type": "HealthTopicContent",
+      "hasHealthAspect": "http://schema.org/SideEffectsHealthAspect",
+      "url": "https://api.service.nhs.uk/nhs-website-content/contraception/methods-of-contraception/ius-hormonal-coil/side-effects-and-risks/#side-effects",
+      "description": "An IUS (hormonal coil) can have some minor side effects, but these usually go away after a few months.",
+      "hasPart": [
+        {
+          "@type": "WebPageElement",
+          "headline": "",
+          "text": "<p>Side effects of an IUS (intrauterine system), also called a hormonal coil, are most common for a few months after having it fitted. Many IUS users do not get any side effects.</p><p>Possible side effects include:</p><ul><li>period-like pain and bleeding (spotting) after having an IUS fitted</li><li>small fluid-filled sacs (cysts) on your ovaries – these are usually harmless and disappear without treatment</li><li>a small chance of getting thrush that keeps coming back – talk to your GP if this happens</li></ul><p>Some people report headaches, acne, sore breasts, and mood changes. There is not enough evidence to say if an IUS causes these.</p><p>If you get any of these symptoms, they should go away within a few months. If side effects are a problem for you, speak to a doctor or nurse.</p><p>Your partner should not be able to feel your IUS threads during sex. If they can, see a doctor or nurse to have the threads checked.</p><h3>How an IUS affects periods</h3><p>An IUS can make periods shorter or lighter, or stop them altogether.</p><p>For 3 to 6 months after having an IUS fitted, your periods might become longer, irregular or more frequent. You may also have some light bleeding between your periods. This should improve within a few months.</p><p>If irregular or heavy bleeding continues for longer than 6 months, see your doctor or nurse for a check-up.</p><p>Some types of IUS are effective treatments for heavy periods.</p>"
+        }
+      ],
+      "headline": "Side effects of an IUS"
+    },
+    {
+      "@type": "HealthTopicContent",
+      "hasHealthAspect": "http://schema.org/RisksOrComplicationsHealthAspect",
+      "url": "https://api.service.nhs.uk/nhs-website-content/contraception/methods-of-contraception/ius-hormonal-coil/side-effects-and-risks/#complications",
+      "description": "An IUS (hormonal coil) is very safe, but it has some very rare risks including infection, damage to the womb and ectopic pregnancy.",
+      "hasPart": [
+        {
+          "@type": "WebPageElement",
+          "headline": "",
+          "text": "<p>An IUS is very safe, but there are some rare risks, including:</p><ul><li>pelvic infections, usually within 3 weeks of having an IUS fitted</li><li>your IUS moving or coming out, usually within 3 months of having it fitted</li><li>damage to the womb</li><li><a href=\"https://www.nhs.uk/conditions/ectopic-pregnancy/\">ectopic pregnancy</a> if your IUS fails</li></ul>"
+        }
+      ],
+      "headline": "Risks of an IUS"
+    },
+    {
+      "@type": "HealthTopicContent",
+      "hasHealthAspect": "http://schema.org/MedicalHelpUrgentHealthAspect",
+      "url": "https://api.service.nhs.uk/nhs-website-content/contraception/methods-of-contraception/ius-hormonal-coil/side-effects-and-risks/#urgent-medical-help",
+      "description": "",
+      "hasPart": [
+        {
+          "@type": "WebPageElement",
+          "identifier": "urgent",
+          "headline": "Ask for an urgent GP appointment or get help from NHS 111 if:",
+          "text": "<p>\n You have an IUS and:\n</p>\n<ul>\n<li>\n  you have pain in your lower tummy (abdomen) and painkillers do not help\n </li>\n<li>\n  you get sudden pain in your lower tummy that gets worse or does not go away\n </li>\n<li>\n  you have a high temperature\n </li>\n<li>\n  you have unusual or smelly discharge\n </li>\n<li>\n  you have very heavy vaginal bleeding\n </li>\n<li>\n  you think you might be pregnant\n </li>\n<li>\n  you cannot feel the threads of your IUS, or they feel different\n </li>\n</ul>\n<p>\n You can call 111 or\n <a href=\"https://111.nhs.uk/\">\n  get help from 111 online\n </a>\n .\n</p>\n"
+        }
+      ],
+      "headline": ""
+    },
+    {
+      "@type": "HealthTopicContent",
+      "hasHealthAspect": "http://schema.org/GettingAccessHealthAspect",
+      "url": "https://api.service.nhs.uk/nhs-website-content/contraception/methods-of-contraception/contraceptive-implant/where-to-get-it/#how-to-get-it",
+      "description": "You can get the contraceptive implant free from sexual health clinics and some GP surgeries and young people’s services. You may need an appointment.",
+      "hasPart": [
+        {
+          "@type": "WebPageElement",
+          "headline": "",
+          "text": "<p>Contraception services are free and confidential on the NHS.</p><p>You can get the contraceptive implant from:</p><ul><li>sexual health clinics, also called family planning or contraception clinics</li><li>some GP surgeries</li><li>some young people's services (call the national sexual health helpline on 0300 123 7123 for more information)</li></ul>"
+        },
+        {
+          "potentialAction": {
+            "@type": "ViewAction",
+            "target": "https://www.nhs.uk/service-search/other-health-services/contraception-information-and-advice/",
+            "name": "Find contraception information and advice services"
+          }
+        }
+      ],
+      "headline": "Where can I get a contraceptive implant?"
+    },
+    {
+      "@type": "HealthTopicContent",
+      "hasHealthAspect": "http://schema.org/SuitabilityHealthAspect",
+      "url": "https://api.service.nhs.uk/nhs-website-content/contraception/methods-of-contraception/contraceptive-implant/who-can-use-it/#who-its-for",
+      "description": "The contraceptive implant may not be suitable for you if you have a condition such as breast cancer.",
+      "hasPart": [
+        {
+          "@type": "WebPageElement",
+          "headline": "",
+          "text": "<p>The contraceptive implant is not suitable for everyone.</p><p>The implant may not be suitable if you've ever had:</p><ul><li>a condition affecting your heart or blood vessels (<a href=\"https://www.nhs.uk/conditions/cardiovascular-disease/\">cardiovascular disease</a>), such as a <a href=\"https://www.nhs.uk/conditions/stroke/\">stroke</a></li><li>a liver condition, such as <a href=\"https://www.nhs.uk/conditions/cirrhosis/\">cirrhosis</a></li><li>breast cancer</li><li>unexplained vaginal bleeding</li></ul><p>If you have any of these health conditions, talk to a doctor, nurse or pharmacist about whether the implant is suitable for you.</p><h3>Pregnancy and breastfeeding</h3><p>You can have the contraceptive implant fitted any time after you've given birth.</p><p>If it's fitted before day 21 after the birth, you'll be protected against pregnancy straight away.</p><p>If it's fitted on or after day 21, you'll need to use additional contraception such as condoms for the next 7 days.</p><p>The implant is safe to use while breastfeeding and will not affect your baby or milk supply.</p><h3>Using the implant after a miscarriage or abortion</h3><p>If you’ve had a <a href=\"https://www.nhs.uk/conditions/miscarriage/\">miscarriage</a> or <a href=\"https://www.nhs.uk/conditions/abortion/\">abortion</a>, you can have the contraceptive implant fitted as soon as you want to.</p><p>If the implant is fitted within 5 days after a miscarriage or abortion, you’ll be protected from pregnancy immediately.</p><p>If it’s fitted more than 5 days afterwards, you'll need to use another type of contraception, such as condoms, until the implant has been in place for 7 days.</p><p>A doctor or nurse can give you more information.</p>"
+        }
+      ],
+      "headline": "Can I use the contraceptive implant?"
+    },
+    {
+      "@type": "HealthTopicContent",
+      "hasHealthAspect": "http://schema.org/InteractionsHealthAspect",
+      "url": "https://api.service.nhs.uk/nhs-website-content/contraception/methods-of-contraception/contraceptive-implant/who-can-use-it/#interactions",
+      "description": "Some medicines and herbal remedies can stop the contraceptive implant working properly. Ask a doctor or pharmacist for advice.",
+      "hasPart": [
+        {
+          "@type": "WebPageElement",
+          "headline": "",
+          "text": "<p>Some medicines and herbal remedies can affect how the contraceptive implant works. It may not work properly to stop you getting pregnant.</p><p>Ask a doctor or pharmacist before having a contraceptive implant fitted if you take medicine to treat TB (tuberculosis), epilepsy or HIV.</p><p>You should also ask for advice if you take griseofulvin (an antifungal medicine), or St John's wort (a herbal remedy).</p>"
+        }
+      ],
+      "headline": "Medicines and the contraceptive implant"
+    },
+    {
+      "@type": "HealthTopicContent",
+      "hasHealthAspect": "http://schema.org/UsageOrScheduleHealthAspect",
+      "url": "https://api.service.nhs.uk/nhs-website-content/contraception/methods-of-contraception/contraceptive-implant/getting-it-fitted-or-removed/#how-its-used-previously-dosage-and-administration",
+      "description": "A contraceptive implant is fitted into a small cut made in your arm. It lasts for 3 years and then needs to be replaced.",
+      "hasPart": [
+        {
+          "@type": "WebPageElement",
+          "headline": "",
+          "text": "<p>A nurse or doctor will fit the contraceptive implant under the skin of your arm. It takes a few minutes.</p><p>The nurse or doctor will:</p><ul><li>use a local anaesthetic injection or spray so you will not feel pain</li><li>make a small cut in the skin of your upper arm</li><li>put the implant under your skin – it’s about the size of a matchstick and will not be visible once fitted</li><li>seal the cut with a dressing, which you can remove once the cut has healed</li></ul><p>The implant works for 3 years and then needs to be replaced with a new one.</p><p>If there’s a chance you may be pregnant, the doctor or nurse will ask you to do a pregnancy test just before having the implant.</p>"
+        }
+      ],
+      "headline": "Having the contraceptive implant fitted"
+    },
+    {
+      "@type": "HealthTopicContent",
+      "hasHealthAspect": "http://schema.org/EffectivenessHealthAspect",
+      "url": "https://api.service.nhs.uk/nhs-website-content/contraception/methods-of-contraception/contraceptive-implant/getting-it-fitted-or-removed/#effectiveness",
+      "description": "The contraceptive implant is over 99%  effective. Less than 1 in 100 women who use it for a year will get pregnant.",
+      "hasPart": [
+        {
+          "@type": "WebPageElement",
+          "headline": "",
+          "text": "<p>The contraceptive implant is over 99% effective. Less than 1 in 100 women who use it for a year will get pregnant.</p><p>The implant will protect against pregnancy immediately if it’s fitted during the first 5 days of your menstrual cycle. The first day of your period is day 1 of your menstrual cycle.</p><p>If the implant is fitted after day 5 of your menstrual cycle, you will not be protected against pregnancy immediately. You’ll need to use another form of contraception such as condoms until you’ve had the implant in for 7 days.</p><p>The contraceptive implant needs to be replaced after 3 years because it becomes less effective at preventing pregnancy.</p><h3>Emergency contraception</h3><p>If it’s not replaced it stops working and there’s a chance you could get pregnant.</p><p>If this happens, you may need emergency contraception. Speak to a pharmacist, sexual health clinic, GP or call 111 for advice, as the contraceptive implant can make some emergency contraception less effective.</p>"
+        }
+      ],
+      "headline": "How well does the contraceptive implant work?"
+    },
+    {
+      "@type": "HealthTopicContent",
+      "hasHealthAspect": "http://schema.org/SideEffectsHealthAspect",
+      "url": "https://api.service.nhs.uk/nhs-website-content/contraception/methods-of-contraception/contraceptive-implant/side-effects-and-risks/#side-effects",
+      "description": "Commonly reported side effects of the contraceptive implant include changes to your periods, headaches, sore breasts, acne and weight gain.",
+      "hasPart": [
+        {
+          "@type": "WebPageElement",
+          "headline": "",
+          "text": "<p>The contraceptive implant is very safe and serious side effects and complications are rare.</p><h3>Changes to your periods</h3><p>It’s very common to have a change in your periods after you have an implant fitted.</p><p>You may notice your periods:</p><ul><li>are lighter</li><li>are less regular with light bleeding (spotting) between periods</li><li>are heavier or more painful</li><li>last longer</li><li>stop completely</li></ul><p>It’s also possible for your periods to become more unpredictable, for example having a heavy period followed by a very light period, or missing a period.</p><p>These changes are not usually anything to worry about, but if they become a problem for you contact a GP or sexual health clinic.</p><h3>Other reported side effects</h3><p>Other reported side effects of the contraceptive implant include headache, sore breasts, weight gain, acne, and <a href=\"https://www.nhs.uk/conditions/thrush-in-men-and-women/\">thrush</a> or <a href=\"https://www.nhs.uk/conditions/bacterial-vaginosis/\">bacterial vaginosis</a>.</p><p>There's not enough evidence to say whether these side effects are caused by the implant.</p><p>If side effects are a problem for you, contact a GP or sexual health clinic for advice.</p>"
+        }
+      ],
+      "headline": "Side effects of the contraceptive implant"
+    },
+    {
+      "@type": "HealthTopicContent",
+      "hasHealthAspect": "http://schema.org/SafetyHealthAspect",
+      "url": "https://api.service.nhs.uk/nhs-website-content/contraception/methods-of-contraception/contraceptive-implant/side-effects-and-risks/#safety",
+      "description": "The contraceptive implant is very safe and complications are rare. Possible risks include your arm becoming infected and the implant moving.",
+      "hasPart": [
+        {
+          "@type": "WebPageElement",
+          "headline": "",
+          "text": "<p>The contraceptive implant is very safe, but there are some risks including:</p><ul><li>infection where implant is put in – this can lead to swelling and pain at the site of the implant</li><li>the implant moving out of place, usually a few centimetres away from where it was put in</li></ul><p>If you think you have an infection or the implant has moved out of place then contact a GP or sexual health clinic.</p><p>Rarer, more serious risks include:</p><ul><li>a <a href=\"https://www.nhs.uk/conditions/blood-clots/\">blood clot</a></li><li><a href=\"https://www.nhs.uk/conditions/ectopic-pregnancy/\">ectopic pregnancy</a> in the rare case that the implant fails</li></ul>"
+        }
+      ],
+      "headline": "Risks of the contraceptive implant"
+    },
+    {
+      "@type": "HealthTopicContent",
+      "hasHealthAspect": "http://schema.org/GettingAccessHealthAspect",
+      "url": "https://api.service.nhs.uk/nhs-website-content/contraception/methods-of-contraception/contraceptive-injection/where-to-get-it/#how-to-get-it",
+      "description": "You can get the contraceptive injection free on the NHS from sexual health clinics, GP surgeries and young people's services.",
+      "hasPart": [
+        {
+          "@type": "WebPageElement",
+          "headline": "",
+          "text": "<p>Contraception services are free and confidential on the NHS.</p><p>You can get the contraceptive injection free from:</p><ul><li>sexual health clinics, also called family planning or contraception clinics</li><li>some GP surgeries</li><li>some young people's services (call the national sexual health helpline on 0300 123 7123 for more information)</li></ul>"
+        },
+        {
+          "potentialAction": {
+            "@type": "ViewAction",
+            "target": "https://www.nhs.uk/service-search/other-health-services/contraception-information-and-advice",
+            "name": "Find contraception information and advice services"
+          }
+        }
+      ],
+      "headline": "Where can I get the contraceptive injection?"
+    },
+    {
+      "@type": "HealthTopicContent",
+      "hasHealthAspect": "http://schema.org/SuitabilityHealthAspect",
+      "url": "https://api.service.nhs.uk/nhs-website-content/contraception/methods-of-contraception/contraceptive-injection/who-can-get-it/#who-its-for",
+      "description": "Speak to a doctor or nurse to find out if the contraceptive injection is suitable for you. It’s safe to use if breastfeeding.",
+      "hasPart": [
+        {
+          "@type": "WebPageElement",
+          "headline": "",
+          "text": "<p>A doctor or nurse will ask about your medical history to check if the contraceptive injection is suitable for you. The contraceptive injection may not be suitable if you have ever had:</p><ul><li>breast cancer, heart disease or stroke</li><li>a liver condition</li><li>unexplained bleeding between periods or after sex</li></ul><p>The contraceptive injection may also not be recommended for you if more than one of the following apply to you:</p><ul><li>you smoke</li><li>you have diabetes</li><li>you have high blood pressure</li><li>you have high cholesterol</li><li>you're living with obesity</li></ul><p>If these apply to you, speak to the doctor or nurse about your contraception options.</p><h3>Getting the contraceptive injection after giving birth</h3><p>You can have the contraceptive injection at any time after giving birth.</p><p>If you get the injection within 3 weeks (21 days) of giving birth, you’ll be protected from pregnancy immediately.</p><p>If you get the injection more than 3 weeks (21 days) after giving birth, you may not be protected from pregnancy immediately. Ask your GP or health visitor for advice.</p><h4>Breastfeeding and the contraceptive injection</h4><p>It's safe to have the contraceptive injection when you're breastfeeding, and it will not affect your baby or your milk supply.</p><h3>Getting the contraceptive injection after a miscarriage or abortion</h3><p>You can have the contraceptive injection straight after an abortion or miscarriage. You'll be protected against pregnancy immediately.</p><p>If you have the injection 6 days or more after a miscarriage or abortion, you need to use another type of contraception, such as condoms, for 7 days.</p>"
+        }
+      ],
+      "headline": "Can I get the contraceptive injection?"
+    },
+    {
+      "@type": "HealthTopicContent",
+      "hasHealthAspect": "http://schema.org/InteractionsHealthAspect",
+      "url": "https://api.service.nhs.uk/nhs-website-content/contraception/methods-of-contraception/contraceptive-injection/who-can-get-it/#interactions",
+      "description": "Some medicines and herbal remedies can stop the contraceptive injection from working properly. Ask a doctor or pharmacist for advice.",
+      "hasPart": [
+        {
+          "@type": "WebPageElement",
+          "headline": "",
+          "text": "<p>Some medicines and herbal remedies can stop the contraceptive injection working properly, and it may not stop you getting pregnant.</p><p>Ask a doctor or pharmacist for advice before getting the contraceptive injection if you take medicine to treat conditions including:</p><ul><li>cancer</li><li>TB (tuberculosis)</li><li>epilepsy</li><li>HIV</li><li>high blood pressure</li></ul><p>You should also ask for advice before taking some antifungal medicines, antibiotics or St John’s Wort (a herbal remedy).</p><p>You may need to use another type of contraception.</p>"
+        }
+      ],
+      "headline": "The contraceptive injection and other medicines"
+    },
+    {
+      "@type": "HealthTopicContent",
+      "hasHealthAspect": "http://schema.org/EffectivenessHealthAspect",
+      "url": "https://api.service.nhs.uk/nhs-website-content/contraception/methods-of-contraception/contraceptive-injection/getting-it/#effectiveness",
+      "description": "If used correctly, the contraceptive injection is more than 99% effective at preventing pregnancy.",
+      "hasPart": [
+        {
+          "@type": "WebPageElement",
+          "headline": "",
+          "text": "<p>When used correctly, the contraceptive injection is more than 99% effective.</p><p>If you get your injection late, it’s 94% effective, which means 6 in 100 women using it will get pregnant in one year.</p><p>Find out <a href=\"https://www.nhs.uk/contraception/choosing-contraception/how-well-it-works-at-preventing-pregnancy/\">how well contraception works at preventing pregnancy</a>.</p>"
+        }
+      ],
+      "headline": "How well the contraceptive injection works"
+    },
+    {
+      "@type": "HealthTopicContent",
+      "hasHealthAspect": "http://schema.org/UsageOrScheduleHealthAspect",
+      "url": "https://api.service.nhs.uk/nhs-website-content/contraception/methods-of-contraception/contraceptive-injection/getting-it/#how-its-used-previously-dosage-and-administration",
+      "description": "The contraceptive injection is given every 8 to 13 weeks, depending on the type.",
+      "hasPart": [
+        {
+          "@type": "WebPageElement",
+          "headline": "",
+          "text": "<p>The contraceptive injection is given by a doctor or nurse once every 8 to 13 weeks, depending on the type.</p><p>If you prefer, you can choose to do one type of contraceptive injection (Sayana Press) yourself at home. A doctor or nurse can show you how to do this.</p><p>If you use the contraceptive injection for more than 2 years, have a check-up with your doctor to make sure it’s still the right contraception for you.</p><h3>Starting the contraceptive injection</h3><p>If you get your first contraceptive injection in the first 5 days of your menstrual cycle (day 1 is the first day of your period), you will be protected from pregnancy immediately.</p><p>If you get your first contraceptive injection after day 5 of your menstrual cycle, you will not be protected from pregnancy immediately. Use another form of contraception, such as condoms, for 7 days after getting your injection.</p><p>If there’s a chance you could already be pregnant when you get your first contraceptive injection, take a pregnancy test 3 weeks after the last time you had sex without contraception. If you are pregnant, speak to your doctor or nurse for advice.</p><h3>If you’re late for your injection</h3><p>If your injection is due and you do not have it on time, there’s a risk of pregnancy if you have sex without a condom.</p><p>Use condoms until you can get your injection, and for 7 days afterwards.</p><h4>Emergency contraception</h4><p>If you have sex without a condom when late for your injection, you may need <a href=\"https://www.nhs.uk/contraception/emergency-contraception/\">emergency contraception</a>.</p><p>Speak to a pharmacist, sexual health clinic, GP or call 111 for advice as the contraceptive injection can affect how some emergency contraception works.</p>"
+        }
+      ],
+      "headline": "Getting the contraceptive injection"
+    },
+    {
+      "@type": "HealthTopicContent",
+      "hasHealthAspect": "http://schema.org/SideEffectsHealthAspect",
+      "url": "https://api.service.nhs.uk/nhs-website-content/contraception/methods-of-contraception/contraceptive-injection/side-effects-and-risks/#side-effects",
+      "description": "Side effects of the contraceptive injection include changes to periods, weight gain and pain at the injection site.",
+      "hasPart": [
+        {
+          "@type": "WebPageElement",
+          "headline": "",
+          "text": "<p>Common side effects of the contraceptive injection include:</p><ul><li>changes to your periods, such as periods stopping, being irregular or lasting longer – the longer you use it the more likely it is that your periods will stop completely</li><li>putting on weight</li><li>pain, a small lump or a scar where the injection is done</li></ul><p>Some people report acne, lower sex drive, mood changes, hot flushes and headaches. There is not enough evidence to say if the contraceptive injection causes these.</p><p>If you have side effects and they’re a problem for you, speak to a doctor or nurse.</p>"
+        }
+      ],
+      "headline": "Side effects of the contraceptive injection"
+    },
+    {
+      "@type": "HealthTopicContent",
+      "hasHealthAspect": "http://schema.org/RisksOrComplicationsHealthAspect",
+      "url": "https://api.service.nhs.uk/nhs-website-content/contraception/methods-of-contraception/contraceptive-injection/side-effects-and-risks/#complications",
+      "description": "The contraceptive injection is linked with a very small risk of breast cancer, cervical cancer and bone weakness.",
+      "hasPart": [
+        {
+          "@type": "WebPageElement",
+          "headline": "",
+          "text": "<p>There are some other problems linked to taking the contraceptive injection. But the chance of getting these is small. If you have any concerns, speak to a doctor or nurse.</p><h3>Bone health</h3><p>Using the contraceptive injection for more than 1 year can cause your bones to become weaker.</p><p>Your bones are likely to return to normal after you stop having contraceptive injections.</p><h3>Cancer</h3><p>The contraceptive injection can slightly increase your risk of getting:</p><ul><li><a href=\"https://www.nhs.uk/conditions/breast-cancer/\">breast cancer</a></li><li><a href=\"https://www.nhs.uk/conditions/cervical-cancer/\">cervical cancer</a></li></ul><p>The risk is very small and is likely to get smaller after you stop having the injection.</p>"
+        }
+      ],
+      "headline": "Risks of the contraceptive injection"
+    },
+    {
+      "@type": "HealthTopicContent",
+      "hasHealthAspect": "http://schema.org/GettingAccessHealthAspect",
+      "url": "https://api.service.nhs.uk/nhs-website-content/contraception/methods-of-contraception/progestogen-only-pill/where-to-get-it/#how-to-get-it",
+      "description": "You can get the progestogen-only pill (mini pill) free on the NHS from sexual health clinics, GP surgeries and young people's services.",
+      "hasPart": [
+        {
+          "@type": "WebPageElement",
+          "headline": "",
+          "text": "<p>Contraception services are free and confidential on the NHS.</p><p>You can get the progestogen-only pill (mini pill) from:</p><ul><li>sexual health clinics, also called family planning or contraception clinics</li><li>GP surgeries</li><li>some young people's services (call the national sexual health helpline on 0300 123 7123 for more information)</li></ul>"
+        },
+        {
+          "potentialAction": {
+            "@type": "ViewAction",
+            "target": "https://www.nhs.uk/service-search/other-health-services/contraception-information-and-advice/",
+            "name": "Find contraception information and advice services"
+          }
+        },
+        {
+          "@type": "WebPageElement",
+          "headline": "",
+          "text": "<p>You can buy some brands of progestogen-only pill in a pharmacy without a prescription.</p><p>A pharmacist may also be able to supply the progestogen-only pill for free without a prescription. Speak to a pharmacist for advice.</p>"
+        },
+        {
+          "potentialAction": {
+            "@type": "ViewAction",
+            "target": "https://api.service.nhs.uk/nhs-website-content/nhs-services/pharmacies/find-a-pharmacy-offering-contraceptive-pill-without-prescription/",
+            "name": "Find a pharmacy that offers the contraceptive pill without a prescription"
+          }
+        }
+      ],
+      "headline": "Getting the progestogen-only pill"
+    },
+    {
+      "@type": "HealthTopicContent",
+      "hasHealthAspect": "http://schema.org/SuitabilityHealthAspect",
+      "url": "https://api.service.nhs.uk/nhs-website-content/contraception/methods-of-contraception/progestogen-only-pill/who-can-take-it/#who-its-for",
+      "description": "The progestogen-only pill is not suitable for everyone. A doctor, nurse or pharmacist can discuss with you. It’s safe to take if you’re breastfeeding.",
+      "hasPart": [
+        {
+          "@type": "WebPageElement",
+          "headline": "",
+          "text": "<p>The progestogen-only pill (mini pill) is not suitable for everyone.</p><p>It may not be suitable if you have ever had:</p><ul><li>a condition affecting your heart or blood vessels (<a href=\"https://www.nhs.uk/conditions/cardiovascular-disease/\">cardiovascular disease</a>)</li><li>a stroke</li><li>a liver condition, such as <a href=\"https://www.nhs.uk/conditions/cirrhosis/\">cirrhosis</a></li><li>breast cancer</li><li>a condition that affects your kidneys</li></ul><p>If any of these apply to you, talk to a doctor, nurse or pharmacist about whether it’s safe for you to take the progestogen-only pill.</p><h3>If you cannot take contraception with oestrogen</h3><p>The progestogen-only pill does not contain the hormone oestrogen, meaning this type of contraception is suitable for many people who cannot take oestrogen. Ask a doctor, nurse or pharmacist whether it’s safe for you.</p><p>Oestrogen is in the combined pill, contraceptive patch and vaginal ring.</p><h3>Taking the progestogen-only pill after giving birth</h3><p>If you've just had a baby, you can start taking the progestogen-only pill straight away.</p><p>The progestogen-only pill is safe to use when you're breastfeeding.</p>"
+        }
+      ],
+      "headline": "Can I take the progestogen-only pill?"
+    },
+    {
+      "@type": "HealthTopicContent",
+      "hasHealthAspect": "http://schema.org/UsageOrScheduleHealthAspect",
+      "url": "https://api.service.nhs.uk/nhs-website-content/contraception/methods-of-contraception/progestogen-only-pill/how-to-take-it/#how-its-used-previously-dosage-and-administration",
+      "description": "The progestogen-only pill (mini pill) needs to be taken at the same time every day. Check the leaflet or ask a doctor, nurse or pharmacist for advice.",
+      "hasPart": [
+        {
+          "@type": "WebPageElement",
+          "headline": "",
+          "text": "<p>You need to take the progestogen-only pill (mini pill) at around the same time every day for it to work properly.</p><p>There are 28 pills in a pack. When you finish a pack, you start a new pack the next day. Do not take a break between packs.</p><p>There are 3 types of progestogen-only pill:</p><ul><li>traditional progestogen-only pill</li><li>desogestrel pill</li><li>drospirenone pill</li></ul><p>Check the packet to see if your pill contains desogestrel or drospirenone. Whichever type you have, it's important to take 1 pill at the same time every day.</p><p>If you forget to take your pill at the usual time, take it as soon as you remember.</p><p>You’ll still be protected against pregnancy if you:</p><ul><li>take your traditional progestogen-only pill within 3 hours of the time you usually take it</li><li>take your desogestrel pill within 12 hours of the time you usually take it</li><li>take your drospirenone pill within 24 hours of the time you usually take it</li></ul>"
+        },
+        {
+          "@type": "WebPageElement",
+          "headline": "Information",
+          "text": "<p>For more information about how to take the progestogen-only pill, check the leaflet that comes with it, or speak to a doctor, nurse or pharmacist.</p>"
+        }
+      ],
+      "headline": "When to take your progestogen-only pill"
+    },
+    {
+      "@type": "HealthTopicContent",
+      "hasHealthAspect": "http://schema.org/EffectivenessHealthAspect",
+      "url": "https://api.service.nhs.uk/nhs-website-content/contraception/methods-of-contraception/progestogen-only-pill/how-to-take-it/#effectiveness",
+      "description": "If you take the progestogen-only pill (mini pill) correctly, it’s more than 99% effective at preventing pregnancy.",
+      "hasPart": [
+        {
+          "@type": "WebPageElement",
+          "headline": "",
+          "text": "<p>The progestogen-only pill is over 99% effective if taken correctly all the time.</p><p>If the progestogen-only pill is not taken correctly all the time, it’s 91% effective. This means around 9 in 100 women will get pregnant in a year. Not taking it correctly includes missing a pill or taking it at the wrong time of day.</p>"
+        }
+      ],
+      "headline": "How well the progestogen-only pill works"
+    },
+    {
+      "@type": "HealthTopicContent",
+      "hasHealthAspect": "http://schema.org/InteractionsHealthAspect",
+      "url": "https://api.service.nhs.uk/nhs-website-content/contraception/methods-of-contraception/progestogen-only-pill/how-to-take-it/#interactions",
+      "description": "Some medicines and herbal remedies can stop the progestogen-only pill (mini pill) from working properly. Ask a doctor or pharmacist for advice.",
+      "hasPart": [
+        {
+          "@type": "WebPageElement",
+          "headline": "",
+          "text": "<p>Some medicines and herbal remedies can affect how the progestogen-only pill works. This means it may not stop you getting pregnant.</p><p>Ask a doctor or pharmacist for advice before taking the progestogen-only pill if you take medicine to treat TB (tuberculosis), epilepsy or HIV.</p><p>You should also ask for advice if you take griseofulvin (an antifungal medicine), lamotrigine (a mood stabiliser), or St John's wort (a herbal remedy).</p><p>You may need to use another type of contraception instead.</p><p>You may not be able to take the drospirenone pill if you take some types of diuretics (tablets that make you pee more) or potassium supplements.</p>"
+        }
+      ],
+      "headline": "Medicines and herbal remedies that affect the progestogen-only pill"
+    },
+    {
+      "@type": "HealthTopicContent",
+      "hasHealthAspect": "http://schema.org/SideEffectsHealthAspect",
+      "url": "https://api.service.nhs.uk/nhs-website-content/contraception/methods-of-contraception/progestogen-only-pill/side-effects-and-risks/#side-effects",
+      "description": "The progestogen-only pill (mini pill) has few side effects. It can sometimes make your periods lighter, more frequent or stop altogether.",
+      "hasPart": [
+        {
+          "@type": "WebPageElement",
+          "headline": "",
+          "text": "<p>The progestogen-only pill (mini pill) has few side effects.</p><p>The progestogen-only pill may change your periods.</p><p>It can affect periods in different ways. Your periods may be lighter, more frequent or may stop altogether. You may get some bleeding (spotting) between periods.</p><p>Some people may get acne, mood swings, weight gain or changes to sex drive (libido). But there's not enough evidence to say whether these are caused by the progestogen-only pill.</p><p>Speak to a pharmacist or doctor if you have side effects that are a problem for you.</p>"
+        }
+      ],
+      "headline": "Side effects of the progestogen-only pill"
+    },
+    {
+      "@type": "HealthTopicContent",
+      "hasHealthAspect": "http://schema.org/RisksOrComplicationsHealthAspect",
+      "url": "https://api.service.nhs.uk/nhs-website-content/contraception/methods-of-contraception/progestogen-only-pill/side-effects-and-risks/#complications",
+      "description": "Taking the progestogen-only pill may lead to ovarian cysts. These are not dangerous and often disappear without treatment.",
+      "hasPart": [
+        {
+          "@type": "WebPageElement",
+          "headline": "",
+          "text": "<p>There is a chance you could develop fluid-filled sacs on your ovaries (ovarian cysts) when taking the progestogen-only pill. These cysts are not dangerous and do not usually need to be removed.</p><p>The cysts often disappear without treatment. They do not usually cause symptoms, although you may feel pain in the lower part of your tummy (<a href=\"https://www.nhs.uk/conditions/pelvic-pain/\">pelvic pain</a>).</p><p>Find out more about <a href=\"https://www.nhs.uk/conditions/ovarian-cyst/\">ovarian cysts</a>, including symptoms and treatment.</p><p>There may be a possible link between the progestogen-only pill and breast cancer, but the evidence is limited. If there’s any increased chance of breast cancer, the risk is still very small.</p>"
+        }
+      ],
+      "headline": "Risks of the progestogen-only pill"
+    },
+    {
+      "@type": "HealthTopicContent",
+      "hasHealthAspect": "http://schema.org/GettingAccessHealthAspect",
+      "url": "https://api.service.nhs.uk/nhs-website-content/contraception/methods-of-contraception/combined-pill/where-to-get-it/#how-to-get-it",
+      "description": "You can get the combined pill free on the NHS from sexual health clinics, GP surgeries and young people's services.",
+      "hasPart": [
+        {
+          "@type": "WebPageElement",
+          "headline": "",
+          "text": "<p>Contraception services are free and confidential on the NHS.</p><p>You can get the combined pill from:</p><ul><li>sexual health clinics, also called family planning or contraception clinics</li><li>GP surgeries</li><li>some pharmacies</li><li>some young people's services (call the national sexual health helpline on 0300 123 7123 for more information) </li></ul>"
+        },
+        {
+          "potentialAction": {
+            "@type": "ViewAction",
+            "target": "https://www.nhs.uk/service-search/other-health-services/contraception-information-and-advice/",
+            "name": "Find contraception information and advice services"
+          }
+        },
+        {
+          "@type": "WebPageElement",
+          "headline": "",
+          "text": "<p>A pharmacist may be able to supply the combined pill for free without a prescription. Speak to a pharmacist for advice. </p>"
+        },
+        {
+          "potentialAction": {
+            "@type": "ViewAction",
+            "target": "https://api.service.nhs.uk/nhs-website-content/nhs-services/pharmacies/find-a-pharmacy-offering-contraceptive-pill-without-prescription/",
+            "name": "Find a pharmacy that offers the contraceptive pill without a prescription"
+          }
+        }
+      ],
+      "headline": "Where can I get the combined pill?"
+    },
+    {
+      "@type": "HealthTopicContent",
+      "hasHealthAspect": "http://schema.org/SuitabilityHealthAspect",
+      "url": "https://api.service.nhs.uk/nhs-website-content/contraception/methods-of-contraception/combined-pill/who-can-take-it/#who-its-for",
+      "description": "The combined pill is not suitable for everyone. Ask a doctor, nurse or pharmacist whether it’s suitable for you. It’s safe to take if breastfeeding.",
+      "hasPart": [
+        {
+          "@type": "WebPageElement",
+          "headline": "",
+          "text": "<p>The combined contraceptive pill (also called the pill) is not suitable for everyone.</p><p>You may not be able to take it if you’re living with obesity, or you’re aged 35 or over and you smoke.</p><p>The pill may not be suitable if you have ever had:</p><ul><li><a href=\"https://www.nhs.uk/conditions/blood-clots/\">blood clots</a>, or a family member had blood clots under the age of 45</li><li>narrowed or blocked arteries, or a stroke</li><li>a heart problem, heart disease, or high blood pressure</li><li><a href=\"https://www.nhs.uk/conditions/migraine/\">migraines</a> with warning signs called aura</li><li>breast cancer</li><li>gallbladder or bile duct problems</li><li>liver cancer or severe <a href=\"https://www.nhs.uk/conditions/cirrhosis/\">cirrhosis</a></li><li>complications due to <a href=\"https://www.nhs.uk/conditions/diabetes/\">diabetes</a></li></ul><p>If any of these apply to you, talk to a doctor, nurse or pharmacist about whether it’s safe for you to take the pill.</p><h3><b>Taking the combined pill for acne and heavy or painful periods</b></h3><p>Taking the combined pill usually makes your periods regular, lighter and less painful.</p><p>The pill may also help the symptoms of:</p><ul><li><a href=\"https://www.nhs.uk/conditions/pre-menstrual-syndrome/\">premenstrual syndrome (PMS)</a></li><li><a href=\"https://www.nhs.uk/conditions/endometriosis/\">endometriosis</a></li><li><a href=\"https://www.nhs.uk/conditions/polycystic-ovary-syndrome-pcos/\">polycystic ovary syndrome</a> (PCOS)</li><li>severe <a href=\"https://www.nhs.uk/conditions/acne/\">acne</a></li></ul><p>If you have painful or heavy periods, or problem acne, ask a GP or pharmacist whether the pill could help with your symptoms.</p><h3>Taking the combined pill after birth or when breastfeeding</h3><p>If you have just had a baby and are not breastfeeding, you can usually start the pill on day 21 after the birth, but check with a midwife, health visitor, doctor, nurse or pharmacist first. You’ll need to use another type of contraception, such as condoms, for 7 days after you start taking the pill.</p><p>If you’re breastfeeding, you should wait 6 weeks after giving birth before you start taking the pill. You’ll need to use a different method of contraception, such as condoms, until then and for 7 days after you start taking the pill.</p><h3>Taking the combined pill after a miscarriage or abortion</h3><p>If you’re less than 24 weeks pregnant and have a miscarriage or abortion, you can start taking the pill straight away. If you start taking it within 5 days you’ll be protected from pregnancy immediately.</p><p>If you start the pill more than 5 days after a miscarriage or abortion, use another type of contraception, such as condoms, until you’ve taken the pill for 7 days.</p><p>If you’re more than 24 weeks pregnant and have a miscarriage, you can usually start the pill on day 21 after the miscarriage. Use another type of contraception, such as condoms, for 7 days after you start taking the pill.</p>"
+        }
+      ],
+      "headline": "Can I take the combined pill?"
+    },
+    {
+      "@type": "HealthTopicContent",
+      "hasHealthAspect": "http://schema.org/UsageOrScheduleHealthAspect",
+      "url": "https://api.service.nhs.uk/nhs-website-content/contraception/methods-of-contraception/combined-pill/how-to-take-it/#how-its-used-previously-dosage-and-administration",
+      "description": "There are 2 main types of combined pill that you take in different ways. Check the leaflet or ask a doctor, nurse or pharmacist for advice.",
+      "hasPart": [
+        {
+          "@type": "WebPageElement",
+          "headline": "",
+          "text": "<p>There are 2 main types of combined pill (also called the pill).</p><h3>Everyday (ED) pill</h3><p>You take the everyday (ED) pill every day.</p><p>Each packet comes with 7 dummy pills that do not contain any hormones. These are a different colour to the active pills.</p><h3>21-day pill</h3><p>You take the 21-day pill for 21 days, then have a break (not taking a pill) for 7 days.</p><p>Sometimes a doctor may recommend taking the 21-day pill with a shorter break of 4 days (tailored regime) or without a break (continuous regime).</p>"
+        },
+        {
+          "@type": "WebPageElement",
+          "headline": "Information",
+          "text": "<p>For more information, check the leaflet that comes with your pills, or speak to a doctor, nurse or pharmacist.</p>"
+        },
+        {
+          "@type": "WebPageElement",
+          "headline": "",
+          "text": "<p>With both types of pill, you’ll usually have bleeding like a period when you take the dummy pills or have the 7-day break.</p>"
+        }
+      ],
+      "headline": "Taking different types of combined pill"
+    },
+    {
+      "@type": "HealthTopicContent",
+      "hasHealthAspect": "http://schema.org/EffectivenessHealthAspect",
+      "url": "https://api.service.nhs.uk/nhs-website-content/contraception/methods-of-contraception/combined-pill/how-to-take-it/#effectiveness",
+      "description": "If taken correctly, the combined pill is more than 99% effective at preventing pregnancy.",
+      "hasPart": [
+        {
+          "@type": "WebPageElement",
+          "headline": "",
+          "text": "<p>You need to take the combined pill at the same time every day for it to work properly.</p><p>When used correctly all the time, the pill is more than 99% effective.</p><p>If not used correctly, it’s 91% effective and about 9 in 100 women will get pregnant in a year. This is because things can go wrong, for example you might forget to take a pill.</p>"
+        }
+      ],
+      "headline": "How well the combined pill works"
+    },
+    {
+      "@type": "HealthTopicContent",
+      "hasHealthAspect": "http://schema.org/InteractionsHealthAspect",
+      "url": "https://api.service.nhs.uk/nhs-website-content/contraception/methods-of-contraception/combined-pill/how-to-take-it/#interactions",
+      "description": "Some medicines and herbal remedies can stop the combined pill from working properly. Ask a doctor or pharmacist for advice.",
+      "hasPart": [
+        {
+          "@type": "WebPageElement",
+          "headline": "",
+          "text": "<p>Some medicines and herbal remedies can affect how the combined pill works. The pill may not work properly to stop you getting pregnant.</p><p>Ask a doctor or pharmacist for advice before taking the pill if you take medicine to treat TB (tuberculosis), epilepsy or HIV.</p><p>You should also ask for advice if you take griseofulvin (an antifungal medicine), lamotrigine (a mood stabiliser), or St John's wort (a herbal remedy).</p><p>You may need to use another type of contraception.</p>"
+        }
+      ],
+      "headline": "Medicines and herbal remedies that affect the combined pill"
+    },
+    {
+      "@type": "HealthTopicContent",
+      "hasHealthAspect": "http://schema.org/SideEffectsHealthAspect",
+      "url": "https://api.service.nhs.uk/nhs-website-content/contraception/methods-of-contraception/combined-pill/side-effects/#side-effects",
+      "description": "Taking the combined pill can change your periods and some people get bleeding between periods. For others it can improve PMS (premenstrual syndrome).",
+      "hasPart": [
+        {
+          "@type": "WebPageElement",
+          "headline": "",
+          "text": "<p>You may have some side effects when you first start taking the combined contraceptive pill (also called the pill).</p><p>Bleeding between periods (breakthrough bleeding) or changes to your periods are common in the first few months.</p><p>Taking the pill can cause high blood pressure in a small number of people.</p><p>Some people report headaches, feeling sick or dizzy, and sore breasts. But there is not enough evidence to say whether this is caused by taking the pill.</p><p>For some people the pill improves period pain and other symptoms linked to periods, such as headaches.</p><p>There is no evidence that taking the pill makes you put on weight or changes your sex drive.</p><p>If you still have side effects after 3 months and they’re a problem for you, speak to a pharmacist or doctor. It may help to change to a different pill.</p>"
+        }
+      ],
+      "headline": "Common side effects of the combined pill"
+    },
+    {
+      "@type": "HealthTopicContent",
+      "hasHealthAspect": "http://schema.org/RisksOrComplicationsHealthAspect",
+      "url": "https://api.service.nhs.uk/nhs-website-content/contraception/methods-of-contraception/combined-pill/side-effects/#complications",
+      "description": "The combined pill is linked to a very small risk of problems like blood clots. A healthcare professional will check your risk before prescribing it.",
+      "hasPart": [
+        {
+          "@type": "WebPageElement",
+          "headline": "",
+          "text": "<p>There are some other problems linked to taking the combined pill. But the chance of getting these is small.</p><h3>Blood clots</h3><p>The risk of getting a blood clot is very small and affects up to 1 in 1,000 people using combined hormonal contraception like the pill.</p><p>A doctor, nurse or pharmacist will check if you have certain risk factors before prescribing the pill.</p><p>There is a potential risk of:</p><ul><li>a blood clot in your leg or lung</li><li>a blood clot causing a <a href=\"https://www.nhs.uk/conditions/heart-attack/\">heart attack</a></li><li>a blood clot causing a <a href=\"https://www.nhs.uk/conditions/stroke/\">stroke</a></li></ul><p>Find out more about <a href=\"https://www.nhs.uk/conditions/blood-clots/\">blood clots</a>, including symptoms and when to get help.</p><h3>Cancer</h3><p>Taking the pill can slightly increase your risk of getting:</p><ul><li><a href=\"https://www.nhs.uk/conditions/breast-cancer/\">breast cancer</a></li><li><a href=\"https://www.nhs.uk/conditions/cervical-cancer/\">cervical cancer</a></li></ul><p>But your risk of breast cancer and cervical cancer goes back to normal 10 years after you stop taking the pill.</p><p>Taking the pill can also lower your risk of getting:</p><ul><li><a href=\"https://www.nhs.uk/conditions/womb-cancer/\">womb (uterus) cancer</a></li><li><a href=\"https://www.nhs.uk/conditions/ovarian-cancer/\">ovarian cancer</a></li><li><a href=\"https://www.nhs.uk/conditions/bowel-cancer/\">bowel cancer</a></li></ul>"
+        }
+      ],
+      "headline": "Risks of the combined pill"
+    },
+    {
+      "@type": "HealthTopicContent",
+      "hasHealthAspect": "http://schema.org/SuitabilityHealthAspect",
+      "url": "https://api.service.nhs.uk/nhs-website-content/contraception/methods-of-contraception/female-sterilisation/find-out-about-it/#who-its-for",
+      "description": "Female sterilisation may be suitable if you already have children and do not want any more, or you do not want to have children.",
+      "hasPart": [
+        {
+          "@type": "WebPageElement",
+          "headline": "",
+          "text": "<p>Female sterilisation is a permanent type of contraception.</p><p>It may be suitable if:</p><ul><li>you already have children and do not want any more</li><li>you do not want to have children</li></ul><p>Other types of long-term contraception are usually offered first because they are not permanent.</p>"
+        }
+      ],
+      "headline": "Who can have a female sterilisation"
+    },
+    {
+      "@type": "HealthTopicContent",
+      "hasHealthAspect": "http://schema.org/EffectivenessHealthAspect",
+      "url": "https://api.service.nhs.uk/nhs-website-content/contraception/methods-of-contraception/female-sterilisation/find-out-about-it/#effectiveness",
+      "description": "Female sterilisation is more than 99% effective at preventing pregnancy.",
+      "hasPart": [
+        {
+          "@type": "WebPageElement",
+          "headline": "",
+          "text": "<p>Female sterilisation is more than 99% effective at preventing pregnancy.</p><p>It’s one of the most effective types of contraception, but rarely it’s possible for the operation not to work.</p>"
+        }
+      ],
+      "headline": "How well does female sterilisation work?"
+    },
+    {
+      "@type": "HealthTopicContent",
+      "hasHealthAspect": "http://schema.org/GettingAccessHealthAspect",
+      "url": "https://api.service.nhs.uk/nhs-website-content/contraception/methods-of-contraception/female-sterilisation/find-out-about-it/#how-to-get-it",
+      "description": "Make an appointment at your GP surgery or a sexual health clinic if you’re thinking about having a sterilisation.",
+      "hasPart": [
+        {
+          "@type": "WebPageElement",
+          "headline": "",
+          "text": "<p>Contraception services are free and confidential on the NHS. This includes female sterilisation.</p><p>Make an appointment at your GP surgery or a sexual health clinic if you’re thinking about having a sterilisation.</p><p>A nurse or doctor will explain what’s involved, the different options available, the possible risks and answer any questions.</p><p>You should be offered counselling to help you decide whether you want to have a sterilisation. You may also want to discuss it with your partner, if you have one. </p><p>If female sterilisation is right for you, you’ll be referred to a hospital for surgery.</p>"
+        },
+        {
+          "potentialAction": {
+            "@type": "ViewAction",
+            "target": "https://www.nhs.uk/service-search/other-health-services/contraception-information-and-advice/",
+            "name": "Find contraception advice and information services"
+          }
+        }
+      ],
+      "headline": "How to ask for a sterilisation"
+    },
+    {
+      "@type": "HealthTopicContent",
+      "hasHealthAspect": "http://schema.org/PreparationHealthAspect",
+      "url": "https://api.service.nhs.uk/nhs-website-content/contraception/methods-of-contraception/female-sterilisation/preparation/#preparation",
+      "description": "Before a female sterilisation the hospital will give you instructions about what you need to do, including preparing to have a general anaesthetic.",
+      "hasPart": [
+        {
+          "@type": "WebPageElement",
+          "headline": "",
+          "text": "<p>Some time before the surgery, you’ll have a pre-assessment appointment at the hospital. This is to check your health and discuss what will happen during the operation.</p><p>You should keep using your usual contraception right up to the day of your operation.</p><p>If you're having a general anaesthetic, you'll get instructions about not eating or drinking before the operation.</p><h2>If you're pregnant</h2><p>It’s possible to be sterilised at the same time as having a <a href=\"https://www.nhs.uk/conditions/caesarean-section/\">caesarean section</a> or an abortion, but you're usually recommended to wait several weeks between the procedures.</p>"
+        }
+      ],
+      "headline": "How to prepare for sterilisation"
+    },
+    {
+      "@type": "HealthTopicContent",
+      "hasHealthAspect": "http://schema.org/WhatHappensHealthAspect",
+      "url": "https://api.service.nhs.uk/nhs-website-content/contraception/methods-of-contraception/female-sterilisation/what-happens/#what-happens",
+      "description": "Female sterilisation is done in hospital, usually using keyhole surgery. The procedure takes about 20 to 30 minutes.",
+      "hasPart": [
+        {
+          "@type": "WebPageElement",
+          "headline": "",
+          "text": "<p>Female sterilisation is done in hospital. You'll usually have <a href=\"https://www.nhs.uk/conditions/general-anaesthesia/\">general anaesthetic</a> so that you are asleep during the operation.</p><p>You’ll have a pregnancy test on the day to make sure you're not pregnant.</p><p>The operation is usually done using keyhole surgery (<a href=\"https://www.nhs.uk/conditions/laparoscopy/\">laparoscopy</a>) and takes 20 to 30 minutes.</p><p>The doctor will:</p><ul><li>make 2 or 3 small cuts in your abdomen, near your belly button</li><li>put gas into your abdomen, to make it easier to see your organs</li><li>use a long, thin tube with a camera (laparoscope) to reach your fallopian tubes</li><li>block your fallopian tubes, or remove part of the tubes and seal them</li><li>close the cut in your abdomen using surgical glue or dissolvable stitches</li></ul><p>If keyhole surgery (laparoscopy) is not possible, the doctor can make a slightly larger cut. This is called a mini-laparotomy.</p>"
+        }
+      ],
+      "headline": "How female sterilisation is done"
+    },
+    {
+      "@type": "HealthTopicContent",
+      "hasHealthAspect": "http://schema.org/PrognosisHealthAspect",
+      "url": "https://api.service.nhs.uk/nhs-website-content/contraception/methods-of-contraception/female-sterilisation/recovery/#recovery",
+      "description": "It's common to have some abdominal pain after female sterilisation. Taking ibuprofen or paracetamol should help.",
+      "hasPart": [
+        {
+          "@type": "WebPageElement",
+          "headline": "",
+          "text": "<p>You may have some tummy pain and light bleeding from your vagina for few days after female sterilisation.</p><p>Before you leave the hospital, a doctor or nurse will tell you how to look after your wound and give you advice on which painkillers you can take.</p><p>They'll also give you information about how soon you can get back to your everyday activities.</p><p>This can take longer if you've had a mini-laparotomy rather than keyhole surgery (<a href=\"https://www.nhs.uk/conditions/laparoscopy/\">laparoscopy</a>). This is because it involves larger cuts to your tummy.</p>"
+        },
+        {
+          "@type": "WebPageElement",
+          "headline": "Do",
+          "text": "<ul><li><p>stay off work for about 7 days (2 to 4 weeks after a mini-laparotomy)</p></li><li><p>keep your wound clean, following the instructions from the doctor or nurse</p></li><li><p>take ibuprofen or paracetamol to ease any tummy pain</p></li><li><p>put a covered hot water bottle on your tummy for bloating or trapped wind</p></li><li><p>use sanitary pads if you have any light bleeding</p></li></ul>"
+        },
+        {
+          "@type": "WebPageElement",
+          "headline": "Don't",
+          "text": "<ul><li><p>do not lift heavy objects or take part in exercise or sport for 7 days (4 to 6 weeks after a mini-laparotomy)</p></li><li><p>do not drive until you can wear a seat belt and do an emergency stop without any tummy pain (up to 6 weeks after a mini-laparotomy)</p></li><li><p>do not to have sex for at least 7 days after the procedure</p></li><li><p>do not use tampons for light bleeding after the procedure</p></li></ul>"
+        }
+      ],
+      "headline": "Recovering at home after a sterilisation"
+    },
+    {
+      "@type": "HealthTopicContent",
+      "hasHealthAspect": "http://schema.org/RisksOrComplicationsHealthAspect",
+      "url": "https://api.service.nhs.uk/nhs-website-content/contraception/methods-of-contraception/female-sterilisation/complications/#complications",
+      "description": "After female sterilisation there is a small risk of problems such as blood clots, infection or ectopic pregnancy.",
+      "hasPart": [
+        {
+          "@type": "WebPageElement",
+          "headline": "",
+          "text": "<p>Female sterilisation is usually a very safe procedure. But, as with any operation, there are risks. Your doctor will explain these to you.</p><p>Most people who have a sterilisation have no complications. If there are any, they are usually minor and can be treated.</p><p>There is a small risk of serious complications, including blood clots, infection or ectopic pregnancy.  </p><h3>Blood clots or DVT (deep vein thrombosis)</h3><p><a href=\"https://www.nhs.uk/conditions/blood-clots/\">Blood clots</a> or <a href=\"https://www.nhs.uk/conditions/deep-vein-thrombosis-dvt/\">DVT (deep vein thrombosis)</a> are possible because of how the blood flows and clots after surgery.</p><p>A blood clot that forms in the leg can sometimes travel to your lungs (<a href=\"https://www.nhs.uk/conditions/pulmonary-embolism/\">pulmonary embolism</a>). This can cause serious complications.</p><p>To reduce the If your doctor thinks you’re at risk of getting blood clots they might suggest wearing compression stockings or taking <a href=\"https://www.nhs.uk/conditions/anticoagulants/\">anticoagulant medicines</a>.</p><h3>Wound infection or urinary tract infection (UTI)</h3><p>There's a small chance that your wound could get infected after the operation, or you could get a <a href=\"https://www.nhs.uk/conditions/urinary-tract-infections-utis/\">UTI</a>. This is usually treated with antibiotics.</p><h3>Damage to a nerve, artery or organ</h3><p>During the operation itself, there’s a small chance of damaging an organ such as your bowel or bladder, or a major blood vessel (artery) or nerve. The surgical team will usually repair this during surgery.</p><h3>Ectopic pregnancy</h3><p>If the sterilisation has not worked, you can get pregnant. If this happens, there’s a higher chance of having an <a href=\"https://www.nhs.uk/conditions/ectopic-pregnancy/\">ectopic pregnancy</a>.</p>"
+        }
+      ],
+      "headline": "Possible complications of female sterilisation"
+    },
+    {
+      "@type": "HealthTopicContent",
+      "hasHealthAspect": "http://schema.org/MedicalHelpUrgentHealthAspect",
+      "url": "https://api.service.nhs.uk/nhs-website-content/contraception/methods-of-contraception/female-sterilisation/complications/#urgent-medical-help",
+      "description": "",
+      "hasPart": [
+        {
+          "@type": "WebPageElement",
+          "identifier": "urgent",
+          "headline": "Ask for an urgent GP appointment or get help from NHS 111 if:",
+          "text": "<p>\n You’ve recently been sterilised and:\n</p>\n<ul>\n<li>\n  you have a high temperature or feel shivery\n </li>\n<li>\n  your wound is swollen and painful, or leaking blood or pus\n </li>\n<li>\n  one of your legs is swollen, throbbing and warm to the touch\n </li>\n<li>\n  you need to pee frequently or there's burning or stinging when you pee\n </li>\n<li>\n  you have abdominal pain and you're vomiting or have lost your appetite\n </li>\n<li>\n  you have difficulty breathing which comes on suddenly\n </li>\n<li>\n  you're coughing up blood\n </li>\n</ul>\n<p>\n You can call 111 or\n <a href=\"https://111.nhs.uk/triage/check-your-symptoms/\">\n  get help from 111 online\n </a>\n .\n</p>\n"
+        }
+      ],
+      "headline": ""
+    },
+    {
+      "@type": "HealthTopicContent",
+      "hasHealthAspect": "http://schema.org/MedicalHelpEmergencyHealthAspect",
+      "url": "https://api.service.nhs.uk/nhs-website-content/contraception/methods-of-contraception/female-sterilisation/complications/#emergency-medical-help",
+      "description": "",
+      "hasPart": [
+        {
+          "@type": "WebPageElement",
+          "identifier": "immediate",
+          "headline": "Call 999 or go to A&E if:",
+          "text": "<ul>\n<li>\n  you have severe difficulty breathing\n </li>\n<li>\n  you feel pain in your chest or upper back\n </li>\n<li>\n  your heart is beating very fast\n </li>\n</ul>\n<p>\n These could be signs of a pulmonary embolism or another serious condition.\n</p>\n<div class=\"block-action_link\">\n<div class=\"nhsuk-action-link\">\n<a class=\"nhsuk-action-link__link\" href=\"https://www.nhs.uk/service-search/other-services/Accident-and-emergency-services/LocationSearch/428/\">\n<svg aria-hidden=\"true\" class=\"nhsuk-icon nhsuk-icon__arrow-right-circle\" height=\"36\" viewbox=\"0 0 24 24\" width=\"36\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M0 0h24v24H0z\" fill=\"none\">\n</path>\n<path d=\"M12 2a10 10 0 0 0-9.95 9h11.64L9.74 7.05a1 1 0 0 1 1.41-1.41l5.66 5.65a1 1 0 0 1 0 1.42l-5.66 5.65a1 1 0 0 1-1.41 0 1 1 0 0 1 0-1.41L13.69 13H2.05A10 10 0 1 0 12 2z\">\n</path>\n</svg>\n<span class=\"nhsuk-action-link__text\">\n    Find your nearest A&amp;E\n   </span>\n</a>\n</div>\n</div>"
+        }
+      ],
+      "headline": ""
+    },
+    {
+      "@type": "HealthTopicContent",
+      "hasHealthAspect": "http://schema.org/SideEffectsHealthAspect",
+      "url": "https://api.service.nhs.uk/nhs-website-content/contraception/methods-of-contraception/emergency-contraceptive-pill-morning-after-pill/side-effects/#side-effects",
+      "description": "Common side effects of the emergency contraceptive pill include headache, feeling sick and tummy pain. Serious side effects are rare.",
+      "hasPart": [
+        {
+          "@type": "WebPageElement",
+          "headline": "",
+          "text": "<p>The emergency contraceptive pill is very safe and serious side effects are rare.</p><p>Common side effects include:</p><ul><li>headache</li><li>feeling sick (nausea)</li><li>period like pain and cramping</li></ul><p>If you’re sick (vomit) within 2 hours after taking an emergency contraceptive pill, you may need to take another dose as soon as possible. Talk to a pharmacist to find out if you need another pill.</p>"
+        }
+      ],
+      "headline": "Common side effects of the emergency contraceptive pill"
+    },
+    {
+      "@type": "HealthTopicContent",
+      "hasHealthAspect": "http://schema.org/UsageOrScheduleHealthAspect",
+      "url": "https://api.service.nhs.uk/nhs-website-content/contraception/methods-of-contraception/emergency-contraceptive-pill-morning-after-pill/how-to-take-it/#how-its-used-previously-dosage-and-administration",
+      "description": "You need to take the emergency contraceptive pill within 3 days or 5 days after sex, depending on the type of pill.",
+      "hasPart": [
+        {
+          "@type": "WebPageElement",
+          "headline": "",
+          "text": "<p>You take 1 emergency contraceptive pill within 3 or 5 days after sex, depending on the type of pill.</p><p>The 2 types of pill are:</p><ul><li>pills with levonorgestrel (brands include Levonelle): you need to take this pill within 3 days (72 hours) after sex</li><li>pills with ulipristal acetate (brands include ellaOne): you need to take this pill within 5 days (120 hours) after sex</li></ul>"
+        }
+      ],
+      "headline": "How to take the emergency contraceptive pill"
+    },
+    {
+      "@type": "HealthTopicContent",
+      "hasHealthAspect": "http://schema.org/EffectivenessHealthAspect",
+      "url": "https://api.service.nhs.uk/nhs-website-content/contraception/methods-of-contraception/emergency-contraceptive-pill-morning-after-pill/how-to-take-it/#effectiveness",
+      "description": "The emergency contraceptive pill is very effective at preventing pregnancy. Only around 1 to 2 women in every 100 who take it will get pregnant.",
+      "hasPart": [
+        {
+          "@type": "WebPageElement",
+          "headline": "",
+          "text": "<p>It’s hard to know exactly how well the emergency contraceptive pill will work for you as this can depend on things like how soon you took it after sex.</p><p>Research suggests that around 1 to 2 women in every 100 who take an emergency contraceptive pill will get pregnant.</p><p>The most effective method of emergency contraception is <a href=\"https://www.nhs.uk/contraception/methods-of-contraception/iud-coil/\">the IUD (copper coil)</a>.</p>"
+        }
+      ],
+      "headline": "How well does the emergency contraceptive pill work?"
+    },
+    {
+      "@type": "HealthTopicContent",
+      "hasHealthAspect": "http://schema.org/SuitabilityHealthAspect",
+      "url": "https://api.service.nhs.uk/nhs-website-content/contraception/methods-of-contraception/emergency-contraceptive-pill-morning-after-pill/who-can-take-it/#who-its-for",
+      "description": "You should be able to take the emergency contraceptive pill even if you cannot use other hormonal contraception.",
+      "hasPart": [
+        {
+          "@type": "WebPageElement",
+          "headline": "",
+          "text": "<p>You should be able to take the emergency contraceptive pill even if you cannot use other hormonal contraception, such as the combined pill.</p><p>The emergency contraceptive pill may not be suitable for you if you need to take steroid medicines for asthma or if you are overweight.</p><p>A doctor, nurse or pharmacist can discuss with you whether the emergency contraceptive pill is suitable for you.</p><h3>Breastfeeding after taking the emergency pill</h3><p>You’ll need to pause breastfeeding after taking the emergency contraceptive pill.</p><p>How long you need to pause breastfeeding depends on which type of emergency pill you take.</p><p>Speak to a pharmacist or check the information that comes in the emergency pill pack to check how long to avoid breastfeeding.</p><p><a href=\"https://www.medicines.org.uk/emc/browse-medicines\">You can also find the information leaflet online by searching for the emergency pill’s brand name on the eMC website</a>.</p>"
+        }
+      ],
+      "headline": "Can I take the emergency contraceptive pill?"
+    },
+    {
+      "@type": "HealthTopicContent",
+      "hasHealthAspect": "http://schema.org/InteractionsHealthAspect",
+      "url": "https://api.service.nhs.uk/nhs-website-content/contraception/methods-of-contraception/emergency-contraceptive-pill-morning-after-pill/who-can-take-it/#interactions",
+      "description": "Some medicines and herbal remedies can stop the emergency contraceptive pill from working properly. Ask a doctor or pharmacist for advice.",
+      "hasPart": [
+        {
+          "@type": "WebPageElement",
+          "headline": "",
+          "text": "<p>Ask a doctor or pharmacist for advice before taking the emergency contraceptive pill if you take medicine to treat TB (tuberculosis), epilepsy or HIV.</p><p>You should also ask for advice if you take griseofulvin (an antifungal medicine), or St John's wort (a herbal remedy).</p><p>You may be advised to have an IUD fitted as emergency contraception instead of using the emergency pill.</p>"
+        }
+      ],
+      "headline": "Medicines and herbal remedies that affect the emergency contraceptive pill"
+    },
+    {
+      "@type": "HealthTopicContent",
+      "hasHealthAspect": "http://schema.org/GettingAccessHealthAspect",
+      "url": "https://api.service.nhs.uk/nhs-website-content/contraception/methods-of-contraception/emergency-contraceptive-pill-morning-after-pill/where-to-get-it/#how-to-get-it",
+      "description": "You can get the emergency contraceptive pill from sexual health clinics, GP surgeries, young people’s services and pharmacies.",
+      "hasPart": [
+        {
+          "@type": "WebPageElement",
+          "headline": "",
+          "text": "<p>You can get free emergency contraception from:</p><ul><li>most sexual health clinics, also called family planning or contraception clinics</li><li>most GP surgeries</li><li>some NHS walk-in centres</li><li>some young people’s services (call the national sexual health helpline on 0300 123 7123 for more information)</li><li>pharmacies that offer NHS emergency contraception services</li></ul><p>Many pharmacies sell the emergency contraceptive pill in their shops and online.</p>"
+        },
+        {
+          "potentialAction": {
+            "@type": "ViewAction",
+            "target": "https://www.nhs.uk/service-search/other-health-services/emergency-contraception",
+            "name": "Find emergency contraception services"
+          }
+        }
+      ],
+      "headline": "Where to get the emergency contraceptive pill"
+    }
+  ],
+  "breadcrumb": {
+    "@context": "http://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 0,
+        "item": {
+          "@id": "https://api.service.nhs.uk/nhs-website-content/contraception/",
+          "name": "Contraception",
+          "genre": [
+            "Contraception"
+          ]
+        }
+      }
+    ]
+  },
+  "headline": "Contraception",
+  "contentSubTypes": [],
+  "mainEntityOfPage": [
+    {
+      "identifier": "24",
+      "@type": "WebPageElement",
+      "name": "canonicallinks",
+      "headline": "",
+      "text": "",
+      "mainEntityOfPage": [
+        {
+          "@type": "WebPageElement",
+          "headline": "Methods of contraception",
+          "url": "https://api.service.nhs.uk/nhs-website-content/contraception/methods-of-contraception/",
+          "identifier": "26",
+          "text": "<p data-block-key=\"ymf0e\">Find out about different methods of contraception</p>",
+          "name": "link"
+        },
+        {
+          "@type": "WebPageElement",
+          "headline": "Choosing a method of contraception",
+          "url": "https://api.service.nhs.uk/nhs-website-content/contraception/choosing-contraception/",
+          "identifier": "26",
+          "text": "<p data-block-key=\"r14xe\">Things to think about, including how to use each type, side effects and how well it works</p>",
+          "name": "link"
+        },
+        {
+          "@type": "WebPageElement",
+          "headline": "Emergency contraception",
+          "url": "https://api.service.nhs.uk/nhs-website-content/contraception/emergency-contraception/",
+          "identifier": "26",
+          "text": "<p data-block-key=\"9krnc\">Where to get the emergency pill (morning after pill) or IUD</p>",
+          "name": "link"
+        },
+        {
+          "@type": "WebPageElement",
+          "headline": "Where to get contraception",
+          "url": "https://api.service.nhs.uk/nhs-website-content/contraception/where-to-get-contraception/",
+          "identifier": "26",
+          "text": "<p data-block-key=\"vz2x4\">Find out where to get all methods of contraception</p>",
+          "name": "link"
+        }
+      ]
+    }
+  ],
+  "webpage": "https://www.nhs.uk/contraception/"
+}
