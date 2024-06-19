@@ -231,7 +231,7 @@ info:
                 </svg>
               </span>
             </span>
-            <p class="nhsd-m-expander__heading nhsd-t-body">The sandbox environment includes the following 48 mocked endpoints</p>
+            <p class="nhsd-m-expander__heading nhsd-t-body">The sandbox environment includes the following 56 mocked endpoints</p>
           </div>
         </summary>
         <div class="nhsd-m-expander__content-container">
