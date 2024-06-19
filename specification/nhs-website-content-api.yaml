@@ -369,6 +369,8 @@ info:
 
     You can [submit your application/product for onboarding](https://onboarding.prod.api.platform.nhs.uk/Products) using the [Digital Onboarding Service](https://onboarding.prod.api.platform.nhs.uk/Index)
 
+    Once all your onboarding responses have been approved, we will enable the 'NHS Website Content API' for your Production application.
+
     ## Caching
     Caching of all responses from the NHS website content API is recommended, and you should do so where possible, unless otherwise notified to you by NHS Digital. The cached data should be refreshed no less than once every 7 days. If instructed to refresh cached NHS website content, you must do so immediately.
 
