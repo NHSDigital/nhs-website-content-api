@@ -9,13 +9,15 @@ info:
     This API provides content from the [NHS website](https://www.nhs.uk) as JSON, to be consumed programmatically and used by your application.
 
     You can reuse the content from the following sections of the NHS website:
-      * [Health A to Z (conditions)](https://www.nhs.uk/conditions/)
-      * [Medicines A to Z](https://www.nhs.uk/medicines/)
-      * [Mental health](https://www.nhs.uk/mental-health/)
-      * [Live Well](https://www.nhs.uk/live-well/)
-      * [Pregnancy](https://www.nhs.uk/pregnancy/)
-      * [NHS services](https://www.nhs.uk/nhs-services/)
-      * [Common health questions](https://www.nhs.uk/common-health-questions/).
+      * Health A to Z / Conditions ([Website](https://www.nhs.uk/conditions/) | [API](https://digital.nhs.uk/developer/api-catalogue/nhs-website-content/v2#get-/conditions))
+      * Medicines A to Z ([Website](https://www.nhs.uk/medicines/) | [API](https://digital.nhs.uk/developer/api-catalogue/nhs-website-content/v2#get-/medicines))
+      * Mental health ([Website](https://www.nhs.uk/mental-health/) | [API](https://digital.nhs.uk/developer/api-catalogue/nhs-website-content/v2#get-/mental-health))
+      * Live Well ([Website](https://www.nhs.uk/live-well/) | [API](https://digital.nhs.uk/developer/api-catalogue/nhs-website-content/v2#get-/live-well))
+      * Pregnancy ([Website](https://www.nhs.uk/pregnancy/) | [API](https://digital.nhs.uk/developer/api-catalogue/nhs-website-content/v2#get-/pregnancy))
+      * NHS services ([Website](https://www.nhs.uk/nhs-services/) | [API](https://digital.nhs.uk/developer/api-catalogue/nhs-website-content/v2#get-/nhs-services))
+      * Common health questions ([Website](https://www.nhs.uk/common-health-questions/) | [API](https://digital.nhs.uk/developer/api-catalogue/nhs-website-content/v2#get-/common-health-questions))
+      * Contraception ([Website](https://www.nhs.uk/contraception/) | [API](https://digital.nhs.uk/developer/api-catalogue/nhs-website-content/v2#get-/contraception))
+      * Vaccinations ([Website](https://www.nhs.uk/vaccinations/) | [API](https://digital.nhs.uk/developer/api-catalogue/nhs-website-content/v2#get-/vaccinations)).
 
     You cannot use this API to:
       * [find services near you](https://www.nhs.uk/nhs-services/services-near-you/)
