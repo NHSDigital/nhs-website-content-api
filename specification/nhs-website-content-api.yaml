@@ -9,13 +9,15 @@ info:
     This API provides content from the [NHS website](https://www.nhs.uk) as JSON, to be consumed programmatically and used by your application.
 
     You can reuse the content from the following sections of the NHS website:
-      * [Health A to Z (conditions)](https://www.nhs.uk/conditions/)
-      * [Medicines A to Z](https://www.nhs.uk/medicines/)
-      * [Mental health](https://www.nhs.uk/mental-health/)
-      * [Live Well](https://www.nhs.uk/live-well/)
-      * [Pregnancy](https://www.nhs.uk/pregnancy/)
-      * [NHS services](https://www.nhs.uk/nhs-services/)
-      * [Common health questions](https://www.nhs.uk/common-health-questions/).
+      * Health A to Z / Conditions ([Website](https://www.nhs.uk/conditions/) | [API](https://digital.nhs.uk/developer/api-catalogue/nhs-website-content/v2#get-/conditions))
+      * Medicines A to Z ([Website](https://www.nhs.uk/medicines/) | [API](https://digital.nhs.uk/developer/api-catalogue/nhs-website-content/v2#get-/medicines))
+      * Mental health ([Website](https://www.nhs.uk/mental-health/) | [API](https://digital.nhs.uk/developer/api-catalogue/nhs-website-content/v2#get-/mental-health))
+      * Live Well ([Website](https://www.nhs.uk/live-well/) | [API](https://digital.nhs.uk/developer/api-catalogue/nhs-website-content/v2#get-/live-well))
+      * Pregnancy ([Website](https://www.nhs.uk/pregnancy/) | [API](https://digital.nhs.uk/developer/api-catalogue/nhs-website-content/v2#get-/pregnancy))
+      * NHS services ([Website](https://www.nhs.uk/nhs-services/) | [API](https://digital.nhs.uk/developer/api-catalogue/nhs-website-content/v2#get-/nhs-services))
+      * Common health questions ([Website](https://www.nhs.uk/common-health-questions/) | [API](https://digital.nhs.uk/developer/api-catalogue/nhs-website-content/v2#get-/common-health-questions))
+      * Contraception ([Website](https://www.nhs.uk/contraception/) | [API](https://digital.nhs.uk/developer/api-catalogue/nhs-website-content/v2#get-/contraception))
+      * Vaccinations ([Website](https://www.nhs.uk/vaccinations/) | [API](https://digital.nhs.uk/developer/api-catalogue/nhs-website-content/v2#get-/vaccinations)).
 
     You cannot use this API to:
       * [find services near you](https://www.nhs.uk/nhs-services/services-near-you/)
@@ -229,7 +231,7 @@ info:
                 </svg>
               </span>
             </span>
-            <p class="nhsd-m-expander__heading nhsd-t-body">The sandbox environment includes the following 48 mocked endpoints</p>
+            <p class="nhsd-m-expander__heading nhsd-t-body">The sandbox environment includes the following 56 mocked endpoints</p>
           </div>
         </summary>
         <div class="nhsd-m-expander__content-container">
@@ -305,6 +307,22 @@ info:
             <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/common-health-questions/caring-carers-and-long-term-conditions/" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/common-health-questions/caring-carers-and-long-term-conditions/</a></li>
             <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/common-health-questions/childrens-health/can-my-baby-go-swimming-before-or-after-vaccinations/" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/common-health-questions/childrens-health/can-my-baby-go-swimming-before-or-after-vaccinations/</a></li>
           </ul>
+
+          <h4>Contraception</h4>
+          <ul>
+            <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/contraception/" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/contraception/</a></li>
+            <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/contraception/methods-of-contraception/" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/contraception/methods-of-contraception/</a></li>
+            <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/contraception/methods-of-contraception/combined-pill/what-is-it/" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/contraception/methods-of-contraception/combined-pill/what-is-it/</a></li>
+            <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/contraception/methods-of-contraception/condoms/" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/contraception/methods-of-contraception/condoms/</a></li>
+          </ul>
+
+          <h4>Vaccinations</h4>
+          <ul>
+            <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/vaccinations/" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/vaccinations/</a></li>
+            <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/vaccinations/nhs-vaccinations-and-when-to-have-them/" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/vaccinations/nhs-vaccinations-and-when-to-have-them/</a></li>
+            <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/vaccinations/6-in-1-vaccine/" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/vaccinations/6-in-1-vaccine/</a></li>
+            <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/vaccinations/travel-vaccinations/available-travel-vaccines/" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/vaccinations/travel-vaccinations/available-travel-vaccines/</a></li>
+          </ul>
         </div>
       </details>
     </div>
@@ -318,7 +336,7 @@ info:
     ### Integration test environment
     Our [integration test environment](https://digital.nhs.uk/developer/guides-and-documentation/testing#integration-testing):
     * is for formal integration testing
-    * includes authorisation via an API Key, which can be obtained from the [NHS Digital Onboarding Service - Developer account](https://onboarding.prod.api.platform.nhs.uk/Index)
+    * includes authorisation via an API Key, which can be obtained from the [NHS Digital Onboarding Service - Developer account](https://onboarding.prod.api.platform.nhs.uk/Index). This will be different from your Production environment API key.
     * has a restricted [rate limit](#overview--usage-caps)
 
     Here is an example cURL request, calling the integration test environment
@@ -334,7 +352,7 @@ info:
     Our production environment:
     * requires you to get your [application/product onboarded](#overview--onboarding) and approved by us
     * is to be used by your production application
-    * includes authorisation via an API Key, which can be obtained from the [NHS Digital Onboarding Service - Developer account](https://onboarding.prod.api.platform.nhs.uk/Index). This will be different from your Integration test API key.
+    * includes authorisation via an API Key, which can be obtained from the [NHS Digital Onboarding Service - Developer account](https://onboarding.prod.api.platform.nhs.uk/Index). This will be different from your Integration test environment API key.
     * has a higher [rate limit](#overview--usage-caps)
 
     Here is an example cURL request, calling the production environment
@@ -350,6 +368,8 @@ info:
     During this process you will be asked agree to the [Online connection agreement](https://digital.nhs.uk/developer/guides-and-documentation/online-connection-agreement).
 
     You can [submit your application/product for onboarding](https://onboarding.prod.api.platform.nhs.uk/Products) using the [Digital Onboarding Service](https://onboarding.prod.api.platform.nhs.uk/Index)
+
+    Once all your onboarding responses have been approved, we will enable the 'NHS Website Content API' for your Production application.
 
     ## Caching
     Caching of all responses from the NHS website content API is recommended, and you should do so where possible, unless otherwise notified to you by NHS Digital. The cached data should be refreshed no less than once every 7 days. If instructed to refresh cached NHS website content, you must do so immediately.
@@ -704,6 +724,72 @@ paths:
                 $ref: components/schemas/WebPage.json
               example:
                 $ref: components/examples/CommonHealthQuestionsHubPage.json
+        "4XX":
+          description: |
+            An error occurred as follows:
+
+            | HTTP status | Error code                 | Description |
+            | ----------- | -------------------------- | --------------------------------------------- |
+            | 401         | ACCESS_DENIED              | Api key missing, invalid or expired, or calling application not configured for this operation. |
+            | 403         | ACCESS_DENIED              | User cannot perform this action. |
+            | 404         | RESOURCE_NOT_FOUND         | Page not found. |
+            | 429         | TOO_MANY_REQUESTS          | You have exceeded your application's [rate limit](https://digital.nhs.uk/developer/guides-and-documentation/reference-guide#rate-limits). |
+  /contraception:
+    get:
+      summary: Get content from the contraception hub
+      operationId: get-contraception
+      description: |
+        ## Overview
+
+        The [contraception hub](https://www.nhs.uk/contraception/) contains a number of navigational and content pages.
+
+        The main page contains significant links to topic pages, which then contain significant links to the content pages.
+
+        Content pages use the 'question' schema.org [question](https://schema.org/Question) property.
+
+      responses:
+        "200":
+          description: |
+            A valid query for the contraception pages.
+          content:
+            application/json:
+              schema:
+                $ref: components/schemas/WebPage.json
+              example:
+                $ref: components/examples/ContraceptionHubPage.json
+        "4XX":
+          description: |
+            An error occurred as follows:
+
+            | HTTP status | Error code                 | Description |
+            | ----------- | -------------------------- | --------------------------------------------- |
+            | 401         | ACCESS_DENIED              | Api key missing, invalid or expired, or calling application not configured for this operation. |
+            | 403         | ACCESS_DENIED              | User cannot perform this action. |
+            | 404         | RESOURCE_NOT_FOUND         | Page not found. |
+            | 429         | TOO_MANY_REQUESTS          | You have exceeded your application's [rate limit](https://digital.nhs.uk/developer/guides-and-documentation/reference-guide#rate-limits). |
+  /vaccinations:
+    get:
+      summary: Get content from the vaccinations hub
+      operationId: get-vaccinations
+      description: |
+        ## Overview
+
+        The [vaccinations hub](https://www.nhs.uk/vaccinations/) contains a number of navigational and content pages.
+
+        The main page contains significant links to topic pages, which then contain significant links to the content pages.
+
+        Content pages use the 'question' schema.org [question](https://schema.org/Question) property.
+
+      responses:
+        "200":
+          description: |
+            A valid query for the vaccinations pages.
+          content:
+            application/json:
+              schema:
+                $ref: components/schemas/WebPage.json
+              example:
+                $ref: components/examples/VaccinationsHubPage.json
         "4XX":
           description: |
             An error occurred as follows:

@@ -204,6 +204,22 @@ app.all('/pregnancy/finding-out/finding-out-you-are-pregnant/', handlers.pregnan
 app.all('/pregnancy/having-a-baby-if-you-are-lgbt-plus/', handlers.pregnancyHavingABabyIfYouAreLgbtPlus)
 app.all('/pregnancy/trying-for-a-baby/', handlers.pregnancyTryingForABaby)
 
+// ******************************************************************
+// ** Contraception pages
+// ******************************************************************
+app.all('/contraception/', handlers.contraceptionRoot)
+app.all('/contraception/methods-of-contraception/', handlers.contraceptionMethodsOfContraception)
+app.all('/contraception/methods-of-contraception/combined-pill/what-is-it/', handlers.contraceptionWhatIsTheCombinedPill)
+app.all('/contraception/methods-of-contraception/condoms/', handlers.contraceptionCondoms)
+
+// ******************************************************************
+// ** Vaccinations pages
+// ******************************************************************
+app.all('/vaccinations/', handlers.vaccinationsRoot)
+app.all('/vaccinations/nhs-vaccinations-and-when-to-have-them/', handlers.vaccinationsNhsVaccinationsAndWhenToHaveThem)
+app.all('/vaccinations/6-in-1-vaccine/', handlers.vaccinations6in1Vaccine)
+app.all('/vaccinations/travel-vaccinations/available-travel-vaccines/', handlers.vaccinationsAvailableTravelVaccines)
+
 app.use((req, res, next) => {
   res.status(404).json(errorResourceNotFoundResponse)
 })

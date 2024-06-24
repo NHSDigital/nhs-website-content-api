@@ -2,221 +2,155 @@
 ** Root pages                                                                                                  **
 *****************************************************************************************************************
 
-curl -X GET 'https://int.api.service.nhs.uk/nhs-website-content/common-health-questions/' \
-  -H 'Content-Type: application/json' \
-  -H 'apikey: XW7DGCVQzO0yPKdPbRXeqITzbdJ1jNh8' --> ./responses/common-health-questions-root-no-params.json
+curl -X GET 'https://api.service.nhs.uk/nhs-website-content/common-health-questions/' -H 'apikey: Oq5LuCPc5X69KFlIw6P7TVYrrJHSceX8' >> ./responses/common-health-questions-root-no-params.json
 
-curl -X GET 'https://int.api.service.nhs.uk/nhs-website-content/conditions/' \
-  -H 'Content-Type: application/json' \
-  -H 'apikey: XW7DGCVQzO0yPKdPbRXeqITzbdJ1jNh8' --> ./responses/conditions-no-params.json
+curl -X GET 'https://api.service.nhs.uk/nhs-website-content/conditions/' -H 'apikey: Oq5LuCPc5X69KFlIw6P7TVYrrJHSceX8' >> ./responses/conditions-no-params.json
 
-curl -X GET 'https://int.api.service.nhs.uk/nhs-website-content/live-well/' \
-  -H 'Content-Type: application/json' \
-  -H 'apikey: XW7DGCVQzO0yPKdPbRXeqITzbdJ1jNh8' --> ./responses/live-well-root-no-params.json
+curl -X GET 'https://api.service.nhs.uk/nhs-website-content/live-well/' -H 'apikey: Oq5LuCPc5X69KFlIw6P7TVYrrJHSceX8' >> ./responses/live-well-root-no-params.json
 
-curl -X GET 'https://int.api.service.nhs.uk/nhs-website-content/medicines/' \
-  -H 'Content-Type: application/json' \
-  -H 'apikey: XW7DGCVQzO0yPKdPbRXeqITzbdJ1jNh8' --> ./responses/medicines-root-no-params.json
+curl -X GET 'https://api.service.nhs.uk/nhs-website-content/medicines/' -H 'apikey: Oq5LuCPc5X69KFlIw6P7TVYrrJHSceX8' >> ./responses/medicines-root-no-params.json
 
-curl -X GET 'https://api.service.nhs.uk/nhs-website-content/mental-health/' \
-  -H 'Content-Type: application/json' \
-  -H 'apikey: XW7DGCVQzO0yPKdPbRXeqITzbdJ1jNh8' --> ./responses/mental-health-root-no-params.json
+curl -X GET 'https://api.service.nhs.uk/nhs-website-content/mental-health/' -H 'apikey: Oq5LuCPc5X69KFlIw6P7TVYrrJHSceX8' >> ./responses/mental-health-root-no-params.json
 
-curl -X GET 'https://int.api.service.nhs.uk/nhs-website-content/nhs-services/' \
-  -H 'Content-Type: application/json' \
-  -H 'apikey: XW7DGCVQzO0yPKdPbRXeqITzbdJ1jNh8' --> ./responses/nhs-services-root-no-params.json
+curl -X GET 'https://api.service.nhs.uk/nhs-website-content/nhs-services/' -H 'apikey: Oq5LuCPc5X69KFlIw6P7TVYrrJHSceX8' >> ./responses/nhs-services-root-no-params.json
 
-curl -X GET 'https://int.api.service.nhs.uk/nhs-website-content/pregnancy/' \
-  -H 'Content-Type: application/json' \
-  -H 'apikey: XW7DGCVQzO0yPKdPbRXeqITzbdJ1jNh8' --> ./responses/pregnancy-root-no-params.json
+curl -X GET 'https://api.service.nhs.uk/nhs-website-content/pregnancy/' -H 'apikey: Oq5LuCPc5X69KFlIw6P7TVYrrJHSceX8' >> ./responses/pregnancy-root-no-params.json
+
+curl -X GET 'https://api.service.nhs.uk/nhs-website-content/contraception/' -H 'apikey: Oq5LuCPc5X69KFlIw6P7TVYrrJHSceX8' >> ./responses/contraception-root-no-params.json
+
+curl -X GET 'https://api.service.nhs.uk/nhs-website-content/vaccinations/' -H 'apikey: Oq5LuCPc5X69KFlIw6P7TVYrrJHSceX8' >> ./responses/vaccinations-root-no-params.json
 
 
 *****************************************************************************************************************
 ** Common Health Questions pages                                                                               **
 *****************************************************************************************************************
 
-curl -X GET 'https://int.api.service.nhs.uk/nhs-website-content/common-health-questions/accidents-first-aid-and-treatments/' \
-  -H 'Content-Type: application/json' \
-  -H 'apikey: XW7DGCVQzO0yPKdPbRXeqITzbdJ1jNh8' --> ./responses/common-health-questions-accidents-first-aid-and-treatments-no-params.json
+curl -X GET 'https://api.service.nhs.uk/nhs-website-content/common-health-questions/accidents-first-aid-and-treatments/' -H 'apikey: Oq5LuCPc5X69KFlIw6P7TVYrrJHSceX8' >> ./responses/common-health-questions-accidents-first-aid-and-treatments-no-params.json
 
-curl -X GET 'https://int.api.service.nhs.uk/nhs-website-content/common-health-questions/caring-carers-and-long-term-conditions/' \
-  -H 'Content-Type: application/json' \
-  -H 'apikey: XW7DGCVQzO0yPKdPbRXeqITzbdJ1jNh8' --> ./responses/common-health-questions-caring-carers-and-long-term-conditions-no-params.json
+curl -X GET 'https://api.service.nhs.uk/nhs-website-content/common-health-questions/caring-carers-and-long-term-conditions/' -H 'apikey: Oq5LuCPc5X69KFlIw6P7TVYrrJHSceX8' >> ./responses/common-health-questions-caring-carers-and-long-term-conditions-no-params.json
 
-curl -X GET 'https://int.api.service.nhs.uk/nhs-website-content/common-health-questions/childrens-health/can-my-baby-go-swimming-before-or-after-vaccinations/' \
-  -H 'Content-Type: application/json' \
-  -H 'apikey: XW7DGCVQzO0yPKdPbRXeqITzbdJ1jNh8' --> ./responses/common-health-questions-childrens-health-can-my-baby-go-swimming-before-or-after-vaccinations-no-params.json
+curl -X GET 'https://api.service.nhs.uk/nhs-website-content/common-health-questions/childrens-health/can-my-baby-go-swimming-before-or-after-vaccinations/' -H 'apikey: Oq5LuCPc5X69KFlIw6P7TVYrrJHSceX8' >> ./responses/common-health-questions-childrens-health-can-my-baby-go-swimming-before-or-after-vaccinations-no-params.json
 
 
 *****************************************************************************************************************
 ** Conditions pages                                                                                            **
 *****************************************************************************************************************
 
-curl -X GET 'https://int.api.service.nhs.uk/nhs-website-content/conditions/acanthosis-nigricans/' \
-  -H 'Content-Type: application/json' \
-  -H 'apikey: XW7DGCVQzO0yPKdPbRXeqITzbdJ1jNh8' --> ./responses/conditions-acanthosis-nigricans-no-params.json
+curl -X GET 'https://api.service.nhs.uk/nhs-website-content/conditions/acanthosis-nigricans/' -H 'apikey: Oq5LuCPc5X69KFlIw6P7TVYrrJHSceX8' >> ./responses/conditions-acanthosis-nigricans-no-params.json
 
-curl -X GET 'https://int.api.service.nhs.uk/nhs-website-content/conditions/achalasia/' \
-  -H 'Content-Type: application/json' \
-  -H 'apikey: XW7DGCVQzO0yPKdPbRXeqITzbdJ1jNh8' --> ./responses/conditions-achalasia-no-params.json
+curl -X GET 'https://api.service.nhs.uk/nhs-website-content/conditions/achalasia/' -H 'apikey: Oq5LuCPc5X69KFlIw6P7TVYrrJHSceX8' >> ./responses/conditions-achalasia-no-params.json
 
-curl -X GET 'https://int.api.service.nhs.uk/nhs-website-content/conditions/acne/' \
-  -H 'Content-Type: application/json' \
-  -H 'apikey: XW7DGCVQzO0yPKdPbRXeqITzbdJ1jNh8' --> ./responses/conditions-acne-no-params.json
+curl -X GET 'https://api.service.nhs.uk/nhs-website-content/conditions/acne/' -H 'apikey: Oq5LuCPc5X69KFlIw6P7TVYrrJHSceX8' >> ./responses/conditions-acne-no-params.json
 
-curl -X GET 'https://int.api.service.nhs.uk/nhs-website-content/conditions/acne/?modules=true' \
-  -H 'Content-Type: application/json' \
-  -H 'apikey: XW7DGCVQzO0yPKdPbRXeqITzbdJ1jNh8' --> ./responses/conditions-acne-modules-true.json
+curl -X GET 'https://api.service.nhs.uk/nhs-website-content/conditions/acne/?modules=true' -H 'apikey: Oq5LuCPc5X69KFlIw6P7TVYrrJHSceX8' >> ./responses/conditions-acne-modules-true.json
 
-curl -X GET 'https://int.api.service.nhs.uk/nhs-website-content/conditions/angiography/' \
-  -H 'Content-Type: application/json' \
-  -H 'apikey: XW7DGCVQzO0yPKdPbRXeqITzbdJ1jNh8' --> ./responses/conditions-angiography-no-params.json
+curl -X GET 'https://api.service.nhs.uk/nhs-website-content/conditions/angiography/' -H 'apikey: Oq5LuCPc5X69KFlIw6P7TVYrrJHSceX8' >> ./responses/conditions-angiography-no-params.json
 
-curl -X GET 'https://int.api.service.nhs.uk/nhs-website-content/conditions/cancer/' \
-  -H 'Content-Type: application/json' \
-  -H 'apikey: XW7DGCVQzO0yPKdPbRXeqITzbdJ1jNh8' --> ./responses/conditions-cancer-no-params.json
+curl -X GET 'https://api.service.nhs.uk/nhs-website-content/conditions/cancer/' -H 'apikey: Oq5LuCPc5X69KFlIw6P7TVYrrJHSceX8' >> ./responses/conditions-cancer-no-params.json
 
-curl -X GET 'https://int.api.service.nhs.uk/nhs-website-content/conditions/zika/' \
-  -H 'Content-Type: application/json' \
-  -H 'apikey: XW7DGCVQzO0yPKdPbRXeqITzbdJ1jNh8' --> ./responses/conditions-zika-no-params.json
+curl -X GET 'https://api.service.nhs.uk/nhs-website-content/conditions/zika/' -H 'apikey: Oq5LuCPc5X69KFlIw6P7TVYrrJHSceX8' >> ./responses/conditions-zika-no-params.json
 
-curl -X GET 'https://int.api.service.nhs.uk/nhs-website-content/conditions/?category=a' \
-  -H 'Content-Type: application/json' \
-  -H 'apikey: XW7DGCVQzO0yPKdPbRXeqITzbdJ1jNh8' --> ./responses/conditions-category-a.json
+curl -X GET 'https://api.service.nhs.uk/nhs-website-content/conditions/?category=a' -H 'apikey: Oq5LuCPc5X69KFlIw6P7TVYrrJHSceX8' >> ./responses/conditions-category-a.json
 
-curl -X GET 'https://int.api.service.nhs.uk/nhs-website-content/conditions/?category=a&genre=condition' \
-  -H 'Content-Type: application/json' \
-  -H 'apikey: XW7DGCVQzO0yPKdPbRXeqITzbdJ1jNh8' --> ./responses/conditions-category-a-genre-condition.json
+curl -X GET 'https://api.service.nhs.uk/nhs-website-content/conditions/?category=a&genre=condition' -H 'apikey: Oq5LuCPc5X69KFlIw6P7TVYrrJHSceX8' >> ./responses/conditions-category-a-genre-condition.json
 
-curl -X GET 'https://int.api.service.nhs.uk/nhs-website-content/conditions/?category=a&genre=guide' \
-  -H 'Content-Type: application/json' \
-  -H 'apikey: XW7DGCVQzO0yPKdPbRXeqITzbdJ1jNh8' --> ./responses/conditions-category-a-genre-guide.json
+curl -X GET 'https://api.service.nhs.uk/nhs-website-content/conditions/?category=a&genre=guide' -H 'apikey: Oq5LuCPc5X69KFlIw6P7TVYrrJHSceX8' >> ./responses/conditions-category-a-genre-guide.json
 
-curl -X GET 'https://int.api.service.nhs.uk/nhs-website-content/conditions/?category=a&genre=hub' \
-  -H 'Content-Type: application/json' \
-  -H 'apikey: XW7DGCVQzO0yPKdPbRXeqITzbdJ1jNh8' --> ./responses/conditions-category-a-genre-hub.json
+curl -X GET 'https://api.service.nhs.uk/nhs-website-content/conditions/?category=a&genre=hub' -H 'apikey: Oq5LuCPc5X69KFlIw6P7TVYrrJHSceX8' >> ./responses/conditions-category-a-genre-hub.json
 
-curl -X GET 'https://int.api.service.nhs.uk/nhs-website-content/conditions/?category=b' \
-  -H 'Content-Type: application/json' \
-  -H 'apikey: XW7DGCVQzO0yPKdPbRXeqITzbdJ1jNh8' --> ./responses/conditions-category-b.json
+curl -X GET 'https://api.service.nhs.uk/nhs-website-content/conditions/?category=b' -H 'apikey: Oq5LuCPc5X69KFlIw6P7TVYrrJHSceX8' >> ./responses/conditions-category-b.json
 
-curl -X GET 'https://int.api.service.nhs.uk/nhs-website-content/conditions/?category=z' \
-  -H 'Content-Type: application/json' \
-  -H 'apikey: XW7DGCVQzO0yPKdPbRXeqITzbdJ1jNh8' --> ./responses/conditions-category-z.json
+curl -X GET 'https://api.service.nhs.uk/nhs-website-content/conditions/?category=z' -H 'apikey: Oq5LuCPc5X69KFlIw6P7TVYrrJHSceX8' >> ./responses/conditions-category-z.json
 
-curl -X GET 'https://int.api.service.nhs.uk/nhs-website-content/conditions/?page=1' \
-  -H 'Content-Type: application/json' \
-  -H 'apikey: XW7DGCVQzO0yPKdPbRXeqITzbdJ1jNh8' --> ./responses/conditions-page-1.json
+curl -X GET 'https://api.service.nhs.uk/nhs-website-content/conditions/?page=1' -H 'apikey: Oq5LuCPc5X69KFlIw6P7TVYrrJHSceX8' >> ./responses/conditions-page-1.json
 
-curl -X GET 'https://int.api.service.nhs.uk/nhs-website-content/conditions/?page=2' \
-  -H 'Content-Type: application/json' \
-  -H 'apikey: XW7DGCVQzO0yPKdPbRXeqITzbdJ1jNh8' --> ./responses/conditions-page-2.json
+curl -X GET 'https://api.service.nhs.uk/nhs-website-content/conditions/?page=2' -H 'apikey: Oq5LuCPc5X69KFlIw6P7TVYrrJHSceX8' >> ./responses/conditions-page-2.json
 
-curl -X GET 'https://int.api.service.nhs.uk/nhs-website-content/conditions/?page=70' \
-  -H 'Content-Type: application/json' \
-  -H 'apikey: XW7DGCVQzO0yPKdPbRXeqITzbdJ1jNh8' --> ./responses/conditions-page-70.json
+curl -X GET 'https://api.service.nhs.uk/nhs-website-content/conditions/?page=70' -H 'apikey: Oq5LuCPc5X69KFlIw6P7TVYrrJHSceX8' >> ./responses/conditions-page-70.json
 
 
 *****************************************************************************************************************
 ** Live Well pages                                                                                             **
 *****************************************************************************************************************
 
-curl -X GET 'https://int.api.service.nhs.uk/nhs-website-content/live-well/healthy-weight/' \
-  -H 'Content-Type: application/json' \
-  -H 'apikey: XW7DGCVQzO0yPKdPbRXeqITzbdJ1jNh8' --> ./responses/live-well-healthy-weight-no-params.json
+curl -X GET 'https://api.service.nhs.uk/nhs-website-content/live-well/healthy-weight/' -H 'apikey: Oq5LuCPc5X69KFlIw6P7TVYrrJHSceX8' >> ./responses/live-well-healthy-weight-no-params.json
 
-curl -X GET 'https://int.api.service.nhs.uk/nhs-website-content/live-well/exercise/' \
-  -H 'Content-Type: application/json' \
-  -H 'apikey: XW7DGCVQzO0yPKdPbRXeqITzbdJ1jNh8' --> ./responses/live-well-exercise-no-params.json
+curl -X GET 'https://api.service.nhs.uk/nhs-website-content/live-well/exercise/' -H 'apikey: Oq5LuCPc5X69KFlIw6P7TVYrrJHSceX8' >> ./responses/live-well-exercise-no-params.json
 
-curl -X GET 'https://int.api.service.nhs.uk/nhs-website-content/live-well/alcohol-advice/alcohol-support/' \
-  -H 'Content-Type: application/json' \
-  -H 'apikey: XW7DGCVQzO0yPKdPbRXeqITzbdJ1jNh8' --> ./responses/live-well-alcohol-advice-alcohol-support-no-params.json
+curl -X GET 'https://api.service.nhs.uk/nhs-website-content/live-well/alcohol-advice/alcohol-support/' -H 'apikey: Oq5LuCPc5X69KFlIw6P7TVYrrJHSceX8' >> ./responses/live-well-alcohol-advice-alcohol-support-no-params.json
 
 
 *****************************************************************************************************************
 ** Medicines pages                                                                                             **
 *****************************************************************************************************************
 
-curl -X GET 'https://int.api.service.nhs.uk/nhs-website-content/medicines/aciclovir/' \
-  -H 'Content-Type: application/json' \
-  -H 'apikey: XW7DGCVQzO0yPKdPbRXeqITzbdJ1jNh8' --> ./responses/medicines-aciclovir-no-params.json
+curl -X GET 'https://api.service.nhs.uk/nhs-website-content/medicines/aciclovir/' -H 'apikey: Oq5LuCPc5X69KFlIw6P7TVYrrJHSceX8' >> ./responses/medicines-aciclovir-no-params.json
 
-curl -X GET 'https://int.api.service.nhs.uk/nhs-website-content/medicines/acrivastine/' \
-  -H 'Content-Type: application/json' \
-  -H 'apikey: XW7DGCVQzO0yPKdPbRXeqITzbdJ1jNh8' --> ./responses/medicines-acrivastine-no-params.json
+curl -X GET 'https://api.service.nhs.uk/nhs-website-content/medicines/acrivastine/' -H 'apikey: Oq5LuCPc5X69KFlIw6P7TVYrrJHSceX8' >> ./responses/medicines-acrivastine-no-params.json
 
-curl -X GET 'https://int.api.service.nhs.uk/nhs-website-content/medicines/zopiclone/' \
-  -H 'Content-Type: application/json' \
-  -H 'apikey: XW7DGCVQzO0yPKdPbRXeqITzbdJ1jNh8' --> ./responses/medicines-zopiclone-no-params.json
+curl -X GET 'https://api.service.nhs.uk/nhs-website-content/medicines/zopiclone/' -H 'apikey: Oq5LuCPc5X69KFlIw6P7TVYrrJHSceX8' >> ./responses/medicines-zopiclone-no-params.json
 
-curl -X GET 'https://int.api.service.nhs.uk/nhs-website-content/medicines/?category=a' \
-  -H 'Content-Type: application/json' \
-  -H 'apikey: XW7DGCVQzO0yPKdPbRXeqITzbdJ1jNh8' --> ./responses/medicines-category-a.json
+curl -X GET 'https://api.service.nhs.uk/nhs-website-content/medicines/?category=a' -H 'apikey: Oq5LuCPc5X69KFlIw6P7TVYrrJHSceX8' >> ./responses/medicines-category-a.json
 
-curl -X GET 'https://int.api.service.nhs.uk/nhs-website-content/medicines/?category=b' \
-  -H 'Content-Type: application/json' \
-  -H 'apikey: XW7DGCVQzO0yPKdPbRXeqITzbdJ1jNh8' --> ./responses/medicines-category-b.json
+curl -X GET 'https://api.service.nhs.uk/nhs-website-content/medicines/?category=b' -H 'apikey: Oq5LuCPc5X69KFlIw6P7TVYrrJHSceX8' >> ./responses/medicines-category-b.json
 
-curl -X GET 'https://int.api.service.nhs.uk/nhs-website-content/medicines/?category=z' \
-  -H 'Content-Type: application/json' \
-  -H 'apikey: XW7DGCVQzO0yPKdPbRXeqITzbdJ1jNh8' --> ./responses/medicines-category-z.json
+curl -X GET 'https://api.service.nhs.uk/nhs-website-content/medicines/?category=z' -H 'apikey: Oq5LuCPc5X69KFlIw6P7TVYrrJHSceX8' >> ./responses/medicines-category-z.json
 
-curl -X GET 'https://int.api.service.nhs.uk/nhs-website-content/medicines/?page=1' \
-  -H 'Content-Type: application/json' \
-  -H 'apikey: XW7DGCVQzO0yPKdPbRXeqITzbdJ1jNh8' --> ./responses/medicines-page-1.json
+curl -X GET 'https://api.service.nhs.uk/nhs-website-content/medicines/?page=1' -H 'apikey: Oq5LuCPc5X69KFlIw6P7TVYrrJHSceX8' >> ./responses/medicines-page-1.json
 
-curl -X GET 'https://int.api.service.nhs.uk/nhs-website-content/medicines/?page=11' \
-  -H 'Content-Type: application/json' \
-  -H 'apikey: XW7DGCVQzO0yPKdPbRXeqITzbdJ1jNh8' --> ./responses/medicines-page-11.json
+curl -X GET 'https://api.service.nhs.uk/nhs-website-content/medicines/?page=11' -H 'apikey: Oq5LuCPc5X69KFlIw6P7TVYrrJHSceX8' >> ./responses/medicines-page-11.json
 
 
 *****************************************************************************************************************
 ** Mental Health pages                                                                                         **
 *****************************************************************************************************************
 
-curl -X GET 'https://api.service.nhs.uk/nhs-website-content/mental-health/feelings-symptoms-behaviours/' \
-  -H 'Content-Type: application/json' \
-  -H 'apikey: XW7DGCVQzO0yPKdPbRXeqITzbdJ1jNh8' --> ./responses/mental-health-feelings-symptoms-behaviours-no-params.json
+curl -X GET 'https://api.service.nhs.uk/nhs-website-content/mental-health/feelings-symptoms-behaviours/' -H 'apikey: Oq5LuCPc5X69KFlIw6P7TVYrrJHSceX8' >> ./responses/mental-health-feelings-symptoms-behaviours-no-params.json
 
-curl -X GET 'https://api.service.nhs.uk/nhs-website-content/mental-health/conditions/' \
-  -H 'Content-Type: application/json' \
-  -H 'apikey: XW7DGCVQzO0yPKdPbRXeqITzbdJ1jNh8' --> ./responses/mental-health-conditions-no-params.json
+curl -X GET 'https://api.service.nhs.uk/nhs-website-content/mental-health/conditions/' -H 'apikey: Oq5LuCPc5X69KFlIw6P7TVYrrJHSceX8' >> ./responses/mental-health-conditions-no-params.json
 
-curl -X GET 'https://api.service.nhs.uk/nhs-website-content/mental-health/advice-for-life-situations-and-events/support-for-workplace-bullying/' \
-  -H 'Content-Type: application/json' \
-  -H 'apikey: XW7DGCVQzO0yPKdPbRXeqITzbdJ1jNh8' --> ./responses/mental-health-advice-for-life-situations-and-events-support-for-workplace-bullying-no-params.json
+curl -X GET 'https://api.service.nhs.uk/nhs-website-content/mental-health/advice-for-life-situations-and-events/support-for-workplace-bullying/' -H 'apikey: Oq5LuCPc5X69KFlIw6P7TVYrrJHSceX8' >> ./responses/mental-health-advice-for-life-situations-and-events-support-for-workplace-bullying-no-params.json
 
 
 *****************************************************************************************************************
 ** NHS Services pages                                                                                          **
 *****************************************************************************************************************
 
-curl -X GET 'https://int.api.service.nhs.uk/nhs-website-content/nhs-services/gps/' \
-  -H 'Content-Type: application/json' \
-  -H 'apikey: XW7DGCVQzO0yPKdPbRXeqITzbdJ1jNh8' --> ./responses/nhs-services-gps-no-params.json
+curl -X GET 'https://api.service.nhs.uk/nhs-website-content/nhs-services/gps/' -H 'apikey: Oq5LuCPc5X69KFlIw6P7TVYrrJHSceX8' >> ./responses/nhs-services-gps-no-params.json
 
-curl -X GET 'https://int.api.service.nhs.uk/nhs-website-content/nhs-services/gps/how-to-register-with-a-gp-surgery/' \
-  -H 'Content-Type: application/json' \
-  -H 'apikey: XW7DGCVQzO0yPKdPbRXeqITzbdJ1jNh8' --> ./responses/nhs-services-gps-how-to-register-with-a-gp-surgery-no-params.json
+curl -X GET 'https://api.service.nhs.uk/nhs-website-content/nhs-services/gps/how-to-register-with-a-gp-surgery/' -H 'apikey: Oq5LuCPc5X69KFlIw6P7TVYrrJHSceX8' >> ./responses/nhs-services-gps-how-to-register-with-a-gp-surgery-no-params.json
 
-curl -X GET 'https://int.api.service.nhs.uk/nhs-website-content/nhs-services/prescriptions-and-pharmacies/' \
-  -H 'Content-Type: application/json' \
-  -H 'apikey: XW7DGCVQzO0yPKdPbRXeqITzbdJ1jNh8' --> ./responses/nhs-services-prescriptions-and-pharmacies-no-params.json
+curl -X GET 'https://api.service.nhs.uk/nhs-website-content/nhs-services/prescriptions-and-pharmacies/' -H 'apikey: Oq5LuCPc5X69KFlIw6P7TVYrrJHSceX8' >> ./responses/nhs-services-prescriptions-and-pharmacies-no-params.json
 
 
 *****************************************************************************************************************
 ** Pregnancy pages                                                                                             **
 *****************************************************************************************************************
 
-curl -X GET 'https://int.api.service.nhs.uk/nhs-website-content/pregnancy/trying-for-a-baby/' \
-  -H 'Content-Type: application/json' \
-  -H 'apikey: XW7DGCVQzO0yPKdPbRXeqITzbdJ1jNh8' --> ./responses/pregnancy-trying-for-a-baby-no-params.json
+curl -X GET 'https://api.service.nhs.uk/nhs-website-content/pregnancy/trying-for-a-baby/' -H 'apikey: Oq5LuCPc5X69KFlIw6P7TVYrrJHSceX8' >> ./responses/pregnancy-trying-for-a-baby-no-params.json
 
-curl -X GET 'https://int.api.service.nhs.uk/nhs-website-content/pregnancy/having-a-baby-if-you-are-lgbt-plus/' \
-  -H 'Content-Type: application/json' \
-  -H 'apikey: XW7DGCVQzO0yPKdPbRXeqITzbdJ1jNh8' --> ./responses/pregnancy-having-a-baby-if-you-are-lgbt-plus-no-params.json
+curl -X GET 'https://api.service.nhs.uk/nhs-website-content/pregnancy/having-a-baby-if-you-are-lgbt-plus/' -H 'apikey: Oq5LuCPc5X69KFlIw6P7TVYrrJHSceX8' >> ./responses/pregnancy-having-a-baby-if-you-are-lgbt-plus-no-params.json
 
-curl -X GET 'https://int.api.service.nhs.uk/nhs-website-content/pregnancy/finding-out/finding-out-you-are-pregnant/' \
-  -H 'Content-Type: application/json' \
-  -H 'apikey: XW7DGCVQzO0yPKdPbRXeqITzbdJ1jNh8' --> ./responses/pregnancy-finding-out-finding-out-you-are-pregnant-no-params.json
+curl -X GET 'https://api.service.nhs.uk/nhs-website-content/pregnancy/finding-out/finding-out-you-are-pregnant/' -H 'apikey: Oq5LuCPc5X69KFlIw6P7TVYrrJHSceX8' >> ./responses/pregnancy-finding-out-finding-out-you-are-pregnant-no-params.json
+
+
+*****************************************************************************************************************
+** Contraception pages                                                                                         **
+*****************************************************************************************************************
+
+curl -X GET 'https://api.service.nhs.uk/nhs-website-content/contraception/methods-of-contraception/' -H 'apikey: Oq5LuCPc5X69KFlIw6P7TVYrrJHSceX8' >> ./responses/contraception-methods-of-contraception-no-params.json
+
+curl -X GET 'https://api.service.nhs.uk/nhs-website-content/contraception/methods-of-contraception/combined-pill/what-is-it/' -H 'apikey: Oq5LuCPc5X69KFlIw6P7TVYrrJHSceX8' >> ./responses/contraception-what-is-the-combined-pill-no-params.json
+
+curl -X GET 'https://api.service.nhs.uk/nhs-website-content/contraception/methods-of-contraception/condoms/' -H 'apikey: Oq5LuCPc5X69KFlIw6P7TVYrrJHSceX8' >> ./responses/contraception-condoms-no-params.json
+
+
+*****************************************************************************************************************
+** Vaccinations pages                                                                                          **
+*****************************************************************************************************************
+
+curl -X GET 'https://api.service.nhs.uk/nhs-website-content/vaccinations/nhs-vaccinations-and-when-to-have-them/' -H 'apikey: Oq5LuCPc5X69KFlIw6P7TVYrrJHSceX8' >> ./responses/vaccinations-nhs-vaccinations-and-when-to-have-them-no-params.json
+
+curl -X GET 'https://api.service.nhs.uk/nhs-website-content/vaccinations/6-in-1-vaccine/' -H 'apikey: Oq5LuCPc5X69KFlIw6P7TVYrrJHSceX8' >> ./responses/vaccinations-6-in-1-vaccine-no-params.json
+
+curl -X GET 'https://api.service.nhs.uk/nhs-website-content/vaccinations/travel-vaccinations/available-travel-vaccines/' -H 'apikey: Oq5LuCPc5X69KFlIw6P7TVYrrJHSceX8' >> ./responses/vaccinations-available-travel-vaccines-no-params.json

@@ -228,34 +228,6 @@ var searchAndReplaceStrings = [
   },
   {
     comment1: "=============================================================",
-    comment2: "Vaccinations                                                 ",
-    comment3: "=============================================================",
-  },
-  {
-    searchForRegex: /:\s?"https:\/\/api.nhs.uk\/vaccinations\//gm,
-    replaceWithStr:
-      ': "https://' + requestHostnameEnv + "/nhs-website-content/vaccinations/",
-  },
-  {
-    searchForRegex: /:\s?"https:\/\/www.nhs.uk\/vaccinations\//gm,
-    replaceWithStr:
-      ': "https://' + requestHostnameEnv + "/nhs-website-content/vaccinations/",
-  },
-  {
-    searchForRegex: /:\s?"\/vaccinations\//gm,
-    replaceWithStr:
-      ': "https://' + requestHostnameEnv + "/nhs-website-content/vaccinations/",
-  },
-  {
-    searchForRegex: /href=\\"https:\/\/api.nhs.uk\/vaccinations\//gm,
-    replaceWithStr: 'href=\\"https://www.nhs.uk/vaccinations/',
-  },
-  {
-    searchForRegex: /href=\\"\/vaccinations\//gm,
-    replaceWithStr: 'href=\\"https://www.nhs.uk/vaccinations/',
-  },
-  {
-    comment1: "=============================================================",
     comment2: "Contraception                                                ",
     comment3: "=============================================================",
   },
@@ -287,6 +259,34 @@ var searchAndReplaceStrings = [
   {
     searchForRegex: /href=\\"\/contraception\//gm,
     replaceWithStr: 'href=\\"https://www.nhs.uk/contraception/',
+  },
+  {
+    comment1: "=============================================================",
+    comment2: "Vaccinations                                                 ",
+    comment3: "=============================================================",
+  },
+  {
+    searchForRegex: /:\s?"https:\/\/api.nhs.uk\/vaccinations\//gm,
+    replaceWithStr:
+      ': "https://' + requestHostnameEnv + "/nhs-website-content/vaccinations/",
+  },
+  {
+    searchForRegex: /:\s?"https:\/\/www.nhs.uk\/vaccinations\//gm,
+    replaceWithStr:
+      ': "https://' + requestHostnameEnv + "/nhs-website-content/vaccinations/",
+  },
+  {
+    searchForRegex: /:\s?"\/vaccinations\//gm,
+    replaceWithStr:
+      ': "https://' + requestHostnameEnv + "/nhs-website-content/vaccinations/",
+  },
+  {
+    searchForRegex: /href=\\"https:\/\/api.nhs.uk\/vaccinations\//gm,
+    replaceWithStr: 'href=\\"https://www.nhs.uk/vaccinations/',
+  },
+  {
+    searchForRegex: /href=\\"\/vaccinations\//gm,
+    replaceWithStr: 'href=\\"https://www.nhs.uk/vaccinations/',
   },
 ];
 
