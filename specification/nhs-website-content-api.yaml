@@ -743,10 +743,9 @@ paths:
 
         The [contraception hub](https://www.nhs.uk/contraception/) contains a number of navigational and content pages.
 
-        The main page contains significant links to topic pages, which then contain significant links to the content pages.
+        The content of the page is taken from the `mainEntityOfPage` part of the response. This includes the navigational links to child pages.
 
-        Content pages use the 'question' schema.org [question](https://schema.org/Question) property.
-
+        At the top level, modularised content of child pages is highlighted by the `hasPart` field. In child pages, only the individual page is shown.
       responses:
         "200":
           description: |
@@ -776,10 +775,9 @@ paths:
 
         The [vaccinations hub](https://www.nhs.uk/vaccinations/) contains a number of navigational and content pages.
 
-        The main page contains significant links to topic pages, which then contain significant links to the content pages.
+        The content of the page is taken from the `mainEntityOfPage` part of the response. This includes the navigational links to child pages.
 
-        Content pages use the 'question' schema.org [question](https://schema.org/Question) property.
-
+        At the top level, modularised content of child pages is highlighted by the `hasPart` field. In child pages, only the individual page is shown.
       responses:
         "200":
           description: |
