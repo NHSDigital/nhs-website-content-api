@@ -404,7 +404,6 @@ paths:
       - $ref: "#/components/parameters/page"
       - $ref: "#/components/parameters/category"
       - $ref: "#/components/parameters/synonyms"
-      - $ref: "#/components/parameters/childArticles"
       - $ref: "#/components/parameters/status"
     get:
       summary: Get all pages in the Health A to Z
@@ -855,14 +854,6 @@ components:
       name: synonyms
       in: query
       description: Include multiple listings for pages with more than one name.
-      required: false
-      schema:
-        type: boolean
-        example: true
-    childArticles:
-      name: childArticles
-      in: query
-      description: Include child pages of a topic within results under property subjectOf.
       required: false
       schema:
         type: boolean
