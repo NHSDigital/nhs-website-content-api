@@ -400,11 +400,13 @@ security:
 paths:
   /conditions:
     parameters:
-      - $ref: "#/components/parameters/order"
       - $ref: "#/components/parameters/page"
       - $ref: "#/components/parameters/category"
+      - $ref: "#/components/parameters/orderBy"
+      - $ref: "#/components/parameters/startDate"
+      - $ref: "#/components/parameters/endDate"
+      - $ref: "#/components/parameters/order"
       - $ref: "#/components/parameters/synonyms"
-      - $ref: "#/components/parameters/status"
     get:
       summary: Get all pages in the Health A to Z
       operationId: get-conditions
@@ -416,7 +418,15 @@ paths:
 
         The response is limited to 25 child pages and is paginated.
 
-        There are a number of query parameters that filter the output.
+        There are a number of query parameters that filter the results.
+
+        ## Ordering by dates
+
+        The `orderBy` parameter can be `dateModified`, `lastReviewed` and `nextReview`. By default if any of the `orderBy` parameters are chosen the results are sorted by newest first.
+
+        However, the `orderBy` parameter can be used with the `startDate` and `endDate` parameters to filter down to the desired date. `startDate` and `endDate` should be given in the YYYY-MM-DD format.
+
+        For example `https://api.service.nhs.uk/nhs-website-content/conditions?startDate=2022-01-01&orderBy=dateModified`
 
       responses:
         "200":
@@ -480,12 +490,12 @@ paths:
             | 429         | TOO_MANY_REQUESTS          | You have exceeded your application's [rate limit](https://digital.nhs.uk/developer/guides-and-documentation/reference-guide#rate-limits). |
   /medicines:
     parameters:
-      - $ref: "#/components/parameters/startDate"
-      - $ref: "#/components/parameters/endDate"
-      - $ref: "#/components/parameters/order"
       - $ref: "#/components/parameters/page"
       - $ref: "#/components/parameters/category"
       - $ref: "#/components/parameters/orderBy"
+      - $ref: "#/components/parameters/startDate"
+      - $ref: "#/components/parameters/endDate"
+      - $ref: "#/components/parameters/order"
     get:
       summary: Get all pages in the Medicines A to Z
       operationId: get-medicines
@@ -497,7 +507,7 @@ paths:
 
         The response is limited to 25 child pages and is paginated.
 
-        There are a number of query parameters that filter the output.
+        There are a number of query parameters that filter the results.
 
         ## Ordering by dates
 
@@ -505,7 +515,7 @@ paths:
 
         However, the `orderBy` parameter can be used with the `startDate` and `endDate` parameters to filter down to the desired date. `startDate` and `endDate` should be given in the YYYY-MM-DD format.
 
-        For example `https://api.nhs.uk/medicines?startDate=2022-01-01&orderBy=dateModified`
+        For example `https://api.service.nhs.uk/nhs-website-content/medicines?startDate=2022-01-01&orderBy=dateModified`
 
       responses:
         "200":
@@ -805,7 +815,7 @@ components:
     startDate:
       name: startDate
       in: query
-      description: Earliest date filter, works with orderBy.
+      description: Earliest date filter, works with orderBy. Format must be YYYY-MM-DD.
       required: false
       schema:
         type: string
@@ -813,7 +823,7 @@ components:
     endDate:
       name: endDate
       in: query
-      description: Latest date filter, works with orderBy.
+      description: Latest date filter, works with orderBy. Format must be YYYY-MM-DD.
       required: false
       schema:
         type: string
@@ -845,7 +855,7 @@ components:
     orderBy:
       name: orderBy
       in: query
-      description: works alongside startDate and endDate. Options are "dateModified", "lastReviewed" and "nextReview".
+      description: Works alongside startDate and endDate. Options are "dateModified", "lastReviewed" and "nextReview".
       required: false
       schema:
         type: string
@@ -858,14 +868,6 @@ components:
       schema:
         type: boolean
         example: true
-    status:
-      name: status
-      in: query
-      description: Filter by "published" or "unpublished".
-      required: false
-      schema:
-        type: string
-        example: "published"
     modules:
       name: modules
       in: query
