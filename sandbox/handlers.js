@@ -5,12 +5,6 @@ const log = require('loglevel')
 const errorResourceNotFoundResponse = require('./responses/error-resource-not-found.json')
 const errorSandboxResponseNotFound = require('./responses/error-sandbox-response-not-found.json')
 
-// Common health questions - Responses
-const commonHealthQuestionsRootResponse = require('./responses/common-health-questions-root-no-params.json')
-const commonHealthQuestionsAccidentsFirstAidAndTreatmentsResponse = require('./responses/common-health-questions-accidents-first-aid-and-treatments-no-params.json')
-const commonHealthQuestionsCaringCarersAndLongTermConditionsResponse = require('./responses/common-health-questions-caring-carers-and-long-term-conditions-no-params.json')
-const commonHealthQuestionsChildrensHealthCanMyBabyGoSwimmingBeforeOrAfterVaccinationsResponse = require('./responses/common-health-questions-childrens-health-can-my-baby-go-swimming-before-or-after-vaccinations-no-params.json')
-
 // Conditions - Responses
 const conditionsRootNoParamsResponse = require('./responses/conditions-root-no-params.json')
 const conditionsAcanthosisNigricansResponse = require('./responses/conditions-acanthosis-nigricans-no-params.json')
@@ -102,90 +96,6 @@ const vaccinationsAvailableTravelVaccinesResponse = require('./responses/vaccina
 // https://api.service.nhs.uk/nhs-website-content/
 async function root(req, res, next) {
   res.status(404).json(errorResourceNotFoundResponse)
-  res.end()
-  next()
-}
-
-// ******************************************************************
-// ** Common Health Questions pages
-// ******************************************************************
-
-// Live website URL
-// https://www.nhs.uk/common-health-questions/
-// This sandbox on localhost
-// http://localhost:9000/common-health-questions/
-// API on Azure API Management
-// https://api.nhs.uk/common-health-questions/
-// Wagtail (Python) Application (no auth key required)
-// https://www.nhs.uk/content-api/common-health-questions/
-// Apigee Sandbox environment (no auth key required)
-// https://sandbox.api.service.nhs.uk/nhs-website-content/common-health-questions/
-// Apigee Integration environment ('apikey' required in Header)
-// https://int.api.service.nhs.uk/nhs-website-content/common-health-questions/
-// Apigee Production environment ('apikey' required in Header)
-// https://api.service.nhs.uk/nhs-website-content/common-health-questions/
-async function commonHealthQuestionsRoot(req, res, next) {
-  res.status(200).json(commonHealthQuestionsRootResponse)
-  res.end()
-  next()
-}
-
-// Live website URL
-// https://www.nhs.uk/common-health-questions/accidents-first-aid-and-treatments/
-// This sandbox on localhost
-// http://localhost:9000/common-health-questions/accidents-first-aid-and-treatments/
-// API on Azure API Management
-// https://api.nhs.uk/common-health-questions/accidents-first-aid-and-treatments/
-// Wagtail (Python) Application (no auth key required)
-// https://www.nhs.uk/content-api/common-health-questions/accidents-first-aid-and-treatments/
-// Apigee Sandbox environment (no auth key required)
-// https://sandbox.api.service.nhs.uk/nhs-website-content/common-health-questions/accidents-first-aid-and-treatments/
-// Apigee Integration environment ('apikey' required in Header)
-// https://int.api.service.nhs.uk/nhs-website-content/common-health-questions/accidents-first-aid-and-treatments/
-// Apigee Production environment ('apikey' required in Header)
-// https://api.service.nhs.uk/nhs-website-content/common-health-questions/accidents-first-aid-and-treatments/
-async function commonHealthQuestionsAccidentsFirstAidAndTreatments(req, res, next) {
-  res.status(200).json(commonHealthQuestionsAccidentsFirstAidAndTreatmentsResponse)
-  res.end()
-  next()
-}
-
-// Live website URL
-// https://www.nhs.uk/common-health-questions/caring-carers-and-long-term-conditions/
-// This sandbox on localhost
-// http://localhost:9000/common-health-questions/caring-carers-and-long-term-conditions/
-// API on Azure API Management
-// https://api.nhs.uk/common-health-questions/caring-carers-and-long-term-conditions/
-// Wagtail (Python) Application (no auth key required)
-// https://www.nhs.uk/content-api/common-health-questions/caring-carers-and-long-term-conditions/
-// Apigee Sandbox environment (no auth key required)
-// https://sandbox.api.service.nhs.uk/nhs-website-content/common-health-questions/caring-carers-and-long-term-conditions/
-// Apigee Integration environment ('apikey' required in Header)
-// https://int.api.service.nhs.uk/nhs-website-content/common-health-questions/caring-carers-and-long-term-conditions/
-// Apigee Production environment ('apikey' required in Header)
-// https://api.service.nhs.uk/nhs-website-content/common-health-questions/caring-carers-and-long-term-conditions/
-async function commonHealthQuestionsCaringCarersAndLongTermConditions(req, res, next) {
-  res.status(200).json(commonHealthQuestionsCaringCarersAndLongTermConditionsResponse)
-  res.end()
-  next()
-}
-
-// Live website URL
-// https://www.nhs.uk/common-health-questions/childrens-health/can-my-baby-go-swimming-before-or-after-vaccinations/
-// This sandbox on localhost
-// http://localhost:9000/common-health-questions/childrens-health/can-my-baby-go-swimming-before-or-after-vaccinations/
-// API on Azure API Management
-// https://api.nhs.uk/common-health-questions/childrens-health/can-my-baby-go-swimming-before-or-after-vaccinations/
-// Wagtail (Python) Application (no auth key required)
-// https://www.nhs.uk/content-api/common-health-questions/childrens-health/can-my-baby-go-swimming-before-or-after-vaccinations/
-// Apigee Sandbox environment (no auth key required)
-// https://sandbox.api.service.nhs.uk/nhs-website-content/common-health-questions/childrens-health/can-my-baby-go-swimming-before-or-after-vaccinations/
-// Apigee Integration environment ('apikey' required in Header)
-// https://int.api.service.nhs.uk/nhs-website-content/common-health-questions/childrens-health/can-my-baby-go-swimming-before-or-after-vaccinations/
-// Apigee Production environment ('apikey' required in Header)
-// https://api.service.nhs.uk/nhs-website-content/common-health-questions/childrens-health/can-my-baby-go-swimming-before-or-after-vaccinations/
-async function commonHealthQuestionsChildrensHealthCanMyBabyGoSwimmingBeforeOrAfterVaccinations(req, res, next) {
-  res.status(200).json(commonHealthQuestionsChildrensHealthCanMyBabyGoSwimmingBeforeOrAfterVaccinationsResponse)
   res.end()
   next()
 }
@@ -1102,10 +1012,6 @@ async function status(req, res, next) {
 
 module.exports = {
   root,
-  commonHealthQuestionsAccidentsFirstAidAndTreatments,
-  commonHealthQuestionsCaringCarersAndLongTermConditions,
-  commonHealthQuestionsChildrensHealthCanMyBabyGoSwimmingBeforeOrAfterVaccinations,
-  commonHealthQuestionsRoot,
   conditionsAcanthosisNigricans,
   conditionsAchalasia,
   conditionsAcne,

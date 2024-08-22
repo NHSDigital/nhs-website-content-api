@@ -15,7 +15,6 @@ info:
       * Live Well ([Website](https://www.nhs.uk/live-well/) | [API](https://digital.nhs.uk/developer/api-catalogue/nhs-website-content/v2#get-/live-well))
       * Pregnancy ([Website](https://www.nhs.uk/pregnancy/) | [API](https://digital.nhs.uk/developer/api-catalogue/nhs-website-content/v2#get-/pregnancy))
       * NHS services ([Website](https://www.nhs.uk/nhs-services/) | [API](https://digital.nhs.uk/developer/api-catalogue/nhs-website-content/v2#get-/nhs-services))
-      * Common health questions ([Website](https://www.nhs.uk/common-health-questions/) | [API](https://digital.nhs.uk/developer/api-catalogue/nhs-website-content/v2#get-/common-health-questions))
       * Contraception ([Website](https://www.nhs.uk/contraception/) | [API](https://digital.nhs.uk/developer/api-catalogue/nhs-website-content/v2#get-/contraception))
       * Vaccinations ([Website](https://www.nhs.uk/vaccinations/) | [API](https://digital.nhs.uk/developer/api-catalogue/nhs-website-content/v2#get-/vaccinations)).
 
@@ -299,13 +298,6 @@ info:
             <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/nhs-services/gps/" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/nhs-services/gps/</a></li>
             <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/nhs-services/gps/how-to-register-with-a-gp-surgery/" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/nhs-services/gps/how-to-register-with-a-gp-surgery/</a></li>
             <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/nhs-services/prescriptions-and-pharmacies/" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/nhs-services/prescriptions-and-pharmacies/</a></li>
-          </ul>
-          <h4>Common health questions</h4>
-          <ul>
-            <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/common-health-questions/" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/common-health-questions/</a></li>
-            <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/common-health-questions/accidents-first-aid-and-treatments/" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/common-health-questions/accidents-first-aid-and-treatments/</a></li>
-            <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/common-health-questions/caring-carers-and-long-term-conditions/" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/common-health-questions/caring-carers-and-long-term-conditions/</a></li>
-            <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/common-health-questions/childrens-health/can-my-baby-go-swimming-before-or-after-vaccinations/" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/common-health-questions/childrens-health/can-my-baby-go-swimming-before-or-after-vaccinations/</a></li>
           </ul>
           <h4>Contraception</h4>
           <ul>
@@ -698,39 +690,6 @@ paths:
                 $ref: components/schemas/WebPage.json
               example:
                 $ref: components/examples/NhsServicesHubPage.json
-        "4XX":
-          description: |
-            An error occurred as follows:
-
-            | HTTP status | Error code                 | Description |
-            | ----------- | -------------------------- | --------------------------------------------- |
-            | 401         | ACCESS_DENIED              | Api key missing, invalid or expired, or calling application not configured for this operation. |
-            | 403         | ACCESS_DENIED              | User cannot perform this action. |
-            | 404         | RESOURCE_NOT_FOUND         | Page not found. |
-            | 429         | TOO_MANY_REQUESTS          | You have exceeded your application's [rate limit](https://digital.nhs.uk/developer/guides-and-documentation/reference-guide#rate-limits). |
-  /common-health-questions:
-    get:
-      summary: Get content from the common health questions hub
-      operationId: get-common-health-questions
-      description: |
-        ## Overview
-
-        The [common health questions hub](https://www.nhs.uk/common-health-questions/) contains a number of navigational and content pages.
-
-        The main page contains significant links to topic pages, which then contain significant links to the content pages.
-
-        Content pages use the 'question' schema.org [question](https://schema.org/Question) property.
-
-      responses:
-        "200":
-          description: |
-            A valid query for the common health questions pages.
-          content:
-            application/json:
-              schema:
-                $ref: components/schemas/WebPage.json
-              example:
-                $ref: components/examples/CommonHealthQuestionsHubPage.json
         "4XX":
           description: |
             An error occurred as follows:
