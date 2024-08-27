@@ -132,23 +132,6 @@ app.get('/_status', handlers.status)
 app.all('/', handlers.root)
 
 // ******************************************************************
-// ** Common Health Questions pages
-// ******************************************************************
-app.all('/common-health-questions/', handlers.commonHealthQuestionsRoot)
-app.all(
-  '/common-health-questions/accidents-first-aid-and-treatments/',
-  handlers.commonHealthQuestionsAccidentsFirstAidAndTreatments
-)
-app.all(
-  '/common-health-questions/caring-carers-and-long-term-conditions/',
-  handlers.commonHealthQuestionsCaringCarersAndLongTermConditions
-)
-app.all(
-  '/common-health-questions/childrens-health/can-my-baby-go-swimming-before-or-after-vaccinations/',
-  handlers.commonHealthQuestionsChildrensHealthCanMyBabyGoSwimmingBeforeOrAfterVaccinations
-)
-
-// ******************************************************************
 // ** Conditions pages
 // ******************************************************************
 app.all('/conditions/', handlers.conditionsRoot)

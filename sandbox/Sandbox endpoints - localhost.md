@@ -4,16 +4,6 @@
 
 [API Root](http://localhost:9000/)
 
-## Common Health Questions
-
-[Common Health Questions Root](http://localhost:9000/common-health-questions/)
-
-[Accidents, first aid and treatments](http://localhost:9000/common-health-questions/accidents-first-aid-and-treatments/)
-
-[Caring, carers and long-term conditions](http://localhost:9000/common-health-questions/caring-carers-and-long-term-conditions/)
-
-[Children's health - Can my baby go swimming before or after vaccinations?](http://localhost:9000/common-health-questions/childrens-health/can-my-baby-go-swimming-before-or-after-vaccinations/)
-
 ## Conditions
 
 [Conditions Root](http://localhost:9000/conditions/)

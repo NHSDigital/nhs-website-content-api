@@ -145,33 +145,6 @@
 //   },
 //   {
 //     comment1: "=============================================================",
-//     comment2: "Common health questions                                      ",
-//     comment3: "=============================================================",
-//   },
-//   {
-//     searchForRegex: /:\s?"https:\/\/api.nhs.uk\/common-health-questions\//gm,
-//     replaceWithStr:
-//       ': "https://' +
-//       requestHostnameEnv +
-//       "/nhs-website-content/common-health-questions/",
-//   },
-//   {
-//     searchForRegex: /:\s?"https:\/\/www.nhs.uk\/common-health-questions\//gm,
-//     replaceWithStr:
-//       ': "https://' +
-//       requestHostnameEnv +
-//       "/nhs-website-content/common-health-questions/",
-//   },
-//   {
-//     searchForRegex: /href=\\"https:\/\/api.nhs.uk\/common-health-questions\//gm,
-//     replaceWithStr: 'href=\\"https://www.nhs.uk/common-health-questions/',
-//   },
-//   {
-//     searchForRegex: /href=\\"\/common-health-questions\//gm,
-//     replaceWithStr: 'href=\\"https://www.nhs.uk/common-health-questions/',
-//   },
-//   {
-//     comment1: "=============================================================",
 //     comment2: "Contraception                                                ",
 //     comment3: "=============================================================",
 //   },

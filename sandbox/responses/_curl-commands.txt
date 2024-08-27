@@ -2,8 +2,6 @@
 ** Root pages                                                                                                  **
 *****************************************************************************************************************
 
-curl -X GET 'https://api.service.nhs.uk/nhs-website-content/common-health-questions/' -H 'apikey: Oq5LuCPc5X69KFlIw6P7TVYrrJHSceX8' >> ./responses/common-health-questions-root-no-params.json
-
 curl -X GET 'https://api.service.nhs.uk/nhs-website-content/conditions/' -H 'apikey: Oq5LuCPc5X69KFlIw6P7TVYrrJHSceX8' >> ./responses/conditions-no-params.json
 
 curl -X GET 'https://api.service.nhs.uk/nhs-website-content/live-well/' -H 'apikey: Oq5LuCPc5X69KFlIw6P7TVYrrJHSceX8' >> ./responses/live-well-root-no-params.json
@@ -19,17 +17,6 @@ curl -X GET 'https://api.service.nhs.uk/nhs-website-content/pregnancy/' -H 'apik
 curl -X GET 'https://api.service.nhs.uk/nhs-website-content/contraception/' -H 'apikey: Oq5LuCPc5X69KFlIw6P7TVYrrJHSceX8' >> ./responses/contraception-root-no-params.json
 
 curl -X GET 'https://api.service.nhs.uk/nhs-website-content/vaccinations/' -H 'apikey: Oq5LuCPc5X69KFlIw6P7TVYrrJHSceX8' >> ./responses/vaccinations-root-no-params.json
-
-
-*****************************************************************************************************************
-** Common Health Questions pages                                                                               **
-*****************************************************************************************************************
-
-curl -X GET 'https://api.service.nhs.uk/nhs-website-content/common-health-questions/accidents-first-aid-and-treatments/' -H 'apikey: Oq5LuCPc5X69KFlIw6P7TVYrrJHSceX8' >> ./responses/common-health-questions-accidents-first-aid-and-treatments-no-params.json
-
-curl -X GET 'https://api.service.nhs.uk/nhs-website-content/common-health-questions/caring-carers-and-long-term-conditions/' -H 'apikey: Oq5LuCPc5X69KFlIw6P7TVYrrJHSceX8' >> ./responses/common-health-questions-caring-carers-and-long-term-conditions-no-params.json
-
-curl -X GET 'https://api.service.nhs.uk/nhs-website-content/common-health-questions/childrens-health/can-my-baby-go-swimming-before-or-after-vaccinations/' -H 'apikey: Oq5LuCPc5X69KFlIw6P7TVYrrJHSceX8' >> ./responses/common-health-questions-childrens-health-can-my-baby-go-swimming-before-or-after-vaccinations-no-params.json
 
 
 *****************************************************************************************************************
