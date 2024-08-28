@@ -390,6 +390,43 @@ servers:
 security:
   - apikey: []
 paths:
+  /manifest/pages:
+    parameters:
+      - $ref: "#/components/parameters/page"
+    get:
+      summary: Get details about all the pages
+      operationId: get-manifest-pages
+      description: |
+        ## Overview
+        Use this endpoint to get details of all the pages available via the NHS Website Content API v2.
+
+        This includes details such as name, description, url, webpage, modification date and whether the page has been modularised. 
+
+        Passing in no parameters returns the first page of results.
+
+        The response is limited to 100 results and is paginated.
+
+      responses:
+        "200":
+          description: |
+            A valid query for manifest pages.
+          content:
+            application/json:
+              schema:
+                $ref: components/schemas/ManifestPages.json
+              example:
+                $ref: components/examples/ManifestPages.json
+        "4XX":
+          description: |
+            An error occurred as follows:
+
+            | HTTP status | Error code                 | Description |
+            | ----------- | -------------------------- | --------------------------------------------- |
+            | 401         | ACCESS_DENIED              | Api key missing, invalid or expired, or calling application not configured for this operation. |
+            | 403         | ACCESS_DENIED              | User cannot perform this action. |
+            | 404         | RESOURCE_NOT_FOUND         | Page not found. |
+            | 429         | TOO_MANY_REQUESTS          | You have exceeded your application's [rate limit](https://digital.nhs.uk/developer/guides-and-documentation/reference-guide#rate-limits). |
+
   /conditions:
     parameters:
       - $ref: "#/components/parameters/page"
