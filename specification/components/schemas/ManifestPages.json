@@ -7,7 +7,7 @@
         "first": { "type": "string", "format": "uri" },
         "last": { "type": "string", "format": "uri" },
         "self": { "type": "string", "format": "uri" },
-        "next": { "type": ["string", "null"], "format": "uri" },
+        "next": { "type": "string", "format": "uri" },
         "count": { "type": "integer" }
       },
       "required": ["first", "last", "self", "count"]
