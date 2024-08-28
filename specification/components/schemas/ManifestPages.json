@@ -1,0 +1,57 @@
+{
+  "type": "object",
+  "properties": {
+    "pagination": {
+      "type": "object",
+      "properties": {
+        "first": { "type": "string", "format": "uri" },
+        "last": { "type": "string", "format": "uri" },
+        "self": { "type": "string", "format": "uri" },
+        "next": { "type": ["string", "null"], "format": "uri" },
+        "count": { "type": "integer" }
+      },
+      "required": ["first", "last", "self", "count"]
+    },
+    "results": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": { "type": "integer" },
+          "dateFirstPublished": { "type": "string", "format": "date-time" },
+          "dateModified": { "type": "string", "format": "date-time" },
+          "dateNextReview": { "type": "string", "format": "date-time" },
+          "description": { "type": "string" },
+          "genre": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "healthAspects": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "modules": { "type": "boolean" },
+          "name": { "type": "string" },
+          "type": { "type": "string" },
+          "url": { "type": "string", "format": "uri" },
+          "webpage": { "type": "string", "format": "uri" }
+        },
+        "required": [
+          "id",
+          "dateFirstPublished",
+          "dateModified",
+          "dateNextReview",
+          "description",
+          "genre",
+          "healthAspects",
+          "modules",
+          "name",
+          "type",
+          "url",
+          "webpage"
+        ]
+      }
+    }
+  },
+  "required": ["pagination", "results"]
+}
