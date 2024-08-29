@@ -132,6 +132,11 @@ app.get('/_status', handlers.status)
 app.all('/', handlers.root)
 
 // ******************************************************************
+// ** Manifest pages
+// ******************************************************************
+app.all('/manifest/pages/', handlers.manifestPagesRoot)
+
+// ******************************************************************
 // ** Conditions pages
 // ******************************************************************
 app.all('/conditions/', handlers.conditionsRoot)

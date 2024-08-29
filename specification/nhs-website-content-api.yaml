@@ -230,13 +230,19 @@ info:
                 </svg>
               </span>
             </span>
-            <p class="nhsd-m-expander__heading nhsd-t-body">The sandbox environment includes the following 56 mocked endpoints</p>
+            <p class="nhsd-m-expander__heading nhsd-t-body">The sandbox environment includes the following 59 mocked endpoints</p>
           </div>
         </summary>
         <div class="nhsd-m-expander__content-container">
           <h4>API v2 root</h4>
           <ul>
             <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/</a> (Not a valid endpoint)</li>
+          </ul>
+          <h4>Manifest pages</h4>
+          <ul>
+            <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/manifest/pages/" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/manifest/pages/</a></li>
+            <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/manifest/pages/?page=1" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/manifest/pages/?page=1</a></li>
+            <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/manifest/pages/?page=2" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/manifest/pages/?page=2</a></li>
           </ul>
           <h4>Conditions (Health A to Z)</h4>
           <ul>
