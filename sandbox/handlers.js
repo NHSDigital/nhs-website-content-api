@@ -5,6 +5,11 @@ const log = require('loglevel')
 const errorResourceNotFoundResponse = require('./responses/error-resource-not-found.json')
 const errorSandboxResponseNotFound = require('./responses/error-sandbox-response-not-found.json')
 
+// Manifest pages - Responses
+const manifestPagesRootNoParamsResponse = require('./responses/manifest-pages-root-no-params.json')
+const manifestPagesRootPage1Response = require('./responses/manifest-pages-root-page-1.json')
+const manifestPagesRootPage2Response = require('./responses/manifest-pages-root-page-2.json')
+
 // Conditions - Responses
 const conditionsRootNoParamsResponse = require('./responses/conditions-root-no-params.json')
 const conditionsAcanthosisNigricansResponse = require('./responses/conditions-acanthosis-nigricans-no-params.json')
@@ -96,6 +101,45 @@ const vaccinationsAvailableTravelVaccinesResponse = require('./responses/vaccina
 // https://api.service.nhs.uk/nhs-website-content/
 async function root(req, res, next) {
   res.status(404).json(errorResourceNotFoundResponse)
+  res.end()
+  next()
+}
+
+// ******************************************************************
+// ** Manifest pages
+// ******************************************************************
+
+// Live website URL
+// https://www.nhs.uk/manifest/pages/
+// This sandbox on localhost
+// http://localhost:9000/manifest/pages/
+// API on Azure API Management
+// https://api.nhs.uk/manifest/pages/
+// Wagtail (Python) Application (no auth key required)
+// https://www.nhs.uk/content-api/manifest/pages/
+// Apigee Sandbox environment (no auth key required)
+// https://sandbox.api.service.nhs.uk/nhs-website-content/manifest/pages/
+// Apigee Integration environment ('apikey' required in Header)
+// https://int.api.service.nhs.uk/nhs-website-content/manifest/pages/
+// Apigee Production environment ('apikey' required in Header)
+// https://api.service.nhs.uk/nhs-website-content/manifest/pages/
+async function manifestPagesRoot(req, res, next) {
+  let responseJson
+  if (req.query.page) {
+    if (req.query.page === '1') {
+      // http://localhost:9000/manifest/pages/?page=1
+      responseJson = manifestPagesRootPage1Response
+    } else if (req.query.page === '2') {
+      // http://localhost:9000/manifest/pages/?page=2
+      responseJson = manifestPagesRootPage2Response
+    } else {
+      responseJson = errorSandboxResponseNotFound
+    }
+  } else {
+    responseJson = manifestPagesRootNoParamsResponse
+  }
+  res.status(200).json(responseJson)
+
   res.end()
   next()
 }
@@ -1012,6 +1056,7 @@ async function status(req, res, next) {
 
 module.exports = {
   root,
+  manifestPagesRoot,
   conditionsAcanthosisNigricans,
   conditionsAchalasia,
   conditionsAcne,

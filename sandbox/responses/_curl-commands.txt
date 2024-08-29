@@ -20,6 +20,17 @@ curl -X GET 'https://api.service.nhs.uk/nhs-website-content/vaccinations/' -H 'a
 
 
 *****************************************************************************************************************
+** Manifest pages                                                                                            **
+*****************************************************************************************************************
+
+curl -X GET 'https://api.service.nhs.uk/nhs-website-content/manifest/pages/' -H 'apikey: Oq5LuCPc5X69KFlIw6P7TVYrrJHSceX8' >> ./responses/manifest-pages-root-no-params.json
+
+curl -X GET 'https://api.service.nhs.uk/nhs-website-content/manifest/pages/?page=1' -H 'apikey: Oq5LuCPc5X69KFlIw6P7TVYrrJHSceX8' >> ./responses/manifest-pages-root-page-1.json
+
+curl -X GET 'https://api.service.nhs.uk/nhs-website-content/manifest/pages/?page=2' -H 'apikey: Oq5LuCPc5X69KFlIw6P7TVYrrJHSceX8' >> ./responses/manifest-pages-root-page-2.json
+
+
+*****************************************************************************************************************
 ** Conditions pages                                                                                            **
 *****************************************************************************************************************
 

@@ -4,6 +4,15 @@
 
 [API Root](http://localhost:9000/)
 
+## Manifest pages
+
+[Manifest Pages Root](http://localhost:9000/manifest/pages/)
+
+[Manifest Pages - Page 1](http://localhost:9000/manifest/pages/?page=1)
+
+[Manifest Pages - Page 2](http://localhost:9000/manifest/pages/?page=2)
+
+
 ## Conditions
 
 [Conditions Root](http://localhost:9000/conditions/)
