@@ -1,7 +1,7 @@
 {
   "name": "nhs-website-content-api",
-  "version": "0.0.1",
-  "description": "OAS (Swagger v3) API Definition for Template API",
+  "version": "2.0.0",
+  "description": "This API provides content from the NHS website as JSON",
   "scripts": {
     "lint": "redocly lint --skip-rule=security-defined specification/nhs-website-content-api.yaml",
     "publish": "redocly bundle specification/nhs-website-content-api.yaml --dereferenced --remove-unused-components --ext json -o build/nhs-website-content-api.json",
