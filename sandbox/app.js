@@ -208,6 +208,13 @@ app.all('/vaccinations/nhs-vaccinations-and-when-to-have-them/', handlers.vaccin
 app.all('/vaccinations/6-in-1-vaccine/', handlers.vaccinations6in1Vaccine)
 app.all('/vaccinations/travel-vaccinations/available-travel-vaccines/', handlers.vaccinationsAvailableTravelVaccines)
 
+// ******************************************************************
+// ** Women's health pages
+// ******************************************************************
+app.all('/womens-health/', handlers.womensHealthRoot)
+app.all('/womens-health/periods/', handlers.womensHealthPeriods)
+app.all('/womens-health/anaemia/', handlers.womensHealthAnaemia)
+
 app.use((req, res, next) => {
   res.status(404).json(errorResourceNotFoundResponse)
 })

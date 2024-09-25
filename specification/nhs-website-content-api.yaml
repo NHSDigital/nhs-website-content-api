@@ -17,6 +17,7 @@ info:
       * NHS services ([Website](https://www.nhs.uk/nhs-services/) | [API](https://digital.nhs.uk/developer/api-catalogue/nhs-website-content/v2#get-/nhs-services))
       * Contraception ([Website](https://www.nhs.uk/contraception/) | [API](https://digital.nhs.uk/developer/api-catalogue/nhs-website-content/v2#get-/contraception))
       * Vaccinations ([Website](https://www.nhs.uk/vaccinations/) | [API](https://digital.nhs.uk/developer/api-catalogue/nhs-website-content/v2#get-/vaccinations)).
+      * Women's health ([Website](https://www.nhs.uk/womens-health/) | [API](https://digital.nhs.uk/developer/api-catalogue/nhs-website-content/v2#get-/womens-health)).
 
     You cannot use this API to:
       * [find services near you](https://www.nhs.uk/nhs-services/services-near-you/)
@@ -230,7 +231,7 @@ info:
                 </svg>
               </span>
             </span>
-            <p class="nhsd-m-expander__heading nhsd-t-body">The sandbox environment includes the following 59 mocked endpoints</p>
+            <p class="nhsd-m-expander__heading nhsd-t-body">The sandbox environment includes the following 62 mocked endpoints</p>
           </div>
         </summary>
         <div class="nhsd-m-expander__content-container">
@@ -318,6 +319,12 @@ info:
             <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/vaccinations/nhs-vaccinations-and-when-to-have-them/" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/vaccinations/nhs-vaccinations-and-when-to-have-them/</a></li>
             <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/vaccinations/6-in-1-vaccine/" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/vaccinations/6-in-1-vaccine/</a></li>
             <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/vaccinations/travel-vaccinations/available-travel-vaccines/" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/vaccinations/travel-vaccinations/available-travel-vaccines/</a></li>
+          </ul>
+          <h4>Women's health</h4>
+          <ul>
+            <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/womens-health/" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/womens-health/</a></li>
+            <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/womens-health/periods/" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/womens-health/periods/</a></li>
+            <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/womens-health/anaemia/" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/womens-health/anaemia/</a></li>
           </ul>
         </div>
       </details>

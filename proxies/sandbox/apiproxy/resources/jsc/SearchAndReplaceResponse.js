@@ -205,6 +205,34 @@
 //     searchForRegex: /href=\\"\/vaccinations\//gm,
 //     replaceWithStr: 'href=\\"https://www.nhs.uk/vaccinations/',
 //   },
+//   {
+//     comment1: "=============================================================",
+//     comment2: "Women's health                                                 ",
+//     comment3: "=============================================================",
+//   },
+//   {
+//     searchForRegex: /:\s?"https:\/\/api.nhs.uk\/womens-health\//gm,
+//     replaceWithStr:
+//       ': "https://' + requestHostnameEnv + "/nhs-website-content/womens-health/",
+//   },
+//   {
+//     searchForRegex: /:\s?"https:\/\/www.nhs.uk\/womens-health\//gm,
+//     replaceWithStr:
+//       ': "https://' + requestHostnameEnv + "/nhs-website-content/womens-health/",
+//   },
+//   {
+//     searchForRegex: /:\s?"\/womens-health\//gm,
+//     replaceWithStr:
+//       ': "https://' + requestHostnameEnv + "/nhs-website-content/womens-health/",
+//   },
+//   {
+//     searchForRegex: /href=\\"https:\/\/api.nhs.uk\/womens-health\//gm,
+//     replaceWithStr: 'href=\\"https://www.nhs.uk/womens-health/',
+//   },
+//   {
+//     searchForRegex: /href=\\"\/womens-health\//gm,
+//     replaceWithStr: 'href=\\"https://www.nhs.uk/womens-health/',
+//   },
 // ];
 
 var responseContent = context.getVariable("response.content");
