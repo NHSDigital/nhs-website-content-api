@@ -233,6 +233,50 @@
 //     searchForRegex: /href=\\"\/womens-health\//gm,
 //     replaceWithStr: 'href=\\"https://www.nhs.uk/womens-health/',
 //   },
+//   {
+//     comment1: "=============================================================",
+//    comment2: "Manifest pages                                               ",
+//     comment3: "=============================================================",
+//   },
+//   {
+//     searchForRegex: /:\s?"https:\/\/www.nhs.uk\/content-api\/manifest\//gm,
+//     replaceWithStr:
+//       ': "https://' + requestHostnameEnv + "/nhs-website-content/manifest/",
+//   },
+//   {
+//     comment1: "=============================================================",
+//     comment2: "Webpage hostname                                             ",
+//     comment3: "=============================================================",
+//   },
+//   {
+//     searchForRegex:
+//       /"webpage":\s?"https:\/\/internal-dev.api.service.nhs.uk\/nhs-website-content\//gm,
+//     replaceWithStr: '"webpage": "https://www.nhs.uk/',
+//   },
+//   {
+//     searchForRegex:
+//       /"webpage":\s?"https:\/\/internal-qa.api.service.nhs.uk\/nhs-website-content\//gm,
+//     replaceWithStr: '"webpage": "https://www.nhs.uk/',
+//   },
+//   {
+//     searchForRegex:
+//       /"webpage":\s?"https:\/\/int.api.service.nhs.uk\/nhs-website-content\//gm,
+//     replaceWithStr: '"webpage": "https://www.nhs.uk/',
+//   },
+//   {
+//     searchForRegex:
+//       /"webpage":\s?"https:\/\/api.service.nhs.uk\/nhs-website-content\//gm,
+//     replaceWithStr: '"webpage": "https://www.nhs.uk/',
+//   },
+//   {
+//     comment1: "=============================================================",
+//     comment2: "Remove data-block-key Attributes from CMS                    ",
+//     comment3: "=============================================================",
+//   },
+//   {
+//     searchForRegex: /\s+data-block-key=\\"[^"]*\\"/gm,
+//     replaceWithStr: "",
+//   },
 // ];
 
 var responseContent = context.getVariable("response.content");
