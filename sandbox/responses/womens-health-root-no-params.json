@@ -55,7 +55,7 @@
           "headline": "Periods",
           "url": "https://api.service.nhs.uk/womens-health/periods/",
           "identifier": "26",
-          "text": "<p data-block-key=\"d0l5d\">Including painful periods, heavy periods, PMS and adenomyosis</p>",
+          "text": "<p>Including painful periods, heavy periods, PMS and adenomyosis</p>",
           "name": "link"
         },
         {
@@ -63,7 +63,7 @@
           "headline": "Contraception",
           "url": "https://api.service.nhs.uk/nhs-website-content/conditions/contraception/",
           "identifier": "26",
-          "text": "<p data-block-key=\"d0l5d\">Different methods of contraception and how effective they are</p>",
+          "text": "<p>Different methods of contraception and how effective they are</p>",
           "name": "link"
         },
         {
@@ -71,7 +71,7 @@
           "headline": "Pregnancy",
           "url": "https://api.service.nhs.uk/nhs-website-content/pregnancy/",
           "identifier": "26",
-          "text": "<p data-block-key=\"d0l5d\">Getting pregnant, keeping well in pregnancy, giving birth and more</p>",
+          "text": "<p>Getting pregnant, keeping well in pregnancy, giving birth and more</p>",
           "name": "link"
         },
         {
@@ -79,7 +79,7 @@
           "headline": "Menopause",
           "url": "https://api.service.nhs.uk/womens-health/menopause/",
           "identifier": "26",
-          "text": "<p data-block-key=\"kuprz\">Symptoms of menopause and perimenopause</p>",
+          "text": "<p>Symptoms of menopause and perimenopause</p>",
           "name": "link"
         },
         {
@@ -87,7 +87,7 @@
           "headline": "Vagina and vulva health",
           "url": "https://api.service.nhs.uk/womens-health/vagina-and-vulva-health/",
           "identifier": "26",
-          "text": "<p data-block-key=\"kuprz\">Including infections and conditions that can affect your vagina and the area around it (your vulva)</p>",
+          "text": "<p>Including infections and conditions that can affect your vagina and the area around it (your vulva)</p>",
           "name": "link"
         },
         {
@@ -95,7 +95,7 @@
           "headline": "Womb and ovary health",
           "url": "https://api.service.nhs.uk/womens-health/womb-and-ovary-health/",
           "identifier": "26",
-          "text": "<p data-block-key=\"g3uhy\">Including ovarian cysts, polycystic ovary syndrome (PCOS) and womb (uterus) cancer</p>",
+          "text": "<p>Including ovarian cysts, polycystic ovary syndrome (PCOS) and womb (uterus) cancer</p>",
           "name": "link"
         }
       ]
@@ -112,7 +112,7 @@
           "headline": "Abortion",
           "url": "https://api.service.nhs.uk/nhs-website-content/conditions/abortion/",
           "identifier": "26",
-          "text": "<p data-block-key=\"f874g\">What&#x27;s involved in an abortion, and how to get one</p>",
+          "text": "<p>What&#x27;s involved in an abortion, and how to get one</p>",
           "name": "link"
         },
         {
@@ -120,7 +120,7 @@
           "headline": "ADHD",
           "url": "https://api.service.nhs.uk/nhs-website-content/conditions/attention-deficit-hyperactivity-disorder-adhd/",
           "identifier": "26",
-          "text": "<p data-block-key=\"f874g\">Women and girls with ADHD (attention deficit hyperactivity disorder) are more likely to go undiagnosed</p>",
+          "text": "<p>Women and girls with ADHD (attention deficit hyperactivity disorder) are more likely to go undiagnosed</p>",
           "name": "link"
         },
         {
@@ -128,7 +128,7 @@
           "headline": "Anaemia",
           "url": "https://api.service.nhs.uk/womens-health/anaemia/",
           "identifier": "26",
-          "text": "<p data-block-key=\"f874g\">Signs of anaemia, how to prevent it and where to get help</p>",
+          "text": "<p>Signs of anaemia, how to prevent it and where to get help</p>",
           "name": "link"
         },
         {
@@ -136,7 +136,7 @@
           "headline": "Autism",
           "url": "https://api.service.nhs.uk/nhs-website-content/conditions/autism/",
           "identifier": "26",
-          "text": "<p data-block-key=\"f874g\">Women and girls can show different symptoms of neurodiverse conditions like autism</p>",
+          "text": "<p>Women and girls can show different symptoms of neurodiverse conditions like autism</p>",
           "name": "link"
         },
         {
@@ -144,7 +144,7 @@
           "headline": "Bladder and urinary health",
           "url": "https://api.service.nhs.uk/womens-health/bladder-and-urinary-health/",
           "identifier": "26",
-          "text": "<p data-block-key=\"f874g\">Including urinary tract infections (UTIs), kidney infections and leaking pee</p>",
+          "text": "<p>Including urinary tract infections (UTIs), kidney infections and leaking pee</p>",
           "name": "link"
         },
         {
@@ -152,7 +152,7 @@
           "headline": "Bone, joint and muscle health",
           "url": "https://api.service.nhs.uk/womens-health/bone-joint-and-muscle-health/",
           "identifier": "26",
-          "text": "<p data-block-key=\"q35gt\">Including arthritis, osteoporosis and fibromyalgia</p>",
+          "text": "<p>Including arthritis, osteoporosis and fibromyalgia</p>",
           "name": "link"
         },
         {
@@ -160,7 +160,7 @@
           "headline": "Breast health",
           "url": "https://api.service.nhs.uk/womens-health/breast-health/",
           "identifier": "26",
-          "text": "<p data-block-key=\"5rvlz\">Including breast pain, breast lumps and breast screening</p>",
+          "text": "<p>Including breast pain, breast lumps and breast screening</p>",
           "name": "link"
         },
         {
@@ -168,7 +168,7 @@
           "headline": "Cancer",
           "url": "https://api.service.nhs.uk/womens-health/cancer/",
           "identifier": "26",
-          "text": "<p data-block-key=\"5rvlz\">Cancers that can affect women, and cancer screening for women</p>",
+          "text": "<p>Cancers that can affect women, and cancer screening for women</p>",
           "name": "link"
         },
         {
@@ -176,7 +176,7 @@
           "headline": "Dementia",
           "url": "https://api.service.nhs.uk/nhs-website-content/conditions/dementia/",
           "identifier": "26",
-          "text": "<p data-block-key=\"f44vt\">Some types of dementia, such as Alzheimer&#x27;s, affect more women than men</p>",
+          "text": "<p>Some types of dementia, such as Alzheimer&#x27;s, affect more women than men</p>",
           "name": "link"
         },
         {
@@ -184,7 +184,7 @@
           "headline": "Domestic violence, abuse or rape",
           "url": "https://api.service.nhs.uk/womens-health/domestic-violence-abuse-or-rape/",
           "identifier": "26",
-          "text": "<p data-block-key=\"f44vt\">What to do if you experience domestic violence, abuse or rape</p>",
+          "text": "<p>What to do if you experience domestic violence, abuse or rape</p>",
           "name": "link"
         },
         {
@@ -192,7 +192,7 @@
           "headline": "Heart health",
           "url": "https://api.service.nhs.uk/womens-health/heart-health/",
           "identifier": "26",
-          "text": "<p data-block-key=\"nfo4i\">Including heart attack and palpitations</p>",
+          "text": "<p>Including heart attack and palpitations</p>",
           "name": "link"
         },
         {
@@ -200,7 +200,7 @@
           "headline": "HRT (hormone replacement therapy)",
           "url": "https://api.service.nhs.uk/nhs-website-content/medicines/hormone-replacement-therapy-hrt/",
           "identifier": "26",
-          "text": "<p data-block-key=\"6mf11\">Find out about different types of HRT to treat symptoms of menopause and perimenopause</p>",
+          "text": "<p>Find out about different types of HRT to treat symptoms of menopause and perimenopause</p>",
           "name": "link"
         },
         {
@@ -208,7 +208,7 @@
           "headline": "Infertility",
           "url": "https://api.service.nhs.uk/nhs-website-content/conditions/infertility/",
           "identifier": "26",
-          "text": "<p data-block-key=\"nfo4i\">Information on fertility problems and potential treatments</p>",
+          "text": "<p>Information on fertility problems and potential treatments</p>",
           "name": "link"
         },
         {
@@ -216,7 +216,7 @@
           "headline": "Mental health",
           "url": "https://api.service.nhs.uk/nhs-website-content/mental-health/",
           "identifier": "26",
-          "text": "<p data-block-key=\"nfo4i\">Get information and support for mental health, including depression and anxiety</p>",
+          "text": "<p>Get information and support for mental health, including depression and anxiety</p>",
           "name": "link"
         },
         {
@@ -224,7 +224,7 @@
           "headline": "Pelvic health",
           "url": "https://api.service.nhs.uk/womens-health/pelvic-health/",
           "identifier": "26",
-          "text": "<p data-block-key=\"nfo4i\">Conditions that can affect your pelvic area and how to do pelvic floor exercises</p>",
+          "text": "<p>Conditions that can affect your pelvic area and how to do pelvic floor exercises</p>",
           "name": "link"
         },
         {
@@ -232,7 +232,7 @@
           "headline": "Sexual health",
           "url": "https://api.service.nhs.uk/womens-health/sexual-health/",
           "identifier": "26",
-          "text": "<p data-block-key=\"f44vt\">Including sexually transmitted infections (STIs) and visiting a sexual health clinic</p>",
+          "text": "<p>Including sexually transmitted infections (STIs) and visiting a sexual health clinic</p>",
           "name": "link"
         }
       ]
