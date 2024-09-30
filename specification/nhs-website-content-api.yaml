@@ -35,7 +35,7 @@ info:
     The logo should be clearly visible and in line with the associated content on every web page that contains the syndicated content. You should also link this logo to the relevant page on the NHS website that the content has been supplied from.
 
     ```
-    <a href="https://www.nhs.uk/THE_PATH_TO_THE_ORIGINAL_CONTENT_GOES_HERE" target="_blank">
+    <a href="https://www.nhs.uk/PATH_TO_THE_ORIGINAL_CONTENT_ON_THE_NHS_WEBSITE" target="_blank">
       <img src="https://assets.nhs.uk/nhsuk-cms/images/nhs-attribution.width-510.png" alt="Content supplied by the NHS website" width="510" height="99" style="width: 250px; height: 49px;" />
     </a>
     ```
