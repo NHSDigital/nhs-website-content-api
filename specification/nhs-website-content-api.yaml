@@ -435,7 +435,7 @@ paths:
 
             | HTTP status | Error code                 | Description |
             | ----------- | -------------------------- | --------------------------------------------- |
-            | 401         | ACCESS_DENIED              | Api key missing, invalid or expired, or calling application not configured for this operation. |
+            | 401         | ACCESS_DENIED              | API key missing, invalid or expired, or calling application not configured for this operation. |
             | 403         | ACCESS_DENIED              | User cannot perform this action. |
             | 404         | RESOURCE_NOT_FOUND         | Page not found. |
             | 429         | TOO_MANY_REQUESTS          | You have exceeded your application's [rate limit](https://digital.nhs.uk/developer/guides-and-documentation/reference-guide#rate-limits). |
@@ -486,7 +486,7 @@ paths:
 
             | HTTP status | Error code                 | Description |
             | ----------- | -------------------------- | --------------------------------------------- |
-            | 401         | ACCESS_DENIED              | Api key missing, invalid or expired, or calling application not configured for this operation. |
+            | 401         | ACCESS_DENIED              | API key missing, invalid or expired, or calling application not configured for this operation. |
             | 403         | ACCESS_DENIED              | User cannot perform this action. |
             | 404         | RESOURCE_NOT_FOUND         | Page not found. |
             | 429         | TOO_MANY_REQUESTS          | You have exceeded your application's [rate limit](https://digital.nhs.uk/developer/guides-and-documentation/reference-guide#rate-limits). |
@@ -526,7 +526,7 @@ paths:
 
             | HTTP status | Error code                 | Description |
             | ----------- | -------------------------- | --------------------------------------------- |
-            | 401         | ACCESS_DENIED              | Api key missing, invalid or expired, or calling application not configured for this operation. |
+            | 401         | ACCESS_DENIED              | API key missing, invalid or expired, or calling application not configured for this operation. |
             | 403         | ACCESS_DENIED              | User cannot perform this action. |
             | 404         | RESOURCE_NOT_FOUND         | Page not found. |
             | 429         | TOO_MANY_REQUESTS          | You have exceeded your application's [rate limit](https://digital.nhs.uk/developer/guides-and-documentation/reference-guide#rate-limits). |
@@ -575,7 +575,7 @@ paths:
 
             | HTTP status | Error code                 | Description |
             | ----------- | -------------------------- | --------------------------------------------- |
-            | 401         | ACCESS_DENIED              | Api key missing, invalid or expired, or calling application not configured for this operation. |
+            | 401         | ACCESS_DENIED              | API key missing, invalid or expired, or calling application not configured for this operation. |
             | 403         | ACCESS_DENIED              | User cannot perform this action. |
             | 404         | RESOURCE_NOT_FOUND         | Page not found. |
             | 429         | TOO_MANY_REQUESTS          | You have exceeded your application's [rate limit](https://digital.nhs.uk/developer/guides-and-documentation/reference-guide#rate-limits). |
@@ -615,7 +615,7 @@ paths:
 
             | HTTP status | Error code                 | Description |
             | ----------- | -------------------------- | --------------------------------------------- |
-            | 401         | ACCESS_DENIED              | Api key missing, invalid or expired, or calling application not configured for this operation. |
+            | 401         | ACCESS_DENIED              | API key missing, invalid or expired, or calling application not configured for this operation. |
             | 403         | ACCESS_DENIED              | User cannot perform this action. |
             | 404         | RESOURCE_NOT_FOUND         | Page not found. |
             | 429         | TOO_MANY_REQUESTS          | You have exceeded your application's [rate limit](https://digital.nhs.uk/developer/guides-and-documentation/reference-guide#rate-limits). |
@@ -648,7 +648,7 @@ paths:
 
             | HTTP status | Error code                 | Description |
             | ----------- | -------------------------- | --------------------------------------------- |
-            | 401         | ACCESS_DENIED              | Api key missing, invalid or expired, or calling application not configured for this operation. |
+            | 401         | ACCESS_DENIED              | API key missing, invalid or expired, or calling application not configured for this operation. |
             | 403         | ACCESS_DENIED              | User cannot perform this action. |
             | 404         | RESOURCE_NOT_FOUND         | Page not found. |
             | 429         | TOO_MANY_REQUESTS          | You have exceeded your application's [rate limit](https://digital.nhs.uk/developer/guides-and-documentation/reference-guide#rate-limits). |
@@ -680,7 +680,7 @@ paths:
 
             | HTTP status | Error code                 | Description |
             | ----------- | -------------------------- | --------------------------------------------- |
-            | 401         | ACCESS_DENIED              | Api key missing, invalid or expired, or calling application not configured for this operation. |
+            | 401         | ACCESS_DENIED              | API key missing, invalid or expired, or calling application not configured for this operation. |
             | 403         | ACCESS_DENIED              | User cannot perform this action. |
             | 404         | RESOURCE_NOT_FOUND         | Page not found. |
             | 429         | TOO_MANY_REQUESTS          | You have exceeded your application's [rate limit](https://digital.nhs.uk/developer/guides-and-documentation/reference-guide#rate-limits). |
@@ -713,7 +713,7 @@ paths:
 
             | HTTP status | Error code                 | Description |
             | ----------- | -------------------------- | --------------------------------------------- |
-            | 401         | ACCESS_DENIED              | Api key missing, invalid or expired, or calling application not configured for this operation. |
+            | 401         | ACCESS_DENIED              | API key missing, invalid or expired, or calling application not configured for this operation. |
             | 403         | ACCESS_DENIED              | User cannot perform this action. |
             | 404         | RESOURCE_NOT_FOUND         | Page not found. |
             | 429         | TOO_MANY_REQUESTS          | You have exceeded your application's [rate limit](https://digital.nhs.uk/developer/guides-and-documentation/reference-guide#rate-limits). |
@@ -746,7 +746,7 @@ paths:
 
             | HTTP status | Error code                 | Description |
             | ----------- | -------------------------- | --------------------------------------------- |
-            | 401         | ACCESS_DENIED              | Api key missing, invalid or expired, or calling application not configured for this operation. |
+            | 401         | ACCESS_DENIED              | API key missing, invalid or expired, or calling application not configured for this operation. |
             | 403         | ACCESS_DENIED              | User cannot perform this action. |
             | 404         | RESOURCE_NOT_FOUND         | Page not found. |
             | 429         | TOO_MANY_REQUESTS          | You have exceeded your application's [rate limit](https://digital.nhs.uk/developer/guides-and-documentation/reference-guide#rate-limits). |
@@ -778,7 +778,7 @@ paths:
 
             | HTTP status | Error code                 | Description |
             | ----------- | -------------------------- | --------------------------------------------- |
-            | 401         | ACCESS_DENIED              | Api key missing, invalid or expired, or calling application not configured for this operation. |
+            | 401         | ACCESS_DENIED              | API key missing, invalid or expired, or calling application not configured for this operation. |
             | 403         | ACCESS_DENIED              | User cannot perform this action. |
             | 404         | RESOURCE_NOT_FOUND         | Page not found. |
             | 429         | TOO_MANY_REQUESTS          | You have exceeded your application's [rate limit](https://digital.nhs.uk/developer/guides-and-documentation/reference-guide#rate-limits). |
@@ -810,7 +810,7 @@ paths:
 
             | HTTP status | Error code                 | Description |
             | ----------- | -------------------------- | --------------------------------------------- |
-            | 401         | ACCESS_DENIED              | Api key missing, invalid or expired, or calling application not configured for this operation. |
+            | 401         | ACCESS_DENIED              | API key missing, invalid or expired, or calling application not configured for this operation. |
             | 403         | ACCESS_DENIED              | User cannot perform this action. |
             | 404         | RESOURCE_NOT_FOUND         | Page not found. |
             | 429         | TOO_MANY_REQUESTS          | You have exceeded your application's [rate limit](https://digital.nhs.uk/developer/guides-and-documentation/reference-guide#rate-limits). |
@@ -842,7 +842,7 @@ paths:
 
             | HTTP status | Error code                 | Description |
             | ----------- | -------------------------- | --------------------------------------------- |
-            | 401         | ACCESS_DENIED              | Api key missing, invalid or expired, or calling application not configured for this operation. |
+            | 401         | ACCESS_DENIED              | API key missing, invalid or expired, or calling application not configured for this operation. |
             | 403         | ACCESS_DENIED              | User cannot perform this action. |
             | 404         | RESOURCE_NOT_FOUND         | Page not found. |
             | 429         | TOO_MANY_REQUESTS          | You have exceeded your application's [rate limit](https://digital.nhs.uk/developer/guides-and-documentation/reference-guide#rate-limits). |
