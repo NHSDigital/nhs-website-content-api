@@ -814,6 +814,38 @@ paths:
             | 403         | ACCESS_DENIED              | User cannot perform this action. |
             | 404         | RESOURCE_NOT_FOUND         | Page not found. |
             | 429         | TOO_MANY_REQUESTS          | You have exceeded your application's [rate limit](https://digital.nhs.uk/developer/guides-and-documentation/reference-guide#rate-limits). |
+  /womens-health:
+    get:
+      summary: Get content from the women's health hub
+      operationId: get-womens-health
+      description: |
+        ## Overview
+
+        The [women's health hub](https://www.nhs.uk/womens-health/) contains a number of navigational and content pages.
+
+        The content of the page is taken from the `mainEntityOfPage` part of the response. This includes the navigational links to child pages.
+
+        At the top level, modularised content of child pages is highlighted by the `hasPart` field. In child pages, only the individual page is shown.
+      responses:
+        "200":
+          description: |
+            A valid query for the women's health pages.
+          content:
+            application/json:
+              schema:
+                $ref: components/schemas/WebPage.json
+              example:
+                $ref: components/examples/WomensHealthHubPage.json
+        "4XX":
+          description: |
+            An error occurred as follows:
+
+            | HTTP status | Error code                 | Description |
+            | ----------- | -------------------------- | --------------------------------------------- |
+            | 401         | ACCESS_DENIED              | Api key missing, invalid or expired, or calling application not configured for this operation. |
+            | 403         | ACCESS_DENIED              | User cannot perform this action. |
+            | 404         | RESOURCE_NOT_FOUND         | Page not found. |
+            | 429         | TOO_MANY_REQUESTS          | You have exceeded your application's [rate limit](https://digital.nhs.uk/developer/guides-and-documentation/reference-guide#rate-limits). |
 components:
   securitySchemes:
     apikey:
