@@ -1,0 +1,82 @@
+{
+  "@context": "http://schema.org",
+  "@type": "MedicalWebPage",
+  "name": "Anaemia",
+  "copyrightHolder": {
+    "name": "Crown Copyright",
+    "@type": "Organization"
+  },
+  "license": "https://developer.api.nhs.uk/terms",
+  "author": {
+    "url": "https://www.nhs.uk",
+    "logo": "https://digital.nhs.uk/binaries/content/gallery/website/developer/api-catalogue/nhs-website-content/nhs-attribution.png",
+    "email": "nhswebsite.servicedesk@nhs.net",
+    "@type": "Organization",
+    "name": "NHS website"
+  },
+  "about": {
+    "@type": "WebPage",
+    "name": "Anaemia",
+    "alternateName": ""
+  },
+  "description": "Signs of anaemia, how to prevent it and where to get help",
+  "url": "https://api.service.nhs.uk/nhs-website-content/womens-health/anaemia/",
+  "genre": [],
+  "keywords": "",
+  "dateModified": "2023-07-19T11:09:55+00:00",
+  "hasPart": [],
+  "breadcrumb": {
+    "@context": "http://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 0,
+        "item": {
+          "@id": "https://api.service.nhs.uk/nhs-website-content/womens-health/",
+          "name": "Women's health",
+          "genre": []
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@id": "https://api.service.nhs.uk/nhs-website-content/womens-health/anaemia/",
+          "name": "Anaemia",
+          "genre": []
+        }
+      }
+    ]
+  },
+  "headline": "Anaemia",
+  "contentSubTypes": [],
+  "mainEntityOfPage": [
+    {
+      "identifier": "25",
+      "@type": "WebPageElement",
+      "name": "keylinks",
+      "headline": "",
+      "text": "",
+      "mainEntityOfPage": [
+        {
+          "@type": "WebPageElement",
+          "headline": "Iron deficiency anaemia",
+          "url": "https://api.service.nhs.uk/nhs-website-content/conditions/iron-deficiency-anaemia/",
+          "identifier": "26",
+          "text": "",
+          "name": "link"
+        },
+        {
+          "@type": "WebPageElement",
+          "headline": "Vitamin B12 or folate deficiency anaemia",
+          "url": "https://api.service.nhs.uk/nhs-website-content/conditions/vitamin-b12-or-folate-deficiency-anaemia/",
+          "identifier": "26",
+          "text": "",
+          "name": "link"
+        }
+      ]
+    }
+  ],
+  "webpage": "https://www.nhs.uk/womens-health/anaemia/"
+}

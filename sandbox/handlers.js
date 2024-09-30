@@ -81,6 +81,11 @@ const vaccinationsNhsVaccinationsAndWhenToHaveThemResponse = require('./response
 const vaccinations6in1VaccineResponse = require('./responses/vaccinations-6-in-1-vaccine-no-params.json')
 const vaccinationsAvailableTravelVaccinesResponse = require('./responses/vaccinations-available-travel-vaccines-no-params.json')
 
+// Women's health - Responses
+const womensHealthRootResponse = require('./responses/womens-health-root-no-params.json')
+const womensHealthPeriodsResponse = require('./responses/womens-health-periods-no-params.json')
+const womensHealthAnaemiaResponse = require('./responses/womens-health-anaemia-no-params.json')
+
 // ******************************************************************
 // ** Root page
 // ******************************************************************
@@ -1040,6 +1045,70 @@ async function vaccinationsAvailableTravelVaccines(req, res, next) {
 }
 
 // ******************************************************************
+// ** Women's health pages
+// ******************************************************************
+
+// Live website URL
+// https://www.nhs.uk/womens-health/
+// This sandbox on localhost
+// http://localhost:9000/womens-health/
+// API on Azure API Management
+// https://api.nhs.uk/womens-health/
+// Wagtail (Python) Application (no auth key required)
+// https://www.nhs.uk/content-api/womens-health/
+// Apigee Sandbox environment (no auth key required)
+// https://sandbox.api.service.nhs.uk/nhs-website-content/womens-health/
+// Apigee Integration environment ('apikey' required in Header)
+// https://int.api.service.nhs.uk/nhs-website-content/womens-health/
+// Apigee Production environment ('apikey' required in Header)
+// https://api.service.nhs.uk/nhs-website-content/womens-health/
+async function womensHealthRoot(req, res, next) {
+  res.status(200).json(womensHealthRootResponse)
+  res.end()
+  next()
+}
+
+// Live website URL
+// https://www.nhs.uk/womens-health/periods/
+// This sandbox on localhost
+// http://localhost:9000/womens-health/periods/
+// API on Azure API Management
+// https://api.nhs.uk/womens-health/periods/
+// Wagtail (Python) Application (no auth key required)
+// https://www.nhs.uk/content-api/womens-health/periods/
+// Apigee Sandbox environment (no auth key required)
+// https://sandbox.api.service.nhs.uk/nhs-website-content/womens-health/periods/
+// Apigee Integration environment ('apikey' required in Header)
+// https://int.api.service.nhs.uk/nhs-website-content/womens-health/periods/
+// Apigee Production environment ('apikey' required in Header)
+// https://api.service.nhs.uk/nhs-website-content/womens-health/periods/
+async function womensHealthPeriods(req, res, next) {
+  res.status(200).json(womensHealthPeriodsResponse)
+  res.end()
+  next()
+}
+
+// Live website URL
+// https://www.nhs.uk/womens-health/anaemia/
+// This sandbox on localhost
+// http://localhost:9000/womens-health/anaemia/
+// API on Azure API Management
+// https://api.nhs.uk/womens-health/anaemia/
+// Wagtail (Python) Application (no auth key required)
+// https://www.nhs.uk/content-api/womens-health/anaemia/
+// Apigee Sandbox environment (no auth key required)
+// https://sandbox.api.service.nhs.uk/nhs-website-content/womens-health/anaemia/
+// Apigee Integration environment ('apikey' required in Header)
+// https://int.api.service.nhs.uk/nhs-website-content/womens-health/anaemia/
+// Apigee Production environment ('apikey' required in Header)
+// https://api.service.nhs.uk/nhs-website-content/womens-health/anaemia/
+async function womensHealthAnaemia(req, res, next) {
+  res.status(200).json(womensHealthAnaemiaResponse)
+  res.end()
+  next()
+}
+
+// ******************************************************************
 // ** Status
 // ******************************************************************
 
@@ -1095,4 +1164,7 @@ module.exports = {
   vaccinationsAvailableTravelVaccines,
   vaccinationsNhsVaccinationsAndWhenToHaveThem,
   vaccinationsRoot,
+  womensHealthAnaemia,
+  womensHealthPeriods,
+  womensHealthRoot,
 }

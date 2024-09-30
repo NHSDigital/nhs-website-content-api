@@ -1,1 +1,516 @@
-{"@context":"http://schema.org","@type":"MedicalWebPage","name":"Available travel vaccines","copyrightHolder":{"name":"Crown Copyright","@type":"Organization"},"license":"https://developer.api.nhs.uk/terms","author":{"url":"https://www.nhs.uk","logo":"https://digital.nhs.uk/binaries/content/gallery/website/developer/api-catalogue/nhs-website-content/nhs-attribution.png","email":"nhswebsite.servicedesk@nhs.net","@type":"Organization","name":"NHS website"},"about":{"@type":"WebPage","name":"Available travel vaccines","alternateName":""},"description":"Find out about the vaccinations available for people travelling abroad.","url":"https://api.service.nhs.uk/nhs-website-content/vaccinations/travel-vaccinations/available-travel-vaccines/","genre":[],"keywords":"","dateModified":"2024-03-20T17:32:30+00:00","lastReviewed":["2023-03-16T16:48:00+00:00","2026-03-16T16:48:00+00:00"],"breadcrumb":{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":0,"item":{"@id":"https://api.service.nhs.uk/nhs-website-content/vaccinations/","name":"Vaccinations","genre":[]}},{"@type":"ListItem","position":1,"item":{"@id":"https://api.service.nhs.uk/nhs-website-content/vaccinations/travel-vaccinations/","name":"Travel vaccinations","genre":["Advice or information"]}},{"@type":"ListItem","position":2,"item":{"@id":"https://api.service.nhs.uk/nhs-website-content/vaccinations/travel-vaccinations/available-travel-vaccines/","name":"Available travel vaccines","genre":[]}}]},"hasPart":[],"relatedLink":[{"@type":"LinkRole","url":"https://api.service.nhs.uk/nhs-website-content/vaccinations/travel-vaccinations/","name":"Travel vaccinations","linkRelationship":"Navigation","position":0},{"@type":"LinkRole","url":"https://api.service.nhs.uk/nhs-website-content/vaccinations/travel-vaccinations/travel-vaccination-advice/","name":"Travel vaccination advice","linkRelationship":"Navigation","position":1},{"@type":"LinkRole","url":"https://api.service.nhs.uk/nhs-website-content/vaccinations/travel-vaccinations/available-travel-vaccines/","name":"Available travel vaccines","linkRelationship":"Navigation","position":2}],"contentSubTypes":[],"mainEntityOfPage":[{"position":0,"identifier":0,"text":"The following vaccinations are available for people travelling abroad.","name":"lead paragraph","@type":"WebPageElement"},{"identifier":"0","name":"section heading","position":1,"@type":"WebPageElement","mainEntityOfPage":[{"position":0,"identifier":"1","text":"<p>Vaccination against <a href=\"https://www.nhs.uk/conditions/cholera/\">cholera</a> isn't routinely needed for most travellers.</p><p>But in some cases it may be recommended for aid workers and people likely to have limited access to medical services – for example, people working in refugee camps or after natural disasters.</p><p>Most cases of cholera are confined to regions of the world with poor sanitation and water hygiene, such as parts of:</p><ul><li>Africa</li><li>Asia</li><li>South America</li></ul><p>The vaccine is usually given as a drink in 2 separate doses, taken 1 to 6 weeks apart.</p><p>Children aged 2 to 6 years old should have a third dose taken 1 to 6 weeks after the second dose.</p><p>You should make sure you have the final dose of this vaccine at least a week before you travel.</p><p>A single booster dose or full revaccination is usually recommended if you have previously been vaccinated against cholera and you're planning to travel to an area where the infection is common.</p>","@type":"WebPageElement","name":"markdown","headline":""}],"description":"","hasPart":[{"position":0,"identifier":"1","text":"<p>Vaccination against <a href=\"https://www.nhs.uk/conditions/cholera/\">cholera</a> isn't routinely needed for most travellers.</p><p>But in some cases it may be recommended for aid workers and people likely to have limited access to medical services – for example, people working in refugee camps or after natural disasters.</p><p>Most cases of cholera are confined to regions of the world with poor sanitation and water hygiene, such as parts of:</p><ul><li>Africa</li><li>Asia</li><li>South America</li></ul><p>The vaccine is usually given as a drink in 2 separate doses, taken 1 to 6 weeks apart.</p><p>Children aged 2 to 6 years old should have a third dose taken 1 to 6 weeks after the second dose.</p><p>You should make sure you have the final dose of this vaccine at least a week before you travel.</p><p>A single booster dose or full revaccination is usually recommended if you have previously been vaccinated against cholera and you're planning to travel to an area where the infection is common.</p>","@type":"WebPageElement","name":"markdown","headline":""}],"headline":"Cholera vaccination"},{"identifier":"0","name":"section heading","position":2,"@type":"WebPageElement","mainEntityOfPage":[{"position":0,"identifier":"1","text":"<p>A combined vaccination that protects against <a href=\"https://www.nhs.uk/conditions/diphtheria/\">diphtheria</a>, polio and tetanus is routinely given to all children in the UK.</p><p>You should make sure you and your children are up-to-date with your routine vaccinations before travelling.</p><p>Further booster doses are usually only recommended if you're going to visit parts of the world where diphtheria is widespread and your last vaccination dose was more than 10 years ago.</p><p>Diphtheria is more common in parts of the world where fewer people are vaccinated, such as:</p><ul><li>Africa</li><li>Central and Southeast Asia</li><li>South America</li><li>Haiti</li><li>Eastern Europe</li><li>Russia</li></ul><p>Additional doses of the vaccination are given in a single 3-in-1 Td/IPV (tetanus, diphtheria and polio) injection.</p>","@type":"WebPageElement","name":"markdown","headline":""}],"description":"","hasPart":[{"position":0,"identifier":"1","text":"<p>A combined vaccination that protects against <a href=\"https://www.nhs.uk/conditions/diphtheria/\">diphtheria</a>, polio and tetanus is routinely given to all children in the UK.</p><p>You should make sure you and your children are up-to-date with your routine vaccinations before travelling.</p><p>Further booster doses are usually only recommended if you're going to visit parts of the world where diphtheria is widespread and your last vaccination dose was more than 10 years ago.</p><p>Diphtheria is more common in parts of the world where fewer people are vaccinated, such as:</p><ul><li>Africa</li><li>Central and Southeast Asia</li><li>South America</li><li>Haiti</li><li>Eastern Europe</li><li>Russia</li></ul><p>Additional doses of the vaccination are given in a single 3-in-1 Td/IPV (tetanus, diphtheria and polio) injection.</p>","@type":"WebPageElement","name":"markdown","headline":""}],"headline":"Diphtheria vaccination"},{"identifier":"0","name":"section heading","position":3,"@type":"WebPageElement","mainEntityOfPage":[{"position":0,"identifier":"1","text":"<p>Vaccination against <a href=\"https://www.nhs.uk/conditions/hepatitis-a/\">hepatitis A</a> is recommended if you're travelling to countries where there are poor levels of sanitation and hygiene, and hepatitis A is common.</p><p>Ask your GP, pharmacy or travel clinic if you should have the hepatitis A vaccine if you're travelling to:</p><ul><li>Sub-Saharan and North Africa</li><li>Asia</li><li>the Middle East</li><li>South and Central America</li><li>Eastern Europe</li></ul><p>The vaccination against hepatitis A is usually given as a single initial injection, with a second dose 6 to 12 months later. Two doses should protect you for at least 25 years.</p><p>You should preferably have the initial dose at least 2 weeks before you leave, although it can be given up to the day of your departure if needed.</p><p>Jabs that offer combined protection against hepatitis A and hepatitis B or typhoid are also available if you're likely to also be at risk of these conditions.</p>","@type":"WebPageElement","name":"markdown","headline":""}],"description":"","hasPart":[{"position":0,"identifier":"1","text":"<p>Vaccination against <a href=\"https://www.nhs.uk/conditions/hepatitis-a/\">hepatitis A</a> is recommended if you're travelling to countries where there are poor levels of sanitation and hygiene, and hepatitis A is common.</p><p>Ask your GP, pharmacy or travel clinic if you should have the hepatitis A vaccine if you're travelling to:</p><ul><li>Sub-Saharan and North Africa</li><li>Asia</li><li>the Middle East</li><li>South and Central America</li><li>Eastern Europe</li></ul><p>The vaccination against hepatitis A is usually given as a single initial injection, with a second dose 6 to 12 months later. Two doses should protect you for at least 25 years.</p><p>You should preferably have the initial dose at least 2 weeks before you leave, although it can be given up to the day of your departure if needed.</p><p>Jabs that offer combined protection against hepatitis A and hepatitis B or typhoid are also available if you're likely to also be at risk of these conditions.</p>","@type":"WebPageElement","name":"markdown","headline":""}],"headline":"Hepatitis A vaccination"},{"identifier":"0","name":"section heading","position":4,"@type":"WebPageElement","mainEntityOfPage":[{"position":0,"identifier":"1","text":"<p>Vaccination against <a href=\"https://www.nhs.uk/conditions/hepatitis-b/\">hepatitis B</a> is recommended if you're travelling in parts of the world where hepatitis B is common, especially if you'll be doing activities that increase your risk of developing the infection.</p><p>Hepatitis B is spread through blood and body fluids. Things like having sex, injecting drugs or playing contact sports on your travels can increase your risk.</p><p>Anyone travelling for long periods or who's likely to need medical care while abroad is also at increased risk.</p><p>Hepatitis B is found worldwide, but it's more common in parts of:</p><ul><li>Sub-Saharan Africa</li><li>Asia</li><li>the Middle East</li><li>Southern and Eastern Europe</li><li>South America</li></ul><p>The hepatitis B vaccination generally involves a course of 3 injections. Depending on how quickly you need protection, these may be spread over a period as long as 6 months or as short as 3 weeks.</p><p>A combined hepatitis A and hepatitis B jab is also available if you're likely to be at risk of both these conditions while travelling.</p>","@type":"WebPageElement","name":"markdown","headline":""}],"description":"","hasPart":[{"position":0,"identifier":"1","text":"<p>Vaccination against <a href=\"https://www.nhs.uk/conditions/hepatitis-b/\">hepatitis B</a> is recommended if you're travelling in parts of the world where hepatitis B is common, especially if you'll be doing activities that increase your risk of developing the infection.</p><p>Hepatitis B is spread through blood and body fluids. Things like having sex, injecting drugs or playing contact sports on your travels can increase your risk.</p><p>Anyone travelling for long periods or who's likely to need medical care while abroad is also at increased risk.</p><p>Hepatitis B is found worldwide, but it's more common in parts of:</p><ul><li>Sub-Saharan Africa</li><li>Asia</li><li>the Middle East</li><li>Southern and Eastern Europe</li><li>South America</li></ul><p>The hepatitis B vaccination generally involves a course of 3 injections. Depending on how quickly you need protection, these may be spread over a period as long as 6 months or as short as 3 weeks.</p><p>A combined hepatitis A and hepatitis B jab is also available if you're likely to be at risk of both these conditions while travelling.</p>","@type":"WebPageElement","name":"markdown","headline":""}],"headline":"Hepatitis B vaccination"},{"identifier":"0","name":"section heading","position":5,"@type":"WebPageElement","mainEntityOfPage":[{"position":0,"identifier":"1","text":"<p>Vaccination against <a href=\"https://www.nhs.uk/conditions/japanese-encephalitis/\">Japanese encephalitis</a> is usually recommended if you're planning a long stay (usually at least a month) in a country where you could get the condition.</p><p>It's particularly important if:</p><ul><li>you're visiting during the rainy season or there's a year-round risk because of a tropical climate</li><li>you're going to visit rural areas, such as rice fields or marshlands</li><li>you'll be taking part in any activities that may increase your risk of becoming infected, such as cycling or camping</li></ul><p>Japanese encephalitis is found throughout Asia and beyond. The area it's found in stretches from the western Pacific islands in the east, across to the borders of Pakistan in the west.</p><p>It's found as far north as Northeastern China and as far south as the islands of the Torres Strait and Cape York in Northeastern Australia.</p><p>Despite its name, Japanese encephalitis is now relatively rare in Japan because of mass immunisation programmes.</p><p><a href=\"https://travelhealthpro.org.uk/factsheet/55/japanese-encephalitis\">Find out more about risk areas on the Travel Health Pro website</a></p><p>Vaccination against Japanese encephalitis usually consists of 2 injections, with the second dose given 28 days after the first.</p><p>Ideally, you need to have the second dose a week before you leave.</p>","@type":"WebPageElement","name":"markdown","headline":""}],"description":"","hasPart":[{"position":0,"identifier":"1","text":"<p>Vaccination against <a href=\"https://www.nhs.uk/conditions/japanese-encephalitis/\">Japanese encephalitis</a> is usually recommended if you're planning a long stay (usually at least a month) in a country where you could get the condition.</p><p>It's particularly important if:</p><ul><li>you're visiting during the rainy season or there's a year-round risk because of a tropical climate</li><li>you're going to visit rural areas, such as rice fields or marshlands</li><li>you'll be taking part in any activities that may increase your risk of becoming infected, such as cycling or camping</li></ul><p>Japanese encephalitis is found throughout Asia and beyond. The area it's found in stretches from the western Pacific islands in the east, across to the borders of Pakistan in the west.</p><p>It's found as far north as Northeastern China and as far south as the islands of the Torres Strait and Cape York in Northeastern Australia.</p><p>Despite its name, Japanese encephalitis is now relatively rare in Japan because of mass immunisation programmes.</p><p><a href=\"https://travelhealthpro.org.uk/factsheet/55/japanese-encephalitis\">Find out more about risk areas on the Travel Health Pro website</a></p><p>Vaccination against Japanese encephalitis usually consists of 2 injections, with the second dose given 28 days after the first.</p><p>Ideally, you need to have the second dose a week before you leave.</p>","@type":"WebPageElement","name":"markdown","headline":""}],"headline":"Japanese encephalitis vaccination"},{"identifier":"0","name":"section heading","position":6,"@type":"WebPageElement","mainEntityOfPage":[{"position":0,"identifier":"1","text":"<p>Vaccination against some types of meningococcal <a href=\"https://www.nhs.uk/conditions/meningitis/\">meningitis</a> is usually recommended if you're travelling to areas at risk and your planned activities put you at higher risk – for example, if you're a long-term traveller who has close contact with the local population.</p><p>High-risk areas for meningococcal meningitis include:</p><ul><li>parts of Africa</li><li>Saudi Arabia during the mass gatherings of Hajj or Umrah</li></ul><p>All travellers to Saudi Arabia for the Hajj or Umrah pilgrimages are required to show proof of vaccination.</p><p>If travelling to a high-risk area, you should be vaccinated against meningococcal meningitis with a <a href=\"https://www.nhs.uk/vaccinations/menacwy-vaccine/\">MenACWY vaccine</a>, also known as the quadrivalent meningococcal meningitis vaccine.</p><p>This is a single injection that should be given 2 to 3 weeks before you travel. Babies under a year old need 2 injections.</p><p>You should have the MenACWY vaccine before travelling to high-risk areas, even if you had the <a href=\"https://www.nhs.uk/vaccinations/hib-menc-vaccine/\">meningitis C vaccine</a> as a child.</p><p>Read more about the <a href=\"https://www.nhs.uk/conditions/meningitis/vaccination/\">meningococcal meningitis vaccines</a>.</p>","@type":"WebPageElement","name":"markdown","headline":""}],"description":"","hasPart":[{"position":0,"identifier":"1","text":"<p>Vaccination against some types of meningococcal <a href=\"https://www.nhs.uk/conditions/meningitis/\">meningitis</a> is usually recommended if you're travelling to areas at risk and your planned activities put you at higher risk – for example, if you're a long-term traveller who has close contact with the local population.</p><p>High-risk areas for meningococcal meningitis include:</p><ul><li>parts of Africa</li><li>Saudi Arabia during the mass gatherings of Hajj or Umrah</li></ul><p>All travellers to Saudi Arabia for the Hajj or Umrah pilgrimages are required to show proof of vaccination.</p><p>If travelling to a high-risk area, you should be vaccinated against meningococcal meningitis with a <a href=\"https://www.nhs.uk/vaccinations/menacwy-vaccine/\">MenACWY vaccine</a>, also known as the quadrivalent meningococcal meningitis vaccine.</p><p>This is a single injection that should be given 2 to 3 weeks before you travel. Babies under a year old need 2 injections.</p><p>You should have the MenACWY vaccine before travelling to high-risk areas, even if you had the <a href=\"https://www.nhs.uk/vaccinations/hib-menc-vaccine/\">meningitis C vaccine</a> as a child.</p><p>Read more about the <a href=\"https://www.nhs.uk/conditions/meningitis/vaccination/\">meningococcal meningitis vaccines</a>.</p>","@type":"WebPageElement","name":"markdown","headline":""}],"headline":"Meningococcal meningitis vaccination"},{"identifier":"0","name":"section heading","position":7,"@type":"WebPageElement","mainEntityOfPage":[{"position":0,"identifier":"1","text":"<p>The MMR vaccine that protects against <a href=\"https://www.nhs.uk/conditions/measles/\">measles</a>, <a href=\"https://www.nhs.uk/conditions/mumps/\">mumps</a> and <a href=\"https://www.nhs.uk/conditions/rubella/\">rubella</a> is routinely given to all children in the UK. </p><p>You should make sure you and your children are up-to-date with routine vaccinations, including MMR, before travelling.</p><p>If you haven't been fully vaccinated against these conditions or you're not already immune, you should ask about MMR vaccination before you travel.</p><p>The MMR vaccine is given as 2 injections. These are usually given when a child is 3 years and 4 months old.</p><p>But if vaccination has been missed previously, adults can have the doses 1 month apart, and children can have them 3 months apart if necessary.</p><p>Read more about the <a href=\"https://www.nhs.uk/vaccinations/mmr-vaccine/\">MMR vaccine</a>.</p>","@type":"WebPageElement","name":"markdown","headline":""}],"description":"","hasPart":[{"position":0,"identifier":"1","text":"<p>The MMR vaccine that protects against <a href=\"https://www.nhs.uk/conditions/measles/\">measles</a>, <a href=\"https://www.nhs.uk/conditions/mumps/\">mumps</a> and <a href=\"https://www.nhs.uk/conditions/rubella/\">rubella</a> is routinely given to all children in the UK. </p><p>You should make sure you and your children are up-to-date with routine vaccinations, including MMR, before travelling.</p><p>If you haven't been fully vaccinated against these conditions or you're not already immune, you should ask about MMR vaccination before you travel.</p><p>The MMR vaccine is given as 2 injections. These are usually given when a child is 3 years and 4 months old.</p><p>But if vaccination has been missed previously, adults can have the doses 1 month apart, and children can have them 3 months apart if necessary.</p><p>Read more about the <a href=\"https://www.nhs.uk/vaccinations/mmr-vaccine/\">MMR vaccine</a>.</p>","@type":"WebPageElement","name":"markdown","headline":""}],"headline":"Measles, mumps and rubella (MMR) vaccination"},{"identifier":"0","name":"section heading","position":8,"@type":"WebPageElement","mainEntityOfPage":[{"position":0,"identifier":"1","text":"<p>A combined vaccination that protects against diphtheria, <a href=\"https://www.nhs.uk/conditions/polio/\">polio</a> and tetanus is routinely given to all children in the UK.</p><p>You should make sure you and your children are up-to-date with your routine vaccinations before travelling.</p><p>Further booster doses are usually only recommended if you're going to visit parts of the world where polio is, or has recently been, present and your last vaccination dose was more than 10 years ago.</p><p>Currently the condition is most common in Pakistan and Afghanistan, but it's also a risk in other regions of the world.</p><p>Additional doses of the vaccination are given in a single 3-in-1 Td/IPV (tetanus, diphtheria and polio) injection.</p><p>Read more about the <a href=\"https://www.nhs.uk/vaccinations/td-ipv-vaccine-3-in-1-teenage-booster/\">Td/IPV (3-in-1) vaccine</a>.</p>","@type":"WebPageElement","name":"markdown","headline":""}],"description":"","hasPart":[{"position":0,"identifier":"1","text":"<p>A combined vaccination that protects against diphtheria, <a href=\"https://www.nhs.uk/conditions/polio/\">polio</a> and tetanus is routinely given to all children in the UK.</p><p>You should make sure you and your children are up-to-date with your routine vaccinations before travelling.</p><p>Further booster doses are usually only recommended if you're going to visit parts of the world where polio is, or has recently been, present and your last vaccination dose was more than 10 years ago.</p><p>Currently the condition is most common in Pakistan and Afghanistan, but it's also a risk in other regions of the world.</p><p>Additional doses of the vaccination are given in a single 3-in-1 Td/IPV (tetanus, diphtheria and polio) injection.</p><p>Read more about the <a href=\"https://www.nhs.uk/vaccinations/td-ipv-vaccine-3-in-1-teenage-booster/\">Td/IPV (3-in-1) vaccine</a>.</p>","@type":"WebPageElement","name":"markdown","headline":""}],"headline":"Polio vaccination"},{"identifier":"0","name":"section heading","position":9,"@type":"WebPageElement","mainEntityOfPage":[{"position":0,"identifier":"1","text":"<p>Vaccination against <a href=\"https://www.nhs.uk/conditions/rabies/\">rabies</a> is advised if you're travelling to an area where you could get rabies, particularly if:</p><ul><li>you're staying for a month or more</li><li>there's unlikely to be quick access to appropriate medical care</li><li>you plan to do activities that could put you at increased risk of exposure to rabies, such as cycling or running</li></ul><p>Rabies can be found in many parts of the world. <a href=\"https://www.gov.uk/government/publications/rabies-risks-by-country\">GOV.UK provides a detailed list of countries that have rabies in domestic animals or wildlife</a>.</p><p>Vaccination involves a course of 3 injections before you travel, usually given over a period of 28 days.</p><p>If you're bitten, licked or scratched by an animal in a country where rabies is a problem, further doses of rabies vaccine (with or without a special anti-rabies injection given around the wound) may be required as emergency treatment.</p><p><a href=\"https://www.nhs.uk/conditions/rabies/vaccination/\">Find out more about the rabies vaccine</a></p><p><a href=\"https://www.gov.uk/government/publications/rabies-risks-for-travellers\">GOV.UK: Rabies risks for travellers</a></p>","@type":"WebPageElement","name":"markdown","headline":""}],"description":"","hasPart":[{"position":0,"identifier":"1","text":"<p>Vaccination against <a href=\"https://www.nhs.uk/conditions/rabies/\">rabies</a> is advised if you're travelling to an area where you could get rabies, particularly if:</p><ul><li>you're staying for a month or more</li><li>there's unlikely to be quick access to appropriate medical care</li><li>you plan to do activities that could put you at increased risk of exposure to rabies, such as cycling or running</li></ul><p>Rabies can be found in many parts of the world. <a href=\"https://www.gov.uk/government/publications/rabies-risks-by-country\">GOV.UK provides a detailed list of countries that have rabies in domestic animals or wildlife</a>.</p><p>Vaccination involves a course of 3 injections before you travel, usually given over a period of 28 days.</p><p>If you're bitten, licked or scratched by an animal in a country where rabies is a problem, further doses of rabies vaccine (with or without a special anti-rabies injection given around the wound) may be required as emergency treatment.</p><p><a href=\"https://www.nhs.uk/conditions/rabies/vaccination/\">Find out more about the rabies vaccine</a></p><p><a href=\"https://www.gov.uk/government/publications/rabies-risks-for-travellers\">GOV.UK: Rabies risks for travellers</a></p>","@type":"WebPageElement","name":"markdown","headline":""}],"headline":"Rabies vaccination"},{"identifier":"0","name":"section heading","position":10,"@type":"WebPageElement","mainEntityOfPage":[{"position":0,"identifier":"1","text":"<p>A combined vaccination that protects against diphtheria, polio and <a href=\"https://www.nhs.uk/conditions/tetanus/\">tetanus</a> is routinely given to all children in the UK.</p><p>You should make sure you and your children are up-to-date with your routine vaccinations before travelling.</p><p>Further booster doses are usually only recommended if:</p><ul><li>you're travelling to areas where access to medical services is likely to be limited and your last vaccination dose was more than 10 years ago</li><li>you've not had two booster doses</li></ul><p>Additional doses of the vaccination are given in a single 3-in-1 Td/IPV (tetanus, diphtheria and polio) injection.</p><p>Read more about the <a href=\"https://www.nhs.uk/vaccinations/td-ipv-vaccine-3-in-1-teenage-booster/\">Td/IPV (3-in-1) vaccine</a>.</p>","@type":"WebPageElement","name":"markdown","headline":""}],"description":"","hasPart":[{"position":0,"identifier":"1","text":"<p>A combined vaccination that protects against diphtheria, polio and <a href=\"https://www.nhs.uk/conditions/tetanus/\">tetanus</a> is routinely given to all children in the UK.</p><p>You should make sure you and your children are up-to-date with your routine vaccinations before travelling.</p><p>Further booster doses are usually only recommended if:</p><ul><li>you're travelling to areas where access to medical services is likely to be limited and your last vaccination dose was more than 10 years ago</li><li>you've not had two booster doses</li></ul><p>Additional doses of the vaccination are given in a single 3-in-1 Td/IPV (tetanus, diphtheria and polio) injection.</p><p>Read more about the <a href=\"https://www.nhs.uk/vaccinations/td-ipv-vaccine-3-in-1-teenage-booster/\">Td/IPV (3-in-1) vaccine</a>.</p>","@type":"WebPageElement","name":"markdown","headline":""}],"headline":"Tetanus vaccination"},{"identifier":"0","name":"section heading","position":11,"@type":"WebPageElement","mainEntityOfPage":[{"position":0,"identifier":"1","text":"<p>Vaccination against <a href=\"https://www.nhs.uk/conditions/tick-borne-encephalitis/\">tick-borne encephalitis (TBE)</a> is usually recommended for anyone who plans to live or work in a high-risk area, or hike and camp in these areas during late spring or summer.</p><p>The ticks that cause TBE are mainly found in forested areas of central, eastern and northern Europe, although at-risk areas also include eastern Russia and some countries in east Asia, including some regions of China and Japan.</p><p>The vaccination requires a course of 3 injections for full protection. The second dose is given 1 to 3 months after the first and provides immunity for about a year.</p><p>A third dose, given 5 to 12 months after the second, provides immunity for up to 3 years.</p><p>The course can sometimes be accelerated if necessary. This involves 2 doses being given 2 weeks apart.</p><p>Booster doses of the vaccine are recommended every 3 years, if necessary.</p>","@type":"WebPageElement","name":"markdown","headline":""}],"description":"","hasPart":[{"position":0,"identifier":"1","text":"<p>Vaccination against <a href=\"https://www.nhs.uk/conditions/tick-borne-encephalitis/\">tick-borne encephalitis (TBE)</a> is usually recommended for anyone who plans to live or work in a high-risk area, or hike and camp in these areas during late spring or summer.</p><p>The ticks that cause TBE are mainly found in forested areas of central, eastern and northern Europe, although at-risk areas also include eastern Russia and some countries in east Asia, including some regions of China and Japan.</p><p>The vaccination requires a course of 3 injections for full protection. The second dose is given 1 to 3 months after the first and provides immunity for about a year.</p><p>A third dose, given 5 to 12 months after the second, provides immunity for up to 3 years.</p><p>The course can sometimes be accelerated if necessary. This involves 2 doses being given 2 weeks apart.</p><p>Booster doses of the vaccine are recommended every 3 years, if necessary.</p>","@type":"WebPageElement","name":"markdown","headline":""}],"headline":"Tick-borne encephalitis vaccination"},{"identifier":"0","name":"section heading","position":12,"@type":"WebPageElement","mainEntityOfPage":[{"position":0,"identifier":"1","text":"<p>The BCG vaccine (which stands for Bacillus Calmette-Guérin vaccine) protects against <a href=\"https://www.nhs.uk/conditions/tuberculosis-tb/\">tuberculosis</a>, which is also known as TB.</p><p>The BCG vaccine isn't given as part of the routine NHS vaccination schedule. It's given on the NHS only when a child or adult is thought to have an increased risk of coming into contact with TB.</p><p>When preparing for travel abroad, the BCG vaccine is recommended for any unvaccinated people under 16 who'll be living or working with friends, family or local people for more than 3 months in a country where TB is common or the risk of multi-drug resistant TB is high.</p><p>The BCG vaccine is given as a single injection.</p><p>Areas of the world where the risk of TB is high enough to recommend BCG vaccination for previously unvaccinated travellers include:</p><ul><li>Africa</li><li>parts of South and Southeast Asia</li></ul><p>Read more about the <a href=\"https://www.nhs.uk/vaccinations/bcg-vaccine-for-tuberculosis-tb/\">BCG vaccine</a>.</p>","@type":"WebPageElement","name":"markdown","headline":""}],"description":"","hasPart":[{"position":0,"identifier":"1","text":"<p>The BCG vaccine (which stands for Bacillus Calmette-Guérin vaccine) protects against <a href=\"https://www.nhs.uk/conditions/tuberculosis-tb/\">tuberculosis</a>, which is also known as TB.</p><p>The BCG vaccine isn't given as part of the routine NHS vaccination schedule. It's given on the NHS only when a child or adult is thought to have an increased risk of coming into contact with TB.</p><p>When preparing for travel abroad, the BCG vaccine is recommended for any unvaccinated people under 16 who'll be living or working with friends, family or local people for more than 3 months in a country where TB is common or the risk of multi-drug resistant TB is high.</p><p>The BCG vaccine is given as a single injection.</p><p>Areas of the world where the risk of TB is high enough to recommend BCG vaccination for previously unvaccinated travellers include:</p><ul><li>Africa</li><li>parts of South and Southeast Asia</li></ul><p>Read more about the <a href=\"https://www.nhs.uk/vaccinations/bcg-vaccine-for-tuberculosis-tb/\">BCG vaccine</a>.</p>","@type":"WebPageElement","name":"markdown","headline":""}],"headline":"Tuberculosis (TB) vaccination"},{"identifier":"0","name":"section heading","position":13,"@type":"WebPageElement","mainEntityOfPage":[{"position":0,"identifier":"1","text":"<p>Vaccination against <a href=\"https://www.nhs.uk/conditions/typhoid-fever/\">typhoid fever</a> is recommended if you're travelling to parts of the world where the condition is common, particularly if you'll: </p><ul><li>have frequent or prolonged exposure to conditions where sanitation and food hygiene are likely to be poor</li><li>be staying or working with local people</li></ul><p>High-risk areas include:</p><ul><li>Africa</li><li>parts of South and Southeast Asia</li><li>parts of South and Central America</li></ul><p>Two main vaccines are available for typhoid fever in the UK. One is given as a single injection, and the other is given as 3 capsules to take on alternate days.</p><p>It's also possible to have a combined hepatitis A and typhoid jab.</p><p>Ideally, the typhoid vaccine should be given at least 1 month before you travel, but it can be given closer to your travel date if necessary.</p><p>Booster vaccinations are recommended every 3 years if you continue to be at risk of infection.</p><p>Read more about the <a href=\"https://www.nhs.uk/conditions/typhoid-fever/vaccination/\">typhoid vaccine</a>.</p>","@type":"WebPageElement","name":"markdown","headline":""}],"description":"","hasPart":[{"position":0,"identifier":"1","text":"<p>Vaccination against <a href=\"https://www.nhs.uk/conditions/typhoid-fever/\">typhoid fever</a> is recommended if you're travelling to parts of the world where the condition is common, particularly if you'll: </p><ul><li>have frequent or prolonged exposure to conditions where sanitation and food hygiene are likely to be poor</li><li>be staying or working with local people</li></ul><p>High-risk areas include:</p><ul><li>Africa</li><li>parts of South and Southeast Asia</li><li>parts of South and Central America</li></ul><p>Two main vaccines are available for typhoid fever in the UK. One is given as a single injection, and the other is given as 3 capsules to take on alternate days.</p><p>It's also possible to have a combined hepatitis A and typhoid jab.</p><p>Ideally, the typhoid vaccine should be given at least 1 month before you travel, but it can be given closer to your travel date if necessary.</p><p>Booster vaccinations are recommended every 3 years if you continue to be at risk of infection.</p><p>Read more about the <a href=\"https://www.nhs.uk/conditions/typhoid-fever/vaccination/\">typhoid vaccine</a>.</p>","@type":"WebPageElement","name":"markdown","headline":""}],"headline":"Typhoid vaccination"},{"identifier":"0","name":"section heading","position":14,"@type":"WebPageElement","mainEntityOfPage":[{"position":0,"identifier":"1","text":"<p>Vaccination against <a href=\"https://www.nhs.uk/conditions/yellow-fever/\">yellow fever</a> is advised if you're travelling to areas where there's a risk of getting yellow fever.</p><p>Some countries require a proof of vaccination certificate before they let you enter the country.</p><p>Yellow fever occurs in some areas of tropical Africa and Central and South America. More information about <a href=\"https://travelhealthpro.org.uk/disease/194/yellow-fever\">yellow fever and areas where it's found is available on Travel Health Pro</a>.</p><p>A single dose of the yellow fever vaccine is thought to provide lifelong protection. For most people, a booster dose is no longer recommended.</p><p>You must have a yellow fever vaccination at least 10 days before you travel. You will also need to complete a yellow fever vaccination checklist to make sure you can have the vaccine.</p><p><a href=\"https://travelhealthpro.org.uk/factsheet/87/yellow-fever-pre-vaccination-checklist\">Find out more about the yellow fever vaccination checklist on the Travel Health Pro website</a></p><p>You should be issued with an International Certificate of Vaccination or Prophylaxis when you have the vaccine. This certificate is valid for life.</p><p>Some people cannot have the yellow fever vaccine.</p><p>Read more about the <a href=\"https://www.nhs.uk/conditions/yellow-fever/vaccination/\">yellow fever vaccine and who can have it</a>.</p>","@type":"WebPageElement","name":"markdown","headline":""}],"description":"","hasPart":[{"position":0,"identifier":"1","text":"<p>Vaccination against <a href=\"https://www.nhs.uk/conditions/yellow-fever/\">yellow fever</a> is advised if you're travelling to areas where there's a risk of getting yellow fever.</p><p>Some countries require a proof of vaccination certificate before they let you enter the country.</p><p>Yellow fever occurs in some areas of tropical Africa and Central and South America. More information about <a href=\"https://travelhealthpro.org.uk/disease/194/yellow-fever\">yellow fever and areas where it's found is available on Travel Health Pro</a>.</p><p>A single dose of the yellow fever vaccine is thought to provide lifelong protection. For most people, a booster dose is no longer recommended.</p><p>You must have a yellow fever vaccination at least 10 days before you travel. You will also need to complete a yellow fever vaccination checklist to make sure you can have the vaccine.</p><p><a href=\"https://travelhealthpro.org.uk/factsheet/87/yellow-fever-pre-vaccination-checklist\">Find out more about the yellow fever vaccination checklist on the Travel Health Pro website</a></p><p>You should be issued with an International Certificate of Vaccination or Prophylaxis when you have the vaccine. This certificate is valid for life.</p><p>Some people cannot have the yellow fever vaccine.</p><p>Read more about the <a href=\"https://www.nhs.uk/conditions/yellow-fever/vaccination/\">yellow fever vaccine and who can have it</a>.</p>","@type":"WebPageElement","name":"markdown","headline":""}],"headline":"Yellow fever vaccination"},{"identifier":"0","name":"section heading","position":15,"@type":"WebPageElement","mainEntityOfPage":[{"position":0,"identifier":"1","text":"<p>Speak to your GP before having any vaccinations if:</p><ul><li>you're planning to get pregnant</li><li>you're pregnant</li><li>you're breastfeeding</li><li>you have an immune deficiency</li><li>you have any allergies</li></ul>","@type":"WebPageElement","name":"markdown","headline":""}],"description":"","hasPart":[{"position":0,"identifier":"1","text":"<p>Speak to your GP before having any vaccinations if:</p><ul><li>you're planning to get pregnant</li><li>you're pregnant</li><li>you're breastfeeding</li><li>you have an immune deficiency</li><li>you have any allergies</li></ul>","@type":"WebPageElement","name":"markdown","headline":""}],"headline":"When to get further advice"}],"webpage":"https://www.nhs.uk/vaccinations/travel-vaccinations/available-travel-vaccines/"}
+{
+  "@context": "http://schema.org",
+  "@type": "MedicalWebPage",
+  "name": "Available travel vaccines",
+  "copyrightHolder": {
+    "name": "Crown Copyright",
+    "@type": "Organization"
+  },
+  "license": "https://developer.api.nhs.uk/terms",
+  "author": {
+    "url": "https://www.nhs.uk",
+    "logo": "https://digital.nhs.uk/binaries/content/gallery/website/developer/api-catalogue/nhs-website-content/nhs-attribution.png",
+    "email": "nhswebsite.servicedesk@nhs.net",
+    "@type": "Organization",
+    "name": "NHS website"
+  },
+  "about": {
+    "@type": "WebPage",
+    "name": "Available travel vaccines",
+    "alternateName": ""
+  },
+  "description": "Find out about the vaccinations available for people travelling abroad.",
+  "url": "https://api.service.nhs.uk/nhs-website-content/vaccinations/travel-vaccinations/available-travel-vaccines/",
+  "genre": [],
+  "keywords": "",
+  "dateModified": "2024-03-20T17:32:30+00:00",
+  "lastReviewed": ["2023-03-16T16:48:00+00:00", "2026-03-16T16:48:00+00:00"],
+  "breadcrumb": {
+    "@context": "http://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 0,
+        "item": {
+          "@id": "https://api.service.nhs.uk/nhs-website-content/vaccinations/",
+          "name": "Vaccinations",
+          "genre": []
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@id": "https://api.service.nhs.uk/nhs-website-content/vaccinations/travel-vaccinations/",
+          "name": "Travel vaccinations",
+          "genre": ["Advice or information"]
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "item": {
+          "@id": "https://api.service.nhs.uk/nhs-website-content/vaccinations/travel-vaccinations/available-travel-vaccines/",
+          "name": "Available travel vaccines",
+          "genre": []
+        }
+      }
+    ]
+  },
+  "hasPart": [],
+  "relatedLink": [
+    {
+      "@type": "LinkRole",
+      "url": "https://api.service.nhs.uk/nhs-website-content/vaccinations/travel-vaccinations/",
+      "name": "Travel vaccinations",
+      "linkRelationship": "Navigation",
+      "position": 0
+    },
+    {
+      "@type": "LinkRole",
+      "url": "https://api.service.nhs.uk/nhs-website-content/vaccinations/travel-vaccinations/travel-vaccination-advice/",
+      "name": "Travel vaccination advice",
+      "linkRelationship": "Navigation",
+      "position": 1
+    },
+    {
+      "@type": "LinkRole",
+      "url": "https://api.service.nhs.uk/nhs-website-content/vaccinations/travel-vaccinations/available-travel-vaccines/",
+      "name": "Available travel vaccines",
+      "linkRelationship": "Navigation",
+      "position": 2
+    }
+  ],
+  "contentSubTypes": [],
+  "mainEntityOfPage": [
+    {
+      "position": 0,
+      "identifier": 0,
+      "text": "The following vaccinations are available for people travelling abroad.",
+      "name": "lead paragraph",
+      "@type": "WebPageElement"
+    },
+    {
+      "identifier": "0",
+      "name": "section heading",
+      "position": 1,
+      "@type": "WebPageElement",
+      "mainEntityOfPage": [
+        {
+          "position": 0,
+          "identifier": "1",
+          "text": "<p>Vaccination against <a href=\"https://www.nhs.uk/conditions/cholera/\">cholera</a> isn't routinely needed for most travellers.</p><p>But in some cases it may be recommended for aid workers and people likely to have limited access to medical services – for example, people working in refugee camps or after natural disasters.</p><p>Most cases of cholera are confined to regions of the world with poor sanitation and water hygiene, such as parts of:</p><ul><li>Africa</li><li>Asia</li><li>South America</li></ul><p>The vaccine is usually given as a drink in 2 separate doses, taken 1 to 6 weeks apart.</p><p>Children aged 2 to 6 years old should have a third dose taken 1 to 6 weeks after the second dose.</p><p>You should make sure you have the final dose of this vaccine at least a week before you travel.</p><p>A single booster dose or full revaccination is usually recommended if you have previously been vaccinated against cholera and you're planning to travel to an area where the infection is common.</p>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": ""
+        }
+      ],
+      "description": "",
+      "hasPart": [
+        {
+          "position": 0,
+          "identifier": "1",
+          "text": "<p>Vaccination against <a href=\"https://www.nhs.uk/conditions/cholera/\">cholera</a> isn't routinely needed for most travellers.</p><p>But in some cases it may be recommended for aid workers and people likely to have limited access to medical services – for example, people working in refugee camps or after natural disasters.</p><p>Most cases of cholera are confined to regions of the world with poor sanitation and water hygiene, such as parts of:</p><ul><li>Africa</li><li>Asia</li><li>South America</li></ul><p>The vaccine is usually given as a drink in 2 separate doses, taken 1 to 6 weeks apart.</p><p>Children aged 2 to 6 years old should have a third dose taken 1 to 6 weeks after the second dose.</p><p>You should make sure you have the final dose of this vaccine at least a week before you travel.</p><p>A single booster dose or full revaccination is usually recommended if you have previously been vaccinated against cholera and you're planning to travel to an area where the infection is common.</p>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": ""
+        }
+      ],
+      "headline": "Cholera vaccination"
+    },
+    {
+      "identifier": "0",
+      "name": "section heading",
+      "position": 2,
+      "@type": "WebPageElement",
+      "mainEntityOfPage": [
+        {
+          "position": 0,
+          "identifier": "1",
+          "text": "<p>A combined vaccination that protects against <a href=\"https://www.nhs.uk/conditions/diphtheria/\">diphtheria</a>, polio and tetanus is routinely given to all children in the UK.</p><p>You should make sure you and your children are up-to-date with your routine vaccinations before travelling.</p><p>Further booster doses are usually only recommended if you're going to visit parts of the world where diphtheria is widespread and your last vaccination dose was more than 10 years ago.</p><p>Diphtheria is more common in parts of the world where fewer people are vaccinated, such as:</p><ul><li>Africa</li><li>Central and Southeast Asia</li><li>South America</li><li>Haiti</li><li>Eastern Europe</li><li>Russia</li></ul><p>Additional doses of the vaccination are given in a single 3-in-1 Td/IPV (tetanus, diphtheria and polio) injection.</p>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": ""
+        }
+      ],
+      "description": "",
+      "hasPart": [
+        {
+          "position": 0,
+          "identifier": "1",
+          "text": "<p>A combined vaccination that protects against <a href=\"https://www.nhs.uk/conditions/diphtheria/\">diphtheria</a>, polio and tetanus is routinely given to all children in the UK.</p><p>You should make sure you and your children are up-to-date with your routine vaccinations before travelling.</p><p>Further booster doses are usually only recommended if you're going to visit parts of the world where diphtheria is widespread and your last vaccination dose was more than 10 years ago.</p><p>Diphtheria is more common in parts of the world where fewer people are vaccinated, such as:</p><ul><li>Africa</li><li>Central and Southeast Asia</li><li>South America</li><li>Haiti</li><li>Eastern Europe</li><li>Russia</li></ul><p>Additional doses of the vaccination are given in a single 3-in-1 Td/IPV (tetanus, diphtheria and polio) injection.</p>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": ""
+        }
+      ],
+      "headline": "Diphtheria vaccination"
+    },
+    {
+      "identifier": "0",
+      "name": "section heading",
+      "position": 3,
+      "@type": "WebPageElement",
+      "mainEntityOfPage": [
+        {
+          "position": 0,
+          "identifier": "1",
+          "text": "<p>Vaccination against <a href=\"https://www.nhs.uk/conditions/hepatitis-a/\">hepatitis A</a> is recommended if you're travelling to countries where there are poor levels of sanitation and hygiene, and hepatitis A is common.</p><p>Ask your GP, pharmacy or travel clinic if you should have the hepatitis A vaccine if you're travelling to:</p><ul><li>Sub-Saharan and North Africa</li><li>Asia</li><li>the Middle East</li><li>South and Central America</li><li>Eastern Europe</li></ul><p>The vaccination against hepatitis A is usually given as a single initial injection, with a second dose 6 to 12 months later. Two doses should protect you for at least 25 years.</p><p>You should preferably have the initial dose at least 2 weeks before you leave, although it can be given up to the day of your departure if needed.</p><p>Jabs that offer combined protection against hepatitis A and hepatitis B or typhoid are also available if you're likely to also be at risk of these conditions.</p>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": ""
+        }
+      ],
+      "description": "",
+      "hasPart": [
+        {
+          "position": 0,
+          "identifier": "1",
+          "text": "<p>Vaccination against <a href=\"https://www.nhs.uk/conditions/hepatitis-a/\">hepatitis A</a> is recommended if you're travelling to countries where there are poor levels of sanitation and hygiene, and hepatitis A is common.</p><p>Ask your GP, pharmacy or travel clinic if you should have the hepatitis A vaccine if you're travelling to:</p><ul><li>Sub-Saharan and North Africa</li><li>Asia</li><li>the Middle East</li><li>South and Central America</li><li>Eastern Europe</li></ul><p>The vaccination against hepatitis A is usually given as a single initial injection, with a second dose 6 to 12 months later. Two doses should protect you for at least 25 years.</p><p>You should preferably have the initial dose at least 2 weeks before you leave, although it can be given up to the day of your departure if needed.</p><p>Jabs that offer combined protection against hepatitis A and hepatitis B or typhoid are also available if you're likely to also be at risk of these conditions.</p>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": ""
+        }
+      ],
+      "headline": "Hepatitis A vaccination"
+    },
+    {
+      "identifier": "0",
+      "name": "section heading",
+      "position": 4,
+      "@type": "WebPageElement",
+      "mainEntityOfPage": [
+        {
+          "position": 0,
+          "identifier": "1",
+          "text": "<p>Vaccination against <a href=\"https://www.nhs.uk/conditions/hepatitis-b/\">hepatitis B</a> is recommended if you're travelling in parts of the world where hepatitis B is common, especially if you'll be doing activities that increase your risk of developing the infection.</p><p>Hepatitis B is spread through blood and body fluids. Things like having sex, injecting drugs or playing contact sports on your travels can increase your risk.</p><p>Anyone travelling for long periods or who's likely to need medical care while abroad is also at increased risk.</p><p>Hepatitis B is found worldwide, but it's more common in parts of:</p><ul><li>Sub-Saharan Africa</li><li>Asia</li><li>the Middle East</li><li>Southern and Eastern Europe</li><li>South America</li></ul><p>The hepatitis B vaccination generally involves a course of 3 injections. Depending on how quickly you need protection, these may be spread over a period as long as 6 months or as short as 3 weeks.</p><p>A combined hepatitis A and hepatitis B jab is also available if you're likely to be at risk of both these conditions while travelling.</p>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": ""
+        }
+      ],
+      "description": "",
+      "hasPart": [
+        {
+          "position": 0,
+          "identifier": "1",
+          "text": "<p>Vaccination against <a href=\"https://www.nhs.uk/conditions/hepatitis-b/\">hepatitis B</a> is recommended if you're travelling in parts of the world where hepatitis B is common, especially if you'll be doing activities that increase your risk of developing the infection.</p><p>Hepatitis B is spread through blood and body fluids. Things like having sex, injecting drugs or playing contact sports on your travels can increase your risk.</p><p>Anyone travelling for long periods or who's likely to need medical care while abroad is also at increased risk.</p><p>Hepatitis B is found worldwide, but it's more common in parts of:</p><ul><li>Sub-Saharan Africa</li><li>Asia</li><li>the Middle East</li><li>Southern and Eastern Europe</li><li>South America</li></ul><p>The hepatitis B vaccination generally involves a course of 3 injections. Depending on how quickly you need protection, these may be spread over a period as long as 6 months or as short as 3 weeks.</p><p>A combined hepatitis A and hepatitis B jab is also available if you're likely to be at risk of both these conditions while travelling.</p>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": ""
+        }
+      ],
+      "headline": "Hepatitis B vaccination"
+    },
+    {
+      "identifier": "0",
+      "name": "section heading",
+      "position": 5,
+      "@type": "WebPageElement",
+      "mainEntityOfPage": [
+        {
+          "position": 0,
+          "identifier": "1",
+          "text": "<p>Vaccination against <a href=\"https://www.nhs.uk/conditions/japanese-encephalitis/\">Japanese encephalitis</a> is usually recommended if you're planning a long stay (usually at least a month) in a country where you could get the condition.</p><p>It's particularly important if:</p><ul><li>you're visiting during the rainy season or there's a year-round risk because of a tropical climate</li><li>you're going to visit rural areas, such as rice fields or marshlands</li><li>you'll be taking part in any activities that may increase your risk of becoming infected, such as cycling or camping</li></ul><p>Japanese encephalitis is found throughout Asia and beyond. The area it's found in stretches from the western Pacific islands in the east, across to the borders of Pakistan in the west.</p><p>It's found as far north as Northeastern China and as far south as the islands of the Torres Strait and Cape York in Northeastern Australia.</p><p>Despite its name, Japanese encephalitis is now relatively rare in Japan because of mass immunisation programmes.</p><p><a href=\"https://travelhealthpro.org.uk/factsheet/55/japanese-encephalitis\">Find out more about risk areas on the Travel Health Pro website</a></p><p>Vaccination against Japanese encephalitis usually consists of 2 injections, with the second dose given 28 days after the first.</p><p>Ideally, you need to have the second dose a week before you leave.</p>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": ""
+        }
+      ],
+      "description": "",
+      "hasPart": [
+        {
+          "position": 0,
+          "identifier": "1",
+          "text": "<p>Vaccination against <a href=\"https://www.nhs.uk/conditions/japanese-encephalitis/\">Japanese encephalitis</a> is usually recommended if you're planning a long stay (usually at least a month) in a country where you could get the condition.</p><p>It's particularly important if:</p><ul><li>you're visiting during the rainy season or there's a year-round risk because of a tropical climate</li><li>you're going to visit rural areas, such as rice fields or marshlands</li><li>you'll be taking part in any activities that may increase your risk of becoming infected, such as cycling or camping</li></ul><p>Japanese encephalitis is found throughout Asia and beyond. The area it's found in stretches from the western Pacific islands in the east, across to the borders of Pakistan in the west.</p><p>It's found as far north as Northeastern China and as far south as the islands of the Torres Strait and Cape York in Northeastern Australia.</p><p>Despite its name, Japanese encephalitis is now relatively rare in Japan because of mass immunisation programmes.</p><p><a href=\"https://travelhealthpro.org.uk/factsheet/55/japanese-encephalitis\">Find out more about risk areas on the Travel Health Pro website</a></p><p>Vaccination against Japanese encephalitis usually consists of 2 injections, with the second dose given 28 days after the first.</p><p>Ideally, you need to have the second dose a week before you leave.</p>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": ""
+        }
+      ],
+      "headline": "Japanese encephalitis vaccination"
+    },
+    {
+      "identifier": "0",
+      "name": "section heading",
+      "position": 6,
+      "@type": "WebPageElement",
+      "mainEntityOfPage": [
+        {
+          "position": 0,
+          "identifier": "1",
+          "text": "<p>Vaccination against some types of meningococcal <a href=\"https://www.nhs.uk/conditions/meningitis/\">meningitis</a> is usually recommended if you're travelling to areas at risk and your planned activities put you at higher risk – for example, if you're a long-term traveller who has close contact with the local population.</p><p>High-risk areas for meningococcal meningitis include:</p><ul><li>parts of Africa</li><li>Saudi Arabia during the mass gatherings of Hajj or Umrah</li></ul><p>All travellers to Saudi Arabia for the Hajj or Umrah pilgrimages are required to show proof of vaccination.</p><p>If travelling to a high-risk area, you should be vaccinated against meningococcal meningitis with a <a href=\"https://www.nhs.uk/vaccinations/menacwy-vaccine/\">MenACWY vaccine</a>, also known as the quadrivalent meningococcal meningitis vaccine.</p><p>This is a single injection that should be given 2 to 3 weeks before you travel. Babies under a year old need 2 injections.</p><p>You should have the MenACWY vaccine before travelling to high-risk areas, even if you had the <a href=\"https://www.nhs.uk/vaccinations/hib-menc-vaccine/\">meningitis C vaccine</a> as a child.</p><p>Read more about the <a href=\"https://www.nhs.uk/conditions/meningitis/vaccination/\">meningococcal meningitis vaccines</a>.</p>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": ""
+        }
+      ],
+      "description": "",
+      "hasPart": [
+        {
+          "position": 0,
+          "identifier": "1",
+          "text": "<p>Vaccination against some types of meningococcal <a href=\"https://www.nhs.uk/conditions/meningitis/\">meningitis</a> is usually recommended if you're travelling to areas at risk and your planned activities put you at higher risk – for example, if you're a long-term traveller who has close contact with the local population.</p><p>High-risk areas for meningococcal meningitis include:</p><ul><li>parts of Africa</li><li>Saudi Arabia during the mass gatherings of Hajj or Umrah</li></ul><p>All travellers to Saudi Arabia for the Hajj or Umrah pilgrimages are required to show proof of vaccination.</p><p>If travelling to a high-risk area, you should be vaccinated against meningococcal meningitis with a <a href=\"https://www.nhs.uk/vaccinations/menacwy-vaccine/\">MenACWY vaccine</a>, also known as the quadrivalent meningococcal meningitis vaccine.</p><p>This is a single injection that should be given 2 to 3 weeks before you travel. Babies under a year old need 2 injections.</p><p>You should have the MenACWY vaccine before travelling to high-risk areas, even if you had the <a href=\"https://www.nhs.uk/vaccinations/hib-menc-vaccine/\">meningitis C vaccine</a> as a child.</p><p>Read more about the <a href=\"https://www.nhs.uk/conditions/meningitis/vaccination/\">meningococcal meningitis vaccines</a>.</p>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": ""
+        }
+      ],
+      "headline": "Meningococcal meningitis vaccination"
+    },
+    {
+      "identifier": "0",
+      "name": "section heading",
+      "position": 7,
+      "@type": "WebPageElement",
+      "mainEntityOfPage": [
+        {
+          "position": 0,
+          "identifier": "1",
+          "text": "<p>The MMR vaccine that protects against <a href=\"https://www.nhs.uk/conditions/measles/\">measles</a>, <a href=\"https://www.nhs.uk/conditions/mumps/\">mumps</a> and <a href=\"https://www.nhs.uk/conditions/rubella/\">rubella</a> is routinely given to all children in the UK. </p><p>You should make sure you and your children are up-to-date with routine vaccinations, including MMR, before travelling.</p><p>If you haven't been fully vaccinated against these conditions or you're not already immune, you should ask about MMR vaccination before you travel.</p><p>The MMR vaccine is given as 2 injections. These are usually given when a child is 3 years and 4 months old.</p><p>But if vaccination has been missed previously, adults can have the doses 1 month apart, and children can have them 3 months apart if necessary.</p><p>Read more about the <a href=\"https://www.nhs.uk/vaccinations/mmr-vaccine/\">MMR vaccine</a>.</p>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": ""
+        }
+      ],
+      "description": "",
+      "hasPart": [
+        {
+          "position": 0,
+          "identifier": "1",
+          "text": "<p>The MMR vaccine that protects against <a href=\"https://www.nhs.uk/conditions/measles/\">measles</a>, <a href=\"https://www.nhs.uk/conditions/mumps/\">mumps</a> and <a href=\"https://www.nhs.uk/conditions/rubella/\">rubella</a> is routinely given to all children in the UK. </p><p>You should make sure you and your children are up-to-date with routine vaccinations, including MMR, before travelling.</p><p>If you haven't been fully vaccinated against these conditions or you're not already immune, you should ask about MMR vaccination before you travel.</p><p>The MMR vaccine is given as 2 injections. These are usually given when a child is 3 years and 4 months old.</p><p>But if vaccination has been missed previously, adults can have the doses 1 month apart, and children can have them 3 months apart if necessary.</p><p>Read more about the <a href=\"https://www.nhs.uk/vaccinations/mmr-vaccine/\">MMR vaccine</a>.</p>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": ""
+        }
+      ],
+      "headline": "Measles, mumps and rubella (MMR) vaccination"
+    },
+    {
+      "identifier": "0",
+      "name": "section heading",
+      "position": 8,
+      "@type": "WebPageElement",
+      "mainEntityOfPage": [
+        {
+          "position": 0,
+          "identifier": "1",
+          "text": "<p>A combined vaccination that protects against diphtheria, <a href=\"https://www.nhs.uk/conditions/polio/\">polio</a> and tetanus is routinely given to all children in the UK.</p><p>You should make sure you and your children are up-to-date with your routine vaccinations before travelling.</p><p>Further booster doses are usually only recommended if you're going to visit parts of the world where polio is, or has recently been, present and your last vaccination dose was more than 10 years ago.</p><p>Currently the condition is most common in Pakistan and Afghanistan, but it's also a risk in other regions of the world.</p><p>Additional doses of the vaccination are given in a single 3-in-1 Td/IPV (tetanus, diphtheria and polio) injection.</p><p>Read more about the <a href=\"https://www.nhs.uk/vaccinations/td-ipv-vaccine-3-in-1-teenage-booster/\">Td/IPV (3-in-1) vaccine</a>.</p>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": ""
+        }
+      ],
+      "description": "",
+      "hasPart": [
+        {
+          "position": 0,
+          "identifier": "1",
+          "text": "<p>A combined vaccination that protects against diphtheria, <a href=\"https://www.nhs.uk/conditions/polio/\">polio</a> and tetanus is routinely given to all children in the UK.</p><p>You should make sure you and your children are up-to-date with your routine vaccinations before travelling.</p><p>Further booster doses are usually only recommended if you're going to visit parts of the world where polio is, or has recently been, present and your last vaccination dose was more than 10 years ago.</p><p>Currently the condition is most common in Pakistan and Afghanistan, but it's also a risk in other regions of the world.</p><p>Additional doses of the vaccination are given in a single 3-in-1 Td/IPV (tetanus, diphtheria and polio) injection.</p><p>Read more about the <a href=\"https://www.nhs.uk/vaccinations/td-ipv-vaccine-3-in-1-teenage-booster/\">Td/IPV (3-in-1) vaccine</a>.</p>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": ""
+        }
+      ],
+      "headline": "Polio vaccination"
+    },
+    {
+      "identifier": "0",
+      "name": "section heading",
+      "position": 9,
+      "@type": "WebPageElement",
+      "mainEntityOfPage": [
+        {
+          "position": 0,
+          "identifier": "1",
+          "text": "<p>Vaccination against <a href=\"https://www.nhs.uk/conditions/rabies/\">rabies</a> is advised if you're travelling to an area where you could get rabies, particularly if:</p><ul><li>you're staying for a month or more</li><li>there's unlikely to be quick access to appropriate medical care</li><li>you plan to do activities that could put you at increased risk of exposure to rabies, such as cycling or running</li></ul><p>Rabies can be found in many parts of the world. <a href=\"https://www.gov.uk/government/publications/rabies-risks-by-country\">GOV.UK provides a detailed list of countries that have rabies in domestic animals or wildlife</a>.</p><p>Vaccination involves a course of 3 injections before you travel, usually given over a period of 28 days.</p><p>If you're bitten, licked or scratched by an animal in a country where rabies is a problem, further doses of rabies vaccine (with or without a special anti-rabies injection given around the wound) may be required as emergency treatment.</p><p><a href=\"https://www.nhs.uk/conditions/rabies/vaccination/\">Find out more about the rabies vaccine</a></p><p><a href=\"https://www.gov.uk/government/publications/rabies-risks-for-travellers\">GOV.UK: Rabies risks for travellers</a></p>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": ""
+        }
+      ],
+      "description": "",
+      "hasPart": [
+        {
+          "position": 0,
+          "identifier": "1",
+          "text": "<p>Vaccination against <a href=\"https://www.nhs.uk/conditions/rabies/\">rabies</a> is advised if you're travelling to an area where you could get rabies, particularly if:</p><ul><li>you're staying for a month or more</li><li>there's unlikely to be quick access to appropriate medical care</li><li>you plan to do activities that could put you at increased risk of exposure to rabies, such as cycling or running</li></ul><p>Rabies can be found in many parts of the world. <a href=\"https://www.gov.uk/government/publications/rabies-risks-by-country\">GOV.UK provides a detailed list of countries that have rabies in domestic animals or wildlife</a>.</p><p>Vaccination involves a course of 3 injections before you travel, usually given over a period of 28 days.</p><p>If you're bitten, licked or scratched by an animal in a country where rabies is a problem, further doses of rabies vaccine (with or without a special anti-rabies injection given around the wound) may be required as emergency treatment.</p><p><a href=\"https://www.nhs.uk/conditions/rabies/vaccination/\">Find out more about the rabies vaccine</a></p><p><a href=\"https://www.gov.uk/government/publications/rabies-risks-for-travellers\">GOV.UK: Rabies risks for travellers</a></p>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": ""
+        }
+      ],
+      "headline": "Rabies vaccination"
+    },
+    {
+      "identifier": "0",
+      "name": "section heading",
+      "position": 10,
+      "@type": "WebPageElement",
+      "mainEntityOfPage": [
+        {
+          "position": 0,
+          "identifier": "1",
+          "text": "<p>A combined vaccination that protects against diphtheria, polio and <a href=\"https://www.nhs.uk/conditions/tetanus/\">tetanus</a> is routinely given to all children in the UK.</p><p>You should make sure you and your children are up-to-date with your routine vaccinations before travelling.</p><p>Further booster doses are usually only recommended if:</p><ul><li>you're travelling to areas where access to medical services is likely to be limited and your last vaccination dose was more than 10 years ago</li><li>you've not had two booster doses</li></ul><p>Additional doses of the vaccination are given in a single 3-in-1 Td/IPV (tetanus, diphtheria and polio) injection.</p><p>Read more about the <a href=\"https://www.nhs.uk/vaccinations/td-ipv-vaccine-3-in-1-teenage-booster/\">Td/IPV (3-in-1) vaccine</a>.</p>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": ""
+        }
+      ],
+      "description": "",
+      "hasPart": [
+        {
+          "position": 0,
+          "identifier": "1",
+          "text": "<p>A combined vaccination that protects against diphtheria, polio and <a href=\"https://www.nhs.uk/conditions/tetanus/\">tetanus</a> is routinely given to all children in the UK.</p><p>You should make sure you and your children are up-to-date with your routine vaccinations before travelling.</p><p>Further booster doses are usually only recommended if:</p><ul><li>you're travelling to areas where access to medical services is likely to be limited and your last vaccination dose was more than 10 years ago</li><li>you've not had two booster doses</li></ul><p>Additional doses of the vaccination are given in a single 3-in-1 Td/IPV (tetanus, diphtheria and polio) injection.</p><p>Read more about the <a href=\"https://www.nhs.uk/vaccinations/td-ipv-vaccine-3-in-1-teenage-booster/\">Td/IPV (3-in-1) vaccine</a>.</p>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": ""
+        }
+      ],
+      "headline": "Tetanus vaccination"
+    },
+    {
+      "identifier": "0",
+      "name": "section heading",
+      "position": 11,
+      "@type": "WebPageElement",
+      "mainEntityOfPage": [
+        {
+          "position": 0,
+          "identifier": "1",
+          "text": "<p>Vaccination against <a href=\"https://www.nhs.uk/conditions/tick-borne-encephalitis/\">tick-borne encephalitis (TBE)</a> is usually recommended for anyone who plans to live or work in a high-risk area, or hike and camp in these areas during late spring or summer.</p><p>The ticks that cause TBE are mainly found in forested areas of central, eastern and northern Europe, although at-risk areas also include eastern Russia and some countries in east Asia, including some regions of China and Japan.</p><p>The vaccination requires a course of 3 injections for full protection. The second dose is given 1 to 3 months after the first and provides immunity for about a year.</p><p>A third dose, given 5 to 12 months after the second, provides immunity for up to 3 years.</p><p>The course can sometimes be accelerated if necessary. This involves 2 doses being given 2 weeks apart.</p><p>Booster doses of the vaccine are recommended every 3 years, if necessary.</p>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": ""
+        }
+      ],
+      "description": "",
+      "hasPart": [
+        {
+          "position": 0,
+          "identifier": "1",
+          "text": "<p>Vaccination against <a href=\"https://www.nhs.uk/conditions/tick-borne-encephalitis/\">tick-borne encephalitis (TBE)</a> is usually recommended for anyone who plans to live or work in a high-risk area, or hike and camp in these areas during late spring or summer.</p><p>The ticks that cause TBE are mainly found in forested areas of central, eastern and northern Europe, although at-risk areas also include eastern Russia and some countries in east Asia, including some regions of China and Japan.</p><p>The vaccination requires a course of 3 injections for full protection. The second dose is given 1 to 3 months after the first and provides immunity for about a year.</p><p>A third dose, given 5 to 12 months after the second, provides immunity for up to 3 years.</p><p>The course can sometimes be accelerated if necessary. This involves 2 doses being given 2 weeks apart.</p><p>Booster doses of the vaccine are recommended every 3 years, if necessary.</p>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": ""
+        }
+      ],
+      "headline": "Tick-borne encephalitis vaccination"
+    },
+    {
+      "identifier": "0",
+      "name": "section heading",
+      "position": 12,
+      "@type": "WebPageElement",
+      "mainEntityOfPage": [
+        {
+          "position": 0,
+          "identifier": "1",
+          "text": "<p>The BCG vaccine (which stands for Bacillus Calmette-Guérin vaccine) protects against <a href=\"https://www.nhs.uk/conditions/tuberculosis-tb/\">tuberculosis</a>, which is also known as TB.</p><p>The BCG vaccine isn't given as part of the routine NHS vaccination schedule. It's given on the NHS only when a child or adult is thought to have an increased risk of coming into contact with TB.</p><p>When preparing for travel abroad, the BCG vaccine is recommended for any unvaccinated people under 16 who'll be living or working with friends, family or local people for more than 3 months in a country where TB is common or the risk of multi-drug resistant TB is high.</p><p>The BCG vaccine is given as a single injection.</p><p>Areas of the world where the risk of TB is high enough to recommend BCG vaccination for previously unvaccinated travellers include:</p><ul><li>Africa</li><li>parts of South and Southeast Asia</li></ul><p>Read more about the <a href=\"https://www.nhs.uk/vaccinations/bcg-vaccine-for-tuberculosis-tb/\">BCG vaccine</a>.</p>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": ""
+        }
+      ],
+      "description": "",
+      "hasPart": [
+        {
+          "position": 0,
+          "identifier": "1",
+          "text": "<p>The BCG vaccine (which stands for Bacillus Calmette-Guérin vaccine) protects against <a href=\"https://www.nhs.uk/conditions/tuberculosis-tb/\">tuberculosis</a>, which is also known as TB.</p><p>The BCG vaccine isn't given as part of the routine NHS vaccination schedule. It's given on the NHS only when a child or adult is thought to have an increased risk of coming into contact with TB.</p><p>When preparing for travel abroad, the BCG vaccine is recommended for any unvaccinated people under 16 who'll be living or working with friends, family or local people for more than 3 months in a country where TB is common or the risk of multi-drug resistant TB is high.</p><p>The BCG vaccine is given as a single injection.</p><p>Areas of the world where the risk of TB is high enough to recommend BCG vaccination for previously unvaccinated travellers include:</p><ul><li>Africa</li><li>parts of South and Southeast Asia</li></ul><p>Read more about the <a href=\"https://www.nhs.uk/vaccinations/bcg-vaccine-for-tuberculosis-tb/\">BCG vaccine</a>.</p>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": ""
+        }
+      ],
+      "headline": "Tuberculosis (TB) vaccination"
+    },
+    {
+      "identifier": "0",
+      "name": "section heading",
+      "position": 13,
+      "@type": "WebPageElement",
+      "mainEntityOfPage": [
+        {
+          "position": 0,
+          "identifier": "1",
+          "text": "<p>Vaccination against <a href=\"https://www.nhs.uk/conditions/typhoid-fever/\">typhoid fever</a> is recommended if you're travelling to parts of the world where the condition is common, particularly if you'll: </p><ul><li>have frequent or prolonged exposure to conditions where sanitation and food hygiene are likely to be poor</li><li>be staying or working with local people</li></ul><p>High-risk areas include:</p><ul><li>Africa</li><li>parts of South and Southeast Asia</li><li>parts of South and Central America</li></ul><p>Two main vaccines are available for typhoid fever in the UK. One is given as a single injection, and the other is given as 3 capsules to take on alternate days.</p><p>It's also possible to have a combined hepatitis A and typhoid jab.</p><p>Ideally, the typhoid vaccine should be given at least 1 month before you travel, but it can be given closer to your travel date if necessary.</p><p>Booster vaccinations are recommended every 3 years if you continue to be at risk of infection.</p><p>Read more about the <a href=\"https://www.nhs.uk/conditions/typhoid-fever/vaccination/\">typhoid vaccine</a>.</p>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": ""
+        }
+      ],
+      "description": "",
+      "hasPart": [
+        {
+          "position": 0,
+          "identifier": "1",
+          "text": "<p>Vaccination against <a href=\"https://www.nhs.uk/conditions/typhoid-fever/\">typhoid fever</a> is recommended if you're travelling to parts of the world where the condition is common, particularly if you'll: </p><ul><li>have frequent or prolonged exposure to conditions where sanitation and food hygiene are likely to be poor</li><li>be staying or working with local people</li></ul><p>High-risk areas include:</p><ul><li>Africa</li><li>parts of South and Southeast Asia</li><li>parts of South and Central America</li></ul><p>Two main vaccines are available for typhoid fever in the UK. One is given as a single injection, and the other is given as 3 capsules to take on alternate days.</p><p>It's also possible to have a combined hepatitis A and typhoid jab.</p><p>Ideally, the typhoid vaccine should be given at least 1 month before you travel, but it can be given closer to your travel date if necessary.</p><p>Booster vaccinations are recommended every 3 years if you continue to be at risk of infection.</p><p>Read more about the <a href=\"https://www.nhs.uk/conditions/typhoid-fever/vaccination/\">typhoid vaccine</a>.</p>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": ""
+        }
+      ],
+      "headline": "Typhoid vaccination"
+    },
+    {
+      "identifier": "0",
+      "name": "section heading",
+      "position": 14,
+      "@type": "WebPageElement",
+      "mainEntityOfPage": [
+        {
+          "position": 0,
+          "identifier": "1",
+          "text": "<p>Vaccination against <a href=\"https://www.nhs.uk/conditions/yellow-fever/\">yellow fever</a> is advised if you're travelling to areas where there's a risk of getting yellow fever.</p><p>Some countries require a proof of vaccination certificate before they let you enter the country.</p><p>Yellow fever occurs in some areas of tropical Africa and Central and South America. More information about <a href=\"https://travelhealthpro.org.uk/disease/194/yellow-fever\">yellow fever and areas where it's found is available on Travel Health Pro</a>.</p><p>A single dose of the yellow fever vaccine is thought to provide lifelong protection. For most people, a booster dose is no longer recommended.</p><p>You must have a yellow fever vaccination at least 10 days before you travel. You will also need to complete a yellow fever vaccination checklist to make sure you can have the vaccine.</p><p><a href=\"https://travelhealthpro.org.uk/factsheet/87/yellow-fever-pre-vaccination-checklist\">Find out more about the yellow fever vaccination checklist on the Travel Health Pro website</a></p><p>You should be issued with an International Certificate of Vaccination or Prophylaxis when you have the vaccine. This certificate is valid for life.</p><p>Some people cannot have the yellow fever vaccine.</p><p>Read more about the <a href=\"https://www.nhs.uk/conditions/yellow-fever/vaccination/\">yellow fever vaccine and who can have it</a>.</p>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": ""
+        }
+      ],
+      "description": "",
+      "hasPart": [
+        {
+          "position": 0,
+          "identifier": "1",
+          "text": "<p>Vaccination against <a href=\"https://www.nhs.uk/conditions/yellow-fever/\">yellow fever</a> is advised if you're travelling to areas where there's a risk of getting yellow fever.</p><p>Some countries require a proof of vaccination certificate before they let you enter the country.</p><p>Yellow fever occurs in some areas of tropical Africa and Central and South America. More information about <a href=\"https://travelhealthpro.org.uk/disease/194/yellow-fever\">yellow fever and areas where it's found is available on Travel Health Pro</a>.</p><p>A single dose of the yellow fever vaccine is thought to provide lifelong protection. For most people, a booster dose is no longer recommended.</p><p>You must have a yellow fever vaccination at least 10 days before you travel. You will also need to complete a yellow fever vaccination checklist to make sure you can have the vaccine.</p><p><a href=\"https://travelhealthpro.org.uk/factsheet/87/yellow-fever-pre-vaccination-checklist\">Find out more about the yellow fever vaccination checklist on the Travel Health Pro website</a></p><p>You should be issued with an International Certificate of Vaccination or Prophylaxis when you have the vaccine. This certificate is valid for life.</p><p>Some people cannot have the yellow fever vaccine.</p><p>Read more about the <a href=\"https://www.nhs.uk/conditions/yellow-fever/vaccination/\">yellow fever vaccine and who can have it</a>.</p>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": ""
+        }
+      ],
+      "headline": "Yellow fever vaccination"
+    },
+    {
+      "identifier": "0",
+      "name": "section heading",
+      "position": 15,
+      "@type": "WebPageElement",
+      "mainEntityOfPage": [
+        {
+          "position": 0,
+          "identifier": "1",
+          "text": "<p>Speak to your GP before having any vaccinations if:</p><ul><li>you're planning to get pregnant</li><li>you're pregnant</li><li>you're breastfeeding</li><li>you have an immune deficiency</li><li>you have any allergies</li></ul>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": ""
+        }
+      ],
+      "description": "",
+      "hasPart": [
+        {
+          "position": 0,
+          "identifier": "1",
+          "text": "<p>Speak to your GP before having any vaccinations if:</p><ul><li>you're planning to get pregnant</li><li>you're pregnant</li><li>you're breastfeeding</li><li>you have an immune deficiency</li><li>you have any allergies</li></ul>",
+          "@type": "WebPageElement",
+          "name": "markdown",
+          "headline": ""
+        }
+      ],
+      "headline": "When to get further advice"
+    }
+  ],
+  "webpage": "https://www.nhs.uk/vaccinations/travel-vaccinations/available-travel-vaccines/"
+}

@@ -18,6 +18,8 @@ curl -X GET 'https://api.service.nhs.uk/nhs-website-content/contraception/' -H '
 
 curl -X GET 'https://api.service.nhs.uk/nhs-website-content/vaccinations/' -H 'apikey: Oq5LuCPc5X69KFlIw6P7TVYrrJHSceX8' >> ./responses/vaccinations-root-no-params.json
 
+curl -X GET 'https://api.service.nhs.uk/nhs-website-content/womens-health/' -H 'apikey: Oq5LuCPc5X69KFlIw6P7TVYrrJHSceX8' >> ./responses/womens-health-root-no-params.json
+
 
 *****************************************************************************************************************
 ** Manifest pages                                                                                            **
@@ -152,3 +154,12 @@ curl -X GET 'https://api.service.nhs.uk/nhs-website-content/vaccinations/nhs-vac
 curl -X GET 'https://api.service.nhs.uk/nhs-website-content/vaccinations/6-in-1-vaccine/' -H 'apikey: Oq5LuCPc5X69KFlIw6P7TVYrrJHSceX8' >> ./responses/vaccinations-6-in-1-vaccine-no-params.json
 
 curl -X GET 'https://api.service.nhs.uk/nhs-website-content/vaccinations/travel-vaccinations/available-travel-vaccines/' -H 'apikey: Oq5LuCPc5X69KFlIw6P7TVYrrJHSceX8' >> ./responses/vaccinations-available-travel-vaccines-no-params.json
+
+
+*****************************************************************************************************************
+** Women's health pages                                                                                          **
+*****************************************************************************************************************
+
+curl -X GET 'https://api.service.nhs.uk/nhs-website-content/womens-health/periods/' -H 'apikey: Oq5LuCPc5X69KFlIw6P7TVYrrJHSceX8' >> ./responses/womens-health-periods-no-params.json
+
+curl -X GET 'https://api.service.nhs.uk/nhs-website-content/womens-health/aneamia/' -H 'apikey: Oq5LuCPc5X69KFlIw6P7TVYrrJHSceX8' >> ./responses/womens-health-anaemia-no-params.json

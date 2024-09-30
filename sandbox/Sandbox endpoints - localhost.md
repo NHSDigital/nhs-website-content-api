@@ -138,3 +138,11 @@
 [6-in-1 vaccine](http://localhost:9000/vaccinations/6-in-1-vaccine/)
 
 [Available travel vaccines](http://localhost:9000/vaccinations/travel-vaccinations/available-travel-vaccines/)
+
+## Women's health
+
+[Women's health Root](http://localhost:9000/womens-health/)
+
+[Periods](http://localhost:9000/womens-health/periods/)
+
+[Anaemia](http://localhost:9000/womens-health/anaemia/)
