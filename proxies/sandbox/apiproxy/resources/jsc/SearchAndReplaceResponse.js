@@ -277,6 +277,15 @@
 //     searchForRegex: /\s+data-block-key=\\"[^"]*\\"/gm,
 //     replaceWithStr: "",
 //   },
+//   {
+//     comment1: "=============================================================",
+//     comment2: "Convert any remaining relative HREFs to absolute HREFs       ",
+//     comment3: "=============================================================",
+//   },
+//   {
+//     searchForRegex: /href=\\"\//gm,
+//     replaceWithStr: 'href=\\"https://www.nhs.uk/',
+//   },
 // ];
 
 var responseContent = context.getVariable("response.content");
