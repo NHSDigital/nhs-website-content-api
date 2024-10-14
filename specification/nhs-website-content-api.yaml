@@ -16,8 +16,8 @@ info:
       * Pregnancy ([Website](https://www.nhs.uk/pregnancy/) | [API](https://digital.nhs.uk/developer/api-catalogue/nhs-website-content/v2#get-/pregnancy))
       * NHS services ([Website](https://www.nhs.uk/nhs-services/) | [API](https://digital.nhs.uk/developer/api-catalogue/nhs-website-content/v2#get-/nhs-services))
       * Contraception ([Website](https://www.nhs.uk/contraception/) | [API](https://digital.nhs.uk/developer/api-catalogue/nhs-website-content/v2#get-/contraception))
-      * Vaccinations ([Website](https://www.nhs.uk/vaccinations/) | [API](https://digital.nhs.uk/developer/api-catalogue/nhs-website-content/v2#get-/vaccinations)).
-      * Women's health ([Website](https://www.nhs.uk/womens-health/) | [API](https://digital.nhs.uk/developer/api-catalogue/nhs-website-content/v2#get-/womens-health)).
+      * Vaccinations ([Website](https://www.nhs.uk/vaccinations/) | [API](https://digital.nhs.uk/developer/api-catalogue/nhs-website-content/v2#get-/vaccinations))
+      * Women's health ([Website](https://www.nhs.uk/womens-health/) | [API](https://digital.nhs.uk/developer/api-catalogue/nhs-website-content/v2#get-/womens-health))
 
     You cannot use this API to:
       * [find services near you](https://www.nhs.uk/nhs-services/services-near-you/)
