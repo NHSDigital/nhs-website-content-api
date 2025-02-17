@@ -390,7 +390,7 @@ var searchAndReplaceStrings = [
   },
   {
     searchForRegex:
-      /"https:\/\/nhswebsite-dev\.nhs\.uk\/content-api\/manifest\//gm,
+      /"?https:\/\/nhswebsite-dev\.nhs\.uk\/content-api\/manifest\//gm,
     replaceWithStr:
       ': "https://' + requestHostnameEnv + "/nhs-website-content/manifest/",
   },
