@@ -29,6 +29,11 @@ var searchAndReplaceStrings = [
       ': "https://' + requestHostnameEnv + "/nhs-website-content/conditions/",
   },
   {
+    searchForRegex: /:\s?"https:\/\/nhswebsite-dev.nhs.uk\/conditions\//gm,
+    replaceWithStr:
+      ': "https://' + requestHostnameEnv + "/nhs-website-content/conditions/",
+  },
+  {
     searchForRegex: /:\s?"https:\/\/www.nhs.uk\/conditions\//gm,
     replaceWithStr:
       ': "https://' + requestHostnameEnv + "/nhs-website-content/conditions/",
@@ -43,6 +48,10 @@ var searchAndReplaceStrings = [
     replaceWithStr: 'href=\\"https://www.nhs.uk/conditions/',
   },
   {
+    searchForRegex: /href=\\"https:\/\/nhswebsite-dev.nhs.uk\/conditions\//gm,
+    replaceWithStr: 'href=\\"https://www.nhs.uk/conditions/',
+  },
+  {
     searchForRegex: /href=\\"\/conditions\//gm,
     replaceWithStr: 'href=\\"https://www.nhs.uk/conditions/',
   },
@@ -53,6 +62,11 @@ var searchAndReplaceStrings = [
   },
   {
     searchForRegex: /:\s?"https:\/\/api.nhs.uk\/live-well\//gm,
+    replaceWithStr:
+      ': "https://' + requestHostnameEnv + "/nhs-website-content/live-well/",
+  },
+  {
+    searchForRegex: /:\s?"https:\/\/nhswebsite-dev.nhs.uk\/live-well\//gm,
     replaceWithStr:
       ': "https://' + requestHostnameEnv + "/nhs-website-content/live-well/",
   },
@@ -71,6 +85,10 @@ var searchAndReplaceStrings = [
     replaceWithStr: 'href=\\"https://www.nhs.uk/live-well/',
   },
   {
+    searchForRegex: /href=\\"https:\/\/nhswebsite-dev.nhs.uk\/live-well\//gm,
+    replaceWithStr: 'href=\\"https://www.nhs.uk/live-well/',
+  },
+  {
     searchForRegex: /href=\\"\/live-well\//gm,
     replaceWithStr: 'href=\\"https://www.nhs.uk/live-well/',
   },
@@ -81,6 +99,13 @@ var searchAndReplaceStrings = [
   },
   {
     searchForRegex: /:\s?"https:\/\/api.nhs.uk\/mental-health\//gm,
+    replaceWithStr:
+      ': "https://' +
+      requestHostnameEnv +
+      "/nhs-website-content/mental-health/",
+  },
+  {
+    searchForRegex: /:\s?"https:\/\/nhswebsite-dev.nhs.uk\/mental-health\//gm,
     replaceWithStr:
       ': "https://' +
       requestHostnameEnv +
@@ -105,6 +130,11 @@ var searchAndReplaceStrings = [
     replaceWithStr: 'href=\\"https://www.nhs.uk/mental-health/',
   },
   {
+    searchForRegex:
+      /href=\\"https:\/\/nhswebsite-dev.nhs.uk\/mental-health\//gm,
+    replaceWithStr: 'href=\\"https://www.nhs.uk/mental-health/',
+  },
+  {
     searchForRegex: /href=\\"\/mental-health\//gm,
     replaceWithStr: 'href=\\"https://www.nhs.uk/mental-health/',
   },
@@ -115,6 +145,11 @@ var searchAndReplaceStrings = [
   },
   {
     searchForRegex: /:\s?"https:\/\/api.nhs.uk\/medicines\//gm,
+    replaceWithStr:
+      ': "https://' + requestHostnameEnv + "/nhs-website-content/medicines/",
+  },
+  {
+    searchForRegex: /:\s?"https:\/\/nhswebsite-dev.nhs.uk\/medicines\//gm,
     replaceWithStr:
       ': "https://' + requestHostnameEnv + "/nhs-website-content/medicines/",
   },
@@ -133,6 +168,10 @@ var searchAndReplaceStrings = [
     replaceWithStr: 'href=\\"https://www.nhs.uk/medicines/',
   },
   {
+    searchForRegex: /href=\\"https:\/\/nhswebsite-dev.nhs.uk\/medicines\//gm,
+    replaceWithStr: 'href=\\"https://www.nhs.uk/medicines/',
+  },
+  {
     searchForRegex: /href=\\"\/medicines\//gm,
     replaceWithStr: 'href=\\"https://www.nhs.uk/medicines/',
   },
@@ -143,6 +182,11 @@ var searchAndReplaceStrings = [
   },
   {
     searchForRegex: /:\s?"https:\/\/api.nhs.uk\/nhs-services\//gm,
+    replaceWithStr:
+      ': "https://' + requestHostnameEnv + "/nhs-website-content/nhs-services/",
+  },
+  {
+    searchForRegex: /:\s?"https:\/\/nhswebsite-dev.nhs.uk\/nhs-services\//gm,
     replaceWithStr:
       ': "https://' + requestHostnameEnv + "/nhs-website-content/nhs-services/",
   },
@@ -161,6 +205,10 @@ var searchAndReplaceStrings = [
     replaceWithStr: 'href=\\"https://www.nhs.uk/nhs-services/',
   },
   {
+    searchForRegex: /href=\\"https:\/\/nhswebsite-dev.nhs.uk\/nhs-services\//gm,
+    replaceWithStr: 'href=\\"https://www.nhs.uk/nhs-services/',
+  },
+  {
     searchForRegex: /href=\\"\/nhs-services\//gm,
     replaceWithStr: 'href=\\"https://www.nhs.uk/nhs-services/',
   },
@@ -171,6 +219,11 @@ var searchAndReplaceStrings = [
   },
   {
     searchForRegex: /:\s?"https:\/\/api.nhs.uk\/pregnancy\//gm,
+    replaceWithStr:
+      ': "https://' + requestHostnameEnv + "/nhs-website-content/pregnancy/",
+  },
+  {
+    searchForRegex: /:\s?"https:\/\/nhswebsite-dev.nhs.uk\/pregnancy\//gm,
     replaceWithStr:
       ': "https://' + requestHostnameEnv + "/nhs-website-content/pregnancy/",
   },
@@ -189,6 +242,10 @@ var searchAndReplaceStrings = [
     replaceWithStr: 'href=\\"https://www.nhs.uk/pregnancy/',
   },
   {
+    searchForRegex: /href=\\"https:\/\/nhswebsite-dev.nhs.uk\/pregnancy\//gm,
+    replaceWithStr: 'href=\\"https://www.nhs.uk/pregnancy/',
+  },
+  {
     searchForRegex: /href=\\"\/pregnancy\//gm,
     replaceWithStr: 'href=\\"https://www.nhs.uk/pregnancy/',
   },
@@ -199,6 +256,13 @@ var searchAndReplaceStrings = [
   },
   {
     searchForRegex: /:\s?"https:\/\/api.nhs.uk\/contraception\//gm,
+    replaceWithStr:
+      ': "https://' +
+      requestHostnameEnv +
+      "/nhs-website-content/contraception/",
+  },
+  {
+    searchForRegex: /:\s?"https:\/\/nhswebsite-dev.nhs.uk\/contraception\//gm,
     replaceWithStr:
       ': "https://' +
       requestHostnameEnv +
@@ -223,6 +287,11 @@ var searchAndReplaceStrings = [
     replaceWithStr: 'href=\\"https://www.nhs.uk/contraception/',
   },
   {
+    searchForRegex:
+      /href=\\"https:\/\/nhswebsite-dev.nhs.uk\/contraception\//gm,
+    replaceWithStr: 'href=\\"https://www.nhs.uk/contraception/',
+  },
+  {
     searchForRegex: /href=\\"\/contraception\//gm,
     replaceWithStr: 'href=\\"https://www.nhs.uk/contraception/',
   },
@@ -233,6 +302,11 @@ var searchAndReplaceStrings = [
   },
   {
     searchForRegex: /:\s?"https:\/\/api.nhs.uk\/vaccinations\//gm,
+    replaceWithStr:
+      ': "https://' + requestHostnameEnv + "/nhs-website-content/vaccinations/",
+  },
+  {
+    searchForRegex: /:\s?"https:\/\/nhswebsite-dev.nhs.uk\/vaccinations\//gm,
     replaceWithStr:
       ': "https://' + requestHostnameEnv + "/nhs-website-content/vaccinations/",
   },
@@ -251,6 +325,10 @@ var searchAndReplaceStrings = [
     replaceWithStr: 'href=\\"https://www.nhs.uk/vaccinations/',
   },
   {
+    searchForRegex: /href=\\"https:\/\/nhswebsite-dev.nhs.uk\/vaccinations\//gm,
+    replaceWithStr: 'href=\\"https://www.nhs.uk/vaccinations/',
+  },
+  {
     searchForRegex: /href=\\"\/vaccinations\//gm,
     replaceWithStr: 'href=\\"https://www.nhs.uk/vaccinations/',
   },
@@ -261,6 +339,13 @@ var searchAndReplaceStrings = [
   },
   {
     searchForRegex: /:\s?"https:\/\/api.nhs.uk\/womens-health\//gm,
+    replaceWithStr:
+      ': "https://' +
+      requestHostnameEnv +
+      "/nhs-website-content/womens-health/",
+  },
+  {
+    searchForRegex: /:\s?"https:\/\/nhswebsite-dev.nhs.uk\/womens-health\//gm,
     replaceWithStr:
       ': "https://' +
       requestHostnameEnv +
@@ -282,6 +367,11 @@ var searchAndReplaceStrings = [
   },
   {
     searchForRegex: /href=\\"https:\/\/api.nhs.uk\/womens-health\//gm,
+    replaceWithStr: 'href=\\"https://www.nhs.uk/womens-health/',
+  },
+  {
+    searchForRegex:
+      /href=\\"https:\/\/nhswebsite-dev.nhs.uk\/womens-health\//gm,
     replaceWithStr: 'href=\\"https://www.nhs.uk/womens-health/',
   },
   {
