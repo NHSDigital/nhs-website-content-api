@@ -389,7 +389,8 @@ var searchAndReplaceStrings = [
       ': "https://' + requestHostnameEnv + "/nhs-website-content/manifest/",
   },
   {
-    searchForRegex: /:\s?"https:\/\/www.nhs.uk\/content-api\/manifest\//gm,
+    searchForRegex:
+      /https:\/\/nhswebsite-dev\.nhs\.uk\/content-api\/manifest\/pages/gm,
     replaceWithStr:
       ': "https://' + requestHostnameEnv + "/nhs-website-content/manifest/",
   },
