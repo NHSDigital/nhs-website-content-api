@@ -6,7 +6,7 @@
   "license": "https://developer.api.nhs.uk/terms",
   "author": {
     "url": "https://www.nhs.uk",
-    "logo": "https://digital.nhs.uk/binaries/content/gallery/website/developer/api-catalogue/nhs-website-content/nhs-attribution.png",
+    "logo": "https://assets.nhs.uk/nhsuk-cms/images/nhs-attribution.width-510.png",
     "email": "nhswebsite.servicedesk@nhs.net",
     "@type": "Organization",
     "name": "NHS website"
@@ -171,7 +171,7 @@
         {
           "position": 0,
           "identifier": "1",
-          "text": "<p>Bullying can make working life miserable. You can lose all faith in yourself, you can feel ill and <a href=\"/mental-health/feelings-symptoms-behaviours/feelings-and-symptoms/low-mood-sadness-depression/\">depressed</a>, and find it hard to motivate yourself to work.</p><p>Bullying is not always a case of someone picking on the weak. Sometimes a person's strengths in the workplace can make the bully feel threatened, and that triggers their behaviour.</p>",
+          "text": "<p>Bullying can make working life miserable. You can lose all faith in yourself, you can feel ill and <a href=\"https://www.nhs.uk/mental-health/feelings-symptoms-behaviours/feelings-and-symptoms/low-mood-sadness-depression/\">depressed</a>, and find it hard to motivate yourself to work.</p><p>Bullying is not always a case of someone picking on the weak. Sometimes a person's strengths in the workplace can make the bully feel threatened, and that triggers their behaviour.</p>",
           "@type": "WebPageElement",
           "name": "markdown",
           "headline": "What effect does it have?"
@@ -182,7 +182,7 @@
         {
           "position": 0,
           "identifier": "1",
-          "text": "<p>Bullying can make working life miserable. You can lose all faith in yourself, you can feel ill and <a href=\"/mental-health/feelings-symptoms-behaviours/feelings-and-symptoms/low-mood-sadness-depression/\">depressed</a>, and find it hard to motivate yourself to work.</p><p>Bullying is not always a case of someone picking on the weak. Sometimes a person's strengths in the workplace can make the bully feel threatened, and that triggers their behaviour.</p>",
+          "text": "<p>Bullying can make working life miserable. You can lose all faith in yourself, you can feel ill and <a href=\"https://www.nhs.uk/mental-health/feelings-symptoms-behaviours/feelings-and-symptoms/low-mood-sadness-depression/\">depressed</a>, and find it hard to motivate yourself to work.</p><p>Bullying is not always a case of someone picking on the weak. Sometimes a person's strengths in the workplace can make the bully feel threatened, and that triggers their behaviour.</p>",
           "@type": "WebPageElement",
           "name": "markdown",
           "headline": "What effect does it have?"

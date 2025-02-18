@@ -1,0 +1,202 @@
+{
+  "@context": "http://schema.org",
+  "@type": "MedicalWebPage",
+  "name": "Periods",
+  "copyrightHolder": {
+    "name": "Crown Copyright",
+    "@type": "Organization"
+  },
+  "license": "https://developer.api.nhs.uk/terms",
+  "author": {
+    "url": "https://www.nhs.uk",
+    "logo": "https://assets.nhs.uk/nhsuk-cms/images/nhs-attribution.width-510.png",
+    "email": "nhswebsite.servicedesk@nhs.net",
+    "@type": "Organization",
+    "name": "NHS website"
+  },
+  "about": {
+    "@type": "WebPage",
+    "name": "Periods",
+    "alternateName": ""
+  },
+  "description": "Including painful periods, heavy periods, PMS and adenomyosis",
+  "url": "https://api.service.nhs.uk/nhs-website-content/womens-health/periods/",
+  "genre": [],
+  "keywords": "",
+  "dateModified": "2024-08-29T08:52:23+00:00",
+  "hasPart": [],
+  "breadcrumb": {
+    "@context": "http://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 0,
+        "item": {
+          "@id": "https://api.service.nhs.uk/nhs-website-content/womens-health/",
+          "name": "Women's health",
+          "genre": []
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@id": "https://api.service.nhs.uk/nhs-website-content/womens-health/periods/",
+          "name": "Periods",
+          "genre": []
+        }
+      }
+    ]
+  },
+  "headline": "Periods",
+  "contentSubTypes": [],
+  "mainEntityOfPage": [
+    {
+      "identifier": "25",
+      "@type": "WebPageElement",
+      "name": "keylinks",
+      "headline": "",
+      "text": "",
+      "mainEntityOfPage": [
+        {
+          "@type": "WebPageElement",
+          "headline": "Adenomyosis",
+          "url": "https://api.service.nhs.uk/nhs-website-content/conditions/adenomyosis/",
+          "identifier": "26",
+          "text": "",
+          "name": "link"
+        },
+        {
+          "@type": "WebPageElement",
+          "headline": "Endometriosis",
+          "url": "https://api.service.nhs.uk/nhs-website-content/conditions/endometriosis/",
+          "identifier": "26",
+          "text": "",
+          "name": "link"
+        },
+        {
+          "@type": "WebPageElement",
+          "headline": "Heavy periods",
+          "url": "https://api.service.nhs.uk/nhs-website-content/conditions/heavy-periods/",
+          "identifier": "26",
+          "text": "",
+          "name": "link"
+        },
+        {
+          "@type": "WebPageElement",
+          "headline": "Hormone headaches",
+          "url": "https://api.service.nhs.uk/nhs-website-content/conditions/hormone-headaches/",
+          "identifier": "26",
+          "text": "",
+          "name": "link"
+        },
+        {
+          "@type": "WebPageElement",
+          "headline": "Irregular periods",
+          "url": "https://api.service.nhs.uk/nhs-website-content/conditions/irregular-periods/",
+          "identifier": "26",
+          "text": "",
+          "name": "link"
+        },
+        {
+          "@type": "WebPageElement",
+          "headline": "Missed or late periods",
+          "url": "https://api.service.nhs.uk/nhs-website-content/conditions/missed-or-late-periods/",
+          "identifier": "26",
+          "text": "",
+          "name": "link"
+        },
+        {
+          "@type": "WebPageElement",
+          "headline": "Ovulation pain",
+          "url": "https://api.service.nhs.uk/nhs-website-content/conditions/ovulation-pain/",
+          "identifier": "26",
+          "text": "",
+          "name": "link"
+        },
+        {
+          "@type": "WebPageElement",
+          "headline": "Periods",
+          "url": "https://api.service.nhs.uk/nhs-website-content/conditions/periods/",
+          "identifier": "26",
+          "text": "",
+          "name": "link"
+        },
+        {
+          "@type": "WebPageElement",
+          "headline": "Period pain",
+          "url": "https://api.service.nhs.uk/nhs-website-content/conditions/period-pain/",
+          "identifier": "26",
+          "text": "",
+          "name": "link"
+        },
+        {
+          "@type": "WebPageElement",
+          "headline": "PMS (premenstrual syndrome)",
+          "url": "https://api.service.nhs.uk/nhs-website-content/conditions/pre-menstrual-syndrome/",
+          "identifier": "26",
+          "text": "",
+          "name": "link"
+        },
+        {
+          "@type": "WebPageElement",
+          "headline": "Polycystic ovary syndrome (PCOS)",
+          "url": "https://api.service.nhs.uk/nhs-website-content/conditions/polycystic-ovary-syndrome-pcos/",
+          "identifier": "26",
+          "text": "",
+          "name": "link"
+        },
+        {
+          "@type": "WebPageElement",
+          "headline": "Toxic shock syndrome",
+          "url": "https://api.service.nhs.uk/nhs-website-content/conditions/toxic-shock-syndrome/",
+          "identifier": "26",
+          "text": "",
+          "name": "link"
+        },
+        {
+          "@type": "WebPageElement",
+          "headline": "Can I get pregnant just after my period has finished?",
+          "url": "https://api.service.nhs.uk/common-health-questions/pregnancy/can-i-get-pregnant-just-after-my-period-has-finished/",
+          "identifier": "26",
+          "text": "",
+          "name": "link"
+        },
+        {
+          "@type": "WebPageElement",
+          "headline": "How can I delay my period?",
+          "url": "https://api.service.nhs.uk/common-health-questions/travel-health/how-can-i-delay-my-period/",
+          "identifier": "26",
+          "text": "",
+          "name": "link"
+        },
+        {
+          "@type": "WebPageElement",
+          "headline": "How can I tell when I'm ovulating?",
+          "url": "https://api.service.nhs.uk/common-health-questions/sexual-health/how-can-i-tell-when-i-am-ovulating/",
+          "identifier": "26",
+          "text": "",
+          "name": "link"
+        },
+        {
+          "@type": "WebPageElement",
+          "headline": "What causes bleeding between periods?",
+          "url": "https://api.service.nhs.uk/common-health-questions/sexual-health/what-causes-bleeding-between-periods/",
+          "identifier": "26",
+          "text": "",
+          "name": "link"
+        },
+        {
+          "@type": "WebPageElement",
+          "headline": "When will my periods start again after pregnancy?",
+          "url": "https://api.service.nhs.uk/common-health-questions/pregnancy/when-will-my-periods-start-again-after-pregnancy/",
+          "identifier": "26",
+          "text": "",
+          "name": "link"
+        }
+      ]
+    }
+  ],
+  "webpage": "https://www.nhs.uk/womens-health/periods/"
+}

@@ -9,19 +9,21 @@ info:
     This API provides content from the [NHS website](https://www.nhs.uk) as JSON, to be consumed programmatically and used by your application.
 
     You can reuse the content from the following sections of the NHS website:
-      * [Health A to Z (conditions)](https://www.nhs.uk/conditions/)
-      * [Medicines A to Z](https://www.nhs.uk/medicines/)
-      * [Mental health](https://www.nhs.uk/mental-health/)
-      * [Live Well](https://www.nhs.uk/live-well/)
-      * [Pregnancy](https://www.nhs.uk/pregnancy/)
-      * [NHS services](https://www.nhs.uk/nhs-services/)
-      * [Common health questions](https://www.nhs.uk/common-health-questions/).
+      * Health A to Z / Conditions ([Website](https://www.nhs.uk/conditions/) | [API](https://digital.nhs.uk/developer/api-catalogue/nhs-website-content/v2#get-/conditions))
+      * Medicines A to Z ([Website](https://www.nhs.uk/medicines/) | [API](https://digital.nhs.uk/developer/api-catalogue/nhs-website-content/v2#get-/medicines))
+      * Mental health ([Website](https://www.nhs.uk/mental-health/) | [API](https://digital.nhs.uk/developer/api-catalogue/nhs-website-content/v2#get-/mental-health))
+      * Live Well ([Website](https://www.nhs.uk/live-well/) | [API](https://digital.nhs.uk/developer/api-catalogue/nhs-website-content/v2#get-/live-well))
+      * Pregnancy ([Website](https://www.nhs.uk/pregnancy/) | [API](https://digital.nhs.uk/developer/api-catalogue/nhs-website-content/v2#get-/pregnancy))
+      * NHS services ([Website](https://www.nhs.uk/nhs-services/) | [API](https://digital.nhs.uk/developer/api-catalogue/nhs-website-content/v2#get-/nhs-services))
+      * Contraception ([Website](https://www.nhs.uk/contraception/) | [API](https://digital.nhs.uk/developer/api-catalogue/nhs-website-content/v2#get-/contraception))
+      * Vaccinations ([Website](https://www.nhs.uk/vaccinations/) | [API](https://digital.nhs.uk/developer/api-catalogue/nhs-website-content/v2#get-/vaccinations))
+      * Women's health ([Website](https://www.nhs.uk/womens-health/) | [API](https://digital.nhs.uk/developer/api-catalogue/nhs-website-content/v2#get-/womens-health))
 
     You cannot use this API to:
       * [find services near you](https://www.nhs.uk/nhs-services/services-near-you/)
       * get Ratings and Reviews of NHS services.
 
-    If you are migrating from our [old NHS website APIs](https://developer.api.nhs.uk/nhs-api), we have a [migration guide](https://developer.api.nhs.uk/support/migration/assistant) to help walk you through the process and a [migration assistant](https://developer.api.nhs.uk/support/migration/guide) to illustrate the differences in how your API requests will need to be updated.
+    If you are migrating from our [old NHS website APIs](https://developer.api.nhs.uk/nhs-api), we have a [migration guide](https://developer.api.nhs.uk/support/migration/guide) to help walk you through the process and a [migration assistant](https://developer.api.nhs.uk/support/migration/assistant) to illustrate the differences in how your API requests will need to be updated.
 
     ## Who can use this API
     Anyone can use this API for any purpose, so long as they have agreed to the [Online connection agreement](https://digital.nhs.uk/developer/guides-and-documentation/online-connection-agreement) during the [onboarding process](https://digital.nhs.uk/developer/guides-and-documentation/onboarding-process) and they include an [attribution](#overview--attribution) as outlined below.
@@ -29,13 +31,13 @@ info:
     ## Attribution
     Any syndicated content must incorporate the following attribution (credit) to the NHS website:
 
-    <img src="https://digital.nhs.uk/binaries/content/gallery/website/developer/api-catalogue/nhs-website-content/nhs-attribution.png" alt="Content supplied by the NHS website" width="801" height="157" style="width: 250px; height: 49px;" />
+    <img src="https://assets.nhs.uk/nhsuk-cms/images/nhs-attribution.width-510.png" alt="Content supplied by the NHS website" width="510" height="99" style="width: 250px; height: 49px;" />
 
     The logo should be clearly visible and in line with the associated content on every web page that contains the syndicated content. You should also link this logo to the relevant page on the NHS website that the content has been supplied from.
 
     ```
-    <a href="https://www.nhs.uk/THE_PATH_TO_THE_ORIGINAL_CONTENT_GOES_HERE" target="_blank">
-      <img src="https://digital.nhs.uk/binaries/content/gallery/website/developer/api-catalogue/nhs-website-content/nhs-attribution.png" alt="Content supplied by the NHS website" width="801" height="157" style="width: 250px; height: 49px;" />
+    <a href="https://www.nhs.uk/PATH_TO_THE_ORIGINAL_CONTENT_ON_THE_NHS_WEBSITE" target="_blank">
+      <img src="https://assets.nhs.uk/nhsuk-cms/images/nhs-attribution.width-510.png" alt="Content supplied by the NHS website" width="510" height="99" style="width: 250px; height: 49px;" />
     </a>
     ```
 
@@ -44,7 +46,7 @@ info:
     ```
     "author": {
       "url": "https://www.nhs.uk",
-      "logo": "https://digital.nhs.uk/binaries/content/gallery/website/developer/api-catalogue/nhs-website-content/nhs-attribution.png",
+      "logo": "https://assets.nhs.uk/nhsuk-cms/images/nhs-attribution.width-510.png",
       "email": "nhswebsite.servicedesk@nhs.net",
       "@type": "Organization",
       "name": "NHS website"
@@ -60,11 +62,113 @@ info:
     ## Modularised content
     The standard content available through our syndication service is based on the full pages on the NHS website. With our modularised content, you can instead choose to use shorter, more specific sections of content (called "modules") from our pages. This means you can show your users only the content that's most relevant to them. You can also use this content more easily in services like apps and voice assistants.
 
-    For more details see [Modularised NHS content](https://digital.nhs.uk/developer/api-catalogue/nhs-website-content/modularised-nhs-content#about-our-modularised-content).
+    ### Benefits of our modularised content
+
+    1. **More relevant content for users** &mdash; Users do not always want or need full pages of content. With our modularised content, you can choose exactly what your users get.
+
+    2. **Suitable for a range of services** &mdash; Short, specific content modules can be used more easily than full web pages in services like apps, chatbots and voice assistants.
+
+    3. **Clinical assurance** &mdash; Each module is checked by NHS clinicians before being made available and carries the trusted NHS brand.
+
+    ### Available labels / health aspects
+
+    We create modules by adding labels (health aspects) to sections of content on our web pages. For example, on our medical condition pages we have labels (health aspects) for sections on "Overview", "Symptoms", "Treatments", "Causes" and more. These labels (health aspects) are based on international standards for structured data from [Schema.org](https://schema.org/HealthAspectEnumeration). Before being made available, each module is checked by our clinical team to make sure it remains accurate and safe to use in isolation.
+
+    <div class="nhsd-m-expander" style="margin-bottom: 1rem;">
+      <details>
+        <summary class="nhsd-m-expander__heading-container" aria-label="List of health aspects" >
+          <div>
+            <span class="nhsd-m-expander__icon nhsd-!t-margin-right-1">
+              <span class="nhsd-a-icon nhsd-a-icon--size-xs" style="margin: 0;">
+                <svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" focusable="false" viewBox="0 0 16 16">
+                  <path d="M12,8l-6.5,7L4,13.5L9.2,8L4,2.5L5.5,1L12,8z"/>
+                </svg>
+              </span>
+            </span>
+            <p class="nhsd-m-expander__heading nhsd-t-body">List of health aspects</p>
+          </div>
+        </summary>
+        <div class="nhsd-m-expander__content-container">
+          <p>Here are the 31 health aspects that we currently have available for modularisation, in order of frequency of use:</p>
+          <ul>
+            <li>OverviewHealthAspect</li>
+            <li>SymptomsHealthAspect</li>
+            <li>TreatmentsHealthAspect</li>
+            <li>CausesHealthAspect</li>
+            <li>MedicalHelpNonurgentHealthAspect</li>
+            <li>SelfCareHealthAspect</li>
+            <li>MedicalHelpUrgentHealthAspect</li>
+            <li>MedicalHelpEmergencyHealthAspect</li>
+            <li>DiagnosisHealthAspect</li>
+            <li>PreventionHealthAspect</li>
+            <li>SideEffectsHealthAspect</li>
+            <li>LivingWithHealthAspect</li>
+            <li>SuitabilityHealthAspect</li>
+            <li>InteractionsHealthAspect</li>
+            <li>UsageOrScheduleHealthAspect</li>
+            <li>PregnancyHealthAspect</li>
+            <li>RisksOrComplicationsHealthAspect</li>
+            <li>PrognosisHealthAspect</li>
+            <li>BenefitsHealthAspect</li>
+            <li>ContagiousnessHealthAspect</li>
+            <li>WhatHappensHealthAspect</li>
+            <li>PreparationHealthAspect</li>
+            <li>ResultsHealthAspect</li>
+            <li>TypesHealthAspect</li>
+            <li>ContraindicationsHealthAspect</li>
+            <li>GettingAccessHealthAspect</li>
+            <li>WarningHealthAspect</li>
+            <li>EffectivenessHealthAspect</li>
+            <li>HowItWorksHealthAspect</li>
+            <li>IngredientsHealthAspect</li>
+          </ul>
+        </div>
+      </details>
+    </div>
+
+    ### Getting modularised content
+
+    To get modularised content, you can use the boolean `modules` query parameter in the [conditions/*](#get-/conditions/*) and [medicines/*](#get-/medicines/*) endpoints. This will return the modularised version of the page (if there is one). If the requested page has not been modularised, the full page will be returned.
+
+    You can get a list of which pages have (and have not) been modularised and which health aspects they contain by calling the `/manifest/pages/` endpoint.
+
+    ## Schema page types
+
+    Throughout the NHS website we have a couple of page models which are defined using the `@type` property. It is a good thing to implement each page type into your product, as multiple page types can be used within in a single genre (conditions, live-well, medicines, etc).
+
+    1. **WebPage** &mdash; This is the default type and is [defined by Schema.org](https://schema.org/WebPage)
+
+    2. **MedicalWebPage** &mdash; A web page that provides medical information and is [defined by Schema.org](https://schema.org/MedicalWebPage)
+
+    Here is a list of properties for each schema page type we are currently using:
+
+    | WebPage          | MedicalWebPage      |
+    | ---------------- | ------------------- |
+    | @context         | @context            |
+    | @type            | @type               |
+    | name             | name                |
+    | copyrightHolder  | copyrightHolder     |
+    | license          | license             |
+    | author           | author              |
+    | about            | about               |
+    | description      | description         |
+    | url              | url                 |
+    | genre            | genre               |
+    | keywords         | keywords            |
+    | dateModified     | dateModified        |
+    | lastReviewed     | lastReviewed        |
+    | breadcrumb       | breadcrumb          |
+    | hasPart          | hasPart             |
+    | relatedLink      | relatedLink         |
+    | contentSubTypes  | contentSubTypes     |
+    | mainEntityOfPage | mainEntityOfPage    |
+    |                  | alternativeHeadline |
+
+    It is worth noting that the `genre` property is what we use to define which section the article sits in, and the `@type` is used to define how that article is structured.
 
     ## API status
     This API has moved from the [NHS website developer portal](https://developer.api.nhs.uk/). 
-    It is currently [in development](https://digital.nhs.uk/developer/guides-and-documentation/reference-guide#statuses).
+    It is currently [in production](https://digital.nhs.uk/developer/guides-and-documentation/reference-guide#statuses).
 
     ## Service level
     This API is a [bronze service](https://digital.nhs.uk/developer/guides-and-documentation/reference-guide#service-levels).
@@ -107,7 +211,7 @@ info:
     | Sandbox           | `https://sandbox.api.service.nhs.uk/nhs-website-content/`              |
     | Development       |  Not used                                                              |
     | Integration test  | `https://int.api.service.nhs.uk/nhs-website-content/`                  |
-    | Production        |  Not available yet                                                     |
+    | Production        | `https://api.service.nhs.uk/nhs-website-content/`                      |
 
     ### Sandbox environment
     Our [sandbox environment](https://digital.nhs.uk/developer/guides-and-documentation/testing#sandbox-testing):
@@ -127,13 +231,19 @@ info:
                 </svg>
               </span>
             </span>
-            <p class="nhsd-m-expander__heading nhsd-t-body">The sandbox environment includes the following 48 mocked endpoints</p>
+            <p class="nhsd-m-expander__heading nhsd-t-body">The sandbox environment includes the following 62 mocked endpoints</p>
           </div>
         </summary>
         <div class="nhsd-m-expander__content-container">
           <h4>API v2 root</h4>
           <ul>
             <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/</a> (Not a valid endpoint)</li>
+          </ul>
+          <h4>Manifest pages</h4>
+          <ul>
+            <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/manifest/pages/" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/manifest/pages/</a></li>
+            <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/manifest/pages/?page=1" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/manifest/pages/?page=1</a></li>
+            <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/manifest/pages/?page=2" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/manifest/pages/?page=2</a></li>
           </ul>
           <h4>Conditions (Health A to Z)</h4>
           <ul>
@@ -196,12 +306,25 @@ info:
             <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/nhs-services/gps/how-to-register-with-a-gp-surgery/" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/nhs-services/gps/how-to-register-with-a-gp-surgery/</a></li>
             <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/nhs-services/prescriptions-and-pharmacies/" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/nhs-services/prescriptions-and-pharmacies/</a></li>
           </ul>
-          <h4>Common health questions</h4>
+          <h4>Contraception</h4>
           <ul>
-            <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/common-health-questions/" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/common-health-questions/</a></li>
-            <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/common-health-questions/accidents-first-aid-and-treatments/" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/common-health-questions/accidents-first-aid-and-treatments/</a></li>
-            <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/common-health-questions/caring-carers-and-long-term-conditions/" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/common-health-questions/caring-carers-and-long-term-conditions/</a></li>
-            <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/common-health-questions/childrens-health/can-my-baby-go-swimming-before-or-after-vaccinations/" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/common-health-questions/childrens-health/can-my-baby-go-swimming-before-or-after-vaccinations/</a></li>
+            <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/contraception/" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/contraception/</a></li>
+            <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/contraception/methods-of-contraception/" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/contraception/methods-of-contraception/</a></li>
+            <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/contraception/methods-of-contraception/combined-pill/what-is-it/" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/contraception/methods-of-contraception/combined-pill/what-is-it/</a></li>
+            <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/contraception/methods-of-contraception/condoms/" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/contraception/methods-of-contraception/condoms/</a></li>
+          </ul>
+          <h4>Vaccinations</h4>
+          <ul>
+            <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/vaccinations/" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/vaccinations/</a></li>
+            <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/vaccinations/nhs-vaccinations-and-when-to-have-them/" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/vaccinations/nhs-vaccinations-and-when-to-have-them/</a></li>
+            <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/vaccinations/6-in-1-vaccine/" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/vaccinations/6-in-1-vaccine/</a></li>
+            <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/vaccinations/travel-vaccinations/available-travel-vaccines/" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/vaccinations/travel-vaccinations/available-travel-vaccines/</a></li>
+          </ul>
+          <h4>Women's health</h4>
+          <ul>
+            <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/womens-health/" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/womens-health/</a></li>
+            <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/womens-health/periods/" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/womens-health/periods/</a></li>
+            <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/womens-health/anaemia/" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/womens-health/anaemia/</a></li>
           </ul>
         </div>
       </details>
@@ -211,12 +334,12 @@ info:
 
     Alternatively, you can try out the sandbox using our Postman collection:
 
-    [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/222854-abafff02-a96d-4259-9c0d-2f4d3fd6d4bf)
+    [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/36572637-700d4550-5fd8-495d-8a4a-8e7c84324497)
 
     ### Integration test environment
     Our [integration test environment](https://digital.nhs.uk/developer/guides-and-documentation/testing#integration-testing):
     * is for formal integration testing
-    * includes authorisation via an API Key, which can be obtained from the [NHS Digital Onboarding Service - Developer account](https://onboarding.prod.api.platform.nhs.uk/Index)
+    * includes authorisation via an API Key, which can be obtained from the [NHS Digital Onboarding Service - Developer account](https://onboarding.prod.api.platform.nhs.uk/Index). This will be different from your Production environment API key.
     * has a restricted [rate limit](#overview--usage-caps)
 
     Here is an example cURL request, calling the integration test environment
@@ -232,7 +355,7 @@ info:
     Our production environment:
     * requires you to get your [application/product onboarded](#overview--onboarding) and approved by us
     * is to be used by your production application
-    * includes authorisation via an API Key, which can be obtained from the [NHS Digital Onboarding Service - Developer account](https://onboarding.prod.api.platform.nhs.uk/Index). This will be different from your Integration test API key.
+    * includes authorisation via an API Key, which can be obtained from the [NHS Digital Onboarding Service - Developer account](https://onboarding.prod.api.platform.nhs.uk/Index). This will be different from your Integration test environment API key.
     * has a higher [rate limit](#overview--usage-caps)
 
     Here is an example cURL request, calling the production environment
@@ -245,11 +368,11 @@ info:
     ## Onboarding
     You need to get your software approved by us before it can go live with this API. We call this onboarding.
 
-    The [onboarding process](https://digital.nhs.uk/developer/guides-and-documentation/onboarding-process) for this API is currently in development.
-
     During this process you will be asked agree to the [Online connection agreement](https://digital.nhs.uk/developer/guides-and-documentation/online-connection-agreement).
 
     You can [submit your application/product for onboarding](https://onboarding.prod.api.platform.nhs.uk/Products) using the [Digital Onboarding Service](https://onboarding.prod.api.platform.nhs.uk/Index)
+
+    Once all your onboarding responses have been approved, we will enable the 'NHS Website Content API' for your Production application.
 
     ## Caching
     Caching of all responses from the NHS website content API is recommended, and you should do so where possible, unless otherwise notified to you by NHS Digital. The cached data should be refreshed no less than once every 7 days. If instructed to refresh cached NHS website content, you must do so immediately.
@@ -264,7 +387,7 @@ info:
 
     ## Developer Community
 
-    If you require any assistance understanding or using the NHS Website Content API please visit our [Developer Community](https://developer.community.nhs.uk/). This is where you can post your questions and get help from both NHS developer support staff and other community members. When starting a new topic, we recommend you select the category `NHS Website Content API`.
+    If you require any assistance understanding or using the NHS Website Content API please visit [our dedicated category](https://developer.community.nhs.uk/c/nhs-website-content-api/41) within the [Developer Community](https://developer.community.nhs.uk/). This is where you can post your questions and get help from both NHS developer support staff and other community members. When starting a new topic, we recommend you select the category `NHS Website Content API`.
 
   contact:
     name: "NHS Website Content API v2 Support"
@@ -280,14 +403,52 @@ servers:
 security:
   - apikey: []
 paths:
+  /manifest/pages:
+    parameters:
+      - $ref: "#/components/parameters/page"
+    get:
+      summary: Get details about all the pages
+      operationId: get-manifest-pages
+      description: |
+        ## Overview
+        Use this endpoint to get details of all the pages available via the NHS Website Content API v2.
+
+        This includes details such as name, description, url, webpage, modification date and whether the page has been modularised. 
+
+        Passing in no parameters returns the first page of results.
+
+        The response is limited to 100 results and is paginated.
+
+      responses:
+        "200":
+          description: |
+            A valid query for manifest pages.
+          content:
+            application/json:
+              schema:
+                $ref: components/schemas/ManifestPages.json
+              example:
+                $ref: components/examples/ManifestPages.json
+        "4XX":
+          description: |
+            An error occurred as follows:
+
+            | HTTP status | Error code                 | Description |
+            | ----------- | -------------------------- | --------------------------------------------- |
+            | 401         | ACCESS_DENIED              | API key missing, invalid or expired, or calling application not configured for this operation. |
+            | 403         | ACCESS_DENIED              | User cannot perform this action. |
+            | 404         | RESOURCE_NOT_FOUND         | Page not found. |
+            | 429         | TOO_MANY_REQUESTS          | You have exceeded your application's [rate limit](https://digital.nhs.uk/developer/guides-and-documentation/reference-guide#rate-limits). |
+
   /conditions:
     parameters:
-      - $ref: "#/components/parameters/order"
       - $ref: "#/components/parameters/page"
       - $ref: "#/components/parameters/category"
+      - $ref: "#/components/parameters/orderBy"
+      - $ref: "#/components/parameters/startDate"
+      - $ref: "#/components/parameters/endDate"
+      - $ref: "#/components/parameters/order"
       - $ref: "#/components/parameters/synonyms"
-      - $ref: "#/components/parameters/childArticles"
-      - $ref: "#/components/parameters/status"
     get:
       summary: Get all pages in the Health A to Z
       operationId: get-conditions
@@ -299,7 +460,15 @@ paths:
 
         The response is limited to 25 child pages and is paginated.
 
-        There are a number of query parameters that filter the output.
+        There are a number of query parameters that filter the results.
+
+        ## Ordering by dates
+
+        The `orderBy` parameter can be `dateModified`, `lastReviewed` and `nextReview`. By default if any of the `orderBy` parameters are chosen the results are sorted by newest first.
+
+        However, the `orderBy` parameter can be used with the `startDate` and `endDate` parameters to filter down to the desired date. `startDate` and `endDate` should be given in the YYYY-MM-DD format.
+
+        For example `https://api.service.nhs.uk/nhs-website-content/conditions?startDate=2022-01-01&orderBy=dateModified`
 
       responses:
         "200":
@@ -317,7 +486,7 @@ paths:
 
             | HTTP status | Error code                 | Description |
             | ----------- | -------------------------- | --------------------------------------------- |
-            | 401         | ACCESS_DENIED              | Api key missing, invalid or expired, or calling application not configured for this operation. |
+            | 401         | ACCESS_DENIED              | API key missing, invalid or expired, or calling application not configured for this operation. |
             | 403         | ACCESS_DENIED              | User cannot perform this action. |
             | 404         | RESOURCE_NOT_FOUND         | Page not found. |
             | 429         | TOO_MANY_REQUESTS          | You have exceeded your application's [rate limit](https://digital.nhs.uk/developer/guides-and-documentation/reference-guide#rate-limits). |
@@ -357,18 +526,18 @@ paths:
 
             | HTTP status | Error code                 | Description |
             | ----------- | -------------------------- | --------------------------------------------- |
-            | 401         | ACCESS_DENIED              | Api key missing, invalid or expired, or calling application not configured for this operation. |
+            | 401         | ACCESS_DENIED              | API key missing, invalid or expired, or calling application not configured for this operation. |
             | 403         | ACCESS_DENIED              | User cannot perform this action. |
             | 404         | RESOURCE_NOT_FOUND         | Page not found. |
             | 429         | TOO_MANY_REQUESTS          | You have exceeded your application's [rate limit](https://digital.nhs.uk/developer/guides-and-documentation/reference-guide#rate-limits). |
   /medicines:
     parameters:
-      - $ref: "#/components/parameters/startDate"
-      - $ref: "#/components/parameters/endDate"
-      - $ref: "#/components/parameters/order"
       - $ref: "#/components/parameters/page"
       - $ref: "#/components/parameters/category"
       - $ref: "#/components/parameters/orderBy"
+      - $ref: "#/components/parameters/startDate"
+      - $ref: "#/components/parameters/endDate"
+      - $ref: "#/components/parameters/order"
     get:
       summary: Get all pages in the Medicines A to Z
       operationId: get-medicines
@@ -380,7 +549,7 @@ paths:
 
         The response is limited to 25 child pages and is paginated.
 
-        There are a number of query parameters that filter the output.
+        There are a number of query parameters that filter the results.
 
         ## Ordering by dates
 
@@ -388,7 +557,7 @@ paths:
 
         However, the `orderBy` parameter can be used with the `startDate` and `endDate` parameters to filter down to the desired date. `startDate` and `endDate` should be given in the YYYY-MM-DD format.
 
-        For example `https://api.nhs.uk/medicines?startDate=2022-01-01&orderBy=dateModified`
+        For example `https://api.service.nhs.uk/nhs-website-content/medicines?startDate=2022-01-01&orderBy=dateModified`
 
       responses:
         "200":
@@ -406,7 +575,7 @@ paths:
 
             | HTTP status | Error code                 | Description |
             | ----------- | -------------------------- | --------------------------------------------- |
-            | 401         | ACCESS_DENIED              | Api key missing, invalid or expired, or calling application not configured for this operation. |
+            | 401         | ACCESS_DENIED              | API key missing, invalid or expired, or calling application not configured for this operation. |
             | 403         | ACCESS_DENIED              | User cannot perform this action. |
             | 404         | RESOURCE_NOT_FOUND         | Page not found. |
             | 429         | TOO_MANY_REQUESTS          | You have exceeded your application's [rate limit](https://digital.nhs.uk/developer/guides-and-documentation/reference-guide#rate-limits). |
@@ -446,7 +615,7 @@ paths:
 
             | HTTP status | Error code                 | Description |
             | ----------- | -------------------------- | --------------------------------------------- |
-            | 401         | ACCESS_DENIED              | Api key missing, invalid or expired, or calling application not configured for this operation. |
+            | 401         | ACCESS_DENIED              | API key missing, invalid or expired, or calling application not configured for this operation. |
             | 403         | ACCESS_DENIED              | User cannot perform this action. |
             | 404         | RESOURCE_NOT_FOUND         | Page not found. |
             | 429         | TOO_MANY_REQUESTS          | You have exceeded your application's [rate limit](https://digital.nhs.uk/developer/guides-and-documentation/reference-guide#rate-limits). |
@@ -479,7 +648,7 @@ paths:
 
             | HTTP status | Error code                 | Description |
             | ----------- | -------------------------- | --------------------------------------------- |
-            | 401         | ACCESS_DENIED              | Api key missing, invalid or expired, or calling application not configured for this operation. |
+            | 401         | ACCESS_DENIED              | API key missing, invalid or expired, or calling application not configured for this operation. |
             | 403         | ACCESS_DENIED              | User cannot perform this action. |
             | 404         | RESOURCE_NOT_FOUND         | Page not found. |
             | 429         | TOO_MANY_REQUESTS          | You have exceeded your application's [rate limit](https://digital.nhs.uk/developer/guides-and-documentation/reference-guide#rate-limits). |
@@ -511,7 +680,7 @@ paths:
 
             | HTTP status | Error code                 | Description |
             | ----------- | -------------------------- | --------------------------------------------- |
-            | 401         | ACCESS_DENIED              | Api key missing, invalid or expired, or calling application not configured for this operation. |
+            | 401         | ACCESS_DENIED              | API key missing, invalid or expired, or calling application not configured for this operation. |
             | 403         | ACCESS_DENIED              | User cannot perform this action. |
             | 404         | RESOURCE_NOT_FOUND         | Page not found. |
             | 429         | TOO_MANY_REQUESTS          | You have exceeded your application's [rate limit](https://digital.nhs.uk/developer/guides-and-documentation/reference-guide#rate-limits). |
@@ -544,7 +713,7 @@ paths:
 
             | HTTP status | Error code                 | Description |
             | ----------- | -------------------------- | --------------------------------------------- |
-            | 401         | ACCESS_DENIED              | Api key missing, invalid or expired, or calling application not configured for this operation. |
+            | 401         | ACCESS_DENIED              | API key missing, invalid or expired, or calling application not configured for this operation. |
             | 403         | ACCESS_DENIED              | User cannot perform this action. |
             | 404         | RESOURCE_NOT_FOUND         | Page not found. |
             | 429         | TOO_MANY_REQUESTS          | You have exceeded your application's [rate limit](https://digital.nhs.uk/developer/guides-and-documentation/reference-guide#rate-limits). |
@@ -577,40 +746,103 @@ paths:
 
             | HTTP status | Error code                 | Description |
             | ----------- | -------------------------- | --------------------------------------------- |
-            | 401         | ACCESS_DENIED              | Api key missing, invalid or expired, or calling application not configured for this operation. |
+            | 401         | ACCESS_DENIED              | API key missing, invalid or expired, or calling application not configured for this operation. |
             | 403         | ACCESS_DENIED              | User cannot perform this action. |
             | 404         | RESOURCE_NOT_FOUND         | Page not found. |
             | 429         | TOO_MANY_REQUESTS          | You have exceeded your application's [rate limit](https://digital.nhs.uk/developer/guides-and-documentation/reference-guide#rate-limits). |
-  /common-health-questions:
+  /contraception:
     get:
-      summary: Get content from the common health questions hub
-      operationId: get-common-health-questions
+      summary: Get content from the contraception hub
+      operationId: get-contraception
       description: |
         ## Overview
 
-        The [common health questions hub](https://www.nhs.uk/common-health-questions/) contains a number of navigational and content pages.
+        The [contraception hub](https://www.nhs.uk/contraception/) contains a number of navigational and content pages.
 
-        The main page contains significant links to topic pages, which then contain significant links to the content pages.
+        The content of the page is taken from the `mainEntityOfPage` part of the response. This includes the navigational links to child pages.
 
-        Content pages use the 'question' schema.org [question](https://schema.org/Question) property.
-
+        At the top level, modularised content of child pages is highlighted by the `hasPart` field. In child pages, only the individual page is shown.
       responses:
         "200":
           description: |
-            A valid query for the common health questions pages.
+            A valid query for the contraception pages.
           content:
             application/json:
               schema:
                 $ref: components/schemas/WebPage.json
               example:
-                $ref: components/examples/CommonHealthQuestionsHubPage.json
+                $ref: components/examples/ContraceptionHubPage.json
         "4XX":
           description: |
             An error occurred as follows:
 
             | HTTP status | Error code                 | Description |
             | ----------- | -------------------------- | --------------------------------------------- |
-            | 401         | ACCESS_DENIED              | Api key missing, invalid or expired, or calling application not configured for this operation. |
+            | 401         | ACCESS_DENIED              | API key missing, invalid or expired, or calling application not configured for this operation. |
+            | 403         | ACCESS_DENIED              | User cannot perform this action. |
+            | 404         | RESOURCE_NOT_FOUND         | Page not found. |
+            | 429         | TOO_MANY_REQUESTS          | You have exceeded your application's [rate limit](https://digital.nhs.uk/developer/guides-and-documentation/reference-guide#rate-limits). |
+  /vaccinations:
+    get:
+      summary: Get content from the vaccinations hub
+      operationId: get-vaccinations
+      description: |
+        ## Overview
+
+        The [vaccinations hub](https://www.nhs.uk/vaccinations/) contains a number of navigational and content pages.
+
+        The content of the page is taken from the `mainEntityOfPage` part of the response. This includes the navigational links to child pages.
+
+        At the top level, modularised content of child pages is highlighted by the `hasPart` field. In child pages, only the individual page is shown.
+      responses:
+        "200":
+          description: |
+            A valid query for the vaccinations pages.
+          content:
+            application/json:
+              schema:
+                $ref: components/schemas/WebPage.json
+              example:
+                $ref: components/examples/VaccinationsHubPage.json
+        "4XX":
+          description: |
+            An error occurred as follows:
+
+            | HTTP status | Error code                 | Description |
+            | ----------- | -------------------------- | --------------------------------------------- |
+            | 401         | ACCESS_DENIED              | API key missing, invalid or expired, or calling application not configured for this operation. |
+            | 403         | ACCESS_DENIED              | User cannot perform this action. |
+            | 404         | RESOURCE_NOT_FOUND         | Page not found. |
+            | 429         | TOO_MANY_REQUESTS          | You have exceeded your application's [rate limit](https://digital.nhs.uk/developer/guides-and-documentation/reference-guide#rate-limits). |
+  /womens-health:
+    get:
+      summary: Get content from the women's health hub
+      operationId: get-womens-health
+      description: |
+        ## Overview
+
+        The [women's health hub](https://www.nhs.uk/womens-health/) contains a number of navigational and content pages.
+
+        The content of the page is taken from the `mainEntityOfPage` part of the response. This includes the navigational links to child pages.
+
+        At the top level, modularised content of child pages is highlighted by the `hasPart` field. In child pages, only the individual page is shown.
+      responses:
+        "200":
+          description: |
+            A valid query for the women's health pages.
+          content:
+            application/json:
+              schema:
+                $ref: components/schemas/WebPage.json
+              example:
+                $ref: components/examples/WomensHealthHubPage.json
+        "4XX":
+          description: |
+            An error occurred as follows:
+
+            | HTTP status | Error code                 | Description |
+            | ----------- | -------------------------- | --------------------------------------------- |
+            | 401         | ACCESS_DENIED              | API key missing, invalid or expired, or calling application not configured for this operation. |
             | 403         | ACCESS_DENIED              | User cannot perform this action. |
             | 404         | RESOURCE_NOT_FOUND         | Page not found. |
             | 429         | TOO_MANY_REQUESTS          | You have exceeded your application's [rate limit](https://digital.nhs.uk/developer/guides-and-documentation/reference-guide#rate-limits). |
@@ -624,7 +856,7 @@ components:
     startDate:
       name: startDate
       in: query
-      description: Earliest date filter, works with orderBy.
+      description: Earliest date filter, works with orderBy. Format must be YYYY-MM-DD.
       required: false
       schema:
         type: string
@@ -632,7 +864,7 @@ components:
     endDate:
       name: endDate
       in: query
-      description: Latest date filter, works with orderBy.
+      description: Latest date filter, works with orderBy. Format must be YYYY-MM-DD.
       required: false
       schema:
         type: string
@@ -664,7 +896,7 @@ components:
     orderBy:
       name: orderBy
       in: query
-      description: works alongside startDate and endDate. Options are "dateModified", "lastReviewed" and "nextReview".
+      description: Works alongside startDate and endDate. Options are "dateModified", "lastReviewed" and "nextReview".
       required: false
       schema:
         type: string
@@ -677,22 +909,6 @@ components:
       schema:
         type: boolean
         example: true
-    childArticles:
-      name: childArticles
-      in: query
-      description: Include child pages of a topic within results under property subjectOf.
-      required: false
-      schema:
-        type: boolean
-        example: true
-    status:
-      name: status
-      in: query
-      description: Filter by "published" or "unpublished".
-      required: false
-      schema:
-        type: string
-        example: "published"
     modules:
       name: modules
       in: query

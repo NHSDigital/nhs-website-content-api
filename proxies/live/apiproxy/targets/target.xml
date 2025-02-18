@@ -1,6 +1,12 @@
 <TargetEndpoint name="nhs-website-content-api-target">
   <PreFlow>
     <Request>
+      <!-- EnhancedVerifyApiKey shared flow checks apikeys with no associated products which is missed by Apigee's VerifyApiKey policy. -->
+      <Step>
+        <Name>FlowCallout.EnhancedVerifyApiKey</Name>
+      </Step>
+      <!-- VerifyAPIKey policy is still needed but set to continueOnError="true" to pass rate limiting info from the app to the
+      ApplyRateLimiting policy in the shared flow. -->
       <Step>
         <Name>VerifyAPIKey.FromHeader</Name>
       </Step>
@@ -32,6 +38,15 @@
       <Condition/>
     </Flow>
   </Flows>
+  <PostFlow>
+    <Request>
+      <Step>
+        <Name>javascript.AddTrailingSlashToTargetPath</Name>
+      </Step>
+    </Request>
+    <Response>
+    </Response>
+  </PostFlow>
   <FaultRules>
     <FaultRule name="api_key_invalid">
       <Condition>verifyapikey.VerifyAPIKey.FromHeader.failed</Condition>
@@ -41,7 +56,7 @@
     <SSLInfo>
       <Enabled>true</Enabled>
     </SSLInfo>
-    <Path>/content-api</Path>
+    <Path>/content-api/{pathWithTrailingSlash}</Path>
     <LoadBalancer>
       <Server name= "{{ NHS_CONTENT_API_TARGET_SERVER }}" />
     </LoadBalancer>

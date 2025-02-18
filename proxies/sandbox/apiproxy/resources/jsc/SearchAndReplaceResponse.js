@@ -145,30 +145,146 @@
 //   },
 //   {
 //     comment1: "=============================================================",
-//     comment2: "Common health questions                                      ",
+//     comment2: "Contraception                                                ",
 //     comment3: "=============================================================",
 //   },
 //   {
-//     searchForRegex: /:\s?"https:\/\/api.nhs.uk\/common-health-questions\//gm,
+//     searchForRegex: /:\s?"https:\/\/api.nhs.uk\/contraception\//gm,
 //     replaceWithStr:
 //       ': "https://' +
 //       requestHostnameEnv +
-//       "/nhs-website-content/common-health-questions/",
+//       "/nhs-website-content/contraception/",
 //   },
 //   {
-//     searchForRegex: /:\s?"https:\/\/www.nhs.uk\/common-health-questions\//gm,
+//     searchForRegex: /:\s?"https:\/\/www.nhs.uk\/contraception\//gm,
 //     replaceWithStr:
 //       ': "https://' +
 //       requestHostnameEnv +
-//       "/nhs-website-content/common-health-questions/",
+//       "/nhs-website-content/contraception/",
 //   },
 //   {
-//     searchForRegex: /href=\\"https:\/\/api.nhs.uk\/common-health-questions\//gm,
-//     replaceWithStr: 'href=\\"https://www.nhs.uk/common-health-questions/',
+//     searchForRegex: /:\s?"\/contraception\//gm,
+//     replaceWithStr:
+//       ': "https://' +
+//       requestHostnameEnv +
+//       "/nhs-website-content/contraception/",
 //   },
 //   {
-//     searchForRegex: /href=\\"\/common-health-questions\//gm,
-//     replaceWithStr: 'href=\\"https://www.nhs.uk/common-health-questions/',
+//     searchForRegex: /href=\\"https:\/\/api.nhs.uk\/contraception\//gm,
+//     replaceWithStr: 'href=\\"https://www.nhs.uk/contraception/',
+//   },
+//   {
+//     searchForRegex: /href=\\"\/contraception\//gm,
+//     replaceWithStr: 'href=\\"https://www.nhs.uk/contraception/',
+//   },
+//   {
+//     comment1: "=============================================================",
+//     comment2: "Vaccinations                                                 ",
+//     comment3: "=============================================================",
+//   },
+//   {
+//     searchForRegex: /:\s?"https:\/\/api.nhs.uk\/vaccinations\//gm,
+//     replaceWithStr:
+//       ': "https://' + requestHostnameEnv + "/nhs-website-content/vaccinations/",
+//   },
+//   {
+//     searchForRegex: /:\s?"https:\/\/www.nhs.uk\/vaccinations\//gm,
+//     replaceWithStr:
+//       ': "https://' + requestHostnameEnv + "/nhs-website-content/vaccinations/",
+//   },
+//   {
+//     searchForRegex: /:\s?"\/vaccinations\//gm,
+//     replaceWithStr:
+//       ': "https://' + requestHostnameEnv + "/nhs-website-content/vaccinations/",
+//   },
+//   {
+//     searchForRegex: /href=\\"https:\/\/api.nhs.uk\/vaccinations\//gm,
+//     replaceWithStr: 'href=\\"https://www.nhs.uk/vaccinations/',
+//   },
+//   {
+//     searchForRegex: /href=\\"\/vaccinations\//gm,
+//     replaceWithStr: 'href=\\"https://www.nhs.uk/vaccinations/',
+//   },
+//   {
+//     comment1: "=============================================================",
+//     comment2: "Women's health                                                 ",
+//     comment3: "=============================================================",
+//   },
+//   {
+//     searchForRegex: /:\s?"https:\/\/api.nhs.uk\/womens-health\//gm,
+//     replaceWithStr:
+//       ': "https://' + requestHostnameEnv + "/nhs-website-content/womens-health/",
+//   },
+//   {
+//     searchForRegex: /:\s?"https:\/\/www.nhs.uk\/womens-health\//gm,
+//     replaceWithStr:
+//       ': "https://' + requestHostnameEnv + "/nhs-website-content/womens-health/",
+//   },
+//   {
+//     searchForRegex: /:\s?"\/womens-health\//gm,
+//     replaceWithStr:
+//       ': "https://' + requestHostnameEnv + "/nhs-website-content/womens-health/",
+//   },
+//   {
+//     searchForRegex: /href=\\"https:\/\/api.nhs.uk\/womens-health\//gm,
+//     replaceWithStr: 'href=\\"https://www.nhs.uk/womens-health/',
+//   },
+//   {
+//     searchForRegex: /href=\\"\/womens-health\//gm,
+//     replaceWithStr: 'href=\\"https://www.nhs.uk/womens-health/',
+//   },
+//   {
+//     comment1: "=============================================================",
+//    comment2: "Manifest pages                                               ",
+//     comment3: "=============================================================",
+//   },
+//   {
+//     searchForRegex: /:\s?"https:\/\/www.nhs.uk\/content-api\/manifest\//gm,
+//     replaceWithStr:
+//       ': "https://' + requestHostnameEnv + "/nhs-website-content/manifest/",
+//   },
+//   {
+//     comment1: "=============================================================",
+//     comment2: "Webpage hostname                                             ",
+//     comment3: "=============================================================",
+//   },
+//   {
+//     searchForRegex:
+//       /"webpage":\s?"https:\/\/internal-dev.api.service.nhs.uk\/nhs-website-content\//gm,
+//     replaceWithStr: '"webpage": "https://www.nhs.uk/',
+//   },
+//   {
+//     searchForRegex:
+//       /"webpage":\s?"https:\/\/internal-qa.api.service.nhs.uk\/nhs-website-content\//gm,
+//     replaceWithStr: '"webpage": "https://www.nhs.uk/',
+//   },
+//   {
+//     searchForRegex:
+//       /"webpage":\s?"https:\/\/int.api.service.nhs.uk\/nhs-website-content\//gm,
+//     replaceWithStr: '"webpage": "https://www.nhs.uk/',
+//   },
+//   {
+//     searchForRegex:
+//       /"webpage":\s?"https:\/\/api.service.nhs.uk\/nhs-website-content\//gm,
+//     replaceWithStr: '"webpage": "https://www.nhs.uk/',
+//   },
+//   {
+//     comment1: "=============================================================",
+//     comment2: "Remove data-block-key Attributes from CMS                    ",
+//     comment3: "=============================================================",
+//   },
+//   {
+//     searchForRegex: /\s+data-block-key=\\"[^"]*\\"/gm,
+//     replaceWithStr: "",
+//   },
+//   {
+//     comment1: "=============================================================",
+//     comment2: "Convert any remaining relative HREFs to absolute HREFs       ",
+//     comment3: "=============================================================",
+//   },
+//   {
+//     searchForRegex: /href=\\"\//gm,
+//     replaceWithStr: 'href=\\"https://www.nhs.uk/',
 //   },
 // ];
 

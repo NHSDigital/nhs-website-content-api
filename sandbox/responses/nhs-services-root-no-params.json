@@ -6,7 +6,7 @@
   "license": "https://developer.api.nhs.uk/terms",
   "author": {
     "url": "https://www.nhs.uk",
-    "logo": "https://digital.nhs.uk/binaries/content/gallery/website/developer/api-catalogue/nhs-website-content/nhs-attribution.png",
+    "logo": "https://assets.nhs.uk/nhsuk-cms/images/nhs-attribution.width-510.png",
     "email": "nhswebsite.servicedesk@nhs.net",
     "@type": "Organization",
     "name": "NHS website"
@@ -77,7 +77,7 @@
           "headline": "GPs",
           "url": "https://api.service.nhs.uk/nhs-website-content/nhs-services/gps/",
           "identifier": "26",
-          "text": "<p data-block-key=\"qwcyg\">About GP services, including how to find and register with a local GP and how to book an appointment</p>",
+          "text": "<p>About GP services, including how to find and register with a local GP and how to book an appointment</p>",
           "name": "link"
         },
         {
@@ -85,7 +85,7 @@
           "headline": "Prescriptions and pharmacies",
           "url": "https://api.service.nhs.uk/nhs-website-content/nhs-services/prescriptions-and-pharmacies/",
           "identifier": "26",
-          "text": "<p data-block-key=\"r0sca\">Order repeat prescriptions, find out about prescription charges and how pharmacists can help you with medicines and medical advice</p>",
+          "text": "<p>Order repeat prescriptions, find out about prescription charges and how pharmacists can help you with medicines and medical advice</p>",
           "name": "link"
         },
         {
@@ -93,7 +93,7 @@
           "headline": "Hospitals",
           "url": "https://api.service.nhs.uk/nhs-website-content/nhs-services/hospitals/",
           "identifier": "26",
-          "text": "<p data-block-key=\"barcd\">About NHS hospitals, booking and changing appointments with the NHS e-Referral Service and going into hospital</p>",
+          "text": "<p>About NHS hospitals, booking and changing appointments with the NHS e-Referral Service and going into hospital</p>",
           "name": "link"
         },
         {
@@ -101,7 +101,7 @@
           "headline": "Mental health services",
           "url": "https://api.service.nhs.uk/nhs-website-content/nhs-services/mental-health-services/",
           "identifier": "26",
-          "text": "<p data-block-key=\"qzh8w\">Find out how to access NHS mental health services and where to get urgent help</p>",
+          "text": "<p>Find out how to access NHS mental health services and where to get urgent help</p>",
           "name": "link"
         },
         {
@@ -109,7 +109,7 @@
           "headline": "Visiting or moving to England",
           "url": "https://api.service.nhs.uk/nhs-website-content/nhs-services/visiting-or-moving-to-england/",
           "identifier": "26",
-          "text": "<p data-block-key=\"9xa8i\">Advice about using the NHS if you&#x27;re planning to visit or move to England</p>",
+          "text": "<p>Advice about using the NHS if you&#x27;re planning to visit or move to England</p>",
           "name": "link"
         },
         {
@@ -117,7 +117,7 @@
           "headline": "COVID-19 services",
           "url": "https://api.service.nhs.uk/nhs-website-content/nhs-services/covid-19-services/",
           "identifier": "26",
-          "text": "<p data-block-key=\"5vseh\">Find out more about COVID-19 services including vaccination services, testing, the NHS COVID Pass, NHS 119 and research.</p>",
+          "text": "<p>Find out more about COVID-19 services including vaccination services, testing, the NHS COVID Pass, NHS 119 and research.</p>",
           "name": "link"
         }
       ]
@@ -134,7 +134,7 @@
           "headline": "Urgent and emergency care services",
           "url": "https://api.service.nhs.uk/nhs-website-content/nhs-services/urgent-and-emergency-care-services/",
           "identifier": "26",
-          "text": "<p data-block-key=\"eyh8w\">Services the NHS provides if you need urgent or emergency medical help</p>",
+          "text": "<p>Services the NHS provides if you need urgent or emergency medical help</p>",
           "name": "link"
         },
         {
@@ -142,7 +142,7 @@
           "headline": "Sexual health services",
           "url": "https://api.service.nhs.uk/nhs-website-content/nhs-services/sexual-health-services/",
           "identifier": "26",
-          "text": "<p data-block-key=\"7x8cr\">Information about NHS sexual health services</p>",
+          "text": "<p>Information about NHS sexual health services</p>",
           "name": "link"
         },
         {
@@ -150,7 +150,7 @@
           "headline": "Help with health costs",
           "url": "https://api.service.nhs.uk/nhs-website-content/nhs-services/help-with-health-costs/",
           "identifier": "26",
-          "text": "<p data-block-key=\"ntzzz\">Find out about when you need to pay, help when on universal credit, travel costs and personal health budgets</p>",
+          "text": "<p>Find out about when you need to pay, help when on universal credit, travel costs and personal health budgets</p>",
           "name": "link"
         },
         {
@@ -158,7 +158,7 @@
           "headline": "Dentists",
           "url": "https://api.service.nhs.uk/nhs-website-content/nhs-services/dentists/",
           "identifier": "26",
-          "text": "<p data-block-key=\"dxt1g\">About NHS dental services, how to find an NHS dentist and how much treatment costs</p>",
+          "text": "<p>About NHS dental services, how to find an NHS dentist and how much treatment costs</p>",
           "name": "link"
         },
         {
@@ -166,7 +166,7 @@
           "headline": "Opticians and sight tests",
           "url": "https://api.service.nhs.uk/nhs-website-content/nhs-services/opticians/",
           "identifier": "26",
-          "text": "<p data-block-key=\"mfcnk\">Find an opticians and see if you are entitled to free NHS eye tests</p>",
+          "text": "<p>Find an opticians and see if you are entitled to free NHS eye tests</p>",
           "name": "link"
         },
         {
@@ -174,7 +174,7 @@
           "headline": "Alcohol addiction",
           "url": "https://api.service.nhs.uk/nhs-website-content/nhs-services/find-alcohol-addiction-support-services/",
           "identifier": "26",
-          "text": "<p data-block-key=\"f58or\">Find services to help you stop or reduce your drinking</p>",
+          "text": "<p>Find services to help you stop or reduce your drinking</p>",
           "name": "link"
         },
         {
@@ -182,7 +182,7 @@
           "headline": "Healthcare for the armed forces community",
           "url": "https://api.service.nhs.uk/nhs-website-content/nhs-services/armed-forces-and-veterans-healthcare/",
           "identifier": "26",
-          "text": "<p data-block-key=\"qgm1c\">Find information for the armed forces community, including veterans, serving personnel, reservists and their families</p>",
+          "text": "<p>Find information for the armed forces community, including veterans, serving personnel, reservists and their families</p>",
           "name": "link"
         },
         {
@@ -190,7 +190,7 @@
           "headline": "Online services",
           "url": "https://api.service.nhs.uk/nhs-website-content/nhs-services/online-services/",
           "identifier": "26",
-          "text": "<p data-block-key=\"i7q89\">Get your NHS number and find out how to order repeat prescriptions using an app or website</p>",
+          "text": "<p>Get your NHS number and find out how to order repeat prescriptions using an app or website</p>",
           "name": "link"
         },
         {
@@ -198,7 +198,7 @@
           "headline": "How to find an NHS gender dysphoria clinic",
           "url": "https://api.service.nhs.uk/nhs-website-content/nhs-services/how-to-find-an-nhs-gender-identity-clinic/",
           "identifier": "26",
-          "text": "<p data-block-key=\"365nj\">Find information about gender dysphoria clinics (GDCs) in England</p>",
+          "text": "<p>Find information about gender dysphoria clinics (GDCs) in England</p>",
           "name": "link"
         },
         {
@@ -206,7 +206,7 @@
           "headline": "Getting medical care as a student",
           "url": "https://api.service.nhs.uk/nhs-website-content/nhs-services/getting-medical-care-as-a-student/",
           "identifier": "26",
-          "text": "<p data-block-key=\"00hqa\">Find information about looking after your health as a student, including registering with a GP and getting contraception</p>",
+          "text": "<p>Find information about looking after your health as a student, including registering with a GP and getting contraception</p>",
           "name": "link"
         },
         {
@@ -214,7 +214,7 @@
           "headline": "Find your local integrated care board (ICB)",
           "url": "http://nhs.uk/nhs-services/find-your-local-integrated-care-board",
           "identifier": "26",
-          "text": "<p data-block-key=\"fk72d\">Integrated care boards (ICBs) bring together NHS services in your area</p>",
+          "text": "<p>Integrated care boards (ICBs) bring together NHS services in your area</p>",
           "name": "link"
         },
         {
@@ -222,7 +222,7 @@
           "headline": "Find other health services",
           "url": "https://www.nhs.uk/service-search/other-health-services",
           "identifier": "26",
-          "text": "<p data-block-key=\"j6o2d\">Use our service finder to find other health services</p>",
+          "text": "<p>Use our service finder to find other health services</p>",
           "name": "link"
         }
       ]

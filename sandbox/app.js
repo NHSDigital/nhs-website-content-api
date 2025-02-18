@@ -132,21 +132,9 @@ app.get('/_status', handlers.status)
 app.all('/', handlers.root)
 
 // ******************************************************************
-// ** Common Health Questions pages
+// ** Manifest pages
 // ******************************************************************
-app.all('/common-health-questions/', handlers.commonHealthQuestionsRoot)
-app.all(
-  '/common-health-questions/accidents-first-aid-and-treatments/',
-  handlers.commonHealthQuestionsAccidentsFirstAidAndTreatments
-)
-app.all(
-  '/common-health-questions/caring-carers-and-long-term-conditions/',
-  handlers.commonHealthQuestionsCaringCarersAndLongTermConditions
-)
-app.all(
-  '/common-health-questions/childrens-health/can-my-baby-go-swimming-before-or-after-vaccinations/',
-  handlers.commonHealthQuestionsChildrensHealthCanMyBabyGoSwimmingBeforeOrAfterVaccinations
-)
+app.all('/manifest/pages/', handlers.manifestPagesRoot)
 
 // ******************************************************************
 // ** Conditions pages
@@ -203,6 +191,29 @@ app.all('/pregnancy/', handlers.pregnancyRoot)
 app.all('/pregnancy/finding-out/finding-out-you-are-pregnant/', handlers.pregnancyFindingOutFindingOutYouArePregnant)
 app.all('/pregnancy/having-a-baby-if-you-are-lgbt-plus/', handlers.pregnancyHavingABabyIfYouAreLgbtPlus)
 app.all('/pregnancy/trying-for-a-baby/', handlers.pregnancyTryingForABaby)
+
+// ******************************************************************
+// ** Contraception pages
+// ******************************************************************
+app.all('/contraception/', handlers.contraceptionRoot)
+app.all('/contraception/methods-of-contraception/', handlers.contraceptionMethodsOfContraception)
+app.all('/contraception/methods-of-contraception/combined-pill/what-is-it/', handlers.contraceptionWhatIsTheCombinedPill)
+app.all('/contraception/methods-of-contraception/condoms/', handlers.contraceptionCondoms)
+
+// ******************************************************************
+// ** Vaccinations pages
+// ******************************************************************
+app.all('/vaccinations/', handlers.vaccinationsRoot)
+app.all('/vaccinations/nhs-vaccinations-and-when-to-have-them/', handlers.vaccinationsNhsVaccinationsAndWhenToHaveThem)
+app.all('/vaccinations/6-in-1-vaccine/', handlers.vaccinations6in1Vaccine)
+app.all('/vaccinations/travel-vaccinations/available-travel-vaccines/', handlers.vaccinationsAvailableTravelVaccines)
+
+// ******************************************************************
+// ** Women's health pages
+// ******************************************************************
+app.all('/womens-health/', handlers.womensHealthRoot)
+app.all('/womens-health/periods/', handlers.womensHealthPeriods)
+app.all('/womens-health/anaemia/', handlers.womensHealthAnaemia)
 
 app.use((req, res, next) => {
   res.status(404).json(errorResourceNotFoundResponse)
