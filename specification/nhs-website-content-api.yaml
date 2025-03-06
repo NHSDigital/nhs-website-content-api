@@ -163,6 +163,7 @@ info:
     | contentSubTypes  | contentSubTypes     |
     | mainEntityOfPage | mainEntityOfPage    |
     |                  | alternativeHeadline |
+    | something        | something           |
 
     It is worth noting that the `genre` property is what we use to define which section the article sits in, and the `@type` is used to define how that article is structured.
 
