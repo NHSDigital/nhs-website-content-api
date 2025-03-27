@@ -8,9 +8,16 @@ info:
     ## Overview
     This API provides content from the [NHS website](https://www.nhs.uk) as JSON, to be consumed programmatically and used by your application.
 
+    ⚠️ Historically, many pages describing conditions or tests were inappropriately allocated to the Conditions A to Z.
+
+    The April 2025 update introduces two new endpoints for 'symptoms' and 'testandtreatments' that reflect the reallocation of these
+    pages to new hub pages in the website.
+
     You can reuse the content from the following sections of the NHS website:
-      * Health A to Z / Conditions ([Website](https://www.nhs.uk/conditions/) | [API](https://digital.nhs.uk/developer/api-catalogue/nhs-website-content/v2#get-/conditions))
+      * Conditions A to Z / Conditions ([Website](https://www.nhs.uk/conditions/) | [API](https://digital.nhs.uk/developer/api-catalogue/nhs-website-content/v2#get-/conditions))
       * Medicines A to Z ([Website](https://www.nhs.uk/medicines/) | [API](https://digital.nhs.uk/developer/api-catalogue/nhs-website-content/v2#get-/medicines))
+      * Symptoms A to Z ([Website](https://www.nhs.uk/symptoms/) | [API](https://digital.nhs.uk/developer/api-catalogue/nhs-website-content/v2#get-/symptoms))
+      * Tests and treatments A to Z ([Website](https://www.nhs.uk/testsandtreatments/) | [API](https://digital.nhs.uk/developer/api-catalogue/nhs-website-content/v2#get-/testsandtreatments))
       * Mental health ([Website](https://www.nhs.uk/mental-health/) | [API](https://digital.nhs.uk/developer/api-catalogue/nhs-website-content/v2#get-/mental-health))
       * Live Well ([Website](https://www.nhs.uk/live-well/) | [API](https://digital.nhs.uk/developer/api-catalogue/nhs-website-content/v2#get-/live-well))
       * Pregnancy ([Website](https://www.nhs.uk/pregnancy/) | [API](https://digital.nhs.uk/developer/api-catalogue/nhs-website-content/v2#get-/pregnancy))
@@ -24,6 +31,13 @@ info:
       * get Ratings and Reviews of NHS services.
 
     If you are migrating from our [old NHS website APIs](https://developer.api.nhs.uk/nhs-api), we have a [migration guide](https://developer.api.nhs.uk/support/migration/guide) to help walk you through the process and a [migration assistant](https://developer.api.nhs.uk/support/migration/assistant) to illustrate the differences in how your API requests will need to be updated.
+
+    ## Updates
+
+    | Version       | Date | Changes   |
+    |------------|-----|--------------|
+    | 2.2.0 | April 2025  | Introduce `symptoms` and `testsandtreatments` endpoints |
+
 
     ## Who can use this API
     Anyone can use this API for any purpose, so long as they have agreed to the [Online connection agreement](https://digital.nhs.uk/developer/guides-and-documentation/online-connection-agreement) during the [onboarding process](https://digital.nhs.uk/developer/guides-and-documentation/onboarding-process) and they include an [attribution](#overview--attribution) as outlined below.

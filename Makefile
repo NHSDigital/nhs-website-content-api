@@ -32,6 +32,10 @@ publish: clean
 	mkdir -p build
 	npm run publish 2> /dev/null
 
+#Serve the API description locally
+serve:
+	npm run serve
+
 #Runs build proxy script
 build-proxy:
 	scripts/build_proxy.sh

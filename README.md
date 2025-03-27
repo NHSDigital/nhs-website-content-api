@@ -21,18 +21,31 @@ The contents of this repository are protected by Crown Copyright (C).
 
 ## Development
 
-### Requirements
+You can set up your development manually on your development machine, or :bulb: use the supplied devcontainer specification to set up
+the required environment automatically.
+
+### :bulb: Developing in a devcontainer
+
+If you are unfamiliar with the use of devcontainers, these resources may be helpful:
+- VSCode: https://code.visualstudio.com/docs/devcontainers/tutorial
+- JetBrains/pycharm: https://www.jetbrains.com/help/idea/prerequisites-for-dev-containers.html 
+
+The provided configuration in the .devcontainer folder will set up all the required tooling as detailed in the following section automatically.
+
+### Developing without a devcontainer
+
+#### Requirements
 * make
 * nodejs + npm/yarn
 * [poetry](https://github.com/python-poetry/poetry)
 * Java 8+
 
-### Install
+#### Install
 ```
 $ make install
 ```
 
-#### Updating hooks
+##### Updating hooks
 You can install some pre-commit hooks to ensure you can't commit invalid spec changes by accident. These are also run
 in CI, but it's useful to run them locally too.
 
@@ -49,7 +62,7 @@ Various scripts and commands rely on environment variables being set. These are 
 There are `make` commands that alias some of this functionality:
  * `lint` -- Lints the spec and code
  * `publish` -- Outputs the specification as a **single file** into the `build/` directory
- * `serve` -- Serves a preview of the specification in human-readable format
+ * `serve` -- Serves a preview of the specification in human-readable format on http://127.0.0.1:5000
 
 ### Testing
 Each API and team is unique. We encourage you to use a `test/` folder in the root of the project, and use whatever testing frameworks or apps your team feels comfortable with. It is important that the URL your test points to be configurable. We have included some stubs in the Makefile for running tests.
