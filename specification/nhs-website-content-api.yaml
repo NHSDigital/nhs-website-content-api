@@ -8,13 +8,12 @@ info:
     ## Overview
     This API provides content from the [NHS website](https://www.nhs.uk) as JSON, to be consumed programmatically and used by your application.
 
-    ⚠️ Historically, many pages describing conditions or tests were inappropriately allocated to the Conditions A to Z.
+    ⚠️ Before April 2025, many pages covering symptoms, tests or treatments were inappropriately included in the Conditions A to Z.
 
-    The April 2025 update introduces two new endpoints for 'symptoms' and 'testandtreatments' that reflect the reallocation of these
-    pages to new hub pages in the website.
+    The April 2025 update introduces two new endpoints for 'symptoms' and 'testsandtreatments' that reflect the reallocation of these pages to new A to Z pages on the website.
 
     You can reuse the content from the following sections of the NHS website:
-      * Conditions A to Z / Conditions ([Website](https://www.nhs.uk/conditions/) | [API](https://digital.nhs.uk/developer/api-catalogue/nhs-website-content/v2#get-/conditions))
+      * Conditions A to Z ([Website](https://www.nhs.uk/conditions/) | [API](https://digital.nhs.uk/developer/api-catalogue/nhs-website-content/v2#get-/conditions))
       * Medicines A to Z ([Website](https://www.nhs.uk/medicines/) | [API](https://digital.nhs.uk/developer/api-catalogue/nhs-website-content/v2#get-/medicines))
       * Symptoms A to Z ([Website](https://www.nhs.uk/symptoms/) | [API](https://digital.nhs.uk/developer/api-catalogue/nhs-website-content/v2#get-/symptoms))
       * Tests and treatments A to Z ([Website](https://www.nhs.uk/testsandtreatments/) | [API](https://digital.nhs.uk/developer/api-catalogue/nhs-website-content/v2#get-/testsandtreatments))
