@@ -133,21 +133,21 @@
   "relatedLink": [
     {
       "@type": "LinkRole",
-      "url": "https://www.nhs.uk/tests-and-treatments/?page=1",
+      "url": "https://www.nhs.uk/conditions/?page=1",
       "name": "First Page",
       "description": "Link to First Page",
       "linkRelationship": "Pagination"
     },
     {
       "@type": "LinkRole",
-      "url": "https://www.nhs.uk/tests-and-treatments/?page=1",
+      "url": "https://www.nhs.uk/conditions/?page=1",
       "name": "Last Page",
       "description": "Link to Last Page",
       "linkRelationship": "Pagination"
     },
     {
       "@type": "LinkRole",
-      "url": "https://www.nhs.uk/tests-and-treatments/",
+      "url": "https://www.nhs.uk/conditions/",
       "name": "Self",
       "description": "Link to nhs.uk Page",
       "linkRelationship": "Self"
