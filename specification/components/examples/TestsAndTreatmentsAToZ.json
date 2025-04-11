@@ -1,0 +1,129 @@
+{
+    "@context": "http://schema.org",
+    "@type": "MedicalWebPage",
+    "name": "Tests and treatments A to Z",
+    "copyrightHolder": {
+        "name": "Crown Copyright",
+        "@type": "Organization"
+    },
+    "license": "https://developer.api.nhs.uk/terms",
+    "author": {
+        "url": "https://www.nhs.uk",
+        "logo": "https://assets.nhs.uk/nhsuk-cms/images/nhs-attribution.width-510.png",
+        "email": "nhswebsite.servicedesk@nhs.net",
+        "@type": "Organization",
+        "name": "NHS website"
+    },
+    "about": {
+        "@type": "WebPage",
+        "name": "Tests and treatments A to Z",
+        "alternateName": ""
+    },
+    "description": "",
+    "url": "https://www.nhs.uk/tests-and-treatments/",
+    "genre": [],
+    "keywords": "",
+    "dateModified": "2025-03-26T14:52:02+00:00",
+    "breadcrumb": {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 0,
+                "item": {
+                    "@id": "https://www.nhs.uk/tests-and-treatments/",
+                    "name": "Tests and treatments A to Z",
+                    "genre": []
+                }
+            }
+        ]
+    },
+    "contentSubTypes": [],
+    "significantLink": [
+        {
+            "description": "Read about how X-rays work, why they're used, what happens before, during and after an X-ray, and what the risks are.",
+            "linkRelationship": "Result",
+            "@type": "LinkRole",
+            "articleStatus": "published",
+            "mainEntityOfPage": {
+                "@type": "MedicalWebPage",
+                "genre": [
+                    "Test"
+                ],
+                "datePublished": "2017-10-18T14:30:01+00:00",
+                "dateModified": "2025-03-26T15:23:06+00:00",
+                "lastReviewed": [
+                    "2022-04-20T00:00:00+00:00",
+                    "2025-04-20T00:00:00+00:00"
+                ],
+                "reviewDue": "2025-04-20T00:00:00+00:00",
+                "keywords": "",
+                "code": [
+                    {
+                        "@type": "MedicalCode",
+                        "codeValue": "",
+                        "codingSystem": "SNOMED-CT"
+                    }
+                ]
+            },
+            "url": "https://www.nhs.uk/conditions/x-ray/",
+            "name": "X-ray"
+        },
+        {
+            "description": "Find out about abdominal aortic aneurysm (AAA) screening, including who it's offered to, why it's done and what happens.",
+            "linkRelationship": "Result",
+            "@type": "LinkRole",
+            "articleStatus": "published",
+            "mainEntityOfPage": {
+                "@type": "MedicalWebPage",
+                "genre": [
+                    "Test"
+                ],
+                "datePublished": "2017-10-20T10:36:32+00:00",
+                "dateModified": "2025-03-26T15:28:47+00:00",
+                "lastReviewed": [
+                    "2024-11-11T01:00:00+00:00",
+                    "2027-11-11T01:00:00+00:00"
+                ],
+                "reviewDue": "2027-11-11T01:00:00+00:00",
+                "keywords": "",
+                "alternateName": [
+                    "AAA screening"
+                ],
+                "code": [
+                    {
+                        "@type": "MedicalCode",
+                        "codeValue": "",
+                        "codingSystem": "SNOMED-CT"
+                    }
+                ]
+            },
+            "url": "https://www.nhs.uk/conditions/abdominal-aortic-aneurysm-screening/",
+            "name": "Abdominal aortic aneurysm (AAA) screening"
+        }
+    ],
+    "relatedLink": [
+        {
+            "@type": "LinkRole",
+            "url": "https://www.nhs.uk/tests-and-treatments/?page=1",
+            "name": "First Page",
+            "description": "Link to First Page",
+            "linkRelationship": "Pagination"
+        },
+        {
+            "@type": "LinkRole",
+            "url": "https://www.nhs.uk/tests-and-treatments/?page=1",
+            "name": "Last Page",
+            "description": "Link to Last Page",
+            "linkRelationship": "Pagination"
+        },
+        {
+            "@type": "LinkRole",
+            "url": "https://www.nhs.uk/tests-and-treatments/",
+            "name": "Self",
+            "description": "Link to nhs.uk Page",
+            "linkRelationship": "Self"
+        }
+    ]
+}

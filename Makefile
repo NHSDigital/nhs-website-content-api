@@ -12,6 +12,7 @@ install-node:
 #Configures Git Hooks, which are scripts that run given a specified event.
 .git/hooks/pre-commit:
 	cp scripts/pre-commit .git/hooks/pre-commit
+	chmod +x .git/hooks/pre-commit
 
 #Condensed Target to run all targets above.
 install: install-node install-python .git/hooks/pre-commit
@@ -30,6 +31,10 @@ clean:
 publish: clean
 	mkdir -p build
 	npm run publish 2> /dev/null
+
+#Serve the API description locally
+serve:
+	npm run serve
 
 #Runs build proxy script
 build-proxy:
