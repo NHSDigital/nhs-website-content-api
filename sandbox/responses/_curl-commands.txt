@@ -20,6 +20,10 @@ curl -X GET 'https://api.service.nhs.uk/nhs-website-content/vaccinations/' -H 'a
 
 curl -X GET 'https://api.service.nhs.uk/nhs-website-content/womens-health/' -H 'apikey: Oq5LuCPc5X69KFlIw6P7TVYrrJHSceX8' >> ./responses/womens-health-root-no-params.json
 
+curl -X GET 'https://api.service.nhs.uk/nhs-website-content/symptoms/' -H 'apikey: Oq5LuCPc5X69KFlIw6P7TVYrrJHSceX8' >> ./responses/symptoms-root-no-params.json
+
+curl -X GET 'https://api.service.nhs.uk/nhs-website-content/tests-and-treatments/' -H 'apikey: Oq5LuCPc5X69KFlIw6P7TVYrrJHSceX8' >> ./responses/tests-and-treatments-root-no-params.json
+
 
 *****************************************************************************************************************
 ** Manifest pages                                                                                            **
@@ -54,8 +58,6 @@ curl -X GET 'https://api.service.nhs.uk/nhs-website-content/conditions/?category
 
 curl -X GET 'https://api.service.nhs.uk/nhs-website-content/conditions/?category=a&genre=condition' -H 'apikey: Oq5LuCPc5X69KFlIw6P7TVYrrJHSceX8' >> ./responses/conditions-category-a-genre-condition.json
 
-curl -X GET 'https://api.service.nhs.uk/nhs-website-content/conditions/?category=a&genre=guide' -H 'apikey: Oq5LuCPc5X69KFlIw6P7TVYrrJHSceX8' >> ./responses/conditions-category-a-genre-guide.json
-
 curl -X GET 'https://api.service.nhs.uk/nhs-website-content/conditions/?category=a&genre=hub' -H 'apikey: Oq5LuCPc5X69KFlIw6P7TVYrrJHSceX8' >> ./responses/conditions-category-a-genre-hub.json
 
 curl -X GET 'https://api.service.nhs.uk/nhs-website-content/conditions/?category=b' -H 'apikey: Oq5LuCPc5X69KFlIw6P7TVYrrJHSceX8' >> ./responses/conditions-category-b.json
@@ -66,7 +68,7 @@ curl -X GET 'https://api.service.nhs.uk/nhs-website-content/conditions/?page=1' 
 
 curl -X GET 'https://api.service.nhs.uk/nhs-website-content/conditions/?page=2' -H 'apikey: Oq5LuCPc5X69KFlIw6P7TVYrrJHSceX8' >> ./responses/conditions-page-2.json
 
-curl -X GET 'https://api.service.nhs.uk/nhs-website-content/conditions/?page=70' -H 'apikey: Oq5LuCPc5X69KFlIw6P7TVYrrJHSceX8' >> ./responses/conditions-page-70.json
+curl -X GET 'https://api.service.nhs.uk/nhs-website-content/conditions/?page=29' -H 'apikey: Oq5LuCPc5X69KFlIw6P7TVYrrJHSceX8' >> ./responses/conditions-page-29.json
 
 
 *****************************************************************************************************************
@@ -157,9 +159,35 @@ curl -X GET 'https://api.service.nhs.uk/nhs-website-content/vaccinations/travel-
 
 
 *****************************************************************************************************************
-** Women's health pages                                                                                          **
+** Women's health pages                                                                                        **
 *****************************************************************************************************************
 
 curl -X GET 'https://api.service.nhs.uk/nhs-website-content/womens-health/periods/' -H 'apikey: Oq5LuCPc5X69KFlIw6P7TVYrrJHSceX8' >> ./responses/womens-health-periods-no-params.json
 
 curl -X GET 'https://api.service.nhs.uk/nhs-website-content/womens-health/aneamia/' -H 'apikey: Oq5LuCPc5X69KFlIw6P7TVYrrJHSceX8' >> ./responses/womens-health-anaemia-no-params.json
+
+
+*****************************************************************************************************************
+** Symptoms pages                                                                                              **
+*****************************************************************************************************************
+
+curl -X GET 'https://api.service.nhs.uk/nhs-website-content/symptoms/?category=a' -H 'apikey: Oq5LuCPc5X69KFlIw6P7TVYrrJHSceX8' >> ./responses/symptoms-root-category-a.json
+
+curl -X GET 'https://api.service.nhs.uk/nhs-website-content/symptoms/?category=b' -H 'apikey: Oq5LuCPc5X69KFlIw6P7TVYrrJHSceX8' >> ./responses/symptoms-root-category-b.json
+
+curl -X GET 'https://api.service.nhs.uk/nhs-website-content/symptoms/?page=1' -H 'apikey: Oq5LuCPc5X69KFlIw6P7TVYrrJHSceX8' >> ./responses/symptoms-root-page-1.json
+
+curl -X GET 'https://api.service.nhs.uk/nhs-website-content/symptoms/?page=6' -H 'apikey: Oq5LuCPc5X69KFlIw6P7TVYrrJHSceX8' >> ./responses/symptoms-root-page-6.json
+
+
+*****************************************************************************************************************
+** Tests and treatments pages                                                                                  **
+*****************************************************************************************************************
+
+curl -X GET 'https://api.service.nhs.uk/nhs-website-content/tests-and-treatments/?category=a' -H 'apikey: Oq5LuCPc5X69KFlIw6P7TVYrrJHSceX8' >> ./responses/tests-and-treatments-root-category-a.json
+
+curl -X GET 'https://api.service.nhs.uk/nhs-website-content/tests-and-treatments/?category=b' -H 'apikey: Oq5LuCPc5X69KFlIw6P7TVYrrJHSceX8' >> ./responses/tests-and-treatments-root-category-b.json
+
+curl -X GET 'https://api.service.nhs.uk/nhs-website-content/tests-and-treatments/?page=1' -H 'apikey: Oq5LuCPc5X69KFlIw6P7TVYrrJHSceX8' >> ./responses/tests-and-treatments-root-page-1.json
+
+curl -X GET 'https://api.service.nhs.uk/nhs-website-content/tests-and-treatments/?page=7' -H 'apikey: Oq5LuCPc5X69KFlIw6P7TVYrrJHSceX8' >> ./responses/tests-and-treatments-root-page-7.json

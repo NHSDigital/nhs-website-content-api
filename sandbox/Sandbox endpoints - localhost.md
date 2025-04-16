@@ -21,8 +21,6 @@
 
 [Conditions Root - Category: A & Genre: Condition](http://localhost:9000/conditions/?category=a&genre=condition)
 
-[Conditions Root - Category: A & Genre: Guide](http://localhost:9000/conditions/?category=a&genre=guide)
-
 [Conditions Root - Category: A & Genre: Hub](http://localhost:9000/conditions/?category=a&genre=hub)
 
 [Conditions Root - Category: B](http://localhost:9000/conditions/?category=b)
@@ -33,7 +31,7 @@
 
 [Conditions Root - Page: 2](http://localhost:9000/conditions/?page=2)
 
-[Conditions Root - Page: 70](http://localhost:9000/conditions/?page=70)
+[Conditions Root - Page: 29](http://localhost:9000/conditions/?page=29)
 
 [Conditions Wildcard - Modules: false](http://localhost:9000/conditions/*?modules=false)
 
@@ -146,3 +144,27 @@
 [Periods](http://localhost:9000/womens-health/periods/)
 
 [Anaemia](http://localhost:9000/womens-health/anaemia/)
+
+## Symptoms
+
+[Symptoms Root](http://localhost:9000/symptoms/)
+
+[Symptoms Root - Category: A](http://localhost:9000/symptoms/?category=a)
+
+[Symptoms Root - Category: B](http://localhost:9000/symptoms/?category=b)
+
+[Symptoms Root - Page: 1](http://localhost:9000/symptoms/?page=1)
+
+[Symptoms Root - Page: 6](http://localhost:9000/symptoms/?page=6)
+
+## Tests and treatments
+
+[Tests and treatments Root](http://localhost:9000/tests-and-treatments/)
+
+[Tests and treatments - Category: A](http://localhost:9000/tests-and-treatments/?category=a)
+
+[Tests and treatments - Category: B](http://localhost:9000/tests-and-treatments/?category=b)
+
+[Tests and treatments - Page: 1](http://localhost:9000/tests-and-treatments/?page=1)
+
+[Tests and treatments - Page: 7](http://localhost:9000/tests-and-treatments/?page=7)

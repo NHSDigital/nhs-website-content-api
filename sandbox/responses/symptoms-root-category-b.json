@@ -1,0 +1,465 @@
+{
+  "@context": "http://schema.org",
+  "@type": "MedicalWebPage",
+  "name": "Symptoms A to Z",
+  "copyrightHolder": {
+    "name": "Crown Copyright",
+    "@type": "Organization"
+  },
+  "license": "https://developer.api.nhs.uk/terms",
+  "author": {
+    "url": "https://www.nhs.uk",
+    "logo": "https://assets.nhs.uk/nhsuk-cms/images/nhs-attribution.width-510.png",
+    "email": "nhswebsite.servicedesk@nhs.net",
+    "@type": "Organization",
+    "name": "NHS website"
+  },
+  "about": {
+    "@type": "WebPage",
+    "name": "Symptoms A to Z",
+    "alternateName": ""
+  },
+  "description": "Find out about symptoms such as pain, stomach problems or skin symptoms, including causes, treatment and what to do.",
+  "url": "https://api.service.nhs.uk/nhs-website-content/symptoms/",
+  "genre": [],
+  "keywords": "",
+  "dateModified": "2025-04-16T12:23:46+00:00",
+  "breadcrumb": {
+    "@context": "http://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 0,
+        "item": {
+          "@id": "https://api.service.nhs.uk/nhs-website-content/symptoms/",
+          "name": "Symptoms A to Z",
+          "genre": []
+        }
+      }
+    ]
+  },
+  "contentSubTypes": [],
+  "significantLink": [
+    {
+      "description": "Find out about possible causes of blood in semen and when to get medical help.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": [
+          "Symptom"
+        ],
+        "datePublished": "2018-10-03T19:56:07+00:00",
+        "dateModified": "2025-04-16T10:56:47+00:00",
+        "lastReviewed": [
+          "2022-03-15T01:00:00+00:00",
+          "2025-03-15T01:00:00+00:00"
+        ],
+        "reviewDue": "2025-03-15T01:00:00+00:00",
+        "keywords": "",
+        "code": [
+          {
+            "@type": "MedicalCode",
+            "codeValue": "",
+            "codingSystem": "SNOMED-CT"
+          }
+        ]
+      },
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/blood-in-semen/",
+      "name": "Blood in semen"
+    },
+    {
+      "description": "Find out about blood in urine (pee). It's not usually anything serious, but sometimes it can be, so you must get it checked out by a GP.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": [
+          "Symptom"
+        ],
+        "datePublished": "2017-12-08T09:36:05+00:00",
+        "dateModified": "2025-04-16T11:26:05+00:00",
+        "lastReviewed": [
+          "2023-05-19T00:00:00+00:00",
+          "2026-05-19T00:00:00+00:00"
+        ],
+        "reviewDue": "2026-05-19T00:00:00+00:00",
+        "keywords": "",
+        "code": [
+          {
+            "@type": "MedicalCode",
+            "codeValue": "",
+            "codingSystem": "SNOMED-CT"
+          }
+        ]
+      },
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/blood-in-urine/",
+      "name": "Blood in urine"
+    },
+    {
+      "description": "Find out about breast pain and what can cause it. It's usually linked to periods but can also be caused by injury, infection and taking certain medicines.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": [
+          "Symptom"
+        ],
+        "datePublished": "2017-10-17T16:24:54+00:00",
+        "dateModified": "2025-04-15T15:39:08+00:00",
+        "lastReviewed": [
+          "2023-05-03T00:00:00+00:00",
+          "2026-05-03T00:00:00+00:00"
+        ],
+        "reviewDue": "2026-05-03T00:00:00+00:00",
+        "keywords": "",
+        "code": [
+          {
+            "@type": "MedicalCode",
+            "codeValue": "",
+            "codingSystem": "SNOMED-CT"
+          }
+        ]
+      },
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/breast-pain/",
+      "name": "Breast pain"
+    },
+    {
+      "description": "Find out about blue or grey skin or lips (cyanosis), including what it looks like, what causes it and when to get it checked.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": [
+          "Symptom"
+        ],
+        "datePublished": "2017-10-18T09:21:42+00:00",
+        "dateModified": "2025-04-15T15:37:35+00:00",
+        "lastReviewed": [
+          "2023-10-04T00:00:00+00:00",
+          "2026-10-04T00:00:00+00:00"
+        ],
+        "reviewDue": "2026-10-04T00:00:00+00:00",
+        "keywords": "",
+        "alternateName": [
+          "Cyanosis"
+        ],
+        "code": [
+          {
+            "@type": "MedicalCode",
+            "codeValue": "",
+            "codingSystem": "SNOMED-CT"
+          }
+        ]
+      },
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/blue-skin-or-lips-cyanosis/",
+      "name": "Blue or grey skin or lips (cyanosis)"
+    },
+    {
+      "description": "Find out how to relieve back pain, what can cause it, and when to get medical advice.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": [
+          "Symptom"
+        ],
+        "datePublished": "2017-10-20T13:38:48+00:00",
+        "dateModified": "2025-04-16T10:56:04+00:00",
+        "lastReviewed": [
+          "2022-06-09T23:00:00+00:00",
+          "2025-06-09T23:00:00+00:00"
+        ],
+        "reviewDue": "2025-06-09T23:00:00+00:00",
+        "keywords": "",
+        "alternateName": [
+          "Lumbago",
+          "Lower back pain",
+          "Upper back pain"
+        ],
+        "code": [
+          {
+            "@type": "MedicalCode",
+            "codeValue": "",
+            "codingSystem": "SNOMED-CT"
+          }
+        ]
+      },
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/back-pain/",
+      "name": "Back pain"
+    },
+    {
+      "description": "Find out what causes bad breath (halitosis), how to treat and prevent it, and when to get medical advice.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": [
+          "Symptom"
+        ],
+        "datePublished": "2018-10-03T20:00:01+00:00",
+        "dateModified": "2025-04-15T15:33:25+00:00",
+        "lastReviewed": [
+          "2021-12-07T00:00:00+00:00",
+          "2024-12-07T00:00:00+00:00"
+        ],
+        "reviewDue": "2024-12-07T00:00:00+00:00",
+        "keywords": "",
+        "alternateName": [
+          "Halitosis"
+        ],
+        "code": [
+          {
+            "@type": "MedicalCode",
+            "codeValue": "",
+            "codingSystem": "SNOMED-CT"
+          }
+        ]
+      },
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/bad-breath/",
+      "name": "Bad breath"
+    },
+    {
+      "description": "Find out what you can do about bedwetting, what could be causing it and when to get medical help.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": [
+          "Symptom"
+        ],
+        "datePublished": "2017-10-20T12:36:15+00:00",
+        "dateModified": "2025-04-15T15:35:02+00:00",
+        "lastReviewed": [
+          "2023-04-11T11:00:00+00:00",
+          "2026-04-11T11:00:00+00:00"
+        ],
+        "reviewDue": "2026-04-11T11:00:00+00:00",
+        "keywords": "",
+        "code": [
+          {
+            "@type": "MedicalCode",
+            "codeValue": "",
+            "codingSystem": "SNOMED-CT"
+          }
+        ]
+      },
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/bedwetting/",
+      "name": "Bedwetting in children"
+    },
+    {
+      "description": "Bleeding from the bottom (rectal bleeding) is often seen as small amounts of bright-red blood on toilet paper or pink water in the toilet. Find out when to get medical help if you keep bleeding from your bottom.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": [
+          "Symptom"
+        ],
+        "datePublished": "2017-10-20T13:30:54+00:00",
+        "dateModified": "2025-04-15T15:35:18+00:00",
+        "lastReviewed": [
+          "2023-04-12T00:00:00+00:00",
+          "2026-04-12T00:00:00+00:00"
+        ],
+        "reviewDue": "2026-04-12T00:00:00+00:00",
+        "keywords": "",
+        "alternateName": [
+          "Rectal bleeding"
+        ],
+        "code": [
+          {
+            "@type": "MedicalCode",
+            "codeValue": "",
+            "codingSystem": "SNOMED-CT"
+          }
+        ]
+      },
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/bleeding-from-the-bottom-rectal-bleeding/",
+      "name": "Bleeding from the bottom (rectal bleeding)"
+    },
+    {
+      "description": "Find out how to stop yourself blushing and read about the possible causes and treatments.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": [
+          "Symptom"
+        ],
+        "datePublished": "2018-10-03T20:00:15+00:00",
+        "dateModified": "2025-04-15T15:37:51+00:00",
+        "lastReviewed": [
+          "2022-02-11T00:00:00+00:00",
+          "2025-02-11T01:00:00+00:00"
+        ],
+        "reviewDue": "2025-02-11T01:00:00+00:00",
+        "keywords": "",
+        "code": [
+          {
+            "@type": "MedicalCode",
+            "codeValue": "",
+            "codingSystem": "SNOMED-CT"
+          }
+        ]
+      },
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/blushing/",
+      "name": "Blushing"
+    },
+    {
+      "description": "Find out about bowel incontinence, including the symptoms, what causes it and the treatments available.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": [
+          "Condition"
+        ],
+        "datePublished": "2017-10-20T13:47:09+00:00",
+        "dateModified": "2025-04-11T16:41:25+00:00",
+        "lastReviewed": [
+          "2024-08-14T23:00:00+00:00",
+          "2027-08-14T23:00:00+00:00"
+        ],
+        "reviewDue": "2027-08-14T23:00:00+00:00",
+        "keywords": "",
+        "code": [
+          {
+            "@type": "MedicalCode",
+            "codeValue": "",
+            "codingSystem": "SNOMED-CT"
+          }
+        ]
+      },
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/bowel-incontinence/",
+      "name": "Bowel incontinence"
+    },
+    {
+      "description": "Find out about breast lumps. They can have a lot of different causes and most are harmless. But always see a GP if you have a lump in your breast or any unusual changes to your breasts.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": [
+          "Symptom"
+        ],
+        "datePublished": "2017-10-20T13:51:59+00:00",
+        "dateModified": "2025-04-15T15:38:55+00:00",
+        "lastReviewed": [
+          "2023-06-28T00:00:00+00:00",
+          "2026-06-28T00:00:00+00:00"
+        ],
+        "reviewDue": "2026-06-28T00:00:00+00:00",
+        "keywords": "",
+        "code": [
+          {
+            "@type": "MedicalCode",
+            "codeValue": "",
+            "codingSystem": "SNOMED-CT"
+          }
+        ]
+      },
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/breast-lump/",
+      "name": "Breast lumps"
+    },
+    {
+      "description": "Find out what can cause the eye to bulge and what treatments may help.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": [
+          "Symptom"
+        ],
+        "datePublished": "2017-10-19T15:59:18+00:00",
+        "dateModified": "2025-04-15T15:39:22+00:00",
+        "lastReviewed": [
+          "2022-08-03T23:00:00+00:00",
+          "2025-08-04T00:00:00+00:00"
+        ],
+        "reviewDue": "2025-08-04T00:00:00+00:00",
+        "keywords": "",
+        "code": [
+          {
+            "@type": "MedicalCode",
+            "codeValue": "",
+            "codingSystem": "SNOMED-CT"
+          }
+        ]
+      },
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/bulging-eyes/",
+      "name": "Bulging eyes (exophthalmos)"
+    },
+    {
+      "description": "NHS information and advice about how to treat body odour, including when to see a GP if the problem persists.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": [
+          "Symptom"
+        ],
+        "datePublished": "2019-01-15T14:04:28+00:00",
+        "dateModified": "2025-04-16T10:58:06+00:00",
+        "lastReviewed": [
+          "2021-12-06T13:03:00+00:00",
+          "2024-12-06T13:03:00+00:00"
+        ],
+        "reviewDue": "2024-12-06T13:03:00+00:00",
+        "keywords": "",
+        "code": [
+          {
+            "@type": "MedicalCode",
+            "codeValue": "",
+            "codingSystem": "SNOMED-CT"
+          }
+        ]
+      },
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/body-odour-bo/",
+      "name": "Body odour (BO)"
+    },
+    {
+      "description": "Find out about common causes of bloating, what you can do about it and when to get medical help.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": [
+          "Symptom"
+        ],
+        "datePublished": "2022-03-03T13:09:51+00:00",
+        "dateModified": "2025-04-15T15:35:34+00:00",
+        "lastReviewed": [
+          "2022-03-03T12:13:00+00:00",
+          "2025-03-03T12:13:00+00:00"
+        ],
+        "reviewDue": "2025-03-03T12:13:00+00:00",
+        "keywords": "",
+        "code": [
+          {
+            "@type": "MedicalCode",
+            "codeValue": "",
+            "codingSystem": "SNOMED-CT"
+          }
+        ]
+      },
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/bloating/",
+      "name": "Bloating"
+    }
+  ]
+}
