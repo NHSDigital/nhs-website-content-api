@@ -1,0 +1,115 @@
+{
+    "@context": "http://schema.org",
+    "@type": "MedicalWebPage",
+    "name": "Symptoms A to Z",
+    "copyrightHolder": {
+        "name": "Crown Copyright",
+        "@type": "Organization"
+    },
+    "license": "https://developer.api.nhs.uk/terms",
+    "author": {
+        "url": "https://www.nhs.uk",
+        "logo": "https://assets.nhs.uk/nhsuk-cms/images/nhs-attribution.width-510.png",
+        "email": "nhswebsite.servicedesk@nhs.net",
+        "@type": "Organization",
+        "name": "NHS website"
+    },
+    "about": {
+        "@type": "WebPage",
+        "name": "Symptoms A to Z",
+        "alternateName": ""
+    },
+    "description": "",
+    "url": "https://www.nhs.uk/symptoms/",
+    "genre": [],
+    "keywords": "",
+    "dateModified": "2025-03-26T14:51:24+00:00",
+    "breadcrumb": {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 0,
+                "item": {
+                    "@id": "https://www.nhs.uk/symptoms/",
+                    "name": "Symptoms A to Z",
+                    "genre": []
+                }
+            }
+        ]
+    },
+    "contentSubTypes": [],
+    "significantLink": [
+        {
+            "description": "Find out what you can do to ease ankle pain, what could be causing the pain and when to get medical help.",
+            "linkRelationship": "Result",
+            "@type": "LinkRole",
+            "articleStatus": "published",
+            "mainEntityOfPage": {
+                "@type": "MedicalWebPage",
+                "genre": [
+                    "Symptom"
+                ],
+                "datePublished": "2022-03-30T12:58:40+00:00",
+                "dateModified": "2025-03-26T14:50:35+00:00",
+                "lastReviewed": [
+                    "2022-02-22T08:29:00+00:00",
+                    "2025-02-22T08:29:00+00:00"
+                ],
+                "reviewDue": "2025-02-22T08:29:00+00:00",
+                "keywords": ""
+            },
+            "url": "https://www.nhs.uk/conditions/foot-pain/ankle-pain/",
+            "name": "Ankle pain"
+        },
+        {
+            "description": "Find out about high blood pressure, including how to find out if you have it, what causes it and what you can do to lower it.",
+            "linkRelationship": "Result",
+            "@type": "LinkRole",
+            "articleStatus": "published",
+            "mainEntityOfPage": {
+                "@type": "MedicalWebPage",
+                "genre": [
+                    "Condition"
+                ],
+                "datePublished": "2024-07-22T15:12:33+00:00",
+                "dateModified": "2025-03-28T11:46:40+00:00",
+                "lastReviewed": [
+                    "2024-07-19T07:27:00+00:00",
+                    "2027-07-19T07:27:00+00:00"
+                ],
+                "reviewDue": "2027-07-19T07:27:00+00:00",
+                "keywords": "",
+                "alternateName": [
+                    "Hypertension"
+                ]
+            },
+            "url": "https://www.nhs.uk/conditions/high-blood-pressure/",
+            "name": "High blood pressure"
+        }
+    ],
+    "relatedLink": [
+        {
+            "@type": "LinkRole",
+            "url": "https://www.nhs.uk/symptoms/?page=1",
+            "name": "First Page",
+            "description": "Link to First Page",
+            "linkRelationship": "Pagination"
+        },
+        {
+            "@type": "LinkRole",
+            "url": "https://www.nhs.uk/symptoms/?page=1",
+            "name": "Last Page",
+            "description": "Link to Last Page",
+            "linkRelationship": "Pagination"
+        },
+        {
+            "@type": "LinkRole",
+            "url": "https://www.nhs.uk/symptoms/",
+            "name": "Self",
+            "description": "Link to nhs.uk Page",
+            "linkRelationship": "Self"
+        }
+    ]
+}
