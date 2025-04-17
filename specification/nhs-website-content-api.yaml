@@ -244,7 +244,7 @@ info:
                 </svg>
               </span>
             </span>
-            <p class="nhsd-m-expander__heading nhsd-t-body">The sandbox environment includes the following 66 mocked endpoints</p>
+            <p class="nhsd-m-expander__heading nhsd-t-body">The sandbox environment includes the following 67 mocked endpoints</p>
           </div>
         </summary>
         <div class="nhsd-m-expander__content-container">
@@ -273,6 +273,7 @@ info:
             <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/conditions/achalasia/" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/conditions/achalasia/</a></li>
             <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/conditions/acne/" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/conditions/acne/</a></li>
             <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/conditions/acne/?modules=true">https://sandbox.api.service.nhs.uk/nhs-website-content/conditions/acne/?modules=true</a></li>
+            <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/conditions/angiography/">https://sandbox.api.service.nhs.uk/nhs-website-content/conditions/angiography/</a></li>
             <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/conditions/cancer/" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/conditions/cancer/</a></li>
             <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/conditions/zika/" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/conditions/zika/</a></li>
           </ul>
