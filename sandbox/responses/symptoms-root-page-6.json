@@ -1,0 +1,257 @@
+{
+  "@context": "http://schema.org",
+  "@type": "MedicalWebPage",
+  "name": "Symptoms A to Z",
+  "copyrightHolder": {
+    "name": "Crown Copyright",
+    "@type": "Organization"
+  },
+  "license": "https://developer.api.nhs.uk/terms",
+  "author": {
+    "url": "https://www.nhs.uk",
+    "logo": "https://assets.nhs.uk/nhsuk-cms/images/nhs-attribution.width-510.png",
+    "email": "nhswebsite.servicedesk@nhs.net",
+    "@type": "Organization",
+    "name": "NHS website"
+  },
+  "about": {
+    "@type": "WebPage",
+    "name": "Symptoms A to Z",
+    "alternateName": ""
+  },
+  "description": "Find out about symptoms such as pain, stomach problems or skin symptoms, including causes, treatment and what to do.",
+  "url": "https://api.service.nhs.uk/nhs-website-content/symptoms/",
+  "genre": [],
+  "keywords": "",
+  "dateModified": "2025-04-16T12:23:46+00:00",
+  "breadcrumb": {
+    "@context": "http://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 0,
+        "item": {
+          "@id": "https://api.service.nhs.uk/nhs-website-content/symptoms/",
+          "name": "Symptoms A to Z",
+          "genre": []
+        }
+      }
+    ]
+  },
+  "contentSubTypes": [],
+  "significantLink": [
+    {
+      "description": "Read more about what to do about pain in the back of your hand, when to get help and the common causes.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": [
+          "Symptom"
+        ],
+        "datePublished": "2022-03-30T15:04:59+00:00",
+        "dateModified": "2025-04-16T10:47:21+00:00",
+        "lastReviewed": [
+          "2022-03-22T14:08:00+00:00",
+          "2025-03-22T14:08:00+00:00"
+        ],
+        "reviewDue": "2025-03-22T14:08:00+00:00",
+        "keywords": ""
+      },
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/hand-pain/pain-in-the-back-of-the-hand/",
+      "name": "Pain in the back of the hand"
+    },
+    {
+      "description": "Find out about lumps and spots on the penis, including what can cause them and when to get medical advice.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": [
+          "Symptom"
+        ],
+        "datePublished": "2024-06-27T13:41:32+00:00",
+        "dateModified": "2025-04-16T10:22:05+00:00",
+        "lastReviewed": [
+          "2024-06-24T23:00:00+00:00",
+          "2027-06-24T23:00:00+00:00"
+        ],
+        "reviewDue": "2027-06-24T23:00:00+00:00",
+        "keywords": "",
+        "code": [
+          {
+            "@type": "MedicalCode",
+            "codeValue": "",
+            "codingSystem": "SNOMED-CT"
+          }
+        ]
+      },
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/penis-lumps-and-spots/",
+      "name": "Penis lumps and spots"
+    },
+    {
+      "description": "Find out about bleeding between periods or after sex, including what causes it and when to get medical help.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": [
+          "Symptom"
+        ],
+        "datePublished": "2024-08-14T15:17:21+00:00",
+        "dateModified": "2025-04-16T10:44:24+00:00",
+        "lastReviewed": [
+          "2024-08-13T09:36:00+00:00",
+          "2027-08-13T09:36:00+00:00"
+        ],
+        "reviewDue": "2027-08-13T09:36:00+00:00",
+        "keywords": "",
+        "alternateName": [
+          "Bleeding between periods or after sex"
+        ]
+      },
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/vaginal-bleeding-between-periods-or-after-sex/",
+      "name": "Vaginal bleeding between periods or after sex"
+    },
+    {
+      "description": "Read practical tips and advice on what to do if you're struggling with stress.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "genre": [
+          "Advice or information"
+        ],
+        "datePublished": "2021-02-02T15:19:30+00:00",
+        "dateModified": "2025-04-16T11:16:20+00:00",
+        "lastReviewed": [
+          "2022-11-22T13:56:00+00:00",
+          "2025-11-22T13:56:00+00:00"
+        ],
+        "reviewDue": "2025-11-22T13:56:00+00:00",
+        "keywords": ""
+      },
+      "url": "https://api.service.nhs.uk/nhs-website-content/mental-health/feelings-symptoms-behaviours/feelings-and-symptoms/stress/",
+      "name": "Stress"
+    },
+    {
+      "description": "Read practical tips and advice on what to do if you're struggling with anxiety, fear or panic",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "genre": [
+          "Advice or information"
+        ],
+        "datePublished": "2021-02-02T16:01:35+00:00",
+        "dateModified": "2025-04-16T11:15:42+00:00",
+        "lastReviewed": [
+          "2023-01-17T14:01:00+00:00",
+          "2026-01-17T14:01:00+00:00"
+        ],
+        "reviewDue": "2026-01-17T14:01:00+00:00",
+        "keywords": ""
+      },
+      "url": "https://api.service.nhs.uk/nhs-website-content/mental-health/feelings-symptoms-behaviours/feelings-and-symptoms/anxiety-fear-panic/",
+      "name": "Anxiety, fear and panic"
+    },
+    {
+      "description": "Read practical tips and advice on what to do if you're struggling with a low mood, sadness or depression.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "genre": [
+          "Advice or information"
+        ],
+        "datePublished": "2021-02-02T16:44:23+00:00",
+        "dateModified": "2025-04-16T11:17:35+00:00",
+        "lastReviewed": [
+          "2022-11-23T17:34:00+00:00",
+          "2025-11-23T17:34:00+00:00"
+        ],
+        "reviewDue": "2025-11-23T17:34:00+00:00",
+        "keywords": ""
+      },
+      "url": "https://api.service.nhs.uk/nhs-website-content/mental-health/feelings-symptoms-behaviours/feelings-and-symptoms/low-mood-sadness-depression/",
+      "name": "Low mood, sadness and depression"
+    },
+    {
+      "description": "Read practical tips and advice on what to do if you're struggling with anger",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "genre": [
+          "Advice or information"
+        ],
+        "datePublished": "2021-02-03T11:32:40+00:00",
+        "dateModified": "2025-04-16T11:14:26+00:00",
+        "lastReviewed": [
+          "2022-11-23T17:02:00+00:00",
+          "2025-11-23T17:03:00+00:00"
+        ],
+        "reviewDue": "2025-11-23T17:03:00+00:00",
+        "keywords": ""
+      },
+      "url": "https://api.service.nhs.uk/nhs-website-content/mental-health/feelings-symptoms-behaviours/feelings-and-symptoms/anger/",
+      "name": "Anger"
+    },
+    {
+      "description": "Find out about hallucinations and hearing things, including signs, causes and treatments.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": [
+          "Symptom"
+        ],
+        "datePublished": "2021-02-03T11:47:32+00:00",
+        "dateModified": "2025-04-16T10:08:08+00:00",
+        "lastReviewed": [
+          "2022-02-15T00:00:00+00:00",
+          "2025-02-15T00:00:00+00:00"
+        ],
+        "reviewDue": "2025-02-15T00:00:00+00:00",
+        "keywords": "",
+        "alternateName": [
+          "Hearing voices"
+        ]
+      },
+      "url": "https://api.service.nhs.uk/nhs-website-content/mental-health/feelings-symptoms-behaviours/feelings-and-symptoms/hallucinations-hearing-voices/",
+      "name": "Hallucinations and hearing voices"
+    }
+  ],
+  "relatedLink": [
+    {
+      "@type": "LinkRole",
+      "url": "https://api.service.nhs.uk/nhs-website-content/symptoms/?page=1",
+      "name": "First Page",
+      "description": "Link to First Page",
+      "linkRelationship": "Pagination"
+    },
+    {
+      "@type": "LinkRole",
+      "url": "https://api.service.nhs.uk/nhs-website-content/symptoms/?page=6",
+      "name": "Last Page",
+      "description": "Link to Last Page",
+      "linkRelationship": "Pagination"
+    },
+    {
+      "@type": "LinkRole",
+      "url": "https://api.service.nhs.uk/nhs-website-content/symptoms/?page=6",
+      "name": "Self",
+      "description": "Link to nhs.uk Page",
+      "linkRelationship": "Self"
+    }
+  ]
+}

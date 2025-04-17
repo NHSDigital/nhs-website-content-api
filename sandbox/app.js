@@ -215,6 +215,16 @@ app.all('/womens-health/', handlers.womensHealthRoot)
 app.all('/womens-health/periods/', handlers.womensHealthPeriods)
 app.all('/womens-health/anaemia/', handlers.womensHealthAnaemia)
 
+// ******************************************************************
+// ** Symptoms
+// ******************************************************************
+app.all('/symptoms/', handlers.symptomsRoot)
+
+// ******************************************************************
+// ** Tests and treatments
+// ******************************************************************
+app.all('/tests-and-treatments/', handlers.testsAndTreatmentsRoot)
+
 app.use((req, res, next) => {
   res.status(404).json(errorResourceNotFoundResponse)
 })

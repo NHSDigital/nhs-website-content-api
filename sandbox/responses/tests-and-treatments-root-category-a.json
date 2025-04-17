@@ -1,0 +1,302 @@
+{
+  "@context": "http://schema.org",
+  "@type": "MedicalWebPage",
+  "name": "Tests and treatments A to Z",
+  "copyrightHolder": {
+    "name": "Crown Copyright",
+    "@type": "Organization"
+  },
+  "license": "https://developer.api.nhs.uk/terms",
+  "author": {
+    "url": "https://www.nhs.uk",
+    "logo": "https://assets.nhs.uk/nhsuk-cms/images/nhs-attribution.width-510.png",
+    "email": "nhswebsite.servicedesk@nhs.net",
+    "@type": "Organization",
+    "name": "NHS website"
+  },
+  "about": {
+    "@type": "WebPage",
+    "name": "Tests and treatments A to Z",
+    "alternateName": ""
+  },
+  "description": "Find out about surgery and procedures, tests, screening and other treatments, including why they're done and what happens.",
+  "url": "https://api.service.nhs.uk/nhs-website-content/tests-and-treatments/",
+  "genre": [],
+  "keywords": "",
+  "dateModified": "2025-04-16T12:24:19+00:00",
+  "breadcrumb": {
+    "@context": "http://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 0,
+        "item": {
+          "@id": "https://api.service.nhs.uk/nhs-website-content/tests-and-treatments/",
+          "name": "Tests and treatments A to Z",
+          "genre": []
+        }
+      }
+    ]
+  },
+  "contentSubTypes": [],
+  "significantLink": [
+    {
+      "description": "Read about acupuncture, a treatment derived from ancient Chinese medicine in which fine needles are inserted at certain sites in the body to relieve or prevent health problems",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": [
+          "Treatment"
+        ],
+        "datePublished": "2017-10-17T15:41:00+00:00",
+        "dateModified": "2025-04-15T10:38:33+00:00",
+        "lastReviewed": [
+          "2023-02-28T02:00:00+00:00",
+          "2026-02-28T03:00:00+00:00"
+        ],
+        "reviewDue": "2026-02-28T03:00:00+00:00",
+        "keywords": "",
+        "code": [
+          {
+            "@type": "MedicalCode",
+            "codeValue": "",
+            "codingSystem": "SNOMED-CT"
+          }
+        ]
+      },
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/acupuncture/",
+      "name": "Acupuncture"
+    },
+    {
+      "description": "Find out what an adenoidectomy is, why it's done, what happens during the operation and the possible complications.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": [
+          "Treatment",
+          "Procedure"
+        ],
+        "datePublished": "2017-10-17T15:31:58+00:00",
+        "dateModified": "2025-04-15T10:38:48+00:00",
+        "lastReviewed": [
+          "2023-03-10T15:37:00+00:00",
+          "2026-03-10T15:37:00+00:00"
+        ],
+        "reviewDue": "2026-03-10T15:37:00+00:00",
+        "keywords": "",
+        "code": [
+          {
+            "@type": "MedicalCode",
+            "codeValue": "",
+            "codingSystem": "SNOMED-CT"
+          }
+        ]
+      },
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/adenoidectomy/",
+      "name": "Adenoidectomy"
+    },
+    {
+      "description": "The Alexander technique teaches improved posture and movement, which is believed to help reduce and prevent problems caused by unhelpful habits.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": [
+          "Treatment"
+        ],
+        "datePublished": "2017-10-17T16:16:34+00:00",
+        "dateModified": "2025-04-15T10:39:02+00:00",
+        "lastReviewed": [
+          "2024-10-23T00:00:00+00:00",
+          "2027-10-23T00:00:00+00:00"
+        ],
+        "reviewDue": "2027-10-23T00:00:00+00:00",
+        "keywords": "",
+        "code": [
+          {
+            "@type": "MedicalCode",
+            "codeValue": "",
+            "codingSystem": "SNOMED-CT"
+          }
+        ]
+      },
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/alexander-technique/",
+      "name": "Alexander technique"
+    },
+    {
+      "description": "Information about amputation, including why and how it's carried out, recovery and rehabilitation, prosthetics, stump care and possible complications.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": [
+          "Treatment",
+          "Procedure"
+        ],
+        "datePublished": "2017-10-17T15:47:57+00:00",
+        "dateModified": "2025-04-15T10:38:04+00:00",
+        "lastReviewed": [
+          "2023-02-17T01:00:00+00:00",
+          "2026-02-17T01:00:00+00:00"
+        ],
+        "reviewDue": "2026-02-17T01:00:00+00:00",
+        "keywords": "",
+        "code": [
+          {
+            "@type": "MedicalCode",
+            "codeValue": "",
+            "codingSystem": "SNOMED-CT"
+          }
+        ]
+      },
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/amputation/",
+      "name": "Amputation"
+    },
+    {
+      "description": "Find out about abdominal aortic aneurysm (AAA) screening, including who it's offered to, why it's done and what happens.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": [
+          "Test"
+        ],
+        "datePublished": "2017-10-20T10:36:32+00:00",
+        "dateModified": "2025-04-15T10:40:07+00:00",
+        "lastReviewed": [
+          "2024-11-11T01:00:00+00:00",
+          "2027-11-11T01:00:00+00:00"
+        ],
+        "reviewDue": "2027-11-11T01:00:00+00:00",
+        "keywords": "",
+        "code": [
+          {
+            "@type": "MedicalCode",
+            "codeValue": "",
+            "codingSystem": "SNOMED-CT"
+          }
+        ]
+      },
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/abdominal-aortic-aneurysm-screening/",
+      "name": "Abdominal aortic aneurysm (AAA) screening"
+    },
+    {
+      "description": "Find out why angiography is used, what happens during the procedure, and the possible risks involved. Also, read about the different types of angiography.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": [
+          "Test",
+          "Procedure"
+        ],
+        "datePublished": "2017-10-19T14:44:01+00:00",
+        "dateModified": "2025-04-15T10:45:54+00:00",
+        "lastReviewed": [
+          "2023-01-30T00:00:00+00:00",
+          "2026-01-30T00:00:00+00:00"
+        ],
+        "reviewDue": "2026-01-30T00:00:00+00:00",
+        "keywords": "",
+        "code": [
+          {
+            "@type": "MedicalCode",
+            "codeValue": "",
+            "codingSystem": "SNOMED-CT"
+          }
+        ]
+      },
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/angiography/",
+      "name": "Angiography"
+    },
+    {
+      "description": "Read about aortic valve replacement, a type of open heart surgery that replaces faulty or  or damaged valves.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": [
+          "Treatment",
+          "Procedure"
+        ],
+        "datePublished": "2017-10-20T12:19:54+00:00",
+        "dateModified": "2025-04-15T10:46:39+00:00",
+        "lastReviewed": [
+          "2021-12-23T00:00:00+00:00",
+          "2024-12-23T00:00:00+00:00"
+        ],
+        "reviewDue": "2024-12-23T00:00:00+00:00",
+        "keywords": "",
+        "alternateName": [
+          "Heart valve replacement"
+        ],
+        "code": [
+          {
+            "@type": "MedicalCode",
+            "codeValue": "",
+            "codingSystem": "SNOMED-CT"
+          }
+        ]
+      },
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/aortic-valve-replacement/",
+      "name": "Aortic valve replacement"
+    },
+    {
+      "description": "Read about arthroscopy, a type of keyhole surgery used to diagnose and sometimes treat joint problems. Keyhole surgery is where only small cuts are made.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": [
+          "Test",
+          "Procedure"
+        ],
+        "datePublished": "2017-10-20T12:11:25+00:00",
+        "dateModified": "2025-04-15T10:47:00+00:00",
+        "lastReviewed": [
+          "2022-06-09T00:00:00+00:00",
+          "2025-06-09T00:00:00+00:00"
+        ],
+        "reviewDue": "2025-06-09T00:00:00+00:00",
+        "keywords": "",
+        "code": [
+          {
+            "@type": "MedicalCode",
+            "codeValue": "",
+            "codingSystem": "SNOMED-CT"
+          }
+        ]
+      },
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/arthroscopy/",
+      "name": "Arthroscopy"
+    },
+    {
+      "description": "Find out about abortion, medicine or an operation to end a pregnancy. Find out why it's done, what it involves, possible complications and what to expect after the operation.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": [
+          "Procedure"
+        ],
+        "datePublished": "2024-12-13T15:49:34+00:00",
+        "dateModified": "2025-04-15T10:40:40+00:00",
+        "keywords": ""
+      },
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/abortion/",
+      "name": "Abortion"
+    }
+  ]
+}

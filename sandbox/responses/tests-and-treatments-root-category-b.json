@@ -1,0 +1,383 @@
+{
+  "@context": "http://schema.org",
+  "@type": "MedicalWebPage",
+  "name": "Tests and treatments A to Z",
+  "copyrightHolder": {
+    "name": "Crown Copyright",
+    "@type": "Organization"
+  },
+  "license": "https://developer.api.nhs.uk/terms",
+  "author": {
+    "url": "https://www.nhs.uk",
+    "logo": "https://assets.nhs.uk/nhsuk-cms/images/nhs-attribution.width-510.png",
+    "email": "nhswebsite.servicedesk@nhs.net",
+    "@type": "Organization",
+    "name": "NHS website"
+  },
+  "about": {
+    "@type": "WebPage",
+    "name": "Tests and treatments A to Z",
+    "alternateName": ""
+  },
+  "description": "Find out about surgery and procedures, tests, screening and other treatments, including why they're done and what happens.",
+  "url": "https://api.service.nhs.uk/nhs-website-content/tests-and-treatments/",
+  "genre": [],
+  "keywords": "",
+  "dateModified": "2025-04-16T12:24:19+00:00",
+  "breadcrumb": {
+    "@context": "http://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 0,
+        "item": {
+          "@id": "https://api.service.nhs.uk/nhs-website-content/tests-and-treatments/",
+          "name": "Tests and treatments A to Z",
+          "genre": []
+        }
+      }
+    ]
+  },
+  "contentSubTypes": [],
+  "significantLink": [
+    {
+      "description": "Read about having a barium enema, including what you need to do to prepare, what happens during the test, and what happens afterwards.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": [
+          "Test",
+          "Procedure"
+        ],
+        "datePublished": "2017-10-17T16:09:38+00:00",
+        "dateModified": "2025-04-15T10:48:15+00:00",
+        "lastReviewed": [
+          "2022-05-13T00:00:00+00:00",
+          "2025-05-13T00:00:00+00:00"
+        ],
+        "reviewDue": "2025-05-13T00:00:00+00:00",
+        "keywords": "",
+        "code": [
+          {
+            "@type": "MedicalCode",
+            "codeValue": "",
+            "codingSystem": "SNOMED-CT"
+          }
+        ]
+      },
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/barium-enema/",
+      "name": "Barium enema"
+    },
+    {
+      "description": "Find out about blood groups. There are 4 main blood groups – A, B, AB and O.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "genre": [
+          "Advice or information"
+        ],
+        "datePublished": "2017-10-17T16:22:10+00:00",
+        "dateModified": "2025-04-15T11:00:33+00:00",
+        "lastReviewed": [
+          "2023-05-10T08:40:00+00:00",
+          "2026-05-10T08:40:00+00:00"
+        ],
+        "reviewDue": "2026-05-10T08:40:00+00:00",
+        "keywords": "",
+        "code": [
+          {
+            "@type": "MedicalCode",
+            "codeValue": "",
+            "codingSystem": "SNOMED-CT"
+          }
+        ]
+      },
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/blood-groups/",
+      "name": "Blood groups"
+    },
+    {
+      "description": "Find out why a blood pressure test is important, how it’s done and what your blood pressure reading might mean.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": [
+          "Test"
+        ],
+        "datePublished": "2018-07-30T13:46:29+00:00",
+        "dateModified": "2025-04-15T14:46:03+00:00",
+        "lastReviewed": [
+          "2023-07-11T03:00:00+00:00",
+          "2026-07-11T03:00:00+00:00"
+        ],
+        "reviewDue": "2026-07-11T03:00:00+00:00",
+        "keywords": "",
+        "code": [
+          {
+            "@type": "MedicalCode",
+            "codeValue": "",
+            "codingSystem": "SNOMED-CT"
+          }
+        ]
+      },
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/blood-pressure-test/",
+      "name": "Blood pressure test"
+    },
+    {
+      "description": "Find out whether you might be eligible for breast reduction surgery on the NHS and what to do if you think you might qualify.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "genre": [
+          "Advice or information"
+        ],
+        "datePublished": "2017-10-17T16:38:33+00:00",
+        "dateModified": "2025-04-15T12:37:42+00:00",
+        "lastReviewed": [
+          "2022-11-14T01:00:00+00:00",
+          "2025-11-14T01:00:00+00:00"
+        ],
+        "reviewDue": "2025-11-14T01:00:00+00:00",
+        "keywords": "",
+        "code": [
+          {
+            "@type": "MedicalCode",
+            "codeValue": "",
+            "codingSystem": "SNOMED-CT"
+          }
+        ]
+      },
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/breast-reduction-on-the-nhs/",
+      "name": "Breast reduction on the NHS"
+    },
+    {
+      "description": "Find out more about having a biopsy, which involves taking a small sample of body tissue so it can be examined under a microscope.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": [
+          "Test",
+          "Procedure"
+        ],
+        "datePublished": "2017-10-20T14:01:58+00:00",
+        "dateModified": "2025-04-15T14:44:36+00:00",
+        "lastReviewed": [
+          "2021-08-10T00:00:00+00:00",
+          "2024-08-10T00:00:00+00:00"
+        ],
+        "reviewDue": "2024-08-10T00:00:00+00:00",
+        "keywords": "",
+        "code": [
+          {
+            "@type": "MedicalCode",
+            "codeValue": "",
+            "codingSystem": "SNOMED-CT"
+          }
+        ]
+      },
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/biopsy/",
+      "name": "Biopsy"
+    },
+    {
+      "description": "Find out about blood tests, including why they’re done, how to prepare, what happens at the test, and when you’ll get your results.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": [
+          "Test"
+        ],
+        "datePublished": "2018-10-03T20:00:14+00:00",
+        "dateModified": "2025-04-15T11:00:53+00:00",
+        "lastReviewed": [
+          "2023-11-02T01:00:00+00:00",
+          "2026-11-02T01:00:00+00:00"
+        ],
+        "reviewDue": "2026-11-02T01:00:00+00:00",
+        "keywords": "",
+        "code": [
+          {
+            "@type": "MedicalCode",
+            "codeValue": "",
+            "codingSystem": "SNOMED-CT"
+          }
+        ]
+      },
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/blood-tests/",
+      "name": "Blood tests"
+    },
+    {
+      "description": "Find out about bowel cancer screening, including why it’s done, who it’s for, how to do the test, and when you’ll get your results.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": [
+          "Test"
+        ],
+        "datePublished": "2017-10-20T14:07:54+00:00",
+        "dateModified": "2025-04-15T11:01:54+00:00",
+        "lastReviewed": [
+          "2024-10-10T23:00:00+00:00",
+          "2027-10-10T23:00:00+00:00"
+        ],
+        "reviewDue": "2027-10-10T23:00:00+00:00",
+        "keywords": "",
+        "code": [
+          {
+            "@type": "MedicalCode",
+            "codeValue": "",
+            "codingSystem": "SNOMED-CT"
+          }
+        ]
+      },
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/bowel-cancer-screening/",
+      "name": "Bowel cancer screening"
+    },
+    {
+      "description": "A DEXA scan is a type of X-ray that measures bone mineral density (BMD). It's also known as a DXA, dual X-ray absorptiometry, a bone density scan or a bone densitometry scan.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": [
+          "Test"
+        ],
+        "datePublished": "2017-10-19T15:18:46+00:00",
+        "dateModified": "2025-04-15T11:01:30+00:00",
+        "lastReviewed": [
+          "2022-10-04T23:00:00+00:00",
+          "2025-10-04T23:00:00+00:00"
+        ],
+        "reviewDue": "2025-10-04T23:00:00+00:00",
+        "keywords": "",
+        "alternateName": [
+          "DEXA scan"
+        ],
+        "code": [
+          {
+            "@type": "MedicalCode",
+            "codeValue": "",
+            "codingSystem": "SNOMED-CT"
+          }
+        ]
+      },
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/dexa-scan/",
+      "name": "Bone density scan (DEXA scan)"
+    },
+    {
+      "description": "Find out about blood transfusions, what they are, why they are done and what happens during the procedure.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": [
+          "Treatment",
+          "Procedure"
+        ],
+        "datePublished": "2017-10-19T07:24:53+00:00",
+        "dateModified": "2025-04-15T11:01:06+00:00",
+        "lastReviewed": [
+          "2025-01-16T00:00:00+00:00",
+          "2028-01-16T00:00:00+00:00"
+        ],
+        "reviewDue": "2028-01-16T00:00:00+00:00",
+        "keywords": "",
+        "code": [
+          {
+            "@type": "MedicalCode",
+            "codeValue": "",
+            "codingSystem": "SNOMED-CT"
+          }
+        ]
+      },
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/blood-transfusion/",
+      "name": "Blood transfusion"
+    },
+    {
+      "description": "Find out about NHS breast screening, including when you'll be invited, how to book, what happens and what your result means.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": [
+          "Test"
+        ],
+        "datePublished": "2021-09-22T09:03:18+00:00",
+        "dateModified": "2025-04-15T12:38:01+00:00",
+        "keywords": "",
+        "alternateName": [
+          "Mammogram"
+        ]
+      },
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/breast-screening-mammogram/",
+      "name": "Breast screening (mammogram)"
+    },
+    {
+      "description": "Find out about braces and orthodontics, including how much they cost on the NHS or privately, and how to care for your teeth while wearing braces.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "genre": [
+          "Advice or information"
+        ],
+        "datePublished": "2022-02-24T16:46:44+00:00",
+        "dateModified": "2025-04-15T12:37:25+00:00",
+        "lastReviewed": [
+          "2022-01-25T16:40:00+00:00",
+          "2025-01-25T16:40:00+00:00"
+        ],
+        "reviewDue": "2025-01-25T16:40:00+00:00",
+        "keywords": "",
+        "code": [
+          {
+            "@type": "MedicalCode",
+            "codeValue": "",
+            "codingSystem": "SNOMED-CT"
+          }
+        ]
+      },
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/braces-and-orthodontics/",
+      "name": "Braces and orthodontics"
+    },
+    {
+      "description": "Find out about the BCG vaccine for tuberculosis (TB), including who should have it and possible side effects.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": [
+          "Vaccine"
+        ],
+        "datePublished": "2024-03-06T17:39:52+00:00",
+        "dateModified": "2025-04-15T14:20:32+00:00",
+        "lastReviewed": [
+          "2023-12-04T16:56:00+00:00",
+          "2026-12-04T16:56:00+00:00"
+        ],
+        "reviewDue": "2026-12-04T16:56:00+00:00",
+        "keywords": ""
+      },
+      "url": "https://api.service.nhs.uk/nhs-website-content/vaccinations/bcg-vaccine-for-tuberculosis-tb/",
+      "name": "BCG vaccine for tuberculosis (TB)"
+    }
+  ]
+}

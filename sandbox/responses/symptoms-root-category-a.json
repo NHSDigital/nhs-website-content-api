@@ -1,0 +1,143 @@
+{
+  "@context": "http://schema.org",
+  "@type": "MedicalWebPage",
+  "name": "Symptoms A to Z",
+  "copyrightHolder": {
+    "name": "Crown Copyright",
+    "@type": "Organization"
+  },
+  "license": "https://developer.api.nhs.uk/terms",
+  "author": {
+    "url": "https://www.nhs.uk",
+    "logo": "https://assets.nhs.uk/nhsuk-cms/images/nhs-attribution.width-510.png",
+    "email": "nhswebsite.servicedesk@nhs.net",
+    "@type": "Organization",
+    "name": "NHS website"
+  },
+  "about": {
+    "@type": "WebPage",
+    "name": "Symptoms A to Z",
+    "alternateName": ""
+  },
+  "description": "Find out about symptoms such as pain, stomach problems or skin symptoms, including causes, treatment and what to do.",
+  "url": "https://api.service.nhs.uk/nhs-website-content/symptoms/",
+  "genre": [],
+  "keywords": "",
+  "dateModified": "2025-04-16T12:23:46+00:00",
+  "breadcrumb": {
+    "@context": "http://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 0,
+        "item": {
+          "@id": "https://api.service.nhs.uk/nhs-website-content/symptoms/",
+          "name": "Symptoms A to Z",
+          "genre": []
+        }
+      }
+    ]
+  },
+  "contentSubTypes": [],
+  "significantLink": [
+    {
+      "description": "Find out what causes anal pain, what you can do to ease the pain and when to get medical help.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": [
+          "Symptom"
+        ],
+        "datePublished": "2017-10-17T15:49:36+00:00",
+        "dateModified": "2025-04-15T15:32:37+00:00",
+        "lastReviewed": [
+          "2022-03-15T01:00:00+00:00",
+          "2025-03-15T01:00:00+00:00"
+        ],
+        "reviewDue": "2025-03-15T01:00:00+00:00",
+        "keywords": "",
+        "alternateName": [
+          "Proctalgia"
+        ],
+        "code": [
+          {
+            "@type": "MedicalCode",
+            "codeValue": "",
+            "codingSystem": "SNOMED-CT"
+          }
+        ]
+      },
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/anal-pain/",
+      "name": "Anal pain"
+    },
+    {
+      "description": "Find out what you can do to ease ankle pain, what could be causing the pain and when to get medical help.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": [
+          "Symptom"
+        ],
+        "datePublished": "2022-03-30T12:58:40+00:00",
+        "dateModified": "2025-04-16T10:54:20+00:00",
+        "lastReviewed": [
+          "2022-02-22T08:29:00+00:00",
+          "2025-02-22T08:29:00+00:00"
+        ],
+        "reviewDue": "2025-02-22T08:29:00+00:00",
+        "keywords": ""
+      },
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/foot-pain/ankle-pain/",
+      "name": "Ankle pain"
+    },
+    {
+      "description": "Read practical tips and advice on what to do if you're struggling with anxiety, fear or panic",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "genre": [
+          "Advice or information"
+        ],
+        "datePublished": "2021-02-02T16:01:35+00:00",
+        "dateModified": "2025-04-16T11:15:42+00:00",
+        "lastReviewed": [
+          "2023-01-17T14:01:00+00:00",
+          "2026-01-17T14:01:00+00:00"
+        ],
+        "reviewDue": "2026-01-17T14:01:00+00:00",
+        "keywords": ""
+      },
+      "url": "https://api.service.nhs.uk/nhs-website-content/mental-health/feelings-symptoms-behaviours/feelings-and-symptoms/anxiety-fear-panic/",
+      "name": "Anxiety, fear and panic"
+    },
+    {
+      "description": "Read practical tips and advice on what to do if you're struggling with anger",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "genre": [
+          "Advice or information"
+        ],
+        "datePublished": "2021-02-03T11:32:40+00:00",
+        "dateModified": "2025-04-16T11:14:26+00:00",
+        "lastReviewed": [
+          "2022-11-23T17:02:00+00:00",
+          "2025-11-23T17:03:00+00:00"
+        ],
+        "reviewDue": "2025-11-23T17:03:00+00:00",
+        "keywords": ""
+      },
+      "url": "https://api.service.nhs.uk/nhs-website-content/mental-health/feelings-symptoms-behaviours/feelings-and-symptoms/anger/",
+      "name": "Anger"
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "@context": "http://schema.org",
+  "@type": "MedicalWebPage",
+  "name": "Conditions A to Z",
+  "copyrightHolder": {
+    "name": "Crown Copyright",
+    "@type": "Organization"
+  },
+  "license": "https://developer.api.nhs.uk/terms",
+  "author": {
+    "url": "https://www.nhs.uk",
+    "logo": "https://assets.nhs.uk/nhsuk-cms/images/nhs-attribution.width-510.png",
+    "email": "nhswebsite.servicedesk@nhs.net",
+    "@type": "Organization",
+    "name": "NHS website"
+  },
+  "about": {
+    "@type": "WebPage",
+    "name": "Conditions A to Z",
+    "alternateName": ""
+  },
+  "description": "Find out about health conditions, including their symptoms and how they're treated.",
+  "url": "https://api.service.nhs.uk/nhs-website-content/conditions/",
+  "genre": [],
+  "keywords": "",
+  "dateModified": "2025-04-16T13:49:43+00:00",
+  "breadcrumb": {
+    "@context": "http://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 0,
+        "item": {
+          "@id": "https://api.service.nhs.uk/nhs-website-content/conditions/",
+          "name": "Conditions A to Z",
+          "genre": []
+        }
+      }
+    ]
+  },
+  "contentSubTypes": [],
+  "significantLink": [
+    {
+      "description": "Read about anxiety disorders in children and teenagers, with links to other useful resources.",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "genre": [
+          "Advice or information"
+        ],
+        "datePublished": "2021-02-04T12:39:01+00:00",
+        "dateModified": "2025-03-24T13:44:27+00:00",
+        "lastReviewed": [
+          "2023-12-15T00:00:00+00:00",
+          "2026-12-15T00:00:00+00:00"
+        ],
+        "reviewDue": "2026-12-15T00:00:00+00:00",
+        "keywords": ""
+      },
+      "url": "https://api.service.nhs.uk/nhs-website-content/mental-health/children-and-young-adults/advice-for-parents/anxiety-disorders-in-children/",
+      "name": "Anxiety disorders in children"
+    },
+    {
+      "description": "",
+      "linkRelationship": "Result",
+      "@type": "LinkRole",
+      "articleStatus": "published",
+      "mainEntityOfPage": {
+        "@type": "MedicalWebPage",
+        "genre": [],
+        "datePublished": "2023-07-04T13:11:42+00:00",
+        "dateModified": "2025-03-24T14:00:43+00:00",
+        "keywords": ""
+      },
+      "url": "https://api.service.nhs.uk/nhs-website-content/womens-health/",
+      "name": "Women's health"
+    }
+  ],
+  "relatedLink": [
+    {
+      "@type": "LinkRole",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/?page=1",
+      "name": "First Page",
+      "description": "Link to First Page",
+      "linkRelationship": "Pagination"
+    },
+    {
+      "@type": "LinkRole",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/?page=29",
+      "name": "Last Page",
+      "description": "Link to Last Page",
+      "linkRelationship": "Pagination"
+    },
+    {
+      "@type": "LinkRole",
+      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/?page=29",
+      "name": "Self",
+      "description": "Link to nhs.uk Page",
+      "linkRelationship": "Self"
+    }
+  ],
+  "webpage": "https://www.nhs.uk/conditions/"
+}
