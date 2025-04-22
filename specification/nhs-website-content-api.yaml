@@ -8,9 +8,15 @@ info:
     ## Overview
     This API provides content from the [NHS website](https://www.nhs.uk) as JSON, to be consumed programmatically and used by your application.
 
+    ⚠️ Before April 2025, many pages covering symptoms, tests or treatments were inappropriately included in the Conditions A to Z.
+
+    The April 2025 update introduces two new endpoints for 'symptoms' and 'tests-and-treatments' that reflect the reallocation of these pages to new A to Z pages on the website.
+
     You can reuse the content from the following sections of the NHS website:
-      * Health A to Z / Conditions ([Website](https://www.nhs.uk/conditions/) | [API](https://digital.nhs.uk/developer/api-catalogue/nhs-website-content/v2#get-/conditions))
+      * Conditions A to Z ([Website](https://www.nhs.uk/conditions/) | [API](https://digital.nhs.uk/developer/api-catalogue/nhs-website-content/v2#get-/conditions))
       * Medicines A to Z ([Website](https://www.nhs.uk/medicines/) | [API](https://digital.nhs.uk/developer/api-catalogue/nhs-website-content/v2#get-/medicines))
+      * Symptoms A to Z ([Website](https://www.nhs.uk/symptoms/) | [API](https://digital.nhs.uk/developer/api-catalogue/nhs-website-content/v2#get-/symptoms))
+      * Tests and treatments A to Z ([Website](https://www.nhs.uk/tests-and-treatments/) | [API](https://digital.nhs.uk/developer/api-catalogue/nhs-website-content/v2#get-/tests-and-treatments))
       * Mental health ([Website](https://www.nhs.uk/mental-health/) | [API](https://digital.nhs.uk/developer/api-catalogue/nhs-website-content/v2#get-/mental-health))
       * Live Well ([Website](https://www.nhs.uk/live-well/) | [API](https://digital.nhs.uk/developer/api-catalogue/nhs-website-content/v2#get-/live-well))
       * Pregnancy ([Website](https://www.nhs.uk/pregnancy/) | [API](https://digital.nhs.uk/developer/api-catalogue/nhs-website-content/v2#get-/pregnancy))
@@ -24,6 +30,13 @@ info:
       * get Ratings and Reviews of NHS services.
 
     If you are migrating from our [old NHS website APIs](https://developer.api.nhs.uk/nhs-api), we have a [migration guide](https://developer.api.nhs.uk/support/migration/guide) to help walk you through the process and a [migration assistant](https://developer.api.nhs.uk/support/migration/assistant) to illustrate the differences in how your API requests will need to be updated.
+
+    ## Updates
+
+    | Version       | Date | Changes   |
+    |------------|-----|--------------|
+    | 2.2.0 | April 2025  | Introduce `symptoms` and `tests-and-treatments` endpoints |
+
 
     ## Who can use this API
     Anyone can use this API for any purpose, so long as they have agreed to the [Online connection agreement](https://digital.nhs.uk/developer/guides-and-documentation/online-connection-agreement) during the [onboarding process](https://digital.nhs.uk/developer/guides-and-documentation/onboarding-process) and they include an [attribution](#overview--attribution) as outlined below.
@@ -231,7 +244,7 @@ info:
                 </svg>
               </span>
             </span>
-            <p class="nhsd-m-expander__heading nhsd-t-body">The sandbox environment includes the following 62 mocked endpoints</p>
+            <p class="nhsd-m-expander__heading nhsd-t-body">The sandbox environment includes the following 67 mocked endpoints</p>
           </div>
         </summary>
         <div class="nhsd-m-expander__content-container">
@@ -250,13 +263,12 @@ info:
             <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/conditions/" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/conditions/</a></li>
             <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/conditions/?category=a" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/conditions/?category=a</a></li>
             <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/conditions/?category=a&amp;genre=condition" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/conditions/?category=a&amp;genre=condition</a></li>
-            <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/conditions/?category=a&amp;genre=guide" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/conditions/?category=a&amp;genre=guide</a></li>
             <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/conditions/?category=a&amp;genre=hub" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/conditions/?category=a&amp;genre=hub</a></li>
             <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/conditions/?category=b" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/conditions/?category=b</a></li>
             <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/conditions/?category=z" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/conditions/?category=z</a></li>
             <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/conditions/?page=1" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/conditions/?page=1</a></li>
             <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/conditions/?page=2" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/conditions/?page=2</a></li>
-            <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/conditions/?page=70" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/conditions/?page=70</a></li>
+            <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/conditions/?page=29" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/conditions/?page=29</a></li>
             <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/conditions/acanthosis-nigricans/" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/conditions/acanthosis-nigricans/</a></li>
             <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/conditions/achalasia/" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/conditions/achalasia/</a></li>
             <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/conditions/acne/" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/conditions/acne/</a></li>
@@ -277,6 +289,22 @@ info:
             <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/medicines/acrivastine/" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/medicines/acrivastine/</a></li>
             <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/medicines/acrivastine/?modules=true" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/medicines/acrivastine/?modules=true</a></li>
             <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/medicines/zopiclone/" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/medicines/zopiclone/</a></li>
+          </ul>
+          <h4>Symptoms A-Z</h4>
+          <ul>
+            <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/symptoms" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/symptoms/</a></li>
+            <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/symptoms/?category=a" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/symptoms/?category=a</a></li>
+            <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/symptoms/?category=b" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/symptoms/?category=b</a></li>
+            <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/symptoms/?page=1" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/symptoms/?page=1</a></li>
+            <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/symptoms/?page=6" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/symptoms/?page=6</a></li>
+          </ul>
+          <h4>Tests and Treatments A-Z</h4>
+          <ul>
+            <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/tests-and-treatments" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/tests-and-treatments/</a></li>
+            <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/tests-and-treatments/?category=a" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/tests-and-treatments/?category=a</a></li>
+            <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/tests-and-treatments/?category=b" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/tests-and-treatments/?category=b</a></li>
+            <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/tests-and-treatments/?page=1" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/tests-and-treatments/?page=1</a></li>
+            <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/tests-and-treatments/?page=7" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/tests-and-treatments/?page=7</a></li>
           </ul>
           <h4>Mental health</h4>
           <ul>
@@ -609,6 +637,104 @@ paths:
                 $ref: components/schemas/WebPage.json
               example:
                 $ref: components/examples/MedicinesContentPage.json
+        "4XX":
+          description: |
+            An error occurred as follows:
+
+            | HTTP status | Error code                 | Description |
+            | ----------- | -------------------------- | --------------------------------------------- |
+            | 401         | ACCESS_DENIED              | API key missing, invalid or expired, or calling application not configured for this operation. |
+            | 403         | ACCESS_DENIED              | User cannot perform this action. |
+            | 404         | RESOURCE_NOT_FOUND         | Page not found. |
+            | 429         | TOO_MANY_REQUESTS          | You have exceeded your application's [rate limit](https://digital.nhs.uk/developer/guides-and-documentation/reference-guide#rate-limits). |
+  /symptoms:
+    parameters:
+      - $ref: "#/components/parameters/page"
+      - $ref: "#/components/parameters/category"
+      - $ref: "#/components/parameters/orderBy"
+      - $ref: "#/components/parameters/startDate"
+      - $ref: "#/components/parameters/endDate"
+      - $ref: "#/components/parameters/order"
+    get:
+      summary: Get all pages in the Symptoms A to Z
+      operationId: get-symptoms
+      description: |
+        ## Overview
+        Use this endpoint to get details of pages in the [Symptoms A to Z](https://www.nhs.uk/symptoms).
+
+        Passing in no parameters returns all pages under 'symptoms'.
+
+        The response is limited to 25 child pages and is paginated.
+
+        There are a number of query parameters that filter the results.
+
+        ## Ordering by dates
+
+        The `orderBy` parameter can be `dateModified`, `lastReviewed` and `nextReview`. By default if any of the `orderBy` parameters are chosen the results are sorted by newest first.
+
+        However, the `orderBy` parameter can be used with the `startDate` and `endDate` parameters to filter down to the desired date. `startDate` and `endDate` should be given in the YYYY-MM-DD format.
+
+        For example `https://api.service.nhs.uk/nhs-website-content/symptoms?startDate=2022-01-01&orderBy=dateModified`
+
+      responses:
+        "200":
+          description: |
+            A valid query for symptoms.
+          content:
+            application/json:
+              schema:
+                $ref: components/schemas/WebPage.json
+              example:
+                $ref: components/examples/SymptomsAToZ.json
+        "4XX":
+          description: |
+            An error occurred as follows:
+
+            | HTTP status | Error code                 | Description |
+            | ----------- | -------------------------- | --------------------------------------------- |
+            | 401         | ACCESS_DENIED              | API key missing, invalid or expired, or calling application not configured for this operation. |
+            | 403         | ACCESS_DENIED              | User cannot perform this action. |
+            | 404         | RESOURCE_NOT_FOUND         | Page not found. |
+            | 429         | TOO_MANY_REQUESTS          | You have exceeded your application's [rate limit](https://digital.nhs.uk/developer/guides-and-documentation/reference-guide#rate-limits). |
+  /tests-and-treatments:
+    parameters:
+      - $ref: "#/components/parameters/page"
+      - $ref: "#/components/parameters/category"
+      - $ref: "#/components/parameters/orderBy"
+      - $ref: "#/components/parameters/startDate"
+      - $ref: "#/components/parameters/endDate"
+      - $ref: "#/components/parameters/order"
+    get:
+      summary: Get all pages in the Tests and Treatments A to Z
+      operationId: get-tests-and-treatments
+      description: |
+        ## Overview
+        Use this endpoint to get details of pages in the [tests-and-treatments A to Z](https://www.nhs.uk/tests-and-treatments).
+
+        Passing in no parameters returns all pages under 'tests-and-treatments'.
+
+        The response is limited to 25 child pages and is paginated.
+
+        There are a number of query parameters that filter the results.
+
+        ## Ordering by dates
+
+        The `orderBy` parameter can be `dateModified`, `lastReviewed` and `nextReview`. By default if any of the `orderBy` parameters are chosen the results are sorted by newest first.
+
+        However, the `orderBy` parameter can be used with the `startDate` and `endDate` parameters to filter down to the desired date. `startDate` and `endDate` should be given in the YYYY-MM-DD format.
+
+        For example `https://api.service.nhs.uk/nhs-website-content/tests-and-treatments?startDate=2022-01-01&orderBy=dateModified`
+
+      responses:
+        "200":
+          description: |
+            A valid query for tests-and-treatments.
+          content:
+            application/json:
+              schema:
+                $ref: components/schemas/WebPage.json
+              example:
+                $ref: components/examples/TestsAndTreatmentsAToZ.json
         "4XX":
           description: |
             An error occurred as follows:

@@ -2,310 +2,525 @@
   "@context": "http://schema.org",
   "@type": "MedicalWebPage",
   "name": "Acanthosis nigricans",
-  "copyrightHolder": { "name": "Crown Copyright", "@type": "Organization" },
+  "copyrightHolder": {
+      "name": "Crown Copyright",
+      "@type": "Organization"
+  },
   "license": "https://developer.api.nhs.uk/terms",
   "author": {
-    "url": "https://www.nhs.uk",
-    "logo": "https://assets.nhs.uk/nhsuk-cms/images/nhs-attribution.width-510.png",
-    "email": "nhswebsite.servicedesk@nhs.net",
-    "@type": "Organization",
-    "name": "NHS website"
+      "url": "https://www.nhs.uk",
+      "logo": "https://assets.nhs.uk/nhsuk-cms/images/nhs-attribution.width-510.png",
+      "email": "nhswebsite.servicedesk@nhs.net",
+      "@type": "Organization",
+      "name": "NHS website"
   },
-  "about": { "@type": "WebPage", "name": "Acanthosis nigricans", "alternateName": "" },
+  "about": {
+      "@type": "WebPage",
+      "name": "Acanthosis nigricans",
+      "alternateName": ""
+  },
   "description": "Acanthosis nigricans is the term for darkened, thickened patches of skin in the armpit and around the groin and neck. Find out about the main causes and treatments.",
   "url": "https://api.service.nhs.uk/nhs-website-content/conditions/acanthosis-nigricans/",
-  "genre": ["Condition"],
+  "genre": [
+      "Condition"
+  ],
   "keywords": [],
-  "dateModified": "2021-11-30T15:42:29+00:00",
-  "lastReviewed": ["2021-06-20T00:00:00+00:00", "2024-06-20T00:00:00+00:00"],
+  "dateModified": "2025-02-20T13:24:49+00:00",
+  "lastReviewed": [
+      "2024-07-04T00:00:00+00:00",
+      "2027-07-04T00:00:00+00:00"
+  ],
   "breadcrumb": {
-    "@context": "http://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
+      "@context": "http://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+          {
+              "@type": "ListItem",
+              "position": 0,
+              "item": {
+                  "@id": "https://api.service.nhs.uk/nhs-website-content/conditions/",
+                  "name": "Conditions A to Z",
+                  "genre": []
+              }
+          },
+          {
+              "@type": "ListItem",
+              "position": 1,
+              "item": {
+                  "@id": "https://api.service.nhs.uk/nhs-website-content/conditions/acanthosis-nigricans/",
+                  "name": "Acanthosis nigricans",
+                  "genre": [
+                      "Condition"
+                  ]
+              }
+          }
+      ]
+  },
+  "hasPart": [
       {
-        "@type": "ListItem",
-        "position": 0,
-        "item": { "@id": "https://api.service.nhs.uk/nhs-website-content/conditions/", "name": "Health A to Z", "genre": [] }
+          "@type": "HealthTopicContent",
+          "url": "https://api.service.nhs.uk/nhs-website-content/conditions/acanthosis-nigricans/#symptoms",
+          "hasHealthAspect": "http://schema.org/SymptomsHealthAspect",
+          "headline": "Check if you have acanthosis nigricans",
+          "description": "The main symptom of acanthosis nigricans is patches of skin that are darker and thicker than usual. Sometimes the skin is itchy.",
+          "hasPart": [
+              {
+                  "@type": "WebPageElement",
+                  "headline": "",
+                  "text": "<p>The main symptom of acanthosis nigricans is patches of skin that are darker and thicker than usual.</p><p>They can appear anywhere on the body.</p>"
+              },
+              {
+                  "@type": "WebPageElement",
+                  "text": "<p>The patches are dry and feel similar to velvet.</p>",
+                  "image": [
+                      {
+                          "@type": "ImageObject",
+                          "name": "Dark patches of skin that form a band around the lower part of the neck on a person with medium brown skin.",
+                          "url": "https://assets.nhs.uk/nhsuk-cms/images/A_0917_acanthosis-nigricans_C5HE23.original.max-600x600.jpg",
+                          "caption": "The patches are dry and feel similar to velvet.",
+                          "provider": "Alamy Images",
+                          "license": "<p data-block-key=\"7dbdw\">Benedicte Desrus / Alamy Stock Photo https://www.alamy.com/stock-photo-childhood-obesity-in-mexico-37878235.html?pv=1&amp;stamp=2&amp;imageid=D82F3D1E-88DD-48FC-8591-AE73FADBC974&amp;p=68490&amp;n=0&amp;orientation=0&amp;pn=1&amp;searchtype=0&amp;IsFromSearch=1&amp;srch=foo%3dbar%26st%3d0%26pn%3d1%26ps%3d100%26sortby%3d2%26resultview%3dsortbyPopular%26npgs%3d0%26qt%3dC5HE23%26qt_raw%3dC5HE23%26lic%3d3%26mr%3d0%26pr%3d0%26ot%3d0%26creative%3d%26ag%3d0%26hc%3d0%26pc%3d%26blackwhite%3d%26cutout%3d%26tbar%3d1%26et%3d0x000000000000000000000%26vp%3d0%26loc%3d0%26imgt%3d0%26dtfr%3d%26dtto%3d%26size%3d0xFF%26archive%3d1%26groupid%3d%26pseudoid%3d%26a%3d%26cdid%3d%26cdsrt%3d%26name%3d%26qn%3d%26apalib%3d%26apalic%3d%26lightbox%3d%26gname%3d%26gtype%3d%26xstx%3d0%26simid%3d%26saveQry%3d%26editorial%3d1%26nu%3d%26t%3d%26edoptin%3d%26customgeoip%3d%26cap%3d1%26cbstore%3d1%26vd%3d0%26lb%3d%26fi%3d2%26edrf%3d0%26ispremium%3d1%26flip%3d0%26pl%3d</p>",
+                          "datePublished": "2017-09-18T11:45:25+00:00",
+                          "keywords": [
+                              "Skin",
+                              "Neck",
+                              "acanthosis-nigricans",
+                              "Groin",
+                              "itchy",
+                              "Armpit",
+                              "dermatology",
+                              "dermatological",
+                              "darker patches"
+                          ]
+                      }
+                  ]
+              },
+              {
+                  "@type": "WebPageElement",
+                  "text": "<p>They're most common in skin folds, such as the armpits, neck or groin.</p>",
+                  "image": [
+                      {
+                          "@type": "ImageObject",
+                          "name": "A dark patch of skin on the armpit of a person with white skin. The patch covers most of the person's armpit.",
+                          "url": "https://assets.nhs.uk/nhsuk-cms/images/S_0318_Acanthosis-nigricans_C0131055.origina.max-600x600.jpg",
+                          "caption": "They're most common in skin folds, such as the armpits, neck or groin.",
+                          "provider": "Science Photo Library",
+                          "license": "<p data-block-key=\"cmiza\">CID, ISM /SCIENCE PHOTO LIBRARY https://www.sciencephoto.com/media/459432/view</p>",
+                          "datePublished": "2018-03-12T15:16:27+00:00",
+                          "keywords": [
+                              "Skin",
+                              "Neck",
+                              "acanthosis-nigricans",
+                              "Groin",
+                              "itchy",
+                              "Armpit",
+                              "dermatology",
+                              "dermatological",
+                              "darker patches"
+                          ]
+                      }
+                  ]
+              },
+              {
+                  "@type": "WebPageElement",
+                  "text": "<p>Some people also have tiny growths (skin tags) on the patches.</p>",
+                  "image": [
+                      {
+                          "@type": "ImageObject",
+                          "name": "Dark patches of skin covering the armpit of someone with medium brown skin. There are also about 50 small skin tags.",
+                          "url": "https://assets.nhs.uk/nhsuk-cms/images/S_0318_Acanthosis_nigricans_C0373908.origina.max-600x600.jpg",
+                          "caption": "Some people also have tiny growths (skin tags) on the patches.",
+                          "provider": "Science Photo Library",
+                          "license": "<p data-block-key=\"nr373\">ANDRE LABBE, ISM/SCIENCE PHOTO LIBRARY https://www.sciencephoto.com/media/886025/view</p>",
+                          "datePublished": "2018-03-12T15:17:48+00:00",
+                          "keywords": [
+                              "Skin",
+                              "Neck",
+                              "acanthosis-nigricans",
+                              "Groin",
+                              "itchy",
+                              "Armpit",
+                              "dermatology",
+                              "dermatological",
+                              "darker patches"
+                          ]
+                      }
+                  ]
+              },
+              {
+                  "@type": "WebPageElement",
+                  "headline": "",
+                  "text": "<p>The patches often appear gradually without any other symptoms.</p><p>Sometimes the skin may be itchy.</p>"
+              }
+          ]
       },
       {
-        "@type": "ListItem",
-        "position": 1,
-        "item": {
-          "@id": "https://api.service.nhs.uk/nhs-website-content/conditions/acanthosis-nigricans/",
-          "name": "Acanthosis nigricans",
-          "genre": ["Condition"]
-        }
+          "@type": "HealthTopicContent",
+          "url": "https://api.service.nhs.uk/nhs-website-content/conditions/acanthosis-nigricans/#non-urgent-medical-help",
+          "hasHealthAspect": "http://schema.org/MedicalHelpNonurgentHealthAspect",
+          "headline": "",
+          "description": "",
+          "hasPart": [
+              {
+                  "@type": "WebPageElement",
+                  "identifier": "primary",
+                  "headline": "See a GP if:",
+                  "text": "<ul>\n<li>\n  you have new dark patches on your skin\n </li>\n<li>\n  you have any skin changes you're unsure about\n </li>\n</ul>\n"
+              }
+          ]
+      },
+      {
+          "@type": "HealthTopicContent",
+          "url": "https://api.service.nhs.uk/nhs-website-content/conditions/acanthosis-nigricans/#diagnosis",
+          "hasHealthAspect": "http://schema.org/DiagnosisHealthAspect",
+          "headline": "What happens at your appointment",
+          "description": "A GP can usually diagnose acanthosis nigricans by looking at your skin. You may need tests to find out what's causing it.",
+          "hasPart": [
+              {
+                  "@type": "WebPageElement",
+                  "headline": "",
+                  "text": "<p>A GP can usually tell if it's acanthosis nigricans by looking at your skin.</p><p>Although acanthosis nigricans is usually harmless, it's best to get any skin changes checked out.</p><p>Rarely, it can be a sign of something more serious, such as cancer.</p><p>You may need some tests to find out what's causing the patches.</p>"
+              }
+          ]
+      },
+      {
+          "@type": "HealthTopicContent",
+          "url": "https://api.service.nhs.uk/nhs-website-content/conditions/acanthosis-nigricans/#causes",
+          "hasHealthAspect": "http://schema.org/CausesHealthAspect",
+          "headline": "Causes of acanthosis nigricans",
+          "description": "Acanthosis nigricans is most often caused by obesity. Other causes include type 2 diabetes, hormone conditions and taking certain medicines.",
+          "hasPart": [
+              {
+                  "@type": "WebPageElement",
+                  "headline": "",
+                  "text": "<p>The most common cause of acanthosis nigricans is <a href=\"https://www.nhs.uk/conditions/obesity/\">obesity</a>.</p><p>Other causes include:</p><ul><li><a href=\"https://www.nhs.uk/conditions/type-2-diabetes/\">type 2 diabetes</a></li><li>conditions that affect hormone levels – such as <a href=\"https://www.nhs.uk/conditions/cushings-syndrome/\">Cushing's syndrome</a>, <a href=\"https://www.nhs.uk/conditions/polycystic-ovary-syndrome-pcos/\">polycystic ovary syndrome</a> or an <a href=\"https://www.nhs.uk/conditions/underactive-thyroid-hypothyroidism/\">underactive thyroid</a></li><li>taking certain medicines – including <a href=\"https://www.nhs.uk/conditions/steroids/\">steroids</a> or hormone treatments like the contraceptive pill</li><li>rarely, cancer – usually <a href=\"https://www.nhs.uk/conditions/stomach-cancer/\">stomach cancer</a></li><li>rarely, a faulty gene inherited from your parents</li></ul><p>Sometimes healthy people with no other conditions get acanthosis nigricans. This is more common in people with black or brown skin.</p>"
+              }
+          ]
+      },
+      {
+          "@type": "HealthTopicContent",
+          "url": "https://api.service.nhs.uk/nhs-website-content/conditions/acanthosis-nigricans/#medical-treatments",
+          "hasHealthAspect": "http://schema.org/TreatmentsHealthAspect",
+          "headline": "Treating acanthosis nigricans",
+          "description": "Treatment for acanthosis nigricans depends on the cause. You may need to lose weight or take medicines.",
+          "hasPart": [
+              {
+                  "@type": "WebPageElement",
+                  "headline": "",
+                  "text": "<p>Once a GP knows what's causing acanthosis nigricans, they can recommend the best treatment.</p><p>The patches should fade over time once the cause is treated.</p><p>If you're very overweight, a GP may recommend losing weight.</p><p>Depending on the cause, they may also recommend:</p><ul><li>medicine to balance your hormones</li><li>medicine to balance your insulin levels</li><li>changing your medicine to one that does not cause the patches</li></ul><p>There's no specific treatment for the patches themselves. A skin specialist (dermatologist) may be able to suggest treatments to improve their appearance, but finding and treating the cause is usually recommended first.</p>"
+              }
+          ]
+      },
+      {
+          "@type": "HealthTopicContent",
+          "url": "https://api.service.nhs.uk/nhs-website-content/conditions/acanthosis-nigricans/#overview",
+          "hasHealthAspect": "http://schema.org/OverviewHealthAspect",
+          "headline": "",
+          "description": "Acanthosis nigricans is a skin condition where you have dry, dark patches of skin, usually in the armpits, neck or groin.",
+          "hasPart": [
+              {
+                  "@type": "WebPageElement",
+                  "headline": "Acanthosis nigricans",
+                  "text": "Symptoms"
+              },
+              {
+                  "@type": "WebPageElement",
+                  "headline": "Acanthosis nigricans",
+                  "text": "Diagnosis"
+              },
+              {
+                  "@type": "WebPageElement",
+                  "headline": "Acanthosis nigricans",
+                  "text": "Causes"
+              },
+              {
+                  "@type": "WebPageElement",
+                  "headline": "Acanthosis nigricans",
+                  "text": "Medical treatments"
+              },
+              {
+                  "text": "<p>The main symptom of acanthosis nigricans is patches of skin that are darker and thicker than usual. Sometimes the skin is itchy.</p> ",
+                  "@type": "WebPageElement"
+              },
+              {
+                  "text": "<p>A GP can usually diagnose acanthosis nigricans by looking at your skin. You may need tests to find out what's causing it.</p> ",
+                  "@type": "WebPageElement"
+              },
+              {
+                  "text": "<p>Acanthosis nigricans is most often caused by obesity. Other causes include type 2 diabetes, hormone conditions and taking certain medicines.</p> ",
+                  "@type": "WebPageElement"
+              },
+              {
+                  "text": "<p>Treatment for acanthosis nigricans depends on the cause. You may need to lose weight or take medicines.</p> ",
+                  "@type": "WebPageElement"
+              }
+          ]
       }
-    ]
-  },
-  "hasPart": [],
+  ],
   "relatedLink": [
-    {
-      "@type": "LinkRole",
-      "url": "https://api.service.nhs.uk/nhs-website-content/conditions/acanthosis-nigricans/",
-      "linkRelationship": "Navigation",
-      "position": 0,
-      "name": "Acanthosis nigricans"
-    }
+      {
+          "@type": "LinkRole",
+          "url": "https://api.service.nhs.uk/nhs-website-content/conditions/acanthosis-nigricans/",
+          "linkRelationship": "Navigation",
+          "position": 0,
+          "name": "Acanthosis nigricans"
+      }
   ],
   "contentSubTypes": [],
   "mainEntityOfPage": [
-    {
-      "identifier": "0",
-      "name": "section heading",
-      "position": 0,
-      "@type": "WebPageElement",
-      "mainEntityOfPage": [
-        {
+      {
           "position": 0,
-          "identifier": "1",
-          "text": "<p><b>Acanthosis nigricans is the name for dry, dark patches of skin that usually appear in the armpits, neck or groin. It could be a sign of an underlying condition, so it needs to be checked by a GP.</b></p>",
-          "@type": "WebPageElement",
-          "name": "markdown",
-          "headline": ""
-        }
-      ],
-      "description": "",
-      "hasPart": [
-        {
-          "position": 0,
-          "identifier": "1",
-          "text": "<p><b>Acanthosis nigricans is the name for dry, dark patches of skin that usually appear in the armpits, neck or groin. It could be a sign of an underlying condition, so it needs to be checked by a GP.</b></p>",
-          "@type": "WebPageElement",
-          "name": "markdown",
-          "headline": ""
-        }
-      ]
-    },
-    {
-      "identifier": "0",
-      "name": "section heading",
-      "position": 1,
-      "@type": "WebPageElement",
-      "mainEntityOfPage": [
-        {
-          "position": 0,
-          "identifier": "1",
-          "text": "<p>The main symptom of acanthosis nigricans is patches of skin that are darker and thicker than usual.</p><p>They can appear anywhere on the body.</p>",
-          "@type": "WebPageElement",
-          "name": "markdown",
-          "headline": ""
-        },
-        {
-          "position": 2,
-          "identifier": "13",
-          "@type": "ImageObject",
-          "name": "A dark patch of skin on the armpit of a person with white skin. The patch covers most of the person's armpit.",
-          "url": "https://assets.nhs.uk/nhsuk-cms/images/S_0318_Acanthosis-nigricans_C0131055.max-600x600.jpg",
-          "caption": "<p>They're most common in skin folds, such as the armpits, neck or groin.</p>",
-          "provider": "Science Photo Library",
-          "datePublished": "2018-03-12T15:16:27+00:00",
-          "keywords": [
-            "Skin",
-            "Neck",
-            "acanthosis-nigricans",
-            "Groin",
-            "itchy",
-            "Armpit",
-            "dermatology",
-            "dermatological",
-            "darker patches"
-          ],
-          "credit": "<p>CID, ISM /SCIENCE PHOTO LIBRARY https://www.sciencephoto.com/media/459432/view</p>"
-        },
-        {
-          "position": 3,
-          "identifier": "13",
-          "@type": "ImageObject",
-          "name": "Dark patches of skin covering the armpit of someone with medium brown skin. There are also about 50 small skin tags.",
-          "url": "https://assets.nhs.uk/nhsuk-cms/images/S_0318_Acanthosis_nigricans_C0373908.max-600x600.jpg",
-          "caption": "<p>Some people also have tiny growths (skin tags) on the patches.</p>",
-          "provider": "Science Photo Library",
-          "datePublished": "2018-03-12T15:17:48+00:00",
-          "keywords": [
-            "Skin",
-            "Neck",
-            "acanthosis-nigricans",
-            "Groin",
-            "itchy",
-            "Armpit",
-            "dermatology",
-            "dermatological",
-            "darker patches"
-          ],
-          "credit": "<p>ANDRE LABBE, ISM/SCIENCE PHOTO LIBRARY https://www.sciencephoto.com/media/886025/view</p>"
-        },
-        {
-          "position": 4,
-          "identifier": "1",
-          "text": "<p>The patches often appear gradually without any other symptoms.</p><p>Sometimes the skin may be itchy.</p>",
-          "@type": "WebPageElement",
-          "name": "markdown",
-          "headline": ""
-        }
-      ],
-      "description": "",
-      "hasPart": [
-        {
-          "position": 0,
-          "identifier": "1",
-          "text": "<p>The main symptom of acanthosis nigricans is patches of skin that are darker and thicker than usual.</p><p>They can appear anywhere on the body.</p>",
-          "@type": "WebPageElement",
-          "name": "markdown",
-          "headline": ""
-        },
-        {
-          "position": 2,
-          "identifier": "13",
-          "@type": "ImageObject",
-          "name": "A dark patch of skin on the armpit of a person with white skin. The patch covers most of the person's armpit.",
-          "url": "https://assets.nhs.uk/nhsuk-cms/images/S_0318_Acanthosis-nigricans_C0131055.max-600x600.jpg",
-          "caption": "<p>They're most common in skin folds, such as the armpits, neck or groin.</p>",
-          "provider": "Science Photo Library",
-          "datePublished": "2018-03-12T15:16:27+00:00",
-          "keywords": [
-            "Skin",
-            "Neck",
-            "acanthosis-nigricans",
-            "Groin",
-            "itchy",
-            "Armpit",
-            "dermatology",
-            "dermatological",
-            "darker patches"
-          ],
-          "credit": "<p>CID, ISM /SCIENCE PHOTO LIBRARY https://www.sciencephoto.com/media/459432/view</p>"
-        },
-        {
-          "position": 3,
-          "identifier": "13",
-          "@type": "ImageObject",
-          "name": "Dark patches of skin covering the armpit of someone with medium brown skin. There are also about 50 small skin tags.",
-          "url": "https://assets.nhs.uk/nhsuk-cms/images/S_0318_Acanthosis_nigricans_C0373908.max-600x600.jpg",
-          "caption": "<p>Some people also have tiny growths (skin tags) on the patches.</p>",
-          "provider": "Science Photo Library",
-          "datePublished": "2018-03-12T15:17:48+00:00",
-          "keywords": [
-            "Skin",
-            "Neck",
-            "acanthosis-nigricans",
-            "Groin",
-            "itchy",
-            "Armpit",
-            "dermatology",
-            "dermatological",
-            "darker patches"
-          ],
-          "credit": "<p>ANDRE LABBE, ISM/SCIENCE PHOTO LIBRARY https://www.sciencephoto.com/media/886025/view</p>"
-        },
-        {
-          "position": 4,
-          "identifier": "1",
-          "text": "<p>The patches often appear gradually without any other symptoms.</p><p>Sometimes the skin may be itchy.</p>",
-          "@type": "WebPageElement",
-          "name": "markdown",
-          "headline": ""
-        }
-      ],
-      "headline": "Check if you have acanthosis nigricans"
-    },
-    {
-      "identifier": "0",
-      "name": "section heading",
-      "position": 2,
-      "@type": "WebPageElement",
-      "mainEntityOfPage": [
-        {
-          "position": 0,
-          "@type": "WebPageElement",
-          "name": "non-urgent",
-          "identifier": "5",
-          "text": "<h3>See a GP if you have:</h3><div class=\"block-richtext\">\n<ul><li>new dark patches on your skin</li><li>any skin changes you're unsure about</li></ul>\n</div>"
-        },
-        {
+          "identifier": 0,
+          "text": "Acanthosis nigricans is the name for dry, dark patches of skin that usually appear in the armpits, neck or groin. It could be a sign of an underlying condition, so it needs to be checked by a GP.",
+          "name": "lead paragraph",
+          "@type": "WebPageElement"
+      },
+      {
+          "identifier": "0",
+          "name": "section heading",
           "position": 1,
-          "identifier": "1",
-          "text": "<p>Although acanthosis nigricans is usually harmless, it's best to get any skin changes checked out.</p><p>Rarely, it can be a sign of something more serious, such as cancer.</p><p>A GP can usually tell if it's acanthosis nigricans by looking at your skin.</p><p>You may need some tests to find out what's causing the patches.</p>",
           "@type": "WebPageElement",
-          "name": "markdown",
+          "mainEntityOfPage": [
+              {
+                  "position": 0,
+                  "identifier": "1",
+                  "text": "<p>The main symptom of acanthosis nigricans is patches of skin that are darker and thicker than usual.</p><p>They can appear anywhere on the body.</p>",
+                  "@type": "WebPageElement",
+                  "name": "markdown",
+                  "headline": ""
+              },
+              {
+                  "position": 2,
+                  "identifier": "13",
+                  "@type": "ImageObject",
+                  "name": "A dark patch of skin on the armpit of a person with white skin. The patch covers most of the person's armpit.",
+                  "url": "https://assets.nhs.uk/nhsuk-cms/images/S_0318_Acanthosis-nigricans_C0131055.origina.max-600x600.jpg",
+                  "caption": "<p>They're most common in skin folds, such as the armpits, neck or groin.</p>",
+                  "provider": "Science Photo Library",
+                  "datePublished": "2018-03-12T15:16:27+00:00",
+                  "keywords": [
+                      "Skin",
+                      "Neck",
+                      "acanthosis-nigricans",
+                      "Groin",
+                      "itchy",
+                      "Armpit",
+                      "dermatology",
+                      "dermatological",
+                      "darker patches"
+                  ],
+                  "credit": "<p>CID, ISM /SCIENCE PHOTO LIBRARY https://www.sciencephoto.com/media/459432/view</p>"
+              },
+              {
+                  "position": 3,
+                  "identifier": "13",
+                  "@type": "ImageObject",
+                  "name": "Dark patches of skin covering the armpit of someone with medium brown skin. There are also about 50 small skin tags.",
+                  "url": "https://assets.nhs.uk/nhsuk-cms/images/S_0318_Acanthosis_nigricans_C0373908.origina.max-600x600.jpg",
+                  "caption": "<p>Some people also have tiny growths (skin tags) on the patches.</p>",
+                  "provider": "Science Photo Library",
+                  "datePublished": "2018-03-12T15:17:48+00:00",
+                  "keywords": [
+                      "Skin",
+                      "Neck",
+                      "acanthosis-nigricans",
+                      "Groin",
+                      "itchy",
+                      "Armpit",
+                      "dermatology",
+                      "dermatological",
+                      "darker patches"
+                  ],
+                  "credit": "<p>ANDRE LABBE, ISM/SCIENCE PHOTO LIBRARY https://www.sciencephoto.com/media/886025/view</p>"
+              },
+              {
+                  "position": 4,
+                  "identifier": "1",
+                  "text": "<p>The patches often appear gradually without any other symptoms.</p><p>Sometimes the skin may be itchy.</p>",
+                  "@type": "WebPageElement",
+                  "name": "markdown",
+                  "headline": ""
+              }
+          ],
+          "description": "The main symptom of acanthosis nigricans is patches of skin that are darker and thicker than usual. Sometimes the skin is itchy.",
+          "hasPart": [
+              {
+                  "position": 0,
+                  "identifier": "1",
+                  "text": "<p>The main symptom of acanthosis nigricans is patches of skin that are darker and thicker than usual.</p><p>They can appear anywhere on the body.</p>",
+                  "@type": "WebPageElement",
+                  "name": "markdown",
+                  "headline": ""
+              },
+              {
+                  "position": 2,
+                  "identifier": "13",
+                  "@type": "ImageObject",
+                  "name": "A dark patch of skin on the armpit of a person with white skin. The patch covers most of the person's armpit.",
+                  "url": "https://assets.nhs.uk/nhsuk-cms/images/S_0318_Acanthosis-nigricans_C0131055.origina.max-600x600.jpg",
+                  "caption": "<p>They're most common in skin folds, such as the armpits, neck or groin.</p>",
+                  "provider": "Science Photo Library",
+                  "datePublished": "2018-03-12T15:16:27+00:00",
+                  "keywords": [
+                      "Skin",
+                      "Neck",
+                      "acanthosis-nigricans",
+                      "Groin",
+                      "itchy",
+                      "Armpit",
+                      "dermatology",
+                      "dermatological",
+                      "darker patches"
+                  ],
+                  "credit": "<p>CID, ISM /SCIENCE PHOTO LIBRARY https://www.sciencephoto.com/media/459432/view</p>"
+              },
+              {
+                  "position": 3,
+                  "identifier": "13",
+                  "@type": "ImageObject",
+                  "name": "Dark patches of skin covering the armpit of someone with medium brown skin. There are also about 50 small skin tags.",
+                  "url": "https://assets.nhs.uk/nhsuk-cms/images/S_0318_Acanthosis_nigricans_C0373908.origina.max-600x600.jpg",
+                  "caption": "<p>Some people also have tiny growths (skin tags) on the patches.</p>",
+                  "provider": "Science Photo Library",
+                  "datePublished": "2018-03-12T15:17:48+00:00",
+                  "keywords": [
+                      "Skin",
+                      "Neck",
+                      "acanthosis-nigricans",
+                      "Groin",
+                      "itchy",
+                      "Armpit",
+                      "dermatology",
+                      "dermatological",
+                      "darker patches"
+                  ],
+                  "credit": "<p>ANDRE LABBE, ISM/SCIENCE PHOTO LIBRARY https://www.sciencephoto.com/media/886025/view</p>"
+              },
+              {
+                  "position": 4,
+                  "identifier": "1",
+                  "text": "<p>The patches often appear gradually without any other symptoms.</p><p>Sometimes the skin may be itchy.</p>",
+                  "@type": "WebPageElement",
+                  "name": "markdown",
+                  "headline": ""
+              }
+          ],
+          "hasHealthAspect": "http://schema.org/SymptomsHealthAspect",
+          "headline": "Check if you have acanthosis nigricans"
+      },
+      {
+          "identifier": "0",
+          "name": "section heading",
+          "position": 2,
+          "@type": "WebPageElement",
+          "mainEntityOfPage": [
+              {
+                  "position": 0,
+                  "@type": "WebPageElement",
+                  "name": "non-urgent",
+                  "identifier": "5",
+                  "text": "<h2>See a GP if:</h2><div class=\"block-richtext\">\n<ul><li>you have new dark patches on your skin</li><li>you have any skin changes you're unsure about</li></ul>\n</div>"
+              }
+          ],
+          "description": "",
+          "hasPart": [
+              {
+                  "position": 0,
+                  "@type": "WebPageElement",
+                  "name": "non-urgent",
+                  "identifier": "5",
+                  "text": "<h2>See a GP if:</h2><div class=\"block-richtext\">\n<ul><li>you have new dark patches on your skin</li><li>you have any skin changes you're unsure about</li></ul>\n</div>"
+              }
+          ],
+          "hasHealthAspect": "http://schema.org/MedicalHelpNonurgentHealthAspect"
+      },
+      {
+          "identifier": "0",
+          "name": "section heading",
+          "position": 3,
+          "@type": "WebPageElement",
+          "mainEntityOfPage": [
+              {
+                  "position": 0,
+                  "identifier": "1",
+                  "text": "<p>A GP can usually tell if it's acanthosis nigricans by looking at your skin.</p><p>Although acanthosis nigricans is usually harmless, it's best to get any skin changes checked out.</p><p>Rarely, it can be a sign of something more serious, such as cancer.</p><p>You may need some tests to find out what's causing the patches.</p>",
+                  "@type": "WebPageElement",
+                  "name": "markdown",
+                  "headline": ""
+              }
+          ],
+          "description": "A GP can usually diagnose acanthosis nigricans by looking at your skin. You may need tests to find out what's causing it.",
+          "hasPart": [
+              {
+                  "position": 0,
+                  "identifier": "1",
+                  "text": "<p>A GP can usually tell if it's acanthosis nigricans by looking at your skin.</p><p>Although acanthosis nigricans is usually harmless, it's best to get any skin changes checked out.</p><p>Rarely, it can be a sign of something more serious, such as cancer.</p><p>You may need some tests to find out what's causing the patches.</p>",
+                  "@type": "WebPageElement",
+                  "name": "markdown",
+                  "headline": ""
+              }
+          ],
+          "hasHealthAspect": "http://schema.org/DiagnosisHealthAspect",
           "headline": "What happens at your appointment"
-        }
-      ],
-      "description": "",
-      "hasPart": [
-        {
-          "position": 0,
+      },
+      {
+          "identifier": "0",
+          "name": "section heading",
+          "position": 4,
           "@type": "WebPageElement",
-          "name": "non-urgent",
-          "identifier": "5",
-          "text": "<h3>See a GP if you have:</h3><div class=\"block-richtext\">\n<ul><li>new dark patches on your skin</li><li>any skin changes you're unsure about</li></ul>\n</div>"
-        },
-        {
-          "position": 1,
-          "identifier": "1",
-          "text": "<p>Although acanthosis nigricans is usually harmless, it's best to get any skin changes checked out.</p><p>Rarely, it can be a sign of something more serious, such as cancer.</p><p>A GP can usually tell if it's acanthosis nigricans by looking at your skin.</p><p>You may need some tests to find out what's causing the patches.</p>",
+          "mainEntityOfPage": [
+              {
+                  "position": 0,
+                  "identifier": "1",
+                  "text": "<p>The most common cause of acanthosis nigricans is <a href=\"https://www.nhs.uk/conditions/obesity/\">obesity</a>.</p><p>Other causes include:</p><ul><li><a href=\"https://www.nhs.uk/conditions/type-2-diabetes/\">type 2 diabetes</a></li><li>conditions that affect hormone levels – such as <a href=\"https://www.nhs.uk/conditions/cushings-syndrome/\">Cushing's syndrome</a>, <a href=\"https://www.nhs.uk/conditions/polycystic-ovary-syndrome-pcos/\">polycystic ovary syndrome</a> or an <a href=\"https://www.nhs.uk/conditions/underactive-thyroid-hypothyroidism/\">underactive thyroid</a></li><li>taking certain medicines – including <a href=\"https://www.nhs.uk/conditions/steroids/\">steroids</a> or hormone treatments like the contraceptive pill</li><li>rarely, cancer – usually <a href=\"https://www.nhs.uk/conditions/stomach-cancer/\">stomach cancer</a></li><li>rarely, a faulty gene inherited from your parents</li></ul><p>Sometimes healthy people with no other conditions get acanthosis nigricans. This is more common in people with black or brown skin.</p>",
+                  "@type": "WebPageElement",
+                  "name": "markdown",
+                  "headline": ""
+              }
+          ],
+          "description": "Acanthosis nigricans is most often caused by obesity. Other causes include type 2 diabetes, hormone conditions and taking certain medicines.",
+          "hasPart": [
+              {
+                  "position": 0,
+                  "identifier": "1",
+                  "text": "<p>The most common cause of acanthosis nigricans is <a href=\"https://www.nhs.uk/conditions/obesity/\">obesity</a>.</p><p>Other causes include:</p><ul><li><a href=\"https://www.nhs.uk/conditions/type-2-diabetes/\">type 2 diabetes</a></li><li>conditions that affect hormone levels – such as <a href=\"https://www.nhs.uk/conditions/cushings-syndrome/\">Cushing's syndrome</a>, <a href=\"https://www.nhs.uk/conditions/polycystic-ovary-syndrome-pcos/\">polycystic ovary syndrome</a> or an <a href=\"https://www.nhs.uk/conditions/underactive-thyroid-hypothyroidism/\">underactive thyroid</a></li><li>taking certain medicines – including <a href=\"https://www.nhs.uk/conditions/steroids/\">steroids</a> or hormone treatments like the contraceptive pill</li><li>rarely, cancer – usually <a href=\"https://www.nhs.uk/conditions/stomach-cancer/\">stomach cancer</a></li><li>rarely, a faulty gene inherited from your parents</li></ul><p>Sometimes healthy people with no other conditions get acanthosis nigricans. This is more common in people with black or brown skin.</p>",
+                  "@type": "WebPageElement",
+                  "name": "markdown",
+                  "headline": ""
+              }
+          ],
+          "hasHealthAspect": "http://schema.org/CausesHealthAspect",
+          "headline": "Causes of acanthosis nigricans"
+      },
+      {
+          "identifier": "0",
+          "name": "section heading",
+          "position": 5,
           "@type": "WebPageElement",
-          "name": "markdown",
-          "headline": "What happens at your appointment"
-        }
-      ]
-    },
-    {
-      "identifier": "0",
-      "name": "section heading",
-      "position": 3,
-      "@type": "WebPageElement",
-      "mainEntityOfPage": [
-        {
-          "position": 0,
-          "identifier": "1",
-          "text": "<p>The most common cause of acanthosis nigricans is being <a href=\"https://www.nhs.uk/conditions/obesity/\">very overweight</a>.</p><p>Other causes include:</p><ul><li><a href=\"https://www.nhs.uk/conditions/type-2-diabetes/\">type 2 diabetes</a></li><li>conditions that affect hormone levels \u2013 such as <a href=\"https://www.nhs.uk/conditions/cushings-syndrome/\">Cushing's syndrome</a>, <a href=\"https://www.nhs.uk/conditions/polycystic-ovary-syndrome-pcos/\">polycystic ovary syndrome</a> or an <a href=\"https://www.nhs.uk/conditions/underactive-thyroid-hypothyroidism/\">underactive thyroid</a></li><li>taking certain medicines \u2013 including <a href=\"https://www.nhs.uk/conditions/steroids/\">steroids</a> or hormone treatments like the contraceptive pill</li><li>rarely, cancer \u2013 usually <a href=\"https://www.nhs.uk/conditions/stomach-cancer/\">stomach cancer</a></li><li>rarely, a faulty gene inherited from your parents</li></ul><p>Sometimes healthy people with no other conditions get acanthosis nigricans. This is more common in people with black or brown skin.</p>",
-          "@type": "WebPageElement",
-          "name": "markdown",
-          "headline": ""
-        }
-      ],
-      "description": "",
-      "hasPart": [
-        {
-          "position": 0,
-          "identifier": "1",
-          "text": "<p>The most common cause of acanthosis nigricans is being <a href=\"https://www.nhs.uk/conditions/obesity/\">very overweight</a>.</p><p>Other causes include:</p><ul><li><a href=\"https://www.nhs.uk/conditions/type-2-diabetes/\">type 2 diabetes</a></li><li>conditions that affect hormone levels \u2013 such as <a href=\"https://www.nhs.uk/conditions/cushings-syndrome/\">Cushing's syndrome</a>, <a href=\"https://www.nhs.uk/conditions/polycystic-ovary-syndrome-pcos/\">polycystic ovary syndrome</a> or an <a href=\"https://www.nhs.uk/conditions/underactive-thyroid-hypothyroidism/\">underactive thyroid</a></li><li>taking certain medicines \u2013 including <a href=\"https://www.nhs.uk/conditions/steroids/\">steroids</a> or hormone treatments like the contraceptive pill</li><li>rarely, cancer \u2013 usually <a href=\"https://www.nhs.uk/conditions/stomach-cancer/\">stomach cancer</a></li><li>rarely, a faulty gene inherited from your parents</li></ul><p>Sometimes healthy people with no other conditions get acanthosis nigricans. This is more common in people with black or brown skin.</p>",
-          "@type": "WebPageElement",
-          "name": "markdown",
-          "headline": ""
-        }
-      ],
-      "headline": "Causes of acanthosis nigricans"
-    },
-    {
-      "identifier": "0",
-      "name": "section heading",
-      "position": 4,
-      "@type": "WebPageElement",
-      "mainEntityOfPage": [
-        {
-          "position": 0,
-          "identifier": "1",
-          "text": "<p>Once a GP knows what's causing acanthosis nigricans, they can recommend the best treatment.</p><p>The patches should fade over time once the cause is treated.</p><p>If you're very overweight, a GP may recommend <a href=\"https://www.nhs.uk/better-health/lose-weight/\">losing weight</a>.</p><p>Depending on the cause, they may also recommend:</p><ul><li>medicine to balance your hormones</li><li>medicine to balance your insulin levels</li><li>changing your medicine to one that does not cause the patches</li></ul><p>There's no specific treatment for the patches themselves. A skin specialist (dermatologist) may be able to suggest treatments to improve their appearance, but finding and treating the cause is usually recommended first.</p>",
-          "@type": "WebPageElement",
-          "name": "markdown",
-          "headline": ""
-        }
-      ],
-      "description": "",
-      "hasPart": [
-        {
-          "position": 0,
-          "identifier": "1",
-          "text": "<p>Once a GP knows what's causing acanthosis nigricans, they can recommend the best treatment.</p><p>The patches should fade over time once the cause is treated.</p><p>If you're very overweight, a GP may recommend <a href=\"https://www.nhs.uk/better-health/lose-weight/\">losing weight</a>.</p><p>Depending on the cause, they may also recommend:</p><ul><li>medicine to balance your hormones</li><li>medicine to balance your insulin levels</li><li>changing your medicine to one that does not cause the patches</li></ul><p>There's no specific treatment for the patches themselves. A skin specialist (dermatologist) may be able to suggest treatments to improve their appearance, but finding and treating the cause is usually recommended first.</p>",
-          "@type": "WebPageElement",
-          "name": "markdown",
-          "headline": ""
-        }
-      ],
-      "headline": "Treating acanthosis nigricans"
-    }
+          "mainEntityOfPage": [
+              {
+                  "position": 0,
+                  "identifier": "1",
+                  "text": "<p>Once a GP knows what's causing acanthosis nigricans, they can recommend the best treatment.</p><p>The patches should fade over time once the cause is treated.</p><p>If you're very overweight, a GP may recommend losing weight.</p><p>Depending on the cause, they may also recommend:</p><ul><li>medicine to balance your hormones</li><li>medicine to balance your insulin levels</li><li>changing your medicine to one that does not cause the patches</li></ul><p>There's no specific treatment for the patches themselves. A skin specialist (dermatologist) may be able to suggest treatments to improve their appearance, but finding and treating the cause is usually recommended first.</p>",
+                  "@type": "WebPageElement",
+                  "name": "markdown",
+                  "headline": ""
+              }
+          ],
+          "description": "Treatment for acanthosis nigricans depends on the cause. You may need to lose weight or take medicines.",
+          "hasPart": [
+              {
+                  "position": 0,
+                  "identifier": "1",
+                  "text": "<p>Once a GP knows what's causing acanthosis nigricans, they can recommend the best treatment.</p><p>The patches should fade over time once the cause is treated.</p><p>If you're very overweight, a GP may recommend losing weight.</p><p>Depending on the cause, they may also recommend:</p><ul><li>medicine to balance your hormones</li><li>medicine to balance your insulin levels</li><li>changing your medicine to one that does not cause the patches</li></ul><p>There's no specific treatment for the patches themselves. A skin specialist (dermatologist) may be able to suggest treatments to improve their appearance, but finding and treating the cause is usually recommended first.</p>",
+                  "@type": "WebPageElement",
+                  "name": "markdown",
+                  "headline": ""
+              }
+          ],
+          "hasHealthAspect": "http://schema.org/TreatmentsHealthAspect",
+          "headline": "Treating acanthosis nigricans"
+      }
   ],
   "webpage": "https://www.nhs.uk/conditions/acanthosis-nigricans/"
 }

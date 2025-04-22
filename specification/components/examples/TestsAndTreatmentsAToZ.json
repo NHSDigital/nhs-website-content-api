@@ -1,0 +1,806 @@
+{
+    "@context": "http://schema.org",
+    "@type": "MedicalWebPage",
+    "name": "Tests and treatments A to Z",
+    "copyrightHolder": {
+      "name": "Crown Copyright",
+      "@type": "Organization"
+    },
+    "license": "https://developer.api.nhs.uk/terms",
+    "author": {
+      "url": "https://www.nhs.uk",
+      "logo": "https://assets.nhs.uk/nhsuk-cms/images/nhs-attribution.width-510.png",
+      "email": "nhswebsite.servicedesk@nhs.net",
+      "@type": "Organization",
+      "name": "NHS website"
+    },
+    "about": {
+      "@type": "WebPage",
+      "name": "Tests and treatments A to Z",
+      "alternateName": ""
+    },
+    "description": "Find out about surgery and procedures, tests, screening and other treatments, including why they're done and what happens.",
+    "url": "https://api.service.nhs.uk/nhs-website-content/tests-and-treatments/",
+    "genre": [],
+    "keywords": "",
+    "dateModified": "2025-04-16T12:24:19+00:00",
+    "breadcrumb": {
+      "@context": "http://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 0,
+          "item": {
+            "@id": "https://api.service.nhs.uk/nhs-website-content/tests-and-treatments/",
+            "name": "Tests and treatments A to Z",
+            "genre": []
+          }
+        }
+      ]
+    },
+    "contentSubTypes": [],
+    "significantLink": [
+      {
+        "description": "Find out when your urine albumin to creatinine ratio (ACR) should\r\nbe measured. ACR values can help identify kidney disease that occurs as a complication of diabetes.",
+        "linkRelationship": "Result",
+        "@type": "LinkRole",
+        "articleStatus": "published",
+        "mainEntityOfPage": {
+          "@type": "MedicalWebPage",
+          "genre": [
+            "Test"
+          ],
+          "datePublished": "2018-08-28T16:15:09+00:00",
+          "dateModified": "2025-04-15T14:09:45+00:00",
+          "lastReviewed": [
+            "2022-05-24T00:00:00+00:00",
+            "2025-05-24T00:00:00+00:00"
+          ],
+          "reviewDue": "2025-05-24T00:00:00+00:00",
+          "keywords": "",
+          "code": [
+            {
+              "@type": "MedicalCode",
+              "codeValue": "",
+              "codingSystem": "SNOMED-CT"
+            }
+          ]
+        },
+        "url": "https://api.service.nhs.uk/nhs-website-content/conditions/acr-test/",
+        "name": "Urine albumin to creatinine ratio (ACR)"
+      },
+      {
+        "description": "Read about acupuncture, a treatment derived from ancient Chinese medicine in which fine needles are inserted at certain sites in the body to relieve or prevent health problems",
+        "linkRelationship": "Result",
+        "@type": "LinkRole",
+        "articleStatus": "published",
+        "mainEntityOfPage": {
+          "@type": "MedicalWebPage",
+          "genre": [
+            "Treatment"
+          ],
+          "datePublished": "2017-10-17T15:41:00+00:00",
+          "dateModified": "2025-04-15T10:38:33+00:00",
+          "lastReviewed": [
+            "2023-02-28T02:00:00+00:00",
+            "2026-02-28T03:00:00+00:00"
+          ],
+          "reviewDue": "2026-02-28T03:00:00+00:00",
+          "keywords": "",
+          "code": [
+            {
+              "@type": "MedicalCode",
+              "codeValue": "",
+              "codingSystem": "SNOMED-CT"
+            }
+          ]
+        },
+        "url": "https://api.service.nhs.uk/nhs-website-content/conditions/acupuncture/",
+        "name": "Acupuncture"
+      },
+      {
+        "description": "Find out what an adenoidectomy is, why it's done, what happens during the operation and the possible complications.",
+        "linkRelationship": "Result",
+        "@type": "LinkRole",
+        "articleStatus": "published",
+        "mainEntityOfPage": {
+          "@type": "MedicalWebPage",
+          "genre": [
+            "Treatment",
+            "Procedure"
+          ],
+          "datePublished": "2017-10-17T15:31:58+00:00",
+          "dateModified": "2025-04-15T10:38:48+00:00",
+          "lastReviewed": [
+            "2023-03-10T15:37:00+00:00",
+            "2026-03-10T15:37:00+00:00"
+          ],
+          "reviewDue": "2026-03-10T15:37:00+00:00",
+          "keywords": "",
+          "code": [
+            {
+              "@type": "MedicalCode",
+              "codeValue": "",
+              "codingSystem": "SNOMED-CT"
+            }
+          ]
+        },
+        "url": "https://api.service.nhs.uk/nhs-website-content/conditions/adenoidectomy/",
+        "name": "Adenoidectomy"
+      },
+      {
+        "description": "The Alexander technique teaches improved posture and movement, which is believed to help reduce and prevent problems caused by unhelpful habits.",
+        "linkRelationship": "Result",
+        "@type": "LinkRole",
+        "articleStatus": "published",
+        "mainEntityOfPage": {
+          "@type": "MedicalWebPage",
+          "genre": [
+            "Treatment"
+          ],
+          "datePublished": "2017-10-17T16:16:34+00:00",
+          "dateModified": "2025-04-15T10:39:02+00:00",
+          "lastReviewed": [
+            "2024-10-23T00:00:00+00:00",
+            "2027-10-23T00:00:00+00:00"
+          ],
+          "reviewDue": "2027-10-23T00:00:00+00:00",
+          "keywords": "",
+          "code": [
+            {
+              "@type": "MedicalCode",
+              "codeValue": "",
+              "codingSystem": "SNOMED-CT"
+            }
+          ]
+        },
+        "url": "https://api.service.nhs.uk/nhs-website-content/conditions/alexander-technique/",
+        "name": "Alexander technique"
+      },
+      {
+        "description": "Information about amputation, including why and how it's carried out, recovery and rehabilitation, prosthetics, stump care and possible complications.",
+        "linkRelationship": "Result",
+        "@type": "LinkRole",
+        "articleStatus": "published",
+        "mainEntityOfPage": {
+          "@type": "MedicalWebPage",
+          "genre": [
+            "Treatment",
+            "Procedure"
+          ],
+          "datePublished": "2017-10-17T15:47:57+00:00",
+          "dateModified": "2025-04-15T10:38:04+00:00",
+          "lastReviewed": [
+            "2023-02-17T01:00:00+00:00",
+            "2026-02-17T01:00:00+00:00"
+          ],
+          "reviewDue": "2026-02-17T01:00:00+00:00",
+          "keywords": "",
+          "code": [
+            {
+              "@type": "MedicalCode",
+              "codeValue": "",
+              "codingSystem": "SNOMED-CT"
+            }
+          ]
+        },
+        "url": "https://api.service.nhs.uk/nhs-website-content/conditions/amputation/",
+        "name": "Amputation"
+      },
+      {
+        "description": "Find out about intrauterine (artificial) insemination, or IUI, a procedure to help you get pregnant where sperm are put directly into your womb.",
+        "linkRelationship": "Result",
+        "@type": "LinkRole",
+        "articleStatus": "published",
+        "mainEntityOfPage": {
+          "@type": "MedicalWebPage",
+          "genre": [
+            "Procedure"
+          ],
+          "datePublished": "2017-10-17T16:07:35+00:00",
+          "dateModified": "2025-04-16T10:12:35+00:00",
+          "lastReviewed": [
+            "2024-06-24T23:00:00+00:00",
+            "2027-06-24T23:00:00+00:00"
+          ],
+          "reviewDue": "2027-06-24T23:00:00+00:00",
+          "keywords": "",
+          "code": [
+            {
+              "@type": "MedicalCode",
+              "codeValue": "",
+              "codingSystem": "SNOMED-CT"
+            }
+          ]
+        },
+        "url": "https://api.service.nhs.uk/nhs-website-content/conditions/intrauterine-insemination-iui/",
+        "name": "Intrauterine insemination (IUI)"
+      },
+      {
+        "description": "Read about having a barium enema, including what you need to do to prepare, what happens during the test, and what happens afterwards.",
+        "linkRelationship": "Result",
+        "@type": "LinkRole",
+        "articleStatus": "published",
+        "mainEntityOfPage": {
+          "@type": "MedicalWebPage",
+          "genre": [
+            "Test",
+            "Procedure"
+          ],
+          "datePublished": "2017-10-17T16:09:38+00:00",
+          "dateModified": "2025-04-15T10:48:15+00:00",
+          "lastReviewed": [
+            "2022-05-13T00:00:00+00:00",
+            "2025-05-13T00:00:00+00:00"
+          ],
+          "reviewDue": "2025-05-13T00:00:00+00:00",
+          "keywords": "",
+          "code": [
+            {
+              "@type": "MedicalCode",
+              "codeValue": "",
+              "codingSystem": "SNOMED-CT"
+            }
+          ]
+        },
+        "url": "https://api.service.nhs.uk/nhs-website-content/conditions/barium-enema/",
+        "name": "Barium enema"
+      },
+      {
+        "description": "Find out about blood groups. There are 4 main blood groups – A, B, AB and O.",
+        "linkRelationship": "Result",
+        "@type": "LinkRole",
+        "articleStatus": "published",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "genre": [
+            "Advice or information"
+          ],
+          "datePublished": "2017-10-17T16:22:10+00:00",
+          "dateModified": "2025-04-15T11:00:33+00:00",
+          "lastReviewed": [
+            "2023-05-10T08:40:00+00:00",
+            "2026-05-10T08:40:00+00:00"
+          ],
+          "reviewDue": "2026-05-10T08:40:00+00:00",
+          "keywords": "",
+          "code": [
+            {
+              "@type": "MedicalCode",
+              "codeValue": "",
+              "codingSystem": "SNOMED-CT"
+            }
+          ]
+        },
+        "url": "https://api.service.nhs.uk/nhs-website-content/conditions/blood-groups/",
+        "name": "Blood groups"
+      },
+      {
+        "description": "Find out why a blood pressure test is important, how it’s done and what your blood pressure reading might mean.",
+        "linkRelationship": "Result",
+        "@type": "LinkRole",
+        "articleStatus": "published",
+        "mainEntityOfPage": {
+          "@type": "MedicalWebPage",
+          "genre": [
+            "Test"
+          ],
+          "datePublished": "2018-07-30T13:46:29+00:00",
+          "dateModified": "2025-04-15T14:46:03+00:00",
+          "lastReviewed": [
+            "2023-07-11T03:00:00+00:00",
+            "2026-07-11T03:00:00+00:00"
+          ],
+          "reviewDue": "2026-07-11T03:00:00+00:00",
+          "keywords": "",
+          "code": [
+            {
+              "@type": "MedicalCode",
+              "codeValue": "",
+              "codingSystem": "SNOMED-CT"
+            }
+          ]
+        },
+        "url": "https://api.service.nhs.uk/nhs-website-content/conditions/blood-pressure-test/",
+        "name": "Blood pressure test"
+      },
+      {
+        "description": "Find out whether you might be eligible for breast reduction surgery on the NHS and what to do if you think you might qualify.",
+        "linkRelationship": "Result",
+        "@type": "LinkRole",
+        "articleStatus": "published",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "genre": [
+            "Advice or information"
+          ],
+          "datePublished": "2017-10-17T16:38:33+00:00",
+          "dateModified": "2025-04-15T12:37:42+00:00",
+          "lastReviewed": [
+            "2022-11-14T01:00:00+00:00",
+            "2025-11-14T01:00:00+00:00"
+          ],
+          "reviewDue": "2025-11-14T01:00:00+00:00",
+          "keywords": "",
+          "code": [
+            {
+              "@type": "MedicalCode",
+              "codeValue": "",
+              "codingSystem": "SNOMED-CT"
+            }
+          ]
+        },
+        "url": "https://api.service.nhs.uk/nhs-website-content/conditions/breast-reduction-on-the-nhs/",
+        "name": "Breast reduction on the NHS"
+      },
+      {
+        "description": "Find out what chiropractic is, how you can get it on the NHS or privately, and what the treatment involves.",
+        "linkRelationship": "Result",
+        "@type": "LinkRole",
+        "articleStatus": "published",
+        "mainEntityOfPage": {
+          "@type": "MedicalWebPage",
+          "genre": [
+            "Treatment"
+          ],
+          "datePublished": "2017-10-18T08:28:36+00:00",
+          "dateModified": "2025-04-15T12:42:28+00:00",
+          "lastReviewed": [
+            "2023-09-06T00:00:00+00:00",
+            "2026-09-06T00:00:00+00:00"
+          ],
+          "reviewDue": "2026-09-06T00:00:00+00:00",
+          "keywords": "",
+          "code": [
+            {
+              "@type": "MedicalCode",
+              "codeValue": "",
+              "codingSystem": "SNOMED-CT"
+            }
+          ]
+        },
+        "url": "https://api.service.nhs.uk/nhs-website-content/conditions/chiropractic/",
+        "name": "Chiropractic"
+      },
+      {
+        "description": "Read about circumcision in boys, including why it's carried out, medical reasons for circumcision, what the procedure involves, recovery and risks.",
+        "linkRelationship": "Result",
+        "@type": "LinkRole",
+        "articleStatus": "published",
+        "mainEntityOfPage": {
+          "@type": "MedicalWebPage",
+          "genre": [
+            "Treatment",
+            "Procedure"
+          ],
+          "datePublished": "2017-10-18T11:29:35+00:00",
+          "dateModified": "2025-04-15T12:42:54+00:00",
+          "lastReviewed": [
+            "2022-06-26T23:00:00+00:00",
+            "2025-06-26T23:00:00+00:00"
+          ],
+          "reviewDue": "2025-06-26T23:00:00+00:00",
+          "keywords": "",
+          "code": [
+            {
+              "@type": "MedicalCode",
+              "codeValue": "",
+              "codingSystem": "SNOMED-CT"
+            }
+          ]
+        },
+        "url": "https://api.service.nhs.uk/nhs-website-content/conditions/circumcision-in-boys/",
+        "name": "Circumcision in boys"
+      },
+      {
+        "description": "Read about the medical reasons why circumcision in men may be necessary and what happens before, during and after the procedure.",
+        "linkRelationship": "Result",
+        "@type": "LinkRole",
+        "articleStatus": "published",
+        "mainEntityOfPage": {
+          "@type": "MedicalWebPage",
+          "genre": [
+            "Treatment",
+            "Procedure"
+          ],
+          "datePublished": "2017-10-18T10:51:56+00:00",
+          "dateModified": "2025-04-15T12:43:21+00:00",
+          "lastReviewed": [
+            "2022-09-20T23:00:00+00:00",
+            "2025-09-20T23:00:00+00:00"
+          ],
+          "reviewDue": "2025-09-20T23:00:00+00:00",
+          "keywords": "",
+          "code": [
+            {
+              "@type": "MedicalCode",
+              "codeValue": "",
+              "codingSystem": "SNOMED-CT"
+            }
+          ]
+        },
+        "url": "https://api.service.nhs.uk/nhs-website-content/conditions/circumcision-in-men/",
+        "name": "Circumcision in men"
+      },
+      {
+        "description": "Find out more about why CT scans are done and what happens before, during and after the scan.",
+        "linkRelationship": "Result",
+        "@type": "LinkRole",
+        "articleStatus": "published",
+        "mainEntityOfPage": {
+          "@type": "MedicalWebPage",
+          "genre": [
+            "Test"
+          ],
+          "datePublished": "2017-10-18T08:39:28+00:00",
+          "dateModified": "2025-04-15T12:48:55+00:00",
+          "lastReviewed": [
+            "2023-11-08T01:00:00+00:00",
+            "2026-11-08T01:00:00+00:00"
+          ],
+          "reviewDue": "2026-11-08T01:00:00+00:00",
+          "keywords": "",
+          "code": [
+            {
+              "@type": "MedicalCode",
+              "codeValue": "",
+              "codingSystem": "SNOMED-CT"
+            }
+          ]
+        },
+        "url": "https://api.service.nhs.uk/nhs-website-content/conditions/ct-scan/",
+        "name": "CT scan"
+      },
+      {
+        "description": "Find out about dentures (false teeth), including when they’re needed, how to get them, how they’re made and fitted and how to look after them.",
+        "linkRelationship": "Result",
+        "@type": "LinkRole",
+        "articleStatus": "published",
+        "mainEntityOfPage": {
+          "@type": "MedicalWebPage",
+          "genre": [
+            "Treatment"
+          ],
+          "datePublished": "2017-10-18T09:39:42+00:00",
+          "dateModified": "2025-04-15T12:50:24+00:00",
+          "lastReviewed": [
+            "2025-03-19T01:00:00+00:00",
+            "2028-03-19T01:00:00+00:00"
+          ],
+          "reviewDue": "2028-03-19T01:00:00+00:00",
+          "keywords": "",
+          "code": [
+            {
+              "@type": "MedicalCode",
+              "codeValue": "",
+              "codingSystem": "SNOMED-CT"
+            }
+          ]
+        },
+        "url": "https://api.service.nhs.uk/nhs-website-content/conditions/dentures/",
+        "name": "Dentures (false teeth)"
+      },
+      {
+        "description": "Find out who should have diabetic eye screening, why it's done and what happens, and when you’ll get your results.",
+        "linkRelationship": "Result",
+        "@type": "LinkRole",
+        "articleStatus": "published",
+        "mainEntityOfPage": {
+          "@type": "MedicalWebPage",
+          "genre": [
+            "Test"
+          ],
+          "datePublished": "2017-10-18T09:19:09+00:00",
+          "dateModified": "2025-04-15T12:50:39+00:00",
+          "lastReviewed": [
+            "2024-10-25T00:00:00+00:00",
+            "2027-10-25T00:00:00+00:00"
+          ],
+          "reviewDue": "2027-10-25T00:00:00+00:00",
+          "keywords": "",
+          "code": [
+            {
+              "@type": "MedicalCode",
+              "codeValue": "",
+              "codingSystem": "SNOMED-CT"
+            }
+          ]
+        },
+        "url": "https://api.service.nhs.uk/nhs-website-content/conditions/diabetic-eye-screening/",
+        "name": "Diabetic eye screening"
+      },
+      {
+        "description": "Read about echocardiograms, including why they're done, what happens during the test, and what the risks are.",
+        "linkRelationship": "Result",
+        "@type": "LinkRole",
+        "articleStatus": "published",
+        "mainEntityOfPage": {
+          "@type": "MedicalWebPage",
+          "genre": [
+            "Test"
+          ],
+          "datePublished": "2017-10-18T09:55:44+00:00",
+          "dateModified": "2025-04-15T12:58:32+00:00",
+          "lastReviewed": [
+            "2022-03-28T00:00:00+00:00",
+            "2025-03-28T01:00:00+00:00"
+          ],
+          "reviewDue": "2025-03-28T01:00:00+00:00",
+          "keywords": "",
+          "code": [
+            {
+              "@type": "MedicalCode",
+              "codeValue": "",
+              "codingSystem": "SNOMED-CT"
+            }
+          ]
+        },
+        "url": "https://api.service.nhs.uk/nhs-website-content/conditions/echocardiogram/",
+        "name": "Echocardiogram"
+      },
+      {
+        "description": "Find out more about ECGs (electrocardiograms), including why they're done, the different types, and what happens.",
+        "linkRelationship": "Result",
+        "@type": "LinkRole",
+        "articleStatus": "published",
+        "mainEntityOfPage": {
+          "@type": "MedicalWebPage",
+          "genre": [
+            "Test"
+          ],
+          "datePublished": "2017-10-18T10:18:23+00:00",
+          "dateModified": "2025-04-15T12:58:50+00:00",
+          "lastReviewed": [
+            "2023-11-09T01:00:00+00:00",
+            "2026-11-09T01:00:00+00:00"
+          ],
+          "reviewDue": "2026-11-09T01:00:00+00:00",
+          "keywords": "",
+          "code": [
+            {
+              "@type": "MedicalCode",
+              "codeValue": "",
+              "codingSystem": "SNOMED-CT"
+            }
+          ]
+        },
+        "url": "https://api.service.nhs.uk/nhs-website-content/conditions/electrocardiogram/",
+        "name": "Electrocardiogram (ECG)"
+      },
+      {
+        "description": "Find out about an electroencephalogram (EEG), which records brain activity, and when this type of test may be used.",
+        "linkRelationship": "Result",
+        "@type": "LinkRole",
+        "articleStatus": "published",
+        "mainEntityOfPage": {
+          "@type": "MedicalWebPage",
+          "genre": [
+            "Test"
+          ],
+          "datePublished": "2017-10-18T09:46:42+00:00",
+          "dateModified": "2025-04-15T12:59:07+00:00",
+          "lastReviewed": [
+            "2022-01-05T04:00:00+00:00",
+            "2025-01-05T04:00:00+00:00"
+          ],
+          "reviewDue": "2025-01-05T04:00:00+00:00",
+          "keywords": "",
+          "code": [
+            {
+              "@type": "MedicalCode",
+              "codeValue": "",
+              "codingSystem": "SNOMED-CT"
+            }
+          ]
+        },
+        "url": "https://api.service.nhs.uk/nhs-website-content/conditions/electroencephalogram/",
+        "name": "Electroencephalogram (EEG)"
+      },
+      {
+        "description": "Find out why and when an electrolyte test may be needed. Also, read about the possible treatments that may be recommended if you have an electrolyte imbalance.",
+        "linkRelationship": "Result",
+        "@type": "LinkRole",
+        "articleStatus": "published",
+        "mainEntityOfPage": {
+          "@type": "MedicalWebPage",
+          "genre": [
+            "Test"
+          ],
+          "datePublished": "2018-08-29T14:19:41+00:00",
+          "dateModified": "2025-04-15T12:59:28+00:00",
+          "lastReviewed": [
+            "2022-03-15T01:00:00+00:00",
+            "2025-03-15T01:00:00+00:00"
+          ],
+          "reviewDue": "2025-03-15T01:00:00+00:00",
+          "keywords": "",
+          "code": [
+            {
+              "@type": "MedicalCode",
+              "codeValue": "",
+              "codingSystem": "SNOMED-CT"
+            }
+          ]
+        },
+        "url": "https://api.service.nhs.uk/nhs-website-content/conditions/electrolyte-test/",
+        "name": "Electrolyte test"
+      },
+      {
+        "description": "Read more about emollients, which are moisturising treatments applied directly to the skin. They're often used to treat skin conditions like eczema.",
+        "linkRelationship": "Result",
+        "@type": "LinkRole",
+        "articleStatus": "published",
+        "mainEntityOfPage": {
+          "@type": "MedicalWebPage",
+          "genre": [
+            "Medicine"
+          ],
+          "datePublished": "2017-10-18T14:01:06+00:00",
+          "dateModified": "2025-04-15T12:59:47+00:00",
+          "lastReviewed": [
+            "2023-10-24T00:00:00+00:00",
+            "2026-10-24T00:00:00+00:00"
+          ],
+          "reviewDue": "2026-10-24T00:00:00+00:00",
+          "keywords": "",
+          "code": [
+            {
+              "@type": "MedicalCode",
+              "codeValue": "",
+              "codingSystem": "SNOMED-CT"
+            }
+          ]
+        },
+        "url": "https://api.service.nhs.uk/nhs-website-content/conditions/emollients/",
+        "name": "Emollients"
+      },
+      {
+        "description": "Find out about the different types of endoscopy. The type of endoscopy you have will depend on your symptoms.",
+        "linkRelationship": "Result",
+        "@type": "LinkRole",
+        "articleStatus": "published",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "genre": [
+            "Advice or information"
+          ],
+          "datePublished": "2017-10-18T11:53:17+00:00",
+          "dateModified": "2025-04-15T13:00:14+00:00",
+          "lastReviewed": [
+            "2022-02-08T12:27:00+00:00",
+            "2025-02-08T12:27:00+00:00"
+          ],
+          "reviewDue": "2025-02-08T12:27:00+00:00",
+          "keywords": "",
+          "code": [
+            {
+              "@type": "MedicalCode",
+              "codeValue": "",
+              "codingSystem": "SNOMED-CT"
+            }
+          ]
+        },
+        "url": "https://api.service.nhs.uk/nhs-website-content/conditions/endoscopy/",
+        "name": "Endoscopy"
+      },
+      {
+        "description": "Find out about enhanced recovery, an evidence-based approach that helps people to recover more quickly after having major surgery.",
+        "linkRelationship": "Result",
+        "@type": "LinkRole",
+        "articleStatus": "published",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "genre": [
+            "Advice or information"
+          ],
+          "datePublished": "2017-10-18T11:58:19+00:00",
+          "dateModified": "2025-04-15T13:00:25+00:00",
+          "lastReviewed": [
+            "2023-04-18T12:07:00+00:00",
+            "2026-04-18T12:07:00+00:00"
+          ],
+          "reviewDue": "2026-04-18T12:07:00+00:00",
+          "keywords": "",
+          "code": [
+            {
+              "@type": "MedicalCode",
+              "codeValue": "",
+              "codingSystem": "SNOMED-CT"
+            }
+          ]
+        },
+        "url": "https://api.service.nhs.uk/nhs-website-content/conditions/enhanced-recovery/",
+        "name": "Enhanced recovery"
+      },
+      {
+        "description": "Read about euthanasia (deliberately ending a person's life to relieve suffering) and assisted suicide (deliberately assisting a person to kill themselves). Both are illegal in England.",
+        "linkRelationship": "Result",
+        "@type": "LinkRole",
+        "articleStatus": "published",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "genre": [
+            "Advice or information"
+          ],
+          "datePublished": "2018-06-07T10:29:10+00:00",
+          "dateModified": "2025-04-15T13:00:47+00:00",
+          "lastReviewed": [
+            "2023-07-12T00:00:00+00:00",
+            "2026-07-12T00:00:00+00:00"
+          ],
+          "reviewDue": "2026-07-12T00:00:00+00:00",
+          "keywords": "",
+          "code": [
+            {
+              "@type": "MedicalCode",
+              "codeValue": "",
+              "codingSystem": "SNOMED-CT"
+            }
+          ]
+        },
+        "url": "https://api.service.nhs.uk/nhs-website-content/conditions/euthanasia-and-assisted-suicide/",
+        "name": "Euthanasia and assisted suicide"
+      },
+      {
+        "description": "Read about the routine eye checks that newborn babies have and eye tests for children. Eye checks are important because they allow any problems to be identified early on in a child's development.",
+        "linkRelationship": "Result",
+        "@type": "LinkRole",
+        "articleStatus": "published",
+        "mainEntityOfPage": {
+          "@type": "MedicalWebPage",
+          "genre": [
+            "Test"
+          ],
+          "datePublished": "2017-10-18T11:14:11+00:00",
+          "dateModified": "2025-04-15T13:12:56+00:00",
+          "lastReviewed": [
+            "2023-03-07T01:00:00+00:00",
+            "2026-03-07T01:00:00+00:00"
+          ],
+          "reviewDue": "2026-03-07T01:00:00+00:00",
+          "keywords": "",
+          "code": [
+            {
+              "@type": "MedicalCode",
+              "codeValue": "",
+              "codingSystem": "SNOMED-CT"
+            }
+          ]
+        },
+        "url": "https://api.service.nhs.uk/nhs-website-content/conditions/eye-tests-in-children/",
+        "name": "Eye tests for children"
+      }
+    ],
+    "relatedLink": [
+      {
+        "@type": "LinkRole",
+        "url": "https://api.service.nhs.uk/nhs-website-content/tests-and-treatments/?page=1",
+        "name": "First Page",
+        "description": "Link to First Page",
+        "linkRelationship": "Pagination"
+      },
+      {
+        "@type": "LinkRole",
+        "url": "https://api.service.nhs.uk/nhs-website-content/tests-and-treatments/?page=7",
+        "name": "Last Page",
+        "description": "Link to Last Page",
+        "linkRelationship": "Pagination"
+      },
+      {
+        "@type": "LinkRole",
+        "url": "https://api.service.nhs.uk/nhs-website-content/tests-and-treatments/",
+        "name": "Self",
+        "description": "Link to nhs.uk Page",
+        "linkRelationship": "Self"
+      },
+      {
+        "@type": "LinkRole",
+        "url": "https://api.service.nhs.uk/nhs-website-content/tests-and-treatments/?page=2",
+        "name": "Next Page",
+        "description": "Link to Next Page",
+        "linkRelationship": "Pagination"
+      }
+    ],
+    "webpage": "https://www.nhs.uk/tests-and-treatments/"
+  }

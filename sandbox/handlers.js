@@ -19,14 +19,13 @@ const conditionsAcneModulesTrueResponse = require('./responses/conditions-acne-m
 const conditionsAngiographyResponse = require('./responses/conditions-angiography-no-params.json')
 const conditionsCancerResponse = require('./responses/conditions-cancer-no-params.json')
 const conditionsRootCategoryAGenreConditionResponse = require('./responses/conditions-root-category-a-genre-condition.json')
-const conditionsRootCategoryAGenreGuideResponse = require('./responses/conditions-root-category-a-genre-guide.json')
 const conditionsRootCategoryAGenreHubResponse = require('./responses/conditions-root-category-a-genre-hub.json')
 const conditionsRootCategoryAResponse = require('./responses/conditions-root-category-a.json')
 const conditionsRootCategoryBResponse = require('./responses/conditions-root-category-b.json')
 const conditionsRootCategoryZResponse = require('./responses/conditions-root-category-z.json')
 const conditionsRootPage1Response = require('./responses/conditions-root-page-1.json')
 const conditionsRootPage2Response = require('./responses/conditions-root-page-2.json')
-const conditionsRootPage70Response = require('./responses/conditions-root-page-70.json')
+const conditionsRootPage29Response = require('./responses/conditions-root-page-29.json')
 const conditionsWildcardResponseNoParams = require('./responses/conditions-acne-no-params.json')
 const conditionsWildcardModulesTrueResponse = require('./responses/conditions-acne-modules-true.json')
 const conditionsZikaResponse = require('./responses/conditions-zika-no-params.json')
@@ -85,6 +84,20 @@ const vaccinationsAvailableTravelVaccinesResponse = require('./responses/vaccina
 const womensHealthRootResponse = require('./responses/womens-health-root-no-params.json')
 const womensHealthPeriodsResponse = require('./responses/womens-health-periods-no-params.json')
 const womensHealthAnaemiaResponse = require('./responses/womens-health-anaemia-no-params.json')
+
+// Symptoms - Responses
+const symptomsRootNoParamsResponse = require('./responses/symptoms-root-no-params.json')
+const symptomsRootCategoryAResponse = require('./responses/symptoms-root-category-a.json')
+const symptomsRootCategoryBResponse = require('./responses/symptoms-root-category-b.json')
+const symptomsRootPage1Response = require('./responses/symptoms-root-page-1.json')
+const symptomsRootPage6Response = require('./responses/symptoms-root-page-6.json')
+
+// Tests and treatments - Responses
+const testsAndTreatmentsRootNoParamsResponse = require('./responses/tests-and-treatments-root-no-params.json')
+const testsAndTreatmentsRootCategoryAResponse = require('./responses/tests-and-treatments-root-category-a.json')
+const testsAndTreatmentsRootCategoryBResponse = require('./responses/tests-and-treatments-root-category-b.json')
+const testsAndTreatmentsRootPage1Response = require('./responses/tests-and-treatments-root-page-1.json')
+const testsAndTreatmentsRootPage7Response = require('./responses/tests-and-treatments-root-page-7.json')
 
 // ******************************************************************
 // ** Root page
@@ -173,9 +186,6 @@ async function conditionsRoot(req, res, next) {
     if (req.query.category.toLowerCase() === 'a' && req.query.genre.toLowerCase() === 'condition') {
       // http://localhost:9000/conditions/?category=a&genre=condition
       responseJson = conditionsRootCategoryAGenreConditionResponse
-    } else if (req.query.category.toLowerCase() === 'a' && req.query.genre.toLowerCase() === 'guide') {
-      // http://localhost:9000/conditions/?category=a&genre=guide
-      responseJson = conditionsRootCategoryAGenreGuideResponse
     } else if (req.query.category.toLowerCase() === 'a' && req.query.genre.toLowerCase() === 'hub') {
       // http://localhost:9000/conditions/?category=a&genre=hub
       responseJson = conditionsRootCategoryAGenreHubResponse
@@ -202,9 +212,9 @@ async function conditionsRoot(req, res, next) {
     } else if (req.query.page === '2') {
       // http://localhost:9000/conditions/?page=2
       responseJson = conditionsRootPage2Response
-    } else if (req.query.page === '70') {
-      // http://localhost:9000/conditions/?page=70
-      responseJson = conditionsRootPage70Response
+    } else if (req.query.page === '29') {
+      // http://localhost:9000/conditions/?page=29
+      responseJson = conditionsRootPage29Response
     } else {
       responseJson = errorSandboxResponseNotFound
     }
@@ -1109,6 +1119,106 @@ async function womensHealthAnaemia(req, res, next) {
 }
 
 // ******************************************************************
+// ** Symptoms pages
+// ******************************************************************
+
+// Live website URL
+// https://www.nhs.uk/symptoms/
+// This sandbox on localhost
+// http://localhost:9000/symptoms/
+// API on Azure API Management
+// https://api.nhs.uk/symptoms/
+// Wagtail (Python) Application (no auth key required)
+// https://www.nhs.uk/content-api/symptoms/
+// Apigee Sandbox environment (no auth key required)
+// https://sandbox.api.service.nhs.uk/nhs-website-content/symptoms/
+// Apigee Integration environment ('apikey' required in Header)
+// https://int.api.service.nhs.uk/nhs-website-content/symptoms/
+// Apigee Production environment ('apikey' required in Header)
+// https://api.service.nhs.uk/nhs-website-content/symptoms/
+async function symptomsRoot(req, res, next) {
+  let responseJson
+  if (req.query.category) {
+    if (req.query.category.toLowerCase() === 'a') {
+      // http://localhost:9000/symptoms/?category=a
+      responseJson = symptomsRootCategoryAResponse
+    } else if (req.query.category.toLowerCase() === 'b') {
+      // http://localhost:9000/symptoms/?category=b
+      responseJson = symptomsRootCategoryBResponse
+    } else {
+      responseJson = errorSandboxResponseNotFound
+    }
+  } else if (req.query.page) {
+    if (req.query.page === '1') {
+      // http://localhost:9000/symptoms/?page=1
+      responseJson = symptomsRootPage1Response
+    } else if (req.query.page === '6') {
+      // http://localhost:9000/symptoms/?page=6
+      responseJson = symptomsRootPage6Response
+    } else {
+      responseJson = errorSandboxResponseNotFound
+    }
+  } else {
+    // http://localhost:9000/symptoms/
+    responseJson = symptomsRootNoParamsResponse
+  }
+  res.status(200).json(responseJson)
+
+  res.end()
+  next()
+}
+
+// ******************************************************************
+// ** Tests and treatment pages
+// ******************************************************************
+
+// Live website URL
+// https://www.nhs.uk/tests-and-treatments/
+// This sandbox on localhost
+// http://localhost:9000/tests-and-treatments/
+// API on Azure API Management
+// https://api.nhs.uk/tests-and-treatments/
+// Wagtail (Python) Application (no auth key required)
+// https://www.nhs.uk/content-api/tests-and-treatments/
+// Apigee Sandbox environment (no auth key required)
+// https://sandbox.api.service.nhs.uk/nhs-website-content/tests-and-treatments/
+// Apigee Integration environment ('apikey' required in Header)
+// https://int.api.service.nhs.uk/nhs-website-content/tests-and-treatments/
+// Apigee Production environment ('apikey' required in Header)
+// https://api.service.nhs.uk/nhs-website-content/tests-and-treatments/
+async function testsAndTreatmentsRoot(req, res, next) {
+  let responseJson
+  if (req.query.category) {
+    if (req.query.category.toLowerCase() === 'a') {
+      // http://localhost:9000/tests-and-treatments/?category=a
+      responseJson = testsAndTreatmentsRootCategoryAResponse
+    } else if (req.query.category.toLowerCase() === 'b') {
+      // http://localhost:9000/tests-and-treatments/?category=b
+      responseJson = testsAndTreatmentsRootCategoryBResponse
+    } else {
+      responseJson = errorSandboxResponseNotFound
+    }
+  } else if (req.query.page) {
+    if (req.query.page === '1') {
+      // http://localhost:9000/tests-and-treatments/?page=1
+      responseJson = testsAndTreatmentsRootPage1Response
+    } else if (req.query.page === '7') {
+      // http://localhost:9000/tests-and-treatments/?page=7
+      responseJson = testsAndTreatmentsRootPage7Response
+    } else {
+      responseJson = errorSandboxResponseNotFound
+    }
+  } else {
+    // http://localhost:9000/tests-and-treatments/
+    responseJson = testsAndTreatmentsRootNoParamsResponse
+  }
+  res.status(200).json(responseJson)
+
+  res.end()
+  next()
+}
+
+// ******************************************************************
 // ** Status
 // ******************************************************************
 
@@ -1167,4 +1277,6 @@ module.exports = {
   womensHealthAnaemia,
   womensHealthPeriods,
   womensHealthRoot,
+  symptomsRoot,
+  testsAndTreatmentsRoot,
 }
