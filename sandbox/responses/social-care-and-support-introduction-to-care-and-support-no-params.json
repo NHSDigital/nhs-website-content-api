@@ -1,0 +1,99 @@
+{
+    "@context": "http://schema.org",
+    "@type": "WebPage",
+    "name": "Introduction to care and support",
+    "copyrightHolder": {
+      "name": "Crown Copyright",
+      "@type": "Organization"
+    },
+    "license": "https://developer.api.nhs.uk/terms",
+    "author": {
+      "url": "https://www.nhs.uk",
+      "logo": "https://assets.nhs.uk/nhsuk-cms/images/nhs-attribution.width-510.png",
+      "email": "nhswebsite.servicedesk@nhs.net",
+      "@type": "Organization",
+      "name": "NHS website"
+    },
+    "about": {
+      "@type": "WebPage",
+      "name": "Introduction to care and support",
+      "alternateName": ""
+    },
+    "description": "A simple guide to adult social care for people with care and support needs, their carers, and anyone planning for their future care needs.",
+    "url": "https://api.service.nhs.uk/social-care-and-support/introduction-to-care-and-support/",
+    "genre": [
+      "Advice or information"
+    ],
+    "keywords": "",
+    "dateModified": "2024-11-21T11:14:44+00:00",
+    "lastReviewed": [
+      "2024-10-30T15:33:00+00:00",
+      "2027-10-30T14:41:00+00:00"
+    ],
+    "breadcrumb": {
+      "@context": "http://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 0,
+          "item": {
+            "@id": "https://api.service.nhs.uk/social-care-and-support/",
+            "name": "Social care and support guide",
+            "genre": []
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@id": "https://api.service.nhs.uk/social-care-and-support/introduction-to-care-and-support/",
+            "name": "Introduction to care and support",
+            "genre": [
+              "Advice or information"
+            ]
+          }
+        }
+      ]
+    },
+    "hasPart": [],
+    "relatedLink": [
+      {
+        "@type": "LinkRole",
+        "url": "https://api.service.nhs.uk/social-care-and-support/",
+        "name": "Social care and support guide",
+        "linkRelationship": "Navigation",
+        "position": 0
+      }
+    ],
+    "contentSubTypes": [],
+    "mainEntityOfPage": [
+      {
+        "identifier": "0",
+        "name": "section heading",
+        "position": 0,
+        "@type": "WebPageElement",
+        "mainEntityOfPage": [
+          {
+            "position": 0,
+            "identifier": "1",
+            "text": "<p>This guide is for people who have care and support needs, their carers, and people who are planning for their future care needs.</p><h2>What is social care and support?</h2><p>They're services to help you if you:</p><ul><li>need practical support because of illness or disability</li><li>care for someone receiving social care and support</li></ul><p>Social care and support is usually paid for by:</p><ul><li>people who need services and their families</li><li>the local council's social services department</li></ul><p>Types of social care and support include:</p><ul><li><a href=\"/social-care-and-support/care-services-equipment-and-care-homes/homecare/\">help at home from a paid carer</a></li><li><a href=\"https://www.gov.uk/meals-home\">meals at home (meals on wheels)</a></li><li>having <a href=\"/social-care-and-support/care-services-equipment-and-care-homes/home-adaptations/\">home adaptations</a></li><li><a href=\"/social-care-and-support/care-services-equipment-and-care-homes/household-gadgets-and-equipment-to-make-life-easier/\">household gadgets and equipment to make life easier</a></li><li><a href=\"/social-care-and-support/care-services-equipment-and-care-homes/personal-alarms-security-systems-and-keysafes/\">personal alarms and monitoring systems (telecare)</a> so you can call for help (for instance, if you have a fall)</li><li>housing such as <a href=\"/social-care-and-support/care-services-equipment-and-care-homes/supported-living-services/\">supported living services</a> and <a href=\"/social-care-and-support/care-services-equipment-and-care-homes/care-homes/\">care homes</a></li></ul><p>Find out about different <a href=\"/social-care-and-support/care-services-equipment-and-care-homes/\">care services, equipment and care homes</a>.</p><h2>Telephone help</h2><p>If you want advice or help by speaking to someone over the phone, you'll find lots of helpful numbers and links in our section on <a href=\"/social-care-and-support/help-from-social-services-and-charities/helplines-and-forums/\">social care telephone helplines and forums</a>.</p><h2>Getting access to social care and support</h2><p>You can arrange care and support privately, without help from your local council.</p><p>If you want the council to arrange or pay towards your care, you have to <a href=\"/social-care-and-support/help-from-social-services-and-charities/getting-a-needs-assessment/\">get a care needs assessment</a> first.</p><p>The needs assessment tells you what type of care will help you and how it'll be delivered to you.</p><p>If you have a carer, they can ask for a <a href=\"/social-care-and-support/support-and-benefits-for-carers/carer-assessments/\">carer's assessment</a>.</p><h2>Paying for social care and support</h2><p>Paying for care and support can be confusing and a worry.</p><p>For clear advice on how much care and support costs, and where you can get help with the costs, read our section on <a href=\"/social-care-and-support/money-work-and-benefits/\">money, work benefits and social care</a>.</p><p>As a general rule, if you have less than £23,250 in savings and investments (called capital), your care will be paid for partly or in full by the council. This does not include the value of your home (if you own it), but the value of your home might be included if you're moving into a care home. Read more about <a href=\"/social-care-and-support/money-work-and-benefits/when-the-council-might-pay-for-your-care/\">when the council might pay for your care</a>.</p><p>If you have more than £23,250 in savings, you'll usually be expected to <a href=\"/social-care-and-support/money-work-and-benefits/paying-for-your-own-care-self-funding/\">pay for your own care</a>.</p><p>Some services are free for everybody. They're not means tested. Read about <a href=\"/social-care-and-support/care-services-equipment-and-care-homes/care-and-support-you-can-get-for-free/\">care and support you can get for free</a>.</p><h2>Help for carers</h2><p>If you're a carer, you can find information about <a href=\"/social-care-and-support/support-and-benefits-for-carers/\">support and benefits for carers</a> and <a href=\"/social-care-and-support/caring-for-children-and-young-people/\">caring for children and young people</a>.</p><p>You probably are a carer if you're looking after someone regularly (including your spouse or a family member) because they're ill or disabled.</p><p>Popular topics include:</p><ul><li><a href=\"/social-care-and-support/support-and-benefits-for-carers/benefits-for-carers/\">benefits for carers</a></li><li><a href=\"/social-care-and-support/practical-tips-if-you-care-for-someone/\">practical tips if you care for someone</a></li><li><a href=\"/social-care-and-support/support-and-benefits-for-carers/carer-breaks-and-respite-care/\">carers' breaks and respite care</a></li><li><a href=\"/social-care-and-support/support-and-benefits-for-carers/help-for-young-carers/\">help for young carers</a></li></ul><h2>NHS care</h2><p>In some situations, social care and support is provided by the NHS instead of your local council. In these instances it's usually free and not means tested.</p><p>It includes:</p><ul><li>up to 6 weeks of <a href=\"/social-care-and-support/care-after-a-hospital-stay/care-after-illness-or-hospital-discharge-reablement/\">care after illness or hospital discharge</a>, known as reablement (this service can also be provided by local councils)</li><li>care if you have complex and serious health conditions (<a href=\"/social-care-and-support/money-work-and-benefits/nhs-continuing-healthcare/\">NHS continuing healthcare</a>)</li></ul>",
+            "@type": "WebPageElement",
+            "name": "markdown",
+            "headline": ""
+          }
+        ],
+        "description": "",
+        "hasPart": [
+          {
+            "position": 0,
+            "identifier": "1",
+            "text": "<p>This guide is for people who have care and support needs, their carers, and people who are planning for their future care needs.</p><h2>What is social care and support?</h2><p>They're services to help you if you:</p><ul><li>need practical support because of illness or disability</li><li>care for someone receiving social care and support</li></ul><p>Social care and support is usually paid for by:</p><ul><li>people who need services and their families</li><li>the local council's social services department</li></ul><p>Types of social care and support include:</p><ul><li><a href=\"/social-care-and-support/care-services-equipment-and-care-homes/homecare/\">help at home from a paid carer</a></li><li><a href=\"https://www.gov.uk/meals-home\">meals at home (meals on wheels)</a></li><li>having <a href=\"/social-care-and-support/care-services-equipment-and-care-homes/home-adaptations/\">home adaptations</a></li><li><a href=\"/social-care-and-support/care-services-equipment-and-care-homes/household-gadgets-and-equipment-to-make-life-easier/\">household gadgets and equipment to make life easier</a></li><li><a href=\"/social-care-and-support/care-services-equipment-and-care-homes/personal-alarms-security-systems-and-keysafes/\">personal alarms and monitoring systems (telecare)</a> so you can call for help (for instance, if you have a fall)</li><li>housing such as <a href=\"/social-care-and-support/care-services-equipment-and-care-homes/supported-living-services/\">supported living services</a> and <a href=\"/social-care-and-support/care-services-equipment-and-care-homes/care-homes/\">care homes</a></li></ul><p>Find out about different <a href=\"/social-care-and-support/care-services-equipment-and-care-homes/\">care services, equipment and care homes</a>.</p><h2>Telephone help</h2><p>If you want advice or help by speaking to someone over the phone, you'll find lots of helpful numbers and links in our section on <a href=\"/social-care-and-support/help-from-social-services-and-charities/helplines-and-forums/\">social care telephone helplines and forums</a>.</p><h2>Getting access to social care and support</h2><p>You can arrange care and support privately, without help from your local council.</p><p>If you want the council to arrange or pay towards your care, you have to <a href=\"/social-care-and-support/help-from-social-services-and-charities/getting-a-needs-assessment/\">get a care needs assessment</a> first.</p><p>The needs assessment tells you what type of care will help you and how it'll be delivered to you.</p><p>If you have a carer, they can ask for a <a href=\"/social-care-and-support/support-and-benefits-for-carers/carer-assessments/\">carer's assessment</a>.</p><h2>Paying for social care and support</h2><p>Paying for care and support can be confusing and a worry.</p><p>For clear advice on how much care and support costs, and where you can get help with the costs, read our section on <a href=\"/social-care-and-support/money-work-and-benefits/\">money, work benefits and social care</a>.</p><p>As a general rule, if you have less than £23,250 in savings and investments (called capital), your care will be paid for partly or in full by the council. This does not include the value of your home (if you own it), but the value of your home might be included if you're moving into a care home. Read more about <a href=\"/social-care-and-support/money-work-and-benefits/when-the-council-might-pay-for-your-care/\">when the council might pay for your care</a>.</p><p>If you have more than £23,250 in savings, you'll usually be expected to <a href=\"/social-care-and-support/money-work-and-benefits/paying-for-your-own-care-self-funding/\">pay for your own care</a>.</p><p>Some services are free for everybody. They're not means tested. Read about <a href=\"/social-care-and-support/care-services-equipment-and-care-homes/care-and-support-you-can-get-for-free/\">care and support you can get for free</a>.</p><h2>Help for carers</h2><p>If you're a carer, you can find information about <a href=\"/social-care-and-support/support-and-benefits-for-carers/\">support and benefits for carers</a> and <a href=\"/social-care-and-support/caring-for-children-and-young-people/\">caring for children and young people</a>.</p><p>You probably are a carer if you're looking after someone regularly (including your spouse or a family member) because they're ill or disabled.</p><p>Popular topics include:</p><ul><li><a href=\"/social-care-and-support/support-and-benefits-for-carers/benefits-for-carers/\">benefits for carers</a></li><li><a href=\"/social-care-and-support/practical-tips-if-you-care-for-someone/\">practical tips if you care for someone</a></li><li><a href=\"/social-care-and-support/support-and-benefits-for-carers/carer-breaks-and-respite-care/\">carers' breaks and respite care</a></li><li><a href=\"/social-care-and-support/support-and-benefits-for-carers/help-for-young-carers/\">help for young carers</a></li></ul><h2>NHS care</h2><p>In some situations, social care and support is provided by the NHS instead of your local council. In these instances it's usually free and not means tested.</p><p>It includes:</p><ul><li>up to 6 weeks of <a href=\"/social-care-and-support/care-after-a-hospital-stay/care-after-illness-or-hospital-discharge-reablement/\">care after illness or hospital discharge</a>, known as reablement (this service can also be provided by local councils)</li><li>care if you have complex and serious health conditions (<a href=\"/social-care-and-support/money-work-and-benefits/nhs-continuing-healthcare/\">NHS continuing healthcare</a>)</li></ul>",
+            "@type": "WebPageElement",
+            "name": "markdown",
+            "headline": ""
+          }
+        ]
+      }
+    ]
+  }

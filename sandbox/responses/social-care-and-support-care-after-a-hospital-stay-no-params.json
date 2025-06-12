@@ -1,0 +1,89 @@
+{
+    "@context": "http://schema.org",
+    "@type": "MedicalWebPage",
+    "name": "Care after a hospital stay",
+    "copyrightHolder": {
+      "name": "Crown Copyright",
+      "@type": "Organization"
+    },
+    "license": "https://developer.api.nhs.uk/terms",
+    "author": {
+      "url": "https://www.nhs.uk",
+      "logo": "https://assets.nhs.uk/nhsuk-cms/images/nhs-attribution.width-510.png",
+      "email": "nhswebsite.servicedesk@nhs.net",
+      "@type": "Organization",
+      "name": "NHS website"
+    },
+    "about": {
+      "@type": "WebPage",
+      "name": "Care after a hospital stay",
+      "alternateName": ""
+    },
+    "description": "Includes hospital discharge and care and support afterwards.",
+    "url": "https://api.service.nhs.uk/social-care-and-support/care-after-a-hospital-stay/",
+    "genre": [],
+    "keywords": "",
+    "dateModified": "2023-04-12T07:24:13+00:00",
+    "hasPart": [],
+    "breadcrumb": {
+      "@context": "http://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 0,
+          "item": {
+            "@id": "https://api.service.nhs.uk/social-care-and-support/",
+            "name": "Social care and support guide",
+            "genre": []
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@id": "https://api.service.nhs.uk/social-care-and-support/care-after-a-hospital-stay/",
+            "name": "Care after a hospital stay",
+            "genre": []
+          }
+        }
+      ]
+    },
+    "headline": "Care after a hospital stay",
+    "contentSubTypes": [],
+    "mainEntityOfPage": [
+      {
+        "identifier": "25",
+        "@type": "WebPageElement",
+        "name": "keylinks",
+        "headline": "",
+        "text": "",
+        "mainEntityOfPage": [
+          {
+            "@type": "WebPageElement",
+            "headline": "Planning care before you leave hospital",
+            "url": "https://api.service.nhs.uk/social-care-and-support/care-after-a-hospital-stay/arranging-care-before-you-leave-hospital/",
+            "identifier": "26",
+            "text": "",
+            "name": "link"
+          },
+          {
+            "@type": "WebPageElement",
+            "headline": "Care after illness or hospital discharge (reablement)",
+            "url": "https://api.service.nhs.uk/social-care-and-support/care-after-a-hospital-stay/care-after-illness-or-hospital-discharge-reablement/",
+            "identifier": "26",
+            "text": "",
+            "name": "link"
+          },
+          {
+            "@type": "WebPageElement",
+            "headline": "Mental health aftercare if you have been sectioned",
+            "url": "https://api.service.nhs.uk/social-care-and-support/care-after-a-hospital-stay/mental-health-aftercare/",
+            "identifier": "26",
+            "text": "",
+            "name": "link"
+          }
+        ]
+      }
+    ]
+  }

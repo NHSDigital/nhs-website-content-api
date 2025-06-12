@@ -1,0 +1,128 @@
+{
+    "@context": "http://schema.org",
+    "@type": "MedicalWebPage",
+    "name": "Social care and support guide",
+    "copyrightHolder": {
+      "name": "Crown Copyright",
+      "@type": "Organization"
+    },
+    "license": "https://developer.api.nhs.uk/terms",
+    "author": {
+      "url": "https://www.nhs.uk",
+      "logo": "https://assets.nhs.uk/nhsuk-cms/images/nhs-attribution.width-510.png",
+      "email": "nhswebsite.servicedesk@nhs.net",
+      "@type": "Organization",
+      "name": "NHS website"
+    },
+    "about": {
+      "@type": "WebPage",
+      "name": "Social care and support guide",
+      "alternateName": ""
+    },
+    "description": "If you or someone you know needs help with day-to-day living because of illness or disability, this website explains your options and where you can get support.",
+    "url": "https://api.service.nhs.uk/social-care-and-support/",
+    "genre": [],
+    "keywords": "",
+    "dateModified": "2025-04-15T12:09:56+00:00",
+    "hasPart": [],
+    "breadcrumb": {
+      "@context": "http://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 0,
+          "item": {
+            "@id": "https://api.service.nhs.uk/social-care-and-support/",
+            "name": "Social care and support guide",
+            "genre": []
+          }
+        }
+      ]
+    },
+    "headline": "Social care and support guide",
+    "contentSubTypes": [],
+    "mainEntityOfPage": [
+      {
+        "identifier": "24",
+        "@type": "WebPageElement",
+        "name": "canonicallinks",
+        "headline": "",
+        "text": "",
+        "mainEntityOfPage": [
+          {
+            "@type": "WebPageElement",
+            "headline": "Introduction to care and support",
+            "url": "https://api.service.nhs.uk/social-care-and-support/introduction-to-care-and-support/",
+            "identifier": "26",
+            "text": "<p>A quick guide for people who have care and support needs and their carers</p>",
+            "name": "link"
+          },
+          {
+            "@type": "WebPageElement",
+            "headline": "Help from social services and charities",
+            "url": "https://api.service.nhs.uk/social-care-and-support/help-from-social-services-and-charities/",
+            "identifier": "26",
+            "text": "<p>Includes helplines, needs assessments, advocacy and reporting abuse</p>",
+            "name": "link"
+          },
+          {
+            "@type": "WebPageElement",
+            "headline": "Care services, equipment and care homes",
+            "url": "https://api.service.nhs.uk/social-care-and-support/care-services-equipment-and-care-homes/",
+            "identifier": "26",
+            "text": "<p>Includes home adaptations, help at home from a paid carer, staying safe and housing</p>",
+            "name": "link"
+          },
+          {
+            "@type": "WebPageElement",
+            "headline": "Money, work and benefits",
+            "url": "https://api.service.nhs.uk/social-care-and-support/money-work-and-benefits/",
+            "identifier": "26",
+            "text": "<p>How to pay for care and support, and where you can get help with costs</p>",
+            "name": "link"
+          },
+          {
+            "@type": "WebPageElement",
+            "headline": "Care after a hospital stay",
+            "url": "https://api.service.nhs.uk/social-care-and-support/care-after-a-hospital-stay/",
+            "identifier": "26",
+            "text": "<p>Includes hospital discharge and care and support afterwards</p>",
+            "name": "link"
+          },
+          {
+            "@type": "WebPageElement",
+            "headline": "Support and benefits for carers",
+            "url": "https://api.service.nhs.uk/social-care-and-support/support-and-benefits-for-carers/",
+            "identifier": "26",
+            "text": "<p>Includes carer&#x27;s assessments, support from local councils, respite care and help for young carers</p>",
+            "name": "link"
+          },
+          {
+            "@type": "WebPageElement",
+            "headline": "Practical tips if you care for someone",
+            "url": "https://api.service.nhs.uk/social-care-and-support/practical-tips-if-you-care-for-someone/",
+            "identifier": "26",
+            "text": "<p>Includes advice on challenging behaviour, moving and lifting people and medicines</p>",
+            "name": "link"
+          },
+          {
+            "@type": "WebPageElement",
+            "headline": "Caring for children and young people",
+            "url": "https://api.service.nhs.uk/social-care-and-support/caring-for-children-and-young-people/",
+            "identifier": "26",
+            "text": "<p>Services, support and tips if you care for someone under 21, and moving to adult social services</p>",
+            "name": "link"
+          },
+          {
+            "@type": "WebPageElement",
+            "headline": "Making decisions for someone else",
+            "url": "https://api.service.nhs.uk/social-care-and-support/making-decisions-for-someone-else/",
+            "identifier": "26",
+            "text": "<p>Includes powers of attorney and mental capacity</p>",
+            "name": "link"
+          }
+        ]
+      }
+    ]
+  }
