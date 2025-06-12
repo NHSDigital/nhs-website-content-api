@@ -225,6 +225,22 @@ app.all('/symptoms/', handlers.symptomsRoot)
 // ******************************************************************
 app.all('/tests-and-treatments/', handlers.testsAndTreatmentsRoot)
 
+// ******************************************************************
+// ** Health A to Z
+// ******************************************************************
+app.all('/health-a-to-z/', handlers.healthAToZRoot)
+app.all('/health-a-to-z/common-topics/', handlers.healthAToZCommonTopics)
+
+// ******************************************************************
+// ** Baby
+// ******************************************************************
+app.all('/baby/', handlers.babyRoot)
+
+// ******************************************************************
+// ** Social care and support
+// ******************************************************************
+app.all('/social-care-and-support/', handlers.socialCareAndSupportRoot)
+
 app.use((req, res, next) => {
   res.status(404).json(errorResourceNotFoundResponse)
 })
