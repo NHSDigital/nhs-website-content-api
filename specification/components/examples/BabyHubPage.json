@@ -1,0 +1,128 @@
+{
+    "@context": "http://schema.org",
+    "@type": "MedicalWebPage",
+    "name": "Baby",
+    "copyrightHolder": {
+      "name": "Crown Copyright",
+      "@type": "Organization"
+    },
+    "license": "https://developer.api.nhs.uk/terms",
+    "author": {
+      "url": "https://www.nhs.uk",
+      "logo": "https://assets.nhs.uk/nhsuk-cms/images/nhs-attribution.width-510.png",
+      "email": "nhswebsite.servicedesk@nhs.net",
+      "@type": "Organization",
+      "name": "NHS website"
+    },
+    "about": {
+      "@type": "WebPage",
+      "name": "Baby",
+      "alternateName": ""
+    },
+    "description": "This guide includes everything you need to know about caring for a baby.",
+    "url": "https://api.service.nhs.uk/baby/",
+    "genre": [],
+    "keywords": "",
+    "dateModified": "2025-04-16T12:30:54+00:00",
+    "hasPart": [],
+    "breadcrumb": {
+      "@context": "http://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 0,
+          "item": {
+            "@id": "https://api.service.nhs.uk/baby/",
+            "name": "Baby",
+            "genre": []
+          }
+        }
+      ]
+    },
+    "headline": "Baby",
+    "contentSubTypes": [],
+    "mainEntityOfPage": [
+      {
+        "identifier": "24",
+        "@type": "WebPageElement",
+        "name": "canonicallinks",
+        "headline": "",
+        "text": "",
+        "mainEntityOfPage": [
+          {
+            "@type": "WebPageElement",
+            "headline": "Caring for a newborn baby",
+            "url": "https://api.service.nhs.uk/baby/caring-for-a-newborn/",
+            "identifier": "26",
+            "text": "<p>How to look after a newborn baby in those first few days (0 to 12 weeks)</p>",
+            "name": "link"
+          },
+          {
+            "@type": "WebPageElement",
+            "headline": "Support and services",
+            "url": "https://api.service.nhs.uk/baby/support-and-services/",
+            "identifier": "26",
+            "text": "<p>How to keep well after having a baby and where to get support</p>",
+            "name": "link"
+          },
+          {
+            "@type": "WebPageElement",
+            "headline": "Breastfeeding and bottle feeding advice",
+            "url": "https://api.service.nhs.uk/baby/breastfeeding-and-bottle-feeding/",
+            "identifier": "26",
+            "text": "<p>How to breastfeed and bottle feed</p>",
+            "name": "link"
+          },
+          {
+            "@type": "WebPageElement",
+            "headline": "Newborn screening",
+            "url": "https://api.service.nhs.uk/baby/newborn-screening/",
+            "identifier": "26",
+            "text": "<p>Find out what screening tests your newborn baby will be offered</p>",
+            "name": "link"
+          },
+          {
+            "@type": "WebPageElement",
+            "headline": "Newborn twins and multiples",
+            "url": "https://api.service.nhs.uk/baby/newborn-twins-and-multiples/",
+            "identifier": "26",
+            "text": "<p>Help with raising newborn twins and multiples including feeding advice</p>",
+            "name": "link"
+          },
+          {
+            "@type": "WebPageElement",
+            "headline": "Health",
+            "url": "https://api.service.nhs.uk/baby/health/",
+            "identifier": "26",
+            "text": "<p>What to do if your child needs medical help and vaccination guidance</p>",
+            "name": "link"
+          },
+          {
+            "@type": "WebPageElement",
+            "headline": "First aid and safety",
+            "url": "https://api.service.nhs.uk/baby/first-aid-and-safety/",
+            "identifier": "26",
+            "text": "<p>What do if your child has an accident and the latest safety advice</p>",
+            "name": "link"
+          },
+          {
+            "@type": "WebPageElement",
+            "headline": "Baby's development",
+            "url": "https://api.service.nhs.uk/baby/babys-development/",
+            "identifier": "26",
+            "text": "<p>Read about baby reviews, teething, potty training, learning and behaviour</p>",
+            "name": "link"
+          },
+          {
+            "@type": "WebPageElement",
+            "headline": "Weaning and feeding",
+            "url": "https://api.service.nhs.uk/baby/weaning-and-feeding/",
+            "identifier": "26",
+            "text": "<p>How to move on to solid foods and drinks, meal ideas and food safety</p>",
+            "name": "link"
+          }
+        ]
+      }
+    ]
+  }
