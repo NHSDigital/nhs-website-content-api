@@ -10,11 +10,11 @@ info:
 
     Before April 2025, the Conditions A to Z contained a broad mix of content including conditions, symptoms, tests, treatments, and baby-related information. This has been reorganized into a new Health A to Z hub with content logically grouped into dedicated sections.
 
-    The April 2025 update introduces new endpoints for 'health-a-to-z', 'health-a-to-z/common-topics', 'symptoms', 'tests-and-treatments', 'baby' and 'social-care-and-support' that reflect the reallocation of these pages to new A to Z pages on the website.
+    The April 2025 update introduces new endpoints for 'health-a-to-z', 'health-a-to-z/conditions', 'symptoms', 'tests-and-treatments', 'baby' and 'social-care-and-support' that reflect the reallocation of these pages to new A to Z pages on the website.
 
     You can reuse the content from the following sections of the NHS website:
       * Health A to Z ([Website](https://www.nhs.uk/health-a-to-z/) | [API](https://digital.nhs.uk/developer/api-catalogue/nhs-website-content/v2#get-/health-a-to-z))
-      * Health A to Z - Common topics ([Website](https://www.nhs.uk/health-a-to-z/common-topics/) | [API](https://digital.nhs.uk/developer/api-catalogue/nhs-website-content/v2#get-/health-a-to-z/common-topics))
+      * Health A to Z - Common topics ([Website](https://www.nhs.uk/health-a-to-z/conditions/) | [API](https://digital.nhs.uk/developer/api-catalogue/nhs-website-content/v2#get-/health-a-to-z/conditions))
       * Conditions A to Z ([Website](https://www.nhs.uk/conditions/) | [API](https://digital.nhs.uk/developer/api-catalogue/nhs-website-content/v2#get-/conditions))
       * Symptoms A to Z ([Website](https://www.nhs.uk/symptoms/) | [API](https://digital.nhs.uk/developer/api-catalogue/nhs-website-content/v2#get-/symptoms))
       * Tests and treatments A to Z ([Website](https://www.nhs.uk/tests-and-treatments/) | [API](https://digital.nhs.uk/developer/api-catalogue/nhs-website-content/v2#get-/tests-and-treatments))
@@ -1091,7 +1091,7 @@ paths:
       responses:
         "200":
           description: |
-            A valid query for the baby hub.
+            A valid query for the social care and support guide hub.
           content:
             application/json:
               schema:

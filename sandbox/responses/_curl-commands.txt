@@ -24,6 +24,12 @@ curl -X GET 'https://api.service.nhs.uk/nhs-website-content/symptoms/' -H 'apike
 
 curl -X GET 'https://api.service.nhs.uk/nhs-website-content/tests-and-treatments/' -H 'apikey: Oq5LuCPc5X69KFlIw6P7TVYrrJHSceX8' >> ./responses/tests-and-treatments-root-no-params.json
 
+curl -X GET 'https://api.service.nhs.uk/nhs-website-content/health-a-to-z/' -H 'apikey: Oq5LuCPc5X69KFlIw6P7TVYrrJHSceX8' >> ./responses/health-a-to-z-root-no-params.json
+
+curl -X GET 'https://api.service.nhs.uk/nhs-website-content/baby/' -H 'apikey: Oq5LuCPc5X69KFlIw6P7TVYrrJHSceX8' >> ./responses/baby-root-no-params.json
+
+curl -X GET 'https://api.service.nhs.uk/nhs-website-content/social-care-and-support/' -H 'apikey: Oq5LuCPc5X69KFlIw6P7TVYrrJHSceX8' >> ./responses/social-care-and-support-root-no-params.json
+
 
 *****************************************************************************************************************
 ** Manifest pages                                                                                            **
@@ -34,6 +40,17 @@ curl -X GET 'https://api.service.nhs.uk/nhs-website-content/manifest/pages/' -H 
 curl -X GET 'https://api.service.nhs.uk/nhs-website-content/manifest/pages/?page=1' -H 'apikey: Oq5LuCPc5X69KFlIw6P7TVYrrJHSceX8' >> ./responses/manifest-pages-root-page-1.json
 
 curl -X GET 'https://api.service.nhs.uk/nhs-website-content/manifest/pages/?page=2' -H 'apikey: Oq5LuCPc5X69KFlIw6P7TVYrrJHSceX8' >> ./responses/manifest-pages-root-page-2.json
+
+
+*****************************************************************************************************************
+** Baby pages                                                                                            **
+*****************************************************************************************************************
+
+curl -X GET 'https://api.service.nhs.uk/nhs-website-content/baby/first-aid-and-safety/' -H 'apikey: Oq5LuCPc5X69KFlIw6P7TVYrrJHSceX8' >> ./responses/baby-first-aid-and-safety-no-params.json
+
+curl -X GET 'https://api.service.nhs.uk/nhs-website-content/baby/support-and-services/' -H 'apikey: Oq5LuCPc5X69KFlIw6P7TVYrrJHSceX8' >> ./responses/baby-support-and-services-no-params.json
+
+curl -X GET 'https://api.service.nhs.uk/nhs-website-content/baby/caring-for-a-newborn/' -H 'apikey: Oq5LuCPc5X69KFlIw6P7TVYrrJHSceX8' >> ./responses/baby-caring-for-a-newborn-no-params.json
 
 
 *****************************************************************************************************************
@@ -191,3 +208,21 @@ curl -X GET 'https://api.service.nhs.uk/nhs-website-content/tests-and-treatments
 curl -X GET 'https://api.service.nhs.uk/nhs-website-content/tests-and-treatments/?page=1' -H 'apikey: Oq5LuCPc5X69KFlIw6P7TVYrrJHSceX8' >> ./responses/tests-and-treatments-root-page-1.json
 
 curl -X GET 'https://api.service.nhs.uk/nhs-website-content/tests-and-treatments/?page=7' -H 'apikey: Oq5LuCPc5X69KFlIw6P7TVYrrJHSceX8' >> ./responses/tests-and-treatments-root-page-7.json
+
+
+*****************************************************************************************************************
+** Health A to Z: Common conditions                                                                            **
+*****************************************************************************************************************
+
+curl -X GET 'https://api.service.nhs.uk/nhs-website-content/health-a-to-z/conditions/' -H 'apikey: Oq5LuCPc5X69KFlIw6P7TVYrrJHSceX8' >> ./responses/health-a-to-z-conditions-no-params.json
+
+
+*****************************************************************************************************************
+** Social care and support pages                                                                               **
+*****************************************************************************************************************
+
+curl -X GET 'https://api.service.nhs.uk/nhs-website-content/social-care-and-support/introduction-to-care-and-support/' -H 'apikey: Oq5LuCPc5X69KFlIw6P7TVYrrJHSceX8' >> ./responses/social-care-and-support-introduction-to-care-and-support-no-params.json
+
+curl -X GET 'https://api.service.nhs.uk/nhs-website-content/social-care-and-support/money-work-and-benefits/' -H 'apikey: Oq5LuCPc5X69KFlIw6P7TVYrrJHSceX8' >> ./responses/social-care-and-support-money-work-and-benefits-no-params.json
+
+curl -X GET 'https://api.service.nhs.uk/nhs-website-content/social-care-and-support/care-after-a-hospital-stay/' -H 'apikey: Oq5LuCPc5X69KFlIw6P7TVYrrJHSceX8' >> ./responses/social-care-and-support-care-after-a-hospital-stay-no-params.json

@@ -229,7 +229,7 @@ app.all('/tests-and-treatments/', handlers.testsAndTreatmentsRoot)
 // ** Health A to Z
 // ******************************************************************
 app.all('/health-a-to-z/', handlers.healthAToZRoot)
-app.all('/health-a-to-z/common-topics/', handlers.healthAToZCommonTopics)
+app.all('/health-a-to-z/conditions/', handlers.healthAToZConditions)
 
 // ******************************************************************
 // ** Baby
