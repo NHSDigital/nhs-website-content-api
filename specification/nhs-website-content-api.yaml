@@ -239,7 +239,7 @@ info:
 
     <div class="nhsd-m-expander" style="margin-bottom: 1rem;">
       <details>
-        <summary class="nhsd-m-expander__heading-container" aria-label="The sandbox environment includes the following 48 mocked endpoints" >
+        <summary class="nhsd-m-expander__heading-container" aria-label="The sandbox environment includes the following 77 mocked endpoints" >
           <div>
             <span class="nhsd-m-expander__icon nhsd-!t-margin-right-1">
               <span class="nhsd-a-icon nhsd-a-icon--size-xs" style="margin: 0;">
@@ -248,7 +248,7 @@ info:
                 </svg>
               </span>
             </span>
-            <p class="nhsd-m-expander__heading nhsd-t-body">The sandbox environment includes the following 67 mocked endpoints</p>
+            <p class="nhsd-m-expander__heading nhsd-t-body">The sandbox environment includes the following 77 mocked endpoints</p>
           </div>
         </summary>
         <div class="nhsd-m-expander__content-container">
@@ -268,7 +268,7 @@ info:
           </ul>
           <h4>Conditions A to Z - Common topics</h4>
           <ul>
-            <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/health-a-to-z/" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/health-a-to-z/</a></li>
+            <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/health-a-to-z/conditions/" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/health-a-to-z/conditions/</a></li>
           </ul>
           <h4>Conditions (Health A to Z)</h4>
           <ul>
@@ -365,6 +365,20 @@ info:
             <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/womens-health/" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/womens-health/</a></li>
             <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/womens-health/periods/" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/womens-health/periods/</a></li>
             <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/womens-health/anaemia/" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/womens-health/anaemia/</a></li>
+          </ul>
+          <h4>Social care and support</h4>
+          <ul>
+            <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/social-care-and-support/" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/social-care-and-support/</a></li>
+            <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/social-care-and-support/introduction-to-care-and-support/" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/social-care-and-support/introduction-to-care-and-support/</a></li>
+            <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/social-care-and-support/money-work-and-benefits/" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/social-care-and-support/money-work-and-benefits/</a></li>
+            <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/social-care-and-support/care-after-a-hospital-stay/" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/social-care-and-support/care-after-a-hospital-stay/</a></li>
+          </ul>
+          <h4>Baby</h4>
+          <ul>
+            <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/baby/" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/baby/</a></li>
+            <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/baby/caring-for-a-newborn/" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/baby/caring-for-a-newborn/</a></li>
+            <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/baby/support-and-services/" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/baby/support-and-services/</a></li>
+            <li><a href="https://sandbox.api.service.nhs.uk/nhs-website-content/baby/first-aid-and-safety/" target="_blank">https://sandbox.api.service.nhs.uk/nhs-website-content/baby/first-aid-and-safety/</a></li>
           </ul>
         </div>
       </details>
