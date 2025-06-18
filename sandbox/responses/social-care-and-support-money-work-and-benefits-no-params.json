@@ -1,0 +1,129 @@
+{
+    "@context": "http://schema.org",
+    "@type": "MedicalWebPage",
+    "name": "Money, work, benefits and social care",
+    "copyrightHolder": {
+      "name": "Crown Copyright",
+      "@type": "Organization"
+    },
+    "license": "https://developer.api.nhs.uk/terms",
+    "author": {
+      "url": "https://www.nhs.uk",
+      "logo": "https://assets.nhs.uk/nhsuk-cms/images/nhs-attribution.width-510.png",
+      "email": "nhswebsite.servicedesk@nhs.net",
+      "@type": "Organization",
+      "name": "NHS website"
+    },
+    "about": {
+      "@type": "WebPage",
+      "name": "Money, work, benefits and social care",
+      "alternateName": ""
+    },
+    "description": "How to pay for care and support, and where you can get help with costs.",
+    "url": "https://api.service.nhs.uk/social-care-and-support/money-work-and-benefits/",
+    "genre": [],
+    "keywords": "",
+    "dateModified": "2023-04-12T07:23:16+00:00",
+    "hasPart": [],
+    "breadcrumb": {
+      "@context": "http://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 0,
+          "item": {
+            "@id": "https://api.service.nhs.uk/social-care-and-support/",
+            "name": "Social care and support guide",
+            "genre": []
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@id": "https://api.service.nhs.uk/social-care-and-support/money-work-and-benefits/",
+            "name": "Money, work, benefits and social care",
+            "genre": []
+          }
+        }
+      ]
+    },
+    "headline": "Money, work, benefits and social care",
+    "contentSubTypes": [],
+    "mainEntityOfPage": [
+      {
+        "identifier": "25",
+        "@type": "WebPageElement",
+        "name": "keylinks",
+        "headline": "",
+        "text": "",
+        "mainEntityOfPage": [
+          {
+            "@type": "WebPageElement",
+            "headline": "Paying for your own care (self-funding)",
+            "url": "https://api.service.nhs.uk/social-care-and-support/money-work-and-benefits/paying-for-your-own-care-self-funding/",
+            "identifier": "26",
+            "text": "",
+            "name": "link"
+          },
+          {
+            "@type": "WebPageElement",
+            "headline": "When the council might pay for your care",
+            "url": "https://api.service.nhs.uk/social-care-and-support/money-work-and-benefits/when-the-council-might-pay-for-your-care/",
+            "identifier": "26",
+            "text": "",
+            "name": "link"
+          },
+          {
+            "@type": "WebPageElement",
+            "headline": "Work and disability",
+            "url": "https://api.service.nhs.uk/social-care-and-support/money-work-and-benefits/work-and-disability/",
+            "identifier": "26",
+            "text": "",
+            "name": "link"
+          },
+          {
+            "@type": "WebPageElement",
+            "headline": "Personal budgets and direct payments",
+            "url": "https://api.service.nhs.uk/social-care-and-support/money-work-and-benefits/personal-budgets/",
+            "identifier": "26",
+            "text": "",
+            "name": "link"
+          },
+          {
+            "@type": "WebPageElement",
+            "headline": "NHS continuing healthcare",
+            "url": "https://api.service.nhs.uk/social-care-and-support/money-work-and-benefits/nhs-continuing-healthcare/",
+            "identifier": "26",
+            "text": "",
+            "name": "link"
+          },
+          {
+            "@type": "WebPageElement",
+            "headline": "NHS-funded nursing care",
+            "url": "https://api.service.nhs.uk/social-care-and-support/money-work-and-benefits/nhs-funded-nursing-care/",
+            "identifier": "26",
+            "text": "",
+            "name": "link"
+          },
+          {
+            "@type": "WebPageElement",
+            "headline": "Benefits if you're under State Pension age",
+            "url": "https://api.service.nhs.uk/social-care-and-support/money-work-and-benefits/benefits-if-you-are-under-state-pension-age/",
+            "identifier": "26",
+            "text": "",
+            "name": "link"
+          },
+          {
+            "@type": "WebPageElement",
+            "headline": "Benefits if you're over State Pension age",
+            "url": "https://api.service.nhs.uk/social-care-and-support/money-work-and-benefits/benefits-if-you-are-over-state-pension-age/",
+            "identifier": "26",
+            "text": "",
+            "name": "link"
+          }
+        ]
+      }
+    ]
+  }

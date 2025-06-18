@@ -1,0 +1,81 @@
+{
+    "@context": "http://schema.org",
+    "@type": "MedicalWebPage",
+    "name": "First aid and safety",
+    "copyrightHolder": {
+      "name": "Crown Copyright",
+      "@type": "Organization"
+    },
+    "license": "https://developer.api.nhs.uk/terms",
+    "author": {
+      "url": "https://www.nhs.uk",
+      "logo": "https://assets.nhs.uk/nhsuk-cms/images/nhs-attribution.width-510.png",
+      "email": "nhswebsite.servicedesk@nhs.net",
+      "@type": "Organization",
+      "name": "NHS website"
+    },
+    "about": {
+      "@type": "WebPage",
+      "name": "First aid and safety",
+      "alternateName": ""
+    },
+    "description": "What do if your child has an accident and the latest safety advice.",
+    "url": "https://api.service.nhs.uk/baby/first-aid-and-safety/",
+    "genre": [],
+    "keywords": "",
+    "dateModified": "2021-11-18T16:12:32+00:00",
+    "hasPart": [],
+    "breadcrumb": {
+      "@context": "http://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 0,
+          "item": {
+            "@id": "https://api.service.nhs.uk/baby/",
+            "name": "Baby",
+            "genre": []
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@id": "https://api.service.nhs.uk/baby/first-aid-and-safety/",
+            "name": "First aid and safety",
+            "genre": []
+          }
+        }
+      ]
+    },
+    "headline": "First aid and safety",
+    "contentSubTypes": [],
+    "mainEntityOfPage": [
+      {
+        "identifier": "24",
+        "@type": "WebPageElement",
+        "name": "canonicallinks",
+        "headline": "",
+        "text": "",
+        "mainEntityOfPage": [
+          {
+            "@type": "WebPageElement",
+            "headline": "First aid",
+            "url": "https://api.service.nhs.uk/baby/first-aid-and-safety/first-aid/",
+            "identifier": "26",
+            "text": "<p>Learn how to stop a baby choking and what to do if they have an accident</p>",
+            "name": "link"
+          },
+          {
+            "@type": "WebPageElement",
+            "headline": "Safety",
+            "url": "https://api.service.nhs.uk/baby/first-aid-and-safety/safety/",
+            "identifier": "26",
+            "text": "<p>The latest safety advice including tips on buying car seats and sun safety</p>",
+            "name": "link"
+          }
+        ]
+      }
+    ]
+  }

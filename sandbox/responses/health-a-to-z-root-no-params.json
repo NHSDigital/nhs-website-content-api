@@ -1,0 +1,137 @@
+{
+  "@context": "http://schema.org",
+  "@type": "MedicalWebPage",
+  "name": "Health A to Z",
+  "copyrightHolder": {
+    "name": "Crown Copyright",
+    "@type": "Organization"
+  },
+  "license": "https://developer.api.nhs.uk/terms",
+  "author": {
+    "url": "https://www.nhs.uk",
+    "logo": "https://assets.nhs.uk/nhsuk-cms/images/nhs-attribution.width-510.png",
+    "email": "nhswebsite.servicedesk@nhs.net",
+    "@type": "Organization",
+    "name": "NHS website"
+  },
+  "about": {
+    "@type": "WebPage",
+    "name": "Health A to Z",
+    "alternateName": ""
+  },
+  "description": "Find out about conditions, symptoms, medicines, tests and treatments, including what to do and when to get help.",
+  "url": "https://api.service.nhs.uk/health-a-to-z/",
+  "genre": [],
+  "keywords": "",
+  "dateModified": "2025-04-16T13:51:18+00:00",
+  "hasPart": [],
+  "breadcrumb": {
+    "@context": "http://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 0,
+        "item": {
+          "@id": "https://api.service.nhs.uk/health-a-to-z/",
+          "name": "Health A to Z",
+          "genre": []
+        }
+      }
+    ]
+  },
+  "headline": "Health A to Z",
+  "contentSubTypes": [],
+  "mainEntityOfPage": [
+    {
+      "identifier": "24",
+      "@type": "WebPageElement",
+      "name": "canonicallinks",
+      "headline": "",
+      "text": "",
+      "mainEntityOfPage": [
+        {
+          "@type": "WebPageElement",
+          "headline": "Conditions A to Z",
+          "url": "https://api.service.nhs.uk/health-a-to-z/conditions/",
+          "identifier": "26",
+          "text": "<p>Find health conditions, including the symptoms and how they're treated</p>",
+          "name": "link"
+        },
+        {
+          "@type": "WebPageElement",
+          "headline": "Symptoms A to Z",
+          "url": "https://api.service.nhs.uk/symptoms/",
+          "identifier": "26",
+          "text": "<p>Find symptoms such as types of pain, stomach problems or skin symptoms, and what to do</p>",
+          "name": "link"
+        },
+        {
+          "@type": "WebPageElement",
+          "headline": "Tests and treatments A to Z",
+          "url": "https://api.service.nhs.uk/tests-and-treatments/",
+          "identifier": "26",
+          "text": "<p>Find out about surgery and procedures, tests, screening and other treatments</p>",
+          "name": "link"
+        },
+        {
+          "@type": "WebPageElement",
+          "headline": "Medicines A to Z",
+          "url": "https://api.service.nhs.uk/medicines/",
+          "identifier": "26",
+          "text": "<p>Find out how your medicine works, how to take it and possible side effects</p>",
+          "name": "link"
+        }
+      ]
+    },
+    {
+      "identifier": "24",
+      "@type": "WebPageElement",
+      "name": "secondarycanonicallinks",
+      "headline": "",
+      "text": "",
+      "mainEntityOfPage": [
+        {
+          "@type": "WebPageElement",
+          "headline": "Baby",
+          "url": "https://api.service.nhs.uk/baby/",
+          "identifier": "26",
+          "text": "<p>Find out about caring for a baby</p>",
+          "name": "link"
+        },
+        {
+          "@type": "WebPageElement",
+          "headline": "Contraception",
+          "url": "https://api.service.nhs.uk/contraception/",
+          "identifier": "26",
+          "text": "<p>Find out about types of contraception, and where to get them</p>",
+          "name": "link"
+        },
+        {
+          "@type": "WebPageElement",
+          "headline": "Mental health",
+          "url": "https://api.service.nhs.uk/mental-health/",
+          "identifier": "26",
+          "text": "<p>Find information and support for your mental health</p>",
+          "name": "link"
+        },
+        {
+          "@type": "WebPageElement",
+          "headline": "Pregnancy",
+          "url": "https://api.service.nhs.uk/pregnancy/",
+          "identifier": "26",
+          "text": "<p>Find out about trying for a baby, pregnancy, labour and birth</p>",
+          "name": "link"
+        },
+        {
+          "@type": "WebPageElement",
+          "headline": "Vaccinations",
+          "url": "https://api.service.nhs.uk/vaccinations/",
+          "identifier": "26",
+          "text": "<p>Find out about vaccinations for babies, children and adults</p>",
+          "name": "link"
+        }
+      ]
+    }
+  ]
+} 

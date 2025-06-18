@@ -225,6 +225,30 @@ app.all('/symptoms/', handlers.symptomsRoot)
 // ******************************************************************
 app.all('/tests-and-treatments/', handlers.testsAndTreatmentsRoot)
 
+// ******************************************************************
+// ** Health A to Z
+// ******************************************************************
+app.all('/health-a-to-z/', handlers.healthAToZRoot)
+app.all('/health-a-to-z/conditions/', handlers.healthAToZConditions)
+
+// ******************************************************************
+// ** Baby
+// ******************************************************************
+app.all('/baby/', handlers.babyRoot)
+app.all('/baby/first-aid-and-safety/', handlers.babyFirstAidAndSafety)
+app.all('/baby/support-and-services/', handlers.babySupportAndServices)
+app.all('/baby/caring-for-a-newborn/', handlers.babyCaringForANewborn)
+
+
+// ******************************************************************
+// ** Social care and support
+// ******************************************************************
+app.all('/social-care-and-support/', handlers.socialCareAndSupportRoot)
+app.all('/social-care-and-support/introduction-to-care-and-support/', handlers.socialCareAndSupportIntroductionToCareAndSupport)
+app.all('/social-care-and-support/money-work-and-benefits/', handlers.socialCareAndSupportMoneyWorkAndBenefits)
+app.all('/social-care-and-support/care-after-a-hospital-stay/', handlers.socialCareAndSupportCareAfterAHospitalStay)
+
+
 app.use((req, res, next) => {
   res.status(404).json(errorResourceNotFoundResponse)
 })

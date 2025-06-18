@@ -99,6 +99,22 @@ const testsAndTreatmentsRootCategoryBResponse = require('./responses/tests-and-t
 const testsAndTreatmentsRootPage1Response = require('./responses/tests-and-treatments-root-page-1.json')
 const testsAndTreatmentsRootPage7Response = require('./responses/tests-and-treatments-root-page-7.json')
 
+// Health A to Z - Responses
+const healthAToZRootNoParamsResponse = require('./responses/health-a-to-z-root-no-params.json')
+const healthAToZConditionsNoParamsResponse = require('./responses/health-a-to-z-conditions-no-params.json')
+
+// Baby - Responses
+const babyRootNoParamsResponse = require('./responses/baby-root-no-params.json')
+const babyFirstAidAndSafetyNoParamsResponse = require('./responses/baby-first-aid-and-safety-no-params.json')
+const babySupportAndServicesNoParamsResponse = require('./responses/baby-support-and-services-no-params.json')
+const babyCaringForANewbornNoParamsResponse = require('./responses/baby-caring-for-a-newborn-no-params.json')
+
+// Social care and support - Responses
+const socialCareAndSupportRootNoParamsResponse = require('./responses/social-care-and-support-root-no-params.json')
+const socialCareAndSupportIntroductionToCareAndSupportNoParamsResponse = require('./responses/social-care-and-support-introduction-to-care-and-support-no-params.json')
+const socialCareAndSupportMoneyWorkAndBenefitsNoParamsResponse = require('./responses/social-care-and-support-money-work-and-benefits-no-params.json')
+const socialCareAndSupportCareAfterAHospitalStayNoParamsResponse = require('./responses/social-care-and-support-care-after-a-hospital-stay-no-params.json')
+
 // ******************************************************************
 // ** Root page
 // ******************************************************************
@@ -1218,6 +1234,139 @@ async function testsAndTreatmentsRoot(req, res, next) {
   next()
 }
 
+
+// ******************************************************************
+// ** Health A to Z
+// ******************************************************************
+
+// Live website URL
+// https://www.nhs.uk/health-a-to-z/
+// This sandbox on localhost
+// http://localhost:9000/health-a-to-z/
+// API on Azure API Management
+// https://api.nhs.uk/health-a-to-z/
+// Wagtail (Python) Application (no auth key required)
+// https://www.nhs.uk/content-api/health-a-to-z/
+// Apigee Sandbox environment (no auth key required)
+// https://sandbox.api.service.nhs.uk/nhs-website-content/health-a-to-z/
+// Apigee Integration environment ('apikey' required in Header)
+// https://int.api.service.nhs.uk/nhs-website-content/health-a-to-z/
+// Apigee Production environment ('apikey' required in Header)
+// https://api.service.nhs.uk/nhs-website-content/health-a-to-z/
+async function healthAToZRoot(req, res, next) {
+  res.status(200).json(healthAToZRootNoParamsResponse)
+  res.end()
+  next()
+}
+
+// ******************************************************************
+// ** Health A to Z - Conditions
+// ******************************************************************
+
+// Live website URL
+// https://www.nhs.uk/health-a-to-z/conditions/
+// This sandbox on localhost
+// http://localhost:9000/health-a-to-z/conditions/
+// API on Azure API Management
+// https://api.nhs.uk/health-a-to-z/conditions/
+// Wagtail (Python) Application (no auth key required)
+// https://www.nhs.uk/content-api/health-a-to-z/conditions/
+// Apigee Sandbox environment (no auth key required)
+// https://sandbox.api.service.nhs.uk/nhs-website-content/health-a-to-z/conditions/
+// Apigee Integration environment ('apikey' required in Header)
+// https://int.api.service.nhs.uk/nhs-website-content/health-a-to-z/conditions/
+// Apigee Production environment ('apikey' required in Header)
+// https://api.service.nhs.uk/nhs-website-content/health-a-to-z/conditions/
+async function healthAToZConditions(req, res, next) {
+  res.status(200).json(healthAToZConditionsNoParamsResponse)
+  res.end()
+  next()
+}
+
+// ******************************************************************
+// ** Baby
+// ******************************************************************
+
+// Live website URL
+// https://www.nhs.uk/baby/
+// This sandbox on localhost
+// http://localhost:9000/baby/
+// API on Azure API Management
+// https://api.nhs.uk/baby/
+// Wagtail (Python) Application (no auth key required)
+// https://www.nhs.uk/content-api/baby/
+// Apigee Sandbox environment (no auth key required)
+// https://sandbox.api.service.nhs.uk/nhs-website-content/baby/
+// Apigee Integration environment ('apikey' required in Header)
+// https://int.api.service.nhs.uk/nhs-website-content/baby/
+// Apigee Production environment ('apikey' required in Header)
+// https://api.service.nhs.uk/nhs-website-content/baby/
+async function babyRoot(req, res, next) {
+  res.status(200).json(babyRootNoParamsResponse)
+  res.end()
+  next()
+}
+
+// Live website URL
+// https://www.nhs.uk/baby/first-aid-and-safety/
+// This sandbox on localhost
+// http://localhost:9000/baby/first-aid-and-safety/
+// API on Azure API Management
+// https://api.nhs.uk/baby/first-aid-and-safety/
+// Wagtail (Python) Application (no auth key required)
+// https://www.nhs.uk/content-api/baby/first-aid-and-safety/
+// Apigee Sandbox environment (no auth key required)
+// https://sandbox.api.service.nhs.uk/nhs-website-content/baby/first-aid-and-safety/
+// Apigee Integration environment ('apikey' required in Header)
+// https://int.api.service.nhs.uk/nhs-website-content/baby/first-aid-and-safety/
+// Apigee Production environment ('apikey' required in Header)
+// https://api.service.nhs.uk/nhs-website-content/baby/first-aid-and-safety/
+async function babyFirstAidAndSafety(req, res, next) {
+  res.status(200).json(babyFirstAidAndSafetyNoParamsResponse)
+  res.end()
+  next()
+}
+
+// Live website URL
+// https://www.nhs.uk/baby/caring-for-a-newborn/
+// This sandbox on localhost
+// http://localhost:9000/baby/caring-for-a-newborn/
+// API on Azure API Management
+// https://api.nhs.uk/baby/caring-for-a-newborn/
+// Wagtail (Python) Application (no auth key required)
+// https://www.nhs.uk/content-api/baby/caring-for-a-newborn/
+// Apigee Sandbox environment (no auth key required)
+// https://sandbox.api.service.nhs.uk/nhs-website-content/baby/caring-for-a-newborn/
+// Apigee Integration environment ('apikey' required in Header)
+// https://int.api.service.nhs.uk/nhs-website-content/baby/caring-for-a-newborn/
+// Apigee Production environment ('apikey' required in Header)
+// https://api.service.nhs.uk/nhs-website-content/baby/caring-for-a-newborn/
+async function babyCaringForANewborn(req, res, next) {
+  res.status(200).json(babyCaringForANewbornNoParamsResponse)
+  res.end()
+  next()
+}
+
+// Live website URL
+// https://www.nhs.uk/baby/support-and-service/
+// This sandbox on localhost
+// http://localhost:9000/baby/support-and-service/
+// API on Azure API Management
+// https://api.nhs.uk/baby/support-and-service/
+// Wagtail (Python) Application (no auth key required)
+// https://www.nhs.uk/content-api/baby/support-and-service/
+// Apigee Sandbox environment (no auth key required)
+// https://sandbox.api.service.nhs.uk/nhs-website-content/baby/support-and-service/
+// Apigee Integration environment ('apikey' required in Header)
+// https://int.api.service.nhs.uk/nhs-website-content/baby/support-and-service/
+// Apigee Production environment ('apikey' required in Header)
+// https://api.service.nhs.uk/nhs-website-content/baby/support-and-service/
+async function babySupportAndServices(req, res, next) {
+  res.status(200).json(babySupportAndServicesNoParamsResponse)
+  res.end()
+  next()
+}
+
 // ******************************************************************
 // ** Status
 // ******************************************************************
@@ -1233,9 +1382,67 @@ async function status(req, res, next) {
   next()
 }
 
+// ******************************************************************
+// ** Social care and support pages
+// ******************************************************************
+
+// Live website URL
+// https://www.nhs.uk/social-care-and-support/
+// This sandbox on localhost
+// http://localhost:9000/social-care-and-support/
+// API on Azure API Management
+// https://api.nhs.uk/social-care-and-support/
+// Wagtail (Python) Application (no auth key required)
+// https://www.nhs.uk/content-api/social-care-and-support/
+// Apigee Sandbox environment (no auth key required)
+// https://sandbox.api.service.nhs.uk/nhs-website-content/social-care-and-support/
+// Apigee Integration environment ('apikey' required in Header)
+// https://int.api.service.nhs.uk/nhs-website-content/social-care-and-support/
+// Apigee Production environment ('apikey' required in Header)
+// https://api.service.nhs.uk/nhs-website-content/social-care-and-support/
+async function socialCareAndSupportRoot(req, res, next) {
+  res.status(200).json(socialCareAndSupportRootNoParamsResponse)
+  res.end()
+  next()
+}
+
+// Live website URL
+// https://www.nhs.uk/social-care-and-support/introduction-to-care-and-support/
+// This sandbox on localhost
+// http://localhost:9000/social-care-and-support/introduction-to-care-and-support/
+async function socialCareAndSupportIntroductionToCareAndSupport(req, res, next) {
+  res.status(200).json(socialCareAndSupportIntroductionToCareAndSupportNoParamsResponse)
+  res.end()
+  next()
+}
+
+// Live website URL
+// https://www.nhs.uk/social-care-and-support/money-work-and-benefits/
+// This sandbox on localhost
+// http://localhost:9000/social-care-and-support/money-work-and-benefits/
+async function socialCareAndSupportMoneyWorkAndBenefits(req, res, next) {
+  res.status(200).json(socialCareAndSupportMoneyWorkAndBenefitsNoParamsResponse)
+  res.end()
+  next()
+}
+
+// Live website URL
+// https://www.nhs.uk/social-care-and-support/care-after-a-hospital-stay/
+// This sandbox on localhost
+// http://localhost:9000/social-care-and-support/care-after-a-hospital-stay/
+async function socialCareAndSupportCareAfterAHospitalStay(req, res, next) {
+  res.status(200).json(socialCareAndSupportCareAfterAHospitalStayNoParamsResponse)
+  res.end()
+  next()
+}
+
 module.exports = {
   root,
   manifestPagesRoot,
+  babyCaringForANewborn,
+  babyFirstAidAndSafety,
+  babyRoot,
+  babySupportAndServices,
   conditionsAcanthosisNigricans,
   conditionsAchalasia,
   conditionsAcne,
@@ -1248,6 +1455,8 @@ module.exports = {
   contraceptionMethodsOfContraception,
   contraceptionRoot,
   contraceptionWhatIsTheCombinedPill,
+  healthAToZRoot,
+  healthAToZConditions,
   liveWellAlcoholAdviceAlcoholSupport,
   liveWellExercise,
   liveWellHealthyWeight,
@@ -1277,6 +1486,10 @@ module.exports = {
   womensHealthAnaemia,
   womensHealthPeriods,
   womensHealthRoot,
+  socialCareAndSupportRoot,
+  socialCareAndSupportIntroductionToCareAndSupport,
+  socialCareAndSupportMoneyWorkAndBenefits,
+  socialCareAndSupportCareAfterAHospitalStay,
   symptomsRoot,
   testsAndTreatmentsRoot,
 }

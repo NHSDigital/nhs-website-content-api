@@ -1,0 +1,121 @@
+{
+  "@context": "http://schema.org",
+  "@type": "MedicalWebPage",
+  "name": "Caring for a newborn baby",
+  "copyrightHolder": {
+    "name": "Crown Copyright",
+    "@type": "Organization"
+  },
+  "license": "https://developer.api.nhs.uk/terms",
+  "author": {
+    "url": "https://www.nhs.uk",
+    "logo": "https://assets.nhs.uk/nhsuk-cms/images/nhs-attribution.width-510.png",
+    "email": "nhswebsite.servicedesk@nhs.net",
+    "@type": "Organization",
+    "name": "NHS website"
+  },
+  "about": {
+    "@type": "WebPage",
+    "name": "Caring for a newborn baby",
+    "alternateName": ""
+  },
+  "description": "How to look after a newborn baby in those first few days (0 to 12 weeks).",
+  "url": "https://api.service.nhs.uk/baby/caring-for-a-newborn/",
+  "genre": [],
+  "keywords": "",
+  "dateModified": "2021-11-18T16:12:28+00:00",
+  "hasPart": [],
+  "breadcrumb": {
+    "@context": "http://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 0,
+        "item": {
+          "@id": "https://api.service.nhs.uk/baby/",
+          "name": "Baby",
+          "genre": []
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@id": "https://api.service.nhs.uk/baby/caring-for-a-newborn/",
+          "name": "Caring for a newborn baby",
+          "genre": []
+        }
+      }
+    ]
+  },
+  "headline": "Caring for a newborn baby",
+  "contentSubTypes": [],
+  "mainEntityOfPage": [
+    {
+      "identifier": "25",
+      "@type": "WebPageElement",
+      "name": "keylinks",
+      "headline": "",
+      "text": "",
+      "mainEntityOfPage": [
+        {
+          "@type": "WebPageElement",
+          "headline": "Helping your baby to sleep",
+          "url": "https://api.service.nhs.uk/baby/caring-for-a-newborn/helping-your-baby-to-sleep/",
+          "identifier": "26",
+          "text": "",
+          "name": "link"
+        },
+        {
+          "@type": "WebPageElement",
+          "headline": "How to change your baby's nappy",
+          "url": "https://api.service.nhs.uk/baby/caring-for-a-newborn/how-to-change-your-babys-nappy/",
+          "identifier": "26",
+          "text": "",
+          "name": "link"
+        },
+        {
+          "@type": "WebPageElement",
+          "headline": "Nappy rash",
+          "url": "https://api.service.nhs.uk/baby/caring-for-a-newborn/nappy-rash/",
+          "identifier": "26",
+          "text": "",
+          "name": "link"
+        },
+        {
+          "@type": "WebPageElement",
+          "headline": "Reduce the risk of sudden infant death syndrome (SIDS)",
+          "url": "https://api.service.nhs.uk/baby/caring-for-a-newborn/reduce-the-risk-of-sudden-infant-death-syndrome/",
+          "identifier": "26",
+          "text": "",
+          "name": "link"
+        },
+        {
+          "@type": "WebPageElement",
+          "headline": "Soothing a crying baby",
+          "url": "https://api.service.nhs.uk/baby/caring-for-a-newborn/soothing-a-crying-baby/",
+          "identifier": "26",
+          "text": "",
+          "name": "link"
+        },
+        {
+          "@type": "WebPageElement",
+          "headline": "Washing and bathing your baby",
+          "url": "https://api.service.nhs.uk/baby/caring-for-a-newborn/washing-and-bathing-your-baby/",
+          "identifier": "26",
+          "text": "",
+          "name": "link"
+        },
+        {
+          "@type": "WebPageElement",
+          "headline": "What you'll need for your baby",
+          "url": "https://api.service.nhs.uk/baby/caring-for-a-newborn/what-you-will-need-for-your-baby/",
+          "identifier": "26",
+          "text": "",
+          "name": "link"
+        }
+      ]
+    }
+  ]
+}
