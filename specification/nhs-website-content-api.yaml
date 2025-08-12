@@ -6,6 +6,9 @@ info:
   version: "Computed and injected at build time by `scripts/set_version.py`"
   description: |
     ## Overview
+
+    ### Spec change demo
+
     This API provides content from the [NHS website](https://www.nhs.uk) as JSON, to be consumed programmatically and used by your application.
 
     Before April 2025, the Conditions A to Z contained a broad mix of content including conditions, symptoms, tests, treatments, and baby-related information. This has been reorganized into a new Health A to Z hub with content logically grouped into dedicated sections.
