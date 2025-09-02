@@ -11,6 +11,8 @@ import os
 
 def test_ping(nhsd_apim_proxy_url):
     os.environ["PROXY_NAME"] = "dev"
+    with open("smeg.txt", "w") as smeg:
+        smeg.write(str(nhsd_apim_proxy_url))
     resp = requests.get(f"{nhsd_apim_proxy_url}/_ping")
     assert resp.status_code == 200
 

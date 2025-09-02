@@ -31,6 +31,10 @@ publish: clean
 	mkdir -p build
 	npm run publish 2> /dev/null
 
+#Serve the API description locally
+serve:
+	npm run serve
+
 #Runs build proxy script
 build-proxy:
 	scripts/build_proxy.sh
@@ -54,7 +58,7 @@ TEST_CMD := @APIGEE_ACCESS_TOKEN=$(APIGEE_ACCESS_TOKEN) \
 		poetry run pytest -v \
 		--color=yes \
 		--api-name=nhs-website-content-api \
-		--proxy-name=$(PROXY_NAME) \
+		--proxy-name=test \
 		-s
 
 PROD_TEST_CMD := $(TEST_CMD) \
@@ -78,4 +82,4 @@ smoketest-prod:
 
 test-prod:
 	$(PROD_CMD) \
-	--junitxml=test-report.xml \
+	--junitxml=test-report.xml
