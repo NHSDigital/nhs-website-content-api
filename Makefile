@@ -58,7 +58,7 @@ TEST_CMD := @APIGEE_ACCESS_TOKEN=$(APIGEE_ACCESS_TOKEN) \
 		poetry run pytest -v \
 		--color=yes \
 		--api-name=nhs-website-content-api \
-		--proxy-name=test \
+		--proxy-name=$(PROXY_NAME) \
 		-s
 
 PROD_TEST_CMD := $(TEST_CMD) \
