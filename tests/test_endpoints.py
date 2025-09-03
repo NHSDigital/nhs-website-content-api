@@ -11,8 +11,6 @@ import os
 
 def test_ping(nhsd_apim_proxy_url):
     os.environ["PROXY_NAME"] = "dev"
-    with open("smeg.txt", "w") as smeg:
-        smeg.write(str(nhsd_apim_proxy_url))
     resp = requests.get(f"{nhsd_apim_proxy_url}/_ping")
     assert resp.status_code == 200
 
@@ -22,19 +20,22 @@ def test_wait_for_ping(nhsd_apim_proxy_url):
     resp = requests.get(f"{nhsd_apim_proxy_url}/_ping")
     deployed_commit_id = resp.json().get("commitId")
 
-    while (deployed_commit_id != getenv('SOURCE_COMMIT_ID')
-           and retries <= 30
-           and resp.status_code == 200):
+    while (
+        deployed_commit_id != getenv('SOURCE_COMMIT_ID') and
+        retries <= 30 and
+        resp.status_code == 200
+    ):
         resp = requests.get(f"{nhsd_apim_proxy_url}/_ping")
         deployed_commit_id = resp.json().get("commitId")
         retries += 1
 
     if resp.status_code != 200:
         pytest.fail(f"Status code {resp.status_code}, expecting 200")
-    elif retries >= 30:
-        pytest.fail("Timeout Error - max retries")
 
     assert deployed_commit_id == getenv('SOURCE_COMMIT_ID')
+
+    if retries >= 30:
+        pytest.fail("Timeout Error - max retries")
 
 
 @pytest.mark.smoketest
@@ -53,22 +54,26 @@ def test_wait_for_status(nhsd_apim_proxy_url, status_endpoint_auth_headers):
     resp = requests.get(f"{nhsd_apim_proxy_url}/_status", headers=status_endpoint_auth_headers)
     deployed_commit_id = resp.json().get("commitId")
 
-    while (deployed_commit_id != getenv('SOURCE_COMMIT_ID')
-           and retries <= 30
-           and resp.status_code == 200
-           and resp.json().get("version")):
+    while (
+        deployed_commit_id != getenv('SOURCE_COMMIT_ID') and
+        retries <= 30 and
+        resp.status_code == 200 and
+        resp.json().get("version")
+    ):
         resp = requests.get(f"{nhsd_apim_proxy_url}/_status", headers=status_endpoint_auth_headers)
         deployed_commit_id = resp.json().get("commitId")
         retries += 1
 
     if resp.status_code != 200:
         pytest.fail(f"Status code {resp.status_code}, expecting 200")
-    elif retries >= 30:
-        pytest.fail("Timeout Error - max retries")
-    elif not resp.json().get("version"):
-        pytest.fail("version not found")
 
     assert deployed_commit_id == getenv('SOURCE_COMMIT_ID')
+
+    if retries >= 30:
+        pytest.fail("Timeout Error - max retries")
+
+    if not resp.json().get("version"):
+        pytest.fail("version not found")
 
 
 def test_app_unauthorised(nhsd_apim_proxy_url, nhsd_apim_auth_headers):
