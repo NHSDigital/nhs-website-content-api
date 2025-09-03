@@ -28,7 +28,17 @@ The contents of this repository are protected by Crown Copyright (C).
 * poetry
 * Java 8+
 
+Consider using a **dev container**. While this is in no way a requirement, you may find it more convenient.
+
+### Get Environmental Variables
+
+1. Make a new `.env` file in this directory, using `example.env` as a base.
+1. Fill in the missing environmental variables:
+    - At the time of writing, `PROXY_NAME` should be set to `nhs-website-content-api-internal-dev`.
+    - You can get an `APIGEE_ACCESS_TOKEN` via the `get_token` command. If you don't already have access to the `get_token` command, you can install it using [these instructions](https://docs.apigee.com/api-platform/system-administration/auth-tools#install).
+    - You can get the latest `SOURCE_COMMIT_ID` via the `/_ping` endpoint of the proxy you're using. For example, with `PROXY_NAME` set to `nhs-website-content-api-internal-dev`, we would want to access the URL https://internal-dev.api.service.nhs.uk/nhs-website-content/_ping - this should return some JSON, and the value we want has key `commitId`.
+
 ### Let's Roll
 
 1. Install by running `make install` from this directory.
-1. Test this installation by running `make smoketest`, also from this directory.
+1. Test this installation by running `make test`, also from this directory.
