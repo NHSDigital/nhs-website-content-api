@@ -53,6 +53,9 @@ release: clean publish build-proxy
 	cp ecs-proxies-deploy.yml dist/ecs-deploy-internal-qa-sandbox.yml
 	cp ecs-proxies-deploy.yml dist/ecs-deploy-internal-dev-sandbox.yml
 
+get_apigee_access_token:
+	SSO_LOGIN_URL=https://login.apigee.com get_token
+
 #################
 # Test commands #
 #################
@@ -76,7 +79,7 @@ smoketest:
 
 test:
 	$(TEST_CMD) \
-	--junitxml=test-report.xml \
+	--junitxml=test-report.xml
 
 smoketest-prod:
 	$(PROD_TEST_CMD) \
