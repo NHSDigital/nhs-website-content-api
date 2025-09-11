@@ -44,3 +44,4 @@ Consider using a **dev container**. While this is in no way a requirement, you m
 
 1. Install by running `make install` from this directory.
 1. Test this installation by running `make test`, also from this directory.
+1. Try out the preview server by running `make publish` and then `make serve`; then visit the local URL printed in the console.
