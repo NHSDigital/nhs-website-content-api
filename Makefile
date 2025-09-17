@@ -1,7 +1,10 @@
 SHELL=/bin/bash -euo pipefail
 
-include .env
-export
+# Only include .env if it exists.
+ifneq ("$(wildcard .env)","")
+	include .env
+	export
+endif
 
 #Installs dependencies using poetry.
 install-python:
@@ -53,7 +56,7 @@ release: clean publish build-proxy
 	cp ecs-proxies-deploy.yml dist/ecs-deploy-internal-qa-sandbox.yml
 	cp ecs-proxies-deploy.yml dist/ecs-deploy-internal-dev-sandbox.yml
 
-get_apigee_access_token:
+token:
 	SSO_LOGIN_URL=https://login.apigee.com get_token
 
 #################

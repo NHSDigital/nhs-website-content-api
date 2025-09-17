@@ -38,7 +38,7 @@ Consider using a **dev container**. While this is in no way a requirement, you m
     - You can get an `APIGEE_ACCESS_TOKEN` via the `get_token` command. If you don't already have access to the `get_token` command, you can install it using [these instructions](https://docs.apigee.com/api-platform/system-administration/auth-tools#install).
     - You can get the latest `SOURCE_COMMIT_ID` via the `/_ping` endpoint of the proxy you're using. For example, with `PROXY_NAME` set to `nhs-website-content-api-internal-dev`, we would want to access the URL https://internal-dev.api.service.nhs.uk/nhs-website-content/_ping - this should return some JSON, and the value we want has key `commitId`.
 
-:bulb: The `make get_apigee_access_token` command provides a useful shorthand for calling `get_token` with all the right environmental variables.
+:bulb: The `make token` command provides a useful shorthand for calling `get_token` with all the right environmental variables.
 
 ### Let's Roll
 
