@@ -1,5 +1,11 @@
 SHELL=/bin/bash -euo pipefail
 
+# Only include .env if it exists.
+ifneq ("$(wildcard .env)","")
+	include .env
+	export
+endif
+
 #Installs dependencies using poetry.
 install-python:
 	poetry install
@@ -31,6 +37,10 @@ publish: clean
 	mkdir -p build
 	npm run publish 2> /dev/null
 
+#Serve the API description locally
+serve:
+	npm run serve
+
 #Runs build proxy script
 build-proxy:
 	scripts/build_proxy.sh
@@ -46,6 +56,9 @@ release: clean publish build-proxy
 	cp ecs-proxies-deploy.yml dist/ecs-deploy-internal-qa-sandbox.yml
 	cp ecs-proxies-deploy.yml dist/ecs-deploy-internal-dev-sandbox.yml
 
+token:
+	SSO_LOGIN_URL=https://login.apigee.com get_token
+
 #################
 # Test commands #
 #################
@@ -54,7 +67,7 @@ TEST_CMD := @APIGEE_ACCESS_TOKEN=$(APIGEE_ACCESS_TOKEN) \
 		poetry run pytest -v \
 		--color=yes \
 		--api-name=nhs-website-content-api \
-		--proxy-name=$(PROXY_NAME) \
+ 		--proxy-name=$(PROXY_NAME) \
 		-s
 
 PROD_TEST_CMD := $(TEST_CMD) \
@@ -69,7 +82,7 @@ smoketest:
 
 test:
 	$(TEST_CMD) \
-	--junitxml=test-report.xml \
+	--junitxml=test-report.xml
 
 smoketest-prod:
 	$(PROD_TEST_CMD) \
@@ -78,4 +91,4 @@ smoketest-prod:
 
 test-prod:
 	$(PROD_CMD) \
-	--junitxml=test-report.xml \
+	--junitxml=test-report.xml
